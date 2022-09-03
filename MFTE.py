@@ -295,10 +295,11 @@ def process_sentence (words: list):
             words[j] = re.sub("_(\W+)", "_\.", words[j])
             words[j] = re.sub("_(\w+)", "_\.", words[j])
 
-
-        if (re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_IN|_CD|_DT|_JJ|_WPS|_NN|_NNP|_PDT|_PRP|_WDT|(\\b(" + wp + "))|_WRB|_\W", words[j+1], re.IGNORECASE)):
-            words[j] = re.sub("_\w+", "_IN", words[j])
-
+        try:
+            if (re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_IN|_CD|_DT|_JJ|_WPS|_NN|_NNP|_PDT|_PRP|_WDT|(\\b(" + wp + "))|_WRB|_\W", words[j+1], re.IGNORECASE)):
+                words[j] = re.sub("_\w+", "_IN", words[j])
+        except IndexError:
+            continue
 
         try:
             # ELF: correcting "I dunno"
