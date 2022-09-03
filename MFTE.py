@@ -1418,17 +1418,19 @@ def process_sentence (words: list):
         # Tags pro-verb do ELF: This is an entirely new way to operationalise the variable. Instead of identifying the pro-verb DO, I actually identify DO as an auxiliary early (DOAUX) and here I take other forms of DO as a verb as pro-verbs. This is much more reliable than Nini's method which, among other problems, tagged all question tags as the pro-verb DO. 
         # ELF: Following discussing with PU on the true definition of pro-verbs, removed this variable altogether and adding all non-auxiliary DOs to the activity verb list.
 
-        for j, value in enumerate(words):
+    for j, value in enumerate(words):
+        #print("do loop arrived:")
+        #print(value)
+        if (re.search("\\b(" + do + ")", words[j], re.IGNORECASE) and not re.search(" DOAUX", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ACT", words[j])
+            #print(words[j])
 
-            if (re.search("\\b(" + do + ")", words[j], re.IGNORECASE) and not re.search(" DOAUX", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ACT", words[j])
-
-            try:
-                # Adds "NEED to" and "HAVE to" to the list of necessity (semi-)modals  
-                if (re.search("\\bneed_V|\\bneeds_V|\\bneeded_V|\\bhave_V|\\bhas_V|\\bhad_V|\\bhaving_V", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1])):
-                    words[j] = re.sub("_(\w+)", "_MDNE", words[j])
-            except IndexError:
-                continue
+        try:
+            # Adds "NEED to" and "HAVE to" to the list of necessity (semi-)modals  
+            if (re.search("\\bneed_V|\\bneeds_V|\\bneeded_V|\\bhave_V|\\bhas_V|\\bhad_V|\\bhaving_V", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1])):
+                words[j] = re.sub("_(\w+)", "_MDNE", words[j])
+        except IndexError:
+            continue
 
 
 
@@ -1871,7 +1873,8 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
         words = text.split()
         words_tagged = process_sentence(words)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
-            f.write(r"\n".join(words_tagged))
+            f.write("\n".join(words_tagged))
+        #break
 
 def get_ttr(tokens: list, n: int) -> float:
     """Retuns type token ration based on the first n words as specified in user input number of tokens n
@@ -2014,6 +2017,6 @@ if __name__ == "__main__":
     output_MD = output_stanford + "MD\\"
     output_stats = output_MD + "Statistics\\"
     ttr = 2000
-    tag_stanford(nlp_dir, input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
     do_counts(output_MD, output_stats, ttr)
