@@ -181,44 +181,44 @@ def process_sentence (words: list):
     # QUICK CORRECTIONS OF STANFORD TAGGER OUTPUT
     for index, x in enumerate(words):
         # Changes the two tags that have a problematic "$" symbol in the Stanford tagset
-        if (re.search("PRP\\$", x)): 
+        if (re.search("PRP\\$", words[index])): 
             
-            words[index] = re.sub("PRP.", "PRPS", x)
+            words[index] = re.sub("PRP.", "PRPS", words[index])
             
-        if (re.search("WP\\$", x)): 
-            words[index] = re.sub("WP.", "WPS", x) 
+        if (re.search("WP\\$", words[index])): 
+            words[index] = re.sub("WP.", "WPS", words[index]) 
 
         # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers and foreign words by the Stanford Tagger.
         # These are instead re-tagged as symbols so they don't count as tokens for the TTR and per-word normalisation basis.
         # Removal of all LS (list symbol) tags except those that denote numbers
-        if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS", x)): 
-            words[index] = re.sub("_\w+", "_SYM", x) 
+        if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS", words[index])): 
+            words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
 
 
         # ELF: Correction of cardinal numbers without spaces and list numbers as numbers rather than LS
         # Removal of the LS (list symbol) tags that denote numbers
-        if (re.search("\\b[0-9]+th_|\\b[0-9]+nd_|\\b[0-9]+rd_|[0-9]+_LS", x)): 
-            words[index] = re.sub("_\w+", "_CD", x) 
+        if (re.search("\\b[0-9]+th_|\\b[0-9]+nd_|\\b[0-9]+rd_|[0-9]+_LS", words[index])): 
+            words[index] = re.sub("_\w+", "_CD", words[index]) 
             
 
         # ELF: Correct "innit" and "init" (frequently tagged as a noun by the Stanford Tagger) to pronoun "it" (these are later on also counted as question tags if they are followed by a question mark)
-        if (re.search("\\binnit_", x)): 
-            words[index] = re.sub("_\w+", "_PIT", x) 
-        if (re.search("\\binit_", x)): 
-            words[index] = re.sub("_\w+", "_PIT", x) 	
+        if (re.search("\\binnit_", words[index])): 
+            words[index] = re.sub("_\w+", "_PIT", words[index]) 
+        if (re.search("\\binit_", words[index])): 
+            words[index] = re.sub("_\w+", "_PIT", words[index]) 	
 
 
         # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
         # # ELF: Tagging of emoji
         if (demoji.findall(x)):
-            words[index] = re.sub("_\w+", "_EMO", x)
+            words[index] = re.sub("_\w+", "_EMO", words[index])
 
 
         # ELF: Tagging of hashtags
-        if (re.search("#\w{3,", x)):
-            words[index] = re.sub("_\w+", "_HST", x)
+        if (re.search("#\w{3,}", words[index])):
+            words[index] = re.sub("_\w+", "_HST", words[index])
 
 
         # ELF: Tagging of web links
@@ -231,17 +231,17 @@ def process_sentence (words: list):
         #http://smarturl.it/poppy-single-itunes_FW
 
 
-        #if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([-\.\+_=&\/]{1\w+)+\w+", x, re.IGNORECASE)) or
-        if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([\-\.\+=&\?]{1\w+)*\.[a-z]{2,5(:[0-9]{1,5)?(\/.*)?", x, re.IGNORECASE)) or
-            (re.search("<link\/?>", x)) or
-            (re.search("\\b\w+\.(com|net|co\.uk|au|us|gov|org)\\b", x))):
-            words[index] = re.sub("_[\w+\-\.\+=&\/\?]+", "_URL", x)
+        #if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([-\.\+_=&\/]{1\w+)+\w+", words[index], re.IGNORECASE)) or
+        if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([\-\.\+=&\?]{1\w+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?", words[index], re.IGNORECASE)) or
+            (re.search("<link\/?>", words[index])) or
+            (re.search("\\b\w+\.(com|net|co\.uk|au|us|gov|org)\\b", words[index]))):
+            words[index] = re.sub("_[\w+\-\.\+=&\/\?]+", "_URL", words[index])
 
 
         # BASIC TAG NEEDED FOR MORE COMPLEX TAGS
         # Negation
-        if (re.search("\\bnot_|\\bn't_", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_XX0", x)
+        if (re.search("\\bnot_|\\bn't_", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_XX0", words[index])
 
     # SLIGHTLY MORE COMPLEX CORRECTIONS OF STANFORD TAGGER OUTPUT
 
@@ -291,7 +291,7 @@ def process_sentence (words: list):
 
 
         # Correct double punctuation such as ?! and !? (often tagged by the Stanford Tagger as a noun or foreign word) 
-        if (re.search("[\?\!]{2,15", words[j])):
+        if (re.search("[\?\!]{2,15}", words[j])):
             words[j] = re.sub("_(\W+)", "_\.", words[j])
             words[j] = re.sub("_(\w+)", "_\.", words[j])
 
@@ -310,7 +310,6 @@ def process_sentence (words: list):
         except IndexError:
             continue
 
-
         try:
             if (re.search("\\bhave_VB", words[j], re.IGNORECASE) and re.search("_PRP", words[j+1]) and re.search("_VBN|_VBD", words[j+2])):
                 words[j] = re.sub("_\w+", "_VPRT", words[j])
@@ -319,9 +318,11 @@ def process_sentence (words: list):
 
         # ELF: Correction of falsely tagged "'s" following "there". 
 
-        if (re.search("\\bthere_EX", words[j-1], re.IGNORECASE) and re.search("_POS", words[j])):
-            words[j] = re.sub("_\w+", "_VPRT", words[j])
-
+        try:
+            if (re.search("\\bthere_EX", words[j-1], re.IGNORECASE) and re.search("_POS", words[j])):
+                words[j] = re.sub("_\w+", "_VPRT", words[j])
+        except IndexError:
+            continue
 
         # ELF: Correction of most problematic spoken language particles
         # ELF: DMA is a new variable. It is important for it to be high up because lots of DMA's are marked as nouns by the Stanford Tagger which messes up other variables further down the line otherwise. More complex DMAs are further down.
@@ -331,7 +332,7 @@ def process_sentence (words: list):
 
         # ELF: FPUH is a new variable.
         # ELF: tags interjections and filled pauses.
-        if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,_|\\b[he]{2,_|\\b[wo]{3,p?s*_|\\b[oi]{2,_|\\bouch_", words[j], re.IGNORECASE)):
+        if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_", words[j], re.IGNORECASE)):
             words[j] = re.sub("_(\w+)", "_FPUH", words[j])
 
         # Also added "hm+" on Peter's suggestion but made sure that this was case sensitive to avoid mistagging Her Majesty ;-)
@@ -365,7 +366,9 @@ def process_sentence (words: list):
             (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added "a lot (of)" and removed NULL tags
                 words[j] = re.sub("_\w+", "_QUAN", words[j])
         except IndexError:
-            continue        
+            continue
+    
+                
     #---------------------------------------------------
     # COMPLEX TAGS
     for j, value in enumerate(words):
@@ -1443,232 +1446,230 @@ def process_sentence (words: list):
 
         # Tags amplifiers 
         # ELF: Added "more" as an adverb (note that "more" as an adjective is tagged as a quantifier further up)
-        if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bmore_RB|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_AMP", x)
+        if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bmore_RB|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_AMP", words[index])
 
 
         # Tags downtoners
         # ELF: Added "less" as an adverb (note that "less" as an adjective is tagged as a quantifier further up)
         # ELF: Removed "only" because it fulfils too many different functions.
-        if (re.search("\\balmost_|\\bbarely_|\\bhardly_|\\bless_JJ|\\bmerely_|\\bmildly_|\\bnearly_|\\bpartially_|\\bpartly_|\\bpractically_|\\bscarcely_|\\bslightly_|\\bsomewhat_", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_DWNT", x)
+        if (re.search("\\balmost_|\\bbarely_|\\bhardly_|\\bless_JJ|\\bmerely_|\\bmildly_|\\bnearly_|\\bpartially_|\\bpartly_|\\bpractically_|\\bscarcely_|\\bslightly_|\\bsomewhat_", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_DWNT", words[index])
 
 
         # Corrects EMO tags
         # ELF: Correction of emoticon issues to do with the Stanford tags for brackets including hyphens
-        if (re.search("_EMO(.)*-", x, re.IGNORECASE)):
-            words[index] = re.sub("_EMO(.)*-", "_EMO", x)
+        if (re.search("_EMO(.)*-", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_EMO(.)*-", "_EMO", words[index])
 
 
 
         # Tags quantifier pronouns 
         # ELF: Added any, removed nowhere (which is now place). "no one" is also tagged for at an earlier stage to avoid collisions with the XX0 variable.
-        if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bsomewhere|\\bnoone_|\\bno-one_", x, re.IGNORECASE)):      
-            words[index] = re.sub("_\w+", "_QUPR", x)
+        if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bsomewhere|\\bnoone_|\\bno-one_", words[index], re.IGNORECASE)):      
+            words[index] = re.sub("_\w+", "_QUPR", words[index])
 
 
         # Tags nominalisations à la Biber (1988)
         # ELF: Not in use in this version of the MFTE due to frequent words skewing results, e.g.: activity, document, element...
-        #if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", x, re.IGNORECASE)):
-            # words[index] = re.sub("_\w+", "_NOMZ", x)
+        #if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", words[index], re.IGNORECASE)):
+            # words[index] = re.sub("_\w+", "_NOMZ", words[index])
         #
 
         # Tags gerunds 
         # ELF: Not currently in use because of doubts about the usefulness of this category (cf. Herbst 2016 in Applied Construction Grammar) + high rate of false positives with Biber's/Nini's operationalisation of the variable.
-        #if ((re.search("ing_NN", x, re.IGNORECASE) and re.search("\w{10,", x)) or
-        # (re.search("ings_NN", x, re.IGNORECASE) and re.search("\w{11,", x))):
-            #words[index] = re.sub("_\w+", "_GER", x)
+        #if ((re.search("ing_NN", words[index], re.IGNORECASE) and re.search("\w{10,}", words[index])) or
+        # (re.search("ings_NN", words[index], re.IGNORECASE) and re.search("\w{11,}", words[index]))):
+            #words[index] = re.sub("_\w+", "_GER", words[index])
         #
 
         # ELF added: pools together all proper nouns (singular and plural). Not currently in use since no distinction is made between common and proper nouns.
-        #if (re.search("_NNPS", x)):
-            # words[index] = re.sub("_\w+", "_NNP", x)
+        #if (re.search("_NNPS", words[index])):
+            # words[index] = re.sub("_\w+", "_NNP", words[index])
         #
 
         # Tags predicative adjectives (JJPR) by joining all kinds of JJ (but not JJAT, see earlier loop)
-        if (re.search("_JJS|_JJR|_JJ\\b", x)):
-            words[index] = re.sub("_\w+", "_JJPR", x)
+        if (re.search("_JJS|_JJR|_JJ\\b", words[index])):
+            words[index] = re.sub("_\w+", "_JJPR", words[index])
 
 
         # Tags total adverbs by joining all kinds of RB (but not those already tagged as HDG, FREQ, AMP, DWNTN, EMPH, ELAB, EXTD, TIME, PLACE...).
-        if (re.search("_RBS|_RBR|_WRB", x)):
-            words[index] = re.sub("_\w+", "_RB", x)
-
+        if (re.search("_RBS|_RBR|_WRB", words[index])):
+            words[index] = re.sub("_\w+", "_RB", words[index])
 
         # Tags present tenses
-        if (re.search("_VBP|_VBZ", x)):
-            words[index] = re.sub("_\w+", "_VPRT", x)
+        if (re.search("_VBP|_VBZ", words[index])):
+            words[index] = re.sub("_\w+", "_VPRT", words[index])
 
 
         # Tags second person pronouns - ADDED "THOU", "THY", "THEE", "THYSELF" ELF: added nominal possessive pronoun (yours), added ur, ye and y' (for y'all).
-        if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_SPP2", x)
+        if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_SPP2", words[index])
 
 
         # Tags third person pronouns 
         # ELF: added themself in singular (cf. https://www.lexico.com/grammar/themselves-or-themself), added nominal possessive pronoun forms (hers, theirs), also added em_PRP for 'em.
         # ELF: Subdivided Biber's category into non-interactant plural and non-plural.
-        if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_TPP3P", x)
+        if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_TPP3P", words[index])
 
         # Note that this variable cannot account for singular they except for the reflective form.
-        if (re.search("\\bhe_|\\bshe_|\\bher_|\\bhers_|\\bhim_|\\bhis_|\\bhimself_|\\bherself_|\\bthemself_", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_TPP3S", x)
+        if (re.search("\\bhe_|\\bshe_|\\bher_|\\bhers_|\\bhim_|\\bhis_|\\bhimself_|\\bherself_|\\bthemself_", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_TPP3S", words[index])
 
 
         # Tags "can" modals 
         # ELF: added _MD onto all of these. And ca_MD which was missing for can't.
-        if (re.search("\\bcan_MD|\\bca_MD", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_MDCA", x)
+        if (re.search("\\bcan_MD|\\bca_MD", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_MDCA", words[index])
 
 
         # Tags "could" modals
-        if (re.search("\\bcould_MD", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_MDCO", x)
+        if (re.search("\\bcould_MD", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_MDCO", words[index])
 
 
         # Tags necessity modals
         # ELF: added _MD onto all of these to increase precision.
-        if (re.search("\\bought_MD|\\bshould_MD|\\bmust_MD|\\bneed_MD", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_MDNE", x)
+        if (re.search("\\bought_MD|\\bshould_MD|\\bmust_MD|\\bneed_MD", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_MDNE", words[index])
 
 
         # Tags "may/might" modals
         # ELF: added _MD onto all of these to increase precision.
-        if (re.search("\\bmay_MD|\\bmight_MD", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_MDMM", x)
+        if (re.search("\\bmay_MD|\\bmight_MD", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_MDMM", words[index])
 
 
         # Tags will/shall modals. 
         # ELF: New variable replacing Biber's PRMD.
-        if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\\bwo_MD", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_MDWS", x)
+        if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\\bwo_MD", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_MDWS", words[index])
 
 
         # Tags would as a modal. 
         # ELF: New variable replacing PRMD.
-        if (re.search("\\bwould_|'d_MD", x, re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_MDWO", x)
+        if (re.search("\\bwould_|'d_MD", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_\w+", "_MDWO", words[index])
 
 
         # ELF: tags activity verbs. 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or_PASS.
-        if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 ACT", x)
+        if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 ACT", words[index])
 
 
         # ELF: tags communication verbs. 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_comm + ")_V|\\b(" + vb_comm + ")_P", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 COMM", x)
+        if (re.search("\\b(" + vb_comm + ")_V|\\b(" + vb_comm + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 COMM", words[index])
 
 
         # ELF: tags mental verbs (including the "no" in "I dunno" and "wa" in wanna). 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_mental + ")_V|\\b(" + vb_mental + ")_P|\\bno_VB", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 MENTAL", x)
-
+        if (re.search("\\b(" + vb_mental + ")_V|\\b(" + vb_mental + ")_P|\\bno_VB", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 MENTAL", words[index])
+            
 
         # ELF: tags causative verbs. 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_cause + ")_V|\\b(" + vb_cause + ")_P", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 CAUSE", x)
+        if (re.search("\\b(" + vb_cause + ")_V|\\b(" + vb_cause + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 CAUSE", words[index])
 
 
         # ELF: tags occur verbs. 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_occur + ")_V|\\b(" + vb_occur + ")_P", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 OCCUR", x)
+        if (re.search("\\b(" + vb_occur + ")_V|\\b(" + vb_occur + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 OCCUR", words[index])
 
 
         # ELF: tags existential verbs. 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_exist + ")_V|\\b(" + vb_exist + ")_P", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 EXIST", x)
+        if (re.search("\\b(" + vb_exist + ")_V|\\b(" + vb_exist + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 EXIST", words[index])
 
 
         # ELF: tags aspectual verbs. 
         # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_aspect + ")_V|\\b(" + vb_aspect + ")_P", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 ASPECT", x)
+        if (re.search("\\b(" + vb_aspect + ")_V|\\b(" + vb_aspect + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 ASPECT", words[index])
 
         #--------------------------------------------------------------  
         #Shakir: noun and adverb semantic categories from Biber 2006, if there is no additional tag added previously (hence the space check)
-        if (re.search("\\b(" + nn_human + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNHUMAN", x)
+        if (re.search("\\b(" + nn_human + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNHUMAN", words[index])
 
 
-        if (re.search("\\b(" + nn_cog + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNCOG", x)
+        if (re.search("\\b(" + nn_cog + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNCOG", words[index])
 
 
-        if (re.search("\\b(" + nn_concrete + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNCONC", x)
+        if (re.search("\\b(" + nn_concrete + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNCONC", words[index])
 
 
-        if (re.search("\\b(" + nn_place + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNPLACE", x)
+        if (re.search("\\b(" + nn_place + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNPLACE", words[index])
 
 
-        if (re.search("\\b(" + nn_quant + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNQUANT", x)
+        if (re.search("\\b(" + nn_quant + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNQUANT", words[index])
 
 
-        if (re.search("\\b(" + nn_group + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNGRP", x)
+        if (re.search("\\b(" + nn_group + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNGRP", words[index])
 
 
-        if (re.search("\\b(" + nn_technical + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNTECH", x)
+        if (re.search("\\b(" + nn_technical + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNTECH", words[index])
 
-        if (re.search("\\b(" + nn_abstract_process + ")_N", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 NNABSPROC", x)
+        if (re.search("\\b(" + nn_abstract_process + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 NNABSPROC", words[index])
 
-        if (re.search("\\b(" + jj_size + ")_J", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 JJSIZE", x)
-
-
-        if (re.search("\\b(" + jj_time + ")_J", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 JJTIME", x)
+        if (re.search("\\b(" + jj_size + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 JJSIZE", words[index])
 
 
-        if (re.search("\\b(" + jj_color + ")_J", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 JJCOLR", x)
+        if (re.search("\\b(" + jj_time + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 JJTIME", words[index])
 
 
-        if (re.search("\\b(" + jj_eval + ")_J", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 JJEVAL", x)
+        if (re.search("\\b(" + jj_color + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 JJCOLR", words[index])
 
 
-        if (re.search("\\b(" + jj_relation + ")_J", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 JJREL", x)
+        if (re.search("\\b(" + jj_eval + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 JJEVAL", words[index])
 
 
-        if (re.search("\\b(" + jj_topic + ")_J", x, re.IGNORECASE) and not re.search(" ", x)):
-            words[index] = re.sub("_(\w+)", "_\\1 JJTOPIC", x)
+        if (re.search("\\b(" + jj_relation + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 JJREL", words[index])
+
+
+        if (re.search("\\b(" + jj_topic + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
+            words[index] = re.sub("_(\w+)", "_\\1 JJTOPIC", words[index])
 
         #----------------------------------------
         # Tags verbal contractions
-        if (re.search("'\w+_V|\\bn't_XX0|'ll_|'d_", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 CONT", x)
+        if (re.search("'\w+_V|\\bn't_XX0|'ll_|'d_", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 CONT", words[index])
 
 
         # tags the remaining interjections and filled pauses. 
         # ELF: added variable
         # Note: it is important to keep this variable towards the end because some UH tags need to first be overridden by other variables such as politeness (please) and pragmatic markers (yes). 
-        if (re.search("_UH", x)):
-            words[index] = re.sub("_(\w+)", "_FPUH", x)
+        if (re.search("_UH", words[index])):
+            words[index] = re.sub("_(\w+)", "_FPUH", words[index])
 
 
         # ELF: added variable: tags adverbs of frequency (list from COBUILD p. 270).
-        if (re.search("\\busually_|\\balways_|\\bmainly_|\\boften_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\boftens_|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically", x, re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_FREQ", x)
+        if (re.search("\\busually_|\\balways_|\\bmainly_|\\boften_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\boftens_|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_FREQ", words[index])
 
 
         # ELF: remove the TO category which was needed for the identification of other features put overlaps with VB
-        if (re.search("_TO", x)):
-            words[index] = re.sub("_(\w+)", "_IN", x)
-
+        if (re.search("_TO", words[index])):
+            words[index] = re.sub("_(\w+)", "_IN", words[index])
 
 
         #---------------------------------------------------
@@ -1678,11 +1679,10 @@ def process_sentence (words: list):
         # Allows for the first noun to be a proper noun but not the second thus allowing for "Monday afternoon" and "Hollywood stars" but not "Barack Obama" and "L.A.". Also restricts to nouns with a minimum of two letters to avoid OCR errors (dots and images identified as individual letters and which are usually tagged as nouns) producing lots of NCOMP's.
     
     for j, value in enumerate(words):
-        print("NCOMP loop start:")
         try:
-            if (re.search("\\b.{2,_NN", words[j]) and re.search("\\b(.{2,_NN|.{2,_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j])):
-                print("NCOMP matched:", words[j+1])
+            if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j])):
                 words[j+1] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
+
         except IndexError:
             continue
 
@@ -1697,14 +1697,14 @@ def process_sentence (words: list):
         #---------------------------------------------------
 
         #Shakir: Nini's (2014) implementation for nominalisations with a length check of more than 5 characters, and no space means no other extra tag added
-        if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", words[j], re.IGNORECASE) and re.search("[a-z]{5,", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
+        if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", words[j], re.IGNORECASE) and re.search("[a-z]{5,}", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 NOMZ", words[j])
 
         #Shakir: Semantic classes of adverbs
         try:
             if ((re.search("\\b(" + advl_att + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
             (re.search("\\b(even)_R", words[j], re.IGNORECASE) and re.search("\\b(worse)_", words[j+1], re.IGNORECASE) and not re.search(" ", words[j]))):
-                words[j] = re.sub("_(\w+)", "_\\1 RATT", x)
+                words[j] = re.sub("_(\w+)", "_\\1 RATT", words[index])
         except IndexError:
             continue
 
@@ -1855,7 +1855,11 @@ def process_sentence (words: list):
         #Shakir: fixed it tagged as PRP 
         if (re.search("(It|its?|itself)_PRP\\b", words[j])):
             words[j] = re.sub("_(\w+)", "_PIT", words[j])
-    
+
+    with open(file=r"D:\PostDoc\Writeup\ResearchPaper2\Analysis\MDAnalysis\tokens.txt", mode='w', encoding='utf-8') as f:
+        f.write("\n".join(words))
+
+
     return words
 
 def tag_MD (input_dir: str, output_dir: str) -> None:
@@ -1876,7 +1880,7 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
         words_tagged = process_sentence(words)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged))
-        #break
+        break
 
 def get_ttr(tokens: list, n: int) -> float:
     """Retuns type token ration based on the first n words as specified in user input number of tokens n
@@ -2021,4 +2025,4 @@ if __name__ == "__main__":
     ttr = 2000
     #tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
-    do_counts(output_MD, output_stats, ttr)
+    #do_counts(output_MD, output_stats, ttr)
