@@ -1678,9 +1678,10 @@ def process_sentence (words: list):
         # Allows for the first noun to be a proper noun but not the second thus allowing for "Monday afternoon" and "Hollywood stars" but not "Barack Obama" and "L.A.". Also restricts to nouns with a minimum of two letters to avoid OCR errors (dots and images identified as individual letters and which are usually tagged as nouns) producing lots of NCOMP's.
     
     for j, value in enumerate(words):
-        
+        print("NCOMP loop start:")
         try:
             if (re.search("\\b.{2,_NN", words[j]) and re.search("\\b(.{2,_NN|.{2,_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j])):
+                print("NCOMP matched:", words[j+1])
                 words[j+1] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
         except IndexError:
             continue
