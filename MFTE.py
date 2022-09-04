@@ -1880,7 +1880,7 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
         words_tagged = process_sentence(words)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
-        break
+        #break
 
 def get_ttr(tokens: list, n: int) -> float:
     """Retuns type token ration based on the first n words as specified in user input number of tokens n
