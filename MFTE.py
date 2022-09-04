@@ -2025,4 +2025,4 @@ if __name__ == "__main__":
     ttr = 2000
     tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
-    #do_counts(output_MD, output_stats, ttr)
+    do_counts(output_MD, output_stats, ttr)
