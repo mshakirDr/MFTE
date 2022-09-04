@@ -231,8 +231,8 @@ def process_sentence (words: list):
         #http://smarturl.it/poppy-single-itunes_FW
 
 
-        #if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([-\.\+_=&\/]{1\w+)+\w+", words[index], re.IGNORECASE)) or
-        if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([\-\.\+=&\?]{1\w+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?", words[index], re.IGNORECASE)) or
+        #if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([-\.\+_=&\/]{1}\w+)+\w+", words[index], re.IGNORECASE)) or
+        if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([\-\.\+=&\?]{1}\w+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?", words[index], re.IGNORECASE)) or
             (re.search("<link\/?>", words[index])) or
             (re.search("\\b\w+\.(com|net|co\.uk|au|us|gov|org)\\b", words[index]))):
             words[index] = re.sub("_[\w+\-\.\+=&\/\?]+", "_URL", words[index])
@@ -292,8 +292,8 @@ def process_sentence (words: list):
 
         # Correct double punctuation such as ?! and !? (often tagged by the Stanford Tagger as a noun or foreign word) 
         if (re.search("[\?\!]{2,15}", words[j])):
-            words[j] = re.sub("_(\W+)", "_\.", words[j])
-            words[j] = re.sub("_(\w+)", "_\.", words[j])
+            words[j] = re.sub("_(\W+)", "_.", words[j])
+            words[j] = re.sub("_(\w+)", "_.", words[j])
 
         try:
             if (re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_IN|_CD|_DT|_JJ|_WPS|_NN|_NNP|_PDT|_PRP|_WDT|(\\b(" + wp + "))|_WRB|_\W", words[j+1], re.IGNORECASE)):
@@ -372,7 +372,7 @@ def process_sentence (words: list):
     #---------------------------------------------------
     # COMPLEX TAGS
     for j, value in enumerate(words):
-
+        
     #---------------------------------------------------
 
     # ELF: New variable. Tags the remaining pragmatic and discourse markers 
@@ -596,6 +596,7 @@ def process_sentence (words: list):
                     words[j] = re.sub("_(\w+)", "_\\1 DOAUX", words[j])
         except IndexError:
             continue
+            
 
 
         #---------------------------------------------------    
@@ -1849,15 +1850,12 @@ def process_sentence (words: list):
             words[j] = re.sub("_(\w+)", "_\\1 FPPAll", words[j])
 
         #Shakir: Non past tense imperatives, present tense, future markers 
-        if (re.search("(VPRT|VIMP|MDPREDAll|MDNE|MDPOSSCAll)\\b", words[j])):
+        if (re.search("(VPRT|VIMP|MDPREDAll|MDNE|MDPOSSCAll|VB)\\b", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 VNONPAST", words[j])
 
         #Shakir: fixed it tagged as PRP 
         if (re.search("(It|its?|itself)_PRP\\b", words[j])):
             words[j] = re.sub("_(\w+)", "_PIT", words[j])
-
-    with open(file=r"D:\PostDoc\Writeup\ResearchPaper2\Analysis\MDAnalysis\tokens.txt", mode='w', encoding='utf-8') as f:
-        f.write("\n".join(words))
 
 
     return words
@@ -1876,10 +1874,12 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
         print("MD tagger tagging:", file)
         file_name = os.path.basename(file)
         text = open(file).read()
-        words = text.split()
+        words = re.split("[ \n\r\t]+", text)
+        #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause lower if conditions not to be applied in process_sentence
+        words = ([' '] * 20) + words + ([' '] * 20)
         words_tagged = process_sentence(words)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
-            f.write("\n".join(words_tagged))
+            f.write("\n".join(words_tagged).strip())
         break
 
 def get_ttr(tokens: list, n: int) -> float:
@@ -2023,6 +2023,6 @@ if __name__ == "__main__":
     output_MD = output_stanford + "MD\\"
     output_stats = output_MD + "Statistics\\"
     ttr = 2000
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
     #do_counts(output_MD, output_stats, ttr)
