@@ -2023,6 +2023,6 @@ if __name__ == "__main__":
     output_MD = output_stanford + "MD\\"
     output_stats = output_MD + "Statistics\\"
     ttr = 2000
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
     do_counts(output_MD, output_stats, ttr)
