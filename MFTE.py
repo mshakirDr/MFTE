@@ -1873,7 +1873,7 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
     for file in files:
         print("MD tagger tagging:", file)
         file_name = os.path.basename(file)
-        text = open(file).read()
+        text = open(file=file, encoding='utf-8', errors='ignore').read()
         words = re.split("[ \n\r\t]+", text)
         #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause lower if conditions not to be applied in process_sentence
         words = ([' '] * 20) + words + ([' '] * 20)
@@ -1969,7 +1969,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     for file in files:
         print(r"Tag counting file:", file)
         file_name = os.path.basename(file)
-        text = open(file).read()
+        text = open(file=file, encoding='utf-8', errors='ignore').read()
         text = re.sub(r"\n", r" ", text) #converts end of line in space
         words = re.split(r" +", text)
         # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
@@ -2015,7 +2015,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = ""
+    input_dir = r""
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     nlp_dir = r"D:\Corpus Related\MultiFeatureTaggerEnglish\CoreNLP\\"
@@ -2023,6 +2023,6 @@ if __name__ == "__main__":
     output_MD = output_stanford + "MD\\"
     output_stats = output_MD + "Statistics\\"
     ttr = 2000
-    tag_stanford(nlp_dir, input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
     do_counts(output_MD, output_stats, ttr)
