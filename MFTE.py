@@ -33,7 +33,7 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
             verbose = 'False', 
             be_quiet = 'True',) as client:
         for file in files:
-            text = open(file=file, encoding='utf-8').read()
+            text = open(file=file, encoding='utf-8', errors='ignore').read()
             file_name = os.path.basename(file)
             print("Stanford Tagger tagging:", file)
             ann = client.annotate(text)
@@ -2015,11 +2015,11 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"D:\PostDoc\Writeup\ResearchPaper2\Analysis\MDAnalysis\corpus\\"
+    input_dir = ""
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     nlp_dir = r"D:\Corpus Related\MultiFeatureTaggerEnglish\CoreNLP\\"
-    output_stanford = os.path.dirname(input_dir.strip("\\")) + "\\" + os.path.basename(input_dir.strip("\\")) + "_MFTE_tagged_test\\"
+    output_stanford = os.path.dirname(input_dir.strip("\\")) + "\\" + os.path.basename(input_dir.strip("\\")) + "_MFTE_tagged\\"
     output_MD = output_stanford + "MD\\"
     output_stats = output_MD + "Statistics\\"
     ttr = 2000
