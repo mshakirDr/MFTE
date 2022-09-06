@@ -1923,6 +1923,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: two sub classes of attributive adjectives "JJEPSTother", "JJATDother", also dependent on nouns. "JJATother" is JJAT minus the prev two classes
     # Shakir: STNCAll variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCAll"
     NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCAll", "NOMZ", "NSTNCother", "JJDESCAll", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCAllother"]
+    NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
     df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.NTotal.values, axis=0) #divide by total nouns
     # Features to be normalised per 100 (very crudely defined) finite verbs:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother"
@@ -2015,13 +2016,13 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r""
+    input_dir = r"D:\Corpus Related/Corpora/Pakistani English Historical/Test/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:\Corpus Related\MultiFeatureTaggerEnglish\CoreNLP\\"
-    output_stanford = os.path.dirname(input_dir.strip("\\")) + "\\" + os.path.basename(input_dir.strip("\\")) + "_MFTE_tagged\\"
-    output_MD = output_stanford + "MD\\"
-    output_stats = output_MD + "Statistics\\"
+    nlp_dir = r"D:\Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
+    output_MD = output_stanford + "MD/"
+    output_stats = output_MD + "Statistics/"
     ttr = 2000
     tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
