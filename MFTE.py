@@ -1975,7 +1975,8 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         words = re.split(r" +", text)
         # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
         # Shakir: list of words that match the given regex, then take its length as function words
-        n_functionwords = len([word for word in words if re.search(r"\\b" + function_words_re + r"_", word, re.IGNORECASE)])
+        n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
+        print(n_functionwords)
         # EFL: Counting function words for lexical density
         # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
         tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH", word) if re.search(r"^\S+_\S+$", word)]
@@ -1991,6 +1992,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         #Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
         average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
         lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
+        print(len(tokens), lex_density)
         ttr = get_ttr(tokens, n_tokens) #Shakir calculate type token ration
         # Shakir: get tags only, remove words and exclude certain tags from count
         # ELF: List of tags for which no counts will be returned: "_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB"
@@ -2016,11 +2018,11 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"D:\Corpus Related/Corpora/Pakistani English Historical/Test/"
+    input_dir = r"/mnt/d/Corpus Related/Corpora/Pakistani English Historical/Test/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:\Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
+    nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged/"
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
     ttr = 2000
