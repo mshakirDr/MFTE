@@ -12,6 +12,7 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 from stanza.server import CoreNLPClient
+import multiprocessing
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with Stanford CoreNLPClient and writes to dir_out
@@ -180,6 +181,11 @@ def process_sentence (words: list):
     
     # QUICK CORRECTIONS OF STANFORD TAGGER OUTPUT
     for index, x in enumerate(words):
+        #Shakir @ mentions tagged as nicknames, correct tags like JJ to NN
+        if (re.search(r"^@\S+_", words[index], re.IGNORECASE)):
+            #print(words[index])
+            words[index] = re.sub("_(\w+)", "_NN NNNICK", words[index])
+
         # Changes the two tags that have a problematic "$" symbol in the Stanford tagset
         if (re.search("PRP\\$", words[index])): 
             
@@ -332,9 +338,10 @@ def process_sentence (words: list):
 
         # ELF: FPUH is a new variable.
         # ELF: tags interjections and filled pauses.
+        print(words[j])
         if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_", words[j], re.IGNORECASE)):
             words[j] = re.sub("_(\w+)", "_FPUH", words[j])
-
+        print("after:", words[j])
         # Also added "hm+" on Peter's suggestion but made sure that this was case sensitive to avoid mistagging Her Majesty ;-)
         if (re.search("\\bhm+|\\bHm+", words[j])):
             words[j] = re.sub("_(\w+)", "_FPUH", words[j])
@@ -1591,8 +1598,7 @@ def process_sentence (words: list):
         #Shakir: noun and adverb semantic categories from Biber 2006, if there is no additional tag added previously (hence the space check)
         if (re.search("\\b(" + nn_human + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
             words[index] = re.sub("_(\w+)", "_\\1 NNHUMAN", words[index])
-
-
+        
         if (re.search("\\b(" + nn_cog + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
             words[index] = re.sub("_(\w+)", "_\\1 NNCOG", words[index])
 
@@ -1673,7 +1679,8 @@ def process_sentence (words: list):
     
     for j, value in enumerate(words):
         try:
-            if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j])):
+            #Shakir: Added space to prevent tag overlaps
+            if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])):
                 words[j+1] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
 
         except IndexError:
@@ -1852,6 +1859,40 @@ def process_sentence (words: list):
 
     return words
 
+def process_file (file_dir_pair: tuple) -> None:
+    """Read a given file, tag it through process_sentence and write it
+
+    Args:
+        file_dir_pair (tuple): first element is the file, second element output_dir
+    """
+    file = file_dir_pair[0]
+    output_dir = file_dir_pair[1]
+    print("MD tagger tagging:", file)
+    file_name = os.path.basename(file)
+    text = open(file=file, encoding='utf-8', errors='ignore').read()
+    words = re.split("[ \n\r\t]+", text)
+    #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause lower if conditions not to be applied in process_sentence
+    words = ([' '] * 20) + words + ([' '] * 20)
+    words_tagged = process_sentence(words)
+    with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
+        f.write("\n".join(words_tagged).strip())
+
+def tag_MD_parallel (input_dir: str, output_dir: str) -> None:
+    """Tags Stanford Tagger output files and writes in a directory names MD
+
+    Args:
+        input_dir (str): dir with Stanford Tagger tagged files
+        output_dir (str): dir to write MD tagged files
+    """
+    #check if dir exists, otherwise make one
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    files = glob.glob(input_dir + "*.txt")
+    file_with_dir = [(file, output_dir) for file in files]
+    cpu_count = multiprocessing.cpu_count() 
+    with multiprocessing.Pool(cpu_count) as pool:
+	    # call the function for each item in parallel
+	    pool.map(process_file, file_with_dir)
+
 def tag_MD (input_dir: str, output_dir: str) -> None:
     """Tags Stanford Tagger output files and writes in a directory names MD
 
@@ -1884,16 +1925,16 @@ def get_ttr(tokens: list, n: int) -> float:
     Returns:
         tt_ratio (float): type token ration
     """
-    if len(tokens) > n: #if len tokens greater than n
+    if len(tokens) >= n: #if len tokens greater than or equal to n
         #take first n tokens from tokens list
         temp_tokens = tokens[:n]
-        #Shakir exclude punctuation marks using re, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
+        #Shakir use tokens list passed from below, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
         n_types = len(set([word.split('_')[0].lower() for word in temp_tokens]))
         tt_ratio = n_types/n
     else: #otherwise use the whole tokens
-        #Shakir exclude punctuation marks using re, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
+        #Shakir use tokens list passed from below, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
         n_types = len(set([word.split('_')[0].lower() for word in tokens]))
-        tt_ratio = n_types/n
+        tt_ratio = n_types/len(tokens)
     return tt_ratio
 
 def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
@@ -1914,7 +1955,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: noun governed that clauses will be normalized per 100 nouns "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "ToNSTNC", "ToThNSTNCAll", "PrepNSTNC". THRCother is THRC minus TH_N clauses
     # Shakir: two sub classes of attributive adjectives "JJEPSTother", "JJATDother", also dependent on nouns. "JJATother" is JJAT minus the prev two classes
     # Shakir: STNCAll variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCAll"
-    NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCAll", "NOMZ", "NSTNCother", "JJDESCAll", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCAllother"]
+    NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCAll", "NOMZ", "NSTNCother", "JJDESCAll", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCAllother", "NNNICK"]
     NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
     df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.NTotal.values, axis=0) #divide by total nouns
     # Features to be normalised per 100 (very crudely defined) finite verbs:
@@ -1971,7 +2012,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         #print(n_functionwords)
         # EFL: Counting function words for lexical density
         # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
-        tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH", word) if re.search(r"^\S+_\S+$", word)]
+        tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
         # EFL: Counting total nouns for per 100 noun normalisation
         # Shakir: list of words that match the given regex, then take its length as total nouns 
         NTotal = len([word for word in words if re.search(r"_NN", word)])
@@ -1980,7 +2021,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         VBTotal = len([word for word in words if re.search(r"_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS", word)])
         # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
         # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
-        list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH", word) if re.search(r"^\S+_\S+$", word)]
+        list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
         #Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
         average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
         lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
@@ -2000,24 +2041,27 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         list_of_dicts.append(temp_dict)
     print("writing statistics..")
     df = pd.DataFrame(list_of_dicts).fillna(0)
-    df.to_excel(dir_out+"counts_raw.xlsx", index=False)
-    df = pd.read_excel(dir_out+"counts_raw.xlsx")
-    get_complex_normed_counts(df).to_excel(dir_out+"counts_complex_normed.xlsx", index=False)
-    get_percent_normed_counts(df).to_excel(dir_out+"counts_percent_normed.xlsx", index=False)
+    df.to_csv(dir_out+"counts_raw.csv", index=False)
+    #df = pd.read_excel(dir_out+"counts_raw.csv")
+    get_complex_normed_counts(df).to_csv(dir_out+"counts_complex_normed.csv", index=False)
+    get_percent_normed_counts(df).to_csv(dir_out+"counts_percent_normed.csv", index=False)
     print("finished!")
     # with open(file=dir_out+"tokens.txt", mode='w', encoding='utf-8') as f:
     #     f.write("\n".join(tags))
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/mnt/d/Corpus Related/Corpora/Pakistani English Historical/27-08-202_Pak Diachronic Corpus/" 
+    #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged/"
+    #nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
     ttr = 2000
     tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
+    #tag_MD_parallel(output_stanford, output_MD)
     do_counts(output_MD, output_stats, ttr)
