@@ -338,10 +338,10 @@ def process_sentence (words: list):
 
         # ELF: FPUH is a new variable.
         # ELF: tags interjections and filled pauses.
-        print(words[j])
+        
         if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_|\\bhum+", words[j], re.IGNORECASE)):
             words[j] = re.sub("_(\w+)", "_FPUH", words[j])
-        print("after:", words[j])
+        
         # Also added "hm+" on Peter's suggestion but made sure that this was case sensitive to avoid mistagging Her Majesty ;-)
         if (re.search("\\bhm+|\\bHm+", words[j])):
             words[j] = re.sub("_(\w+)", "_FPUH", words[j])
@@ -2051,12 +2051,12 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    #nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    #nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
     output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
