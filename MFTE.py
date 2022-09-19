@@ -788,12 +788,12 @@ def process_sentence (words: list):
         except IndexError:
             continue
 
-        try:
-            #Shakir: all to vb stance excep verbs of desive which are frequent mainly due to want to constructions
-            if (re.search(" (ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCother", words[j])
-        except IndexError:
-            continue
+        # try:
+        #     #Shakir: all to vb stance excep verbs of desive which are frequent mainly due to want to constructions
+        #     if (re.search(" (ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
+        #         words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCother", words[j])
+        # except IndexError:
+        #     continue
 
         try:
             if (re.search("\\b(" + to_nn_stance_all + ")_N", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
@@ -1784,13 +1784,19 @@ def process_sentence (words: list):
         except IndexError:
             continue
         
+        try:
+            if (re.search("\\b(" + likely_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+                words[j] = re.sub("_(\w+)", "_\\1 VLIKother", words[j])
+        except IndexError:
+            continue
+
         #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
         if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK)", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCAll", words[j])
 
-        #Shakir: sums of that clauses for vb other that comm verbs
-        if (re.search(" (ThVATT|ThVFCT|ThVLIK)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCother", words[j])
+        # #Shakir: sums of that clauses for vb other that comm verbs
+        # if (re.search(" (ThVATT|ThVFCT|ThVLIK)", words[j])):
+        #     words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCother", words[j])
 
         if (re.search(" (ThJATT|ThJFCT|ThJLIK|ThJEVL)", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 ThJSTNCAll", words[j])
@@ -1811,9 +1817,9 @@ def process_sentence (words: list):
         if (re.search(" (RATT|RNONFACT|RFACT|RLIKELY)", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 RSTNCAll", words[j])
 
-        #Shakir: adverb stance other than RFACT
-        if (re.search(" (RATT|RNONFACT|RLIKELY)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 RSTNCother", words[j])
+        # #Shakir: adverb stance other than RFACT
+        # if (re.search(" (RATT|RNONFACT|RLIKELY)", words[j])):
+        #     words[j] = re.sub("_(\w+)", "_\\1 RSTNCother", words[j])
 
 
         #Shakir: all possibility modals Biber 1988
@@ -1840,17 +1846,17 @@ def process_sentence (words: list):
         if (re.search("(JJSIZE|JJCOLR)\\b", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 JJDESCAll", words[j])
 
-        #Shakir: consolidate stance adjectives
-        if (re.search("(JJEPSTother|JJATDother)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 JJEpstAtdOther", words[j])
+        # #Shakir: consolidate stance adjectives
+        # if (re.search("(JJEPSTother|JJATDother)\\b", words[j])):
+        #     words[j] = re.sub("_(\w+)", "_\\1 JJEpstAtdOther", words[j])
 
         #Shakir: All 1st person pronouns to 1 tag
         if (re.search("_(FPP1P|FPP1S)\\b", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 FPPAll", words[j])
 
-        #Shakir: Non past tense imperatives, present tense, future markers 
-        if (re.search("(VPRT|VIMP|MDPREDAll|MDNE|MDPOSSCAll|VB)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 VNONPAST", words[j])
+        # #Shakir: Non past tense imperatives, present tense, future markers 
+        # if (re.search("(VPRT|VIMP|MDPREDAll|MDNE|MDPOSSCAll|VB)\\b", words[j])):
+        #     words[j] = re.sub("_(\w+)", "_\\1 VNONPAST", words[j])
 
         #Shakir: fixed it tagged as PRP 
         if (re.search("(It|its?|itself)_PRP\\b", words[j])):
@@ -1959,11 +1965,11 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
     df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.NTotal.values, axis=0) #divide by total nouns
     # Features to be normalised per 100 (very crudely defined) finite verbs:
-    # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother"
+    # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
     # Shakir: note THSCother and WHSCother are THSC and WHSC minus all new above TH and WH verb/adj clauses, "JJPRother" is JJPR without epistemic and attitudinal adjectives
     # Shakir: STNCAll variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCAll", "ToVSTNCother", "ThVSTNCAll", "ThVSTNCother", "ThJSTNCAll"
-    FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "FPP1S", "FPP1P", "TPP3S", "TPP3P", "SPP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", "ToVSTNCAll", "ThVSTNCAll", "ThJSTNCAll", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "FPPAll", "VNONPAST"]
+    FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "FPP1S", "FPP1P", "TPP3S", "TPP3P", "SPP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", "VLIKother", "ToVSTNCAll", "ThVSTNCAll", "ThJSTNCAll", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "FPPAll", "VNONPAST", "WHSCother", "THSCother", "THRCother", "MDPOSSCAll", "MDPREDAll", "PASSAll", "WhVSTNCAll"]
     FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBTotal.values, axis=0) #divide by total verbs
     # All other features should be normalised per 100 words:
