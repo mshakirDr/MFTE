@@ -440,13 +440,6 @@ def process_sentence (words: list):
                 words[j] = re.sub("_(\w+)", "_\\1 JJEPSTother", words[j])
         except IndexError:
             continue
-        #
-        try:
-            if (re.search("\\b(JJATDother|JJEPSTother)_J", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 JJSTNCAllother", words[j])
-        except IndexError:
-            continue
-
         #----------------------------------------------------    
         
         # Manually add okay as a predicative adjective (JJPR) because "okay" and "ok" are often tagged as foreign words by the Stanford Tagger. All other predicative adjectives are tagged at the very end.
