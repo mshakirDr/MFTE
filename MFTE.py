@@ -591,7 +591,7 @@ def process_sentence (words: list):
                 (re.search("_\W", words[j+1])) or # You did?
                 (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_|_XX0", words[j+1], re.IGNORECASE) and re.search("_\.|_VB\\b", words[j+2])) or # ELF: Added to include question tags such as: "do you?"" or "He didn't!""
                 (re.search("_XX0", words[j+1]) and re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_|_VB\\b", words[j+2], re.IGNORECASE)) or # Allows for question tags such as: didn't you? as well as negated forms such as: did not like
-                (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+3])) or # ELF: Added to include question tags such as: did you not? did you really?
+                (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+3])) or # ELF: Added to include question tags such as: did you not? did you really?
                 (re.search("(\\b(" + wp + "))|(\\b" + who + ")|(\\b" + whw + ")", words[j-1], re.IGNORECASE))):
                     words[j] = re.sub("_(\w+)", "_\\1 DOAUX", words[j])
         except IndexError:
@@ -605,22 +605,22 @@ def process_sentence (words: list):
         # ELF: rewrote this new operationalisation because Biber/Nini's code relied on a full stop appearing before the question word. 
         # This new operationalisation requires a question word (from a much shorter list taken from the COBUILD that Nini's/Biber's list) that is not followed by another question word and then a question mark within 15 words. 
         try:
-            if ((re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and re.search("\?_\.", words[j+1]))  or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+2])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+3])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+4])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+5])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+6])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+7])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+8])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+9])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+10])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+11])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+12])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+13])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+14])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+15])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\?_\.", words[j+16]))):
+            if ((re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and re.search("\\?_\\.", words[j+1]))  or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+2])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+3])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+4])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+5])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+6])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+7])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+8])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+9])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+10])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+11])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+12])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+13])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+14])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+15])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+16]))):
                 words[j] = re.sub("(\w+)_(\w+)", "\\1_WHQU", words[j])
         except IndexError:
             continue
@@ -629,24 +629,21 @@ def process_sentence (words: list):
         # Tags yes/no inverted questions (YNQU)
         # ELF: New variable
         # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
-        try:
-            if ((not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j+1]) and re.search("\?_\.", words[j+3])) or  # Are they there? It is him?
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+4])) or # Can you tell him?
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+5])) or # Did her boss know that?
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+6])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+7])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+8])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+9])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+10])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+11])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+12])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+13])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+14])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+15])) or
-            (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\?_\.", words[j+16]))):
-                words[j] = re.sub("_(\w+)", "_\\1 YNQU", words[j])
-        except IndexError:
-            continue
+        if ((not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j+1]) and re.search("\\?_\\.", words[j+3])) or  # Are they there? It is him?
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+4])) or # Can you tell him?
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+5])) or # Did her boss know that?
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+6])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+7])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+8])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+9])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+10])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+11])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+12])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+13])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+14])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+15])) or
+        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+16]))):
+            words[j] = re.sub("_(\w+)", "_\\1 YNQU", words[j])
 
         #---------------------------------------------------
 
@@ -1195,19 +1192,19 @@ def process_sentence (words: list):
     # ELF: tags question tags. New variable
 
         try:
-            if ((not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("_MD|\\bdid_|\\bhad_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\?_\.", words[j])) or # couldn't he?
+            if ((not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("_MD|\\bdid_|\\bhad_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # couldn't he?
 
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("_MD|\\bdid_|\\bhad_", words[j-2], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\?_\.", words[j])) or # did they?
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("_MD|\\bdid_|\\bhad_", words[j-2], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # did they?
 
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\?_\.", words[j]))  or # isn't it?
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # isn't it?
 
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas_", words[j-2], re.IGNORECASE) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\?_\.", words[j]))  or # has she?
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas_", words[j-2], re.IGNORECASE) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # has she?
 
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\?_\.", words[j]))  or # haven't you?
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # haven't you?
 
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-2], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\?_\.", words[j])) or # were you?
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-2], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j])) or # were you?
 
-            (re.search("\\binnit_|\\binit_", words[j-1]) and re.search("\?_\.", words[j]))): # innit? init?
+            (re.search("\\binnit_|\\binit_", words[j-1]) and re.search("\\?_\\.", words[j]))): # innit? init?
 
                 words[j] = re.sub("_(\W+)", "_\\1 QUTAG", words[j])
         
