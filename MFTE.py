@@ -1873,8 +1873,9 @@ def process_file (file_dir_pair: tuple) -> None:
     print("MD tagger tagging:", file)
     file_name = os.path.basename(file)
     text = open(file=file, encoding='utf-8', errors='ignore').read()
-    words = re.split("[ \n\r\t]+", text)
-    #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause lower if conditions not to be applied in process_sentence
+    words = re.split(r"(?<=[ \n\r\t])", text) #split on whitespaces but keep delimiters
+    words = [re.sub(r"[ \t\r]*$", "", word) for word in words] #remove all whitespaces from array elements except \n
+    #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
     words = ([' '] * 20) + words + ([' '] * 20)
     words_tagged = process_sentence(words)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
