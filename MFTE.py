@@ -629,6 +629,16 @@ def process_sentence (words: list):
         # Tags yes/no inverted questions (YNQU)
         # ELF: New variable
         # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
+        if re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE):
+            print("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD")
+            print(words[j])
+            print(bool(not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1])))
+            print(bool(re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE)))
+            print(bool(re.search("_P|_NN|_DT", words[j+1])))
+            for i in range(3, 17):
+                if re.search("\\?_\\.", words[j+i]):
+                    print(words[j+i])
+                    print(i)
         if ((not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j+1]) and re.search("\\?_\\.", words[j+3])) or  # Are they there? It is him?
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+4])) or # Can you tell him?
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+5])) or # Did her boss know that?
@@ -644,6 +654,7 @@ def process_sentence (words: list):
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+15])) or
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+16]))):
             words[j] = re.sub("_(\w+)", "_\\1 YNQU", words[j])
+            print(words[j])
 
         #---------------------------------------------------
 
@@ -1862,6 +1873,24 @@ def process_sentence (words: list):
 
     return words
 
+def convert_text_to_words_list(file: str) -> list:
+    """Returns text read from Stanfrod Tagged file converted to array of words for further processing
+
+    Args:
+        file (str): file path
+
+    Returns:
+        list: list words that will be tagged in process_sentence
+    """
+    text = open(file=file, encoding='utf-8', errors='ignore').read()
+    words = re.split("(?<=[ \n\r\t])", text) #split on whitespaces but keep delimiters
+    words = [re.sub("[ \t\r]*$", "", word) for word in words] #remove all whitespaces from array elements except \n
+    #words = re.split(" ", text)
+    #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
+    words = ([' '] * 20) + words + ([' '] * 20)
+    return words
+
+
 def process_file (file_dir_pair: tuple) -> None:
     """Read a given file, tag it through process_sentence and write it
 
@@ -1872,11 +1901,7 @@ def process_file (file_dir_pair: tuple) -> None:
     output_dir = file_dir_pair[1]
     print("MD tagger tagging:", file)
     file_name = os.path.basename(file)
-    text = open(file=file, encoding='utf-8', errors='ignore').read()
-    words = re.split(r"(?<=[ \n\r\t])", text) #split on whitespaces but keep delimiters
-    words = [re.sub(r"[ \t\r]*$", "", word) for word in words] #remove all whitespaces from array elements except \n
-    #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
-    words = ([' '] * 20) + words + ([' '] * 20)
+    words = convert_text_to_words_list(file)
     words_tagged = process_sentence(words)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
@@ -1910,10 +1935,7 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
     for file in files:
         print("MD tagger tagging:", file)
         file_name = os.path.basename(file)
-        text = open(file=file, encoding='utf-8', errors='ignore').read()
-        words = re.split("[ \n\r\t]+", text)
-        #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause lower if conditions not to be applied in process_sentence
-        words = ([' '] * 20) + words + ([' '] * 20)
+        words = convert_text_to_words_list(file)
         words_tagged = process_sentence(words)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
@@ -2048,7 +2070,8 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         list_of_dicts.append(temp_dict)
     print("writing statistics..")
     df = pd.DataFrame(list_of_dicts).fillna(0)
-    df = df.drop(columns=features_to_be_removed_from_final_table) #drop unnecessary features
+    features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
+    df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
     df.to_csv(dir_out+"counts_raw.csv", index=False)
     #df = pd.read_excel(dir_out+"counts_raw.csv")
     get_complex_normed_counts(df).to_csv(dir_out+"counts_complex_normed.csv", index=False)
@@ -2069,7 +2092,7 @@ if __name__ == "__main__":
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
     ttr = 2000
-    tag_stanford(nlp_dir, input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
     #tag_MD_parallel(output_stanford, output_MD)
     do_counts(output_MD, output_stats, ttr)
