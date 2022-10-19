@@ -1872,7 +1872,7 @@ def convert_text_to_sentence_list(file: str) -> list:
         list: list words that will be tagged in process_sentence
     """
     text = open(file=file, encoding='utf-8', errors='ignore').read()
-    sentences = re.split("\n", text) #split on new line
+    sentences = re.split("[\r\n]+", text) #split on new line or carriage return
     sentences = [re.split(' ', s) for s in sentences] #split ind. sentences on space
     return sentences
 
