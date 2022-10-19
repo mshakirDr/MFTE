@@ -629,16 +629,6 @@ def process_sentence (words: list):
         # Tags yes/no inverted questions (YNQU)
         # ELF: New variable
         # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
-        if re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE):
-            print("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD")
-            print(words[j])
-            print(bool(not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1])))
-            print(bool(re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE)))
-            print(bool(re.search("_P|_NN|_DT", words[j+1])))
-            for i in range(3, 17):
-                if re.search("\\?_\\.", words[j+i]):
-                    print(words[j+i])
-                    print(i)
         if ((not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j+1]) and re.search("\\?_\\.", words[j+3])) or  # Are they there? It is him?
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+4])) or # Can you tell him?
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+5])) or # Did her boss know that?
@@ -654,7 +644,6 @@ def process_sentence (words: list):
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+15])) or
         (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+16]))):
             words[j] = re.sub("_(\w+)", "_\\1 YNQU", words[j])
-            print(words[j])
 
         #---------------------------------------------------
 
@@ -1873,8 +1862,8 @@ def process_sentence (words: list):
 
     return words
 
-def convert_text_to_words_list(file: str) -> list:
-    """Returns text read from Stanfrod Tagged file converted to array of words for further processing
+def convert_text_to_sentence_list(file: str) -> list:
+    """Returns text read from Stanfrod Tagged file converted to array of sentences for further processing
 
     Args:
         file (str): file path
@@ -1883,11 +1872,25 @@ def convert_text_to_words_list(file: str) -> list:
         list: list words that will be tagged in process_sentence
     """
     text = open(file=file, encoding='utf-8', errors='ignore').read()
-    words = re.split("(?<=[ \n\r\t])", text) #split on whitespaces but keep delimiters
-    words = [re.sub("[ \t\r]*$", "", word) for word in words] #remove all whitespaces from array elements except \n
-    #words = re.split(" ", text)
-    #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
-    words = ([' '] * 20) + words + ([' '] * 20)
+    sentences = re.split("\n", text) #split on new line
+    sentences = [re.split(' ', s) for s in sentences] #split ind. sentences on space
+    return sentences
+
+def run_process_sentence_on_each_sentence(sentences: list) -> list:
+    """Returns list of sentences after running process_sentence on it
+
+    Args:
+        sentences (list): list of sentences to process
+
+    Returns:
+        words (list): list of words after MD tagging
+    """
+    words = list()
+    for sentence in sentences:
+        #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
+        s1 = ([' '] * 20) + sentence + ([' '] * 20)
+        words_temp = process_sentence(s1)
+        words = words + [word for word in words_temp if word != " "] #combine sentence to previously tagged after removing white space elements added prior to process_sentence
     return words
 
 
@@ -1901,8 +1904,8 @@ def process_file (file_dir_pair: tuple) -> None:
     output_dir = file_dir_pair[1]
     print("MD tagger tagging:", file)
     file_name = os.path.basename(file)
-    words = convert_text_to_words_list(file)
-    words_tagged = process_sentence(words)
+    sentences = convert_text_to_sentence_list(file)
+    words_tagged = run_process_sentence_on_each_sentence(sentences)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
 
@@ -1935,8 +1938,8 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
     for file in files:
         print("MD tagger tagging:", file)
         file_name = os.path.basename(file)
-        words = convert_text_to_words_list(file)
-        words_tagged = process_sentence(words)
+        sentences = convert_text_to_sentence_list(file)
+        words_tagged = run_process_sentence_on_each_sentence(sentences)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
         #break
