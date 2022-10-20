@@ -1885,13 +1885,13 @@ def run_process_sentence_on_each_sentence(sentences: list) -> list:
     Returns:
         words (list): list of words after MD tagging
     """
-    words = list()
+    sentences_with_buffer_spaces = ([' '] * 20)
     for sentence in sentences:
         #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
-        s1 = ([' '] * 20) + sentence + ([' '] * 20)
-        words_temp = process_sentence(s1)
-        words = words + [word for word in words_temp if word != " "] #combine sentence to previously tagged after removing white space elements added prior to process_sentence
-    return words
+        sentences_with_buffer_spaces = sentences_with_buffer_spaces + sentence + ([' '] * 20)
+    words_tagged = process_sentence(sentences_with_buffer_spaces)
+    words_tagged = [word for word in words_tagged if word != " "] #remove white space elements added prior to process_sentence
+    return words_tagged
 
 
 def process_file (file_dir_pair: tuple) -> None:
