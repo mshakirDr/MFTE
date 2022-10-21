@@ -1862,29 +1862,18 @@ def process_sentence (words: list):
 
     return words
 
-def convert_text_to_sentence_list(file: str) -> list:
-    """Returns text read from Stanfrod Tagged file converted to array of sentences for further processing
+def run_process_sentence(file: str) -> list:
+    """Returns list of words after running process_sentence on it
 
     Args:
-        file (str): file path
+        file (str): text file path that is to be opened
 
     Returns:
-        list: list words that will be tagged in process_sentence
+        words_tagged (list): list of words after MD tagging
     """
     text = open(file=file, encoding='utf-8', errors='ignore').read()
-    sentences = re.split("[\r\n]+", text) #split on new line or carriage return
-    sentences = [re.split(' ', s) for s in sentences] #split ind. sentences on space
-    return sentences
-
-def run_process_sentence_on_each_sentence(sentences: list) -> list:
-    """Returns list of sentences after running process_sentence on it
-
-    Args:
-        sentences (list): list of sentences to process
-
-    Returns:
-        words (list): list of words after MD tagging
-    """
+    sentences = re.split("[\r\n]+", text) #split on new line or carriage return to get sentences
+    sentences = [re.split(' ', s) for s in sentences] #split ind. sentences on space (now it is a list of lists)
     sentences_with_buffer_spaces = ([' '] * 20)
     for sentence in sentences:
         #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
@@ -1904,8 +1893,7 @@ def process_file (file_dir_pair: tuple) -> None:
     output_dir = file_dir_pair[1]
     print("MD tagger tagging:", file)
     file_name = os.path.basename(file)
-    sentences = convert_text_to_sentence_list(file)
-    words_tagged = run_process_sentence_on_each_sentence(sentences)
+    words_tagged = run_process_sentence(file)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
 
@@ -1938,8 +1926,7 @@ def tag_MD (input_dir: str, output_dir: str) -> None:
     for file in files:
         print("MD tagger tagging:", file)
         file_name = os.path.basename(file)
-        sentences = convert_text_to_sentence_list(file)
-        words_tagged = run_process_sentence_on_each_sentence(sentences)
+        words_tagged = run_process_sentence(file)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
         #break
