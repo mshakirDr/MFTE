@@ -597,6 +597,54 @@ def process_sentence (words: list):
         except IndexError:
             continue
             
+    #---------------------------------------------------
+
+    # for j, value in enumerate(words):
+    # 
+    # # ELF: tags question tags. New regex adding QUTAG to verbs rather than question marks:
+    # 
+    #     try:
+    #         if ((not re.search("_WHQU", words[j-3]) and not re.search("_WHQU", words[j-2]) and not re.search("_WHQU", words[j-1]) and re.search("_MD|\\bdid_|\\bhad_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j+2], re.IGNORECASE) and re.search("\\?_\\.", words[j+3])) or # couldn't he?
+    #        
+    #         (not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and not re.search("_WHQU", words[j-2]) and not re.search("_WHQU", words[j-1]) and re.search("_MD|\\bdid_|\\bhad_", words[j], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+2])) or # did they?
+    #        
+    #         (not re.search("_WHQU", words[j-3]) and not re.search("_WHQU", words[j-2]) and not re.search("_WHQU", words[j-1]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("\\bit_|\\bshe_|\\bhe_", words[j+2], re.IGNORECASE) and re.search("\\?_\\.", words[j+3]))  or # isn't it?
+    #        
+    #         (not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and not re.search("_WHQU", words[j-2]) and not re.search("_WHQU", words[j-1]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas_", words[j], re.IGNORECASE) and re.search("\\bit_|\\bshe_|\\bhe_", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+2]))  or # has she?
+    #        
+    #         (not re.search("_WHQU", words[j-3]) and not re.search("_WHQU", words[j-2]) and not re.search("_WHQU", words[j-1]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("\\byou_|\\bwe_|\\bthey_", words[j+2], re.IGNORECASE) and re.search("\\?_\\.", words[j+3]))  or # haven't you?
+    #        
+    #         (not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and not re.search("_WHQU", words[j-2]) and not re.search("_WHQU", words[j-1]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+2])) or # were you?
+    #        
+    #         (re.search("\\binnit_|\\binit_", words[j]) and re.search("\\?_\\.", words[j+1]))): # innit? init?
+    #        
+    #             words[j] = re.sub("_(\w+)", "_\\1 QUTAG", words[j])
+    #           
+    #     except IndexError:
+    #         continue
+
+
+    # ELF: tags question tags. New variable
+
+        try:
+            if ((not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("_MD|\\bdid_|\\bhad_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # couldn't he?
+
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("_MD|\\bdid_|\\bhad_", words[j-2], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # did they?
+
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # isn't it?
+
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas_", words[j-2], re.IGNORECASE) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # has she?
+
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # haven't you?
+
+            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-2], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j])) or # were you?
+
+            (re.search("\\binnit_|\\binit_", words[j-1]) and re.search("\\?_\\.", words[j]))): # innit? init?
+
+                words[j] = re.sub("_(\W+)", "_\\1 QUTAG", words[j])
+
+        except IndexError:
+            continue
 
 
         #---------------------------------------------------    
@@ -605,45 +653,25 @@ def process_sentence (words: list):
         # ELF: rewrote this new operationalisation because Biber/Nini's code relied on a full stop appearing before the question word. 
         # This new operationalisation requires a question word (from a much shorter list taken from the COBUILD that Nini's/Biber's list) that is not followed by another question word and then a question mark within 15 words. 
         try:
-            if ((re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and re.search("\\?_\\.", words[j+1]))  or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+2])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+3])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+4])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+5])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+6])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+7])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+8])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+9])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+10])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+11])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+12])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+13])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+14])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+15])) or
-            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+16]))):
+            if ((re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and re.search("\\?_\\.$", words[j+1]))  or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+2])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+3])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+4])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+5])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+6])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+7])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+8])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+9])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+10])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+11])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+12])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+13])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+14])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+15])) or
+            (re.search("\\b(" + whw + ")", words[j], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j+1], re.IGNORECASE) and re.search("\\?_\\.$", words[j+16]))):
                 words[j] = re.sub("(\w+)_(\w+)", "\\1_WHQU", words[j])
         except IndexError:
             continue
-
-        #---------------------------------------------------    
-        # Tags yes/no inverted questions (YNQU)
-        # ELF: New variable
-        # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
-        if ((not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j+1]) and re.search("\\?_\\.", words[j+3])) or  # Are they there? It is him?
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+4])) or # Can you tell him?
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+5])) or # Did her boss know that?
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+6])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+7])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+8])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+9])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+10])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+11])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+12])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+13])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+14])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+15])) or
-        (not re.search("_WHQU|YNQU", words[j-2]) and not re.search("_WHQU|YNQU", words[j-1]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j+1]) and re.search("\\?_\\.", words[j+16]))):
-            words[j] = re.sub("_(\w+)", "_\\1 YNQU", words[j])
 
         #---------------------------------------------------
 
@@ -1056,7 +1084,7 @@ def process_sentence (words: list):
 
 
         # Tags HAVE GOT constructions
-        # ELF: New variable.
+        # ELF: New variable. Added a tag for "have got" constructions, overriding the PEAS and PASS constructions.
         if (re.search("\\bgot", words[j], re.IGNORECASE)):
             try:
                 if ((re.search("\\b(" + have + ")", words[j-1], re.IGNORECASE)) or # have got
@@ -1098,6 +1126,24 @@ def process_sentence (words: list):
     # EVEN MORE COMPLEX TAGS
 
     for j, value in enumerate(words):
+      
+        #---------------------------------------------------    
+        # Tags yes/no inverted questions (YNQU)
+        # ELF: New variable and new operationalistion for python version with tags added to the question marks as opposed to the verbs
+        # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
+        if ((not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-2], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j-1]) and re.search("\\?_\\.$", words[j])) or  # Are they there? It is him?
+        (not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-3], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-2]) and re.search("\\?_\\.$", words[j])) or # Can you tell him?
+        (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-4], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-3]) and re.search("\\?_\\.$", words[j])) or # Did her boss know that?
+        (not re.search("_WHQU", words[j-7]) and not re.search("_WHQU", words[j-6]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-5], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-4]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-8]) and not re.search("_WHQU", words[j-7]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-6], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-5]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-9]) and not re.search("_WHQU", words[j-8]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-7], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-6]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-10]) and not re.search("_WHQU", words[j-9]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-8], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-7]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-11]) and not re.search("_WHQU", words[j-10]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-9], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-8]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-12]) and not re.search("_WHQU", words[j-11]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-10], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-9]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-13]) and not re.search("_WHQU", words[j-12]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-11], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-10]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-14]) and not re.search("_WHQU", words[j-13]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-12], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-11]) and re.search("\\?_\\.$", words[j])) or
+        (not re.search("_WHQU", words[j-15]) and not re.search("_WHQU", words[j-14]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-13], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-12]) and re.search("\\?_\\.$", words[j]))):
+            words[j] = re.sub("_(\W+)", "_\\1 YNQU", words[j])
 
     #---------------------------------------------------
 
@@ -1177,40 +1223,6 @@ def process_sentence (words: list):
                 words[j] = re.sub("_\w+", "_ABLE", words[j])
         except IndexError:
             continue
-
-
-
-
-
-    #---------------------------------------------------
-
-    # ELF: Added a tag for "have got" constructions, overriding the PEAS and PASS constructions.
-
-    for j, value in enumerate(words):
-
-
-    # ELF: tags question tags. New variable
-
-        try:
-            if ((not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("_MD|\\bdid_|\\bhad_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # couldn't he?
-
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("_MD|\\bdid_|\\bhad_", words[j-2], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # did they?
-
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # isn't it?
-
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas_", words[j-2], re.IGNORECASE) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # has she?
-
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # haven't you?
-
-            (not re.search("_WHQU", words[j-6]) and not re.search("_WHQU", words[j-5]) and not re.search("_WHQU", words[j-4]) and not re.search("_WHQU", words[j-3]) and re.search("\\bdo|\\bwere|\\bare|\\bhave", words[j-2], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j])) or # were you?
-
-            (re.search("\\binnit_|\\binit_", words[j-1]) and re.search("\\?_\\.", words[j]))): # innit? init?
-
-                words[j] = re.sub("_(\W+)", "_\\1 QUTAG", words[j])
-        
-        except IndexError:
-            continue
-
 
     #---------------------------------------------------
 
@@ -2072,17 +2084,34 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    #input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"D:\Corpus Related/Corpora/Pakistani English Historical/Test/"
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    #nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
-    ttr = 2000
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    #nlp_dir = r"D:\Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
+    output_stanford = "MFTE_output/MFTE_Tagged/"
+    output_MD = "MFTE_output/MD/"
+    output_stats = "MFTE_output/Statistics/"
+    ttr = 400
+    tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD)
-    #tag_MD_parallel(output_stanford, output_MD)
     do_counts(output_MD, output_stats, ttr)
+
+
+# if __name__ == "__main__":
+#     input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     #nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
+#     ttr = 2000
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     tag_MD(output_stanford, output_MD)
+#     #tag_MD_parallel(output_stanford, output_MD)
+#     do_counts(output_MD, output_stats, ttr)
