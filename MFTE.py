@@ -1936,29 +1936,17 @@ def process_sentence_extended (words: list) -> list:
 
 
         #Shakir: verbs in contexts other than _WHSC, _THSC or to_ . Additionally not assigned to another tag.
-        try:
-            if (re.search("\\b(" + comm_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VCOMMother", words[j])
-        except IndexError:
-            continue
-        
-        try:
-            if (re.search("\\b(" + att_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VATTother", words[j])
-        except IndexError:
-            continue
-        
-        try:
-            if (re.search("\\b(" + fact_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VFCTother", words[j])
-        except IndexError:
-            continue
-        
-        try:
-            if (re.search("\\b(" + likely_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VLIKother", words[j])
-        except IndexError:
-            continue
+        if (re.search("\\b(" + comm_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 VCOMMother", words[j])
+    
+        if (re.search("\\b(" + att_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 VATTother", words[j])
+    
+        if (re.search("\\b(" + fact_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 VFCTother", words[j])
+    
+        if (re.search("\\b(" + likely_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 VLIKother", words[j])
 
         #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
         if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK)", words[j])):
@@ -2235,10 +2223,10 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     df = pd.DataFrame(list_of_dicts).fillna(0)
     features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
     df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
-    df.to_csv(dir_out+"counts_raw.csv", index=False)
+    df.round(4).to_csv(dir_out+"counts_raw.csv", index=False)
     #df = pd.read_excel(dir_out+"counts_raw.csv")
-    get_complex_normed_counts(df).to_csv(dir_out+"counts_complex_normed.csv", index=False)
-    get_percent_normed_counts(df).to_csv(dir_out+"counts_percent_normed.csv", index=False)
+    get_complex_normed_counts(df).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
+    get_percent_normed_counts(df).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
     print("finished!")
     # with open(file=dir_out+"tokens.txt", mode='w', encoding='utf-8') as f:
     #     f.write("\n".join(tags))
