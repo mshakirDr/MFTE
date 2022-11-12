@@ -76,34 +76,6 @@ def process_sentence (words: list):
     private = "accept_V|accepts_V|accepting_V|accepted_V|anticipate_V|anticipates_V|anticipating_V|anticipated_V|ascertain_V|ascertains_V|ascertaining_V|ascertained_V|assume_V|assumes_V|assuming_V|assumed_V|believe_V|believes_V|believing_V|believed_V|calculate_V|calculates_V|calculating_V|calculated_V|check_V|checks_V|checking_V|checked_V|conclude_V|concludes_V|concluding_V|concluded_V|conjecture_V|conjectures_V|conjecturing_V|conjectured_V|consider_V|considers_V|considering_V|considered_V|decide_V|decides_V|deciding_V|decided_V|deduce_V|deduces_V|deducing_V|deduced_V|deem_V|deems_V|deeming_V|deemed_V|demonstrate_V|demonstrates_V|demonstrating_V|demonstrated_V|determine_V|determines_V|determining_V|determined_V|discern_V|discerns_V|discerning_V|discerned_V|discover_V|discovers_V|discovering_V|discovered_V|doubt_V|doubts_V|doubting_V|doubted_V|dream_V|dreams_V|dreaming_V|dreamt_V|dreamed_V|ensure_V|ensures_V|ensuring_V|ensured_V|establish_V|establishes_V|establishing_V|established_V|estimate_V|estimates_V|estimating_V|estimated_V|expect_V|expects_V|expecting_V|expected_V|fancy_V|fancies_V|fancying_V|fancied_V|fear_V|fears_V|fearing_V|feared_V|feel_V|feels_V|feeling_V|felt_V|find_V|finds_V|finding_V|found_V|foresee_V|foresees_V|foreseeing_V|foresaw_V|forget_V|forgets_V|forgetting_V|forgot_V|forgotten_V|gather_V|gathers_V|gathering_V|gathered_V|guess_V|guesses_V|guessing_V|guessed_V|hear_V|hears_V|hearing_V|heard_V|hold_V|holds_V|holding_V|held_V|hope_V|hopes_V|hoping_V|hoped_V|imagine_V|imagines_V|imagining_V|imagined_V|imply_V|implies_V|implying_V|implied_V|indicate_V|indicates_V|indicating_V|indicated_V|infer_V|infers_V|inferring_V|inferred_V|insure_V|insures_V|insuring_V|insured_V|judge_V|judges_V|judging_V|judged_V|know_V|knows_V|knowing_V|knew_V|known_V|learn_V|learns_V|learning_V|learnt_V|learned_V|mean_V|means_V|meaning_V|meant_V|note_V|notes_V|noting_V|noted_V|notice_V|notices_V|noticing_V|noticed_V|observe_V|observes_V|observing_V|observed_V|perceive_V|perceives_V|perceiving_V|perceived_V|presume_V|presumes_V|presuming_V|presumed_V|presuppose_V|presupposes_V|presupposing_V|presupposed_V|pretend_V|pretend_V|pretending_V|pretended_V|prove_V|proves_V|proving_V|proved_V|realize_V|realise_V|realising_V|realizing_V|realises_V|realizes_V|realised_V|realized_V|reason_V|reasons_V|reasoning_V|reasoned_V|recall_V|recalls_V|recalling_V|recalled_V|reckon_V|reckons_V|reckoning_V|reckoned_V|recognize_V|recognise_V|recognizes_V|recognises_V|recognizing_V|recognising_V|recognized_V|recognised_V|reflect_V|reflects_V|reflecting_V|reflected_V|remember_V|remembers_V|remembering_V|remembered_V|reveal_V|reveals_V|revealing_V|revealed_V|see_V|sees_V|seeing_V|saw_V|seen_V|sense_V|senses_V|sensing_V|sensed_V|show_V|shows_V|showing_V|showed_V|shown_V|signify_V|signifies_V|signifying_V|signified_V|suppose_V|supposes_V|supposing_V|supposed_V|suspect_V|suspects_V|suspecting_V|suspected_V|think_V|thinks_V|thinking_V|thought_V|understand_V|understands_V|understanding_V|understood_V"
     suasive = "agree_V|agrees_V|agreeing_V|agreed_V|allow_V|allows_V|allowing_V|allowed_V|arrange_V|arranges_V|arranging_V|arranged_V|ask_V|asks_V|asking_V|asked_V|beg_V|begs_V|begging_V|begged_V|command_V|commands_V|commanding_V|commanded_V|concede_V|concedes_V|conceding_V|conceded_V|decide_V|decides_V|deciding_V|decided_V|decree_V|decrees_V|decreeing_V|decreed_V|demand_V|demands_V|demanding_V|demanded_V|desire_V|desires_V|desiring_V|desired_V|determine_V|determines_V|determining_V|determined_V|enjoin_V|enjoins_V|enjoining_V|enjoined_V|ensure_V|ensures_V|ensuring_V|ensured_V|entreat_V|entreats_V|entreating_V|entreated_V|grant_V|grants_V|granting_V|granted_V|insist_V|insists_V|insisting_V|insisted_V|instruct_V|instructs_V|instructing_V|instructed_V|intend_V|intends_V|intending_V|intended_V|move_V|moves_V|moving_V|moved_V|ordain_V|ordains_V|ordaining_V|ordained_V|order_V|orders_V|ordering_V|ordered_V|pledge_V|pledges_V|pledging_V|pledged_V|pray_V|prays_V|praying_V|prayed_V|prefer_V|prefers_V|preferring_V|preferred_V|pronounce_V|pronounces_V|pronouncing_V|pronounced_V|propose_V|proposes_V|proposing_V|proposed_V|recommend_V|recommends_V|recommending_V|recommended_V|request_V|requests_V|requesting_V|requested_V|require_V|requires_V|requiring_V|required_V|resolve_V|resolves_V|resolving_V|resolved_V|rule_V|rules_V|ruling_V|ruled_V|stipulate_V|stipulates_V|stipulating_V|stipulated_V|suggest_V|suggests_V|suggesting_V|suggested_V|urge_V|urges_V|urging_V|urged_V|vote_V|votes_V|voting_V|voted_V"
 
-    # The following lists are based on the verb semantic categories used in Biber 2006.
-    # ELF: With many thanks to Muhammad Shakir for providing me with these lists.
-
-    # Activity verbs 
-    # ELF: removed GET and GO due to high polysemy and corrected the "evercise" typo found in both Shakir and Biber 2006.
-    vb_act =	"(buy|buys|buying|bought|make|makes|making|made|give|gives|giving|gave|given|take|takes|taking|took|taken|come|comes|coming|came|use|uses|using|used|leave|leaves|leaving|left|show|shows|showing|showed|shown|try|tries|trying|tried|work|works|wrought|worked|working|move|moves|moving|moved|follow|follows|following|followed|put|puts|putting|pay|pays|paying|paid|bring|brings|bringing|brought|meet|meets|met|play|plays|playing|played|run|runs|running|ran|hold|holds|holding|held|turn|turns|turning|turned|send|sends|sending|sent|sit|sits|sitting|sat|wait|waits|waiting|waited|walk|walks|walking|walked|carry|carries|carrying|carried|lose|loses|losing|lost|eat|eats|ate|eaten|eating|watch|watches|watching|watched|reach|reaches|reaching|reached|add|adds|adding|added|produce|produces|producing|produced|provide|provides|providing|provided|pick|picks|picking|picked|wear|wears|wearing|wore|worn|open|opens|opening|opened|win|wins|winning|won|catch|catches|catching|caught|pass|passes|passing|passed|shake|shakes|shaking|shook|shaken|smile|smiles|smiling|smiled|stare|stares|staring|stared|sell|sells|selling|sold|spend|spends|spending|spent|apply|applies|applying|applied|form|forms|forming|formed|obtain|obtains|obtaining|obtained|arrange|arranges|arranging|arranged|beat|beats|beating|beaten|check|checks|checking|checked|cover|covers|covering|covered|divide|divides|dividing|divided|earn|earns|earning|earned|extend|extends|extending|extended|fix|fixes|fixing|fixed|hang|hangs|hanging|hanged|hung|join|joins|joining|joined|lie|lies|lying|lay|lain|lied|obtain|obtains|obtaining|obtained|pull|pulls|pulling|pulled|repeat|repeats|repeating|repeated|receive|receives|receiving|received|save|saves|saving|saved|share|shares|sharing|shared|smile|smiles|smiling|smiled|throw|throws|throwing|threw|thrown|visit|visits|visiting|visited|accompany|accompanies|accompanying|accompanied|acquire|acquires|acquiring|acquired|advance|advances|advancing|advanced|behave|behaves|behaving|behaved|borrow|borrows|borrowing|borrowed|burn|burns|burning|burned|burnt|clean|cleaner|cleanest|cleans|cleaning|cleaned|climb|climbs|climbing|climbed|combine|combines|combining|combined|control|controls|controlling|controlled|defend|defends|defending|defended|deliver|delivers|delivering|delivered|dig|digs|digging|dug|encounter|encounters|encountering|encountered|engage|engages|engaging|engaged|exercise|exercised|exercising|exercises|expand|expands|expanding|expanded|explore|explores|exploring|explored|reduce|reduces|reducing|reduced)"
-
-    # Communication verbs 
-    # ELF: corrected a typo for "descibe" and added its other forms, removed "spake" as a form of SPEAK, removed some adjective forms like "fitter, fittest", etc.
-    # In addition, British spellings and the verbs "AGREE, ASSERT, BEG, CONFIDE, COMMAND, DISAGREE, OBJECT, PLEDGE, PRONOUNCE, PLEAD, REPORT, TESTIFY, VOW" (taken from the public and suasive lists above) were added. "MEAN" which was originally assigned to the mental verb list was added to the communication list, instead.
-    vb_comm = "(say|says|saying|said|tell|tells|telling|told|call|calls|calling|called|ask|asks|asking|asked|write|writes|writing|wrote|written|talk|talks|talking|talked|speak|speaks|spoke|spoken|speaking|thank|thanks|thanking|thanked|describe|describing|describes|described|claim|claims|claiming|claimed|offer|offers|offering|offered|admit|admits|admitting|admitted|announce|announces|announcing|announced|answer|answers|answering|answered|argue|argues|arguing|argued|deny|denies|denying|denied|discuss|discusses|discussing|discussed|encourage|encourages|encouraging|encouraged|explain|explains|explaining|explained|express|expresses|expressing|expressed|insist|insists|insisting|insisted|mention|mentions|mentioning|mentioned|offer|offers|offering|offered|propose|proposes|proposing|proposed|quote|quotes|quoting|quoted|reply|replies|replying|replied|shout|shouts|shouting|shouted|sign|signs|signing|signed|sing|sings|singing|sang|sung|state|states|stating|stated|teach|teaches|teaching|taught|warn|warns|warning|warned|accuse|accuses|accusing|accused|acknowledge|acknowledges|acknowledging|acknowledged|address|addresses|addressing|addressed|advise|advises|advising|advised|appeal|appeals|appealing|appealed|assure|assures|assuring|assured|challenge|challenges|challenging|challenged|complain|complains|complaining|complained|consult|consults|consulting|consulted|convince|convinces|convincing|convinced|declare|declares|declaring|declared|demand|demands|demanding|demanded|emphasize|emphasizes|emphasizing|emphasized|emphasise|emphasises|emphasising|emphasised|excuse|excuses|excusing|excused|inform|informs|informing|informed|invite|invites|inviting|invited|persuade|persuades|persuading|persuaded|phone|phones|phoning|phoned|pray|prays|praying|prayed|promise|promises|promising|promised|question|questions|questioning|questioned|recommend|recommends|recommending|recommended|remark|remarks|remarking|remarked|respond|responds|responding|responded|specify|specifies|specifying|specified|swear|swears|swearing|swore|sworn|threaten|threatens|threatening|threatened|urge|urges|urging|urged|welcome|welcomes|welcoming|welcomed|whisper|whispers|whispering|whispered|suggest|suggests|suggesting|suggested|plead|pleads|pleaded|pleading|agree|agrees|agreed|agreeing|assert|asserts|asserting|asserted|beg|begs|begging|begged|confide|confides|confiding|confided|command|commands|commanding|commanded|disagree|disagreeing|disagrees|disagreed|object|objects|objected|objects|pledge|pledges|pledging|pledged|report|reports|reported|reporting|testify|testifies|testified|testifying|vow|vows|vowing|vowed|mean|means|meaning|meant)"
-
-    # Mental verbs
-    # ELF: Added British spellings, removed AFFORD and FIND. Removed DESERVE which is also on Biber's (2006) existential list. Added wan to account for wanna tokenised as wan na.
-    vb_mental =	"(see|sees|seeing|saw|seen|know|knows|knowing|knew|known|think|thinks|thinking|thought|want|wan|wants|wanting|wanted|need|needs|needing|needed|feel|feels|feeling|felt|like|likes|liking|liked|hear|hears|hearing|heard|remember|remembers|remembering|remembered|believe|believes|believing|believed|read|reads|reading|consider|considers|considering|considered|suppose|supposes|supposing|supposed|listen|listens|listening|listened|love|loves|loving|loved|wonder|wonders|wondering|wondered|understand|understands|understood|expect|expects|expecting|expected|hope|hopes|hoping|hoped|assume|assumes|assuming|assumed|determine|determines|determining|determined|agree|agrees|agreeing|agreed|bear|bears|bearing|bore|borne|care|cares|caring|cared|choose|chooses|choosing|chose|chosen|compare|compares|comparing|compared|decide|decides|deciding|decided|discover|discovers|discovering|discovered|doubt|doubts|doubting|doubted|enjoy|enjoys|enjoying|enjoyed|examine|examines|examining|examined|face|faces|facing|faced|forget|forgets|forgetting|forgot|forgotten|hate|hates|hating|hated|identify|identifies|identifying|identified|imagine|imagines|imagining|imagined|intend|intends|intending|intended|learn|learns|learning|learned|learnt|miss|misses|missing|missed|mind|minds|minding|notice|notices|noticing|noticed|plan|plans|planning|planned|prefer|prefers|preferring|preferred|prove|proves|proving|proved|proven|realize|realizes|realizing|realized|recall|recalls|recalling|recalled|recognize|recognizes|recognizing|recognized|recognise|recognises|recognising|recognised|regard|regards|regarding|regarded|suffer|suffers|suffering|suffered|wish|wishes|wishing|wished|worry|worries|worrying|worried|accept|accepts|accepting|accepted|appreciate|appreciates|appreciating|appreciated|approve|approves|approving|approved|assess|assesses|assessing|assessed|blame|blames|blaming|blamed|bother|bothers|bothering|bothered|calculate|calculates|calculating|calculated|conclude|concludes|concluding|concluded|celebrate|celebrates|celebrating|celebrated|confirm|confirms|confirming|confirmed|count|counts|counting|counted|dare|dares|daring|dared|detect|detects|detecting|detected|dismiss|dismisses|dismissing|dismissed|distinguish|distinguishes|distinguishing|distinguished|experience|experiences|experiencing|experienced|fear|fears|fearing|feared|forgive|forgives|forgiving|forgave|forgiven|guess|guesses|guessing|guessed|ignore|ignores|ignoring|ignored|impress|impresses|impressing|impressed|interpret|interprets|interpreting|interpreted|judge|judges|judging|judged|justify|justifies|justifying|justified|observe|observes|observing|observed|perceive|perceives|perceiving|perceived|predict|predicts|predicting|predicted|pretend|pretends|pretending|pretended|reckon|reckons|reckoning|reckoned|remind|reminds|reminding|reminded|satisfy|satisfies|satisfying|satisfied|solve|solves|solving|solved|study|studies|studying|studied|suspect|suspects|suspecting|suspected|trust|trusts|trusting|trusted)"
-
-    # Facilitation or causation verbs
-    vb_cause = "(help|helps|helping|helped|let|lets|letting|allow|allows|allowing|allowed|affect|affects|affecting|affected|cause|causes|causing|caused|enable|enables|enabling|enabled|ensure|ensures|ensuring|ensured|force|forces|forcing|forced|prevent|prevents|preventing|prevented|assist|assists|assisting|assisted|guarantee|guarantees|guaranteeing|guaranteed|influence|influences|influencing|influenced|permit|permits|permitting|permitted|require|requires|requiring|required)"
-
-    # Occurrence verbs
-    vb_occur = "(become|becomes|becoming|became|happen|happens|happening|happened|change|changes|changing|changed|die|dies|dying|died|grow|grows|grew|grown|growing|develop|develops|developing|developed|arise|arises|arising|arose|arisen|emerge|emerges|emerging|emerged|fall|falls|falling|fell|fallen|increase|increases|increasing|increased|last|lasts|lasting|lasted|rise|rises|rising|rose|risen|disappear|disappears|disappearing|disappeared|flow|flows|flowing|flowed|shine|shines|shining|shone|shined|sink|sinks|sank|sunk|sunken|sinking|slip|slips|slipping|slipped|occur|occurs|occurring|occurred)"
-
-    # Existence or relationship verbs ELF: Does not include the copular BE as in Biber (2006). LOOK was also removed due to too high polysemy. 
-    vb_exist =	"(seem|seems|seeming|seemed|stand|stands|standing|stood|stay|stays|staid|stayed|staying|live|lives|living|lived|appear|appears|appearing|appeared|include|includes|including|included|involve|involves|involving|involved|contain|contains|containing|contained|exist|exists|existing|existed|indicate|indicates|indicating|indicated|concern|concerns|concerning|concerned|constitute|constitutes|constituting|constituted|define|defines|defining|defined|derive|derives|deriving|derived|illustrate|illustrates|illustrating|illustrated|imply|implies|implying|implied|lack|lacks|lacking|lacked|owe|owes|owing|owed|own|owns|owning|owned|possess|possesses|possessing|possessed|suit|suits|suiting|suited|vary|varies|varying|varied|fit|fits|fitting|fitted|matter|matters|mattering|mattered|reflect|reflects|reflecting|reflected|relate|relates|relating|related|remain|remains|remaining|remained|reveal|reveals|revealing|revealed|sound|sounds|sounding|sounded|tend|tends|tending|tended|represent|represents|representing|represented|deserve|deserves|deserving|deserved)"
-
-    # Aspectual verbs
-    vb_aspect =	"(start|starts|starting|started|keep|keeps|keeping|kept|stop|stops|stopping|stopped|begin|begins|beginning|began|begun|complete|completes|completing|completed|end|ends|ending|ended|finish|finishes|finishing|finished|cease|ceases|ceasing|ceased|continue|continues|continuing|continued)"
-
     # Days of the week ELF: Added to include them in normal noun (NN) count rather than NNP (currently not in use)
     #days = "(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon\.+|Tue\.+|Wed\.+|Thu\.+|Fri\.+|Sat\.+|Sun\.+)"
 
@@ -117,62 +89,6 @@ def process_sentence (words: list):
     # Function words
     # EFL: Added in order to calculate a content to function word ratio to capture lexical density
     function_words = "(a|about|above|after|again|ago|ai|all|almost|along|already|also|although|always|am|among|an|and|another|any|anybody|anything|anywhere|are|are|around|as|at|back|be|been|before|being|below|beneath|beside|between|beyond|billion|billionth|both|but|by|can|can|could|cos|cuz|did|do|does|doing|done|down|during|each|eight|eighteen|eighteenth|eighth|eightieth|eighty|either|eleven|eleventh|else|enough|even|ever|every|everybody|everyone|everything|everywhere|except|far|few|fewer|fifteen|fifteenth|fifth|fiftieth|fifty|first|five|for|fortieth|forty|four|fourteen|fourteenth|fourth|from|get|gets|getting|got|had|has|have|having|he|hence|her|here|hers|herself|him|himself|his|hither|how|however|hundred|hundredth|i|if|in|into|is|it|its|itself|just|last|less|many|may|me|might|million|millionth|mine|more|most|much|must|my|myself|near|near|nearby|nearly|neither|never|next|nine|nineteen|nineteenth|ninetieth|ninety|ninth|no|nobody|none|noone|nor|not|nothing|now|nowhere|of|off|often|on|once|one|only|or|other|others|ought|our|ours|ourselves|out|over|quite|rather|round|second|seven|seventeen|seventeenth|seventh|seventieth|seventy|shall|sha|she|should|since|six|sixteen|sixteenth|sixth|sixtieth|sixty|so|some|somebody|someone|something|sometimes|somewhere|soon|still|such|ten|tenth|than|that|that|the|their|theirs|them|themselves|then|thence|there|therefore|these|they|third|thirteen|thirteenth|thirtieth|thirty|this|thither|those|though|thousand|thousandth|three|thrice|through|thus|till|to|today|tomorrow|too|towards|twelfth|twelve|twentieth|twenty|twice|two|under|underneath|unless|until|up|us|very|was|we|were|what|when|whence|where|whereas|which|while|whither|who|whom|whose|why|will|with|within|without|wo|would|yes|yesterday|yet|you|your|yours|yourself|yourselves|'re|'ve|n't|'ll|'twas|'em|y'|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|1|2|3|4|5|6|7|8|9|0)"
-
-    #Shakir: noun, adj, adv semantic categories from Biber 2006 (ELF: added British spellings)
-    nn_human = "(family|families|guy|guys|individual|individuals|kid|kids|man|men|manager|managers|member|members|parent|parents|teacher|teachers|child|children|people|peoples|person|people|student|students|woman|women|animal|animals|applicant|applicants|author|authors|baby|babies|boy|boys|client|clients|consumer|consumers|critic|critics|customer|customers|doctor|doctors|employee|employees|employer|employers|father|fathers|female|females|friend|friends|girl|girls|god|gods|historian|historians|husband|husbands|American|Americans|Indian|Indians|instructor|instructors|king|kings|leader|leaders|male|males|mother|mothers|owner|owners|president|presidents|professor|professors|researcher|researchers|scholar|scholars|speaker|speakers|species|species|supplier|suppliers|undergraduate|undergraduates|user|users|wife|wives|worker|workers|writer|writers|accountant|accountants|adult|adults|adviser|advisers|agent|agents|aide|aides|ancestor|ancestors|anthropologist|anthropologists|archaeologist|archaeologists|artist|artists|artiste|artistes|assistant|assistants|associate|associates|attorney|attorneys|audience|audiences|auditor|auditors|bachelor|bachelors|bird|birds|boss|bosses|brother|brothers|buddha|buddhas|buyer|buyers|candidate|candidates|cat|cats|citizen|citizens|colleague|colleagues|collector|collectors|competitor|competitors|counselor|counselors|daughter|daughters|deer|deer|defendant|defendants|designer|designers|developer|developers|director|directors|driver|drivers|economist|economists|engineer|engineers|executive|executives|expert|experts|farmer|farmers|feminist|feminists|freshman|freshmen|eologist|eologists|hero|heroes|host|hosts|hunter|hunters|immigrant|immigrants|infant|infants|investor|investors|jew|jews|judge|judges|lady|ladies|lawyer|lawyers|learner|learners|listener|listeners|maker|makers|manufacturer|manufacturers|miller|millers|minister|ministers|mom|moms|monitor|monitors|monkey|monkeys|neighbor|neighbors|observer|observers|officer|officers|official|officials|participant|participants|partner|partners|patient|patients|personnel|personnels|peer|peers|physician|physicians|plaintiff|plaintiffs|player|players|poet|poets|police|polices|processor|processors|professional|professionals|provider|providers|psychologist|psychologists|resident|residents|respondent|respondents|schizophrenic|schizophrenics|scientist|scientists|secretary|secretaries|server|servers|shareholder|shareholders|sikh|sikhs|sister|sisters|slave|slaves|son|sons|spouse|spouses|supervisor|supervisors|theorist|theorists|tourist|tourists|victim|victims|faculty|faculties|dean|deans|engineer|engineers|reader|readers|couple|couples|graduate|graduates|Pakistanis?|Bangladeshis?|Srilanakns?)"
-    nn_cog = "(analysis|analyses|decision|decisions|experience|experiences|assessment|assessments|calculation|calculations|conclusion|conclusions|consequence|consequences|consideration|considerations|evaluation|evaluations|examination|examinations|expectation|expectations|observation|observations|recognition|recognitions|relation|relations|understanding|understandings|hypothesis|hypotheses|ability|abilities|assumption|assumptions|attention|attentions|attitude|attitudes|belief|beliefs|concentration|concentrations|concern|concerns|consciousness|consciousnesses|concept|concepts|fact|facts|idea|ideas|knowledge|knowledges|look|looks|need|needs|reason|reasons|sense|senses|view|views|theory|theories|desire|desires|emotion|emotions|feeling|feelings|judgement|judgements|memory|memories|notion|notions|opinion|opinions|perception|perceptions|perspective|perspectives|possibility|possibilities|probability|probabilities|responsibility|responsibilities|thought|thoughts)"
-    nn_concrete = "(tank|tanks|stick|sticks|target|targets|strata|stratas|telephone|telephones|string|strings|telescope|telescopes|sugar|sugars|ticket|tickets|syllabus|syllabuses|tip|tips|salt|salts|tissue|tissues|screen|screens|tooth|teeth|sculpture|sculptures|sphere|spheres|seawater|seawaters|spot|spots|ship|ships|steam|steams|silica|silicas|steel|steels|slide|slides|stem|stems|snow|snows|sodium|mud|muds|solid|solids|mushroom|mushrooms|gift|gifts|muscle|muscles|glacier|glaciers|tube|tubes|gun|guns|nail|nails|handbook|handbooks|newspaper|newspapers|handout|handouts|node|nodes|instrument|instruments|notice|notices|knot|knots|novel|novels|lava|lavas|page|pages|food|foods|transcript|transcripts|leg|legs|eye|eyes|lemon|lemons|brain|brains|magazine|magazines|device|devices|magnet|magnets|oak|oaks|manual|manuals|package|packages|marker|markers|peak|peaks|match|matches|pen|pens|metal|metals|pencil|pencils|block|blocks|pie|pies|board|boards|pipe|pipes|heart|hearts|load|loads|paper|papers|transistor|transistors|modem|modems|book|books|mole|moles|case|cases|motor|motors|computer|computers|mound|mounds|dollar|dollars|mouth|mouths|hand|hands|movie|movies|flower|flowers|object|objects|foot|feet|table|tables|frame|frames|water|waters|vessel|vessels|arm|arms|visa|visas|bar|bars|grain|grains|bed|beds|hair|hairs|body|bodies|head|heads|box|boxes|ice|ices|car|cars|item|items|card|cards|journal|journals|chain|chains|key|keys|chair|chairs|window|windows|vehicle|vehicles|leaf|leaves|copy|copies|machine|machines|document|documents|mail|mails|door|doors|map|maps|dot|dots|phone|phones|drug|drugs|picture|pictures|truck|trucks|piece|pieces|tape|tapes|note|notes|liquid|liquids|wire|wires|equipment|equipments|wood|woods|fiber|fibers|fibre|fibres|plant|plants|fig|figs|resistor|resistors|film|films|sand|sands|file|files|score|scores|seat|seats|belt|belts|sediment|sediments|boat|boats|seed|seeds|bone|bones|soil|soils|bubble|bubbles|bud|buds|water|waters|bulb|bulbs|portrait|portraits|bulletin|bulletins|step|steps|shell|shells|stone|stones|cake|cakes|tree|trees|camera|cameras|video|videos|face|faces|wall|walls|acid|acids|alcohol|alcohols|cap|caps|aluminium|aluminiums|clay|clays|artifact|artifacts|clock|clocks|rain|rains|clothing|clothings|asteroid|asteroids|club|clubs|automobile|automobiles|comet|comets|award|awards|sheet|sheets|bag|bags|branch|branches|ball|balls|copper|coppers|banana|bananas|counter|counters|band|bands|cover|covers|wheel|wheels|crop|crops|drop|drops|crystal|crystals|basin|basins|cylinder|cylinders|bell|bells|desk|desks|dinner|dinners|pole|poles|button|buttons|pot|pots|disk|disks|pottery|potteries|drain|drains|radio|radios|drink|drinks|reactor|reactors|drawing|drawings|retina|retinas|dust|dusts|ridge|ridges|edge|edges|ring|rings|engine|engines|ripple|ripples|plate|plates|game|games|cent|cents|post|posts|envelope|envelopes|rock|rocks|filter|filters|root|roots|finger|fingers|slope|slopes|fish|fishes|space|spaces|fruit|fruits|statue|statues|furniture|furnitures|textbook|textbooks|gap|gaps|tool|tools|gate|gates|train|trains|gel|gels|deposit|deposits|chart|charts|mixture|mixtures)"
-    nn_technical = "(cell|cells|unit|units|gene|genes|wave|waves|ion|ions|bacteria|bacterias|electron|electrons|chromosome|chromosomes|element|elements|cloud|clouds|sample|samples|isotope|isotopes|schedule|schedules|neuron|neurons|software|softwares|nuclei|nucleus|solution|solutions|nucleus|nuclei|atom|atoms|ray|rays|margin|margins|virus|viruses|mark|marks|hydrogen|hydrogens|mineral|minerals|internet|internets|molecule|molecules|mineral|minerals|organism|organisms|message|messages|oxygen|oxygens|paragraph|paragraphs|particle|particles|sentence|sentences|play|plays|star|stars|poem|poems|thesis|theses|proton|protons|unit|units|web|webs|layer|layers|center|centers|matter|matters|chapter|chapters|square|squares|data|circle|circles|equation|equations|compound|compounds|exam|exams|letter|letters|bill|bills|page|pages|component|components|statement|statements|diagram|diagrams|word|words|dna|angle|angles|fire|fires|carbon|carbons|formula|formulas|graph|graphs|iron|irons|lead|leads|jury|juries|light|lights|list|lists)"
-    nn_place = "(apartment|apartments|interior|interiors|bathroom|bathrooms|moon|moons|bay|bays|museum|museums|bench|benches|neighborhood|neighborhoods|bookstore|bookstores|opposite|opposites|border|borders|orbit|orbits|cave|caves|orbital|orbitals|continent|continents|outside|outsides|delta|deltas|parallel|parallels|desert|deserts|passage|passages|estuary|estuaries|pool|pools|factory|factories|prison|prisons|farm|farms|restaurant|restaurants|forest|forests|sector|sectors|habitat|habitats|shaft|shafts|hell|hells|shop|shops|hemisphere|hemispheres|southwest|hill|hills|station|stations|hole|holes|territory|territories|horizon|horizons|road|roads|bottom|bottoms|store|stores|boundary|boundaries|stream|streams|building|buildings|top|tops|campus|campuses|valley|valleys|canyon|canyons|village|villages|coast|coasts|city|cities|county|counties|country|countries|court|courts|earth|earths|front|fronts|environment|environments|district|districts|field|fields|floor|floors|market|markets|lake|lakes|office|offices|land|lands|organization|organizations|lecture|lectures|place|places|left|lefts|room|rooms|library|libraries|area|areas|location|locations|class|classes|middle|middles|classroom|classrooms|mountain|mountains|ground|grounds|north|norths|hall|halls|ocean|oceans|park|parks|planet|planets|property|properties|region|regions|residence|residences|river|rivers)"
-    nn_quant = "(cycle|cycles|rate|rates|date|dates|second|seconds|frequency|frequencies|section|sections|future|futures|semester|semesters|half|halves|temperature|temperatures|height|heights|today|todays|number|numbers|amount|amounts|week|weeks|age|ages|day|days|century|centuries|part|parts|energy|energies|lot|lots|heat|heats|term|terms|hour|hours|time|times|month|months|mile|miles|period|periods|moment|moments|morning|mornings|volume|volumes|per|weekend|weekends|percentage|percentages|weight|weights|portion|portions|minute|minutes|quantity|quantities|percent|percents|quarter|quarters|length|lengths|ratio|ratios|measure|measures|summer|summers|meter|meters|volt|volts|voltage|voltages)"
-    nn_group = "(airline|airlines|institute|institutes|colony|colonies|bank|banks|flight|flights|church|churches|hotel|hotels|firm|firms|hospital|hospitals|household|households|college|colleges|institution|institutions|house|houses|lab|labs|laboratory|laboratories|community|communities|company|companies|government|governments|university|universities|school|schools|home|homes|congress|congresses|committee|committees)"
-    nn_abstract_process = "(action|actions|activity|activities|application|applications|argument|arguments|development|developments|education|educations|effect|effects|function|functions|method|methods|research|researches|result|results|process|processes|accounting|accountings|achievement|achievements|addition|additions|administration|administrations|approach|approaches|arrangement|arrangements|assignment|assignments|competition|competitions|construction|constructions|consumption|consumptions|contribution|contributions|counseling|counselings|counselling|counsellings|criticism|criticisms|definition|definitions|discrimination|discriminations|description|descriptions|discussion|discussions|distribution|distributions|division|divisions|eruption|eruptions|evolution|evolutions|exchange|exchanges|exercise|exercises|experiment|experiments|explanation|explanations|expression|expressions|formation|formations|generation|generations|graduation|graduations|management|managements|marketing|marketings|marriage|marriages|mechanism|mechanisms|meeting|meetings|operation|operations|orientation|orientations|performance|performances|practice|practices|presentation|presentations|procedure|procedures|production|productions|progress|progresses|reaction|reactions|registration|registrations|regulation|regulations|revolution|revolutions|selection|selections|session|sessions|strategy|strategies|teaching|teachings|technique|techniques|tradition|traditions|training|trainings|transition|transitions|treatment|treatments|trial|trials|act|acts|agreement|agreements|attempt|attempts|attendance|attendances|birth|births|break|breaks|claim|claims|comment|comments|comparison|comparisons|conflict|conflicts|deal|deals|death|deaths|debate|debates|demand|demands|answer|answers|control|controls|flow|flows|service|services|work|works|test|tests|use|uses|war|wars|change|changes|question|questions|study|studies|talk|talks|task|tasks|trade|trades|transfer|transfers|admission|admissions|design|designs|detail|details|dimension|dimensions|direction|directions|disorder|disorders|diversity|diversities|economy|economies|emergency|emergencies|emphasis|emphases|employment|employments|equilibrium|equilibriums|equity|equities|error|errors|expense|expenses|facility|facilities|failure|failures|fallacy|fallacies|feature|features|format|formats|freedom|freedoms|fun|funs|gender|genders|goal|goals|grammar|grammars|health|healths|heat|heats|help|helps|identity|identities|image|images|impact|impacts|importance|importances|influence|influences|input|inputs|labor|labors|labour|labours|leadership|leaderships|link|links|manner|manners|math|maths|matrix|matrices|meaning|meanings|music|musics|network|networks|objective|objectives|opportunity|opportunities|option|options|origin|origins|output|outputs|past|pasts|pattern|patterns|phase|phases|philosophy|philosophies|plan|plans|potential|potentials|prerequisite|prerequisites|presence|presences|principle|principles|success|successes|profile|profiles|profit|profits|proposal|proposals|psychology|psychologies|quality|qualities|quiz|quizzes|race|races|reality|realities|religion|religions|resource|resources|respect|respects|rest|rests|return|returns|risk|risks|substance|substances|scene|scenes|security|securities|series|set|sets|setting|settings|sex|sexes|shape|shapes|share|shares|show|shows|sign|signs|signal|signals|sort|sorts|sound|sounds|spring|springs|stage|stages|standard|standards|start|starts|stimulus|stimuli|strength|strengths|stress|stresses|style|styles|support|supports|survey|surveys|symbol|symbols|topic|topics|track|tracks|trait|traits|trouble|troubles|truth|truths|variation|variations|variety|varieties|velocity|velocities|version|versions|whole|wholes|action|actions|account|accounts|condition|conditions|culture|cultures|end|ends|factor|factors|grade|grades|interest|interests|issue|issues|job|jobs|kind|kinds|language|languages|law|laws|level|levels|life|lives|model|models|name|names|nature|natures|order|orders|policy|policies|position|positions|power|powers|pressure|pressures|relationship|relationships|requirement|requirements|role|roles|rule|rules|science|sciences|side|sides|situation|situations|skill|skills|source|sources|structure|structures|subject|subjects|type|types|information|informations|right|rights|state|states|system|systems|value|values|way|ways|address|addresses|absence|absences|advantage|advantages|aid|aids|alternative|alternatives|aspect|aspects|authority|authorities|axis|axes|background|backgrounds|balance|balances|base|bases|beginning|beginnings|benefit|benefits|bias|biases|bond|bonds|capital|capitals|care|cares|career|careers|cause|causes|characteristic|characteristics|charge|charges|check|checks|choice|choices|circuit|circuits|circumstance|circumstances|climate|climates|code|codes|color|colors|colour|colours|column|columns|combination|combinations|complex|complexes|connection|connections|constant|constants|constraint|constraints|contact|contacts|content|contents|contract|contracts|context|contexts|contrast|contrasts|crime|crimes|criteria|criterias|cross|crosses|current|currents|curriculum|curriculums|curve|curves|debt|debts|density|densities)"
-    advl_nonfact = "(confidentially|frankly|generally|honestly|mainly|technically|truthfully|typically|reportedly|primarily|usually)"
-    advl_att = "(amazingly|astonishingly|conveniently|curiously|hopefully|fortunately|importantly|ironically|rightly|sadly|surprisingly|unfortunately)"
-    advl_fact = "(actually|always|certainly|definitely|indeed|inevitably|never|obviously|really|undoubtedly|nodoubt|ofcourse|infact)"
-    advl_likely = "(apparently|evidently|perhaps|possibly|predictably|probably|roughly|maybe)"
-    jj_size = "(big|deep|heavy|huge|long|large|little|short|small|thin|wide|narrow)"
-    jj_time = "(annual|daily|early|late|new|old|recent|young|weekly|monthly)"
-    jj_color = "(black|white|dark|bright|blue|brown|green|gr[ae]y|red)"
-    jj_eval = "(bad|beautiful|best|fine|good|great|lovely|nice|poor)"
-    jj_relation = "(additional|average|chief|complete|different|direct|entire|external|final|following|general|initial|internal|left|main|maximum|necessary|original|particular|previous|primary|public|similar|single|standard|top|various|same)"
-    jj_topic = "(chemical|commercial|environmental|human|industrial|legal|medical|mental|official|oral|phonetic|political|sexual|social|ventral|visual)"
-    jj_att_other = "(afraid|amazed|(un)?aware|concerned|disappointed|encouraged|glad|happy|hopeful|pleased|shocked|surprised|worried)"
-    jj_epist_other = "(apparent|certain|clear|confident|convinced|correct|evident|false|impossible|inevitable|obvious|positive|right|sure|true|well-known|doubtful|likely|possible|probable|unlikely)"
-    comm_vb_other = "(say|says|saying|said|tell|tells|telling|told|call|calls|calling|called|ask|asks|asking|asked|write|writes|writing|wrote|written|talk|talks|talking|talked|speak|speaks|spoke|spoken|speaking|thank|thanks|thanking|thanked|describe|describing|describes|described|claim|claims|claiming|claimed|offer|offers|offering|offered|admit|admits|admitting|admitted|announce|announces|announcing|announced|answer|answers|answering|answered|argue|argues|arguing|argued|deny|denies|denying|denied|discuss|discusses|discussing|discussed|encourage|encourages|encouraging|encouraged|explain|explains|explaining|explained|express|expresses|expressing|expressed|insist|insists|insisting|insisted|mention|mentions|mentioning|mentioned|offer|offers|offering|offered|propose|proposes|proposing|proposed|quote|quotes|quoting|quoted|reply|replies|replying|replied|shout|shouts|shouting|shouted|sign|signs|signing|signed|sing|sings|singing|sang|sung|state|states|stating|stated|teach|teaches|teaching|taught|warn|warns|warning|warned|accuse|accuses|accusing|accused|acknowledge|acknowledges|acknowledging|acknowledged|address|addresses|addressing|addressed|advise|advises|advising|advised|appeal|appeals|appealing|appealed|assure|assures|assuring|assured|challenge|challenges|challenging|challenged|complain|complains|complaining|complained|consult|consults|consulting|consulted|convince|convinces|convincing|convinced|declare|declares|declaring|declared|demand|demands|demanding|demanded|emphasize|emphasizes|emphasizing|emphasized|emphasise|emphasises|emphasising|emphasised|excuse|excuses|excusing|excused|inform|informs|informing|informed|invite|invites|inviting|invited|persuade|persuades|persuading|persuaded|phone|phones|phoning|phoned|pray|prays|praying|prayed|promise|promises|promising|promised|question|questions|questioning|questioned|recommend|recommends|recommending|recommended|remark|remarks|remarking|remarked|respond|responds|responding|responded|specify|specifies|specifying|specified|swear|swears|swearing|swore|sworn|threaten|threatens|threatening|threatened|urge|urges|urging|urged|welcome|welcomes|welcoming|welcomed|whisper|whispers|whispering|whispered|suggest|suggests|suggesting|suggested|plead|pleads|pleaded|pleading|agree|agrees|agreed|agreeing|assert|asserts|asserting|asserted|beg|begs|begging|begged|confide|confides|confiding|confided|command|commands|commanding|commanded|disagree|disagreeing|disagrees|disagreed|object|objects|objected|objects|pledge|pledges|pledging|pledged|report|reports|reported|reporting|testify|testifies|testified|testifying|vow|vows|vowing|vowed|mean|means|meaning|meant)"
-    fact_vb_other = "(concluding|conclude|concluded|concludes|demonstrates|demonstrating|demonstrated|demonstrate|determining|determines|determine|determined|discovered|discovers|discover|discovering|finds|finding|found|find|knows|known|knowing|know|knew|learn|learns|learning|learnt|means|meaning|meant|mean|notifies|notices|notice|noticed|notify|notifying|noticing|notified|observed|observes|observing|observe|proven|prove|proving|proved|proves|reali(z|s)ed|reali(z|s)es|reali(z|s)e|reali(z|s)ing|recogni(z|s)es|recogni(z|s)e|recogni(z|s)ed|recogni(z|s)ing|remembered|remember|remembers|remembering|sees|seen|saw|seeing|see|showing|shows|shown|showed|show|understand|understands|understanding|understood)"
-    likely_vb_other = "(assumes|assumed|assuming|assume|believe|believing|believes|believed|doubting|doubted|doubts|doubt|gathers|gathering|gathered|gather|guessed|guess|guessing|guesses|hypothesi(z|s)ing|hypothesi(z|s)ed|hypothesi(z|s)e|hypothesi(z|s)es|imagine|imagining|imagines|imagined|predict|predicted|predicting|predicts|presupposing|presupposes|presuppose|presupposed|presumes|presuming|presumed|presume|reckon|reckoning|reckoned|reckons|seemed|seems|seem|seeming|speculated|speculate|speculating|speculates|suppose|supposes|supposing|supposed|suspected|suspect|suspects|suspecting|think|thinks|thinking|thought)"
-    att_vb_other = "(agreeing|agreed|agree|agrees|anticipates|anticipated|anticipate|anticipating|complain|complained|complaining|complains|conceded|concede|concedes|conceding|ensure|expecting|expect|expects|expected|fears|feared|fear|fearing|feel|feels|feeling|felt|forgetting|forgets|forgotten|forgot|forget|hoped|hope|hopes|hoping|minding|minded|minds|mind|preferred|prefer|preferring|prefers|pretending|pretend|pretended|pretends|requiring|required|requires|require|wishes|wished|wish|wishing|worry|worrying|worries|worried)"
-
-    #Shakir: vocabulary lists for that, wh and to clauses governed by semantic classes of verbs, nouns, adjectives
-    th_vb_comm = "(say|says|saying|said|tell|tells|telling|told|call|calls|calling|called|ask|asks|asking|asked|write|writes|writing|wrote|written|talk|talks|talking|talked|speak|speaks|spoke|spoken|speaking|thank|thanks|thanking|thanked|describe|describing|describes|described|claim|claims|claiming|claimed|offer|offers|offering|offered|admit|admits|admitting|admitted|announce|announces|announcing|announced|answer|answers|answering|answered|argue|argues|arguing|argued|deny|denies|denying|denied|discuss|discusses|discussing|discussed|encourage|encourages|encouraging|encouraged|explain|explains|explaining|explained|express|expresses|expressing|expressed|insist|insists|insisting|insisted|mention|mentions|mentioning|mentioned|offer|offers|offering|offered|propose|proposes|proposing|proposed|quote|quotes|quoting|quoted|reply|replies|replying|replied|shout|shouts|shouting|shouted|sign|signs|signing|signed|sing|sings|singing|sang|sung|state|states|stating|stated|teach|teaches|teaching|taught|warn|warns|warning|warned|accuse|accuses|accusing|accused|acknowledge|acknowledges|acknowledging|acknowledged|address|addresses|addressing|addressed|advise|advises|advising|advised|appeal|appeals|appealing|appealed|assure|assures|assuring|assured|challenge|challenges|challenging|challenged|complain|complains|complaining|complained|consult|consults|consulting|consulted|convince|convinces|convincing|convinced|declare|declares|declaring|declared|demand|demands|demanding|demanded|emphasize|emphasizes|emphasizing|emphasized|emphasise|emphasises|emphasising|emphasised|excuse|excuses|excusing|excused|inform|informs|informing|informed|invite|invites|inviting|invited|persuade|persuades|persuading|persuaded|phone|phones|phoning|phoned|pray|prays|praying|prayed|promise|promises|promising|promised|question|questions|questioning|questioned|recommend|recommends|recommending|recommended|remark|remarks|remarking|remarked|respond|responds|responding|responded|specify|specifies|specifying|specified|swear|swears|swearing|swore|sworn|threaten|threatens|threatening|threatened|urge|urges|urging|urged|welcome|welcomes|welcoming|welcomed|whisper|whispers|whispering|whispered|suggest|suggests|suggesting|suggested|plead|pleads|pleaded|pleading|agree|agrees|agreed|agreeing|assert|asserts|asserting|asserted|beg|begs|begging|begged|confide|confides|confiding|confided|command|commands|commanding|commanded|disagree|disagreeing|disagrees|disagreed|object|objects|objected|objects|pledge|pledges|pledging|pledged|report|reports|reported|reporting|testify|testifies|testified|testifying|vow|vows|vowing|vowed|mean|means|meaning|meant)"
-    th_vb_att = "(agreeing|agreed|agree|agrees|anticipates|anticipated|anticipate|anticipating|complain|complained|complaining|complains|conceded|concede|concedes|conceding|ensure|expecting|expect|expects|expected|fears|feared|fear|fearing|feel|feels|feeling|felt|forgetting|forgets|forgotten|forgot|forget|hoped|hope|hopes|hoping|minding|minded|minds|mind|preferred|prefer|preferring|prefers|pretending|pretend|pretended|pretends|requiring|required|requires|require|wishes|wished|wish|wishing|worry|worrying|worries|worried)"
-    th_vb_fact = "(concluding|conclude|concluded|concludes|demonstrates|demonstrating|demonstrated|demonstrate|determining|determines|determine|determined|discovered|discovers|discover|discovering|finds|finding|found|find|knows|known|knowing|know|knew|learn|learns|learning|learnt|means|meaning|meant|mean|notifies|notices|notice|noticed|notify|notifying|noticing|notified|observed|observes|observing|observe|proven|prove|proving|proved|proves|reali(z|s)ed|reali(z|s)es|reali(z|s)e|reali(z|s)ing|recogni(z|s)es|recogni(z|s)e|recogni(z|s)ed|recogni(z|s)ing|remembered|remember|remembers|remembering|sees|seen|saw|seeing|see|showing|shows|shown|showed|show|understand|understands|understanding|understood)"
-    th_vb_likely = "(assumes|assumed|assuming|assume|believe|believing|believes|believed|doubting|doubted|doubts|doubt|gathers|gathering|gathered|gather|guessed|guess|guessing|guesses|hypothesi(z|s)ing|hypothesi(z|s)ed|hypothesi(z|s)e|hypothesi(z|s)es|imagine|imagining|imagines|imagined|predict|predicted|predicting|predicts|presupposing|presupposes|presuppose|presupposed|presumes|presuming|presumed|presume|reckon|reckoning|reckoned|reckons|seemed|seems|seem|seeming|speculated|speculate|speculating|speculates|suppose|supposes|supposing|supposed|suspected|suspect|suspects|suspecting|think|thinks|thinking|thought)"
-    to_vb_desire = "(agreeing|agreed|agree|agrees|chooses|chosen|choose|choosing|chose|decide|deciding|decided|decides|hate|hates|hating|hated|hesitated|hesitates|hesitate|hesitating|hoped|hope|hopes|hoping|intended|intend|intending|intends|likes|liked|like|liking|loving|loves|love|loved|means|meaning|meant|mean|needs|need|needing|needed|planning|plan|planned|plans|preferred|prefer|preferring|prefers|prepares|prepare|preparing|prepared|refuses|refusing|refuse|refused|wanting|want|wants|wanted|wishes|wished|wish|wishing)"
-    to_vb_effort = "(allowance|allowing|allowed|allowancing|allow|allowances|allows|allowanced|attempting|attempted|attempts|attempt|enables|enabled|enabling|enable|encourages|encouraging|encouraged|encourage|fails|fail|failing|failed|help|helping|helps|helped|instructs|instructed|instruct|instructing|managing|managed|manage|manages|oblige|obligate|obliged|obligates|obliging|obligating|obliges|obligated|order|ordering|orders|ordered|permitted|permits|permit|permitting|persuaded|persuades|persuade|persuading|prompts|prompting|prompted|prompt|requiring|requisitions|requisitioning|required|requires|requisition|requisitioned|require|sought|seeking|seeks|seek|try|trying|tries|tried)"
-    to_vb_prob = "(appear|appeared|appears|appearing|happens|happened|happen|happening|seemed|seems|seem|seeming|tending|tends|tended|tend)"
-    to_vb_speech = "(asks|ask|asking|asked|claiming|claims|claim|claimed|invite|inviting|invited|invites|promising|promised|promise|promises|reminding|remind|reminded|reminds|requesting|request|requests|requested|saying|say|said|says|teaches|teaching|taught|teach|tell|tells|telling|told|urging|urges|urged|urge|warning|warn|warned|warns)"
-    to_vb_mental = "(assumed|assumes|assume|assuming|believing|believes|believe|believed|considered|considers|consider|considering|expecting|expects|expected|expect|find|found|finding|finds|forgetting|forget|forgets|forgot|forgotten|imagine|imagined|imagining|imagines|judge|adjudicates|adjudicate|judges|judged|knowing|knows|known|know|knew|learnt|learning|learns|learn|presumes|presuming|presumed|presume|pretend|pretends|pretended|pretending|remembered|remember|remembers|remembering|supposing|suppose|supposes|supposed)"
-    wh_vb_att = "(agreeing|agreed|agree|agrees|anticipates|anticipated|anticipate|anticipating|complain|complained|complaining|complains|conceded|concede|concedes|conceding|ensure|expecting|expect|expects|expected|fears|feared|fear|fearing|feel|feels|feeling|felt|forgetting|forgets|forgotten|forgot|forget|hoped|hope|hopes|hoping|minding|minded|minds|mind|preferred|prefer|preferring|prefers|pretending|pretend|pretended|pretends|requiring|required|requires|require|wishes|wished|wish|wishing|worry|worrying|worries|worried)"
-    wh_vb_fact = "(concluding|conclude|concluded|concludes|demonstrates|demonstrating|demonstrated|demonstrate|determining|determines|determine|determined|discovered|discovers|discover|discovering|finds|finding|found|find|knows|known|knowing|know|knew|learn|learns|learning|learnt|means|meaning|meant|mean|notifies|notices|notice|noticed|notify|notifying|noticing|notified|observed|observes|observing|observe|proven|prove|proving|proved|proves|reali(z|s)ed|reali(z|s)es|reali(z|s)e|reali(z|s)ing|recogni(z|s)es|recogni(z|s)e|recogni(z|s)ed|recogni(z|s)ing|remembered|remember|remembers|remembering|sees|seen|saw|seeing|see|showing|shows|shown|showed|show|understand|understands|understanding|understood)"
-    wh_vb_likely = "(assumes|assumed|assuming|assume|believe|believing|believes|believed|doubting|doubted|doubts|doubt|gathers|gathering|gathered|gather|guessed|guess|guessing|guesses|hypothesi(z|s)ing|hypothesi(z|s)ed|hypothesi(z|s)e|hypothesi(z|s)es|imagine|imagining|imagines|imagined|predict|predicted|predicting|predicts|presupposing|presupposes|presuppose|presupposed|presumes|presuming|presumed|presume|reckon|reckoning|reckoned|reckons|seemed|seems|seem|seeming|speculated|speculate|speculating|speculates|suppose|supposes|supposing|supposed|suspected|suspect|suspects|suspecting|think|thinks|thinking|thought)"
-    wh_vb_comm = "(say|says|saying|said|tell|tells|telling|told|call|calls|calling|called|ask|asks|asking|asked|write|writes|writing|wrote|written|talk|talks|talking|talked|speak|speaks|spoke|spoken|speaking|thank|thanks|thanking|thanked|describe|describing|describes|described|claim|claims|claiming|claimed|offer|offers|offering|offered|admit|admits|admitting|admitted|announce|announces|announcing|announced|answer|answers|answering|answered|argue|argues|arguing|argued|deny|denies|denying|denied|discuss|discusses|discussing|discussed|encourage|encourages|encouraging|encouraged|explain|explains|explaining|explained|express|expresses|expressing|expressed|insist|insists|insisting|insisted|mention|mentions|mentioning|mentioned|offer|offers|offering|offered|propose|proposes|proposing|proposed|quote|quotes|quoting|quoted|reply|replies|replying|replied|shout|shouts|shouting|shouted|sign|signs|signing|signed|sing|sings|singing|sang|sung|state|states|stating|stated|teach|teaches|teaching|taught|warn|warns|warning|warned|accuse|accuses|accusing|accused|acknowledge|acknowledges|acknowledging|acknowledged|address|addresses|addressing|addressed|advise|advises|advising|advised|appeal|appeals|appealing|appealed|assure|assures|assuring|assured|challenge|challenges|challenging|challenged|complain|complains|complaining|complained|consult|consults|consulting|consulted|convince|convinces|convincing|convinced|declare|declares|declaring|declared|demand|demands|demanding|demanded|emphasize|emphasizes|emphasizing|emphasized|emphasise|emphasises|emphasising|emphasised|excuse|excuses|excusing|excused|inform|informs|informing|informed|invite|invites|inviting|invited|persuade|persuades|persuading|persuaded|phone|phones|phoning|phoned|pray|prays|praying|prayed|promise|promises|promising|promised|question|questions|questioning|questioned|recommend|recommends|recommending|recommended|remark|remarks|remarking|remarked|respond|responds|responding|responded|specify|specifies|specifying|specified|swear|swears|swearing|swore|sworn|threaten|threatens|threatening|threatened|urge|urges|urging|urged|welcome|welcomes|welcoming|welcomed|whisper|whispers|whispering|whispered|suggest|suggests|suggesting|suggested|plead|pleads|pleaded|pleading|agree|agrees|agreed|agreeing|assert|asserts|asserting|asserted|beg|begs|begging|begged|confide|confides|confiding|confided|command|commands|commanding|commanded|disagree|disagreeing|disagrees|disagreed|object|objects|objected|objects|pledge|pledges|pledging|pledged|report|reports|reported|reporting|testify|testifies|testified|testifying|vow|vows|vowing|vowed|mean|means|meaning|meant)"
-    th_jj_att = "(afraid|amazed|(un)?aware|concerned|disappointed|encouraged|glad|happy|hopeful|pleased|shocked|surprised|worried)"
-    th_jj_fact = "(apparent|certain|clear|confident|convinced|correct|evident|false|impossible|inevitable|obvious|positive|right|sure|true|well-known)"
-    th_jj_likely = "(doubtful|likely|possible|probable|unlikely)"
-    th_jj_eval = "(amazing|appropriate|conceivable|crucial|essential|fortunate|imperative|inconceivable|incredible|interesting|lucky|necessary|nice|noteworthy|odd|ridiculous|strange|surprising|unacceptable|unfortunate)"
-    th_nn_nonfact = "(comment|comments|news|news|proposal|proposals|proposition|propositions|remark|remarks|report|reports|requirement|requirements)"
-    th_nn_att = "(grounds|ground|hope|hopes|reason|reasons|view|views|thought|thoughts)"
-    th_nn_fact = "(assertion|assertions|conclusion|conclusions|conviction|convictions|discovery|discoveries|doubt|doubts|fact|facts|knowledge|knowledges|observation|observations|principle|principles|realization|realizations|result|results|statement|statements)"
-    th_nn_likely = "(assumption|assumptions|belief|beliefs|claim|claims|contention|contentions|feeling|feelings|hypothesis|hypotheses|idea|ideas|implication|implications|impression|impressions|notion|notions|opinion|opinions|possibility|possibilities|presumption|presumptions|suggestion|suggestions)"
-    to_jj_certain = "(apt|certain|due|guaranteed|liable|likely|prone|unlikely|sure)"
-    to_jj_able = "(anxious|(un)?able|careful|determined|eager|eligible|hesitant|inclined|obliged|prepared|ready|reluctant|(un)?willing)"
-    to_jj_affect = "(afraid|ashamed|disappointed|embarrassed|glad|happy|pleased|proud|puzzled|relieved|sorry|surprised|worried)"
-    to_jj_ease = "(difficult|easier|easy|hard|(im)?possible|tough)"
-    to_jj_eval = "(bad|worse|(in)?appropriate|good|better|best|convenient|essential|important|interesting|necessary|nice|reasonable|silly|smart|stupid|surprising|useful|useless|unreasonable|wise|wrong)"
-    to_nn_stance_all = "(agreement|agreements|decision|decisions|desire|desires|failure|failures|inclination|inclinations|intention|intentions|obligation|obligations|opportunity|opportunities|plan|plans|promise|promises|proposal|proposals|reluctance|reluctances|responsibility|responsibilities|right|rights|tendency|tendencies|threat|threats|wish|wishes|willingness|willingnesses)"
-    nn_stance_pp = "(assertion|assertions|conclusion|conclusions|conviction|convictions|discovery|discoveries|doubt|doubts|fact|facts|knowledge|knowledges|observation|observations|principle|principles|realization|realizations|result|results|statement|statements|assumption|assumptions|belief|beliefs|claim|claims|contention|contentions|feeling|feelings|hypothesis|hypotheses|idea|ideas|implication|implications|impression|impressions|notion|notions|opinion|opinions|possibility|possibilities|presumption|presumptions|suggestion|suggestions|grounds|ground|hope|hopes|reason|reasons|view|views|thought|thoughts|comment|comments|news|news|proposal|proposals|proposition|propositions|remark|remarks|report|reports|requirement|requirements|agreement|agreements|decision|decisions|desire|desires|failure|failures|inclination|inclinations|intention|intentions|obligation|obligations|opportunity|opportunities|plan|plans|promise|promises|reluctance|reluctances|responsibility|responsibilities|right|rights|tendency|tendencies|threat|threats|wish|wishes|willingness|willingnesses)"
 
 
     # QUICK CORRECTIONS OF STANFORD TAGGER OUTPUT
@@ -1012,16 +928,13 @@ def process_sentence (words: list):
     for j, value in enumerate(words):
 
         if (re.search("_VBG", words[j])):
-            try:
-                if ((re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE)) or # am eating
-                (re.search("_RB|_XX0|_EMPH|_CC", words[j-1]) and re.search("\\b(" + be + ")|'m_V", words[j-2], re.IGNORECASE)) or # am not eating
-                (re.search("_RB|_XX0|_EMPH|_CC", words[j-1]) and re.search("_RB|_XX0|_EMPH|_CC", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # am not really eating
-                (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\b(" + be + ")", words[j-2], re.IGNORECASE)) or # am I eating
-                (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("_XX0|_EMPH", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # aren't I eating?
-                (re.search("_XX0|_EMPH", words[j-1]) and re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE))): # am I not eating
-                    words[j] = re.sub("_\w+", "_PROG", words[j])
-            except IndexError:
-                continue
+            if ((re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE)) or # am eating
+            (re.search("_RB|_XX0|_EMPH|_CC", words[j-1]) and re.search("\\b(" + be + ")|'m_V", words[j-2], re.IGNORECASE)) or # am not eating
+            (re.search("_RB|_XX0|_EMPH|_CC", words[j-1]) and re.search("_RB|_XX0|_EMPH|_CC", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # am not really eating
+            (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\b(" + be + ")", words[j-2], re.IGNORECASE)) or # am I eating
+            (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("_XX0|_EMPH", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # aren't I eating?
+            (re.search("_XX0|_EMPH", words[j-1]) and re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE))): # am I not eating
+                words[j] = re.sub("_\w+", "_PROG", words[j])
 
 
         #---------------------------------------------------
@@ -1047,18 +960,16 @@ def process_sentence (words: list):
 
     for j, value in enumerate(words):
 
-        try:
-            if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ", words[j+1]) and not re.search("QUTAG|_PROG", words[j+2]) and not re.search("QUTAG|_PROG", words[j+3])) or
+        if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ", words[j+1]) and not re.search("QUTAG|_PROG", words[j+2]) and not re.search("QUTAG|_PROG", words[j+3])) or
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_NN", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG|_PROG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
+        (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_NN", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG|_PROG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
+        (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS", words[j+3]))):
+        (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS", words[j+3]))):
 
-                words[j] = re.sub("_(\w+)", "_\\1 BEMA", words[j])
-        except IndexError:
-            continue
+            words[j] = re.sub("_(\w+)", "_\\1 BEMA", words[j])
+
     #---------------------------------------------------
     # Tags demonstratives 
     # ELF: New, much simpler variable. Also corrects any leftover "that_IN" and "that_WDT" to DEMO. 
@@ -1080,18 +991,16 @@ def process_sentence (words: list):
     # Originally also added the pronoun "it" which Nini had presumably forgotten. Then simply used the PRP tag for all personal pronouns.
 
     for j, value in enumerate(words):
-        try:
-            if ((re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_DEMO|_PRP|_N", words[j+1]) and re.search("_MD|_V", words[j+2])) or
 
-            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_PRP|_N", words[j+1]) and re.search("_MD|_V", words[j+2])) or
+        if ((re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_DEMO|_PRP|_N", words[j+1]) and re.search("_MD|_V", words[j+2])) or
 
-            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP", words[j+1]) and re.search("_N", words[j+2]) and re.search("_MD|_V", words[j+3])) or
+        (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_PRP|_N", words[j+1]) and re.search("_MD|_V", words[j+2])) or
 
-            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP", words[j+1]) and re.search("_J", words[j+2]) and re.search("_N", words[j+3]) and re.search("_MD|_V", words[j+4]))):
+        (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP", words[j+1]) and re.search("_N", words[j+2]) and re.search("_MD|_V", words[j+3])) or
 
-                words[j] = re.sub("_(\w+)", "_\\1 THATD", words[j])
-        except IndexError:
-            continue
+        (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP", words[j+1]) and re.search("_J", words[j+2]) and re.search("_N", words[j+3]) and re.search("_MD|_V", words[j+4]))):
+
+            words[j] = re.sub("_(\w+)", "_\\1 THATD", words[j])
 
 
 
@@ -1332,50 +1241,6 @@ def process_sentence (words: list):
         if (re.search("\\bwould_|'d_MD", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_MDWO", words[index])
 
-
-        # ELF: tags activity verbs. 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or_PASS.
-        if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 ACT", words[index])
-
-
-        # ELF: tags communication verbs. 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_comm + ")_V|\\b(" + vb_comm + ")_P", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 COMM", words[index])
-
-
-        # ELF: tags mental verbs (including the "no" in "I dunno" and "wa" in wanna). 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_mental + ")_V|\\b(" + vb_mental + ")_P|\\bno_VB", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 MENTAL", words[index])
-            
-
-        # ELF: tags causative verbs. 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_cause + ")_V|\\b(" + vb_cause + ")_P", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 CAUSE", words[index])
-
-
-        # ELF: tags occur verbs. 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_occur + ")_V|\\b(" + vb_occur + ")_P", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 OCCUR", words[index])
-
-
-        # ELF: tags existential verbs. 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_exist + ")_V|\\b(" + vb_exist + ")_P", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 EXIST", words[index])
-
-
-        # ELF: tags aspectual verbs. 
-        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
-        if (re.search("\\b(" + vb_aspect + ")_V|\\b(" + vb_aspect + ")_P", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_(\w+)", "_\\1 ASPECT", words[index])
-
-        #--------------------------------------------------------------  
-
         #----------------------------------------
         # Tags verbal contractions
         if (re.search("'\w+_V|\\bn't_XX0|'ll_|'d_", words[index], re.IGNORECASE)):
@@ -1446,30 +1311,6 @@ def process_sentence_extended (words: list) -> list:
     """
     # DICTIONARY LISTS
 
-    have = "have_V|has_V|ve_V|had_V|having_V|hath_|s_VBZ|d_V" # ELF: added s_VBZ, added d_VBD, e.g. "he's got, he's been and he'd been" ELF: Also removed all the apostrophes in Nini's lists because they don't work in combination with \\b in regex as used extensively in this script.
-    
-    do ="do_V|does_V|did_V|done_V|doing_V|doing_P|done_P" 
-
-    be = "be_V|am_V|is_V|are_V|was_V|were_V|been_V|being_V|s_VBZ|m_V|re_V|been_P" # ELF: removed apostrophes and added "been_P" to account for the verb "be" when tagged as occurrences of passive or perfect forms (PASS and PEAS tags).
-
-    who = "what_|where_|when_|how_|whether_|why_|whoever_|whomever_|whichever_|wherever_|whenever_|whatever_" # ELF: Removed "however" from Nini/Biber's original list.
-
-    wp = "who_|whom_|whose_|which_"
-
-    # ELF: added this list for new WH-question variable:  
-    whw = "what_|where_|when_|how_|why_|who_|whom_|whose_|which_" 
-
-    preposition = "about_|against_|amid_|amidst_|among_|amongst_|at_|between_|by_|despite_|during_|except_|for_|from_|in_|into_|minus_|of_|off_|on_|onto_|opposite_|out_|per_|plus_|pro_|than_|through_|throughout_|thru_|toward_|towards_|upon_|versus_|via_|with_|within_|without_" # ELF: removed "besides".
-
-    # ELF: Added this new list but it currently not in use.
-    #particles =
-    #"about|above|across|ahead|along|apart|around|aside|at|away|back|behind|between|by|down|forward|from|in|into|off|on|out|over|past|through|to|together|under|up|upon|with|without" 
-
-    # ELF: The next three lists of semantic categories of verbs are taken from Biber 1988; however, the current version of the script uses the verb semantic categories from Biber 2006 instead, but the following three lists are still used for some variables, e.g. THATD.
-    public = "acknowledge_V|acknowledged_V|acknowledges_V|acknowledging_V|add_V|adds_V|adding_V|added_V|admit_V|admits_V|admitting_V|admitted_V|affirm_V|affirms_V|affirming_V|affirmed_V|agree_V|agrees_V|agreeing_V|agreed_V|allege_V|alleges_V|alleging_V|alleged_V|announce_V|announces_V|announcing_V|announced_V|argue_V|argues_V|arguing_V|argued_V|assert_V|asserts_V|asserting_V|asserted_V|bet_V|bets_V|betting_V|boast_V|boasts_V|boasting_V|boasted_V|certify_V|certifies_V|certifying_V|certified_V|claim_V|claims_V|claiming_V|claimed_V|comment_V|comments_V|commenting_V|commented_V|complain_V|complains_V|complaining_V|complained_V|concede_V|concedes_V|conceding_V|conceded_V|confess_V|confesses_V|confessing_V|confessed_V|confide_V|confides_V|confiding_V|confided_V|confirm_V|confirms_V|confirming_V|confirmed_V|contend_V|contends_V|contending_V|contended_V|convey_V|conveys_V|conveying_V|conveyed_V|declare_V|declares_V|declaring_V|declared_V|deny_V|denies_V|denying_V|denied_V|disclose_V|discloses_V|disclosing_V|disclosed_V|exclaim_V|exclaims_V|exclaiming_V|exclaimed_V|explain_V|explains_V|explaining_V|explained_V|forecast_V|forecasts_V|forecasting_V|forecasted_V|foretell_V|foretells_V|foretelling_V|foretold_V|guarantee_V|guarantees_V|guaranteeing_V|guaranteed_V|hint_V|hints_V|hinting_V|hinted_V|insist_V|insists_V|insisting_V|insisted_V|maintain_V|maintains_V|maintaining_V|maintained_V|mention_V|mentions_V|mentioning_V|mentioned_V|object_V|objects_V|objecting_V|objected_V|predict_V|predicts_V|predicting_V|predicted_V|proclaim_V|proclaims_V|proclaiming_V|proclaimed_V|promise_V|promises_V|promising_V|promised_V|pronounce_V|pronounces_V|pronouncing_V|pronounced_V|prophesy_V|prophesies_V|prophesying_V|prophesied_V|protest_V|protests_V|protesting_V|protested_V|remark_V|remarks_V|remarking_V|remarked_V|repeat_V|repeats_V|repeating_V|repeated_V|reply_V|replies_V|replying_V|replied_V|report_V|reports_V|reporting_V|reported_V|say_V|says_V|saying_V|said_V|state_V|states_V|stating_V|stated_V|submit_V|submits_V|submitting_V|submitted_V|suggest_V|suggests_V|suggesting_V|suggested_V|swear_V|swears_V|swearing_V|swore_V|sworn_V|testify_V|testifies_V|testifying_V|testified_V|vow_V|vows_V|vowing_V|vowed_V|warn_V|warns_V|warning_V|warned_V|write_V|writes_V|writing_V|wrote_V|written_V"
-    private = "accept_V|accepts_V|accepting_V|accepted_V|anticipate_V|anticipates_V|anticipating_V|anticipated_V|ascertain_V|ascertains_V|ascertaining_V|ascertained_V|assume_V|assumes_V|assuming_V|assumed_V|believe_V|believes_V|believing_V|believed_V|calculate_V|calculates_V|calculating_V|calculated_V|check_V|checks_V|checking_V|checked_V|conclude_V|concludes_V|concluding_V|concluded_V|conjecture_V|conjectures_V|conjecturing_V|conjectured_V|consider_V|considers_V|considering_V|considered_V|decide_V|decides_V|deciding_V|decided_V|deduce_V|deduces_V|deducing_V|deduced_V|deem_V|deems_V|deeming_V|deemed_V|demonstrate_V|demonstrates_V|demonstrating_V|demonstrated_V|determine_V|determines_V|determining_V|determined_V|discern_V|discerns_V|discerning_V|discerned_V|discover_V|discovers_V|discovering_V|discovered_V|doubt_V|doubts_V|doubting_V|doubted_V|dream_V|dreams_V|dreaming_V|dreamt_V|dreamed_V|ensure_V|ensures_V|ensuring_V|ensured_V|establish_V|establishes_V|establishing_V|established_V|estimate_V|estimates_V|estimating_V|estimated_V|expect_V|expects_V|expecting_V|expected_V|fancy_V|fancies_V|fancying_V|fancied_V|fear_V|fears_V|fearing_V|feared_V|feel_V|feels_V|feeling_V|felt_V|find_V|finds_V|finding_V|found_V|foresee_V|foresees_V|foreseeing_V|foresaw_V|forget_V|forgets_V|forgetting_V|forgot_V|forgotten_V|gather_V|gathers_V|gathering_V|gathered_V|guess_V|guesses_V|guessing_V|guessed_V|hear_V|hears_V|hearing_V|heard_V|hold_V|holds_V|holding_V|held_V|hope_V|hopes_V|hoping_V|hoped_V|imagine_V|imagines_V|imagining_V|imagined_V|imply_V|implies_V|implying_V|implied_V|indicate_V|indicates_V|indicating_V|indicated_V|infer_V|infers_V|inferring_V|inferred_V|insure_V|insures_V|insuring_V|insured_V|judge_V|judges_V|judging_V|judged_V|know_V|knows_V|knowing_V|knew_V|known_V|learn_V|learns_V|learning_V|learnt_V|learned_V|mean_V|means_V|meaning_V|meant_V|note_V|notes_V|noting_V|noted_V|notice_V|notices_V|noticing_V|noticed_V|observe_V|observes_V|observing_V|observed_V|perceive_V|perceives_V|perceiving_V|perceived_V|presume_V|presumes_V|presuming_V|presumed_V|presuppose_V|presupposes_V|presupposing_V|presupposed_V|pretend_V|pretend_V|pretending_V|pretended_V|prove_V|proves_V|proving_V|proved_V|realize_V|realise_V|realising_V|realizing_V|realises_V|realizes_V|realised_V|realized_V|reason_V|reasons_V|reasoning_V|reasoned_V|recall_V|recalls_V|recalling_V|recalled_V|reckon_V|reckons_V|reckoning_V|reckoned_V|recognize_V|recognise_V|recognizes_V|recognises_V|recognizing_V|recognising_V|recognized_V|recognised_V|reflect_V|reflects_V|reflecting_V|reflected_V|remember_V|remembers_V|remembering_V|remembered_V|reveal_V|reveals_V|revealing_V|revealed_V|see_V|sees_V|seeing_V|saw_V|seen_V|sense_V|senses_V|sensing_V|sensed_V|show_V|shows_V|showing_V|showed_V|shown_V|signify_V|signifies_V|signifying_V|signified_V|suppose_V|supposes_V|supposing_V|supposed_V|suspect_V|suspects_V|suspecting_V|suspected_V|think_V|thinks_V|thinking_V|thought_V|understand_V|understands_V|understanding_V|understood_V"
-    suasive = "agree_V|agrees_V|agreeing_V|agreed_V|allow_V|allows_V|allowing_V|allowed_V|arrange_V|arranges_V|arranging_V|arranged_V|ask_V|asks_V|asking_V|asked_V|beg_V|begs_V|begging_V|begged_V|command_V|commands_V|commanding_V|commanded_V|concede_V|concedes_V|conceding_V|conceded_V|decide_V|decides_V|deciding_V|decided_V|decree_V|decrees_V|decreeing_V|decreed_V|demand_V|demands_V|demanding_V|demanded_V|desire_V|desires_V|desiring_V|desired_V|determine_V|determines_V|determining_V|determined_V|enjoin_V|enjoins_V|enjoining_V|enjoined_V|ensure_V|ensures_V|ensuring_V|ensured_V|entreat_V|entreats_V|entreating_V|entreated_V|grant_V|grants_V|granting_V|granted_V|insist_V|insists_V|insisting_V|insisted_V|instruct_V|instructs_V|instructing_V|instructed_V|intend_V|intends_V|intending_V|intended_V|move_V|moves_V|moving_V|moved_V|ordain_V|ordains_V|ordaining_V|ordained_V|order_V|orders_V|ordering_V|ordered_V|pledge_V|pledges_V|pledging_V|pledged_V|pray_V|prays_V|praying_V|prayed_V|prefer_V|prefers_V|preferring_V|preferred_V|pronounce_V|pronounces_V|pronouncing_V|pronounced_V|propose_V|proposes_V|proposing_V|proposed_V|recommend_V|recommends_V|recommending_V|recommended_V|request_V|requests_V|requesting_V|requested_V|require_V|requires_V|requiring_V|required_V|resolve_V|resolves_V|resolving_V|resolved_V|rule_V|rules_V|ruling_V|ruled_V|stipulate_V|stipulates_V|stipulating_V|stipulated_V|suggest_V|suggests_V|suggesting_V|suggested_V|urge_V|urges_V|urging_V|urged_V|vote_V|votes_V|voting_V|voted_V"
-
     # The following lists are based on the verb semantic categories used in Biber 2006.
     
     # Activity verbs 
@@ -1496,20 +1337,6 @@ def process_sentence_extended (words: list) -> list:
 
     # Aspectual verbs
     vb_aspect =	"(start|starts|starting|started|keep|keeps|keeping|kept|stop|stops|stopping|stopped|begin|begins|beginning|began|begun|complete|completes|completing|completed|end|ends|ending|ended|finish|finishes|finishing|finished|cease|ceases|ceasing|ceased|continue|continues|continuing|continued)"
-
-    # Days of the week ELF: Added to include them in normal noun (NN) count rather than NNP (currently not in use)
-    #days = "(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon\.+|Tue\.+|Wed\.+|Thu\.+|Fri\.+|Sat\.+|Sun\.+)"
-
-    # Months ELF: Added to include them in normal noun (NN) count rather than NNP (currently not in use)
-    #months = "(January|Jan|February|Feb|March|Mar|April|Apr|May|May|June|Jun|July|Jul|August|Aug|September|Sep|October|Oct|November|Nov|December|Dec)"
-
-    # Stative verbs  
-    # ELF: This is a new list which was added on DS's suggestion to count JPRED adjectives more accurately. Predicative adjectives are now identified by exclusion (= adjectives not identified as attributive adjectives) but this dictionary remains useful to disambiguate between PASS and PEAS when the auxiliary is "'s".
-    v_stative = "(appear|appears|appeared|feel|feels|feeling|felt|look|looks|looking|looked|become|becomes|became|becoming|get|gets|getting|got|go|goes|going|gone|went|grow|grows|growing|grown|prove|proves|proven|remain|remains|remaining|remained|seem|seems|seemed|shine|shines|shined|shone|smell|smells|smelt|smelled|sound|sounds|sounded|sounding|stay|staying|stayed|stays|taste|tastes|tasted|turn|turns|turning|turned)"
-
-    # Function words
-    # EFL: Added in order to calculate a content to function word ratio to capture lexical density
-    function_words = "(a|about|above|after|again|ago|ai|all|almost|along|already|also|although|always|am|among|an|and|another|any|anybody|anything|anywhere|are|are|around|as|at|back|be|been|before|being|below|beneath|beside|between|beyond|billion|billionth|both|but|by|can|can|could|cos|cuz|did|do|does|doing|done|down|during|each|eight|eighteen|eighteenth|eighth|eightieth|eighty|either|eleven|eleventh|else|enough|even|ever|every|everybody|everyone|everything|everywhere|except|far|few|fewer|fifteen|fifteenth|fifth|fiftieth|fifty|first|five|for|fortieth|forty|four|fourteen|fourteenth|fourth|from|get|gets|getting|got|had|has|have|having|he|hence|her|here|hers|herself|him|himself|his|hither|how|however|hundred|hundredth|i|if|in|into|is|it|its|itself|just|last|less|many|may|me|might|million|millionth|mine|more|most|much|must|my|myself|near|near|nearby|nearly|neither|never|next|nine|nineteen|nineteenth|ninetieth|ninety|ninth|no|nobody|none|noone|nor|not|nothing|now|nowhere|of|off|often|on|once|one|only|or|other|others|ought|our|ours|ourselves|out|over|quite|rather|round|second|seven|seventeen|seventeenth|seventh|seventieth|seventy|shall|sha|she|should|since|six|sixteen|sixteenth|sixth|sixtieth|sixty|so|some|somebody|someone|something|sometimes|somewhere|soon|still|such|ten|tenth|than|that|that|the|their|theirs|them|themselves|then|thence|there|therefore|these|they|third|thirteen|thirteenth|thirtieth|thirty|this|thither|those|though|thousand|thousandth|three|thrice|through|thus|till|to|today|tomorrow|too|towards|twelfth|twelve|twentieth|twenty|twice|two|under|underneath|unless|until|up|us|very|was|we|were|what|when|whence|where|whereas|which|while|whither|who|whom|whose|why|will|with|within|without|wo|would|yes|yesterday|yet|you|your|yours|yourself|yourselves|'re|'ve|n't|'ll|'twas|'em|y'|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|1|2|3|4|5|6|7|8|9|0)"
 
     #Shakir: noun, adj, adv semantic categories from Biber 2006
     nn_human = "(family|families|guy|guys|individual|individuals|kid|kids|man|men|manager|managers|member|members|parent|parents|teacher|teachers|child|children|people|peoples|person|people|student|students|woman|women|animal|animals|applicant|applicants|author|authors|baby|babies|boy|boys|client|clients|consumer|consumers|critic|critics|customer|customers|doctor|doctors|employee|employees|employer|employers|father|fathers|female|females|friend|friends|girl|girls|god|gods|historian|historians|husband|husbands|American|Americans|Indian|Indians|instructor|instructors|king|kings|leader|leaders|male|males|mother|mothers|owner|owners|president|presidents|professor|professors|researcher|researchers|scholar|scholars|speaker|speakers|species|supplier|suppliers|undergraduate|undergraduates|user|users|wife|wives|worker|workers|writer|writers|accountant|accountants|adult|adults|adviser|advisers|agent|agents|aide|aides|ancestor|ancestors|anthropologist|anthropologists|archaeologist|archaeologists|artist|artists|artiste|artistes|assistant|assistants|associate|associates|attorney|attorneys|audience|audiences|auditor|auditors|bachelor|bachelors|bird|birds|boss|bosses|brother|brothers|buddha|buddhas|buyer|buyers|candidate|candidates|cat|cats|citizen|citizens|colleague|colleagues|collector|collectors|competitor|competitors|counselor|counselors|daughter|daughters|deer|defendant|defendants|designer|designers|developer|developers|director|directors|driver|drivers|economist|economists|engineer|engineers|executive|executives|expert|experts|farmer|farmers|feminist|feminists|freshman|freshmen|ecologist|ecologists|hero|heroes|host|hosts|hunter|hunters|immigrant|immigrants|infant|infants|investor|investors|jew|jews|judge|judges|lady|ladies|lawyer|lawyers|learner|learners|listener|listeners|maker|makers|manufacturer|manufacturers|miller|millers|minister|ministers|mom|moms|monitor|monitors|monkey|monkeys|neighbor|neighbors|neighbour|neighbours|observer|observers|officer|officers|official|officials|participant|participants|partner|partners|patient|patients|personnel|personnels|peer|peers|physician|physicians|plaintiff|plaintiffs|player|players|poet|poets|police|polices|processor|processors|professional|professionals|provider|providers|psychologist|psychologists|resident|residents|respondent|respondents|schizophrenic|schizophrenics|scientist|scientists|secretary|secretaries|server|servers|shareholder|shareholders|sikh|sikhs|sister|sisters|slave|slaves|son|sons|spouse|spouses|supervisor|supervisors|theorist|theorists|tourist|tourists|victim|victims|faculty|faculties|dean|deans|engineer|engineers|reader|readers|couple|couples|graduate|graduates|Pakistanis?|Bangladeshis?|Srilanakns?)"
@@ -1576,227 +1403,189 @@ def process_sentence_extended (words: list) -> list:
     #---------------------------------------------------
         #----------------------------------------------------
         #Shakir: Add two sub classes of attributive and predicative adjectives. The predicative counterparts should not have a TO or THSC afterwards
-        try:
-            if (re.search("\\b(" + jj_att_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 JJATDother", words[j])
-        except IndexError:
-            continue
+        ####
+        if (re.search("\\b(" + jj_att_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 JJATDother", words[j])
 
-        try:
-            if (re.search("\\b(" + jj_epist_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 JJEPSTother", words[j])
-        except IndexError:
-            continue
-        #----------------------------------------------------    
-        
-        #----------------------------------------------------
-        #Shakir: to and split infin clauses followed by vb adj nouns.
-        try:
-            if ((re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
-            (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVDSR", words[j])
-        except IndexError:
-            continue        
 
-        try:
-            if ((re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
-            (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVEFRT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if ((re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
-            (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVPROB", words[j])
-        except IndexError:
-            continue
+        if (re.search("\\b(" + jj_epist_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 JJEPSTother", words[j])
 
-        try:
-            if ((re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
-            (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVSPCH", words[j])
-        except IndexError:
-            continue
+    #----------------------------------------------------    
+    
+    #----------------------------------------------------
+    #Shakir: to and split infin clauses followed by vb adj nouns.
 
-        try:
-            if ((re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
-            (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVMNTL", words[j])
-        except IndexError:
-            continue
-        
-        try:
-            if (re.search("\\b(" + to_jj_certain + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToJCRTN", words[j])
-        except IndexError:
-            continue
-        
-        try:
-            if (re.search("\\b(" + to_jj_able + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToJABL", words[j])
-        except IndexError:
-            continue
+        if ((re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
+        (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
+            words[j] = re.sub("_(\w+)", "_\\1 ToVDSR", words[j])
 
-        try:
-            if (re.search("\\b(" + to_jj_affect + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToJEFCT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + to_jj_ease + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToJEASE", words[j])
-        except IndexError:
-            continue
+        if ((re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
+        (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
+            words[j] = re.sub("_(\w+)", "_\\1 ToVEFRT", words[j])
 
-        try:
-            if (re.search("\\b(" + to_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToJEVAL", words[j])
-        except IndexError:
-            continue
 
-            #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
-        try:            
-            if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCAll", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search(" (ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL)", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToJSTNCAll", words[j])
-        except IndexError:
-            continue
+        if ((re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
+        (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
+            words[j] = re.sub("_(\w+)", "_\\1 ToVPROB", words[j])
 
-        # try:
-        #     #Shakir: all to vb stance excep verbs of desive which are frequent mainly due to want to constructions
-        #     if (re.search(" (ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
-        #         words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCother", words[j])
-        # except IndexError:
-        #     continue
 
-        try:
-            if (re.search("\\b(" + to_nn_stance_all + ")_N", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToNSTNC", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ToSTNCAll", words[j])
-        except IndexError:
-            continue
+        if ((re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
+        (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
+            words[j] = re.sub("_(\w+)", "_\\1 ToVSPCH", words[j])
 
-        try:
-            #---------------------------------------------------
-            # Shakir: That complement clauses as tagged previously by THSC
-            if (re.search("\\b(" + th_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThVCOMM", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + th_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThVATT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + th_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThVFCT", words[j])
-        except IndexError:
-            continue
+        if ((re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
+        (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
+        (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
+            words[j] = re.sub("_(\w+)", "_\\1 ToVMNTL", words[j])
 
-        try:
-            if (re.search("\\b(" + th_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThVLIK", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + th_jj_att + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThJATT", words[j])
-        except IndexError:
-            continue
+        if (re.search("\\b(" + to_jj_certain + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToJCRTN", words[j])
 
-        try:
-            if (re.search("\\b(" + th_jj_fact + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThJFCT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + th_jj_likely + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThJLIK", words[j])
-        except IndexError:
-            continue
+        if (re.search("\\b(" + to_jj_able + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToJABL", words[j])
 
-        try:
-            if (re.search("\\b(" + th_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThJEVL", words[j])
-        except IndexError:
-            continue
-            
-        try:            
-            #Shakir: that relative clauses related to attitude
-            if (re.search("\\b(" + th_nn_nonfact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThNNFCT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + th_nn_att + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThNATT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + th_nn_fact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThNFCT", words[j])
-        except IndexError:
-            continue
+        if (re.search("\\b(" + to_jj_affect + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToJEFCT", words[j])
 
-        try:
-            if (re.search("\\b(" + th_nn_likely + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 ThNLIK", words[j])
-        except IndexError:
-            continue
-            
-        try:            
-            #Shakir: wh sub clauses after verb classes
-            if (re.search("\\b(" + wh_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 WhVATT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + wh_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 WhVFCT", words[j])
-        except IndexError:
-            continue
 
-        try:
-            if (re.search("\\b(" + wh_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 WhVLIK", words[j])
-        except IndexError:
-            continue
+        if (re.search("\\b(" + to_jj_ease + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToJEASE", words[j])
 
-        try:
-            if (re.search("\\b(" + wh_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 WhVCOM", words[j])
-        except IndexError:
-            continue
+
+
+        if (re.search("\\b(" + to_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToJEVAL", words[j])
+
+
+        #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
+                
+        if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCAll", words[j])
+
+
+
+        if (re.search(" (ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL)", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToJSTNCAll", words[j])
+
+
+    # ####
+    # #Shakir: all to vb stance excep verbs of desive which are frequent mainly due to want to constructions
+    # if (re.search(" (ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
+    #     words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCother", words[j])
+    
+
+
+        if (re.search("\\b(" + to_nn_stance_all + ")_N", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToNSTNC", words[j])
+
+
+
+        if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToSTNCAll", words[j])
+
+
+
+        #---------------------------------------------------
+        # Shakir: That complement clauses as tagged previously by THSC
+        if (re.search("\\b(" + th_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThVCOMM", words[j])
+
+
+
+        if (re.search("\\b(" + th_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThVATT", words[j])
+
+
+
+        if (re.search("\\b(" + th_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThVFCT", words[j])
+
+
+
+        if (re.search("\\b(" + th_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThVLIK", words[j])
+
+
+
+        if (re.search("\\b(" + th_jj_att + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThJATT", words[j])
+
+
+
+        if (re.search("\\b(" + th_jj_fact + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThJFCT", words[j])
+
+
+
+        if (re.search("\\b(" + th_jj_likely + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThJLIK", words[j])
+
+
+
+        if (re.search("\\b(" + th_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThJEVL", words[j])
+
+
+
+        #Shakir: that relative clauses related to attitude
+        if (re.search("\\b(" + th_nn_nonfact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThNNFCT", words[j])
+
+
+
+        if (re.search("\\b(" + th_nn_att + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThNATT", words[j])
+
+
+
+        if (re.search("\\b(" + th_nn_fact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThNFCT", words[j])
+
+        if (re.search("\\b(" + th_nn_likely + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ThNLIK", words[j])
+
+
+
+        #Shakir: wh sub clauses after verb classes
+        if (re.search("\\b(" + wh_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 WhVATT", words[j])
+
+
+
+        if (re.search("\\b(" + wh_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 WhVFCT", words[j])
+
+
+
+        if (re.search("\\b(" + wh_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 WhVLIK", words[j])
+
+
+
+        if (re.search("\\b(" + wh_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 WhVCOM", words[j])
+
 
         #Shakir: preposition after stance nouns
         if (re.search("\\b(" + nn_stance_pp + ")_N", words[j-1], re.IGNORECASE) and re.search("_IN", words[j])):
@@ -1865,7 +1654,48 @@ def process_sentence_extended (words: list) -> list:
         if (re.search("\\b(" + jj_topic + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
             words[index] = re.sub("_(\w+)", "_\\1 JJTOPIC", words[index])
 
-    
+            # ELF: tags activity verbs. 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or_PASS.
+        if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 ACT", words[index])
+
+        # ELF: tags communication verbs. 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
+        if (re.search("\\b(" + vb_comm + ")_V|\\b(" + vb_comm + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 COMM", words[index])
+
+
+        # ELF: tags mental verbs (including the "no" in "I dunno" and "wa" in wanna). 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
+        if (re.search("\\b(" + vb_mental + ")_V|\\b(" + vb_mental + ")_P|\\bno_VB", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 MENTAL", words[index])
+            
+
+        # ELF: tags causative verbs. 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
+        if (re.search("\\b(" + vb_cause + ")_V|\\b(" + vb_cause + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 CAUSE", words[index])
+
+
+        # ELF: tags occur verbs. 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
+        if (re.search("\\b(" + vb_occur + ")_V|\\b(" + vb_occur + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 OCCUR", words[index])
+
+
+        # ELF: tags existential verbs. 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
+        if (re.search("\\b(" + vb_exist + ")_V|\\b(" + vb_exist + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 EXIST", words[index])
+
+
+        # ELF: tags aspectual verbs. 
+        # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
+        if (re.search("\\b(" + vb_aspect + ")_V|\\b(" + vb_aspect + ")_P", words[index], re.IGNORECASE)):
+            words[index] = re.sub("_(\w+)", "_\\1 ASPECT", words[index])
+
+        #--------------------------------------------------------------  
+
 
         #---------------------------------------------------
 
@@ -1874,12 +1704,9 @@ def process_sentence_extended (words: list) -> list:
             words[j] = re.sub("_(\w+)", "_\\1 NOMZ", words[j])
 
         #Shakir: Semantic classes of adverbs
-        try:
-            if ((re.search("\\b(" + advl_att + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
-            (re.search("\\b(even)_R", words[j], re.IGNORECASE) and re.search("\\b(worse)_", words[j+1], re.IGNORECASE) and not re.search(" ", words[j]))):
-                words[j] = re.sub("_(\w+)", "_\\1 RATT", words[index])
-        except IndexError:
-            continue
+        if ((re.search("\\b(" + advl_att + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
+        (re.search("\\b(even)_R", words[j], re.IGNORECASE) and re.search("\\b(worse)_", words[j+1], re.IGNORECASE) and not re.search(" ", words[j]))):
+            words[j] = re.sub("_(\w+)", "_\\1 RATT", words[index])
 
 
         if (re.search("\\b(" + advl_nonfact + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
@@ -2232,34 +2059,34 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-    #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
-    output_stanford = "MFTE_output/MFTE_Tagged/"
-    output_MD = "MFTE_output/MD/"
-    output_stats = "MFTE_output/Statistics/"
-    ttr = 400
-    tag_stanford(nlp_dir, input_dir, output_stanford)
-    tag_MD(output_stanford, output_MD, extended=False)
-    do_counts(output_MD, output_stats, ttr)
-
-
 # if __name__ == "__main__":
-#     input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-#     #input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
 #     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
 #     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-#     #nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
-#     output_MD = output_stanford + "MD/"
-#     output_stats = output_MD + "Statistics/"
-#     ttr = 2000
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
-#     tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD)
+#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+#     #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
+#     output_stanford = "MFTE_output/MFTE_Tagged/"
+#     output_MD = "MFTE_output/MD/"
+#     output_stats = "MFTE_output/Statistics/"
+#     ttr = 400
+#     tag_stanford(nlp_dir, input_dir, output_stanford)
+#     tag_MD(output_stanford, output_MD, extended=False)
 #     do_counts(output_MD, output_stats, ttr)
+
+
+if __name__ == "__main__":
+    input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    #nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
+    output_MD = output_stanford + "MD/"
+    output_stats = output_MD + "Statistics/"
+    ttr = 2000
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD)
+    do_counts(output_MD, output_stats, ttr)
   
