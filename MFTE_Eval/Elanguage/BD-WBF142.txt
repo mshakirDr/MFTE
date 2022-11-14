@@ -1,0 +1,537 @@
+
+
+
+ 
+
+
+
+- Please help solving the problem.
+
+
+Notice that if we consider no wo lines are parallel, and no three are concurrent, then every pair of lines have a unique point of intersection.
+
+In the other direction, every point of intersection corresponds to exactly $2$ lines. So, there is a bijection between the set of all pairs of lines and 
+
+the set of intersection points.
+
+So, number of unordered pairs of lines $=^9C_2=36.$
+
+
+
+
+
+
+
+Please give complete problem, use the edit button.
+
+
+ Here is the complete problem
+
+
+This problem appeared as problem number 7 in Regional 2020 (Junior Category). This one is a quite easy problem. Okay, Here is the full solution:
+
+Total pigeons are $10$. It means the 2nd or 3rd friend cannot take more than 10 pigeons. They can take maximum 10 pigeons. Well,  in this case if you think about it, you'll figure out that 10 pigeons were distributed among 2 friends. If the second friend takes 3 pigeons, 5 pigeons are left. Such like that, if the second friend takes 5 pigeons, 3 pigeons are left. It means the after the first friend takes pigeons, 8 pigeons are left out of 10. It means the first friend took $10-8=2$ pigeons. So, the answer is 2.
+
+
+
+
+How many subsets of $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$  contain $5$ consecutive numbers?
+
+
+User Mehrab4226 has already given the solution, though here I have shown a similar approach.
+
+
+
+Firstly, let's look at how many sets there are with $5$ elements that satisfy the question. It is easy to see there are five sets, namely $\{1, 2, 3, 4, 5\}, \{2, 3, 4, 5, 6\}, \{3, 4, 5, 6, 7\}, \{4, 5, 6, 7, 8\}$ and $\{5, 6, 7, 8, 9\}.$
+
+
+
+Secondly, let's look at how many sets there are with $6$ elements that satisfy the question. It could be helpful to use the previous sets. Let's start with the set $\{1, 2, 3, 4, 5\}.$ To make this a set with $6$ elements, we will need to choose a number from the remaining four numbers. We can write that as $^4C_1.$ Next, let's look at the set $\{2, 3, 4, 5, 6\}.$ Here, we have 3 remaining numbers. We can also write that as $^3C_1.$ Doing this, we get that the number of sets with $6$ elements is $^4C_1 + ^3C_1 + ^2C_1 + ^1C_1 = 4+3+2+1 = 10.$
+
+
+
+Finally, similar to the sets with six elements, we get that the number of sets with $7$ elements is $^4C_2 + ^3C_2 + ^2C_2 = 6+3+1 = 10,$ the number of sets with $8$ elements is $^4C_2 + ^3C_2 = 4+1 = 5,$ and the number of sets with $9$ elements is $^4C_4 = 1$. So the total number of sets/subsets is $5+10+10+5+1 = 31.$ (Answer)
+
+
+
+Shurjo
+
+
+Let us denote that kind of subsets as $X$
+
+At first, we look at how many sets of $5$ consecutive numbers are there.
+
+1.$\{1,2,3,4,5\}$
+
+2.$\{2,3,4,5,6\}$
+
+3.$\{3,4,5,6,7\}$
+
+4.$\{4,5,6,7,8\}$
+
+5.$\{5,6,7,8,9\}$
+
+Now we will divide our work in $5$ cases. Case $1$ represents when number$ 1$. of the list is within the subsets we are looking for.
+
+Case:1
+
+Here $X$ are of this kind:$\{1,2,3,4,5\}\cup \{\text{Any subset of}\{6,7,8,9\}\}$
+
+So total number of $X$ of this kind is $2^4$
+
+Case:2
+
+Hese $X$ are of this kind: $\{2,3,4,5,6\}\cup \{\text{Any subset of}\{7,8,9\}\}$
+
+So the total number of  $X$ of this kind $2^3$
+
+Similarly for case $3,4,5$ we get $2^2,2^1,2^0$ different $X$.
+
+So total number of $X$ possible is $2^4+2^3+2^2+2^1+2^0=31$
+
+
+I think 31 is not the right answer.
+
+
+Nice and Thanks.
+
+
+Thank you for pointing that out.
+
+
+
+Let us denote that kind of subsets as $X$
+
+At first, we look at how many sets of $5$ consecutive numbers are there.
+
+1.$\{1,2,3,4,5\}$
+
+2.$\{2,3,4,5,6\}$
+
+3.$\{3,4,5,6,7\}$
+
+4.$\{4,5,6,7,8\}$
+
+5.$\{5,6,7,8,9\}$
+
+Now we will divide our work in $5$ cases. Case $1$ represents when number$ 1$. of the list is within the subsets we are looking for.
+
+Case:1
+
+Here $X$ are of this kind:$\{1,2,3,4,5\}\cup \{\text{Any subset of}\{6,7,8,9\}\}$
+
+So total number of $X$ of this kind is $2^4$
+
+Case:2
+
+Here $X$ are of this kind: $\{2,3,4,5,6\}\cup \{\text{Any subset of}\{7,8,9\}\}$
+
+So the total number of  $X$ of this kind $2^3$
+
+Case:3
+
+Here $X$ are of this kind:$\{3,4,5,6,7\}\cup \{\text{Any subset of}\{1,8,9\}$
+
+So total number of $X$ of this kind is $2^3$
+
+Case:4
+
+Here $X$ are of this kind:$\{4,5,6,7,8\}\cup \{\text{Any subset of}\{1,2,9\}$
+
+So total number of $X$ of this kind is $2^3$
+
+Case:5
+
+Here $X$ are of kind:$\{5,6,7,8,9\}\cup\{\text{Any subset of}\{1,2,3\}$
+
+so total number of $X$ of this kind is $2^3$
+
+So the total number of $X$ we got is $2^4+4\times 2^3=48$(ans)
+
+
+Have you counted the set $\{1,3,4,5,6,7\}$?
+
+
+Thanks. I saw the other solution. It's correct. You can check that one.
+
+
+we cannot create combinations of 4 numbers on all those 5 subsets. And the answer should be 48.
+
+
+Solution 1:
+
+At first consider 1 such simple subset {1,2,3,4,5}
+
+Now we can create any combination this subset by using numbers 6,7,8,9
+
+for example: {1,2,3,4,5,8,9}
+
+Total number of combination for this subset should be 4C4+4C3+4C2+4C1=15
+
+
+
+As we can create total 5 simple subsets. So the total number of subsets should be 5*15+5=80
+
+
+
+
+
+Another possible solution is:
+
+Solution 2:
+
+If we consider these 5 main subsets
+
+{1,2,3,4,5} {2,3,4,5,6} {3,4,5,6,7} {4,5,6,7,8} {5,6,7,8,9}
+
+then total such subset should be 5* 2^(9-5) =80
+
+
+
+
+Yes, we can't, but as result we can create new combinations using 1,2 . As you can see for each main subset always extra 4 numbers are remaining . For example-1,7,8,9 for{2,3,4,5,6}
+
+1,2,8,9 for {3,4,5,6,7} and so on for the other 3.
+
+
+
+Does your solution contain subsets like {2,4,5,6,7,8} or {1,3,4,5,6,7,8}
+
+
+we can creat what you are saying in $\{1,2,3,4,5\}$ subset. But we cannot do the same for $\{3,4,5,6,7\}$. We cannot make combinations with $\{6,7,8,9\}$ because 6,7 is already on the main subset.
+
+
+I finally got it. Thank you very much for correcting me.
+
+
+Why can't we create combinations of 4 numbers on all those subsets? Would you please explain
+
+
+Then what you are doing is counting the same thing multiple times.
+
+You once took $\{1,2,3,4,5\}$ and combined it with $6$ and got $\{1,2,3,4,5,6\}$ to get $\{1,2,3,4,5,6\}$. Again you took $\{2,3,4,5,6\}$ combined it with $1$ and got $\{1,2,3,4,5,6\}$. Which is the same set, but you are counting it multiple times. Read my 2nd solution, it avoids the error.
+
+
+
+
+Plz solve this problem
+
+
+Every number written in this solution is in base-$10$.
+
+We need to find $n$ such that $n=(d_kd_{k-1}\dots d_1d_0)_7$ and $2n=(d_kd_{k-1}\dots d_1d_0)_{10}$ where $d_i$ s are digits in the base-$7$ representation of $n$. So, for each $i$, $0\leq d_i\leq 6$.
+
+We can write the whole thing with this equation:
+
+$\sum_{i=0}^{k}10^id_i=2\sum_{i=0}^{k}7^id_i\Leftrightarrow\sum_{i=0}^{k}(10^i-2\cdot7^i)d_i=0$.
+
+Let's call $2n$ a good number if $n$ has the desired properties given in this question.
+
+
+
+Lemma-1 : For integer $m\geq3$, $10^m-2\cdot7^m>30$
+
+Proof:
+
+Base case : For $m=3$, $10^m-2\cdot7^m=314>30$, so our lemma is true for $m=3$.
+
+Induction hypothesis : Let's assume the lemma is true for $m=j$.
+
+Inductive step : For $m=j+1$,
+
+$10^{j+1}-2\cdot7^{j+1}=3\cdot10^j+7(10^j-2\cdot7^j)>30$
+
+So, our lemma is true for $m=j+1$, that completes our proof of this lemma using induction.
+
+
+
+Claim-1 : There is no good number with more than $3$ digits in base-$10$
+
+For this, we will assume that $k\geq3$ and prove that the minimum value of $S_k=\sum_{i=0}^{k}(10^i-2\cdot7^i)d_i>0$.
+
+Proof :
+
+To achieve the minimum value of $S_k$, we need $d_k=1$, since the most significant digit or the first digit is nonzero and as small as possible.
+
+We also need $d_i=0$ when $i\neq k$ and $10^i-2\cdot7^i>0$ and $d_i=6$ when $10^i-2\cdot7^i<0$.
+
+That means we will minimize the value of $d_i$ when we are adding a non-negative term and maximize it when we are adding a negative term to make sure we are adding the minimum possible and subtracting the maximum possible to get the minimum value of $S_k$.
+
+But $10^i-2\cdot7^i2$ has been explored in lemma-$1$
+
+So, the minimum value of $S_k=(10^k-2\cdot7^k)\cdot1+(10^1-2\cdot7^1)\cdot6+(10^0-2\cdot7^0)\cdot6=(10^k-2\cdot7^k)-30$
+
+By lemma-$1$, $S_k\geq min(S_k)=(10^k-2\cdot7^k)-30>0$ for $k\geq3$.
+
+But $S_k=0$ is a neccessary condition for such a good number to exist and we just proved that this is not possible for $k\geq3$. Or, equivalently, there is no good number with more than $3$ digits. So, claim-$1$ is pretty much proved.
+
+
+
+So, now we can finally and peachfully give all of our attention to $k=2$ case.    
+
+$S_2=2d_2-4d_1-d_0=0$
+
+To get the largest possible number, let's take our most significant digit $d_2=6$ [Remember that $d_i$ is a digit in base $7$, so $0\leq d_i\leq 6$]
+
+So, our equation becomes:
+
+$12=4d_1+d_0$
+
+Similarly, maximum possible value of $d_1$ is $3$ and this forces $d_0=0$.
+
+That means, the largest good number $2n=630\Leftrightarrow n=315$.
+
+It is easy to check that $n=315$ has the desired properties. [Actually it's already proven]
+
+
+
+I just copied and pasted The solution of Anindya Biswas. Check out the actual solution by Anindya Biswas . Here is the link: viewtopic.php?f=13&t=6103
+
+
+
+
+a + b + c + d = 2021. How many possible solutions of (a, b ,c, d) are there if a , b , c , d are 4 different positive integers ? Position of (a , b, c , d) doesn't matter . Ex: (a ,c , b ,d) = (d, a, b, c).
+
+
+Well, here's the solution:
+
+Number of tuples $(a,b,c,d)$ is $2020\choose 3$ [Stars and bars theorem maybe]
+
+Remember, while doing this calculation, we have some tuples where they are not pairwise distinct and also here, the positions are important.
+
+Now let's calculate the number of tuples where at least $2$ of them are equal.
+
+Observe that since $2021$ is not divisible by $4$, we have no tuple for which $a=b=c=d$.
+
+Let's first focus on tuples where exactly $3$ of them are equal.
+
+WLOG, assume that $b=c=d=m$
+
+$\therefore 3m+a=2021$
+
+This has positive solutions when $1\leq m\leq 673$
+
+So, this equation has $673$ solutions.
+
+However, we have $4$ choices to choose $3$ numbers to be equal. And each of them gives $673$ non-intersecting tuples.
+
+So, number of tuples where exactly $3$ of the numbers are equal is $4\times673$. For convenience, we will call this tuples the $\text{3-tuples}$.
+Now let's count the number of tuples where $a=b=m$. That means, we have to count the number of tuples of the form $(m,m,c,d)$ or, equivalently, number of solutions to the equation $2m+c+d=2021$. We can substitute $m=1,2,3,\dots,1009$ and count each of them and take their sum. We get, $2+4+6+\dots+2018=1019090$.
+
+However, there are ${4\choose2}=6$ ways to choose $2$ variables to be equal.
+
+Another important thing to realize is the tuple $(m,m,m,d)$ is counted $3$ times while counting $(m,m,c,d), (m,b,m,d), (a,m,m,d)$. Thus each $\text{3-tuples}$ will be counted $3$ times. So, we have to subtract twice the number of $\text{3-tuples}$ to get the number of tuples where at least two of the variables are equal.
+
+So, the number of tuples where at least two of the variables are equal is, $6\times1019090-2\times4\times673$
+
+$\therefore$ The number of tuples where every variable is pairwise distinct is ${2020\choose3}-6\times1019090+2\times4\times673$.
+
+Now since we don't care about permutation, we have to divide by $4!$ since every combination is counted $4!$ times.
+
+Our final answer is, \[\boxed{\frac{{2020\choose3}-6\times1019090+2\times4\times673}{4!}=56899416}\]
+
+
+In the following question it has been asked that a,b,c,d are four different integers . So I'm not very sure about counting tuples like {a,m,m,m} or {a,m,m,d} . I think it would be better to assume {a,b,c,d} is a set. But anyway, the solution you have shown is a very interesting one. So thank you very much for replying
+
+
+There might be a straightforward approach to the problem. But counting the tuples is an important part of the solution which is given.
+
+
+Yes, obviously it is . By not counting tuples like {a,m,m,m} , I have meant tuples where a=b=c=d, a=b=c, b=c=d, a=b , c= d etc. Because the question says that a,b,c,d are 4 different positive integers, but if a=b, then they can't remain different. So, for my solution I have counted by at first keeping a md b constant and counting all possible values of c,d . But in my method repetitions like {a,b,c,d} {a,c,b,d} are being counted as 2 different ways and if I divide the number by 4!, there is a remainder. Currently I'm very confused and I don't think my answer is correct, so I haven't submitted it in the forum.
+
+
+I counted the number of tuples where at least $2$ variables are equal, then subtracted that result from the number of all the tuples. Thus, we are only left with tuples where none of the variables are equal.
+
+
+Yes, you are correct . There were a few problems in my approach to the problem. I have got the same answer as you after fixing the problems. Your solution was a great help. Thank you again.
+
+
+Well, I first recognize that we can give an order on $a,b,c,d$
+
+WLOG, let's assume $a\leq b-1\leq c-2 \leq d-3$
+
+So, we've got $4a\leq a+(b-1)+(c-2)+(d-3)\leq 2015$
+
+$\Rightarrow a\leq 503$.
+
+Maybe we have to experiment a lot but this is not trivial at all.
+
+
+
+
+I have heard that quintic[5 powered]equation in some case not solvable.Can you give any example?
+
+
+It's not that it can't be solved . The thing is that there can't be any general solution to a equation  having maximum power more than or equal $5$
+
+
+I could have written a lot, but it still won't cover it!!
+
+
+
+So, a better idea, just go to this link! 
+
+http://en.wikipedia.org/wiki/Quintic_function
+
+
+
+I guess, you will have your all question's answer here! If you have anymore further problem, feel free to ask!
+
+
+
+
+$sin\ A,sin\ B,sin\ C$ of a triangle are rational. Prove that $cos\ A,cos\ B,cos\ C$ are also rational.
+
+
+let the opposite sides of $A,B,C$ are $a,b,c$
+
+through cos law
+
+\[cos A=\frac{a^2-b^2-c^2}{-2bc}....(1)\]
+
+
+
+if $a,b,c$ are rational,(by 1)then cos of all angles will be rational.
+
+so we need to prove when $a,b,c$ are irrational.
+
+through sine law\[\frac{sin A}{sin B}=\frac{a}{b},\frac{sin A}{sin C}=\frac{a}{c},\frac{sin B}{sin C}=\frac{b}{c}\]
+
+that implies ratio among the sides are rational.so they have a common irrational divisor.
+
+let $a=ma',b=mb',c=mc'$  where m is the common irrational divisor and $a',b',c'$ are rational.
+
+in (1)
+
+\[cos A=\frac{m^2(a'^2-b'^2-c'^2))}{-2mb'.mc'}=\frac{a'^2-b'^2-c'^2}{-2b'c'}\]
+
+and cos A is rational.
+
+so cos of all angles are rational.
+
+
+
+
+Problem $35$
+
+Every unit square of a $100 \times 100$ is coloured by one of $4$ colours red,green,blue or yellow so that in every line and column,there are $25$ squares of every colour.Prove that thre exists $2$ rows and columns so that their $4$ intersection points have $4$ different colours.
+
+
+I think there is a mistake in the sentence, instead of every line and column, it should be in all there are $25$ squares of each color.
+
+
+Or the square can be $100 \times 100$.
+
+
+Mahi  is right.The square is $100 \times 100$.
+
+
+I think this marathon should be revived. Also, post a solution to problem 35, Asif, if you have it.   
+
+
+
+Problem 36
+
+Find all functions $f:\mathbb{R}\rightarrow \mathbb{R}$ such that $\forall x,y\in \mathbb{R}$,
+
+$f(f(x)-y^{2})=f(x^{2})+y^{2}f(y)-2f(xy)$.
+
+
+Denote the main equation by (M). Suppose f(0)=c.
+
+First we check for constant solutions:
+
+(M) $\Rightarrow$ c=c+y$^2$c-2c, taking y nonzero and y$\neq \pm\sqrt{2}$ implies c=0. Constant f=0 is a solution. Now assume f is nonconstant. 
+
+
+
+(M)x=y=0 $\Rightarrow$ f(c)=-c…..(i).
+
+(M) y = 0 $\Rightarrow$ f(f(x))=f(x$^2$)-2c…..(1)
+
+(M) x=0 $\Rightarrow$ f(c-y$^2$) = y$^2$f(y)-c ….(2)
+
+We may interchange y by (-y) to conclude  y$^2$f(y)-c= y$^2$f(-y)-c, so always 
+
+f(-y)=f(y)….(ii)[including when y=0].
+
+
+
+We now introduce our first lemma.
+
+Lemma 1: If f(x)=c, then x=0.
+
+Proof: Assume there exists nonzero z: f(z)=c. Then
+
+(M)x=z $\Rightarrow$ 
+
+f(z$^2$) + y$^2$f(y)-2f(zy)= f(c-y$^2$) $\rightarrow$(2) $\rightarrow$y$^2$f(y)-c
+
+$\Rightarrow$2f(zy) = f(z$^2$)+c, constant. But zy takes all values from R, so f is constant; contradiction.
+
+
+
+Now (1) x=c $\Rightarrow$ f(c$^2$)-2c = f(f(c)) = f(-c) = f(c) = -c(using (i) and (ii))
+
+$\Rightarrow$f(c$^2$)=c. By lemma 1; we deduce that c=0.
+
+ 
+
+Now (1), (2) turns to
+
+f(f(x)) = f(x$^2$)…(1)
+
+y$^2$f(y) = f(-y$^2$) = f(y$^2$) ….(2)
+
+Also lemma 1 turns to, f(x)=0 $\Leftrightarrow$ x=0.
+
+
+
+Now our second lemma comes to hand.
+
+Lemma 2: f(a)=f(b) $\Leftrightarrow$ a=b or a=-b.
+
+Proof: If f(a)=0, lemma (1) implies a=b=0. Assume f(a)$\neq$0.
+
+(1)x=a,b $\Rightarrow$ f(a$^2$) = f(f(a)) = f(f(b)) = f(b$^2$)
+
+Then(2)y=a,b $\Rightarrow$ a$^2$f(a)=f(a$^2$) = f(b$^2$) = b$^2$f(b)=b$^2$f(a)
+
+$\Rightarrow$ a=b or a=-b; as f(a) $\neq$0.
+
+
+
+This suffices to conclude from (1) that, f(x)=x$^2$ or f(x)=-x$^2$; $\forall$ x. Let f(1)=k$\neq$0.
+
+(M)y=1 $\Rightarrow$ f(f(x)-1) = f(x$^2$) – 2f(x) +k…(3)
+
+
+
+We call some number x 'evil' if f(x) has opposite sign with k; where x is not 0 or $\pm$1. Our next lemma is stated now.
+
+Lemma 3: Either there are no evil number, or else there are infinitely many.
+
+Proof:
+
+Note that if f(x)=x$^2$, (2) implies f(x$^2$)=x$^4$. If f(x)=-x$^2$, (2) implies f(x$^2$)=-x$^4$.
+
+Also x$\neq 0, \pm 1$ implies x$^2$ is not 0 or $\pm$1. So if x is evil, so is x$^2$. We can inductively say that 
+
+x$^{{2}^{n}}$ are distinct evil numbers, for all nonnegative integers n; so the lemma is proved.
+
+
+
+First let k=1, but there exists a: f(a)=-a$^2$. Then RHS of (3) is 2-(a$^2$-1)$^2$, LHS is (a$^2$+1)$^2$ or -(a$^2$+1)$^2$.Both equality can have at most finitely many solutions. Lemma 3 now implies a=0. So f(x)=x$^2$ for all x.
+
+
+
+Now let k=-1, but there exists a:f(a)=a$^2$. Now RHS of (3) is  (a$^2$-1)$^2$-2, LHS is (a$^2$-1)$^2$ or -(a$^2$-1)$^2$. Here the first case is impossible. In the second case, there are finitely many solutions. So again 
+
+a = 0. So f(x)=-x$^2$ for all x.
+
+
+
+It is easy to check that these last two solutions are indeed solutions.
+
+
+

@@ -1,0 +1,353 @@
+
+
+From 3.15 pm – 5.30 pm – Crescat Residencies, NDB Bank complex, Nawam Mawatha, Havelock City,Wellawatte, Albert Crescent, Cambridge place, Sir Marcus Fernando Mawatha, Wijayarama road, Baudhaloka Mawatha, Wanathamulla, Manning Market, Olcott Mawatha, Pettah, Kotahena, Alwis Place.
+
+In the above areas power will be disconnected in the evening for 45 minutes from 6.30 pm – 7.15 pm,7.15 pm – 8.00 pm, 8.00 – 8.45 pm and 8.45 – 9.30 pm.
+
+The CEB says that all its regional offices will be made aware of the interruptions schedules and public could get information from them.
+
+Also the public could approach hot line 1987 for information.
+18/08/2020, 21:52 - $G: 2019 March/April vibes
+18/08/2020, 21:54 - $M: Truly is a beautiful year
+18/08/2020, 21:56 - $X: 
+27/08/2020, 15:35 - $M: 
+27/08/2020, 15:35 - $M: This for an assignment for one of my friends please forward.
+27/08/2020, 15:35 - $M: Hi guys, this is for my research on masculine gender role stress and I need Sri Lankan guys of 18-40 years to participate..Please be kind enough to share this with your male friends and family🙏🏻🤓
+27/08/2020, 16:20 - $T1: The stress or the link
+27/08/2020, 16:21 - $M: Both
+27/08/2020, 16:37 - $G: 😂
+27/08/2020, 19:52 - $H: Okayyy
+27/08/2020, 20:09 - $X: REMINDER
+Anyone who wants to join can still comeeee
+27/08/2020, 20:09 - $P: thats what she said
+28/08/2020, 10:10 - $M: 
+28/08/2020, 10:11 - $M: Guys I would love if any of you could answer this and help out or  refer this to someone who could help
+28/08/2020, 10:12 - $P: 
+28/08/2020, 10:12 - $A: $M reach out to $S3P10 on Linkedin or FB
+28/08/2020, 10:12 - $P: Jk jk lol
+28/08/2020, 10:12 - $P: 
+28/08/2020, 10:13 - $A: 
+28/08/2020, 10:14 - $A: 
+28/08/2020, 10:15 - $A: He's a tech lead at 99x
+28/08/2020, 10:18 - $M: $A Thanks man. Appreciate it I'll get in contact with him.
+28/08/2020, 10:58 - $C: $M Don't know a lot about React, but from my experience with Angular:
+
+Are you using a microfrontend to resolve a performance issue? Or something else?
+28/08/2020, 10:59 - $C: If performance is the only concern, it might be worth looking into the options available in your bundler (Webpack, Rollup, or whatever you use)
+28/08/2020, 11:00 - $C: And implementing lazy loading
+28/08/2020, 11:01 - $C: Instead of splitting your app at the codebase level, do it at the build stage
+28/08/2020, 11:02 - $A: I don't think that'd be a good idea if he's using create-react-app
+28/08/2020, 11:02 - $A: You'll have to eject the app and do the configs yourself which might not be scalable
+28/08/2020, 11:02 - $M: No we're trying to split our app up because the old team used a an older version of react for development and we're essentially creating the section as a brand new app
+28/08/2020, 11:02 - $M: Yeah
+28/08/2020, 11:02 - $C: If he's using that he will have Webpack
+28/08/2020, 11:02 - $A: It's all under the hood and not accessible bro
+28/08/2020, 11:02 - $P: Hi I'm the old team.
+28/08/2020, 11:02 - $C: Yes, but you can eject
+28/08/2020, 11:02 - $M: I can't access it cause it's inbuilt
+28/08/2020, 11:03 - $A: That's just asking for trouble😅
+28/08/2020, 11:03 - $C: That's fair
+28/08/2020, 11:03 - $M: We have to use react-rewired
+28/08/2020, 11:03 - $M: Hello old team
+28/08/2020, 11:03 - $C: Might not be worth the time
+28/08/2020, 11:03 - $M: I'm new team
+28/08/2020, 11:03 - $M: We're resorting to micro frontends but the way the old app is structured is making it near impossible for us to use it
+28/08/2020, 11:04 - $M: But our leads are insistent that we stick to mf
+28/08/2020, 11:04 - $C: So you're converting your entire structure to mfes?
+28/08/2020, 11:04 - $C: Or just your new modules?
+28/08/2020, 11:04 - $M: We're trying to without altering the original project
+28/08/2020, 11:05 - $M: Without altering it too much at least
+28/08/2020, 11:05 - $M: Because we're scared that if we moved something now it could break parts of the app
+28/08/2020, 11:05 - $M: I would've preferred if we used code splitting and just developed it on the same app
+28/08/2020, 11:05 - $C: That's a paradox 🤔
+28/08/2020, 11:05 - $M: But that isn't an option rn
+28/08/2020, 11:06 - $C: If you want an mfe you will have to cut and chop
+28/08/2020, 11:06 - $A: How big of an app is this?
+28/08/2020, 11:06 - $C: It's going to happen at some point, so make your peace with it
+28/08/2020, 11:06 - $A: I'm getting shivers just thinking about it
+28/08/2020, 11:06 - $C: Virtusa man
+28/08/2020, 11:06 - $M: It's not too big just yet but it's already messy lol
+28/08/2020, 11:07 - $C: I have been through the hell that is microfrontends
+28/08/2020, 11:07 - $C: And converting big apps to and from a mfe
+28/08/2020, 11:07 - $M: What a legend
+28/08/2020, 11:07 - $C: With Angular though
+28/08/2020, 11:07 - $A: Right?!😂
+28/08/2020, 11:07 - $M: 😂
+28/08/2020, 11:08 - $C: It's a massive pain
+28/08/2020, 11:08 - $C: Didn't work out in the end too 😂
+28/08/2020, 11:08 - $M: Rubbing salt
+28/08/2020, 11:08 - $C: They decided to go with lazy loading 😂
+28/08/2020, 11:08 - $A: 
+28/08/2020, 11:08 - $C: Which is kind of like code splitting I guess
+28/08/2020, 11:08 - $M: Oh well 😂
+28/08/2020, 11:08 - $M: I was thinking of just using iframes
+28/08/2020, 11:09 - $M: Seems relatively simple to implement
+28/08/2020, 11:09 - $A: Wtf eww
+28/08/2020, 11:09 - $C: At the end the app had been taken apart and put together so many times it looked like Frankenstein
+28/08/2020, 11:09 - $M: I'll hit you mannnn
+28/08/2020, 11:09 - $C: Ah, yes
+28/08/2020, 11:09 - $C: Enslaved 2007
+28/08/2020, 11:09 - $M: Yesss
+28/08/2020, 11:09 - $M: Old but gold
+28/08/2020, 11:10 - $C: ...which is why I'm telling you
+28/08/2020, 11:10 - $C: if you're going to start the mfe fire
+28/08/2020, 11:10 - $A: I'm working on a bigass monolithic react app right now...hope to God they won't think of converting it into mfes
+28/08/2020, 11:11 - $C: Make absolutely sure that you can handle the smoke
+28/08/2020, 11:11 - $M: Technically what we have but smaller
+28/08/2020, 11:12 - $C: This would be an option if your concern is performance
+28/08/2020, 11:14 - $M: Sigh
+28/08/2020, 11:14 - $M: Thanks anyway
+30/08/2020, 23:04 - $I: 
+01/09/2020, 10:33 - $P: $M a kpop group (txt) is going to sing the new black clover opening
+01/09/2020, 10:44 - $F: 
+01/09/2020, 11:21 - $M: WHAT
+01/09/2020, 11:21 - $M: WHY
+01/09/2020, 11:21 - $P: If you watch tower of God, Stray kids sing the op and ed
+01/09/2020, 11:21 - $P: Cause they're talented
+01/09/2020, 11:22 - $M: Haven't watched it yet
+01/09/2020, 11:22 - $P: They're going to sing in Japanese
+01/09/2020, 11:22 - $M: Well so am I but you don't hear me being called up for anime songs
+01/09/2020, 11:22 - $P: Idk if it going to be a good op or whether it will match the anime, but TXT is pretty good.
+01/09/2020, 11:23 - $M: Oh. Well. I don't know how to react to this part. I just don't want no K-Pop music
+01/09/2020, 11:23 - $P: 
+01/09/2020, 11:23 - $M: I've never heard TXT before
+01/09/2020, 11:23 - $M: How would you know if I had one? Hmmmmmmmmm
+01/09/2020, 11:23 - $P: They're under the same label as BTS
+01/09/2020, 11:23 - $P: BigHit entertainment
+01/09/2020, 11:24 - $P: I shouldn't have told you $E
+01/09/2020, 11:24 - $P: Imagine you jamming to the new op
+01/09/2020, 11:24 - $M: Never gonna happen 😏
+01/09/2020, 11:24 - $P: You know Japanese?
+01/09/2020, 11:25 - $P: Guess you a fake black clover fan then 🤷‍♂‍
+01/09/2020, 11:25 - $M: I mean my dad does and he gave me a book of translations so yessss
+01/09/2020, 11:25 - $M: I can always watch the opening without audio 😏
+01/09/2020, 11:26 - $P: Whoa! Do you have any black friends? I'm sure they must have given you an n word pass!
+01/09/2020, 11:26 - $P: spits
+01/09/2020, 11:26 - $M: They did tho
+01/09/2020, 11:26 - $M: Why do you think I have such a tendency of using it
+01/09/2020, 11:26 - $M: **catches it in a jar**
+01/09/2020, 11:26 - $P: ...
+01/09/2020, 11:27 - $P: You a racist?
+01/09/2020, 11:27 - $P: Get your girl out of my DM's 😉
+01/09/2020, 11:27 - $P: Jk jk lol
+01/09/2020, 11:28 - $M: 
+01/09/2020, 11:28 - $P: A kpop duo sang a one piece opening as well
+01/09/2020, 11:29 - $M: I never officially continued One Piece after I got hooked on to Naruto
+01/09/2020, 11:30 - $P: 
+01/09/2020, 11:31 - $P: 
+01/09/2020, 11:34 - $P: Which episode are you in btw?
+01/09/2020, 11:42 - $M: 137
+01/09/2020, 11:42 - $M: Haven't caught up yet because I'm waiting to build up on a few episodes and download em together
+01/09/2020, 11:43 - $P: I heard the op, sound pretty good. Has that shounen vibe.
+01/09/2020, 13:06 - $Q: $P 
+Wouldn't $M be a good amjad?
+
+I imagine him singing on stage the same $E
+01/09/2020, 13:40 - $P: Didn't we make this comparison already? $G
+01/09/2020, 13:41 - $Q: Oh.....maybe I missed it
+01/09/2020, 15:10 - $G: 😂😂😭
+01/09/2020, 15:10 - $G: Rip
+01/09/2020, 16:07 - $H: @$M why did you I change your name from Omae wu shinderu to that
+01/09/2020, 16:08 - $H: You change
+01/09/2020, 16:08 - $H: I liked the previous one better
+01/09/2020, 17:01 - $Q: What is it now?
+01/09/2020, 17:02 - $H: Just $M
+01/09/2020, 17:17 - $Q: That sounds disgusting
+01/09/2020, 18:10 - $M: I haven't really heard it. Send me a link to the soundtrack
+01/09/2020, 18:11 - $M: Amjad from Community ? I think so yes
+01/09/2020, 18:11 - $M: I reset WhatsApp
+01/09/2020, 18:12 - $Q: Ya
+01/09/2020, 18:27 - $M: I agree with you then
+10/09/2020, 09:51 - $I: Guys
+10/09/2020, 09:51 - $I: Foundation Award Ceremony is on 17th September
+10/09/2020, 09:52 - $I: Is the choir singing for it?
+10/09/2020, 09:52 - $H: Ooh👀 we’re getting awards?
+10/09/2020, 09:52 - $I: Yeah
+10/09/2020, 09:52 - $I: There's an award ceremony
+10/09/2020, 09:52 - $H: As in like... certificates saying we passed and something for the best ones yes?
+10/09/2020, 09:52 - $I: Yeah
+10/09/2020, 09:52 - $H: Ooh thanks man
+10/09/2020, 09:53 - $I: One student from each intake will be chosen to be the batch top
+10/09/2020, 09:53 - $I: Right $U ?
+10/09/2020, 09:53 - $U: $G $O
+10/09/2020, 09:53 - $U: Yeah
+10/09/2020, 09:53 - $H: Ooooh
+10/09/2020, 09:53 - $U: It's really early this time 😅
+10/09/2020, 09:53 - $I: $U was the batch top from his intake😏
+10/09/2020, 09:54 - $I: I know right?
+10/09/2020, 09:55 - $U: Academic year hasn't even started yet 😅😅
+10/09/2020, 09:56 - $I: It's starting on the 21st I think
+10/09/2020, 09:56 - $I: We are having interviews on the 15th
+10/09/2020, 09:56 - $H: Oooh noiceee
+10/09/2020, 09:56 - $H: Which interviews?
+10/09/2020, 09:56 - $I: For the degree
+10/09/2020, 09:56 - $H: I’m scared now😂 for the results 
+I was never before
+10/09/2020, 09:56 - $I: You didn't get your results yet?
+10/09/2020, 09:57 - $H: Were you the Sep foundation batch?👀
+10/09/2020, 09:57 - $I: Yeah
+10/09/2020, 09:57 - $H: Nopsies
+10/09/2020, 09:57 - $H: Y’all got?
+10/09/2020, 09:57 - $I: Ahh
+10/09/2020, 09:57 - $I: Yeah
+10/09/2020, 09:57 - $H: Wait fr?
+10/09/2020, 09:57 - $I: I got it a month ago
+10/09/2020, 09:57 - $H: I wonder what the delay is
+10/09/2020, 09:57 - $H: Wait fr?🙊
+10/09/2020, 09:57 - $I: No cause you are from the Jan intake right?
+10/09/2020, 09:57 - $H: You did the second sem with us yes?
+10/09/2020, 09:57 - $I: Yeah
+10/09/2020, 09:57 - $H: Yes but were you half foundation?
+10/09/2020, 09:57 - $I: Nopi
+10/09/2020, 09:58 - $I: Were you?
+10/09/2020, 09:58 - $H: Nope I did full
+10/09/2020, 09:58 - $I: You'll get it soon
+10/09/2020, 09:58 - $H: Y’all did the second sem exams with us right?
+10/09/2020, 09:58 - $I: IIT never works on time
+10/09/2020, 09:58 - $I: Nopi
+10/09/2020, 09:58 - $H: Yes within this week hopefully
+10/09/2020, 09:58 - $H: I’ve heard😂
+10/09/2020, 09:58 - $I: My second semester was when you had your first semester
+10/09/2020, 09:58 - $I: I had summer holidays from may till date😅
+10/09/2020, 09:59 - $H: Oh👀 ahh didn’t y’all have a third sem?
+10/09/2020, 09:59 - $I: No third semester
+10/09/2020, 09:59 - $H: Wait seriously? Luckyyyyy
+10/09/2020, 09:59 - $I: That's cause I started in September
+10/09/2020, 09:59 - $H: Oh okayy 
+I asked bc some people from the Sep batch did examswith us too
+10/09/2020, 09:59 - $I: You'll get your only summer holidays in first year
+10/09/2020, 09:59 - $H: Maybe they were the retake ones
+10/09/2020, 09:59 - $I: That's probably the resit/retake people
+10/09/2020, 09:59 - $I: Yeah
+10/09/2020, 09:59 - $H: Yesss
+10/09/2020, 09:59 - $H: Oooh okay
+10/09/2020, 10:00 - $H: Summer holidays come in when?
+10/09/2020, 10:00 - $H: May- June?
+10/09/2020, 10:00 - $I: May till August
+10/09/2020, 10:00 - $H: Also did y’all go on a batch trip?
+10/09/2020, 10:00 - $I: Like
+10/09/2020, 10:00 - $I: Nooo☹️
+10/09/2020, 10:00 - $H: That’s a nice longholiday
+10/09/2020, 10:00 - $I: Figured out it won't happen😅
+10/09/2020, 10:00 - $H: Same yes😂😭
+10/09/2020, 10:01 - $I: We should've gone on a choir trip😏
+10/09/2020, 10:01 - $H: Yessss!
+10/09/2020, 10:01 - $H: LETS
+10/09/2020, 10:01 - $I: December?
+10/09/2020, 10:02 - $P: Did you see all the trouble they went through to arrange a lunch outing 🙄
+10/09/2020, 10:02 - $I: 😶
+10/09/2020, 10:02 - $H: Yesssss plis
+10/09/2020, 10:02 - $H: The thing is mum doesn’t let me go on trips without her but 
+I’m still excitedddd
+10/09/2020, 10:02 - $J: INTERESTING
+10/09/2020, 10:03 - $I: I know right?
+10/09/2020, 10:03 - $I: The fact that she knows she won't be allowed to come but she's still excited😅
+10/09/2020, 10:03 - $H: Whatttt
+I’m hoping she’ll change her mind by then
+10/09/2020, 10:03 - $H: Well yes I mean it’s a trippppp
+10/09/2020, 10:03 - $I: Talk it out
+10/09/2020, 10:03 - $H: I like the planning part
+10/09/2020, 10:03 - $H: Yupsies when the time comes I will
+10/09/2020, 10:04 - $J: The part most people hate
+10/09/2020, 10:04 - $I: Sounds like a rotaractor😶
+10/09/2020, 10:04 - $J: Yep
+10/09/2020, 10:04 - $H: Nuuuu
+10/09/2020, 10:04 - $I: All $H's are the same I guess
+10/09/2020, 10:04 - $J: Pretty much
+10/09/2020, 10:04 - $H: 
+10/09/2020, 10:04 - $H: That sticker is so aggressive
+10/09/2020, 10:04 - $J: $H genes
+10/09/2020, 10:04 - $I: 😅😅
+10/09/2020, 10:05 - $X: 😂😂😂
+10/09/2020, 10:08 - $J: 👈😉👈
+14/09/2020, 20:37 - $G1: 
+14/09/2020, 20:38 - $J1: The ceremony is on Thursday 🤨
+14/09/2020, 20:38 - $U: Tuesday
+14/09/2020, 20:38 - $A1: 🤦‍♂‍
+14/09/2020, 20:40 - $G1: Sorryy😅😅😅😅
+14/09/2020, 20:40 - $E: 🤣
+14/09/2020, 20:42 - $G1: ⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕
+       Compulsory Online Meeting
+⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕
+Please join this meeting using the following link on this Tuesday  (15th September) at 8.30pm to discuss about the upcoming Foundation Ceremony.
+
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+Hope you all would make it to the meeting.
+14/09/2020, 20:42 - $E: oki!
+14/09/2020, 20:43 - $A: Imma join too🥺❤️
+14/09/2020, 20:43 - $H: Oki!
+14/09/2020, 20:43 - $H: I’m getting the certificate tho
+14/09/2020, 20:44 - $A: That's fine you can still come up at that point and sing😁
+14/09/2020, 20:44 - $I: It's fine just joinn
+14/09/2020, 20:44 - $E: there were people sang and also received certificates in prev years
+14/09/2020, 20:44 - $E: yush
+14/09/2020, 20:44 - $O: That’s fine, congrats 🎊
+14/09/2020, 20:44 - $J: Shit I read prev as perv
+14/09/2020, 20:45 - $J: 🤦‍♂‍
+14/09/2020, 20:45 - $I: There's alot of Foundation people in this year's choir I guess
+14/09/2020, 20:45 - $E: $E
+14/09/2020, 20:45 - $I: last years
+14/09/2020, 20:45 - $H: Okiii
+But I’ll be wearing sari is that fine?
+14/09/2020, 20:45 - $I: I meant last academic year😅
+14/09/2020, 20:45 - $A: Yup no worries
+14/09/2020, 20:45 - $H: Okiiii
+14/09/2020, 20:45 - $E: jeez calm down
+14/09/2020, 20:45 - $H: 
+14/09/2020, 20:45 - $A: Bloody perv
+14/09/2020, 20:45 - $I: 🌚
+14/09/2020, 20:46 - $E: Wait did yu change yur number? $I I thought I had yu saved
+14/09/2020, 20:46 - $I: Yeah
+14/09/2020, 20:46 - $E: owhh
+14/09/2020, 20:47 - $J: We don't do that here
+14/09/2020, 20:47 - $A changed the subject from "VI Laulies 19/20 🎶" to "VI Laulies 20/21 🎶"
+14/09/2020, 20:47 - $E: lies, that's literally all yu do
+14/09/2020, 20:47 - $C1: Okay 🙈
+14/09/2020, 20:48 - $E: BUMP
+14/09/2020, 20:48 - $A: Someone keep resending the message😂
+14/09/2020, 20:48 - $A: Ahh memories
+14/09/2020, 20:48 - $E: 😂😂😂
+14/09/2020, 20:48 - $I: 😅😅
+14/09/2020, 21:12 - $G1: will do 😅
+14/09/2020, 21:35 - $G: When you graduate you do the same thing so it's fine
+14/09/2020, 21:54 - $Q: well you can always... not...
+14/09/2020, 22:25 - $H: Wdym I love sari!
+14/09/2020, 23:22 - $X: Thank you...
+14/09/2020, 23:27 - $H: You do too?
+14/09/2020, 23:27 - $H: Or don’t?👀
+14/09/2020, 23:28 - $X: I don't 😂 I hate them from the bottom of my heart
+14/09/2020, 23:28 - $X: 
+14/09/2020, 23:28 - $H: Nooooooo
+14/09/2020, 23:29 - $H: They’re soo pretty tho!
+14/09/2020, 23:29 - $H: Oh bc that’s not a similarity😂😂😂
+14/09/2020, 23:31 - $X: 😂😂😂😂
+15/09/2020, 09:27 - $G1: ⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕
+       Compulsory Online Meeting
+⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕
+Please join this meeting using the following link on this Tuesday  (15th September) at 8.30pm to discuss about the upcoming Foundation Ceremony.
+
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+Hope you all would make it to the meeting.
+15/09/2020, 20:36 - $I: Is the meeting happening guys?
+15/09/2020, 20:36 - $U: Same question 😅😅
+15/09/2020, 20:36 - $A1: let me in $O
+15/09/2020, 20:37 - $A: I tried to join too😂
+15/09/2020, 20:37 - $C1: Same 😂
+15/09/2020, 20:37 - $O: ⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕                                                                                                                          Guys and Girl, Sorry for the inconvenience unfortunately the meeting is cancelled because $G1 is on the way from Colombo to Kandy and her phone is dead and She cannot access the meeting to accept your request, We will be rescheduling the meeting for Tomorrow evening, Sorry!!!! =(
+15/09/2020, 20:37 - $L: 👍🏻
+15/09/2020, 20:38 - $I: Oh alrighty
+15/09/2020, 20:38 - $O: Girls
+15/09/2020, 20:38 - $A1: Ok 😅
+15/09/2020, 20:39 - $X: okii
+15/09/2020, 20:42 - $U: 
+15/09/2020, 20:42 - $U: Let us get together
+To show the world around us 
+
