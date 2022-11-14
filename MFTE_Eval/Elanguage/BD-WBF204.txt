@@ -1,0 +1,947 @@
+
+
+
+In an advertisement titled "A difficult sum" Mr. Alamgeer Hossain gave a math problem and told that it may be included in Guiness Book of World. He also claimed nobody was able to solve that till then and if anyone can solve it ,then he or she must announce it before 31/1/2012.The problem and my solution are given below. I am asking everyone to solve it and to post solution here or contact with Mr. Alamgeer Hossain:01920779889
+
+
+
+Problem: 
+
+
+
+My solution:
+Let the number is $100x+10y+z$.So after interchanging first and last digit the number will become $100z+10y+x$.
+
+After subtraction the answer will be ,
+
+$100x+10y+z-(100z+10y+x)$
+
+$=100x-100z+10y-10y-x+z$
+
+$=100(x-z)-100+90+10-x+z$
+
+$=100(x-z-1)+10*9+(10-x+z)$
+
+It means from the right, the digits are $(10-x+z),9$ and $(x-z-1)$
+
+From the first condition we get,
+
+$(x-z-1)+9+(10-x+z)+1=x+y+z$
+
+$\Rightarrow x-x-z+z-1+1+9+10=x+y+z$
+
+$\Rightarrow x+y+z=19$........................................(i)
+
+From second condition,
+
+$10-x+z=(x-z-1)+1$
+
+$\Rightarrow 10-x+z=x-z$
+
+$\Rightarrow 2(x-z)=10$
+
+$\Rightarrow x=z+5$............................................(ii)
+
+From third condition,
+
+$x-z-1=z+1$
+
+$\Rightarrow x=2z+2$...........................................(iii)
+
+From (ii) and (iii),
+
+$z+5=2z+2$
+
+$\Rightarrow 2z-z=5-2$
+
+$\Rightarrow z=3$
+
+After putting value of $z$ into (ii) we find,
+
+$x=z+5$
+
+$\Rightarrow x=3+5$
+
+$\Rightarrow x=8$
+
+After putting value of $x,z$ into (i) we get,
+
+$x+y+z=19$
+
+$\Rightarrow 8+y+3=19$
+
+$\Rightarrow y+11=19$
+
+$\Rightarrow y=8$
+
+So the number is,
+
+$100*8+10*8+3$
+
+$=800+80+3$
+
+$=883$
+
+Ans:$883$.
+
+
+Solution:
+Let $n=(abc)_{10}$
+
+$p=(abc)_{10}-(cba)_{10}=99(a-c)$
+
+If $a-c=1$then $p=99$ contradiction;
+
+So let $p=100q+10m+j$
+
+According to problem:
+
+$j=q+1..(i)$
+
+$c=q-1..(ii)$
+
+$a+b+c=q+m+j+1\Rightarrow b=q+m-a+3$
+
+Now,
+
+$99(a-q+1)=99q+10m+2q+1$ So, $99|10m+2q+1$
+
+Only possible case $10m+2q+1=99$ So, $5m+q=49$ As must be $m\geq 8$ ;$q\in\{ 9,4 \}$.
+
+If $q=9$ then $j=10$ contradiction. Setting values, $q=4,m=9$: ans is 883
+Adib, are you sure about the problem and article. Can anyone give any link of that article?  Adib,  do you call him?You should be the first one.....CONGRATZZZZ
+
+
+What did he say? I am so curious. Was the title "A difficult sum?" In english?
+
+
+I agree
+
+
+I also agree with you.Actually I needed only 10 minutes.
+
+
+The problem and the article is a funny joke......
+
+
+Thanks.Sorry,I can't give you its link because the online copy of Prothom Alo doesn't publish all the advertisements.
+
+
+I think all kind of business with education should be banned.
+
+
+actually, it was not an article, just an advertisement in bangla named  "A difficult sum" .it also included Mr. alamgir hosen's stamp size photo.the advertisement him as the inventor of $3$ triple s problem like this one.as it was an advertisement you can not see in the website.i would post the picture of the column if i had not cut and given it to Adib.
+
+
+
+I don't think something like mathematics should be used for business like this.
+
+
+The problem is actually an exercise and it's super easy. I did it just when I saw it. I don't know what Mr. Alamgir thinks of himself.
+
+
+
+
+I must say, quite lame
+
+
+
+
+			
+		
+				
+			
+						
+
+
+So I'll ask everyone to call Mr. Alamgeer.
+
+
+Oh, But I just can be that rude because above all I am good shepherd.
+
+
+
+
+26th march,the 1st day of online camp,is likely to finish without any work for me.Cuz i can't understand something as i'm new to it.      
+
+Will someone tell me what has actually happened today? 
+
+What is the meaning of "Reading some theories"?as i can't get it after the whole day....
+
+
+
+
+
+Read some theories from books, if you have any problem then post here. As you can see, there can't be any conventional class here.
+
+
+
+600!
+
+
+Thnxxxxx........
+
+
+
+
+Congratulations to us!
+
+
+
+
+
+I have posted the $10000^{th}$ post.Yahoo...
+
+
+OH         
+
+HOW DID I MISS IT !!!
+
+
+We are to dominate AOPS. (   )
+
+
+Good job everyone!Let's post and discuss more about math and make it $100000$!!
+
+
+
+
+
+Great job  . Keep it up everyone.
+
+
+We have reached 10,001th post. Yahoo....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sometimes I post the same solution in AOPS and here.I hope that won't be considered copying.
+
+
+This is a notice from Avik Roy: if anyone copies a solution/idea of a solution from somewhere else and posts it in this forum, he or she must mention the source.
+
+
+No that's not copying.
+
+
+And what if just the similarity between ideas appears? For an example: I solved problem $1$ of $1993$ using Eisenstein's criterion. But later I found that it was like the alternative solution given in IMO compendium. Link of this problem: viewtopic.php?f=17&t=2165
+
+
+To both of you, I don't get what you are meaning by copying solutions or same ideas. But to make you clear, tell me how many distinct solutions are there for a particular problem? At most 20 or 30, or may be something larger. But when that same problem is solved by at least a hundred people, what can you say? Mustn't the ideas intersect? That is never copying. So, if you are clear to yourself, whatever it looks like, don't care. Otherwise, I don't know what to say. Certainly you can't copy solutions directly, since there are LaTeX issues and some other.
+
+
+That happens to me the most I think(because most of the problems posted here were solved and may be posted as well by me in AoPS previously). So, that depends on how you are doing.
+
+
+It is all about self respect . I don't think a person would never just copy a solution and post it here just saying, "I have done this all by myself ." If someone does that, then that is his mentality problem, which is not worth discussing anywhere else.
+
+
+I totally agree, and that's why I believe nobody simply copies a solution from somewhere. And that's why this notice isn't from me.
+
+
+
+
+We have reached 50 posts mark. Thanks to everyone for posting. However, I find most of the members inactive. I hope that everyone will join.
+
+
+Hmm, you are welcome.
+
+
+
+
+Count me in
+
+
+I will be active. One more question: Will any kind of online camp be held? (some discussions on a particular topic and an exam maybe.)
+
+
+Count me in too 
+
+
+
+And, 
+
+if ( forum.get Interested Members() >= enough && topic.found() )
+
+{
+
+             time ToArrange( online Camp, me ) = enough; // 
+
+}
+
+
+Me 2.
+
+And 
+
+
+Count me too.
+
+
+
+
+I'm Interested to start or restart problem solving marathon. But I'm not quite sure how many of you can participate. So those who want to participate and ready to visit those topics at least one time everyday please reply. I'll be grateful to you if you can take the responsibility of the publicity of this message to others and also to other social sites. I want to start or restart the marathons in this week.
+
+
+Also possible if everyone agrees. I can try to arrange it. But it depends on the number of participants.
+
+
+Count me Too ..
+
+Test exam  XD
+
+
+7 active users . Is there anyone else? My test exam has started but still I'm trying to arrange this. So let's take it seriously.
+
+
+Though I can't burn my "kheta" of Test exam, but I can do it I guess.
+
+
+
+
+
+
+
+. . .  but doesn't matter. . . i'm in
+
+
+ok i'm in to...probably in nt section.
+
+
+
+
+
+Of course!
+
+
+I have been unusual for a long time for having no internet connection. But, I think,I am getting back with this.
+
+
+
+
+
+
+
+
+I am not confident but i'll visit and try those problems
+
+
+The marathon has started already.
+
+IMO Marathon
+
+Secondary and Higher Secondary Marathon
+
+
+
+
+Not sure if I can participate regularly. there's difficulty about net access. So i'll try to get the problems and to solve them, but I might not be able post any solutions here. I hope that's okay
+
+
+Can anyone tell me the specifications for secondary group in english..I am going nuts looking for it..since its my first time i dont know much but will be looking forward to the marathon
+
+
+But specifications for what? You should tell that specifically.
+
+
+I believe, that is the 'specification' about the class.
+
+And if that is it, for secondary group.......visit yourself
+
+
+
+
+Where do I register myself from? Im in dhaka by the way.
+
+
+Registration details will be published in Daily Prothom Alo shortly. Keep your eyes on the newspaper for information about registrations.
+
+
+You can find the time table of Bangladesh Mathematical Olympiad 2013 in this link:
+
+http://www.matholympiad.org.bd/time-tab ... mpiad-2013
+
+Good luck everyone!
+
+
+
+
+
+
+
+
+
+
+
+
+
+baps.... Get feared.... But, its ok
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For those unable to download/read the attachment
+
+Detailed schedule:
+
+Day-1
+
+ Problem Solving Strategy 
+
+Day-2
+
+
+
+Ceva’s Theorem and application.
+
+Day-3
+
+
+
+Day-4
+
+
+
+Day-5
+
+Day-1 & 2 
+
+Day-6
+
+Day-3 & 4 
+
+
+Time: 25-30 August, 2013
+
+
+
+Books: General and Higher Mathematics books of classes 9 and 10
+
+
+
+Aim: To cover the material from the books and learning to solve standard problems using them
+
+
+
+Detailed schedule: See attachment
+
+
+
+
+
+
+http://www.mediafire.com/view/qyp7o7gyu ... ometry.pdf
+
+http://www.mediafire.com/view/rps3clfqc ... ometry.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please give me the address in which I have to reply the answer.
+
+
+General math. theorem 1 viewtopic.php?f=25&t=2808
+
+
+As in the previous camps, when posting a new topic, add [OGC1] to the subject. Also, post the link of the topic by replying in this thread. I'll add an example of this shortly.
+
+
+
+
+Please PM me the solutions rather than emailing, if possible. It will be most convenient for using LaTeX etc. If, by any chance, you are unable to PM, then email them to me: nayel71(AT)gmail(DOT)com.
+
+
+
+For each day there will be a separate thread, and the links of all posts relating to that day should be posted in that thread like the example above.
+
+
+
+
+http://www.matholympiad.org.bd/forum/vi ... =14&t=2818
+
+
+When we will get questions?
+
+
+Now that the exams are over, feel free to discuss the questions.
+
+
+Okay, I'll begin!
+
+
+
+How many (out of 10) did all of you manage to solve?
+
+
+I solved 9.
+
+
+I approached it using the cosine law but the equation got really ugly and I stopped. To be honest, I didn't even read all the problems properly. I pretty much solved all of the ones I attempted but I didn't attempt all of them. That is one of my greatest flaws in problem-solving. I tend to give up too easily. I don't stick to problems I don't 'feel like' solving. I really want to break this habit and I know that as long as I don't have persistence, I'm never going to be a good problem solver.
+
+
+
+Anyway....this is not a forum for personal issues. So, I'm really sorry. I got carried away.
+
+
+
+So no. I didn't solve problem 4.
+
+
+I tried something like fusing brahmagupta theorem and sine law. But it got me nowhere. @ mursalin
+
+
+Anyone solved problem no. 4 of day 5?
+
+
+
+
+
+
+
+: Combination allowing repetition : Consistently Dominated Sequence. 
+
+২. There are $210$ boys attending a cricket camp. Each one of them is assigned to work with one of the twenty coaches. It is noted that each coach works with a distinct number of boys. In how many ways can the groups of boys be assigned? (Hint: $1+2+...+20=210$)
+
+
+
+
+
+
+
+
+
+
+
+Partition: Distributing identical/distinct balls into identical boxes.
+
+Stirling numbers of the second kind: Distribute distinct balls into identical boxes, no box can be empty. 
+
+ Stirling number of the first kind 
+
+
+
+
+
+
+
+
+Numeric partition: distributing identical balls into identical boxes.
+
+
+
+
+
+
+1. How many positive divisors of $10^{99}$ are also multiples of $10^{50}$?
+
+
+
+2. Let $S=\{a_1,a_2,…,a_{18}\}$ be a set of eighteen (not necessarily distinct) integers. Prove that there exist two elements in $S$ whose difference is divisible by $17$.
+
+
+
+3. How many twelve letter codes can we make in which there are only two vowels and they are next to each other?
+
+Example: aabcbcsdsdsd, bdfgeityrypl
+
+
+
+4.Find the value of the constant term in the expansion of \[\left (x^2+\frac 1 {x^2}-2\right )^{10}\]
+
+
+
+5. In Mr. Fat's math class, there are five boys and nine girls. At the end of the term, Mr. Fat wants to take a picture of the whole class. He wants all students to stand in a row, with boys standing in decreasing order according to their height (assuming that they have distinct heights) from left to right and girls standing in increasing order according to their height (assuming that they have distinct heights) from left to right. In how many ways can this be done? (The boys need not stand together, and the girls need not stand together.)
+
+
+
+6. Find the number of ways to place $17$ distinct flags on $5$ distinct poles with at least one flag on each pole. (First try with small numbers instead of 17. Guess the answer and prove it!)
+
+
+
+7. Let $S=\{a,b,c,d,e,f\}$.  In how many ways can one select two subsets (not necessarily distinct) of $S$ so that their union is $S$?
+
+Note:  The order of selection does not matter. For example, $\{a,c,e\},\{b,c,d,f\}$ and $\{b,c,d,f\},\{a,c,e\}$ are counted as same selection.
+
+
+
+8. Determine the number of ways to chose five numbers from first eighteen positive integers such that any two chosen number differ by at least $2$.
+
+
+
+9. Thirteen distinct balls are distributed into one green box, two red boxes and three blue boxes. If no box is empty, how many ways can it be done?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+how to write solution? please give examples.
+
+
+Result:
+
+Kiriti: 81
+
+Asif: 79
+
+Fatin: 58
+
+Protyasha: 52
+
+Shohidul: 36
+
+Souvik: 30
+
+Towkir: 22
+
+Prosenjit: 20
+
+And everyone, you need to learn how to write solution.
+
+
+Well, 
+
+Assume the problem statement is false. Therefore, for $i\neq j$, $a_i\not \equiv a_j\pmod {17}$. So for each $a_i$, we get a different reminder after dividing by $17$. Thus for $18$ numbers, we need $18$ different reminders. But there are only $17$ possible reminders of $\bmod 17$ which is not enough. Hence we get a contradiction. Therefore 'there exist two elements in $S$ whose difference is divisible by $17$'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Try it!
+
+
+
+
+
+
+
+
+
+
+ bijection
+
+Read chapter four of this.
+
+
+
+
+
+#Example: Combination allowing repetition and missing digits. (Marcus page 20)
+
+
+
+
+
+
+
+
+
+
+
+Hello Everyone. BDOI (Bangladesh Olympiad in Informatics ) Problems have been posted in IOI Forum. Anyone having any trouble with their solutions, please post there. 
+
+
+
+If there is anyone who doesn't know about BDOI, please post as well
+
+
+
+Thanks.
+
+
+I think there should be an OJ or something where people can submit and practice
+
+
+These problems were not put on any OJ so far.
+
+Until then, people, if they are interested, can discuss here. 
+
+We think, it's better than waiting for an OJ to publish them.
+
+
+
+
+
+
+
+
+
+
+I talked to a few people regarding this matter.
+
+They told me that it might take a while before the divisional problems come out.
+
+You'll probably have to wait till the end of this year. It's just a speculation though.
+
+
+First of all great post. this particular post that could be worthwhile people.
+
+
+ 
+
+  /
+
+- Primary Divisional 2012/17
+
+
+
+
+
+
+More details on the Divisional Informatics Olympiad 2014 has been published.
+
+
+
+The update says that, Registrations will be closed after 24 February, 2014.
+
+If you still have not registered, you can do it here - Register
+
+Check out the registrants' list here - Registrants
+
+
+
+The venues are still undisclosed though. 
+
+
+
+If you already don't know about the olympiad and it's fixture, please see this thread.
+
+
+
+Have a question for us? Want to know how to begin preparation?
+
+Please join the official facebook group for these details.
+
+Official Facebook Group
+
+
+
+Please spread the news amongst your friends and in your school/colleges.
+
+Best of luck!!
+
+
+We have an IOI sub-forum in this forum as well!
+
+You can ask us questions/ for help over there as well!
+
+
+
+
+National Olympiad detail updated. Please check again if you haven't already done that.
+
+
+Great news everyone!!
+
+Divisional Informatics Olympiad results are out now!!
+
+Go check'em out!!
+
+Results
+
+
+
+Congrats to the ones who qualified for the national olympiad to be held in Dhaka later this month. Official update reads -
+
+For those, who did not make it through, you guys should not lose heart. Prepare yourself for next year's competition.
+
+
+
+Happy coding to all of you!!
+
+
+
+PS- If any of you need help regarding national level preparation, please join the official facebook group.
+
+You can also ask for help here in this forum. We have an IOI sub-forum dedicated for these sort of stuff here.
+
+
+
+
+Nice initiative- I was thinking of asking everyone having bbcode in their signature to change it if possible (a little scraping odd-job)
+
+
+
+But you know, even a little time stings (especially now)
+
+
+And I forgot to mention, people who have BB Codes in their signatures should instantly take action. Most of the time this problem arises not from the content, but from the signature of some person.
+
+
+As you might have noticed, we are facing a minor header problem regarding BBCodes$^*$. As a result, when these codes are used, different layers of the page overlap one another. And some ugly annoying texts are also placed on the top of the page. This is not a big issue. But it reduces the functionality of the page and some utilities like 'similar topics', 'upload attachment' can't be used for the overlapping.
+
+
+
+To prevent this, try not to use BBCodes. Use equivalent latex commands instead. For example, to get the same effect as $$ or $$, use \textbf{} and \textit{} commands, resp. Example:
+
+
+
+$\color{green}{\text{\textbf}}\text{{Bold}}\;\Longrightarrow\;\textbf{Bold}$
+
+$\color{green}{\text{\textit}}\text{{Italic}}\;\Longrightarrow\;\textit{Italic}$
+
+$\color{green}{\text{\color}}\text{{red}}\{\color{green}{\text{\text}}\text{{Red Text}}\}\;\Longrightarrow\;\color{red}{\text{Red Text}}$ $\color{green}{\text{\href}}\text{{http://www.example.com/}}\{\color{green ... {Hyperlink}}$
+
+
+
+
+
+*BBCodes: The codes you use in different forums to format your message, i. e. $\text{, , , , , }$ etc.
+
+
+
+
+Hi, Could anybody please let me know when is next Olympiad will take place?
+
+Regards
+
+Ashraf
+
+
+Moved. This topic is more appropriate for News/Announcement forum.
+
+
+
+Registration for 13th BdMO will officially start at 19 Nov/Dec (sorry, I don't remember the month). 
+
+You can get updates from the Facebook group.
+
+https://www.facebook.com/groups/BdMOC/
+
+
+I'm gonna finish my A level on January 2015. Can I register for math Olympiad this year?And can those people who finished their A level on June 2014 sit this year? Thanks!
+
+
+Yes you can, and no, they can't.
+
+
+Will their be any more competitions this year.[2018]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hahahahaha
+
+
+
+
+Coongratttz
+
+
+This is the $2000^{th}$ post of the forum.
+
+I would like to thank everyone for being pro active in this forum. I believe that in the coming months, this forum will become more and more active. 
+
+
+
+Happy problem solving!
+
+
+sorry to say but,i guess Its becoming more and more INactive :'(
+
+
+

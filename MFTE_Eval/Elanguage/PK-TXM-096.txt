@@ -1,0 +1,223 @@
+
+17/03/2020, 3:34 pm - 
+19/09/2019, 5:24 pm - 
+17/03/2020, 3:34 pm - 
+17/03/2020, 3:36 pm - 
+17/03/2020, 3:59 pm - 
+19/03/2020, 12:47 pm - 
+19/03/2020, 12:48 pm - 
+19/03/2020, 12:48 pm - 
+19/03/2020, 12:51 pm - 
+19/03/2020, 12:51 pm - 
+19/03/2020, 12:51 pm - 
+19/03/2020, 12:57 pm - 
+19/03/2020, 1:11 pm - 
+19/03/2020, 1:38 pm - 
+19/03/2020, 1:59 pm - 
+19/03/2020, 5:46 pm - $A: 
+anyone from 18B send me your Email ID.
+19/03/2020, 5:53 pm - 
+19/03/2020, 5:56 pm - 
+19/03/2020, 6:03 pm - $A: 
+19/03/2020, 6:31 pm - $B: 
+21/03/2020, 9:25 pm - $B: 
+21/03/2020, 9:25 pm - $B: Join this
+21/03/2020, 9:27 pm - $B: Dear teachers the lectures uploaded on certain websites will be in text form and will they be uploaded on there class timings....
+21/03/2020, 9:27 pm - $B: Kindly guide about this
+21/03/2020, 9:27 pm - $B: Or they will be in audio or video form
+21/03/2020, 10:11 pm - $C:  All, 
+Hope you all are in good health. 
+As you know, you need different components and tool to perform Linear Circuit Analysis Lab. So, your labs properly start when you join university again.
+So, I want all of you to work on MULTISIM software for analyzing different parameters in circuit like current, voltages etc. Choose complex combinational circuit and verify basic electrical law like KCL, KVL etc.
+As simulation part is also included in your final lab exam, so you should learn it now. I will share some task with you as well on Monday. So, install MULTISIM software till Monday if anyone still don’t have it.
+Stay at home and be safe.
+Thanks.
+23/03/2020, 5:50 pm - $C: 
+23/03/2020, 5:50 pm - $C:  All!
+Here is your LCA lab 06.
+inside the file you find the manual as well as instruction how to submit lab report and performance.
+Multisim user Manual  file is also available. 
+Deadline is 27- March-2020 before 11:59pm.
+24/03/2020, 11:50 am - $D: Message from HoD EE, Dr $S3P1:
+
+Dear students, . I hope you are fine, doing well and following the instructions as laid out by the government and the medical experts. Please stay at home and take care of yourself and your family as much as possible. 
+
+To save time, your online lectures have started and these will continue like this till university opens again. Use this time to enhance your knowledge and technical skills. Watch informative videos/lectures,  read relevant material and books. You have got this opportunity to introspect, identify your weaknesses and to try to work on them. EE department and faculty is committed to help you out in whatever capacity we can.
+
+Let's come out of this difficult time as stronger and better human beings. May Allah bless us all and may Allah help Pakistan overcome this difficult time.
+24/03/2020, 12:01 pm - $E: . Dear students, login to Google Classroom. The class code is k6myc7e. If there is any query, you can ask me on Google Classroom.
+24/03/2020, 3:17 pm - $F: Dear All, Your Programming Language course page is live on Facebook at () with links to youtube lecture videos and assignments. Pls participate and ask as many questions as you want to. FM
+24/03/2020, 10:16 pm - $B: 
+24/03/2020, 10:16 pm - $B: Eveyone join this
+24/03/2020, 10:31 pm - $A: Dear Students
+
+ I have uploaded the lecture on Google classroom. Please have a look. If you find any difficulty / query please contact me anytime. 
+Stay Safe
+Regards
+$A.
+25/03/2020, 11:47 am - $G: Dear 18B differential equations students asa
+I hope you all are fine.
+I have created Google classroom for differential equations. The details are in the screen shot below. Please join the course. 
+We continue from where we left.
+I have assigned you a task. Let's try to complete it. The topic is exact equations. Take all the help from internet that may include online books, lecture notes, examples, online lectures, etc.
+Best
+$G
+25/03/2020, 11:47 am - $G: 
+26/03/2020, 9:48 am - 
+26/03/2020, 10:17 am - $B: 
+26/03/2020, 10:17 am - $B: psychology class
+26/03/2020, 10:21 am - $B: 
+26/03/2020, 11:41 pm - $C: *Announcement*
+Dear students, as you know you have to submit your LCA lab through email.  
+Subject of email should be as
+*LCA Lab_section-name_ reg no*. 
+E.g. LCA Lab_A or B_123456667
+Those who already submitted are requested to submit again with this *subject*.
+Thanks and stay safe.
+26/03/2020, 11:48 pm - $C: And carefully read instruction file and make sure to send all required files.
+27/03/2020, 9:25 am - 
+27/03/2020, 5:18 pm - 
+27/03/2020, 11:41 pm - $C: Announcement. 
+As it is clearly mention in instruction file that you have to send simulation files as well as lab report. Still most of you just sending lab report file. 
+If you dont want your performance to be entered so just send report. 
+And most of you still not mentioning email subject as told you to mention. 
+LCA LAB_section name_ reg no.
+28/03/2020, 2:08 pm - $B: For psychology leave that previous classroom and kindly join this classroom
+Class code: 
+
+28/03/2020, 7:33 pm - $B: 
+28/03/2020, 7:33 pm - $B: All students join this
+28/03/2020, 7:54 pm - $D: Dear Students!!!
+Kindly take the online classes, Assignments, and Quizzes seriously because this semester evaluation is based on these online Quizzes, Assignment and final. Submit all the assignments on time as no students will be entertained for late submissions due to Internet issues. So kindly resolve your all internet issues ASAP. 
+Regards,
+$D
+EE Academic Coordinator
+28/03/2020, 11:42 pm - 
+30/03/2020, 6:12 pm - 
+30/03/2020, 9:33 pm - $C: 
+30/03/2020, 9:33 pm - $C: , Hope all of you are in good health.
+Here is your LCA lab-07 for this week.
+Deadline is 04-April-2020 before 11:59PM.
+Inside the rar file you find manual, instruction to submit lab performance and report and power point presentation with audio playback for understanding what you have to do in this lab. 
+to listen audio put the power point slides in slideshow mode. if still got any issue contact me through email.
+
+while submitting lab Subject to Email Should be “LAB Lab07_ Section A/B_ Reg. No”
+30/03/2020, 9:35 pm - $C: Correction:
+Email Subject should be "LCA LAB07_section A/B_ Reg. No."
+30/03/2020, 10:09 pm - $C: 
+30/03/2020, 10:09 pm - $C: Word file of lab manual
+31/03/2020, 4:45 pm - $D: Message from HoD (EE)
+
+Dear students, ,
+
+I hope you guys are fine and following the guidelines as laid out by the government and the medical experts. 
+
+HEC has asked all technically advanced universities (like SEECS, NUST, GIKI, LUMS, IST, FAST, BAHRIA, CUST etc) to continue the semester via online education. For other universities that are not technically advanced, a break has been given to students till 30th May so that in that time university develops capabilities to start online classes. In any case, all universities will be initiating online education by 30th May as proper class room education might start from Fall semester (due to the current crisis).
+
+We at IST had started the online classes since the first off-week. It is because we are trying our best to minimize your time loss. We understand that online education is not a substitute of actual class education but these are exceptional circumstances and we have to cope up with these together. Students also need to step up and help each other out in understanding the contents. Faculty is added in each class watsApp group so that you can ask questions whenever you go through the lecture.
+
+We ensure that the lectures are uploaded in advance. We recommend that you follow your time table and watch the lectures accordingly. Faculty will go an extra mile in helping you and answering your queries. You have books, its best time you read them thoroughly. 
+
+Please help each other out. We as a nation have come out of tougher challenges than this. This also shall pass. 
+
+Best regards
+31/03/2020, 5:29 pm - $B: Message by HoD (EE)
+
+In continuation to my previous message, I would like to add few more things (that will be more clear within a couple of weeks):
+
+1. Assesments will be carried out mostly via assignments/home quizzes and a final exam. 
+
+2. If the classes resume by 30th May, then we will probably have final exam by mid/end June. 
+
+3. We are devising a mechanism for labs that will be communicated to you within a couple of weeks.
+
+4. Financial issues (hostel, transport fee etc) will be sorted out by the adminstration and that will be adjusted in your next fee.
+
+5. For the final year students, please keep working on your FYPs (as you guys did during last summer / spring break). More time will be given to you after university opens to finish and fine tune the work before your defense.
+
+6. Remeber these are extra ordinary circumstances, so better utilize your time in learning new skills. These are not vacations. Act maturely. You are not school students any more.
+
+7. We will keep you updated regrding any new developments. For now please focus on your lectures and try helping each other out.
+
+Regards
+01/04/2020, 3:19 pm - $B: 
+01/04/2020, 3:19 pm - $B: 
+01/04/2020, 3:19 pm - $B: 
+03/04/2020, 3:17 pm - $C: Lca lab 7 deadline extended till 6th april 2020 before 11:59pm
+04/04/2020, 12:07 pm - $D: 
+04/04/2020, 12:08 pm - $D: All students kinldy fill the form
+05/04/2020, 2:52 pm - $D: Dear CRs, 
+I hope you guys are fine. As promised, more encouraging news for you guys. 
+
+* Slower pace online education during Ramzan
+* Revision when univ opens
+* Reduced Weightage of Final 
+* FYPs delayed till Mid August
+* Weekly live interactive sessions with your teachers 
+
+Now I hope EE students will also keep their promise and will work harder. Please share these EE customized lecture plans and timelines with all other students.
+05/04/2020, 2:52 pm - $D: 
+06/04/2020, 11:21 pm - $C: . Hope everyone is good. 
+*A little announcement*!
+If any of you have issue in doing task or  having issue in understanding, you are most welcome to contact me. 
+But those who contact for deadline extension are not entertained. 
+If you are not serious in 7 days. Then you better enjoy, dont waste your as well as mine time. 
+Thanks.
+07/04/2020, 2:38 am - $C: , hope everyone is in good health.
+As this is your revision week. So, LCA lab08 for next week is uploaded on google drive with a video lecture.
+deadline to submit lab 08 is 19-April-2020 before 11:59pm.
+you can get Material for LCA LAB by accessing the below mentioned link:
+
+
+
+08/04/2020, 12:23 pm - $H: Dear students, I want to conduct an online session with all class on skype at friday 5pm. Please go through all syllabus and email me your queries before online session.
+08/04/2020, 3:01 pm - $B: It's time to earn more than just a *reward*!Participate in Air e-Nexus, and win cash prizes,Trophies & certificates while staying at home!
+
+*Stay Safe Champions!*
+08/04/2020, 3:01 pm - $B: 
+08/04/2020, 3:01 pm - $B: 
+08/04/2020, 3:01 pm - $B: 
+08/04/2020, 3:33 pm - $B: 
+08/04/2020, 3:33 pm - $B: Fill this asap
+08/04/2020, 6:17 pm - $B: Dear students, i will take your live interaction session on Friday at 9:30am . Kindly watch the Youtube lecture and jot down the queries beforehand.
+08/04/2020, 6:17 pm - $B: Communication skills
+08/04/2020, 6:37 pm - $C: 
+08/04/2020, 6:37 pm - $C: . 
+While checking you lab performance and report i found some of these issues. 
+1- some students dont send multisim files. 
+2- no lab report in proper format. Some even send pics instead of lab report. 
+
+As it is clearly mentioned in instruction what you need to send.
+08/04/2020, 6:40 pm - $C: Even the simulation value are wrong.
+09/04/2020, 6:39 pm - 
+10/04/2020, 2:42 pm - $B: 
+Skype id for Mam $S3P2 everyone add her please
+She will take a live session today at 5pm.
+12/04/2020, 3:37 pm - $C: ! 
+Reminder!
+Lab for coming week. 
+And you all are required to take resistance value in kohm’s. 
+Deadline is 19-april-2020 before 11:59pm , and its final.
+12/04/2020, 3:59 pm - $C: 
+13/04/2020, 3:53 pm - $H: Dear students, after taking Skype session, I am considering to take your lectures through zoom. If any one of you don't have proper internet facility, I will upload recorded lecture from zoom on google classroom. Session will be conduct on Tuesday 12:00 O clock afternoon and same on Friday.
+14/04/2020, 11:16 am - $H: Personal Meeting 
+14/04/2020, 11:16 am - $H: Meeting Password: 
+14/04/2020, 12:12 pm - $H: 
+15/04/2020, 11:59 am - $H: I already share on your whatsapp group. I will take zoom lecture on Tuesday and friday with B section. Wednesday and Thursday with A section.
+15/04/2020, 7:43 pm - $I: Dear students, this is a reminder that the programming lab will start at 9am tomorrow and will continue till 12. Please make sure all of you have repl.it accounts so that we can help you when you have a problem.
+15/04/2020, 7:59 pm - $B:  Sir
+Sir i wanted to ask that will you give a task tomorrow morning and we will have to submit it till 12pm like always ?
+15/04/2020, 8:01 pm - $I: No. Task will be assigned at 9am but will be due next Wednesday
+15/04/2020, 8:01 pm - $B: Oky sir thankyou
+15/04/2020, 8:37 pm - $B: Sir will you give task on Microsoft teams ?
+15/04/2020, 8:50 pm - $I: Yes
+15/04/2020, 8:51 pm - $B: Sir what about repl.it
+15/04/2020, 8:51 pm - $B: What is this for...?
+15/04/2020, 8:54 pm - $I: Please go and see posts on Ms teams related to last lab. We used repl in last lab also
+15/04/2020, 9:34 pm - $I: I am getting repeated questions about same thing. So please read carefully. Tasks will be assigned on teams at 9 am and we will be available to help you in those till 12. After that you can continue working on the tasks if not completed till next Wednesday when the report will be due on teams.
+15/04/2020, 9:37 pm - $I: Repl.it is an online ide similar to cpp.sh but it allows you to share your code with us in case of difficulty. So we can do real time collaboration on your codes. Also, repl code can be directly added to Ms teams like we asked everyone to do last time
+16/04/2020, 12:18 pm - $I: Dear students, your programming lab project proposals are due next week on Ms teams. For details please see Ms teams post. Maximum group size can be 3
+16/04/2020, 5:19 pm - $B:  sir
+Sir will the project be GUI based or CMD based....kindly guide us for this.
+16/04/2020, 5:32 pm - $I: Since we're asking you to submit your proposals, it means exact scope of project is up to you. However, as mentioned in handout, grading will be according to the difficulty of your project.
+
