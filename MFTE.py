@@ -1382,7 +1382,7 @@ def process_sentence_extended (words: list) -> list:
     nn_stance_pp = "(assertion|assertions|conclusion|conclusions|conviction|convictions|discovery|discoveries|doubt|doubts|fact|facts|knowledge|knowledges|observation|observations|principle|principles|realization|realizations|result|results|statement|statements|assumption|assumptions|belief|beliefs|claim|claims|contention|contentions|feeling|feelings|hypothesis|hypotheses|idea|ideas|implication|implications|impression|impressions|notion|notions|opinion|opinions|possibility|possibilities|presumption|presumptions|suggestion|suggestions|grounds|ground|hope|hopes|reason|reasons|view|views|thought|thoughts|comment|comments|news|news|proposal|proposals|proposition|propositions|remark|remarks|report|reports|requirement|requirements|agreement|agreements|decision|decisions|desire|desires|failure|failures|inclination|inclinations|intention|intentions|obligation|obligations|opportunity|opportunities|plan|plans|promise|promises|reluctance|reluctances|responsibility|responsibilities|right|rights|tendency|tendencies|threat|threats|wish|wishes|willingness|willingnesses)"
 
     
-                
+         
     #---------------------------------------------------
     # COMPLEX TAGS
     for j, value in enumerate(words):
@@ -1391,7 +1391,7 @@ def process_sentence_extended (words: list) -> list:
         #----------------------------------------------------
         #Shakir: Add two sub classes of attributive and predicative adjectives. The predicative counterparts should not have a TO or THSC afterwards
         ####
-        if (re.search("\\b(" + jj_att_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])):
+        if (re.search("\\b(" + jj_att_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])): 
             words[j] = re.sub("_(\w+)", "_\\1 JJATDother", words[j])
 
 
@@ -1584,7 +1584,7 @@ def process_sentence_extended (words: list) -> list:
 
 
     #--------------------------------------------------- 
-    # BASIC TAGS THAT HAVE TO BE TAGGED AT THE END TO AVOID CLASHES WITH MORE COMPLEX REGEX ABOVE
+    # Shakir: Nouns semantic classes
     for index, x in enumerate(words):
 
         #--------------------------------------------------------------  
@@ -1683,7 +1683,8 @@ def process_sentence_extended (words: list) -> list:
 
         #--------------------------------------------------------------  
 
-
+    #Shakir: additional semantic categories
+    for j, value in enumerate(words):
         #---------------------------------------------------
 
         #Shakir: Nini's (2014) implementation for nominalisations with a length check of more than 5 characters, and no space means no other extra tag added
@@ -1713,7 +1714,6 @@ def process_sentence_extended (words: list) -> list:
         #Shakir: Add new variable to avoid overlap in the above two sub classes and JJAT/JJPR
         if (re.search("_JJAT$", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 JJATother", words[j])
-
 
         if (re.search("_JJPR$", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 JJPRother", words[j])
@@ -1882,7 +1882,7 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
     file_with_dir = [(file, output_dir) for file in files]
-    cpu_count = multiprocessing.cpu_count() 
+    cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
 	    pool.map(process_file, file_with_dir, extended)
@@ -2062,18 +2062,18 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
 
 
 if __name__ == "__main__":
-    input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    #input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    input_dir = "D:\Corpus Related\Corpora\Pakistani English Historical\DiachronicCorpus_18_11_2022\\"#r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    #nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/")) + "/" + os.path.basename(input_dir.rstrip("/")) + "_MFTE_tagged_test/"
+    #nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"#"_MFTE_tagged_test/"
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
-    ttr = 2000
+    ttr = 400
     #tag_stanford(nlp_dir, input_dir, output_stanford)
-    tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD)
+    #tag_MD(output_stanford, output_MD, extended=True)
+    tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
   
