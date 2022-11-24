@@ -1993,55 +1993,58 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)
     function_words_re = "(a|about|above|after|again|ago|ai|all|almost|along|already|also|although|always|am|among|an|and|another|any|anybody|anything|anywhere|are|are|around|as|at|back|be|been|before|being|below|beneath|beside|between|beyond|billion|billionth|both|but|by|can|can|could|cos|cuz|did|do|does|doing|done|down|during|each|eight|eighteen|eighteenth|eighth|eightieth|eighty|either|eleven|eleventh|else|enough|even|ever|every|everybody|everyone|everything|everywhere|except|far|few|fewer|fifteen|fifteenth|fifth|fiftieth|fifty|first|five|for|fortieth|forty|four|fourteen|fourteenth|fourth|from|get|gets|getting|got|had|has|have|having|he|hence|her|here|hers|herself|him|himself|his|hither|how|however|hundred|hundredth|i|if|in|into|is|it|its|itself|just|last|less|many|may|me|might|million|millionth|mine|more|most|much|must|my|myself|near|near|nearby|nearly|neither|never|next|nine|nineteen|nineteenth|ninetieth|ninety|ninth|no|nobody|none|noone|nor|not|nothing|now|nowhere|of|off|often|on|once|one|only|or|other|others|ought|our|ours|ourselves|out|over|quite|rather|round|second|seven|seventeen|seventeenth|seventh|seventieth|seventy|shall|sha|she|should|since|six|sixteen|sixteenth|sixth|sixtieth|sixty|so|some|somebody|someone|something|sometimes|somewhere|soon|still|such|ten|tenth|than|that|that|the|their|theirs|them|themselves|then|thence|there|therefore|these|they|third|thirteen|thirteenth|thirtieth|thirty|this|thither|those|though|thousand|thousandth|three|thrice|through|thus|till|to|today|tomorrow|too|towards|twelfth|twelve|twentieth|twenty|twice|two|under|underneath|unless|until|up|us|very|was|we|were|what|when|whence|where|whereas|which|while|whither|who|whom|whose|why|will|with|within|without|wo|would|yes|yesterday|yet|you|your|yours|yourself|yourselves|'re|'ve|n't|'ll|'twas|'em|y'|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|1|2|3|4|5|6|7|8|9|0)"
     files = glob.glob(dir_in+"*.txt")
-    list_of_dicts = list()
-    for file in files:
-        print(r"Tag counting file:", file)
-        file_name = os.path.basename(file)
-        text = open(file=file, encoding='utf-8', errors='ignore').read()
-        text = re.sub(r"\n", r" ", text) #converts end of line in space
-        words = re.split(r" +", text)
-        # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
-        # Shakir: list of words that match the given regex, then take its length as function words
-        n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
-        #print(n_functionwords)
-        # EFL: Counting function words for lexical density
-        # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
-        tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
-        # EFL: Counting total nouns for per 100 noun normalisation
-        # Shakir: list of words that match the given regex, then take its length as total nouns 
-        NTotal = len([word for word in words if re.search(r"_NN", word)])
-        # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
-        #Shakir: list of words that match the given regex, then take its length as total verbs
-        VBTotal = len([word for word in words if re.search(r"_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS", word)])
-        # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
-        # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
-        list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX", word) if re.search(r"^\S+_\S+$", word)]
-        #Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
-        average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
-        lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
-        #print(len(tokens), lex_density)
-        ttr = get_ttr(tokens, n_tokens) #Shakir calculate type token ration
-        # Shakir: get tags only, remove words and exclude certain tags from count
-        # ELF: List of tags for which no counts will be returned: "_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB"
-    	# Note: if interested in counts of punctuation marks, "|_\W+" should be deleted in this line:
-        tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b", word)]
-        # Shakir: get a dictionary of tags and frequency of each tag using collections.Counter on tags list
-        tag_freq = dict(collections.Counter(tags))
-        # Shakir: sort tag_freq
-        tag_freq = dict(sorted(tag_freq.items()))
-        temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'NTotal': NTotal, 'VBTotal': VBTotal}
-        #update temp dict with tag freq
-        temp_dict.update(tag_freq)
-        list_of_dicts.append(temp_dict)
-    print("writing statistics..")
-    df = pd.DataFrame(list_of_dicts).fillna(0)
-    features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
-    df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
-    df.round(4).to_csv(dir_out+"counts_raw.csv", index=False)
-    #df = pd.read_excel(dir_out+"counts_raw.csv")
-    get_complex_normed_counts(df).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
-    get_percent_normed_counts(df).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
-    print("finished!")
+    if len(files) > 0:
+        list_of_dicts = list()
+        for file in files:
+            print(r"Tag counting file:", file)
+            file_name = os.path.basename(file)
+            text = open(file=file, encoding='utf-8', errors='ignore').read()
+            text = re.sub(r"\n", r" ", text) #converts end of line in space
+            words = re.split(r" +", text)
+            # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
+            # Shakir: list of words that match the given regex, then take its length as function words
+            n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
+            #print(n_functionwords)
+            # EFL: Counting function words for lexical density
+            # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
+            tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
+            # EFL: Counting total nouns for per 100 noun normalisation
+            # Shakir: list of words that match the given regex, then take its length as total nouns 
+            NTotal = len([word for word in words if re.search(r"_NN", word)])
+            # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
+            #Shakir: list of words that match the given regex, then take its length as total verbs
+            VBTotal = len([word for word in words if re.search(r"_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS", word)])
+            # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
+            # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
+            list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX", word) if re.search(r"^\S+_\S+$", word)]
+            #Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
+            average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
+            lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
+            #print(len(tokens), lex_density)
+            ttr = get_ttr(tokens, n_tokens) #Shakir calculate type token ration
+            # Shakir: get tags only, remove words and exclude certain tags from count
+            # ELF: List of tags for which no counts will be returned: "_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB"
+            # Note: if interested in counts of punctuation marks, "|_\W+" should be deleted in this line:
+            tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b", word)]
+            # Shakir: get a dictionary of tags and frequency of each tag using collections.Counter on tags list
+            tag_freq = dict(collections.Counter(tags))
+            # Shakir: sort tag_freq
+            tag_freq = dict(sorted(tag_freq.items()))
+            temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'NTotal': NTotal, 'VBTotal': VBTotal}
+            #update temp dict with tag freq
+            temp_dict.update(tag_freq)
+            list_of_dicts.append(temp_dict)
+        print("writing statistics..")
+        df = pd.DataFrame(list_of_dicts).fillna(0)
+        features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
+        df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
+        df.round(4).to_csv(dir_out+"counts_raw.csv", index=False)
+        #df = pd.read_excel(dir_out+"counts_raw.csv")
+        get_complex_normed_counts(df).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
+        get_percent_normed_counts(df).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
+        print("finished!")
+    else:
+        print("There are no files to count tags from. Maybe you did not input correct path?")
     # with open(file=dir_out+"tokens.txt", mode='w', encoding='utf-8') as f:
     #     f.write("\n".join(tags))
     #     break    
