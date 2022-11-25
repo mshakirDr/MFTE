@@ -1,0 +1,3479 @@
+Antibiotics_NN NNother
+tablets_NN NCOMP
+}_-RRB-
+Anti-inflamentry_NN NNother
+and_CC
+It_PIT
+is_VPRT
+cured_PASS PASSAll
+by_IN INother
+taking_VBG ACT
+Aspirin_NN NNother
+._.
+And_CC
+this_DEMO
+sensational_JJAT JJATother
+news_NN NNother
+for_IN PrepNSTNC
+the_DT
+world_NN NNother
+has_VPRT
+been_PEAS
+prepared_PASS PASSAll
+by_IN INother
+Italian_JJAT JJATother
+doctors_NN NNHUMAN
+by_IN INother
+autopsies_NN NNother
+(_-LRB-
+postmortem_JJPR JJPRother
+)_-RRB-
+of_IN INother
+dead_JJAT JJATother
+corpses_NN NNother
+of_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+virus_NN NCOMP
+,_,
+indicating_VBG EXIST
+that_THSC THSCother
+the_DT
+disease_NN NNother
+is_VPRT BEMA
+possible_JJPR JJEPSTother
+._.
+According_VBG
+to_IN INother
+some_QUAN
+other_JJAT JJATother
+Italian_JJAT JJATother
+scientists_NN NNHUMAN
+,_,
+ventilators_NN NNother
+and_CC
+invasive_JJAT JJATother
+care_NN NNABSPROC
+units_NN NCOMP
+(_-LRB-
+ICUs_NN NNother
+)_-RRB-
+were_VBD SPLIT
+never_FREQ
+needed_PASS PASSAll MENTAL
+._.
+New_NN NNP
+molasses_VPRT
+protocols_NN NNother
+have_VPRT SPLIT
+now_TIME
+been_PEAS
+issued_PASS PASSAll
+in_IN INother
+Italy_NN NNP
+for_IN INother
+this_DEMO
+._.
+CHINA_NN NNP
+knew_VBD MENTAL
+about_IN INother
+it_PIT
+beforehand_TIME
+but_CC
+never_FREQ
+made_VBN ACT
+public_JJPR JJREL
+its_PIT
+report_NN NNother
+to_IN PrepNSTNC
+anyone_QUPR
+._.
+Please_FPUH POLITE
+share_VB ACT
+this_DEMO
+information_NN NNABSPROC
+to_IN INother
+all_QUAN
+your_SPP2
+family_NN NNHUMAN
+,_,
+neighbors_NN NNHUMAN
+,_,
+experts_NN NNHUMAN
+,_,
+friends_NN NNHUMAN
+,_,
+colleagues_NN NNHUMAN
+so_SO
+that_THSC CUZ
+they_TPP3P
+can_MDCA MDPOSSCAll
+get_VB
+out_IN INother
+of_IN INother
+fear_NN NNother
+of_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+and_CC
+they_TPP3P
+understand_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+it_PIT
+is_VPRT BEMA
+not_XX0
+a_DT
+virus_NN NNTECH
+at_IN INother
+all_QUAN
+but_IN INother
+a_DT
+bacterium_NN NNother
+that_THRC THRCother
+is_VPRT
+just_RB EMPH
+5G_NN NNother
+radiation_NN NCOMP
+The_DT
+reason_NN NSTNCother
+is_VPRT
+harming_PROG
+those_DEMO
+people_NN NNHUMAN
+whose_WHSC WHSCother
+immunity_NN NOMZ
+is_VPRT
+very_AMP
+less_RB RBother
+._.
+It_PIT
+also_CC
+produces_VPRT ACT
+radiation_NN NOMZ
+inflation_NN NCOMP
+and_CC
+hypoxia_NN NNother
+._.
+Those_DEMO
+who_WHSC WHSCother
+fall_VPRT OCCUR
+under_IN INother
+this_DEMO
+condition_NN NNABSPROC
+should_MDNE
+take_VB ACT
+Asprin_NN NNother
+-_HYPH
+100_CD
+mg_NN NNother
+and_CC
+Apronicus_NN NNother
+or_CC
+Paracetamol_NN NNother
+650_CD
+mg_NN NNother
+._.
+Why_WHSC WHSCother
+…_,
+???_.
+…_,
+._.
+Because_CUZ
+it_PIT
+has_VPRT
+been_PEAS
+revealed_PASS PASSAll EXIST
+that_THSC THSCother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+accumulates_VPRT
+blood_NN NNother
+which_WHSC WHSCother
+causes_VPRT CAUSE
+thrombosis_NN NNother
+and_CC
+due_JJPR JJPRother
+to_IN INother
+which_WHSC WHSCother
+blood_NN NNother
+accumulates_VPRT
+in_IN INother
+the_DT
+veins_NN NNother
+and_CC
+due_IN INother
+to_IN INother
+this_DEMO
+the_DT
+brain_NN NNCONC
+,_,
+heart_NN NNCONC
+and_CC
+lungs_NN NNother
+do_VPRT DOAUX
+not_XX0
+get_VB
+oxygen_NN NNTECH
+due_IN INother
+to_IN INother
+which_WHSC WHSCother
+the_DT
+person_NN NNHUMAN
+There_EX
+is_VPRT
+difficulty_NN NNother
+in_IN INother
+breathing_NN NNother
+and_CC
+due_JJPR JJPRother
+to_IN INother
+lack_NN NNother
+of_IN INother
+breath_NN NNother
+,_,
+a_DT
+person_NN NNHUMAN
+dies_VPRT OCCUR
+rapidly_RB RBother
+._.
+The_DT
+Italian_JJAT JJATother
+doctors_NN NNHUMAN
+did_VBD DOAUX
+not_XX0
+follow_VB ACT
+the_DT
+WHO_WHSC WHSCother
+protocol_NN NNother
+and_CC
+autopsies_VPRT
+the_DT
+corpses_NN NNother
+that_THRC THRCother
+were_VBD
+killed_PASS PASSAll
+by_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+._.
+After_IN INother
+opening_NN NNother
+and_CC
+examining_VBG MENTAL
+the_DT
+arms_NN NNCONC
+,_,
+legs_NN NNCONC
+and_CC
+other_JJAT JJATother
+parts_NN NNQUANT
+of_IN INother
+the_DT
+bodies_NN NNCONC
+,_,
+the_DT
+doctors_NN NNHUMAN
+realized_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+the_DT
+blood_NN NNother
+vessels_NN NCOMP
+were_VBD
+dilated_PASS PASSAll
+and_CC
+the_DT
+veins_NN NNother
+were_VBD
+filled_PASS PASSAll
+with_IN INother
+thrombi_NN NNother
+,_,
+which_WHSC WHSCother
+usually_FREQ
+prevented_VBD CAUSE
+the_DT
+blood_NN NNother
+from_IN INother
+flowing_VBG OCCUR
+._.
+And_CC
+also_CC
+reduces_VPRT ACT
+the_DT
+flow_NN NNABSPROC
+of_IN INother
+oxygen_NN NNTECH
+into_IN INother
+the_DT
+body_NN NNCONC
+causing_VBG CAUSE
+death_NN NNABSPROC
+of_IN INother
+the_DT
+patient_NN NNHUMAN
+._.
+After_IN INother
+knowing_VBG MENTAL
+this_DEMO
+research_NN NNABSPROC
+,_,
+the_DT
+Italian_JJAT JJATother
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+immediately_TIME
+changed_VBD OCCUR
+the_DT
+protocol_NN NNother
+of_IN INother
+treatment_NN NNABSPROC
+of_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+and_CC
+used_VBD ACT
+aspirin_NN NNother
+to_IN INother
+its_PIT
+positive_JJAT JJEPSTother
+patients_NN NNHUMAN
+._.
+Started_VBD ASPECT
+giving_VBG ACT
+100_CD
+mg_NN NNother
+and_CC
+ampromacus_NN NNother
+._.
+Due_IN INother
+to_IN INother
+which_WHSC WHSCother
+patients_NN NNHUMAN
+started_VBD ASPECT
+recovering_VBG
+and_CC
+their_TPP3P
+health_NN NNABSPROC
+started_VBD ASPECT
+improving_VBG
+._.
+The_DT
+Italian_JJAT JJATother
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+discharged_VBD
+over_IN INother
+14000_CD
+patients_NN NNHUMAN
+in_IN INother
+a_DT
+single_JJAT JJREL
+day_NN NNQUANT
+and_CC
+sent_VBD ACT
+them_TPP3P
+to_IN INother
+their_TPP3P
+respective_JJAT JJATother
+homes_NN NNGRP
+._.
+Source_NN NNABSPROC
+:_:
+Italy_NN NNP
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+👆_EMO
+COPY_NN NNP
+OTHER_NN NNP
+GROUP_NN NNP
+BREAKING_VBG
+NEWS_NN NSTNCother
+OP_NN NCOMP
+BREAKING_VBG
+NEWS_NN NSTNCother
+Big_JJAT JJDESCAll JJSIZE
+news_NN NNother
+of_IN PrepNSTNC
+the_DT
+world_NN NNother
+,_,
+Italy_NN NNP
+did_VBD ACT
+post_FW
+mortem_FW
+of_IN INother
+dead_JJAT JJATother
+corona_NN NNother
+patient_NN NCOMP
+,_,
+big_JJAT JJDESCAll JJSIZE
+disclosure_NN NNother
+Italy_NN NNP
+has_VPRT
+become_PEAS OCCUR
+the_DT
+first_JJAT JJATother
+country_NN NNPLACE
+in_IN INother
+the_DT
+world_NN NNother
+to_IN INother
+have_VB
+an_DT
+autopsy_NN NNother
+(_-LRB-
+postmortem_JJPR JJPRother
+)_-RRB-
+on_IN INother
+a_DT
+dead_JJAT JJATother
+body_NN NNCONC
+from_IN INother
+a_DT
+Kovid_NN NNother
+-_HYPH
+19_CD
+and_CC
+after_IN INother
+an_DT
+extensive_JJAT JJATother
+investigation_NN NOMZ
+has_VPRT
+found_PEAS
+out_RP
+that_THSC THSCother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+does_VPRT DOAUX
+not_XX0
+exist_VB EXIST
+as_IN INother
+a_DT
+virus_NN NNTECH
+,_,
+rather_CC
+it_PIT
+is_VPRT BEMA
+a_DT
+very_AMP
+large_JJAT JJDESCAll JJSIZE
+Global_JJAT JJATother
+scam_NN NNother
+._.
+People_NN NNHUMAN
+are_VPRT
+actually_DMA
+dying_VBG OCCUR
+of_IN INother
+"_``
+Amplified_JJAT JJATother
+Global_JJAT JJATother
+5G_NN NNother
+Electromagnetic_NN NNP
+Radiation_NN NNP
+(_-LRB-
+Poison_NN NNother
+)_-RRB-
+"_''
+._.
+Doctors_NN NNHUMAN
+in_IN INother
+Italy_NN NNP
+have_VPRT
+violated_PEAS
+the_DT
+World_NN NNP
+Health_NN NNP
+Organization_NN NNP
+(_-LRB-
+WHO_WHSC WHSCother
+)_-RRB-
+law_NN NNABSPROC
+,_,
+which_WHSC WHSCother
+does_VPRT DOAUX
+not_XX0
+allow_VB CAUSE
+them_TPP3P
+to_IN INother
+perform_VB
+autopsies_NN NNother
+(_-LRB-
+postmortem_JJPR JJPRother
+)_-RRB-
+on_IN INother
+the_DT
+dead_JJAT JJATother
+bodies_NN NNCONC
+of_IN INother
+people_NN NNHUMAN
+who_WHSC WHSCother
+die_VPRT OCCUR
+of_IN INother
+the_DT
+Karona_NN NNP
+virus_NN NCOMP
+,_,
+so_SO
+that_THSC CUZ
+after_IN INother
+some_QUAN
+kind_NN NNABSPROC
+of_IN INother
+scientific_JJAT JJATother
+investigation_NN NOMZ
+and_CC
+investigation_NN NOMZ
+,_,
+this_DEMO
+address_NN NNABSPROC
+It_PIT
+is_VPRT BEMA
+not_XX0
+possible_JJPR JJPRother
+that_THSC ThSTNCAll ThJSTNCAll ThJLIK
+it_PIT
+is_VPRT BEMA
+not_XX0
+a_DT
+virus_NN NNTECH
+,_,
+but_CC
+a_DT
+bacterium_NN NNother
+that_THRC THRCother
+causes_VPRT CAUSE
+death_NN NNABSPROC
+,_,
+due_IN INother
+to_IN INother
+which_WHSC WHSCother
+blood_NN NNother
+vessels_NN NCOMP
+in_IN INother
+the_DT
+veins_NN NNother
+are_VPRT
+formed_PASS PASSAll ACT
+,_,
+that_DEMO
+is_VPRT
+,_,
+due_IN INother
+to_IN INother
+this_DEMO
+bacteria_NN NNTECH
+,_,
+blood_NN NNother
+accumulates_VPRT
+in_IN INother
+the_DT
+veins_NN NNother
+and_CC
+nerves_NN NNother
+and_CC
+this_DEMO
+patient_NN NNHUMAN
+Becomes_VPRT OCCUR
+the_DT
+cause_NN NNABSPROC
+of_IN INother
+death_NN NNABSPROC
+._.
+Italy_NN NNP
+has_VPRT
+defeated_PEAS
+the_DT
+virus_NN NNTECH
+,_,
+stating_VBG COMM
+that_DEMO
+"_``
+there_EX
+is_VPRT
+nothing_QUPR
+but_IN INother
+diffuse_JJPR JJPRother
+-_HYPH
+intravascular_JJAT JJATother
+coagulation_NN NOMZ
+(_-LRB-
+thrombosis_NN NNother
+)_-RRB-
+"_''
+and_CC
+the_DT
+method_NN NNABSPROC
+of_IN INother
+combating_VBG
+it_PIT
+is_VPRT
+said_PASS PASSAll COMM
+to_IN INother
+be_VB
+…_,
+…_,
+._.
+._.
+Antibiotics_NN NNother
+tablets_NN NCOMP
+}_-RRB-
+Anti-inflamentry_NN NNother
+and_CC
+It_PIT
+is_VPRT
+cured_PASS PASSAll
+by_IN INother
+taking_VBG ACT
+Aspirin_NN NNother
+._.
+And_CC
+this_DEMO
+sensational_JJAT JJATother
+news_NN NNother
+for_IN PrepNSTNC
+the_DT
+world_NN NNother
+has_VPRT
+been_PEAS
+prepared_PASS PASSAll
+by_IN INother
+Italian_JJAT JJATother
+doctors_NN NNHUMAN
+by_IN INother
+autopsies_NN NNother
+(_-LRB-
+postmortem_JJPR JJPRother
+)_-RRB-
+of_IN INother
+dead_JJAT JJATother
+corpses_NN NNother
+of_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+virus_NN NCOMP
+,_,
+indicating_VBG EXIST
+that_THSC THSCother
+the_DT
+disease_NN NNother
+is_VPRT BEMA
+possible_JJPR JJEPSTother
+._.
+According_VBG
+to_IN INother
+some_QUAN
+other_JJAT JJATother
+Italian_JJAT JJATother
+scientists_NN NNHUMAN
+,_,
+ventilators_NN NNother
+and_CC
+invasive_JJAT JJATother
+care_NN NNABSPROC
+units_NN NCOMP
+(_-LRB-
+ICUs_NN NNother
+)_-RRB-
+were_VBD SPLIT
+never_FREQ
+needed_PASS PASSAll MENTAL
+._.
+New_NN NNP
+molasses_VPRT
+protocols_NN NNother
+have_VPRT SPLIT
+now_TIME
+been_PEAS
+issued_PASS PASSAll
+in_IN INother
+Italy_NN NNP
+for_IN INother
+this_DEMO
+._.
+CHINA_NN NNP
+knew_VBD MENTAL
+about_IN INother
+it_PIT
+beforehand_TIME
+but_CC
+never_FREQ
+made_VBN ACT
+public_JJPR JJREL
+its_PIT
+report_NN NNother
+to_IN PrepNSTNC
+anyone_QUPR
+._.
+Please_FPUH POLITE
+share_VB ACT
+this_DEMO
+information_NN NNABSPROC
+to_IN INother
+all_QUAN
+your_SPP2
+family_NN NNHUMAN
+,_,
+neighbors_NN NNHUMAN
+,_,
+experts_NN NNHUMAN
+,_,
+friends_NN NNHUMAN
+,_,
+colleagues_NN NNHUMAN
+so_SO
+that_THSC CUZ
+they_TPP3P
+can_MDCA MDPOSSCAll
+get_VB
+out_IN INother
+of_IN INother
+fear_NN NNother
+of_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+and_CC
+they_TPP3P
+understand_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+it_PIT
+is_VPRT BEMA
+not_XX0
+a_DT
+virus_NN NNTECH
+at_IN INother
+all_QUAN
+but_IN INother
+a_DT
+bacterium_NN NNother
+that_THRC THRCother
+is_VPRT
+just_RB EMPH
+5G_NN NNother
+radiation_NN NCOMP
+The_DT
+reason_NN NSTNCother
+is_VPRT
+harming_PROG
+those_DEMO
+people_NN NNHUMAN
+whose_WHSC WHSCother
+immunity_NN NOMZ
+is_VPRT
+very_AMP
+less_RB RBother
+._.
+It_PIT
+also_CC
+produces_VPRT ACT
+radiation_NN NOMZ
+inflation_NN NCOMP
+and_CC
+hypoxia_NN NNother
+._.
+Those_DEMO
+who_WHSC WHSCother
+fall_VPRT OCCUR
+under_IN INother
+this_DEMO
+condition_NN NNABSPROC
+should_MDNE
+take_VB ACT
+Asprin_NN NNother
+-_HYPH
+100_CD
+mg_NN NNother
+and_CC
+Apronicus_NN NNother
+or_CC
+Paracetamol_NN NNother
+650_CD
+mg_NN NNother
+._.
+Why_WHSC WHSCother
+…_,
+???_.
+…_,
+._.
+Because_CUZ
+it_PIT
+has_VPRT
+been_PEAS
+revealed_PASS PASSAll EXIST
+that_THSC THSCother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+accumulates_VPRT
+blood_NN NNother
+which_WHSC WHSCother
+causes_VPRT CAUSE
+thrombosis_NN NNother
+and_CC
+due_JJPR JJPRother
+to_IN INother
+which_WHSC WHSCother
+blood_NN NNother
+accumulates_VPRT
+in_IN INother
+the_DT
+veins_NN NNother
+and_CC
+due_IN INother
+to_IN INother
+this_DEMO
+the_DT
+brain_NN NNCONC
+,_,
+heart_NN NNCONC
+and_CC
+lungs_NN NNother
+do_VPRT DOAUX
+not_XX0
+get_VB
+oxygen_NN NNTECH
+due_IN INother
+to_IN INother
+which_WHSC WHSCother
+the_DT
+person_NN NNHUMAN
+There_EX
+is_VPRT
+difficulty_NN NNother
+in_IN INother
+breathing_NN NNother
+and_CC
+due_JJPR JJPRother
+to_IN INother
+lack_NN NNother
+of_IN INother
+breath_NN NNother
+,_,
+a_DT
+person_NN NNHUMAN
+dies_VPRT OCCUR
+rapidly_RB RBother
+._.
+The_DT
+Italian_JJAT JJATother
+doctors_NN NNHUMAN
+did_VBD DOAUX
+not_XX0
+follow_VB ACT
+the_DT
+WHO_WHSC WHSCother
+protocol_NN NNother
+and_CC
+autopsies_VPRT
+the_DT
+corpses_NN NNother
+that_THRC THRCother
+were_VBD
+killed_PASS PASSAll
+by_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+._.
+After_IN INother
+opening_NN NNother
+and_CC
+examining_VBG MENTAL
+the_DT
+arms_NN NNCONC
+,_,
+legs_NN NNCONC
+and_CC
+other_JJAT JJATother
+parts_NN NNQUANT
+of_IN INother
+the_DT
+bodies_NN NNCONC
+,_,
+the_DT
+doctors_NN NNHUMAN
+realized_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+the_DT
+blood_NN NNother
+vessels_NN NCOMP
+were_VBD
+dilated_PASS PASSAll
+and_CC
+the_DT
+veins_NN NNother
+were_VBD
+filled_PASS PASSAll
+with_IN INother
+thrombi_NN NNother
+,_,
+which_WHSC WHSCother
+usually_FREQ
+prevented_VBD CAUSE
+the_DT
+blood_NN NNother
+from_IN INother
+flowing_VBG OCCUR
+._.
+And_CC
+also_CC
+reduces_VPRT ACT
+the_DT
+flow_NN NNABSPROC
+of_IN INother
+oxygen_NN NNTECH
+into_IN INother
+the_DT
+body_NN NNCONC
+causing_VBG CAUSE
+death_NN NNABSPROC
+of_IN INother
+the_DT
+patient_NN NNHUMAN
+._.
+After_IN INother
+knowing_VBG MENTAL
+this_DEMO
+research_NN NNABSPROC
+,_,
+the_DT
+Italian_JJAT JJATother
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+immediately_TIME
+changed_VBD OCCUR
+the_DT
+protocol_NN NNother
+of_IN INother
+treatment_NN NNABSPROC
+of_IN INother
+Kovid_NN NNP
+-_HYPH
+19_NN NNP
+and_CC
+used_VBD ACT
+aspirin_NN NNother
+to_IN INother
+its_PIT
+positive_JJAT JJEPSTother
+patients_NN NNHUMAN
+._.
+Started_VBD ASPECT
+giving_VBG ACT
+100_CD
+mg_NN NNother
+and_CC
+ampromacus_NN NNother
+._.
+Due_IN INother
+to_IN INother
+which_WHSC WHSCother
+patients_NN NNHUMAN
+started_VBD ASPECT
+recovering_VBG
+and_CC
+their_TPP3P
+health_NN NNABSPROC
+started_VBD ASPECT
+improving_VBG
+._.
+The_DT
+Italian_JJAT JJATother
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+discharged_VBD
+over_IN INother
+14000_CD
+patients_NN NNHUMAN
+in_IN INother
+a_DT
+single_JJAT JJREL
+day_NN NNQUANT
+and_CC
+sent_VBD ACT
+them_TPP3P
+to_IN INother
+their_TPP3P
+respective_JJAT JJATother
+homes_NN NNGRP
+._.
+Source_NN NNABSPROC
+:_:
+Italy_NN NNP
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+👆_EMO
+COPY_NN NNP
+OTHER_NN NNP
+GROUP_NN NNP
+BREAKING_VBG
+NEWS_NN NSTNCother
+12/12/2020_CD
+,_,
+18:55_CD
+-_SYM
+$_$
+Y_NN NNother
+:_:
+👍_EMO
+._.
+._.
+You_SPP2
+are_VPRT BEMA
+the_DT
+one_NN NNother
+who_WHSC WHSCother
+shared_VBD ACT
+this_DEMO
+to_IN INother
+me_FPP1S FPPAll
+sometime_RB RBother
+back_RB RBother
+..._:
+._.
+These_DEMO
+Video_NN NNCONC
+clips_NN NCOMP
+are_VPRT BEMA
+Treasures_NN NNP
+._.
+._.
+🙏_EMO
+12/12/2020_CD
+,_,
+19:01_CD
+-_SYM
+$_$
+D1_NN NNother
+:_:
+Yes_DMA
+I_FPP1S FPPAll
+remember.I_VPRT
+called_VBN COMM
+aunty_NN NNother
+just_RB EMPH
+now.She_TPP3S
+’s_POS
+happy_JJPR JJATDother
+about_IN INother
+it_PIT
+._.
+🙏_EMO
+12/12/2020_CD
+,_,
+19:10_CD
+-_SYM
+$_$
+M_CD
+:_:
+Thanks_NN POLITE
+for_IN INother
+the_DT
+breaking_VBG
+news_NN NSTNCother
+._.
+12/12/2020_CD
+,_,
+19:11_CD
+-_SYM
+$_$
+M_CD
+:_:
+👍_EMO
+12/12/2020_CD
+,_,
+22:35_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Thanks_NN POLITE
+a_DT
+lot_QUAN
+!_.
+12/12/2020_CD
+,_,
+23:22_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+This_DEMO
+is_VPRT BEMA
+a_DT
+hoax_NN NNother
+._.
+Verify_VB
+first_RB RBother
+about_IN INother
+the_DT
+post_JJAT JJATother
+fist_NN NNother
+._.
+If_COND
+such_EMPH
+a_DT
+thing_NN NNother
+it_PIT
+would_MDWO MDPREDAll
+be_VB BEMA
+a_DT
+headline_NN NNother
+on_IN INother
+global_JJAT JJATother
+news_NN NSTNCother
+😊_EMO
+13/12/2020_CD
+,_,
+03:04_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+😁_EMO
+13/12/2020_CD
+,_,
+09:28_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Thanks_NN POLITE
+$_$
+A_DT
+for_IN INother
+the_DT
+info_NN NNother
+._.
+❤_EMO
+13/12/2020_CD
+,_,
+10:07_CD
+-_HYPH
+13/12/2020_CD
+,_,
+10:09_CD
+-_SYM
+$_$
+M_CD
+:_:
+a_DT
+your_SPP2
+birthday_NN NNother
+is_VPRT BEMA
+very_AMP
+special_JJPR JJPRother
+to_IN INother
+us_FPP1P FPPAll
+._.
+So_SO
+wish_VPRT MENTAL
+you_SPP2
+a_DT
+grand_JJAT JJATother
+birthday_NN NNother
+with_IN INother
+God_NN NNP
+'s_POS
+richest_JJAT JJATother
+blessings_NN NNother
+._.
+Aunty_NN NNP
+$_$
+M._NN NNP
+13/12/2020_CD
+,_,
+10:12_CD
+-_HYPH
+13/12/2020_CD
+,_,
+10:18_CD
+-_SYM
+$_$
+M_CD
+:_:
+13/12/2020_CD
+,_,
+10:19_CD
+-_SYM
+$_$
+M_CD
+:_EMO
+$_$
+H1_NN NNother
+'s_POS
+birthday_NN NNother
+13/12/2020_CD
+,_,
+11:52_CD
+-_SYM
+$_$
+G1_NN NNother
+:_:
+Many_QUAN
+happy_JJAT JJATDother
+returns_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+$_$
+H1_NN NNother
+._.
+13/12/2020_CD
+,_,
+11:53_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+Many_QUAN
+happy_JJAT JJATDother
+returns_NN NNABSPROC
+$_$
+H1_NN NNother
+13/12/2020_CD
+,_,
+13:20_CD
+-_HYPH
+13/12/2020_CD
+,_,
+13:27_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+13/12/2020_CD
+,_,
+13:27_CD
+-_SYM
+$_$
+L_NN NNother
+:_EMO
+$_$
+N1_NN NNother
+and_CC
+$_$
+E2_NN NNother
+13/12/2020_CD
+,_,
+13:28_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+His_TPP3S
+elder_JJAT JJATother
+daughter_NN NNHUMAN
+13/12/2020_CD
+,_,
+13:28_CD
+-_SYM
+$_$
+M_CD
+:_:
+So_EMPH
+beautiful_JJPR JJEVAL
+._.
+God_NN NNP
+bless_VPRT
+both_QUAN
+._.
+13/12/2020_CD
+,_,
+13:28_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Beautiful_JJAT JJEVAL
+picture_NN NNCONC
+!_.
+13/12/2020_CD
+,_,
+13:41_CD
+-_SYM
+$_$
+C1_CD
+:_:
+❤️_EMO
+❤️_EMO
+❤️_EMO
+❤️_EMO
+❤️_EMO
+❤️_EMO
+❤️_EMO
+13/12/2020_CD
+,_,
+16:15_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Happy_JJAT JJATDother
+birthday_NN NNother
+$_$
+H1_NN NNother
+😊_EMO
+13/12/2020_CD
+,_,
+16:15_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+❤_EMO
+👍_EMO
+13/12/2020_CD
+,_,
+19:13_CD
+-_SYM
+$_$
+Y_NN NNother
+:_:
+👍_EMO
+👍_EMO
+13/12/2020_CD
+,_,
+19:38_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+$_$
+M_CD
+aunty_NN NNother
+😊_EMO
+13/12/2020_CD
+,_,
+19:38_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+😊_EMO
+13/12/2020_CD
+,_,
+19:39_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+$_$
+L_$
+aunty_CD
+😊_EMO
+13/12/2020_CD
+,_,
+19:46_CD
+-_SYM
+$_NN NNother
+W_NN NNother
+:_:
+I_FPP1S FPPAll
+need_VPRT MENTAL
+$_$
+N1_NN NNother
+s_POS
+number_NN NNQUANT
+pls._NN NCOMP
+._.
+,_,
+$_$
+W_NN NNP
+13/12/2020_CD
+,_,
+19:51_CD
+-_SYM
+$_$
+AB_NN NNP
+:_EMO
+$_$
+N1_NN NNother
+Jayawardane_NN NCOMP
+I_FPP1S FPPAll
+guess_VPRT MENTAL
+😊_EMO
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+pm_NN NNother
+you_SPP2
+the_DT
+number_NN NNQUANT
+👍_EMO
+13/12/2020_CD
+,_,
+19:53_CD
+-_SYM
+$_NN NNother
+W_NN NNother
+:_:
+Yes_DMA
+Thanks_NN POLITE
+👍_EMO
+13/12/2020_CD
+,_,
+19:56_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+👍_EMO
+13/12/2020_CD
+,_,
+20:07_CD
+-_SYM
+$_$
+G1_NN NNother
+:_:
+👍_EMO
+13/12/2020_CD
+,_,
+20:13_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+So_EMPH
+Beautiful_JJPR JJEVAL
+._.
+God_NN NNP
+bless_VPRT
+you_SPP2
+._.
+13/12/2020_CD
+,_,
+21:46_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+13/12/2020_CD
+,_,
+21:51_CD
+-_SYM
+$_$
+D1_NN NNother
+:_:
+God_NN NNP
+’s_POS
+choicest_JJAT JJATother
+blessings_NN NNother
+and_CC
+all_QUAN
+good_JJAT JJEVAL
+wishes_NN NNother
+for_IN PrepNSTNC
+a_DT
+wonderful_JJAT JJATother
+birthday_NN NNother
+to_IN INother
+our_FPP1P FPPAll
+loving_JJAT JJATother
+son_NN NNHUMAN
+$_$
+H1_NN NNother
+._.
+❤️_EMO
+,_,
+$_$
+S3P11_CD
+&_CC
+$_$
+S3P12_CD
+13/12/2020_CD
+,_,
+21:57_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+very_AMP
+much_QUAN
+❤️_EMO
+13/12/2020_CD
+,_,
+21:58_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+😍_EMO
+13/12/2020_CD
+,_,
+22:01_CD
+-_SYM
+$_$
+M_CD
+:_:
+I_FPP1S FPPAll
+request_VPRT
+a_DT
+music_NN NNABSPROC
+clip_NN NCOMP
+of_IN INother
+yours_SPP2
+to_IN INother
+hear_VB MENTAL
+your_SPP2
+beautiful_JJAT JJEVAL
+voice_NN NNother
+._.
+13/12/2020_CD
+,_,
+22:22_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Sure_DMA
+😊_EMO
+13/12/2020_CD
+,_,
+22:23_CD
+-_SYM
+$_$
+M_CD
+:_:
+👍_EMO
+13/12/2020_CD
+,_,
+22:29_CD
+-_SYM
+$_$
+M_CD
+:_:
+Wow_FPUH
+._.
+Thank_VPRT COMM POLITE
+you_SPP2
+._.
+excellent_JJPR JJPRother
+._.
+Keep_VB ASPECT
+it_PIT
+up_RP
+._.
+13/12/2020_CD
+,_,
+22:29_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Aww_FPUH
+awesome_JJPR JJPRother
+._.
+Super_NN NNP EMPH
+cool_JJPR JJPRother
+🎄_EMO
+👍_EMO
+❤_EMO
+13/12/2020_CD
+,_,
+22:35_CD
+-_SYM
+$_$
+H1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+😊_EMO
+13/12/2020_CD
+,_,
+23:13_CD
+-_SYM
+$_$
+Z_NN NNother
+:_:
+👍_EMO
+👏_EMO
+13/12/2020_CD
+,_,
+23:59_CD
+-_SYM
+$_$
+C1_CD
+:_:
+13/12/2020_CD
+,_,
+23:59_CD
+-_SYM
+$_$
+C1_CD
+:_:
+Great_JJAT JJEVAL
+job_NN NNABSPROC
+$_$
+H1_NN NNother
+14/12/2020_CD
+,_,
+00:01_CD
+-_SYM
+$_$
+C1_CD
+:_:
+May_NN NNP
+GODs_NN NCOMP
+Choicest_JJAT JJATother
+Blessings_NN NNother
+..._:
+Happy_JJAT JJATDother
+Bday_NN NNother
+$_$
+H1_NN NNother
+._.
+14/12/2020_CD
+,_,
+07:00_CD
+-_SYM
+$_$
+Y_NN NNother
+:_:
+👏_EMO
+👏_EMO
+👍_EMO
+👍_EMO
+🎺_EMO
+14/12/2020_CD
+,_,
+07:41_CD
+-_SYM
+$_$
+L_NN NNother
+:_EMO
+$_$
+A_DT
+how_WHSC WHSCother
+about_IN INother
+date_NN NNQUANT
+choices_NN NCOMP
+for_IN INother
+the_DT
+virtual_JJAT JJATother
+musicak_NN NNother
+viasta_NN NCOMP
+Towards_IN INother
+end_NN NNABSPROC
+january_NN NNP
+._.
+14/12/2020_CD
+,_,
+08:10_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Hi_FPUH
+Good_JJPR JJEVAL
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+hear_VB MENTAL
+from_IN INother
+you_SPP2
+._.
+I_FPP1S FPPAll
+have_VPRT
+been_PEAS BEMA
+super_RB EMPH
+busy_JJPR JJPRother
+at_IN INother
+work_NN NNABSPROC
+._.
+I_FPP1S FPPAll
+did_VBD DOAUX
+n't_XX0 CONT
+get_VB
+any_QUAN
+chance_NN NNother
+to_IN INother
+look_VB
+into_IN INother
+it_PIT
+._.
+Is_VPRT BEMA
+it_PIT
+any_QUAN
+possibility_NN NNCOG
+to_IN PrepNSTNC
+dedicate_VB
+this_DEMO
+to_IN INother
+another_DT
+group_NN NNother
+member_NN NCOMP
+._.
+Up_IN INother
+to_IN INother
+end_VB ASPECT
+of_IN INother
+Jan_NN NNP
+I_FPP1S FPPAll
+'m_VPRT CONT
+tied_PASS PASSAll
+up_RP
+._.
+My_FPP1S FPPAll
+sincere_JJAT JJATother
+apologies_NN POLITE
+._.
+Give_VB ACT
+me_FPP1S FPPAll
+a_DT
+shout_NN NNother
+if_COND
+you_SPP2
+fail_VPRT
+any_QUAN
+other_JJAT JJATother
+options_NN NNABSPROC
+👍_EMO
+Thanks_NN POLITE
+14/12/2020_CD
+,_,
+08:15_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+We_FPP1P FPPAll
+need_VPRT MENTAL
+some_QUAN
+one_NN NNother
+who_WHSC WHSCother
+has_VPRT
+a_DT
+good_JJAT JJEVAL
+sence_NN NNother
+of_IN INother
+time_NN NNQUANT
+differeces_NN NCOMP
+in_IN INother
+countries_NN NNPLACE
+that_THSC THSCother
+our_FPP1P FPPAll
+families_NN NNHUMAN
+are_VPRT
+there_PLACE
+._.
+Can_MDCA MDPOSSCAll
+any_QUAN
+body_NN NNCONC
+volenteer_NN NCOMP
+to_IN INother
+take_VB ACT
+it_PIT
+up_RP
+14/12/2020_CD
+,_,
+08:36_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Also_CC
+you_SPP2
+got_VBD
+to_IN INother
+bare_VB
+in_IN INother
+mind_NN NNother
+the_DT
+technical_JJAT JJATother
+side_NN NNABSPROC
+of_IN INother
+this_DEMO
+project_NN NNother
+(_-LRB-
+data_NN NNTECH
+usage_NN NCOMP
+to_IN INother
+connect_VB
+many_QUAN
+members_NN NNHUMAN
+._.
+This_DEMO
+is_VPRT
+not_XX0
+like_LIKE
+having_VBG
+a_DT
+daily_RB RBother
+on_IN INother
+line_NN NNother
+office_NN NCOMP
+zoom_NN NNother
+meeting_NN NCOMP
+with_IN INother
+6_CD
+to_IN INother
+7_CD
+members_NN NNHUMAN
+of_IN INother
+staff_NN NNother
+)_-RRB-
+._.
+You_SPP2
+need_MDNE
+to_IN INother
+get_VB
+the_DT
+technical_JJAT JJATother
+side_NN NNABSPROC
+on_IN INother
+point_NN NNother
+._.
+Just_RB EMPH
+an_DT
+advice_NN NNother
+._.
+14/12/2020_CD
+,_,
+08:41_CD
+-_SYM
+$_$
+M_CD
+:_:
+Hi_FPUH
+$_$
+S3P68_CD
+aunty_NN NNother
+,_,
+$_$
+O_FPUH
+,_,
+$_$
+U_PRPother
+,_,
+$_$
+I_CD
+,_,
+$_$
+F_NN NNP
+nangi_NN NNother
+,_,
+$_$
+S3P64_CD
+Ravini_NN NNP
+,_,
+Dulip_NN NNP
+,_,
+$_$
+R_NN NNother
+duwa_NN NNother
+,_,
+$_$
+C1_CD
+Nirmale_NN NNP
+and_CC
+her_TPP3S
+daughters_NN NNHUMAN
+Please_FPUH POLITE
+cheer_VB
+us_FPP1P FPPAll
+up_RP
+with_IN INother
+your_SPP2
+golden_JJAT JJATother
+voices_NN NNother
+on_IN INother
+our_FPP1P FPPAll
+precious_JJAT JJATother
+group_NN NNother
+._.
+Have_VPRT
+a_DT
+nice_JJAT JJEVAL
+day_NN NNQUANT
+._.
+14/12/2020_CD
+,_,
+08:43_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Nice_JJAT JJEVAL
+playing_NN NNother
+._.
+God_NN NNP
+bless_VPRT
+you_SPP2
+!_.
+14/12/2020_CD
+,_,
+08:59_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+We_FPP1P FPPAll
+have_VPRT
+programs_NN NNother
+for_IN INother
+100_CD
+also_CC
+._.
+educational_JJAT JJATother
+exetra_NN NNother
+._.
+will_MDWS MDPREDAll
+handle_VB
+that_DEMO
+._.
+14/12/2020_CD
+,_,
+09:01_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+We_FPP1P FPPAll
+now_TIME
+have_VPRT
+virtual_JJAT JJATother
+seminars_NN NNother
+too_RB RBother
+14/12/2020_CD
+,_,
+09:51_CD
+-_SYM
+$_$
+FG_CD
+:_:
+Thanks_NN POLITE
+$_$
+M_CD
+._.
+What_WHQU
+about_IN INother
+your_SPP2
+golden_JJAT JJATother
+voice_NN NNother
+??_.
+14/12/2020_CD
+,_,
+10:06_CD
+-_SYM
+$_$
+M_CD
+:_:
+👍_EMO
+14/12/2020_CD
+,_,
+15:50_CD
+-_SYM
+$_$
+M_CD
+:_:
+We_FPP1P FPPAll
+are_VPRT BEMA
+very_AMP
+thankful_JJPR JJPRother
+to_IN INother
+you_SPP2
+for_IN INother
+opening_VBG ACT
+a_DT
+whats_NN NNother
+app_NN NCOMP
+group_NN NNother
+to_IN INother
+get_VB
+more_QUAN
+closer_RB RBother
+with_IN INother
+our_FPP1P FPPAll
+relatives_NN NNother
+._.
+God_NN NNP
+bless_VPRT
+you_SPP2
+._.
+🙏_EMO
+14/12/2020_CD
+,_,
+17:49_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Yeah_DMA
+everything_QUPR
+is_VPRT BEMA
+virtual_JJPR JJPRother
+globally_RB RBother
+right_JJPR JJEPSTother
+now.There_URL
+is_VPRT BEMA
+a_DT
+load_QUAN
+of_IN INother
+ground_NN NSTNCother
+work_NN NCOMP
+to_IN INother
+be_VB
+done_PASS PASSAll ACT
+on_IN INother
+this_DEMO
+event_NN NNother
+to_IN INother
+reach_VB ACT
+success_NN NNABSPROC
+._.
+A_DT
+Getting_VBG
+contact_NN NNABSPROC
+with_IN INother
+members_NN NNHUMAN
+to_IN INother
+find_VB VFCTother
+a_DT
+suitable_JJAT JJATother
+time_NN NNQUANT
+etc_ELAB
+as_IN INother
+Per_IN INother
+to_IN INother
+their_TPP3P
+work_NN NNABSPROC
+&_CC
+commitments_NN NOMZ
+&_CC
+time_NN NNQUANT
+zones_NN NCOMP
+._.
+B.You_SPP2
+can_MDCA MDPOSSCAll
+get_VB
+connected_PGET PASSAll
+to_IN INother
+.100_CD
+mrmbers_NN NNother
+but_CC
+one_CD
+to_IN INother
+one_CD
+on_IN INother
+the_DT
+free_JJAT JJATother
+version_NN NNABSPROC
+._.
+In_IN INother
+my_FPP1S FPPAll
+opinion_NN NSTNCother
+that_THRC ToThNSTNCAll ThSTNCAll ThNSTNCAll ThNLIK
+will_MDWS MDPREDAll
+not_XX0
+work_VB ACT
+well_RB RBother
+._.
+If_COND
+you_SPP2
+wan_VPRT MENTAL
+na_IN INother
+properly_RB RBother
+conduct_VB
+the_DT
+event_NN NNother
+you_SPP2
+need_MDNE
+to_IN INother
+get_VB
+the_DT
+paid_VBN ACT
+version_NN NNABSPROC
+._.
+I_FPP1S FPPAll
+work_VPRT ACT
+mainly_FREQ
+on_IN INother
+zoom_NN NNother
+meetings_NN NCOMP
+&_CC
+I_FPP1S FPPAll
+know_VPRT MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+it_PIT
+works_VPRT ACT
+._.
+When_WHSC WHSCother
+I_FPP1S FPPAll
+find_VPRT VFCTother
+a_DT
+bit_QUAN
+of_IN INother
+free_JJAT JJATother
+time_NN NNQUANT
+try_VB ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+find_VB VFCTother
+the_DT
+cheapest_JJAT JJATother
+&_CC
+the_DT
+most_EMPH
+effective_JJAT JJATother
+way_NN NNABSPROC
+to_IN INother
+hold_VB ACT
+this_DEMO
+event_NN NNother
+._.
+Just_RB EMPH
+bits_NN NNother
+of_IN INother
+advice_NN NNother
+14/12/2020_CD
+,_,
+17:51_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Google_NN NNP
+,_,
+Gmail_NN NNP
+and_CC
+YouTube_NN NNP
+down_RP
+worldwide_RB RBother
+Sent_VBN ACT
+via_IN INother
+OMG_DMA
+First_JJAT JJATother
+time_NN NNQUANT
+we_FPP1P FPPAll
+have_VPRT
+seen_PEAS MENTAL
+this_DEMO
+._.
+14/12/2020_CD
+,_,
+18:59_CD
+-_SYM
+$_$
+C1_CD
+:_EMO
+$_$
+S3P13_CD
+wanted_VBN MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+say_VB COMM
+EXCELLENT_JJPR JJPRother
+...._,
+&_CC
+wanted_VBD MENTAL
+you_SPP2
+$_$
+H1_NN NNother
+to_IN INother
+continue_VB ASPECT
+the_DT
+GOOD_JJAT JJEVAL
+WORK_VPRT ACT
+15/12/2020_CD
+,_,
+06:22_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Very_AMP
+nice_JJAT JJEVAL
+$_NN NNother
+H1_NN NNother
+👍🏽_EMO
+15/12/2020_CD
+,_,
+06:26_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+It_PIT
+’s_POS
+a_DT
+karaoke_NN NNother
+version_NN NCOMP
+of_IN INother
+me_FPP1S FPPAll
+singing_VBG COMM
+“_``
+I_FPP1S FPPAll
+’m_VPRT
+dreaming_PROG
+of_IN INother
+a_DT
+white_JJAT JJDESCAll JJCOLR
+Christmas_NN NNP
+”_''
+,_,
+the_DT
+sound_JJAT JJATother
+quality_NN NNABSPROC
+is_VPRT
+not_XX0
+that_THSC THSCother
+good_JJPR JJEVAL
+,_,
+hope_VPRT MENTAL
+you_SPP2
+like_LIKE
+it_PIT
+😀_EMO
+._.
+$_$
+S3P19_CD
+over_IN INother
+to_IN INother
+you_SPP2
+😉_EMO
+15/12/2020_CD
+,_,
+06:50_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Aww_FPUH
+what_WHSC WHSCother
+a_DT
+beautiful_JJAT JJEVAL
+voice_NN NNother
+my_FPP1S FPPAll
+love_NN NNother
+❤_EMO
+well_DMA
+done_VBN ACT
+👍_EMO
+15/12/2020_CD
+,_,
+07:33_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+Aunty_NN NNP
+15/12/2020_CD
+,_,
+07:34_CD
+-_SYM
+$_$
+Z_NN NNother
+:_:
+Nice_NN NNP
+!_.
+Thanks_NN POLITE
+._.
+A_DT
+video_NN NNCONC
+would_MDWO MDPREDAll
+be_VB BEMA
+even_RB RBother
+better_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+put_VB ACT
+a_DT
+face_NN NNCONC
+to_IN INother
+the_DT
+voice_NN NNother
+._.
+._.
+😀_EMO
+15/12/2020_CD
+,_,
+07:37_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+👍🏽_EMO
+😀_EMO
+15/12/2020_CD
+,_,
+07:52_CD
+-_SYM
+$_$
+G1_NN NNother
+:_:
+Lovely_NN NNP
+._.
+15/12/2020_CD
+,_,
+07:55_CD
+-_SYM
+$_$
+L_NN NNother
+:_:
+Yes_DMA
+have_VPRT
+get_VB
+the_DT
+paid_VBN ACT
+version_NN NNABSPROC
+._.
+We_FPP1P FPPAll
+all_QUAN
+can_MDCA MDPOSSCAll
+contribute_VB
+._.
+There_EX
+are_VPRT
+companies_NN NNGRP
+who_WHSC WHSCother
+set_VBD
+it_PIT
+up_RP
+too_RB RBother
+._.
+._.
+15/12/2020_CD
+,_,
+08:21_CD
+-_SYM
+$_$
+DE_NN NNother
+:_:
+👌_EMO
+👍_EMO
+👏_EMO
+👏_EMO
+👏_EMO
+Auntie_NN NNP
+$_$
+D_NN NNP
+&_CC
+Uncle_NN NNP
+$_$
+E_NN NNother
+15/12/2020_CD
+,_,
+08:30_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+$_$
+I_CD
+15/12/2020_CD
+,_,
+08:31_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+Aunty_NN NNP
+$_$
+D_NN NNother
+and_CC
+uncle_NN NNother
+$_$
+E_NN NNother
+15/12/2020_CD
+,_,
+08:38_CD
+-_SYM
+$_$
+O_FPUH
+:_:
+👏🏻_EMO
+15/12/2020_CD
+,_,
+08:40_CD
+-_SYM
+$_$
+M_CD
+:_:
+Its_PIT
+going_VBG
+tobe_NN NNother
+a_DT
+beautiful_JJAT JJEVAL
+day_NN NNQUANT
+hearing_VBG MENTAL
+your_SPP2
+beautiful_JJAT JJEVAL
+voice_NN NNother
+._.
+Thank_VPRT COMM POLITE
+you_SPP2
+darling_NN NNother
+for_IN INother
+cheering_VBG
+us_FPP1P FPPAll
+up_RP
+._.
+May_MDMM MDPOSSCAll
+God_NN NNP
+bless_VB
+you_SPP2
+._.
+15/12/2020_CD
+,_,
+08:47_CD
+-_SYM
+$_$
+O_FPUH
+:_:
+Awesome_JJPR JJPRother
+._.
+Cheers_NN POLITE
+._.
+Compliments_NN NOMZ
+of_IN INother
+the_DT
+season_NN NNother
+._.
+Merry_NN NNP
+Xmas_NN NNP
+._.
+Cheers_NN POLITE
+15/12/2020_CD
+,_,
+08:48_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+Aunty_NN NNP
+15/12/2020_CD
+,_,
+08:48_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+uncle_NN NNother
+15/12/2020_CD
+,_,
+08:54_CD
+-_SYM
+$_$
+FG_CD
+:_:
+Beautiful_JJPR JJEVAL
+!!_.
+May_MDMM MDPOSSCAll
+God_NN NNP
+'s_POS
+blessings_NN NNother
+shower_NN NCOMP
+on_IN INother
+you_SPP2
+!!!_.
+❤️_EMO
+❤️_EMO
+❤️_EMO
+15/12/2020_CD
+,_,
+09:12_CD
+-_SYM
+$_$
+M_CD
+:_:
+Yes_DMA
+._.
+$_$
+S3P19_CD
+over_IN INother
+to_IN INother
+you_SPP2
+._.
+❤️_EMO
+15/12/2020_CD
+,_,
+09:43_CD
+-_SYM
+$_$
+X_CD
+:_:
+15/12/2020_CD
+,_,
+09:44_CD
+-_SYM
+$_$
+FG_CD
+:_:
+Beautiful_JJPR JJEVAL
+!!_.
+May_MDMM MDPOSSCAll
+God_NN NNP
+'s_POS
+blessings_NN NNother
+shower_NN NCOMP
+on_IN INother
+you_SPP2
+!!!_.
+Aunty_NN NNP
+$_$
+F_NN NNP
+and_CC
+Uncle_NN NNP
+$_$
+G._NN NNP
+15/12/2020_CD
+,_,
+09:50_CD
+-_SYM
+$_$
+D1_NN NNother
+:_:
+Like_LIKE
+to_IN INother
+hear_VB MENTAL
+the_DT
+voice_NN NNother
+and_CC
+playing_NN NNother
+of_IN INother
+$_$
+R_NN NNother
+,_,
+eldest_JJAT JJATother
+grand_JJAT JJATother
+daughter_NN NNHUMAN
+of_IN INother
+$_$
+S3P13_CD
+._.
+$_$
+R_NN NNother
+hope_VPRT MENTAL THATD
+you_SPP2
+are_VPRT
+there_PLACE
+._.
+❤️_EMO
+❤️_EMO
+15/12/2020_CD
+,_,
+12:06_CD
+-_SYM
+$_$
+M_CD
+:_:
+Yes_DMA
+we_FPP1P FPPAll
+love_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+hear_VB MENTAL
+._.
+15/12/2020_CD
+,_,
+12:20_CD
+-_SYM
+$_$
+M_CD
+:_:
+15/12/2020_CD
+,_,
+13:43_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+What_WHSC WHSCother
+I_FPP1S FPPAll
+suggest_VPRT COMM
+is_VPRT BEMA
+the_DT
+event_NN NNother
+host_NN NCOMP
+to_IN INother
+download_VB
+the_DT
+free_JJAT JJATother
+version_NN NNABSPROC
+of_IN INother
+Zoom_NN NNP
+&_CC
+have_VPRT
+it_PIT
+in_IN INother
+placed_VBN
+,_,
+pay_VIMP ACT
+&_CC
+upgrade_VIMP
+when_WHSC WHSCother
+ever_FREQ
+a_DT
+such_EMPH
+an_DT
+event_NN NNother
+._.
+It_PIT
+is_VPRT BEMA
+not_XX0
+expensive_JJPR JJPRother
+at_IN INother
+all_QUAN
+,_,
+only_RB RBother
+few_QUAN
+quid_NN NNother
+it_PIT
+will_MDWS MDPREDAll
+cost_VB
+for_IN INother
+one_CD
+off_IN INother
+event_NN NNother
+._.
+You_SPP2
+do_VPRT DOAUX
+n't_XX0 CONT
+have_MDNE
+to_IN INother
+give_VB ACT
+it_PIT
+to_IN INother
+a_DT
+company_NN NNGRP
+to_IN INother
+set_VB
+it_PIT
+up_RP
+at_IN INother
+all_QUAN
+._.
+It_PIT
+is_VPRT BEMA
+super_RB EMPH
+simple_JJPR JJPRother
+with_IN INother
+a_DT
+bit_QUAN
+of_IN INother
+IT_PRPother
+knowledge_NN NSTNCother
+._.
+Once_TIME
+you_SPP2
+upgrade_VB
+the_DT
+link_NN NNABSPROC
+._.
+The_DT
+host_NN NNHUMAN
+will_MDWS MDPREDAll
+have_MDNE
+to_IN INother
+set_VB
+the_DT
+date_NN NNQUANT
+&_CC
+time_NN NNQUANT
+&_CC
+just_RB EMPH
+send_VB ACT
+the_DT
+link_NN NNABSPROC
+to_IN INother
+the_DT
+participants_NN NNHUMAN
+network_NN NCOMP
+._.
+You_SPP2
+will_MDWS MDPREDAll
+have_MDNE
+to_IN INother
+find_VB VFCTother
+a_DT
+host_NN NNHUMAN
+,_,
+who_WHSC WHSCother
+has_VPRT
+time_NN NNQUANT
+to_IN INother
+do_VB ACT
+this_DEMO
+😊_EMO
+15/12/2020_CD
+,_,
+13:49_CD
+-_SYM
+$_$
+M_CD
+:_:
+Very_AMP
+sorry_JJPR POLITE
+._.
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+not_XX0
+be_VB
+able_ABLE
+to_IN INother
+handle_VB
+this_DEMO
+._.
+15/12/2020_CD
+,_,
+13:54_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Beautiful_JJAT JJEVAL
+singing_NN NNother
+$_$
+E1_NN NNother
+!_.
+God_NN NNP
+bless_VPRT
+you_SPP2
+!_.
+15/12/2020_CD
+,_,
+15:07_CD
+-_SYM
+$_$
+M_CD
+:_EMO
+$_$
+S1_NN NNother
+thank_VPRT COMM POLITE
+you_SPP2
+for_IN INother
+calling_VBG COMM
+me_FPP1S FPPAll
+and_CC
+explaining_VBG COMM
+to_IN INother
+me_FPP1S FPPAll
+that_THSC THSCother
+you_SPP2
+are_VPRT
+not_XX0
+very_AMP
+familier_JJPR JJPRother
+sending_VBG ACT
+messages_NN NNTECH
+but_CC
+you_SPP2
+will_MDWS MDPREDAll
+learn_VB MENTAL
+very_AMP
+soon_TIME
+._.
+Good_JJPR JJEVAL
+._.
+you_SPP2
+read_VPRT MENTAL
+everything_QUPR
+._.
+She_TPP3S
+wants_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+say_VB COMM
+all_QUAN
+who_WHSC WHSCother
+sent_VBD ACT
+vedios_NN NNother
+photographs_NN NCOMP
+were_VBD BEMA
+beautiful_JJPR JJEVAL
+and_CC
+not_XX0
+to_IN INother
+misunderstand_VB
+for_IN INother
+not_XX0
+stating_VBG COMM
+a_DT
+comment_NN NSTNCother
+._.
+😉_EMO
+15/12/2020_CD
+,_,
+15:42_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Nice_JJAT JJEVAL
+song_NN NNother
+$_$
+Z_NN NNother
+._.
+God_NN NNP
+bless_VPRT
+you_SPP2
+!_.
+15/12/2020_CD
+,_,
+17:09_CD
+-_SYM
+$_$
+M_CD
+:_:
+Very_AMP
+touching_JJPR JJPRother
+and_CC
+appropriate_JJPR JJPRother
+for_IN INother
+us_FPP1P FPPAll
+although_CONC
+we_FPP1P FPPAll
+are_VPRT BEMA
+young_JJPR JJTIME
+at_IN INother
+heart_NN NNCONC
+._.
+👍_EMO
+15/12/2020_CD
+,_,
+17:12_CD
+-_SYM
+$_$
+M_CD
+:_:
+👍_EMO
+15/12/2020_CD
+,_,
+17:16_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+👍_EMO
+❤_EMO
+15/12/2020_CD
+,_,
+17:35_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+👍_EMO
+15/12/2020_CD
+,_,
+20:23_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+so_EMPH
+much_QUAN
+15/12/2020_CD
+,_,
+20:25_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+$_$
+Z_NN NNother
+Aunty_NN NNP
+and_CC
+wish_VPRT MENTAL
+you_SPP2
+the_DT
+same_JJAT JJREL
+15/12/2020_CD
+,_,
+20:25_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+Aunty_NN NNP
+$_$
+F_NN NNother
+and_CC
+uncle_NN NNother
+$_$
+G_NN NNP
+❤️_EMO
+15/12/2020_CD
+,_,
+20:26_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+👍🏽_EMO
+15/12/2020_CD
+,_,
+20:27_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+Aunty_NN NNP
+$_$
+S_NN NNother
+15/12/2020_CD
+,_,
+20:29_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+Very_AMP
+nice_JJPR JJEVAL
+👍🏽_EMO
+15/12/2020_CD
+,_,
+20:30_CD
+-_SYM
+$_$
+E1_NN NNother
+:_:
+👍🏽_EMO
+15/12/2020_CD
+,_,
+20:58_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+👍_EMO
+❤_EMO
+15/12/2020_CD
+,_,
+22:34_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+This_DEMO
+is_VPRT BEMA
+my_FPP1S FPPAll
+late_JJAT JJTIME
+mum_JJPR JJPRother
+the_DT
+queen_NN NNother
+$_$
+S3P9_CD
+🙏_EMO
+rocking_NN NNother
+with_IN INother
+her_TPP3S
+moves_NN NNother
+at_IN INother
+age_NN NNQUANT
+over_IN INother
+90_CD
+._.
+My_FPP1S FPPAll
+hubby_JJAT JJATother
+film_NN NNCONC
+this_DEMO
+at_IN INother
+a_DT
+time_NN NNQUANT
+we_FPP1P FPPAll
+were_VBD BEMA
+on_IN INother
+holiday_NN NNother
+in_IN INother
+SL_NN NNP
+❤_EMO
+At_IN INother
+this_DEMO
+festive_JJAT JJATother
+season_NN NNother
+we_FPP1P FPPAll
+celebrate_VPRT MENTAL
+her_TPP3S
+life_NN NNABSPROC
+&_CC
+love_VPRT MENTAL
+her_TPP3S
+&_CC
+miss_VPRT MENTAL
+her_TPP3S
+dearly_RB RBother
+🙏_EMO
+❤_EMO
+15/12/2020_CD
+,_,
+23:16_CD
+-_SYM
+$_$
+X_CD
+:_:
+Precious_JJAT JJATother
+memories_NN NNCOG
+❤️_EMO
+15/12/2020_CD
+,_,
+23:38_CD
+-_SYM
+$_$
+Z_NN NNother
+:_:
+Great_NN NNP
+._.
+._.
+😊_EMO
+Who_WHQU
+is_VPRT BEMA
+on_IN INother
+guitar_NN NNother
+?_.
+15/12/2020_CD
+,_,
+23:40_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+remember_VB MENTAL THATD
+I_FPP1S FPPAll
+think_VPRT MENTAL
+$_$
+M_CD
+should_MDNE
+know_VB MENTAL
+😊_EMO
+16/12/2020_CD
+,_,
+04:58_CD
+-_SYM
+$_$
+M_CD
+:_:
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+open_VB ACT
+it_PIT
+to_IN INother
+see_VB MENTAL
+._.
+16/12/2020_CD
+,_,
+04:59_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+Just_RB EMPH
+press_VB
+the_DT
+link_NN NNABSPROC
+16/12/2020_CD
+,_,
+05:01_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+And_CC
+press_VPRT
+the_DT
+video_NN NNCONC
+😊_EMO
+👍_EMO
+16/12/2020_CD
+,_,
+05:01_CD
+-_SYM
+$_$
+M_CD
+:_EMO
+$_$
+S3P22_CD
+is_VPRT
+playing_PROG ACT
+._.
+16/12/2020_CD
+,_,
+05:04_CD
+-_SYM
+$_$
+M_CD
+:_:
+Tears_NN NNother
+came_VBD ACT
+to_IN INother
+my_FPP1S FPPAll
+eyes_NN NNCONC
+._.
+I_FPP1S FPPAll
+felt_VBD MENTAL
+mummy_JJPR JJPRother
+I_FPP1S FPPAll
+still_RB RBother
+there_PLACE
+with_IN INother
+me_FPP1S FPPAll
+._.
+16/12/2020_CD
+,_,
+05:05_CD
+-_SYM
+$_$
+AB_NN NNP
+:_:
+🙏_EMO
+❤_EMO
+16/12/2020_CD
+,_,
+05:16_CD
+-_SYM
+$_$
+M_CD
+:_EMO
+$_$
+S3P22_CD
+is_VPRT BEMA
+on_IN INother
+guitar_NN NNother
+._.
+16/12/2020_CD
+,_,
+05:18_CD
+-_SYM
+$_$
+S_NN NNother
+:_:
+Great_JJAT JJEVAL
+memories_NN NNCOG
+of_IN INother
+Mummy_NN NNP
+!_.
+16/12/2020_CD
+,_,
+05:18_CD
+-_SYM
+$_$
+Z_NN NNother
+:_:
+👍_EMO
+There_EX
+were_VBD
+some_QUAN
+nice_JJAT JJEVAL
+chord_NN NNother
+changes_NN NCOMP
+..._:
+😊_EMO
+16/12/2020_CD
+,_,
+06:13_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+How_WHSC WHSCother
+sweet_JJPR JJPRother
+._.
+Its_PIT
+nice_JJPR JJEVAL
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+know_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+you_SPP2
+still_RB RBother
+remember_VPRT MENTAL
+,_,
+one_CD
+of_IN INother
+'s_POS
+favorite_JJAT JJATother
+songs_NN NNother
+._.
+16/12/2020_CD
+,_,
+06:17_CD
+-_SYM
+$_$
+M_CD
+:_:
+He_TPP3S
+was_VBD BEMA
+my_FPP1S FPPAll
+God_NN NNP
+father_NN NCOMP
+and_CC
+I_FPP1S FPPAll
+had_VBD SPLIT
+never_FREQ
+refused_PEAS
+to_IN INother
+sing_VB COMM
+when_WHSC WhVSTNCAll WhVCOM
+he_TPP3S
+had_VBD SPLIT
+always_FREQ
+asked_PEAS COMM
+me_FPP1S FPPAll
+._.
+I_FPP1S FPPAll
+loved_VBD MENTAL
+him_TPP3S
+._.
+May_MDMM MDPOSSCAll
+his_TPP3S
+soul_NN NNother
+rest_NN NCOMP
+in_IN INother
+peace_NN NNother
+._.
+16/12/2020_CD
+,_,
+06:20_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+Yes_DMA
+,_,
+$_$
+M_CD
+,_,
+I_FPP1S FPPAll
+remember_VPRT MENTAL THATD
+you_SPP2
+singing_VBG COMM
+many_QUAN
+songs_NN NNother
+those_DEMO
+days_NN NNQUANT
+._.
+Not_XX0
+only_RB RBother
+you_SPP2
+,_,
+$_$
+L_NN NNother
+and_CC
+Ranjit_NN NNP
+too_RB RBother
+._.
+16/12/2020_CD
+,_,
+06:28_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_EMO
+$_$
+M_CD
+,_,
+I_FPP1S FPPAll
+remember_VPRT MENTAL THATD
+you_SPP2
+singing_VBG COMM
+'_``
+nobody_QUPR
+'s_VPRT CONT BEMA
+child_NN NNHUMAN
+'_''
+Beautifully_RB RBother
+._.
+16/12/2020_CD
+,_,
+06:37_CD
+-_SYM
+$_$
+M_CD
+:_:
+Thank_VPRT COMM POLITE
+you_SPP2
+for_IN INother
+remembering.we_FPP1P FPPAll
+all_QUAN
+used_VBN ACT
+to_IN INother
+sing_VB COMM
+together_RB RBother
+$_$
+S3P14_CD
+'s_POS
+songs_NN NNother
+and_CC
+dancing_VBG
+around_IN INother
+beds_NN NNCONC
+imitating_VBG
+films_NN NNCONC
+._.
+There_EX
+was_VBD
+a_DT
+time_NN NNQUANT
+we_FPP1P FPPAll
+were_VBD BEMA
+crazy_JJAT JJATother
+singing_NN NNother
+Mary_NN NNP
+Ann_NN NNP
+Regret_NN NNP
+while_CC
+going_VBG
+for_IN INother
+walks_NN NNother
+._.
+Beautful_JJAT JJATother
+memories_NN NNCOG
+._.
+16/12/2020_CD
+,_,
+07:06_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+Yes_DMA
+Beautiful_JJAT JJEVAL
+memories_NN NNCOG
+._.
+16/12/2020_CD
+,_,
+07:23_CD
+-_SYM
+$_$
+Y_NN NNother
+:_:
+👍_EMO
+👍_EMO
+🎼_EMO
+16/12/2020_CD
+,_,
+08:43_CD
+-_HYPH
+16/12/2020_CD
+,_,
+09:07_CD
+-_HYPH
+16/12/2020_CD
+,_,
+09:49_CD
+-_SYM
+$_$
+FG_CD
+:_EMO
+..._:
+My_FPP1S FPPAll
+dearly_RB RBother
+beloved_JJPR JJPRother
+._.
+This_DEMO
+reminds_VPRT MENTAL
+me_FPP1S FPPAll
+the_DT
+good_JJAT JJEVAL
+old_JJAT JJTIME
+days_NN NNQUANT
+at_IN INother
+$_$
+L_NN NNother
+s_NN NNother
+._.
+$_$
+M_CD
+you_SPP2
+remember_VPRT MENTAL
+the_DT
+._.
+16/12/2020_CD
+,_,
+11:45_CD
+-_SYM
+$_$
+M_CD
+:_:
+What_WHSC WHSCother
+about_IN INother
+What_WHSC WHSCother
+a_DT
+wonderful_JJAT JJATother
+time_NN NNQUANT
+we_FPP1P FPPAll
+had_VBD
+together_RB RBother
+._.
+16/12/2020_CD
+,_,
+20:55_CD
+-_HYPH
+16/12/2020_CD
+,_,
+21:02_CD
+-_HYPH
+17/12/2020_CD
+,_,
+03:05_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+My_FPP1S FPPAll
+daughter_NN NNHUMAN
+17/12/2020_CD
+,_,
+03:08_CD
+-_SYM
+$_NN NNother
+HI_FPUH
+:_:
+Above_IN INother
+is_VPRT BEMA
+a_DT
+musical_JJAT JJATother
+chat_NN NNother
+program_NN NCOMP
+$_$
+E1_NN NNother
+participated_VBD
+in_IN INother
+Toronto_NN NNP
+._.
+Hope_VPRT MENTAL THATD
+you_SPP2
+musical_JJAT JJATother
+lovers_NN NNother
+will_MDWS MDPREDAll
+enjoy_VB MENTAL
+it_PIT
+._.

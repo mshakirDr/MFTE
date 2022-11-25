@@ -1,0 +1,2717 @@
+@pxxxxxxxxxa_NN NNMention
+most_RB EMPH
+deff_JJPR JJPRother
+and_CC
+if_COND
+you_SPP2
+’re_VPRT BEMA
+real_JJAT JJATother
+lucky_JJPR JJPRother
+you_SPP2
+might_MDMM MDPOSSCAll
+find_VB VFCTother
+me_FPP1S FPPAll
+in_IN INother
+one_CD
+of_IN INother
+them_TPP3P
+https://t.co/Ew1W1Iyuxe_URL
+@kxxxxxn_NN NNMention
+@_NN NNMention
+all_QUAN
+sales_NN NNother
+are_VPRT BEMA
+final_JJPR JJREL
+!_.
+😤_EMO
+let_VBD CAUSE
+’s_POS
+get_VB
+this_DEMO
+4_CD
+day_NN NNQUANT
+weekend_NN NCOMP
+started_VBD ASPECT
+😈_EMO
+ai_VPRT
+n’t_RB RBother
+no_XX0
+other_JJAT JJATother
+way_NN NNABSPROC
+https://t.co/HT1k4rvV7B_URL
+my_FPP1S FPPAll
+only_JJAT JJATother
+red_JJAT JJDESCAll JJCOLR
+flag_NN NNother
+is_VPRT BEMA
+i_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+fuck_VB EMPH
+all_QUAN
+night_NN NNother
+ahhh_FPUH
+i_FPP1S FPPAll
+can_MDCA MDPOSSCAll SPLIT
+finally_RB RBother
+stuff_VB
+her_TPP3S
+like_LIKE
+a_DT
+turkey_NN NNother
+happy_JJAT JJATDother
+thanksgiving_NN NNother
+i_FPP1S FPPAll
+love_VPRT MENTAL
+y’_RB RBother
+all_QUAN
+and_CC
+thankful_JJPR JJPRother
+for_IN INother
+y’_NN NNother
+all_QUAN
+💕_EMO
+🤝_EMO
+if_COND
+you_SPP2
+got_VBD
+no_XX0
+plans_NN NSTNCother
+today_TIME
+be_VB BEMA
+sure_JJPR JJEPSTother
+hit_VBD
+me_FPP1S FPPAll
+up_RP
+and_CC
+pullll_VB
+up_RP
+!_.
+we_FPP1P FPPAll
+eating_VBG ACT
+good_JJAT JJEVAL
+today_TIME
+6PM_NN NNother
+!!!_.
+💕_EMO
+💕_EMO
+🏴‍☠️_EMO
+USE_VIMP ACT
+DISCOUNT_NN NNother
+CODE_NN NCOMP
+:_:
+ANDRES_NN NNP
+@txxxxx_NN NCOMP NNMention
+ily_NN NNP
+brotherrr_NN NCOMP
+some_QUAN
+head_NN NNCONC
+sounds_VPRT EXIST
+good_JJPR JJEVAL
+af_RB RBother
+right_JJPR JJEPSTother
+about_IN INother
+now_TIME
+where_WHSC WHSCother
+she_TPP3S
+at_IN INother
+you_SPP2
+got_VPRT
+ta_IN INother
+be_VB
+quicker_RB RBother
+then_RB RBother
+that_THSC THSCother
+papa_NN NNother
+😘_EMO
+😘_EMO
+💕_EMO
+https://t.co/KFeFQq9nz1_URL
+@_NN NNMention
+@oxxxxxxxxxxx3_NN NNMention
+happy_JJAT JJATDother
+birthday_NN NNother
+!!!_.
+shots_NN NNother
+?_.
+rise_VB OCCUR
+and_CC
+grind_VB
+🤘🏽_EMO
+LMAOO_NN NNP
+YES_DMA
+https://t.co/D4jbK2ZmTU_URL
+@Ixxxxxu_NN NNMention
+my_FPP1S FPPAll
+boy_NN NNHUMAN
+for_IN INother
+those_DEMO
+asking_VBG COMM
+about_IN INother
+the_DT
+mystery_NN NNother
+box_NN NCOMP
+._.
+._.
+📦_EMO
+you_SPP2
+spend_VPRT ACT
+$_$
+50_CD
+and_CC
+get_VB
+over_IN INother
+$_$
+100_CD
+worth_NN NNother
+of_IN INother
+mystery_NN NNother
+items_NN NCOMP
+🤝_EMO
+🏴‍☠️_EMO
+💕_EMO
+@mxxxxxx1_NN NNMention
+it_PIT
+’s_POS
+spend_VPRT ACT
+$_$
+50_CD
+and_CC
+you_SPP2
+get_VPRT
+$_$
+100_CD
+worth_NN NNother
+of_IN INother
+mystery_NN NNother
+items_NN NCOMP
+having_VBG
+ur_SPP2
+twitter_NN NNother
+on_IN INother
+white_JJAT JJDESCAll JJCOLR
+mode_NN NNother
+is_VPRT BEMA
+the_DT
+only_JJAT JJATother
+way_NN NNABSPROC
+to_IN INother
+have_VB
+it_PIT
+,_,
+idc_NN NNP
+argue_VPRT COMM
+w_IN INother
+your_SPP2
+mother_NN NNHUMAN
+@txxxxxxxxxd_NN NCOMP NNMention
+😂_EMO
+😂_EMO
+i_FPP1S FPPAll
+have_VPRT
+everything_QUPR
+else_RB RBother
+set_VBN
+to_IN INother
+dark_JJAT JJDESCAll JJCOLR
+mode_NN NNother
+but_CC
+twitter_NN NNother
+@txxxxxxxxxd_NN NCOMP NNMention
+ion_NN NNTECH
+like_LIKE
+how_WHSC WHSCother
+my_FPP1S FPPAll
+page_NN NNCONC
+looks_VPRT
+🤣_EMO
+@txxxxxxxxxd_NN NNMention
+you_SPP2
+’re_VB BEMA
+onto_IN INother
+something_QUPR
+!_.
+this_DEMO
+freezing_NN NNother
+ass_NN NCOMP
+weather_NN NNother
+calls_VPRT COMM
+for_IN INother
+wine_NN NNother
+typa_NN NCOMP
+night_NN NNother
+@mxxxxxr_NN NCOMP NNMention
+so_SO
+2_CD
+bottles_NN NNother
+,_,
+bet_NN NNother
+🤝_EMO
+🤝_EMO
+@oxxxxxxxt_NN NNMention
+oooo_FPUH
+say_VPRT COMM
+less_RB RBother
+,_,
+3_CD
+bottles_NN NNother
+it_PIT
+is_VPRT
+how_WHSC WHSCother
+about_IN INother
+a_DT
+morning_NN NNQUANT
+quickie_NN NCOMP
+@nxxxxxxxxxxz_NN NNMention
+yess_NN NNother
+green_JJAT JJDESCAll JJCOLR
+one_CD
+hits_VPRT
+November_NN NNP
+25th_CD
+6PM_NN NNother
+🤌_EMO
+🪡_EMO
+🧵_EMO
+https://t.co/VRBCwFBPFR_URL
+@bxxxxxxxxxxxe_NN NNMention
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+forget_VB MENTAL
+da_NN NNP
+socks_NN NCOMP
+🧦_EMO
+@mxxxxxx1_NN NNMention
+if_COND
+i_FPP1S FPPAll
+tell_VPRT COMM
+you_SPP2
+ima_NN NNP
+have_MDNE
+to_IN INother
+kill_VB
+you_SPP2
+,_,
+it_PIT
+’s_POS
+a_DT
+mystery_NN NNother
+!_.
+@_NN NNMention
+cctv_VPRT
+all_QUAN
+around_IN INother
+the_DT
+crib_NN NNother
+ma_VB
+me_FPP1S FPPAll
+and_CC
+https://t.co/m32wTNeW3D_URL
+y’_NN NNother
+all_QUAN
+take_VPRT ACT
+notes_NN NNCONC
+✍🏽_EMO
+✍🏽_EMO
+https://t.co/kOcj93f9q7_URL
+they_TPP3P
+never_FREQ
+listen_VPRT MENTAL
+https://t.co/3KHQp7dtNv_URL
+already_TIME
+did_VBD ACT
+https://t.co/BKfnzBhBLa_URL
+@yxxxxxxxxxxxxh_NN NNMention
+got_VBD
+ta_IN INother
+be_VB BEMA
+quicker_RB RBother
+next_JJAT JJATother
+time_NN NNQUANT
+lmao_FW
+✍🏽_EMO
+✍🏽_EMO
+where_WHSC WHSCother
+’s_POS
+my_FPP1S FPPAll
+bbyg_NN NNother
+if_COND
+this_DEMO
+ai_VPRT
+n’t_RB RBother
+me_FPP1S FPPAll
+and_CC
+my_FPP1S FPPAll
+bro_NN NNother
+but_CC
+with_IN INother
+smoking_NN NNother
+weed_NN NCOMP
+https://t.co/p95vamwJrX_URL
+@xxxxxxxxxt_NN NNMention
+yaaa_NN NNother
+just_RB EMPH
+waiting_VBG ACT
+for_IN INother
+new_JJAT JJTIME
+radio_NN NNCONC
+to_IN INother
+come_VB ACT
+in_IN INother
+so_SO
+what_WHSC WHSCother
+are_VPRT BEMA
+y’_RB RBother
+all_QUAN
+buying_VBG ACT
+on_RP
+cyber_JJAT JJATother
+monday_NN NNP
+@lxxxxxxxxe_NN NCOMP NNMention
+https://t.co/EqvmjQONS5_URL
+has_VPRT
+60_CD
+%_NN NNother
+off_IN INother
+rn_NN NNP
+@cxxxxxxxxxxx_NN NCOMP NNMention
+🥲_EMO
+🥲_EMO
+this_DEMO
+hurts_VPRT
+to_IN INother
+see_VB MENTAL
+gm_NN NNother
+i_FPP1S FPPAll
+love_VPRT MENTAL
+you_SPP2
+<_-LRB-
+33_CD
+@_NN NNMention
+BYRON_NN NNP
+guys_NN NCOMP
+follow_VB ACT
+my_FPP1S FPPAll
+insta_NN NNother
+and_CC
+i_FPP1S FPPAll
+’ll_VPRT
+follow_VB ACT
+backkk_NN NNother
+@axxxxxxxxxs_NN NCOMP NNMention
+😈_EMO
+😈_EMO
+and_CC
+it_PIT
+does_VPRT SPLIT DOAUX
+n’t_RB RBother
+even_RB RBother
+work_VB ACT
+😤_EMO
+she_TPP3S
+learning_VBG MENTAL
+https://t.co/hlsn1h0EXs_URL
+what_WHSC WHSCother
+if_COND
+im_NN NNP
+both_QUAN
+._.
+._.
+🧐_EMO
+asking_VBG COMM
+for_IN INother
+a_DT
+friend_NN NNHUMAN
+https://t.co/vlpgDQwt3x_URL
+i_FPP1S FPPAll
+got_VBD
+a_DT
+journal_NN NNCONC
+that_THRC THRCother
+i_FPP1S FPPAll
+write_VPRT COMM
+in_IN INother
+everyday_JJAT JJATother
+LMAOOO_NN NNother
+ya_SPP2
+know_VPRT MENTAL
+✍🏽_EMO
+✍🏽_EMO
+✍🏽_EMO
+https://t.co/dcAOHsUw8y_URL
+i_FPP1S FPPAll
+need_VPRT MENTAL
+a_DT
+new_JJAT JJTIME
+show_NN NNABSPROC
+to_IN INother
+watch_VB ACT
+@Pxxxxxxxxxxxn_NN NNMention
+nooo_NN NNother
+have_VPRT SPLIT
+n’t_RB RBother
+heard_PEAS MENTAL
+of_IN INother
+it_PIT
+/_,
+;_:
+@Pxxxxxxxxxxxn_NN NNMention
+bouta_NN NNother
+watch_VPRT ACT
+it_PIT
+🤝_EMO
+😘_EMO
+@sxxxxxxxxxi_NN NNMention
+good_JJAT JJEVAL
+lookss_NN NNother
+🤝_EMO
+🤝_EMO
+anxiety_NN NNother
+fucking_RB EMPH
+sucks_VPRT
+._.
+unintentionally_RB RBother
+make_VB ACT
+yourself_SPP2
+sad_JJPR JJPRother
+._.
+suddenly_TIME
+feel_VB MENTAL
+alone_JJPR JJPRother
+._.
+feel_VB MENTAL
+okay_JJPR JJPRother
+and_CC
+anxious_JJPR JJPRother
+at_IN INother
+the_DT
+same_JJAT JJREL
+time_NN NNQUANT
+._.
+and_CC
+sometimes_FREQ
+you_SPP2
+just_RB EMPH
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+'s_VPRT CONT BEMA
+wrong_JJPR JJPRother
+with_IN INother
+you_SPP2
+anymore_RB RBother
+._.
+can_MDCA MDPOSSCAll
+y’_VB
+all_QUAN
+tell_VB COMM
+which_WHSC WhVSTNCAll WhVCOM
+one_CD
+im_RB RBother
+good_JJPR JJEVAL
+at_IN INother
+https://t.co/N8cgWhAruJ_URL
+hellooo_NN NNother
+darkness_NN NCOMP
+my_FPP1S FPPAll
+old_JJAT JJTIME
+friend_NN NNHUMAN
+peep_NN NCOMP
+how_WHSC WHSCother
+fucking_JJPR EMPH
+long_RB RBother
+the_DT
+antenna_NN NNother
+is_VPRT BEMA
+on_IN INother
+this_DEMO
+thing_NN NNother
+https://t.co/NAXLTCxrp5_URL
+constant_JJAT JJATother
+thoughts_NN NSTNCother
+https://t.co/22wUMntU3E_URL
+you_SPP2
+mfs_NN NNother
+going_VBG
+crazy_JJPR JJPRother
+on_IN INother
+the_DT
+drop_NN NNCONC
+!!_.
+thank_VPRT COMM POLITE
+you_SPP2
+all_QUAN
+so_EMPH
+much_QUAN
+for_IN INother
+the_DT
+support_NN NNABSPROC
+💕_EMO
+💕_EMO
+🏴‍☠️_EMO
+https://t.co/RXcnEhM2cS_URL
+@Nxxxxxxxxr_NN NNMention
+i_FPP1S FPPAll
+’ll_VPRT
+be_VB BEMA
+in_IN INother
+there_PLACE
+like_FPUH
+swimwear_NN NNother
+getting_VBG
+high_JJPR JJPRother
+as_IN INother
+balls_NN NNCONC
+then_RB RBother
+taking_VBG ACT
+a_DT
+steaming_VBG
+hot_JJAT JJATother
+shower_NN NNother
+>>_-RRB-
+before_IN INother
+i_FPP1S FPPAll
+go_VPRT
+freeze_VB
+my_FPP1S FPPAll
+balls_NN NNCONC
+off_RP
+at_IN INother
+work_NN NNABSPROC
+🙃_EMO
+sending_VBG ACT
+her_TPP3S
+dick_NN NNother
+pics_NN NCOMP
+so_SO
+it_PIT
+’s_POS
+the_DT
+first_JJAT JJATother
+thing_NN NNother
+she_TPP3S
+sees_VPRT MENTAL
+in_IN INother
+the_DT
+morning_NN NNQUANT
+🥰_EMO
+ofc_NN NNother
+they_TPP3P
+give_VPRT ACT
+me_FPP1S FPPAll
+a_DT
+van_NN NNother
+with_IN INother
+no_XX0
+heater_NN NNother
+working_VBG ACT
+STORE_NN NNPLACE
+CLOSES_VPRT
+AT_IN INother
+7PM_NN NNother
+💕_EMO
+💕_EMO
+🏴‍☠️_EMO
+@_NN NNMention
+good_JJAT JJEVAL
+girl_NN NNHUMAN
+🥰_EMO
+friendsgiving_VBG
+party_NN NNother
+tn_NN NCOMP
+im_NN NNother
+blacking_VBG
+the_DT
+fuck_VB EMPH
+out_RP
+@_NN NNMention
+im_VPRT
+thinking_VBG MENTAL
+about_IN INother
+calling_VBG COMM
+off_RP
+tm_NN NNother
+her_TPP3S
+first_JJAT JJATother
+time_NN NNQUANT
+seeing_VBG MENTAL
+snow_NN NNCONC
+https://t.co/rvuRoZMQ9r_URL
+@mxxxxxx1_NN NNMention
+highly_AMP
+recommend_VPRT COMM
+@sxxxxxxx_NN NNMention
+@TxxxxxxxxxS_NN NNMention
+@_NN NNMention
+yoooo_NN NNother
+facts_NN NSTNCother NCOMP
+cabin_NN NNother
+??_.
+other_JJAT JJATother
+way_NN NNABSPROC
+around_PLACE
+tho_CONC
+https://t.co/Lvftodgixn_URL
+@TxxxxxxxxxS_NN NNMention
+@sxxxxxxx_NN NNMention
+@_NN NNMention
+or_CC
+pull_VB ACT
+up_RP
+sleep_NN NNother
+over_IN INother
+im_NN NNP
+basically_RB RBother
+in_IN INother
+the_DT
+woods_NN NNCONC
+lead_VPRT
+with_IN INother
+your_SPP2
+head_NN NNCONC
+never_FREQ
+your_SPP2
+heart_NN NNCONC
+set_VBD
+ur_SPP2
+standards_NN NNABSPROC
+@Exxxxn_NN NCOMP NNMention
+gm_NN NNother
+gm_NN NCOMP
+☆_SYM
+ESSENTIAL_JJAT JJATother
+HOODIES_NN NNother
+☆_NFP
+premium_NN NNother
+heavyweight_JJAT JJATother
+hitters_NN NNother
+-11_NN NCOMP
+/_SYM
+25_CD
+6PM_NN NNother
+https://t.co/7cPaWKTFZy_URL
+hi_FPUH
+i_FPP1S FPPAll
+went_VBD
+to_IN INother
+bed_NN NNCONC
+too_RB RBother
+early_TIME
+now_TIME
+im_NN NNP
+fully_AMP
+rested_VBD
+some_QUAN
+decent_JJAT JJATother
+blood_NN NNother
+flow_NN NCOMP
+this_DEMO
+morning_NN NNQUANT
+wellll_IN INother
+my_FPP1S FPPAll
+car_NN NNCONC
+should_MDNE
+be_VB
+arriving_PROG
+anytime_RB RBother
+today_TIME
+😝_EMO
+jk_NN NNother
+not_XX0
+today_TIME
+/_HYPH
+;_:
+https://t.co/J5sRQLbEp1_URL
+miss_VPRT MENTAL
+fleets_NN NNother
+one_CD
+like_LIKE
+and_CC
+ill_JJPR JJPRother
+take_VB ACT
+a_DT
+fat_NN NNother
+ass_NN NCOMP
+dab_NN NNother
+@_NN NNMention
+meant_VBN COMM
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+be_VB
+self_NN NNother
+discipline_NN NCOMP
+gets_VPRT
+you_SPP2
+places_NN NNPLACE
+motivation_NN NCOMP
+never_FREQ
+will_MDWS MDPREDAll
+✍🏽_EMO
+✍🏽_EMO
+✍🏽_EMO
+@txxxxxxxxxxxxi_NN NNMention
+awww_FPUH
+fuck_VPRT EMPH
+bro_NN NNother
+fucking_RB EMPH
+civic_JJPR JJPRother
+did_VBD ACT
+u_PRPother
+dirty_JJPR JJPRother
+:(_NFP
+glad_JJPR JJATDother
+your_SPP2
+okay_JJAT JJATother
+wish_NN NSTNCother
+you_SPP2
+were_VBD
+here_PLACE
+@mxxxxxr_NN NNMention
+merch_NN NNother
+comes_VPRT ACT
+in_IN INother
+tomorrow_TIME
+papa_NN NNother
+!_.
+then_RB RBother
+i_FPP1S FPPAll
+’ll_VPRT
+have_VPRT
+ur_SPP2
+order_NN NNABSPROC
+out_IN INother
+asap_RB RBother
+😘_EMO
+😘_EMO
+🤘🏽_EMO
+@LxxxxxxxxxS_NN NNMention
+teach_VPRT COMM
+me_FPP1S FPPAll
+@LxxxxxxxxxS_NN NNMention
+welll_NN NNother
+ik_NN NNP
+technically_RB RSTNCAll RNONFACT
+anyone_QUPR
+can_MDCA MDPOSSCAll
+do_VB ACT
+it_PIT
+@LxxxxxxxxxS_NN NNMention
+deff_NN NNother
+gon_GTO MDPREDAll
+na_IN INother
+try_VB ACT
+thatt_NN NNother
+✍🏽_EMO
+@cxxxxxxxxr_NN NNMention
+@LxxxxxxxxxS_NN NNMention
+@TxxxxxxxxxS_NN NNMention
+for_IN INother
+me_FPP1S FPPAll
+smoking_VBG
+weed_NN NNother
+daily_JJPR JJTIME
+makes_VPRT ACT
+me_FPP1S FPPAll
+not_XX0
+really_RB EMPH
+dream_NN NNother
+or_CC
+remember_VB MENTAL
+if_COND
+i_FPP1S FPPAll
+had_VBD
+any_QUAN
+dreams_NN NNother
+when_WHSC WHSCother
+i_FPP1S FPPAll
+wake_VPRT
+up_RP
+._.
+if_COND
+i_FPP1S FPPAll
+get_VPRT
+sober_JJAT JJATother
+thoo_NN NNother
+ill_RB RBother
+have_VPRT
+some_QUAN
+insane_JJAT JJATother
+dreams_NN NNother
+made_VBD ACT
+some_QUAN
+lemongrass_NN NNother
+🍜_EMO
+https://t.co/qKdEg7BBYH_URL
+weed_NN NNother
+is_VPRT
+therapy_NN NNother
+internet_NN NCOMP
+has_VPRT
+been_PEAS BEMA
+out_RB RBother
+all_QUAN
+day_NN NNQUANT
+wtfff_NN NCOMP
+im_NN NNother
+tryna_NN NCOMP
+process_NN NNABSPROC
+these_DEMO
+orders_NN NNABSPROC
+i_FPP1S FPPAll
+got_VPRT
+ta_IN INother
+go_VB
+harder_RB RBother
+orders_NN NNABSPROC
+going_VBG
+out_RP
+tomorrow_TIME
+💕_EMO
+🏴‍☠️_EMO
+today_TIME
+i_FPP1S FPPAll
+officially_RB RBother
+purchased_VBD
+one_CD
+of_IN INother
+my_FPP1S FPPAll
+dream_NN NNother
+cars_NN NCOMP
+i_FPP1S FPPAll
+never_FREQ
+really_RB EMPH
+thought_VBD MENTAL THATD
+i_FPP1S FPPAll
+’d_MDother
+find_VB VFCTother
+._.
+._.
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+wait_VB ACT
+to_IN INother
+show_VB ACT
+y’_NN NNother
+all_QUAN
+@Axxxxxxxxn_NN NNMention
+if_COND
+you_SPP2
+got_VBD
+something_QUPR
+to_IN INother
+say_VB COMM
+or_CC
+correct_VB
+me_FPP1S FPPAll
+go_VB
+for_IN INother
+it_PIT
+._.
+._.
+but_CC
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+be_VB
+calling_PROG COMM
+me_FPP1S FPPAll
+bud_NN NNCONC
+thanks_NN NCOMP POLITE
+brother_NN NNHUMAN
+@Axxxxxxxxn_NN NCOMP NNMention
+not_XX0
+sure_JJPR JJEPSTother
+why_WHSC WHSCother
+your_SPP2
+even_RB RBother
+defending_VBG ACT
+a_DT
+festival_NN NNother
+where_WHSC WHSCother
+it_PIT
+’s_POS
+clear_JJPR JJEPSTother
+they_TPP3P
+lacked_VBD EXIST
+in_IN INother
+security_NN NNABSPROC
+of_IN INother
+well_DMA
+being_VBG BEMA
+for_IN INother
+the_DT
+people_NN NNHUMAN
+they_TPP3P
+clearly_RB RBother
+did_VBD SPLIT DOAUX
+n’t_RB RBother
+care_VB MENTAL
+if_COND
+11_CD
+people_NN NNHUMAN
+are_VPRT BEMA
+dead_JJPR JJPRother
+,_,
+not_XX0
+related_VBN EXIST
+to_IN INother
+overdoses_NN NNother
+._.
+@Axxxxxxxxn_NN NNMention
+hell_NN NNP
+yeah_DMA
+ima_NN NNP
+take_VB ACT
+offense_NN NNother
+,_,
+ily_NN NNother
+and_CC
+you_SPP2
+my_FPP1S FPPAll
+brotha_NN NNother
+we_FPP1P FPPAll
+ai_VPRT
+n’t_RB RBother
+no_XX0
+buddy_NN NNother
+buddy_NN NCOMP
+bs_NN NNother
+🤝_EMO
+💕_EMO
+🏴‍☠️_EMO
+@Sxxxxxxa_NN NNMention
+💕_EMO
+💕_EMO
+thank_VPRT COMM POLITE
+you_SPP2
+bro_IN INother
+@bxxxxxxxxxx_NN NNMention
+it_PIT
+’s_POS
+a_DT
+bmw_NN NNP
+that_THRC THRCother
+’s_POS
+for_IN EMPH
+sure_DMA
+🤣_EMO
+@axxxxxxxxxn_NN NNMention
+ik_IN INother
+a_DT
+fat_NN NNother
+wood_NN NCOMP
+is_VPRT BEMA
+good_JJPR JJEVAL
+for_IN INother
+you_SPP2
+should_MDNE
+be_VB
+eating_PROG ACT
+pussy_NN NNother
+with_IN INother
+my_FPP1S FPPAll
+legs_NN NNCONC
+crossed_VBN
+in_IN INother
+the_DT
+air_NN NNother
+rn_NN NNP
+@Pxxxxxxxxxxxn_NN NCOMP NNMention
+🤘🏽_EMO
+🤘🏽_EMO
+🤘🏽_EMO
+🤘🏽_EMO
+yess_NN NNother
+sirrr_NN NCOMP
+love_VPRT MENTAL
+you_SPP2
+morning_NN NNQUANT
+sex_NN NCOMP
+would_MDWO MDPREDAll
+make_VB ACT
+my_FPP1S FPPAll
+life_NN NNABSPROC
+better_JJAT JJATother
+rn_NN NNP
+happy_JJAT JJATDother
+birthday_NN NNother
+brothaaa_NN NCOMP
+😘_EMO
+@Jxxxxxxxxxxp_NN NNMention
+what_WHQU
+’s_POS
+for_IN INother
+breakfast_NN NNother
+?_.
+i_FPP1S FPPAll
+’m_VPRT
+smoking_PROG
+weed_NN NNother
+@dxxxxxxxxe_NN NCOMP NNMention
+cheers_NN POLITE
+@Nxxxxxxxxxxxxxg_NN NNMention
+🤝_EMO
+🤝_EMO
+good_JJAT JJEVAL
+looks_NN NNCOG
+LMAOOO_VPRT
+all_QUAN
+orders_NN NNABSPROC
+getting_VBG
+shipped_PGET PASSAll
+mid_JJAT JJATother
+week_NN NNQUANT
+so_SO
+you_SPP2
+should_MDNE
+receive_VB ACT
+yours_SPP2
+soon_TIME
+bbycakes_NN NNother
+https://t.co/kRB5GOScXN_URL
+@Nxxxxxxxxr_NN NNMention
+i_FPP1S FPPAll
+’ll_VPRT
+be_VB
+waiting_PROG ACT
+know_VPRT MENTAL
+ur_SPP2
+worth_JJAT JJATother
+excited_JJPR JJPRother
+af_IN INother
+my_FPP1S FPPAll
+car_NN NNCONC
+finally_RB RBother
+gets_VPRT
+here_PLACE
+in_IN INother
+2_CD
+hours_NN NNQUANT
+😁_EMO
+😁_EMO
+😁_EMO
+im_SYM
+tired_JJAT JJATother
+af_NN NNother
+tho_CONC
+@Dxxxxxxd_NN NNMention
+thank_VPRT COMM
+u_PRPother
+🙏🏽_EMO
+goodnight_NN NNother
+https://t.co/MicOIqwUvv_URL
+happy_JJAT JJATDother
+bday_NN NNother
+to_IN INother
+the_DT
+fckin_NN NNother
+homie_NN NCOMP
+@Kxxxxxxxs_NN NNMention
+!!_.
+is_VPRT BEMA
+it_PIT
+grey_JJAT JJDESCAll JJCOLR
+sweatpants_NN NNother
+season_NN NCOMP
+yet_CC
+@_NN NNMention
+CATCH_VPRT ACT
+ME_FPP1S FPPAll
+OUTSIDEEE_VBN
+i_FPP1S FPPAll
+already_TIME
+get_VPRT
+beat_PGET PASSAll ACT
+up_IN INother
+it_PIT
+’s_POS
+no_XX0
+biggie_NN NNother
+https://t.co/3EQFzdcg1P_URL
+@Nxxxxxxxxr_NN NNMention
+@_NN NNMention
+🤣_EMO
+🤣_EMO
+speeding_VBG
+over_IN INother
+dm_NN NNother
+me_FPP1S FPPAll
+for_IN INother
+tips_NN NNCONC
+n_NN NNother
+tricks_NN NNother
+,_,
+i_FPP1S FPPAll
+got_VBD
+you_SPP2
+bro_IN INother
+https://t.co/PQMyTwTlGc_URL
+@_NN NNMention
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+beat_VB ACT
+me_FPP1S FPPAll
+up_RP
+like_LIKE
+the_DT
+nfl_NN NNother
+player_NN NCOMP
+@_NN NNMention
+nope_DMA
+@TxxxxxxxxxS_NN NNMention
+LMAOO_NN NNP
+WE_FPP1P FPPAll
+OUT_RB RBother
+let_VBD CAUSE
+’s_POS
+just_RB EMPH
+get_VB
+high_JJPR JJPRother
+&_CC
+fuck_VPRT EMPH
+got_VBD
+a_DT
+sweet_JJAT JJATother
+tooth_NN NNCONC
+but_CC
+i_FPP1S FPPAll
+stay_VPRT EXIST
+away_PLACE
+from_IN INother
+suckas_NN NNother
+!!!_.
+should_MDNE
+I_FPP1S FPPAll
+get_VB
+drunk_JJAT JJATother
+tonight_TIME
+?_. YNQU
+hmm_FPUH
+need_VPRT MENTAL
+head_NN NNCONC
+@yxxxxxxxxx1_NN NCOMP NNMention
+@mxxxx7_NN NNMention
+@fxxxxxxxxxxa_NN NNMention
+@sxxxxxxxxxxi_NN NNMention
+@gxxxxxxxx2_NN NNMention
+@Cxxxxxxxxxo_NN NNMention
+@yxxxxxxxx0_NN NNMention
+happy_JJAT JJATDother
+birthday_NN NNother
+!!!_.
+@sxxxxxxo_NN NNMention
+oooooo_FPUH
+my_FPP1S FPPAll
+boy_NN NNHUMAN
+rocking_VBG
+the_DT
+sakura_NN NNother
+hoodie_NN NCOMP
+🇯🇵_EMO
+🏴‍☠️_EMO
+only_RB RBother
+sexy_JJAT JJATother
+mfs_NN NNother
+up_IN INother
+rn_NN NNP
+@_NN NNMention
+bring_VPRT ACT
+that_DEMO
+ass_NN NNother
+over_IN INother
+here_PLACE
+nowww_JJAT JJATother
+mami_NN NNother
+really_RB EMPH
+looking_VBG
+forward_RB RBother
+to_IN INother
+that_DEMO
+pre_AFX
+rolled_VBD
+blunt_NN NNother
+in_IN INother
+my_FPP1S FPPAll
+car_NN NNCONC
+once_TIME
+i_FPP1S FPPAll
+’m_VPRT
+done_PASS PASSAll ACT
+delivering_VBG ACT
+packages_NN NNCONC
+🙃_EMO
+@_IN INother
+4xxxxxxx_CD
+beautiful_JJAT JJEVAL
+day_NN NNQUANT
+beautiful_JJAT JJEVAL
+morningg_NN NNother
+hope_VPRT MENTAL THATD
+yours_SPP2
+is_VPRT BEMA
+too_RB RBother
+fell_JJPR JJPRother
+on_IN INother
+my_FPP1S FPPAll
+assss_NN NNother
+busted_VBD
+my_FPP1S FPPAll
+knee_NN NNother
+trying_VBG ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+deliver_VB ACT
+yall_NN NNother
+packages_NN NCOMP
+wtf_DMA
+man_NN NNHUMAN
+🥲_EMO
+same_JJPR JJREL
+that_THSC THSCother
+’s_POS
+cringy_NN NNother
+https://t.co/zt793Q9uec_URL
+@oxxxxxxxt_NN NNMention
+🥰_EMO
+🥰_EMO
+💕_EMO
+luv_NN NNother
+u_PRPother
+@Ixxxxxu_NN NNMention
+yesss_NN NNP
+sirr_NN NNP
+thank_VPRT COMM POLITE
+you_SPP2
+brothaaa_NN NNother
+🤘🏽_EMO
+😘_EMO
+https://t.co/HKnjJHhf4R_URL
+@cxxxxxxxxxz_NN NNMention
+photoshoot_NN NNother
+soon_TIME
+!_.
+goodmorning_VBG
+,_,
+say_VIMP COMM
+it_PIT
+back_RB RBother
+😡_EMO
+@Nxxxxxxxxr_NN NNMention
+you_SPP2
+little_JJAT JJDESCAll JJSIZE
+rascal_JJAT JJATother
+ima_NN NNother
+throw_NN NCOMP
+something_QUPR
+something_QUPR
+to_IN INother
+surprise_VB
+you_SPP2
+in_IN INother
+ur_SPP2
+order_NN NNABSPROC
+@_IN INother
+4xxxxxxx_CD
+gm_NN NNother
+dawgggg_NN NCOMP
+@jxxxxxxg_NN NNMention
+luvvvv_NN NNother
+you_SPP2
+man_VPRT
+how_WHSC WHSCother
+you_SPP2
+been_VPRT
+@_NN NNMention
+try_VB ACT
+hidden_VBN
+vallley_NN NNother
+ranch_NN NCOMP
+i_FPP1S FPPAll
+just_RB EMPH
+had_MDNE
+to_IN SPLIT
+really_RB EMPH
+make_VB ACT
+it_PIT
+mine_FPP1S FPPAll
+https://t.co/qRU5X1YXDY_URL
+@cxxxxxxxxxxh_NN NNMention
+it_PIT
+’s_POS
+up_RP
+a_DT
+ramp_NN NNother
+@cxxxxxxxxxxh_NN NCOMP NNMention
+LMAOO_NN NNother
+it_PIT
+does_VPRT ACT
+looks_VPRT
+like_LIKE
+it_PIT
+doing_VBG ACT
+a_DT
+wheelie_NN NNother
+@Pxxxxxxxxxxxn_NN NCOMP NNMention
+love_VPRT MENTAL
+you_SPP2
+brooo_JJPR JJPRother
+!_.
+🤘🏽_EMO
+🤘🏽_EMO
+@txxxxx_NN NNMention
+thank_VPRT COMM
+u_PRPother
+brooo_NN NNother
+!!_.
+practicing_VBG
+self_NN NNother
+care_NN NCOMP
+is_VPRT
+n't_XX0 CONT
+enough_RB RBother
+i_FPP1S FPPAll
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+collapse_VB
+a_DT
+building_NN NNPLACE
+with_IN INother
+my_FPP1S FPPAll
+mind_NN NNother
+better_JJPR JJPRother
+then_IN INother
+nothing_QUPR
+🤝_EMO
+🤝_EMO
+https://t.co/atmkfFMa4n_URL
+edm_NN NNother
+community_NN NCOMP
+>_SYM
+hip_NN NNother
+hop_NN NCOMP
+community_NN NNGRP
+edc_NN NCOMP
+las_FW
+vegas_FW
+just_RB EMPH
+happened_VBD OCCUR
+where_WHSC WHSCother
+there_EX
+’s_VPRT
+every_QUAN
+kind_NN NNABSPROC
+of_IN INother
+drug_NN NNCONC
+and_CC
+even_RB RBother
+more_QUAN
+people_NN NNHUMAN
+in_IN INother
+attendance_NN NNABSPROC
+and_CC
+you_SPP2
+never_FREQ
+see_VPRT MENTAL
+any_QUAN
+deaths_NN NNABSPROC
+,_,
+this_DEMO
+shit_NN EMPH
+is_VPRT BEMA
+sad_JJPR JJPRother
+my_FPP1S FPPAll
+head_NN NNCONC
+:_:
+hurting_VBG
+i_FPP1S FPPAll
+do_VPRT DOAUX
+not_XX0
+need_MDNE
+to_IN INother
+eat_VB ACT
+edibles_NN NNother
+AND_CC
+smoke_NN NNother
+but_CC
+i_FPP1S FPPAll
+’m_VPRT
+gon_GTO MDPREDAll
+na_IN INother
+was_VBD BEMA
+n’t_RB RBother
+me_FPP1S FPPAll
+LMAOO_JJPR JJPRother
+https://t.co/DgQ17JYzjL_URL
+whoever_WHSC WHSCother
+’s_POS
+thinking_NN NNother
+about_IN INother
+me_FPP1S FPPAll
+do_VPRT ACT
+n’t_RB RBother
+i_FPP1S FPPAll
+’m_VPRT
+tryna_NN NNother
+sleep_NN NCOMP
+gm_NN NNother
+feeling_VBG MENTAL
+slutty_JJAT JJATother
+LMAOO_NN NNother
+what_WHSC WHSCother
+did_VBD DOAUX
+i_FPP1S FPPAll
+do_VPRT ACT
+https://t.co/tWUb1ECo2N_URL
+this_DEMO
+weathers_VPRT
+perfect_JJPR JJPRother
+to_IN INother
+be_VB
+eating_PROG ACT
+pussy_NN NNother
+from_IN INother
+the_DT
+back_NN NNother
+._.
+just_RB EMPH
+admiring_VBG
+my_FPP1S FPPAll
+girl_NN NNHUMAN
+as_IN INother
+she_TPP3S
+does_VPRT ACT
+her_TPP3S
+makeup_NN NNother
+she_TPP3S
+so_EMPH
+fuckin_JJPR JJPRother
+pretty_RB RBother
+if_COND
+only_RB RBother
+you_SPP2
+could_MDCO MDPOSSCAll
+hear_VB MENTAL THATD
+his_TPP3S
+snoring_VBG
+https://t.co/AZsSz2E4ra_URL
+@yxxxxxxxxxxxxh_NN NNMention
+help_VB CAUSE
+me_FPP1S FPPAll
+out_RP
+@sxxxxxxh_NN NNMention
+check_VB ACT
+online_PLACE
+first_RB RBother
+they_TPP3P
+barely_DWNT
+ever_FREQ
+have_VB
+anything_QUPR
+in_IN INother
+stock_NN NNother
+thank_VPRT COMM POLITE
+you_SPP2
+ily_JJAT JJATother
+g_NN NNother
+🙏🏽_EMO
+🏴‍☠️_EMO
+🏴‍☠️_EMO
+https://t.co/MFn9g44CLx_URL
+life_NN NNABSPROC
+is_VPRT
+actually_DMA
+great_JJPR JJEVAL
+when_WHSC WHSCother
+you_SPP2
+are_VPRT BEMA
+n’t_RB RBother
+so_EMPH
+stuck_JJPR JJPRother
+on_IN INother
+ur_SPP2
+thoughts_NN NSTNCother
+@fxxxxxxxxxxe_NN NCOMP NNMention
+🙏🏽_EMO
+🙏🏽_EMO
+🙏🏽_EMO
+yes_DMA
+sirr_VIMP
+this_DEMO
+gon_GTO MDPREDAll
+na_IN INother
+be_VB BEMA
+all_QUAN
+of_IN INother
+new_JJAT JJTIME
+york_NN NNP
+https://t.co/d8BLAKavJt_URL
+we_FPP1P FPPAll
+need_VPRT MENTAL
+more_QUAN
+women_NN NNHUMAN
+like_LIKE
+this_DEMO
+,_,
+y’_RB RBother
+all_QUAN
+take_VB ACT
+notes_NN NNCONC
+✍🏽_EMO
+✍🏽_EMO
+✍🏽_EMO
+https://t.co/KzGthJIwcQ_URL
+@Exxxxn_NN NNMention
+that_THRC THRCother
+indeed_RB RSTNCAll RFACT
+was_VBD BEMA
+the_DT
+point_NN NNother
+@_NN NNMention
+rooms_NN NNPLACE
+booked_VBD
+babyg_NN NNother
+📲_EMO
+so_EMPH
+far_TIME
+the_DT
+shittiest_JJAT JJATother
+route_NN NNother
+i_FPP1S FPPAll
+’ve_VPRT SPLIT
+ever_FREQ
+gotten_HGOT
+,_,
+but_CC
+seeing_VBG MENTAL
+these_DEMO
+cars_NN NNCONC
+along_IN INother
+the_DT
+way_NN NNABSPROC
+made_VBN ACT
+my_FPP1S FPPAll
+day_NN NNQUANT
+https://t.co/4Sv3oQe8Ww_URL
+@mxxxxxr_NN NNMention
+On_IN INother
+my_FPP1S FPPAll
+way_NN NNABSPROC
+!!_.
+the_DT
+awkward_JJAT JJATother
+moment_NN NNQUANT
+when_WHSC WHSCother
+your_SPP2
+going_VBG
+to_IN INother
+hug_NN NNother
+someone_QUPR
+sexy_JJAT JJATother
+af_NN NNother
+&_CC
+your_SPP2
+hit_VBN
+the_DT
+mirror_NN NNother
+..._:
+fuck_VB EMPH
+y’_NN NNother
+all_QUAN
+for_IN INother
+liking_VBG MENTAL
+this_DEMO
+https://t.co/5PXe3F8CiT_URL
+gangstas_NN NNother
+cry_VB
+too_RB RBother
+🤝_EMO
+just_RB EMPH
+saw_VBD MENTAL
+the_DT
+biggest_JJAT JJATother
+shooting_NN NNother
+star_NN NCOMP
+ive_VPRT
+ever_FREQ
+seen_VBN MENTAL
+or_CC
+a_DT
+space_NN NNCONC
+ship_NN NCOMP
+@Rxxxxxxxxxxxxxt_NN NNMention
+oh_FPUH
+shit_FPUH EMPH
+no_XX0
+way_NN NNABSPROC
+pizzza_NN NCOMP
+for_IN INother
+dinner_NN NNCONC
+😮‍💨_EMO
+👨‍🍳_EMO
+https://t.co/CSw8GUoDHT_URL
+👀_EMO
+👀_EMO
+this_DEMO
+you_SPP2
+?_.
+@Kxxxxxxxxo_NN NNMention
+https://t.co/qSwm3PZxju_URL
+@bxxxxxxxxxxxxxa_NN NNMention
+take_VB ACT
+a_DT
+day_NN NNQUANT
+off_RP
+fuck_VB EMPH
+it_PIT
+take_VB ACT
+two_CD
+days_NN NNQUANT
+off_RB RBother
+for_IN INother
+yourself_SPP2
+._.
+mental_JJAT JJTOPIC
+health_NN NNABSPROC
+is_VPRT BEMA
+so_EMPH
+important_JJPR JJPRother
+._.
+id_NN NNother
+take_VPRT ACT
+advantage_NN NNABSPROC
+of_IN INother
+todays_NN NNQUANT
+weather_VPRT
+it_PIT
+’s_POS
+the_DT
+last_JJAT JJATother
+day_NN NNQUANT
+it_PIT
+’s_POS
+this_DEMO
+warm_JJAT JJATother
+._.
+drink_VB
+some_QUAN
+wine_NN NNother
+make_VB ACT
+some_QUAN
+pizza_NN NNother
+take_VB ACT
+doggy_NN NNother
+on_IN INother
+a_DT
+trail_NN NNother
+take_VB ACT
+a_DT
+bath_NN NNother
+,_,
+and_CC
+make_VB ACT
+sure_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+get_VB
+over_IN INother
+8_CD
+hours_NN NNQUANT
+of_IN INother
+sleep_NN NNother
+🤝_EMO
+🤝_EMO
+the_DT
+morning_NN NNQUANT
+/_SYM
+/_SYM
+the_DT
+weeknd_NN NNother
+>>_-RRB-
+>_-RRB-
+essential_JJAT JJATother
+beanies_NN NNother
+came_VBD ACT
+in_IN INother
+😮‍💨_EMO
+😮‍💨_EMO
+🏴‍☠️_EMO
+https://t.co/GLUAmmW9In_URL
+@axxxxxxxxxxx7_NN NNMention
+WTF_DMA
+LMAOOO_NN NNother
+LMAOO_NN NCOMP
+i_FPP1S FPPAll
+thought_VBD MENTAL THATD
+i_FPP1S FPPAll
+was_VBD BEMA
+the_DT
+only_JJAT JJATother
+one_CD
+https://t.co/4jBi8Leoe1_URL
+i_FPP1S FPPAll
+just_RB EMPH
+wan_VPRT MENTAL
+na_IN INother
+fuck_VB EMPH
+…_,
+._.
+._.
+ing_VBG
+cuddle_NN NNother
+☹️_EMO
+i_FPP1S FPPAll
+’m_VPRT
+up_RP
+and_CC
+im_VB
+feeling_VBG MENTAL THATD
+good_JJAT JJEVAL
+today_TIME
+thank_VPRT COMM
+god_NN NNHUMAN
+happy_JJAT JJATDother
+birthday_NN NNother
+homie_NN NCOMP
+@yxxxxxx9_NN NNMention
+work_NN NNABSPROC
+fit_NN NCOMP
+._.
+https://t.co/X2pnlinBuX_URL
+@_IN INother
+5xxxxxxs_NN NNother
+bing_VBG
+bong_NN NNP
+fuck_VPRT EMPH
+ya_SPP2
+life_NN NNABSPROC
+@Kxxxxxxxs_NN NCOMP NNMention
+what_WHSC WHSCother
+’s_POS
+wrong_NN NNother
+with_IN INother
+it_PIT
+@cxxxxxxxy_NN NNMention
+halloween_NN NNother
+drop_NN NCOMP
+!_.
+where_WHSC WHSCother
+is_VPRT BEMA
+she_TPP3S
+https://t.co/7WqCMQn8G2_URL
+no_XX0
+way_NN NNABSPROC
+my_FPP1S FPPAll
+brother_NN NNHUMAN
+just_RB EMPH
+got_VBD
+me_FPP1S FPPAll
+broadway_NN NNother
+static_NN NCOMP
+coils_NN NNother
+for_IN INother
+christmass_NN NNother
+🥰_EMO
+🥰_EMO
+🥰_EMO
+merry_JJAT JJATother
+kushmas_NN NNother
+bouta_NN NCOMP
+roll_VPRT
+a_DT
+fatty_JJAT JJATother
+@_NN NNMention
+i_FPP1S FPPAll
+’m_VPRT BEMA
+mr_NN NNother
+lonely_JJPR JJPRother
+i_FPP1S FPPAll
+jus_VPRT
+want_VB MENTAL
+some_QUAN
+head_NN NNCONC
+ultimate_JJPR JJPRother
+driving_VBG
+machine_NN NNCONC
+._.
+https://t.co/vUSBMo4lIr_URL
+@ixxxxxxxxe_NN NNMention
+bottom_NN NNPLACE
+left_NN NCOMP
+of_IN INother
+pic_NN NNother
+@LxxxxxxxxxS_NN NCOMP NNMention
+miss_VPRT MENTAL
+u_PRPother
+incase_RB RBother
+y’_VPRT
+all_QUAN
+forgot_VBN MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVMNTL
+get_VB
+me_FPP1S FPPAll
+something_QUPR
+for_IN INother
+christmas_NN NNP
+,_,
+,_,
+ima_NN NNP
+size_NN NCOMP
+work_NN NNABSPROC
+equips_VPRT
+voggards_NN NNother
+17x9_CD
+happy_JJAT JJATDother
+birthday_NN NNother
+to_IN INother
+my_FPP1S FPPAll
+babygirl_NN NNother
+love_VPRT MENTAL
+you_SPP2
+@_NN NNMention
+https://t.co/L5aTSLWEf1_URL
+new_DT
+year_NN NNother
+new_VBD
+me_FPP1S FPPAll
+,_,
+same_JJPR JJREL
+me_FPP1S FPPAll
+tho_CONC
+48_CD
+degreessss_NN NNother
+!_.
+time_NN NNQUANT
+to_IN INother
+wash_VB
+the_DT
+whip_NN NNother
+for_IN INother
+the_DT
+new_JJAT JJTIME
+year_NN NNother
+gon_GTO MDPREDAll
+na_IN INother
+start_VB ASPECT
+the_DT
+pregame_JJAT JJATother
+early_JJPR JJTIME
+we_FPP1P FPPAll
+going_VBG
+on_IN INother
+a_DT
+3_CD
+day_NN NNQUANT
+bender_NN NCOMP
+cdc_NN NNother
+says_VPRT COMM THATD
+tequila_NN NNother
+will_MDWS MDPREDAll
+cure_VB
+covid_NN NNother
+tonight_TIME
+@axxxxxxxxxn_NN NNMention
+🤝_EMO
+🤝_EMO
+got_VBD
+you_SPP2
+i_FPP1S FPPAll
+stay_VPRT EXIST
+updated_VBN
+on_IN INother
+the_DT
+news_NN NSTNCother
+@bxxxxxxxxxxxh_NN NCOMP NNMention
+is_VPRT BEMA
+this_DEMO
+some_QUAN
+sorta_NN NNother
+potion_NN NCOMP
+to_IN INother
+kill_VB
+me_FPP1S FPPAll
+and_CC
+lil_NN NNother
+bit_NN NCOMP
+of_IN INother
+a_DT
+weed_NN NNother
+https://t.co/XCHbZlXf6o_URL
+good_JJAT JJEVAL
+morning_NN NNQUANT
+get_VB
+up_RP
+females_NN NNHUMAN
+always_FREQ
+trying_VBG ACT
+play_VB ACT
+you_SPP2
+✍🏽_EMO
+✍🏽_EMO
+https://t.co/5PXe3F8CiT_URL
+call_VB COMM
+me_FPP1S FPPAll
+santa_VB
+the_DT
+way_NN NNABSPROC
+im_JJPR JJPRother
+delivering_VBG ACT
+all_QUAN
+these_DEMO
+gifts_NN NNCONC
+@Rxxxxxxxxxxxxxt_NN NCOMP NNMention
+factss_NN NNother
+please_FPUH POLITE
+do_VB SPLIT DOAUX
+n’t_RB RBother
+spoil_VB
+spider_NN NNother
+-_HYPH
+man_NN NNHUMAN
+im_NN NNP
+tryna_NN NNP
+go_VB
+watch_VB ACT
+@axxxxxxxxxn_NN NNMention
+come_VB ACT
+thru_IN INother
+women_NN NNHUMAN
+are_VPRT BEMA
+more_AMP
+toxic_JJPR JJPRother
+https://t.co/oyw5YdTj8J_URL
+@mxxxxxr_NN NNMention
+stop_VB ASPECT
+w_IN INother
+that_DEMO
+shit_NN EMPH
+,_,
+trust_NN NNother
+🤝_EMO
+@Lxxxxxxxxxxn_NN NNMention
+actually_DMA
+you_SPP2
+got_VBD
+a_DT
+good_JJAT JJEVAL
+point_NN NNother
+@_NN NNMention
+he_TPP3S
+/_,
+him_TPP3S
+thanks_NN POLITE
+🥰_EMO
+@mxxxxxr_NN NNMention
+cg_NN NNP
+everything_QUPR
+🙌🏽_EMO
+🤘🏽_EMO
+>>_-RRB-
+>_-RRB-
+merry_JJAT JJATother
+christmas_NN NNP
+eve_NN NCOMP
+@_NN NNMention
+manifested_VBD
+that_THSC THSCother
+u_PRPother
+eat_VPRT ACT
+my_FPP1S FPPAll
+ass_NN NNother
+✨_EMO
+same_JJPR JJREL
+but_CC
+back_RB RBother
+to_IN INother
+blonde_JJPR JJPRother
+https://t.co/4Mq0TecCzt_URL
+miss_VPRT MENTAL
+you_SPP2
+cum_IN INother
+cuddle_NN NNother
+https://t.co/5LUhlDUAaW_URL
+i_FPP1S FPPAll
+love_VPRT MENTAL
+everyone_QUPR
+single_JJAT JJREL
+one_NN NNother
+of_IN INother
+you_SPP2
+guys_NN NNHUMAN
+fries_NN NCOMP
+waking_VBG
+up_RP
+middle_NN NNPLACE
+of_IN INother
+the_DT
+night_NN NNother
+😭_EMO
+way_RB RBother
+too_RB RBother
+cold_JJPR JJPRother
+to_IN INother
+be_VB
+sleeping_PROG
+alone_JJAT JJATother
+people_NN NNHUMAN
+that_THRC THRCother
+have_VPRT SPLIT
+never_FREQ
+been_PEAS BEMA
+to_IN INother
+new_JJAT JJTIME
+york_NN NNP
+are_VPRT
+always_FREQ
+like_FPUH
+let_VBD CAUSE
+’s_POS
+go_NN NNother
+to_IN INother
+times_NN NNQUANT
+square_JJPR JJPRother
+but_CC
+if_COND
+you_SPP2
+live_VPRT EXIST
+here_PLACE
+you_SPP2
+purposely_RB RBother
+avoid_VB
+that_DEMO
+area_NN NNPLACE
+at_IN INother
+all_QUAN
+costs_NN NNother
+🤣_EMO
+idk_VPRT
+how_WHSC WHSCother
+but_CC
+she_TPP3S
+just_RB EMPH
+makes_VPRT ACT
+everything_QUPR
+better_JJPR JJPRother
+i_FPP1S FPPAll
+’ve_VPRT
+thrown_PEAS ACT
+up_RP
+3_CD
+times_NN NNQUANT
+this_DEMO
+morning_NN NNQUANT
+i_FPP1S FPPAll
+should_MDNE
+not_XX0
+be_VB
+going_GTO MDPREDAll
+to_IN INother
+work_VB ACT
+hollys_NN NNother
+eating_VBG ACT
+my_FPP1S FPPAll
+ass_NN NNother
+next_JJAT JJATother
+time_NN NNQUANT
+i_FPP1S FPPAll
+see_VPRT MENTAL THATD
+her_TPP3S
+@zxxxxxxxxxxa_NN NNMention
+was_VBD BEMA
+n’t_RB RBother
+me_FPP1S FPPAll
+horny_JJAT JJATother
+hours_NN NNQUANT
+are_VPRT BEMA
+24/7_CD
+papa_NN NNother
+https://t.co/NN2NxGs1pN_URL
+redbull_NN NNother
+run_NN NCOMP
+._.
+._.
+y’_RB RBother
+all_QUAN
+need_VB MENTAL
+anything_QUPR
+?_.
+https://t.co/de7SmTQGWJ_URL
+@Dxxxxxxd_NN NNMention
+what_WHSC WHSCother
+’s_POS
+wrong_JJAT JJATother
+bb_NN NNother
+@_IN INother
+4xxxxxxx_CD
+it_PIT
+’s_POS
+the_DT
+hoodie_NN NNother
+for_IN INother
+me_FPP1S FPPAll
+@ixxxxxxxxxc_NN NNMention
+i_FPP1S FPPAll
+got_VBD
+you_SPP2
+a_DT
+water_NN NNCONC
+stay_VB EXIST
+hydrated_JJAT JJATother
+g_NN NNother
+,_,
+and_CC
+the_DT
+honey_NN NNother
+backwood_NN NCOMP
+🤝_EMO
+need_MDNE
+to_IN INother
+do_VB ACT
+research_NN NNABSPROC
+on_IN INother
+this_DEMO
+https://t.co/8JU95d0UOG_URL
+ask_VB COMM
+mom_NN NNHUMAN
+?_. YNQU
+https://t.co/tC5yYCDR3i_URL
+Help_VB CAUSE
+us_FPP1P FPPAll
+decide_VB MENTAL
+!_.
+https://t.co/A7sHtCR28Y_URL
+what_WHSC WHSCother
+color_NN NNABSPROC
+way_NN NCOMP
+@Nxxxxxxxxxxxxxg_NN NNMention
+deadass_NN NNother
+tho_CONC
+@Bxxxxxxxxxxxxxi_NN NNMention
+factss_NN NNother
+but_CC
+they_TPP3P
+all_QUAN
+go_VPRT
+hard_RB RBother
+@nxxxxxxxo_NN NNMention
+oouu_NN NNother
+good_JJAT JJEVAL
+point_NN NNother
+so_SO
+what_WHSC WHSCother
+’s_POS
+that_THRC THRCother
+make_VPRT ACT
+me_FPP1S FPPAll
+https://t.co/0xoaGnqmKh_URL
+gm_NN NNother
+gm_NN NCOMP
+<_SYM
+3_EMO
+if_COND
+you_SPP2
+’re_VPRT BEMA
+on_IN INother
+here_PLACE
+ily_RB RBother
+and_CC
+ill_RB RBother
+be_VB
+getting_PROG
+you_SPP2
+a_DT
+xmas_NN NNother
+present_JJPR JJPRother
+https://t.co/BKyqgXxYj3_URL
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+fuck_VB EMPH
+her_TPP3S
+like_LIKE
+a_DT
+rag_NN NNother
+doll_NN NCOMP
+rn_NN NNP
+mood_NN NCOMP
+https://t.co/58LAzcWsX8_URL
+THIS_DEMO
+THE_DT
+ONE_CD
+MY_FPP1S FPPAll
+BRO_NN NNother
+GOT_VBD
+ME_FPP1S FPPAll
+🔥_EMO
+🔥_EMO
+🔥_EMO
+https://t.co/mFztmdvx2l_URL
+just_RB EMPH
+🥜_EMO
+’_''
+inside_IN INother
+you_SPP2
+https://t.co/DJ7WTd3KGs_URL
+no_XX0
+thoughts_NN NSTNCother
+,_,
+only_RB RBother
+BING_NN NNP
+BONG_NN NNP
+MF_NN NNP
+@Mxxxxxxxxxxxxx7_NN NCOMP NNMention
+you_SPP2
+ai_VPRT
+n’t_RB RBother
+got_VBN
+the_DT
+gas_NN NNother
+pack_NN NCOMP
+leave_VB ACT
+me_FPP1S FPPAll
+be_VB
+@wxxxxxe_NN NNMention
+thank_VPRT COMM POLITE
+you_SPP2
+💕_EMO
+last_JJAT JJATother
+month_NN NNQUANT
+of_IN INother
+the_DT
+year_NN NNother
+,_,
+make_VIMP ACT
+sure_JJPR JJEPSTother
+you_SPP2
+leave_VPRT ACT
+all_QUAN
+that_DEMO
+wack_NN NNother
+shit_NN NCOMP EMPH
+in_IN INother
+21_CD
+me_FPP1S FPPAll
+with_IN INother
+cg_NN NNother
+hoodies_NN NCOMP
+https://t.co/xwnkJ7mj1Z_URL
+spotify_NN NNother
+wrapped_VBN
+said_VBD COMM THATD
+i_FPP1S FPPAll
+’m_VB BEMA
+sexy_JJPR JJPRother
+w_IN INother
+big_JJAT JJDESCAll JJSIZE
+dick_NN NNother
+WTF_DMA
+but_CC
+are_VPRT BEMA
+they_TPP3P
+wrong_JJPR JJPRother
+._.
+._.
+?_.
+https://t.co/goB5hKqEix_URL
+@Dxxxxxxd_NN NNMention
+love_VPRT MENTAL
+you_SPP2
+more_QUAN
+g_NN NNother
+cmere_NN NNother
+@_NN NNMention
+https://t.co/iSevWG2p49_URL
+let_VBD CAUSE
+’s_POS
+go_NN NNother
+on_IN INother
+a_DT
+trip_NN NNother
+🍄_EMO
+https://t.co/KxblfuQjhE_URL
+@fxxxxxxxxxxe_NN NNMention
+no_XX0
+wonder_NN NNother
+my_FPP1S FPPAll
+rotors_NN NNother
+came_VBD ACT
+but_CC
+was_VBD
+missing_PROG MENTAL
+brake_NN NNother
+pads_NN NCOMP
+😭_EMO
+😭_EMO
+@fxxxxxxy_NN NNMention
+dam_NN NNother
+right_JJPR JJEPSTother
+😭_EMO
+matcha_NN NNother
+tea_NN NCOMP
+to_IN INother
+start_VB ASPECT
+off_RP
+this_DEMO
+freezing_NN NNother
+fucking_JJAT EMPH
+day_NN NNQUANT
+😌_EMO
+@_NN NNMention
+that_THRC THRCother
+’s_POS
+perfect_JJAT JJATother
+weatherrrrr_NN NNother
+we_FPP1P FPPAll
+’re_VPRT BEMA
+at_IN INother
+39_CD
+happy_JJAT JJATDother
+friday_NN NNP
+mfs_NN NNP
+lets_VPRT CAUSE
+get_VB
+this_DEMO
+bread_NN NNother
+my_FPP1S FPPAll
+brother_NN NNHUMAN
+came_VBD ACT
+back_RB RBother
+from_IN INother
+the_DT
+mall_NN NNother
+and_CC
+got_VBD
+me_FPP1S FPPAll
+some_QUAN
+sorta_NN NNother
+mahogany_NN NCOMP
+candle_NN NNother
+☺️_EMO
+☺️_EMO
+i_FPP1S FPPAll
+love_VPRT MENTAL
+when_WHSC WHSCother
+people_NN NNHUMAN
+react_VPRT
+to_IN INother
+the_DT
+e36_NN NNother
+while_CC
+im_NN NNother
+driving_NN NCOMP
+🤞🏼_EMO
+💛_EMO
+@Bxxxxxxxxxxxxxi_NN NNMention
+no_DMA
+you_SPP2
+🤝_EMO
+stopped_VBD ASPECT
+for_IN INother
+a_DT
+lil_NN NNother
+bowl_NN NCOMP
+rip_VPRT
+break_NN NNABSPROC
+and_CC
+i_FPP1S FPPAll
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+have_VB
+a_DT
+lighter_JJAT JJATother
+😭_EMO
+😭_EMO
+😭_EMO
+so_EMPH
+upset_JJPR JJPRother
+😭_EMO
+https://t.co/maGzt8PqOE_URL
+@bxxxxxn_NN NNMention
+at_IN INother
+first_JJAT JJATother
+im_NN NNother
+like_LIKE
+no_XX0
+way_NN NNABSPROC
+thing_NN NCOMP
+even_RB RBother
+drives_VPRT
+who_WHSC WHSCother
+got_VBD
+bud_NN NNCONC
+@LxxxxxxxxxS_NN NCOMP NNMention
+smoke_NN NNother
+seshhhhh_NN NCOMP
+@Pxxxxxxxxxxxn_NN NNMention
+sameeee_NN NNother
+and_CC
+these_DEMO
+holidays_NN NNother
+ai_VPRT
+n’t_RB RBother
+helping_VBG CAUSE
+for_IN INother
+shit_NN EMPH
+LOL_DMA
+@Nxxxxxxxxxxxxxg_NN NNMention
+say_VPRT COMM
+less_QUAN
+🛩_EMO
+@_NN NNMention
+are_VPRT BEMA
+u_PRPother
+tryna_NN NNother
+do_VPRT ACT
+those_DEMO
+lil_NN NNother
+gingerbread_NN NCOMP
+houses_NN NNGRP
+or_CC
+not_XX0
+@_NN NNMention
+go_VPRT
+out_IN INother
+the_DT
+back_JJAT JJATother
+door_NN NNCONC
+in_IN INother
+20_CD
+mins_NN NNother
+i_FPP1S FPPAll
+’ll_VPRT
+be_VB
+waiting_PROG ACT
+for_IN INother
+u_PRPother
+@bxxxxxn_NN NNMention
+so_EMPH
+confused_JJPR JJPRother
+hey_FPUH
+luvvv_NN NNother
+come_VBN ACT
+over_IN INother
+n_NN NNother
+watch_VPRT ACT
+a_DT
+scary_JJAT JJATother
+movie_NN NNCONC
+or_CC
+make_VB ACT
+one_CD
+📲_EMO
+@_NN NNMention
+rip_VPRT
+to_IN INother
+love_VB MENTAL
+._.
+._.
+i_FPP1S FPPAll
+gave_VBD ACT
+up_RP
+a_DT
+long_JJAT JJDESCAll JJSIZE
+time_NN NNQUANT
+ago_TIME
+@_NN NNMention
+take_VPRT ACT
+me_FPP1S FPPAll
+with_IN INother
+you_SPP2
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+listen_VB MENTAL
+to_IN INother
+her_TPP3S
+._.
+._.
+trust_VB MENTAL
+me_FPP1S FPPAll
+LMAO_NN NNother
+https://t.co/7hXKS3eVCJ_URL
+@_NN NNMention
+i_FPP1S FPPAll
+like_VPRT MENTAL
+the_DT
+idea_NN NSTNCother
+lmk_FW
+just_RB EMPH
+got_VBD
+tipped_PGET PASSAll
+$_$
+20_CD
+for_IN INother
+delivering_VBG ACT
+some_QUAN
+packages_NN NNCONC
+to_IN INother
+this_DEMO
+lady_NN NNHUMAN
+’s_POS
+house_NN NNGRP
+🥰_EMO
+🥰_EMO
+😮‍💨_EMO
+🎄_EMO
+@Bxxxxxxxxxxxxxi_NN NNMention
+@sxxxxxl_NN NNMention
+he_TPP3S
+knows_VPRT MENTAL
+nah_FPUH
+love_NN NNother
+always_FREQ
+wins_VPRT ACT
+https://t.co/k7hby6yc5e_URL
+wowwwww_FPUH
+max_NN NNother
+verstappen_VBN
+with_IN INother
+the_DT
+W_NN NNother
+@Nxxxxxxxxr_NN NNMention
+@_NN NNMention
+GOOD_JJAT JJEVAL
+LOOOKS_NN NNother
+😮‍💨_EMO
+😘_EMO
+someone_QUPR
+commented_VBD
+on_IN INother
+the_DT
+cg_NN NNother
+post_NN NCOMP
+saying_VBG COMM
+“_``
+ima_NN NNother
+lose_VPRT ACT
+weight_NN NNQUANT
+for_IN INother
+the_DT
+next_JJAT JJATother
+drop_NN NNCONC
+”_''
+🤣_EMO
+🤣_EMO
+felt_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVATT
+ONLY_RB RBother
+9_CD
+GARAGE_NN NNP
+BANNERS_NN NCOMP
+LEFT_VBD ACT
+IN_IN INother
+STOCK_NN NNother
+✍🏽_EMO
+✍🏽_EMO
+anything_QUPR
+else_JJPR JJPRother
+?_.
+https://t.co/RJNhd2dc6X_URL
+when_WHSC WHSCother
+she_TPP3S
+sends_VPRT ACT
+you_SPP2
+money_NN NNother
+for_IN INother
+haircut_NN NNother
+🥰_EMO
+☆_SYM
+964_CD
+SKULLY_NN NNother
+CAPSULE_NN NCOMP
+☆_SYM
+12/10_CD
+6_CD
+pm_NN NNother
+https://t.co/pLxZiuXpdx_URL
+make_VB ACT
+your_SPP2
+own_JJAT JJATother
+luck_NN NNother
+got_VBN
+ta_IN INother
+make_VB ACT
+sure_JJPR JJEPSTother
+the_DT
+gang_NN NNother
+stays_VPRT EXIST
+hydrated_JJPR JJPRother
+🏴‍☠️_EMO
+https://t.co/KjhVTF2AU4_URL
+put_VBD ACT
+$_$
+40_CD
+of_IN INother
+gas_NN NNother
+to_IN INother
+go_VB
+from_IN INother
+empty_JJPR JJPRother
+to_IN INother
+half_QUAN
+a_DT
+tank_NN NNCONC
+LMAOOO_NN NCOMP
+WTF_DMA
+yess_NN NNother
+heavyweight_JJAT JJATother
+hitters_NN NNother
+https://t.co/i7hOnrwxRI_URL
+sold_VBD ACT
+out_RP
+https://t.co/JZFhPYK4jd_URL
+morning_NN NNQUANT
+prayers_NN NCOMP
+>>_-RRB-
+>>_-RRB-
+hate_VPRT MENTAL
+smokin_NN NNother
+alone_JJAT JJATother
+goodmorning_NN NNother
+say_VPRT COMM
+it_PIT
+back_RB RBother
+<_-LRB-
+3_EMO
+@Dxxxxxxd_NN NNMention
+good_JJAT JJEVAL
+morning_NN NNQUANT
+dawg_NN NCOMP
+let_VBD CAUSE
+’s_POS
+get_VB
+this_DEMO
+shit_NN EMPH
+@ixxxxxxe_NN NNMention
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+g_NN NNother
+@Dxxxxxxd_NN NNMention
+ggs_NN NNother
+brother_NN NCOMP
+let_VIMP CAUSE
+me_FPP1S FPPAll
+know_VB MENTAL
+when_WHSC WhVSTNCAll WhVFCT
+ur_SPP2
+up_RP
+STORE_NN NNPLACE
+OPENS_VPRT ACT
+TODAY_TIME
+6PM_NN NNother
+est_FW
+https://t.co/wqINQcvYKI_URL
+store_NN NNPLACE
+is_VPRT BEMA
+liveeeee_JJPR JJPRother
+😮‍💨_EMO
+🏴‍☠️_EMO
+more_AMP
+like_LIKE
+BYRON_NN NNP
+things_NN NCOMP
+🤣_EMO
+https://t.co/GErwnjsCyj_URL
+happy_JJAT JJATDother
+fuckin_NN NNother
+birthday_NN NCOMP
+to_IN INother
+my_FPP1S FPPAll
+best_JJAT EMPH
+friend_NN NNHUMAN
+@zxxxxxxxr_NN NCOMP NNMention

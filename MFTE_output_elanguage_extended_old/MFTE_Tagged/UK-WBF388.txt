@@ -1,0 +1,2541 @@
+I_FPP1S FPPAll
+'ve_VPRT CONT
+been_PEAS
+watching_PROG ACT
+a_DT
+few_QUAN
+You_SPP2
+Tube_VPRT
+videos_NN NNCONC
+recently_TIME
+and_CC
+reminiscing_VBG
+about_HDG
+all_QUAN
+things_NN NNother
+retro_JJPR JJPRother
+and_CC
+was_VBD
+wondering_PROG MENTAL
+whether_WHSC WHSCother
+there_EX
+was_VBD
+a_DT
+relatively_RB RBother
+simple_JJAT JJATother
+way_NN NNABSPROC
+to_IN INother
+utilise_VB
+an_DT
+unused_JJAT JJATother
+i3_NN NNother
+Intel_NN NNP
+NUC_NN NNP
+as_IN INother
+a_DT
+retro_JJAT JJATother
+console_NN NNother
+?_.
+Is_VPRT BEMA
+there_PLACE
+a_DT
+"_``
+simple_JJPR JJPRother
+"_''
+way_NN NNABSPROC
+to_IN INother
+get_VB
+started_PGET PASSAll ASPECT
+or_CC
+is_VPRT BEMA
+it_PIT
+typically_RB RSTNCAll RNONFACT
+more_AMP
+complicated_JJPR JJPRother
+than_IN INother
+just_RB EMPH
+"_``
+install_VIMP
+and_CC
+go_VIMP
+"_``
+I_FPP1S FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+mind_VB MENTAL POLITE
+doing_VBG ACT
+the_DT
+reading_NN NNother
+and_CC
+experimenting_VBG
+a_DT
+bit_QUAN
+but_CC
+if_COND
+things_NN NNother
+get_VPRT
+a_DT
+bit_QUAN
+technical_JJPR JJPRother
+in_IN INother
+terms_NN NNQUANT
+of_IN INother
+"_``
+coding_VBG
+"_''
+then_RB RBother
+I_FPP1S FPPAll
+'m_VPRT CONT
+going_GTO MDPREDAll
+to_IN INother
+fall_VB OCCUR
+flat_RB RBother
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+afraid_JJPR JJATDother
+!_.
+Very_AMP
+easy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+do_VB ACT
+with_IN INother
+a_DT
+nuc_NN NNother
+._.
+I_FPP1S FPPAll
+prefer_VPRT MENTAL THATD
+windows_NN NNCONC
+based_VBN
+emulators_NN NNother
+since_IN INother
+they_TPP3P
+are_VPRT BEMA
+arguably_RB RBother
+better_JJPR JJPRother
+than_IN INother
+stuff_NN NNother
+like_LIKE
+android_NN NNother
+ports_NN NCOMP
+etc._ELAB
+._.
+Mame_NN NNP
+is_VPRT BEMA
+good_JJPR JJEVAL
+for_IN INother
+arcade_NN NNother
+stuff_NN NCOMP
+and_CC
+will_MDWS MDPREDAll
+fly_VB
+well_RB RBother
+for_IN INother
+most_JJAT EMPH
+stuff_NN NNother
+on_IN INother
+a_DT
+i3_NN NNother
+Get_VB
+yourself_SPP2
+a_DT
+good_JJAT JJEVAL
+frontend_NN NNother
+like_LIKE
+emulationstation_NN NOMZ
+and_CC
+you_SPP2
+will_MDWS MDPREDAll
+be_VB
+set_PASS PASSAll
+!_.
+Cant_NN NNother
+talk_NN NCOMP
+about_HDG
+much_QUAN
+more_QUAN
+than_IN INother
+that_DEMO
+on_IN INother
+this_DEMO
+forum_NN NNother
+tho_CONC
+I_FPP1S FPPAll
+am_VPRT BEMA
+afraid_JJPR JJATDother
+._.
+Fair_JJAT JJATother
+play_NN NNTECH
+,_,
+I_FPP1S FPPAll
+was_VBD
+n't_XX0 CONT
+sure_DMA
+what_WHSC WHSCother
+could_MDCO MDPOSSCAll
+and_CC
+could_MDCO MDPOSSCAll
+n't_XX0 CONT
+be_VB
+talked_PASS PASSAll COMM
+about_IN STPR
+!_.
+Hi_FPUH
+folks_NN NNother
+I_FPP1S FPPAll
+wondered_VBD MENTAL
+what_WHSC WHSCother
+the_DT
+best_JJAT EMPH
+software_NN NNTECH
+for_IN INother
+windows_NN NNCONC
+would_MDWO MDPREDAll
+be_VB BEMA
+for_IN INother
+retaining_VBG
+just_RB EMPH
+the_DT
+main_JJAT JJREL
+movie_NN NNCONC
+files_NN NCOMP
+from_IN INother
+a_DT
+bluray_NN NNother
+in_IN INother
+fully_AMP
+uncompressed_JJAT JJATother
+quality_NN NNABSPROC
+._.
+Basically_RB RBother
+I_FPP1S FPPAll
+'m_VPRT CONT
+looking_PROG
+to_IN INother
+try_VB ACT
+adding_VBG ACT
+all_QUAN
+my_FPP1S FPPAll
+full_JJAT JJATother
+blurays_NN NNother
+I_FPP1S FPPAll
+own_VPRT EXIST
+to_IN INother
+a_DT
+HDD_NN NNother
+near_PLACE
+my_FPP1S FPPAll
+TV_NN NNother
+for_IN INother
+uncompressed_JJAT JJATother
+playback_NN NNother
+._.
+I_FPP1S FPPAll
+would_MDWO MDPREDAll
+be_VB BEMA
+interested_JJPR JJPRother
+in_IN INother
+knowing_VBG MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+people_NN NNHUMAN
+use_VPRT ACT
+as_CC
+well_RB RBother
+._.
+I_FPP1S FPPAll
+Use_VPRT ACT
+Makemkv_NN NNP
+to_IN INother
+rip_VB
+the_DT
+movies_NN NNCONC
+from_IN INother
+the_DT
+disc_NN NNother
+and_CC
+copy_NN NNCONC
+just_RB EMPH
+the_DT
+main_JJAT JJREL
+movie_NN NNCONC
+with_IN INother
+no_XX0
+additional_JJAT JJREL
+compression_NN NNother
+,_,
+with_IN INother
+whatever_WHSC WHSCother
+audio_JJAT JJATother
+tracks_NN NNABSPROC
+I_FPP1S FPPAll
+like_VPRT MENTAL
+._.
+then_RB RBother
+I_FPP1S FPPAll
+use_VPRT ACT
+Handbrake_NN NNP
+to_IN INother
+squish_VB
+the_DT
+video_NN NNCONC
+down_IN INother
+a_DT
+bit_QUAN
+,_,
+usually_FREQ
+keeping_VBG ASPECT
+the_DT
+HD_NN NNother
+audio_NN NCOMP
+as_RB RBother
+is_VPRT BEMA
+occasionally_FREQ
+I_FPP1S FPPAll
+use_VPRT ACT
+MKV_NN NNP
+tool_NN NCOMP
+nix_NN NNP
+if_COND
+I_FPP1S FPPAll
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+add_VB ACT
+or_CC
+remove_VB
+any_QUAN
+tracks_NN NNABSPROC
+manually_RB RBother
+._.
+For_IN INother
+example_NN ELAB
+,_,
+handbrake_NN NNother
+does_VPRT ACT
+n't_XX0 CONT
+process_NN NNABSPROC
+Dolby_NN NNP
+True_JJAT JJEPSTother
+HD_NN NNother
+,_,
+so_SO
+you_SPP2
+have_MDNE
+to_IN INother
+take_VB ACT
+it_PIT
+from_IN INother
+the_DT
+makemkv_NN NNother
+rip_NN NCOMP
+and_CC
+add_VB ACT
+it_PIT
+into_IN INother
+the_DT
+handbrake_NN NNother
+conversion_NN NCOMP
+afterwards_TIME
+._.
+for_IN INother
+what_WHSC WHSCother
+the_DT
+OP_NN NNother
+wants_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+do_VB ACT
+,_,
+you_SPP2
+just_RB EMPH
+need_VPRT MENTAL
+makemkv_NN NNother
+,_,
+then_RB RBother
+play_VB ACT
+back_RB RBother
+with_IN INother
+XBMC_NN NNother
+/_HYPH
+Kodi_NN NNother
+=_SYM
+job_NN NNABSPROC
+done_VBN ACT
++1_CD
+for_IN INother
+Make_VIMP ACT
+MKV_NN NNP
+,_,
+looking_VBG
+at_IN INother
+anything_QUPR
+between_IN INother
+20_CD
+-_HYPH
+32_CD
+GB_NN NNother
+a_DT
+film_NN NNCONC
+._.
+Brilliant_JJAT JJATother
+folks_NN NNother
+thank_VPRT COMM POLITE
+you_SPP2
+-_HYPH
+sounds_VPRT EXIST
+like_LIKE
+excellent_JJAT JJATother
+software_NN NNTECH
+for_IN INother
+my_FPP1S FPPAll
+purpose_NN NNother
+!_.
+Does_VPRT DOAUX
+anyone_QUPR
+know_VB MENTAL
+if_COND
+the_DT
+new_JJAT JJTIME
+ruling_NN NNother
+saying_VBG COMM
+its_PIT
+now_TIME
+illegal_JJPR JJPRother
+again_FREQ
+to_IN INother
+rip_VB
+cd_NN NNother
+'s_POS
+you_SPP2
+own_VPRT EXIST
+,_,
+apply_VIMP ACT
+to_IN INother
+dvd_NN NNother
+'s_POS
+and_CC
+blu_NN NNother
+-_HYPH
+ray_NN NNTECH
+?_.
+Edit_NN NNother
+:_:
+Ok_DMA
+apparently_HDG
+it_PIT
+is_VPRT BEMA
+illegal_JJPR JJPRother
+http://www.bbc.co.uk/newsbeat/artic...egal-again-after-high-court-overturns-new-law_URL
+makemkv_NN NNother
+Well_DMA
+that_THRC THRCother
+would_MDWO MDPREDAll SPLIT
+technically_RB RSTNCAll RNONFACT
+make_VB ACT
+Apple_NN NNP
+law_NN NCOMP
+breakers_NN NNother
+as_IN INother
+they_TPP3P
+allow_VPRT CAUSE
+you_SPP2
+to_IN INother
+buy_VB ACT
+an_DT
+album_NN NNother
+on_IN INother
+itunes_NN NNother
+and_CC
+use_VB ACT
+it_PIT
+on_IN INother
+multiple_JJAT JJATother
+PC_NN NNother
+'s_POS
+._.
+No_XX0
+wonder_NN NNother
+so_EMPH
+many_QUAN
+people_NN NNHUMAN
+do_VPRT DOAUX
+not_XX0
+pay_VB ACT
+for_IN INother
+music_NN NNABSPROC
+and_CC
+movies_NN NNCONC
+anymore_RB RBother
+._.
+Quite_RB RBother
+simply_RB RBother
+,_,
+UK_NN NNP
+is_VPRT BEMA
+a_DT
+joke_NN NNother
+,_,
+the_DT
+music_NN NNABSPROC
+industry_NN NCOMP
+is_VPRT BEMA
+a_DT
+joke_NN NNother
+._.
+They_TPP3P
+milked_VBD
+us_FPP1P FPPAll
+on_IN INother
+album_NN NNother
+prices_NN NCOMP
+for_IN INother
+years_NN NNother
+and_CC
+the_DT
+industry_NN NNother
+blames_VPRT MENTAL
+piracy_NN NNother
+for_IN INother
+the_DT
+state_NN NNABSPROC
+the_DT
+industry_NN NNother
+is_VPRT BEMA
+in_IN INother
+,_,
+when_WHSC WHSCother
+in_IN INother
+fact_NN NSTNCother ELAB
+it_PIT
+is_VPRT BEMA
+governance_NN NNother
+,_,
+greed_NN NNother
+and_CC
+crap_NN NNother
+musicians_NN NCOMP
+._.
+Do_VB ACT
+n't_XX0 CONT
+Amazon_NN NNP
+do_VPRT ACT
+the_DT
+same_JJAT JJREL
+,_,
+buy_VIMP ACT
+a_DT
+cd_NN NNother
+get_VPRT
+a_DT
+ripped_VBN
+version_NN NNABSPROC
+on_IN INother
+their_TPP3P
+cloud_NN NNTECH
+as_CC
+well_RB RBother
+?_.
+They_TPP3P
+have_VPRT
+prior_JJAT JJATother
+agreement_NN NNABSPROC
+with_IN PrepNSTNC
+the_DT
+studios_NN NNother
+,_,
+so_SO
+are_VPRT
+not_XX0
+breaking_PROG
+the_DT
+law_NN NNABSPROC
+._.
+Its_PIT
+one_CD
+the_DT
+reasons_NN NSTNCother
+not_XX0
+all_QUAN
+cds_NN NNother
+purchased_VBD
+to_IN INother
+this_DEMO
+..._:
+._.
+Well_DMA
+its_PIT
+actually_DMA
+the_DT
+ironic_JJAT JJATother
+thing_NN NNother
+of_IN INother
+the_DT
+music_NN NNABSPROC
+industry_NN NCOMP
+brought_VBD ACT
+in_RP
+cd_NN NNother
+writers_NN NCOMP
+/_,
+dvd_NN NNother
+writers_NN NCOMP
+._.
+And_CC
+then_RB RBother
+moan_VB
+when_WHSC WHSCother
+people_NN NNHUMAN
+copy_VPRT
+them_TPP3P
+..._:
+Got_VBD
+to_IN INother
+laugh_VB
+i_FPP1S FPPAll
+use_VPRT ACT
+dvdfab_NN NNother
+and_CC
+set_VBD
+the_DT
+bitrate_NN NNother
+so_SO
+i_FPP1S FPPAll
+get_VPRT
+around_IN INother
+a_DT
+20gb_JJAT JJATother
+file_NN NNCONC
+(_-LRB-
+for_IN INother
+a_DT
+2_CD
+hr_NN NNother
+movie_NN NCOMP
+)_-RRB-
+-_HYPH
+i_FPP1S FPPAll
+honestly_RB RSTNCAll RNONFACT
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+tell_VB COMM
+the_DT
+difference_NN NNother
+between_IN INother
+this_DEMO
+and_CC
+the_DT
+original_JJAT JJREL
+._.
+what_WHQU
+'s_VPRT CONT BEMA
+the_DT
+best_JJAT EMPH
+programme_NN NNother
+for_IN INother
+converting_VBG
+an_DT
+burning_VBG ACT
+an_DT
+mkv_NN NNother
+to_IN INother
+dvd_NN NNother
+?_.
+Handbrake_NN NNP
+I_FPP1S FPPAll
+'ve_VPRT CONT
+found_PEAS
+is_VPRT BEMA
+good_JJAT JJEVAL
+Convertxtodvd_NN NNP
+._.
+But_CC
+do_VB DOAUX
+n't_XX0 CONT
+do_VB DOAUX
+this_DEMO
+,_,
+get_VIMP
+a_DT
+player_NN NNHUMAN
+that_THRC THRCother
+can_MDCA MDPOSSCAll
+handle_VB
+them_TPP3P
+._.
+Another_DT
+vote_NN NNother
+for_IN INother
+makemkv_NN NNother
+._.
+Lol_DMA
+,_,
+As_IN INother
+if_COND
+people_NN NNHUMAN
+are_VPRT
+going_GTO MDPREDAll
+to_IN INother
+take_VB ACT
+any_QUAN
+notice_NN NNCONC
+of_IN INother
+that_DEMO
+._.
+Imo_DMA
+,_,
+If_COND
+you_SPP2
+have_VPRT SPLIT
+legitimately_RB RBother
+bought_PEAS ACT
+a_DT
+copy_NN NNCONC
+._.
+._.
+whether_WHSC WHSCother
+it_PIT
+be_VB BEMA
+a_DT
+CD_NN NNother
+/_HYPH
+DVD_NN NNother
+/_HYPH
+Blu_NN NNother
+-_HYPH
+Ray_NN NNP
+etc._ELAB
+._.
+you_SPP2
+should_MDNE
+have_VB
+the_DT
+right_NN NNABSPROC
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+make_VB ACT
+a_DT
+backup_NN NNother
+copy_NN NCOMP
+for_IN INother
+personal_JJAT JJATother
+use_NN NNABSPROC
+._.
+._.
+they_TPP3P
+should_MDNE
+n't_XX0 CONT
+have_VB
+any_QUAN
+say_NN NNother
+in_IN INother
+it_PIT
+._.
+cheers_NN POLITE
+mate_NN NNother
+._.
+It_PIT
+'s_VPRT CONT
+so_SO
+my_FPP1S FPPAll
+son_NN NNHUMAN
+can_MDCA MDPOSSCAll
+have_VB
+dvd_NN NNother
+'s_POS
+without_IN INother
+mangling_VBG
+the_DT
+originals_NN NNother
+Yeah_DMA
+i_FPP1S FPPAll
+whole_JJPR JJPRother
+heartedly_RB RBother
+agree_VPRT MENTAL COMM
+with_IN INother
+you_SPP2
+on_IN INother
+that_DEMO
+one_NN NNother
+._.
+The_DT
+reason_NN NSTNCother
+I_FPP1S FPPAll
+rip_VPRT
+my_FPP1S FPPAll
+Blu_NN NNP
+Rays_NN NNP
+is_VPRT BEMA
+I_FPP1S FPPAll
+get_VPRT
+fed_PGET PASSAll
+up_IN INother
+of_IN INother
+watching_VBG ACT
+10_CD
+minutes_NN NNQUANT
+of_IN INother
+trailers_NN NNother
+and_CC
+anti_AFX
+piracy_NN NNother
+messages_NN NCOMP
+before_IN INother
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+watch_VB ACT
+the_DT
+film_NN NNCONC
+._.
+I_FPP1S FPPAll
+would_MDWO MDPREDAll
+recommend_VB COMM
+using_VBG ACT
+Video_NN NNCONC
+Redo_VB
+as_CC
+well_RB RBother
+to_IN INother
+edit_NN NNother
+out_IN INother
+any_QUAN
+intros_NN NNother
+,_,
+etc_ELAB
+that_THRC THRCother
+are_VPRT BEMA
+in_IN INother
+the_DT
+actual_JJAT JJATother
+movie_NN NNCONC
+._.
+It_PIT
+'s_VPRT CONT BEMA
+a_DT
+lossless_JJAT JJATother
+editor_NN NNother
+._.
+It_PIT
+'s_VPRT CONT BEMA
+illegal_JJPR JJPRother
+now_TIME
+under_IN INother
+new_JJAT JJTIME
+law_NN NNABSPROC
+._.
+http://www.bbc.co.uk/newsbeat/artic...egal-again-after-high-court-overturns-new-law_URL
+Damn_DMA
+Straight_RB RBother
+!!_.
+Really_RB EMPH
+annoys_VPRT
+me_FPP1S FPPAll
+having_MDNE
+to_IN INother
+sit_VB ACT
+through_IN INother
+ads_NN NNother
+and_CC
+anti_AFX
+piracy_NN NNother
+blurbs_NN NCOMP
+Granted_VBD THATD
+it_PIT
+'s_VPRT CONT BEMA
+on_IN INother
+a_DT
+Mac_NN NNP
+,_,
+but_CC
+I_FPP1S FPPAll
+use_VPRT ACT
+Make_VIMP ACT
+MKV_NN NNP
+to_IN INother
+rip_VB
+the_DT
+Blu_NN NNP
+Ray_NN NNP
+and_CC
+then_RB RBother
+Handbrake_NN NNP
+to_IN INother
+encode_VB
+it_PIT
+to_IN INother
+whatever_WHSC WHSCother
+format_NN NNABSPROC
+I_FPP1S FPPAll
+need_VPRT MENTAL
+(_-LRB-
+Apple_NN NNP
+TV3_NN NNP
+usually_FREQ
+)_-RRB-
+._.
+They_TPP3P
+both_QUAN
+work_NN NNABSPROC
+on_IN INother
+OSX_NN NNP
+and_CC
+Windows_NN NNP
+._.
+Hi_FPUH
+I_FPP1S FPPAll
+bought_VBD ACT
+some_QUAN
+bitcoinfrom_NN NNother
+Gemini_NN NNP
+(_-LRB-
+as_IN INother
+coinbase_NN NNother
+wo_MDWS MDPREDAll
+n't_XX0 CONT
+let_VIMP CAUSE
+me_FPP1S FPPAll
+)_-RRB-
+and_CC
+they_TPP3P
+charged_VBD
+me_FPP1S FPPAll
+almost_DWNT
+2_CD
+%_NN NNother
+._.
+If_COND
+I_FPP1S FPPAll
+choose_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+cash_VB
+out_RP
+I_FPP1S FPPAll
+am_VPRT BEMA
+worried_JJPR JJATDother
+they_TPP3P
+will_MDWS MDPREDAll
+do_VB ACT
+the_DT
+same_JJAT JJREL
+._.
+For_IN INother
+me_FPP1S FPPAll
+these_DEMO
+levels_NN NNABSPROC
+are_VPRT
+just_RB EMPH
+not_XX0
+worth_JJPR JJPRother
+it_PIT
+._.
+I_FPP1S FPPAll
+have_VPRT SPLIT
+now_TIME
+been_PEAS BEMA
+green_JJPR JJDESCAll JJCOLR
+lit_VBN
+on_IN INother
+Binance_NN NNP
+and_CC
+will_MDWS MDPREDAll
+use_VB ACT
+those_DEMO
+in_IN INother
+future_NN NNQUANT
+._.
+If_COND
+I_FPP1S FPPAll
+transfer_VPRT
+my_FPP1S FPPAll
+BTC_NN NNP
+balance_NN NCOMP
+from_IN INother
+Gemini_NN NNP
+to_IN INother
+Binance_NN NNP
+will_MDWS MDPREDAll
+that_DEMO
+be_VB BEMA
+more_QUAN
+cost_NN NNother
+effective_JJPR JJPRother
+than_IN INother
+just_RB EMPH
+selling_VBG ACT
+the_DT
+BTC_NN NNP
+on_IN INother
+Gemini_NN NNP
+?_. YNQU
+Thanks_NN POLITE
+Mike_NN NNP
+._.
+Currently_TIME
+£_$
+60_CD
+up_RB RBother
+but_CC
+£_$
+20_CD
+of_IN INother
+that_DEMO
+has_VPRT SPLIT
+already_TIME
+gone_PEAS
+to_IN INother
+Gemini_NN NNP
+._.
+I_FPP1S FPPAll
+do_VPRT SPLIT DOAUX
+n't_XX0 CONT
+really_RB EMPH
+want_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+give_VB ACT
+any_QUAN
+more_QUAN
+._.
+Ok_FPUH
+am_VPRT BEMA
+more_AMP
+happy_JJPR JJATDother
+with_IN INother
+Gemini_NN NNP
+now_TIME
+._.
+Turns_VPRT ACT
+out_RP
+it_PIT
+is_VPRT BEMA
+just_RB EMPH
+the_DT
+phone_NN NNCONC
+app_NN NCOMP
+which_WHSC WHSCother
+is_VPRT BEMA
+extortionate_JJPR JJPRother
+._.
+Cost_NN NNother
+me_FPP1S FPPAll
+£_$
+20_CD
+to_IN INother
+buy_VB ACT
+£_$
+1000_CD
+of_IN INother
+BTC_NN NNP
+on_IN INother
+phone_NN NNCONC
+app_NN NCOMP
+._.
+On_IN INother
+PC_NN NNother
+app_NN NCOMP
+I_FPP1S FPPAll
+just_RB EMPH
+put_VBD ACT
+in_IN INother
+a_DT
+price_NN NNother
+limit_NN NCOMP
+sell_NN NNother
+order_NN NCOMP
+for_IN INother
+the_DT
+whole_JJAT JJATother
+lot_NN NNQUANT
+(_-LRB-
+will_MDWS MDPREDAll
+be_VB BEMA
+just_RB EMPH
+over_IN INother
+1110_CD
+of_IN INother
+crypto_NN NNother
+if_COND
+it_PIT
+comes_VPRT ACT
+in_RP
+)_-RRB-
+cost_NN NNother
+of_IN INother
+£_$
+3.90_CD
+._.
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+live_VB EXIST
+with_IN INother
+that_DEMO
+fee_NN NNother
+._.
+Still_RB RBother
+a_DT
+ways_NN NNABSPROC
+off_RP
+however_CC
+I_FPP1S FPPAll
+think_VPRT MENTAL
+._.
+I_FPP1S FPPAll
+generally_FREQ
+found_VBD
+crypto_NN NNother
+exchanges_NN NCOMP
+fall_VPRT OCCUR
+into_IN INother
+one_CD
+of_IN INother
+3_CD
+categories_NN NNother
+:_:
+1_CD
+the_DT
+super_JJAT EMPH
+simple_JJAT JJATother
+ones_NN NNother
+that_THRC THRCother
+charge_VPRT
+an_DT
+absolute_JJAT JJATother
+fortune_NN NNother
+for_IN INother
+buying_NN NNother
+and_CC
+selling_NN NNother
+,_,
+like_LIKE
+Gemini_NN NNP
+basic_JJPR JJPRother
+and_CC
+Coinbase_NN NNother
+normal_JJPR JJPRother
+._.
+2_CD
+the_DT
+ones_NN NNother
+with_IN INother
+higher_JJAT JJATother
+trading_NN NNother
+fees_NN NCOMP
+but_CC
+lower_JJAT JJATother
+withdrawal_NN NNother
+fees_NN NCOMP
+,_,
+like_LIKE
+Gemini_NN NNP
+Active_JJAT JJATother
+trader_NN NNother
+and_CC
+Coinbase_NN NNother
+pro_JJAT JJATother
+3_CD
+the_DT
+ones_NN NNother
+with_IN INother
+lower_JJAT JJATother
+trading_NN NNother
+fees_NN NCOMP
+but_CC
+higher_JJAT JJATother
+withdrawal_NN NNother
+fees_NN NCOMP
+like_LIKE
+Binance_NN NNP
+and_CC
+FTX_NN NNP
+Do_VPRT SPLIT DOAUX
+n't_XX0 CONT
+ever_FREQ
+use_VB ACT
+1_CD
+._.
+2_CD
+is_VPRT BEMA
+good_JJPR JJEVAL
+for_IN INother
+me_FPP1S FPPAll
+as_IN INother
+I_FPP1S FPPAll
+just_RB EMPH
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+buy_VB ACT
+and_CC
+transfer_VB
+it_PIT
+to_IN INother
+a_DT
+cold_JJAT JJATother
+wallet_NN NNother
+for_IN INother
+hodling_NN NNother
+._.
+3_CD
+is_VPRT BEMA
+for_IN INother
+people_NN NNHUMAN
+who_WHSC WHSCother
+are_VPRT
+gon_GTO MDPREDAll
+na_IN INother
+be_VB
+trading_PROG
+frequently_FREQ
+._.
+Gemini_NN NNP
+??_.
+Never_FREQ
+heard_VBN MENTAL
+of_IN INother
+it_PIT
+._.
+Sounds_VPRT EXIST
+Dodgy_NN NNP
+._.
+Just_RB EMPH
+stick_VB
+to_IN INother
+Binance_NN NNP
+._.
+No_XX0
+need_NN NNCOG
+to_IN INother
+use_VB ACT
+Coinbase_NN NNP
+anymore_RB RBother
+._.
+Well_DMA
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+be_VB BEMA
+sure_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+weigh_VB
+your_SPP2
+opinion_NN NNCOG
+against_IN PrepNSTNC
+the_DT
+mountain_NN NNPLACE
+of_IN INother
+evidence_NN NNother
+that_THSC THSCother
+they_TPP3P
+'re_VPRT CONT BEMA
+straight_JJPR JJPRother
+._.
+Binance_NN NNother
+charges_NN NCOMP
+£_$
+20_CD
+for_IN INother
+a_DT
+BTC_NN NNP
+withdrawal_NN NCOMP
+before_IN INother
+network_NN NNABSPROC
+fee_NN NCOMP
+,_,
+Ether_NN NNother
+costs_NN NCOMP
+£_$
+10_CD
+._.
+Totally_AMP
+agree_VB MENTAL COMM
+._.
+A_DT
+while_NN NNother
+ago_TIME
+,_,
+I_FPP1S FPPAll
+tried_VBD ACT
+purchasing_VBG
+small_JJAT JJDESCAll JJSIZE
+amounts_NN NNQUANT
+of_IN INother
+BTC_NN NNP
+through_IN INother
+various_JJAT JJREL
+avenues_NN NNother
+and_CC
+came_VBD ACT
+up_RP
+with_IN INother
+the_DT
+following_VBG ACT
+:_:
+I_FPP1S FPPAll
+would_MDWO MDPREDAll
+have_VB
+loved_PEAS MENTAL
+to_IN INother
+use_VB ACT
+coinbase_NN NNother
+pro_AFX
+alas_FPUH
+they_TPP3P
+refused_VBD
+to_IN INother
+green_JJAT JJDESCAll JJCOLR
+light_NN NNTECH
+my_FPP1S FPPAll
+bank_NN NNGRP
+account_NN NCOMP
+when_WHSC WHSCother
+I_FPP1S FPPAll
+asked_VBD COMM
+them_TPP3P
+why_WHSC WHSCother
+they_TPP3P
+could_MDCO MDPOSSCAll
+not_XX0
+tell_VB COMM
+me_FPP1S FPPAll
+._.
+Hi_FPUH
+there_PLACE
+,_,
+I_FPP1S FPPAll
+am_VPRT
+building_PROG
+a_DT
+new_JJAT JJTIME
+PC_NN NNother
+with_IN INother
+either_CC
+a_DT
+5600x_NN NNother
+or_CC
+5900x_NN NNother
+,_,
+I_FPP1S FPPAll
+already_TIME
+have_VPRT
+a_DT
+3070_CD
+RTX_NN NNP
+..._:
+._.
+and_CC
+I_FPP1S FPPAll
+would_MDWO MDPREDAll
+love_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+go_VB
+for_IN INother
+a_DT
+White_NN NNP
+and_CC
+Black_NN NNP
+so_EMPH
+even_RB RBother
+considering_VBG MENTAL
+white_JJAT JJDESCAll JJCOLR
+cables_NN NNother
+if_COND
+that_DEMO
+is_VPRT BEMA
+possible_JJPR JJEPSTother
+?_.
+I_FPP1S FPPAll
+suspect_VPRT MENTAL THATD
+I_FPP1S FPPAll
+should_MDNE
+aim_VB
+for_IN INother
+a_DT
+850W_NN NNother
+PSU_NN NNP
+._.
+Is_VPRT BEMA
+this_DEMO
+one_CD
+a_DT
+good_JJAT JJEVAL
+choice_NN NNABSPROC
+then_RB RBother
+?_. YNQU
+https://www.overclockers.co.uk/cors...lar-power-supply-cp-9020188-uk-ca-253-cs.html_URL
+Thoughts_NN NSTNCother
+?_.
+Der8auer_NN NNother
+is_VPRT
+using_PROG ACT
+it_PIT
+in_IN INother
+his_TPP3S
+latest_JJAT JJATother
+video_NN NNCONC
+editing_NN NCOMP
+build_NN NNother
+._.
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+comment_VB
+on_IN INother
+the_DT
+quality_NN NNABSPROC
+of_IN INother
+it_PIT
+personally_RB RBother
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+afraid_JJPR JJATDother
+,_,
+but_CC
+I_FPP1S FPPAll
+doubt_VPRT MENTAL
+he_TPP3S
+would_MDWO MDPREDAll
+pick_VB ACT
+something_QUPR
+poor_JJAT JJEVAL
+quality_NN NNABSPROC
+._.
+He_TPP3S
+is_VPRT
+using_PROG ACT
+it_PIT
+“_``
+because_CUZ
+it_PIT
+’s_POS
+white_JJPR JJDESCAll JJCOLR
+”_''
+so_SO
+he_TPP3S
+may_MDMM MDPOSSCAll
+be_VB
+overlooking_PROG
+a_DT
+better_JJAT JJATother
+alternative_NN NNABSPROC
+,_,
+but_CC
+you_SPP2
+are_VPRT BEMA
+in_IN INother
+the_DT
+same_JJAT JJREL
+boat_NN NNCONC
+so_SO
+it_PIT
+seemed_VBD EXIST
+relevant_JJPR JJPRother
+._.
+When_WHSC WHSCother
+aesthetics_NN NNother
+are_VPRT BEMA
+of_IN INother
+considerable_JJAT JJATother
+importance_NN NNABSPROC
+you_SPP2
+just_RB EMPH
+have_MDNE
+to_IN INother
+go_VB
+with_IN INother
+the_DT
+best_JJAT EMPH
+of_IN INother
+what_WHSC WHSCother
+’s_POS
+available_JJPR JJPRother
+._.
+I_FPP1S FPPAll
+'m_VPRT CONT
+going_GTO MDPREDAll
+to_IN INother
+throw_VB ACT
+my_FPP1S FPPAll
+debate_NN NNABSPROC
+hat_NN NCOMP
+into_IN INother
+the_DT
+ring_NN NNCONC
+with_IN INother
+this_DEMO
+PSU_NN NNP
+:_:
+https://seasonic.com/prime-snow-silent_URL
+Asus_NN NNP
+do_VPRT ACT
+a_DT
+white_JJAT JJDESCAll JJCOLR
+one_NN NNother
+I_FPP1S FPPAll
+think_VPRT MENTAL
+,_,
+but_CC
+it_PIT
+'s_VPRT CONT BEMA
+hard_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+find_VB VFCTother
+,_,
+Tiny_JJAT JJATother
+Tom_NN NNP
+Logan_NN NNP
+used_VBD ACT
+it_PIT
+in_IN INother
+his_TPP3S
+all_QUAN
+white_JJAT JJDESCAll JJCOLR
+build_NN NNother
+This_DEMO
+has_VPRT
+white_JJAT JJDESCAll JJCOLR
+cables_NN NNother
+._.
+ASUS_NN NNP
+ROG_NN NNP
+STRIX_NN NNP
+850W_NN NCOMP
+WHITE_JJAT JJDESCAll JJCOLR
+EDITION_NN NOMZ
+80_CD
+PLUS_NN NNP
+GOLD_NN NNP
+MODULAR_NN NNP
+POWER_NN NNP
+SUPPLY_NN NNP
+https://www.asus.com/uk/Graphics-Cards-Accessories/ROG-STRIX-850G-WHITE/_URL
+Would_MDWO MDPREDAll SPLIT
+750W_RB RBother
+be_VB BEMA
+enough_JJPR JJPRother
+these_DEMO
+days_NN NNQUANT
+for_IN INother
+a_DT
+Ryzen_NN NNP
+5000_CD
+and_CC
+an_DT
+RTX_NN NNother
+3070_CD
+?_.
+aye_FPUH
+Nvidia_NN NNP
+suggests_VPRT COMM
+a_DT
+650_CD
+watter_NN NNother
+for_IN INother
+a_DT
+3070_CD
+FE_NN NNP
+so_SO
+the_DT
+answer_NN NNABSPROC
+would_MDWO MDPREDAll
+be_VB
+yes_DMA
+for_IN INother
+most_JJAT EMPH
+people_NN NNHUMAN
+._.
+Superflower_NN NNP
+Leadex_NN NNP
+._.
+The_DT
+only_JJAT JJATother
+issue_NN NNABSPROC
+with_IN INother
+the_DT
+Corsair_NN NNP
+is_VPRT
+that_THSC THSCother
+it_PIT
+does_VPRT DOAUX
+n't_XX0 CONT
+come_VB ACT
+with_IN INother
+white_JJAT JJDESCAll JJCOLR
+cables_NN NNother
+._.
+This_DEMO
+asus_NN NNother
+does_VPRT ACT
+so_SO
+to_IN INother
+my_FPP1S FPPAll
+mind_NN NNother
+it_PIT
+'s_VPRT CONT BEMA
+worth_JJPR JJPRother
+the_DT
+little_JJAT JJDESCAll JJSIZE
+extra_JJPR JJPRother
+..._NFP
+https://www.overclockers.co.uk/asus...plus-gold-modular-power-supply-ca-05l-as.html_URL
+It_PIT
+comes_VPRT ACT
+with_IN INother
+White_NN NNP
+braided_VBD
+cables_NN NNother
+._.
+The_DT
+RMx_NN NNother
+is_VPRT BEMA
+a_DT
+good_JJAT JJEVAL
+unit_NN NNTECH
+._.
+As_IN INother
+above_PLACE
+,_,
+RMx_NN NNother
+series_NN NCOMP
+are_VPRT
+supposed_PASS PASSAll MENTAL
+to_IN INother
+be_VB BEMA
+excellent_JJPR JJPRother
+._.
+The_DT
+750x_NN NNother
+comes_VPRT ACT
+in_IN INother
+white_JJPR JJDESCAll JJCOLR
+too_RB RBother
+,_,
+I_FPP1S FPPAll
+bought_VBD ACT
+that_DEMO
+before_IN INother
+this_DEMO
+whole_JJAT JJATother
+lockdown_NN NNother
+business_NN NCOMP
+for_IN INother
+£_$
+135_CD
+from_IN INother
+OCUK_NN NNP
+._.
+Very_AMP
+good_JJAT JJEVAL
+PSU_NN NNP
+,_,
+probably_HDG
+overkill_NN NNother
+but_CC
+too_RB RBother
+good_JJPR JJEVAL
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+refuse_VB
+at_IN INother
+that_DEMO
+price_NN NNother
+._.
+My_FPP1S FPPAll
+system_NN NNABSPROC
+with_IN INother
+X570_NN NNother
+and_CC
+a_DT
+5700XT_NN NNother
+have_VPRT
+been_PEAS BEMA
+very_AMP
+stable_JJPR JJPRother
+,_,
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+sure_JJPR JJEPSTother
+the_DT
+PSU_NN NNP
+has_VPRT
+contributed_PEAS
+to_IN INother
+that_DEMO
+._.
+As_IN INother
+pre_AFX
+the_DT
+title_NN NNother
+,_,
+what_WHSC WHSCother
+the_DT
+best_JJAT EMPH
+game_NN NNCONC
+on_IN INother
+ps4_NN NNother
+VR_NN NCOMP
+to_IN SPLIT
+just_RB EMPH
+make_VB ACT
+people_NN NNHUMAN
+jump_VB
+and_CC
+poo_VB
+pants_NN NNother
+Resident_NN NNP
+Evil_NN NNP
+7_CD
+._.
+/_NFP
+Thread_NN NNother
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+second_RB RBother
+that_RB RBother
+,_,
+always_FREQ
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+laugh_NN NNother
+at_IN INother
+people_NN NNHUMAN
+when_WHSC WHSCother
+they_TPP3P
+try_VPRT ACT
+it_PIT
+Thanks_NN POLITE
+guys_NN NNHUMAN
+yhat_VPRT
+looks_VPRT
+fantastic_JJPR JJPRother
+._.
+If_COND
+its_PIT
+still_RB RBother
+on_IN INother
+the_DT
+store_NN NNPLACE
+the_DT
+kitchen_NN NNother
+demo_NN NCOMP
+is_VPRT BEMA
+good_JJPR JJEVAL
+for_IN INother
+a_DT
+few_QUAN
+scares_NN NNother
+._.
+Not_XX0
+zombies_NN NNother
+specifically_RB RBother
+,_,
+but_CC
+the_DT
+on_IN INother
+-_HYPH
+rails_NN NNother
+shooter_NN NCOMP
+Until_IN INother
+Dawn_NN NNP
+:_:
+Rush_NN NNother
+of_IN INother
+Blood_NN NNother
+is_VPRT BEMA
+a_DT
+great_JJAT JJEVAL
+VR_NN NNother
+game_NN NCOMP
+to_IN INother
+get_VB
+people_NN NNHUMAN
+screaming_VBG
+and_CC
+falling_VBG OCCUR
+off_RP
+chairs_NN NNCONC
+My_FPP1S FPPAll
+Mrs_NN NNP
+soiled_VBD
+her_TPP3S
+pants_NN NNother
+doing_VBG ACT
+shark_NN NNother
+incounter_NN NCOMP
+on_IN INother
+vr_NN NNother
+worlds_NN NCOMP
+another_DT
+one_NN NNother
+for_IN INother
+resi_NN NNother
+7_CD
+I_FPP1S FPPAll
+found_VBD VFCTother
+my_FPP1S FPPAll
+3070_CD
+(_-LRB-
+mobile_NN NNother
+)_-RRB-
+memory_NN NNCOG
+was_VBD
+limited_PASS PASSAll
+by_IN INother
+MSI_NN NNP
+Afterburner_NN NNP
+._.
+I_FPP1S FPPAll
+found_VBD
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+the_DT
+new_JJAT JJTIME
+beta_NN NNother
+extends_VPRT ACT
+the_DT
+limit_NN NNother
+from_IN INother
++1500_CD
+to_IN INother
++2000_CD
+._.
+Testing_NN NNother
+on_IN INother
+Rig_NN NNother
+1_CD
+in_IN INother
+sig_NN NNother
+gets_VPRT
+me_FPP1S FPPAll
+to_IN INother
+1800_CD
+MHz_NN NNP
+,_,
+8800_CD
+Mhz_NN NNP
+in_IN INother
+AB_NN NNP
+/_HYPH
+2200_CD
+MHz_NN NNP
+in_IN INother
+GPU_NN NNP
+-_HYPH
+Z._NN NNP
+EDIT_NN NCOMP
+-_HYPH
+see_VB MENTAL
+more_QUAN
+details_NN NNABSPROC
+in_IN INother
+this_DEMO
+post_NN NNCONC
+below_IN INother
+-_HYPH
+https://www.overclockers.co.uk/foru...or-nvidia-3xxx-series.18927051/#post-34747618_URL
+Yeh_NN NNP
+but_CC
+have_VPRT
+you_SPP2
+checked_PEAS ACT
+benchmark_NN NNother
+scores_NN NCOMP
+are_VPRT
+actually_DMA
+rising_VBG OCCUR
+?_. YNQU
+Memory_NN NNCOG
+overclocking_VBG
+not_XX0
+what_WHSC WHSCother
+it_PIT
+used_VBD ACT
+to_IN INother
+be_VB
+._.
+You_SPP2
+wo_MDWS MDPREDAll
+n't_XX0 CONT
+see_VB MENTAL
+snow_NN NNCONC
+or_CC
+artifacts_NN NNCONC
+even_RB RBother
+at_IN INother
+high_JJAT JJATother
+clockspeeds_NN NNother
+but_CC
+you_SPP2
+are_VPRT SPLIT
+n't_XX0 CONT
+genuinely_RB RBother
+running_PROG ACT
+that_RB RBother
+fast_RB RBother
+._.
+It_PIT
+throttles_VPRT
+to_IN SPLIT
+not_XX0
+make_VB ACT
+errors_NN NNABSPROC
+and_CC
+likely_JJPR JJEPSTother
+you_SPP2
+are_VPRT SPLIT
+either_RB RBother
+not_XX0
+running_PROG ACT
+any_QUAN
+faster_RB RBother
+or_CC
+slightly_DWNT
+less_QUAN
+in_IN INother
+real_JJAT JJATother
+terms_NN NNQUANT
+._.
+My_FPP1S FPPAll
+VRAM_NN NNother
+taps_NN NCOMP
+out_RP
+around_HDG
++700_CD
+Mhz_NN NNP
+so_SO
+run_VB ACT
++600_CD
+Mhz_NN NNP
+ECC_NN NNP
+Memory_NN NNP
+What_WHSC WHSCother
+build_VPRT
+as_IN INother
+I_FPP1S FPPAll
+see_VPRT MENTAL
+no_XX0
+updates_NN NNother
+via_IN INother
+AB_NN NNP
+GUI_NN NNP
+(_-LRB-
+I_FPP1S FPPAll
+am_VPRT BEMA
+on_IN INother
+Betas_NN NNP
+)_-RRB-
+._.
+pointless_JJPR JJPRother
+for_IN INother
+me_FPP1S FPPAll
+,_,
+the_DT
+memory_NN NNCOG
+on_IN INother
+my_FPP1S FPPAll
+3090_CD
+will_MDWS MDPREDAll
+drop_VB
+off_RP
+at_IN INother
++400_CD
+mhz_NN NNother
+,_,
+if_COND
+I_FPP1S FPPAll
+tried_VBD ACT
++2000_CD
+mhz_NN NNother
+,_,
+the_DT
+performance_NN NNABSPROC
+would_MDWO MDPREDAll SPLIT
+probably_HDG
+be_VB
+like_LIKE
+a_DT
+gtx780_NN NNother
+If_COND
+the_DT
+manufactures_VPRT
+are_VPRT
+overclocking_PROG
+only_RB RBother
+by_IN INother
+a_DT
+small_JJAT JJDESCAll JJSIZE
+%_NN NNother
+that_THRC THRCother
+should_MDNE
+tell_VB COMM
+you_SPP2
+all_QUAN
+you_SPP2
+need_VPRT MENTAL
+to_IN INother
+no_DMA
+._.
+VRAM_NN NNP
+on_IN INother
+my_FPP1S FPPAll
+3070FE_NN NNother
+does_VPRT ACT
+n't_XX0 CONT
+clock_NN NNCONC
+much_QUAN
+at_IN INother
+all_QUAN
+anyhow_RB RBother
+-_HYPH
+beyond_RB RBother
+approx_NN NNother
+._.
++200_RB RBother
+IIRC_RB RBother
+applications_NN NNABSPROC
+using_VBG ACT
+3D_NN NNother
+just_RB EMPH
+start_VB ASPECT
+randomly_RB RBother
+closing_VBG
+and_CC
+/_HYPH
+or_CC
+driver_NN NNHUMAN
+TDR_NN NCOMP
+._.
+Given_VBN ACT
+the_DT
+temperatures_NN NNQUANT
+on_IN INother
+some_QUAN
+of_IN INother
+the_DT
+cards_NN NNCONC
+unless_COND
+you_SPP2
+redo_VPRT
+the_DT
+cooling_VBG
+it_PIT
+probably_HDG
+is_VPRT BEMA
+n't_XX0 CONT
+a_DT
+good_JJAT JJEVAL
+idea_NN NNCOG
+to_IN PrepNSTNC
+push_VB
+it_PIT
+too_RB RBother
+far_EMPH
+as_CC
+well_RB RBother
+._.
+Surprised_JJAT JJATDother
+people_NN NNHUMAN
+are_VPRT
+seeing_PROG MENTAL
+drop_NN NNCONC
+-_HYPH
+offs_NN NNother
+/_,
+crashes_NN NNother
+that_THRC THRCother
+low_JJPR JJPRother
+._.
+All_QUAN
+three_CD
+Ampere_NN NNP
+cards_NN NCOMP
+I_FPP1S FPPAll
+'ve_VPRT CONT
+done_PEAS ACT
+some_QUAN
+memory_NN NNCOG
+overclocking_VBG
+on_RP
+have_VB
+scaled_PEAS
+to_IN INother
+or_CC
+even_RB RBother
+above_IN INother
++1000_CD
+MHz_NN NNother
+set_VBN
+in_IN INother
+Afterburner_NN NNP
+._.
+Made_VBN ACT
+sure_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+check_VB ACT
+before_TIME
+/_,
+after_IN INother
+scores_NN NNCONC
+every_QUAN
+step_NN NNCONC
+of_IN INother
+the_DT
+way_NN NNABSPROC
+in_IN INother
+several_QUAN
+benchmarks_NN NNother
+to_IN INother
+avoid_VB
+regressions_NN NNother
+._.
+do_VPRT DOAUX
+they_TPP3P
+use_VB ACT
+better_JJAT JJATother
+ram_NN NNother
+on_IN INother
+the_DT
+laptop_NN NNother
+versions_NN NCOMP
+?_. YNQU
+the_DT
+desktop_NN NNother
+ones_NN NCOMP
+do_VPRT SPLIT DOAUX
+nt_RB RBother
+come_VB ACT
+close_RB RBother
+to_IN INother
+overclocking_VBG
+that_RB RBother
+far_PLACE
+._.
+Strange_JJPR JJPRother
+,_,
+my_FPP1S FPPAll
+3070FE_NN NNother
+is_VPRT
+running_PROG ACT
+at_IN INother
++1400_CD
+and_CC
+seems_VPRT EXIST
+to_IN ToSTNCAll ToVSTNCAll ToVPROB
+be_VB BEMA
+fine_JJPR JJEVAL
+at_IN INother
+63MH_NN NNother
+/_HYPH
+s._NN NNother
+I_FPP1S FPPAll
+only_RB RBother
+mine_FPP1S FPPAll
+on_IN INother
+it_PIT
+though_CONC
+._.
+Some_QUAN
+poor_JJAT JJEVAL
+sod_NN NNother
+getting_VBG
+a_DT
+second_JJAT JJATother
+hand_NN NNCONC
+3070_CD
+further_CC
+down_IN INother
+the_DT
+line_NN NNother
+that_THRC THRCother
+'s_VPRT CONT
+had_PEAS
+it_PIT
+'s_VPRT CONT
+balls_NN NNCONC
+hanging_PROG ACT
+off_IN INother
+it_PIT
+mining_NN NNother
+._.
+My_FPP1S FPPAll
+3080FE_NN NNother
+only_RB RBother
+manages_VPRT
++600_CD
+MHz_NN NNother
+._.
+Anything_QUPR
+higher_JJPR JJPRother
+than_IN INother
++620_CD
+MHz_NN NNother
+usually_FREQ
+results_VPRT
+in_IN INother
+an_DT
+instant_JJAT JJATother
+blackscreen_NN NNother
+._.
+I_FPP1S FPPAll
+thought_VBD MENTAL THATD
+it_PIT
+was_VBD
+supposed_PASS PASSAll MENTAL
+to_IN SPLIT
+simply_RB RBother
+degrade_VB
+performance_NN NNABSPROC
+when_WHSC WHSCother
+pushed_VBN
+too_RB RBother
+far_PLACE
+but_CC
+mine_FPP1S FPPAll
+must_MDNE
+be_VB BEMA
+the_DT
+exception_NN NOMZ
+Guru3D_NN NCOMP
+I_FPP1S FPPAll
+’m_VPRT
+wondering_PROG MENTAL POLITE
+if_COND
+they_TPP3P
+have_VPRT
+better_JJAT JJATother
+thermal_JJAT JJATother
+contact_NN NNABSPROC
+with_IN INother
+all_QUAN
+the_DT
+components_NN NNTECH
+due_IN INother
+to_IN INother
+lack_NN NNother
+of_IN INother
+space_NN NNCONC
+?_.
+I_FPP1S FPPAll
+repasted_VBD
+mine_FPP1S FPPAll
+and_CC
+the_DT
+contact_NN NNABSPROC
+points_NN NCOMP
+seem_VPRT EXIST
+to_IN ToSTNCAll ToVSTNCAll ToVPROB
+be_VB BEMA
+substantial_JJPR JJPRother
+and_CC
+generally_FREQ
+pretty_RB RBother
+good_JJPR JJEVAL
+._.
+I_FPP1S FPPAll
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+recognise_VB MENTAL
+all_QUAN
+the_DT
+components_NN NNTECH
+though_CONC
+._.
+I_FPP1S FPPAll
+’m_VPRT
+guessing_PROG MENTAL
+that_DEMO
++600_NN NNother
+on_IN INother
+a_DT
+3080_CD
+is_VPRT BEMA
+a_DT
+higher_JJAT JJATother
+speed_NN NNother
+than_IN INother
++600_NN NNother
+on_IN INother
+a_DT
+3070_CD
+though_CONC
+,_,
+right_DMA
+?_. YNQU
+eg_ELAB
+my_FPP1S FPPAll
+default_NN NNother
+is_VPRT BEMA
+7000_CD
+,_,
+so_EMPH
++1000_JJPR JJPRother
+gives_VPRT ACT
+8000_CD
+in_IN INother
+AB_NN NNP
+(_-LRB-
+2000_CD
+in_IN INother
+GPU_NN NNP
+-_HYPH
+Z_NN NNP
+)_-RRB-
+For_IN INother
+reference_NN NNother
+my_FPP1S FPPAll
+3080_CD
+FE_NN NNP
+is_VPRT BEMA
+happy_JJPR JJATDother
+at_IN INother
++1000_CD
+Mhz_NN NNP
+but_CC
+at_IN INother
++1050_CD
+MHz_NN NNother
+it_PIT
+will_MDWS MDPREDAll
+lose_VB ACT
+1_CD
+-_HYPH
+2_CD
+fps_NN NNother
+and_CC
+then_RB RBother
+after_IN INother
+that_DEMO
+it_PIT
+starts_VPRT ASPECT
+to_IN INother
+drop_VB
+off_RP
+loads_QUAN EMPH
+._.
+Thanks_NN POLITE
+for_IN INother
+pointing_VBG
+this_DEMO
+out_RP
+._.
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+confirm_VB MENTAL THATD
+I_FPP1S FPPAll
+get_VPRT
+performance_NN NNABSPROC
+increases_VPRT OCCUR
+all_QUAN
+the_DT
+way_NN NNABSPROC
+up_IN INother
+to_IN INother
++1800_CD
+MHz_NN NNother
+,_,
+at_IN INother
+which_WHSC WHSCother
+point_NN NNother
+Superposition_NN NCOMP
+crashes_VPRT
+near_PLACE
+the_DT
+end_NN NNABSPROC
+of_IN INother
+the_DT
+benchmark_NN NNother
+._.
++1750_CD
+produces_VPRT ACT
+the_DT
+occassional_JJAT JJATother
+geometry_NN NNother
+error_NN NCOMP
+(_-LRB-
+massive_JJAT JJATother
+spikes_NN NNother
+in_IN INother
+Unigine_NN NNP
+Heaven_NN NNP
+benchmark_NN NCOMP
+and_CC
+games_NN NNCONC
+)_-RRB-
++1700_NN NNother
+is_VPRT
+therefore_RB CUZ
+probably_HDG
+the_DT
+sweet_JJAT JJATother
+spot_NN NNCONC
+and_CC
+what_WHSC WHSCother
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+use_VB ACT
+for_IN INother
+mining_NN NNother
+._.
+Some_QUAN
+things_NN NNother
+to_IN INother
+point_VB
+out_RP
+,_,
+in_IN INother
+case_NN NNCONC
+others_NN NCOMP
+are_VPRT BEMA
+interested_JJPR JJPRother
+:_:
+1_CD
+)_-RRB-
+Testing_NN NNother
+was_VBD
+done_PASS PASSAll ACT
+with_IN INother
+the_DT
+GPU_NN NNP
+core_NN NCOMP
+at_IN INother
+fixed_VBN ACT
+very_AMP
+low_JJAT JJATother
+voltage_NN NNQUANT
+/_HYPH
+clocks_NN NNCONC
+(_-LRB-
+e.g._ELAB
+~_SYM
+650_CD
+mV_NN NNother
+/_SYM
+1100_CD
+MHz_NN NNother
+)_-RRB-
+._.
+This_DEMO
+is_VPRT
+to_IN INother
+allow_VB CAUSE
+plenty_QUAN
+of_IN INother
+thermal_JJPR JJPRother
+and_CC
+power_NN NNABSPROC
+headroom_NN NCOMP
+to_IN SPLIT
+truly_RB RBother
+see_VB MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+the_DT
+memory_NN NNCOG
+is_VPRT BEMA
+capable_JJPR JJPRother
+of_IN STPR
+._.
+2_CD
+)_-RRB-
+Performance_NN NNABSPROC
+increases_NN NCOMP
+are_VPRT BEMA
+tiny_JJPR JJPRother
+in_IN INother
+something_QUPR
+like_LIKE HDG
+Unigine_NN NNP
+Heaven_NN NNP
+(_-LRB-
+around_HDG
+0.5_CD
+%_NN NNother
+per_IN INother
+500_CD
+MHz_NN NNother
+)_-RRB-
+._.
+3_CD
+)_-RRB-
+For_IN INother
+games_NN NNCONC
+,_,
+I_FPP1S FPPAll
+plan_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+use_VB ACT
+the_DT
+opposite_JJAT JJATother
+setting_NN NNABSPROC
+-_HYPH
+namely_ELAB
+,_,
+max_NN NNother
+GPU_NN NNP
+clock_NN NCOMP
+and_CC
+limiting_VBG
+the_DT
+memory_NN NNCOG
+to_IN INother
+"_``
+only_RB RBother
+"_''
++1000_CD
+MHz_NN NNother
+._.
+For_IN INother
+me_FPP1S FPPAll
+,_,
+the_DT
+optimal_JJAT JJATother
+curve_NN NNABSPROC
+seems_VPRT EXIST
+to_IN ToSTNCAll ToVSTNCAll ToVPROB
+be_VB BEMA
++250_CD
+MHz_NN NNother
+at_IN INother
+the_DT
+low_JJAT JJATother
+end_NN NNABSPROC
+(_-LRB-
+600_CD
+mV_NN NNother
+)_-RRB-
+and_CC
+topping_VBG
+out_RP
+around_HDG
+1900_CD
+MHz_NN NNother
+at_IN INother
+the_DT
+high_JJAT JJATother
+end_NN NNABSPROC
+(_-LRB-
+1000_CD
+mV_NN NNother
+)_-RRB-
+._.
+Generall_NN NNP
+,_,
+the_DT
+GPU_NN NNP
+sits_VPRT ACT
+at_IN INother
+1650_CD
+MHz_NN NNother
+/_SYM
+775_CD
+mV_NN NNother
+,_,
+where_WHSC WHSCother
+it_PIT
+'s_VPRT CONT BEMA
+power_NN NNABSPROC
+-_HYPH
+limited_VBN
+,_,
+but_CC
+of_IN INother
+course_DMA RSTNCAll RFACT
+this_DEMO
+varies_VPRT EXIST
+on_IN INother
+the_DT
+game_NN NNCONC
+/_HYPH
+scene_NN NNABSPROC
+being_VBG
+rendered_PASS PASSAll
+._.

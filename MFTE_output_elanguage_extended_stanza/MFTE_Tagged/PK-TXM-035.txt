@@ -1,0 +1,3108 @@
+1/21/21_CD
+,_,
+2:30_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+Yes_DMA
+1/21/21_CD
+,_,
+2:31_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+I_FPP1S FPPAll
+'m_VPRT CONT
+trying_PROG ACT
+to_IN INother
+find_VB VFCTother
+a_DT
+way_NN NNABSPROC
+to_IN INother
+get_VB
+product_NN NNother
+approved_PGET PASSAll MENTAL
+since_IN INother
+nowadays_TIME
+it_PIT
+takes_VPRT ACT
+time_NN NNQUANT
+and_CC
+not_XX0
+easy_JJPR JJPRother
+becasue_IN INother
+so_EMPH
+many_QUAN
+people_NN NNHUMAN
+are_VPRT
+hitting_PROG
+sunny_JJAT JJATother
+ali_NN NNother
+and_CC
+team_NN NNother
+for_IN INother
+product_NN NNother
+approval_NN NCOMP
+if_COND
+1:1_CD
+session_NN NNABSPROC
+with_IN INother
+a_DT
+senior_JJAT JJATother
+and_CC
+sunny_JJAT JJATother
+ali_NN NNother
+it_PIT
+cost_VPRT
+$_$
+2800_CD
+depend_NN NNother
+on_IN INother
+your_SPP2
+income_NN NNother
+but_CC
+he_TPP3S
+'s_VPRT CONT
+going_GTO MDPREDAll
+to_IN INother
+change_VB OCCUR
+price_NN NNother
+and_CC
+2:2_CD
+person_NN NNHUMAN
+session_NN NCOMP
+soon_TIME
+1/21/21_CD
+,_,
+5:55_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Ohhh_FPUH
+wow_FPUH
+that_DEMO
+’s_VPRT BEMA
+a_DT
+lot_QUAN
+but_CC
+understandable_JJPR JJPRother
+._.
+Let_VIMP CAUSE
+me_FPP1S FPPAll
+know_VB MENTAL
+if_COND
+you_SPP2
+actually_DMA
+get_VPRT
+a_DT
+session_NN NNABSPROC
+with_IN INother
+him_TPP3S
+._.
+It_PIT
+will_MDWS MDPREDAll
+be_VB BEMA
+interesting_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+learn_VB MENTAL
+about_IN INother
+1/21/21_CD
+,_,
+6:09_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Sure_DMA
+._.
+I_FPP1S FPPAll
+'m_VPRT CONT
+finishing_PROG ASPECT
+my_FPP1S FPPAll
+research_NN NNABSPROC
+a_DT
+little_JJAT JJDESCAll JJSIZE
+more_QUAN
+on_IN INother
+it_PIT
+soon_TIME
+then_RB RBother
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+have_MDNE
+to_IN INother
+get_VB
+helium10_JJPR JJPRother
+with_IN INother
+proper_JJAT JJATother
+monthly_JJAT JJTIME
+subscription_NN NOMZ
+with_IN INother
+sharing_VBG ACT
+with_IN INother
+someone_QUPR
+otherwise_COND
+it_PIT
+'ll_MDWS MDPREDAll CONT
+be_VB BEMA
+expensive_JJPR JJPRother
+._.
+Because_CUZ
+helium10_NN NNother
+has_VPRT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+and_CC
+magnet²_NN NNother
+major_JJAT JJATother
+features_NN NNABSPROC
+1/21/21_CD
+,_,
+6:11_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Is_VPRT BEMA
+it_PIT
+better_JJPR JJPRother
+than_IN INother
+jungle_NN NNother
+scout_NN NCOMP
+?_. YNQU
+1/21/21_CD
+,_,
+6:15_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+Yes_DMA
+._.
+Jungle_NN NNother
+scout_NN NCOMP
+gives_VPRT ACT
+you_SPP2
+beta_NN NNother
+mode_NN NCOMP
+features_NN NNABSPROC
+and_CC
+mostly_RB RBother
+use_VPRT ACT
+to_IN INother
+search_VB
+ratings_NN NNother
+and_CC
+reviews_NN NNother
+._.
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+get_VB
+jungle_NN NNother
+scout_NN NCOMP
+it's_FPP1P FPPAll
+not_XX0
+that_RB RBother
+expensive_JJPR JJPRother
+since_IN INother
+jungle_NN NNother
+scout_NN NCOMP
+is_VPRT
+also_CC
+the_DT
+need_NN NNCOG
+for_IN INother
+this_DEMO
+business_NN NOMZ
+because_CUZ
+for_IN INother
+product_NN NNother
+approval_NN NCOMP
+sunny_JJAT JJATother
+Ali_NN NNP
+'s_POS
+team_NN NNother
+ask_VB COMM
+for_IN INother
+both_QUAN
+tool_NN NNCONC
+'s_POS
+data_NN NNTECH
+sheet_NN NCOMP
+._.
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+show_VB ACT
+you_SPP2
+when_WHSC WHSCother
+you_SPP2
+guys_NN NNHUMAN
+will_MDWS MDPREDAll
+come_VB ACT
+next_JJAT JJATother
+time_NN NNQUANT
+how_WHSC WHSCother
+._.
+1/21/21_CD
+,_,
+6:38_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+’m_VPRT BEMA
+familiar_JJPR JJPRother
+with_IN INother
+jungle_NN NNother
+scout_NN NCOMP
+but_CC
+you_SPP2
+can_MDCA MDPOSSCAll
+show_VB ACT
+me_FPP1S FPPAll
+Helium10_NN NNP
+I_FPP1S FPPAll
+’ve_VPRT SPLIT
+never_FREQ
+used_PEAS ACT
+that_DEMO
+before_TIME
+1/21/21_CD
+,_,
+6:39_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+Yes_DMA
+._.
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+save_VB ACT
+some_QUAN
+points_NN NNother
+to_IN INother
+show_VB ACT
+you_SPP2
+in_IN INother
+person_NN NNHUMAN
+and_CC
+in_IN INother
+case_NN NNCONC
+not_XX0
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+record_VB
+screen_NN NNCONC
+from_IN INother
+Saturday_NN NNP
+session_NN NCOMP
+with_IN INother
+friend_NN NNHUMAN
+that_THSC THSCother
+how_WHSC WHSCother
+I_FPP1S FPPAll
+'m_VPRT CONT
+doing_PROG ACT
+it_PIT
+._.
+1/21/21_CD
+,_,
+6:43_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Okay_DMA
+awesome_JJPR JJPRother
+!!_.
+1/21/21_CD
+,_,
+7:16_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Do_VPRT DOAUX
+you_SPP2
+have_VB
+gmail_NN NNP
+ID_NN NCOMP
+?_. YNQU
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+make_VB ACT
+a_DT
+quick_JJAT JJATother
+intro_NN NNother
+video_NN NCOMP
+for_IN INother
+helium10_NN NNother
+and_CC
+share_VB ACT
+with_IN INother
+you_SPP2
+on_IN INother
+drive_NN NNother
+1/21/21_CD
+,_,
+7:40_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Yes_DMA
+I_FPP1S FPPAll
+do_VPRT DOAUX
+:_:
+1/21/21_CD
+,_,
+7:40_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+I_FPP1S FPPAll
+'m_VPRT CONT
+recording_PROG
+with_IN INother
+loom_NN NNother
+and_CC
+send_VB ACT
+you_SPP2
+a_DT
+direct_JJAT JJREL
+link_NN NNABSPROC
+1/21/21_CD
+,_,
+7:41_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Sure_DMA
+,_,
+no_XX0
+rush_NN NNother
+whenever_WHSC WHSCother
+you_SPP2
+have_VPRT
+time_NN NNQUANT
+1/21/21_CD
+,_,
+8:09_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/21/21_CD
+,_,
+8:09_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+ignore_VB MENTAL
+noise_NN NNother
+behind_IN INother
+do_VPRT ACT
+n't_XX0 CONT
+where_WHSC WHSCother
+it_PIT
+came_VBD ACT
+from_IN STPR
+😝_.
+1/21/21_CD
+,_,
+8:12_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+here_PLACE
+'s_VPRT CONT BEMA
+the_DT
+pricing_NN NNother
+and_CC
+features_NN NNABSPROC
+within_IN INother
+1/21/21_CD
+,_,
+8:25_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_EMO
+$_$
+97_CD
+monthly_RB RBother
+is_VPRT BEMA
+only_RB RBother
+worth_JJPR JJPRother
+it_PIT
+if_COND
+you_SPP2
+’re_VPRT
+making_PROG ACT
+profit_NN NNABSPROC
+or_CC
+know_VPRT MENTAL
+exactly_RB RBother
+what_WHSC WHSCother
+you_SPP2
+’re_VPRT
+doing_PROG ACT
+1/21/21_CD
+,_,
+8:25_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Right_DMA
+now_TIME
+just_RB EMPH
+fry_VPRT
+free_JJAT JJATother
+trails_NN NNother
+to_IN INother
+learn_VB MENTAL
+and_CC
+study_VB MENTAL
+trends_NN NNother
+1/21/21_CD
+,_,
+8:27_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+’m_VPRT
+going_GTO MDPREDAll
+to_IN INother
+watch_VB ACT
+your_SPP2
+video_NN NNCONC
+tomorrow_TIME
+when_WHSC WHSCother
+I_FPP1S FPPAll
+’m_VPRT
+logged_PASS PASSAll
+into_IN INother
+work_NN NNABSPROC
+._.
+Right_RB RBother
+now_TIME
+I_FPP1S FPPAll
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+have_VB
+the_DT
+brain_NN NNCONC
+capacity_NN NCOMP
+to_IN INother
+pay_VB ACT
+attention_NN NNCOG
+😂_EMO
+1/21/21_CD
+,_,
+8:29_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Yes_DMA
+sure_FPUH
+take_VB ACT
+your_SPP2
+time_NN NNQUANT
+I_FPP1S FPPAll
+know_VPRT MENTAL THATD
+it_PIT
+'ll_MDWS MDPREDAll CONT
+puzzle_VB
+you_SPP2
+at_IN INother
+first_RB RBother
+so_SO
+happened_VBN OCCUR
+with_IN INother
+me_FPP1S FPPAll
+but_CC
+i'm_VB CONT BEMA
+addicted_JJPR JJPRother
+to_IN INother
+hunting_NN NNother
+now_TIME
+like_FPUH
+crazy_JJPR JJPRother
+to_IN INother
+go_VB
+in_IN INother
+deep_RB RBother
+1/21/21_CD
+,_,
+8:31_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+I_FPP1S FPPAll
+'m_VPRT CONT
+using_PROG ACT
+free_JJAT JJATother
+version_NN NNABSPROC
+and_CC
+it'll_MDWS MDPREDAll CONT
+end_VB ASPECT
+soon_TIME
+only_RB RBother
+less_QUAN
+than_IN INother
+a_DT
+month_NN NNQUANT
+left_VBN ACT
+and_CC
+some_QUAN
+points_NN NNother
+whichever_WHSC WHSCother
+comes_VPRT ACT
+first🤑_EMO
+🚬_.
+1/21/21_CD
+,_,
+8:33_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Haha_FPUH
+okay_FPUH
+👍🏽_.
+1/22/21_CD
+,_,
+8:01_CD
+AM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+I_FPP1S FPPAll
+contacted_VBD
+multiple_JJAT JJATother
+authentic_JJAT JJATother
+tools_NN NNCONC
+suppliers_NN NCOMP
+from_IN INother
+Pakistan_NN NNP
+India_NN NNP
+bangladesh_NN NNP
+and_CC
+malaysia_NN NNP
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+see_VB MENTAL
+where_WHSC WhVSTNCAll WhVFCT
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+get_VB
+affordable_JJAT JJATother
+price_NN NNother
+for_IN INother
+helium10_NN NNother
+and_CC
+jungle_NN NNother
+scout_NN NCOMP
+._.
+1/22/21_CD
+,_,
+8:18_CD
+AM_NN NNother
+-$A_NN NNother
+:_:
+1/22/21_CD
+,_,
+10:17_CD
+AM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Okay_DMA
+awesome_JJPR JJPRother
+1/22/21_CD
+,_,
+10:17_CD
+AM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+You_SPP2
+’ll_MDother
+get_VB
+leads_NN NNTECH
+soon_TIME
+1/22/21_CD
+,_,
+10:17_CD
+AM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+I_FPP1S FPPAll
+got_VBD
+one_CD
+1/22/21_CD
+,_,
+10:19_CD
+AM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+1/22/21_CD
+,_,
+10:29_CD
+AM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+from_IN INother
+most_RB EMPH
+authentic_JJAT JJATother
+tools_NN NNCONC
+provider_NN NCOMP
+from_IN INother
+sunny_JJAT JJATother
+ali_NN NNP
+and_CC
+approved_VBN MENTAL
+1/22/21_CD
+,_,
+11:04_CD
+AM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Wow_FPUH
+1/22/21_CD
+,_,
+2:40_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+’m_VPRT
+getting_PROG
+ads_NN NNother
+on_IN INother
+Instagram_NN NNP
+for_IN INother
+Helium10_NN NNP
+LOL_DMA
+1/22/21_CD
+,_,
+2:41_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+yes_DMA
+since_IN INother
+you_SPP2
+clicked_VBD
+on_IN INother
+link_NN NNABSPROC
+from_IN INother
+last_JJAT JJATother
+night_NN NNother
+1/22/21_CD
+,_,
+3:01_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Lol_DMA
+should_MDNE
+have_VB
+used_PEAS ACT
+vpn_NN NNother
+1/22/21_CD
+,_,
+3:03_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+yes_DMA
+but_CC
+SORRY_JJPR POLITE
+its_PIT
+too_RB RBother
+late_JJAT JJTIME
+hahahahWWWW_NN NNother
+1/22/21_CD
+,_,
+3:09_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+😂_EMO
+🥴_EMO
+1/22/21_CD
+,_,
+3:24_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+I_FPP1S FPPAll
+just_RB EMPH
+finished_VBD ASPECT
+understanding_NN NNCOG
+listing_NN NCOMP
+&_CC
+optimization_NN NOMZ
+for_IN INother
+seller_NN NNother
+account_NN NCOMP
+today_TIME
+1/22/21_CD
+,_,
+3:32_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+You_SPP2
+’re_VPRT BEMA
+so_EMPH
+quick_JJPR JJPRother
+1/22/21_CD
+,_,
+3:33_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+like_LIKE
+trying_VBG ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+be_VB
+Elon_NN NNP
+Musk_NN NNP
+of_IN INother
+Amazon_NN NNP
+FBA_NN NNP
+but_CC
+my_FPP1S FPPAll
+daughter_NN NNHUMAN
+name_NN NCOMP
+is_VPRT
+no_XX0
+lX2_NN NNother
+!II_.
+1/22/21_CD
+,_,
+3:34_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+tell_VB COMM
+some_QUAN
+key_JJAT JJATother
+core_NN NNother
+points_NN NCOMP
+about_IN INother
+listings_NN NNother
+1/22/21_CD
+,_,
+3:34_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Hahahaha_FPUH
+1/22/21_CD
+,_,
+3:36_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+you_SPP2
+know_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVMNTL
+boost_VB
+up_RP
+a_DT
+product_NN NNother
+Ad_NN NCOMP
+look_NN NNCOG
+,_,
+we_FPP1P FPPAll
+need_VPRT MENTAL
+a_DT
+person_NN NNHUMAN
+knows_VPRT MENTAL
+HTML_NN NNP
+well_DMA
+and_CC
+my_FPP1S FPPAll
+firend_NN NNother
+$_$
+S3P2_CD
+who_WHSC WHSCother
+'s_VPRT CONT BEMA
+ready_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+work_VB ACT
+with_IN INother
+me_FPP1S FPPAll
+on_IN INother
+account_NN NNABSPROC
+he_TPP3S
+'s_VPRT CONT
+HTML_NN NNP
+guy_NN NCOMP
+._.
+1/22/21_CD
+,_,
+3:38_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+You_SPP2
+have_VPRT
+everyone_QUPR
+in_IN INother
+your_SPP2
+hands_NN NNCONC
+🙌🏽_.
+1/22/21_CD
+,_,
+3:39_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+be_VB BEMA
+an_DT
+investor_NN NNHUMAN
+$_$
+A_SYM
+that_DEMO
+is_VPRT
+what_WHSC WHSCother
+I_FPP1S FPPAll
+have_MDNE
+to_IN INother
+offer_VB COMM
+at_IN INother
+this_DEMO
+time_NN NNQUANT
+😂_EMO
+1/22/21_CD
+,_,
+3:41_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+I_FPP1S FPPAll
+knew_VBD MENTAL
+already_TIME
+you_SPP2
+'re_VPRT CONT
+going_GTO MDPREDAll
+to_IN INother
+offer_VB COMM
+this_DEMO
+and_CC
+I_FPP1S FPPAll
+'m_VPRT CONT
+making_PROG ACT
+a_DT
+proper_JJAT JJATother
+plan_NN NNABSPROC
+with_IN PrepNSTNC
+some_QUAN
+calculations_NN NNCOG
+and_CC
+graphs_NN NNTECH
+all_QUAN
+you_SPP2
+'ll_MDWS MDPREDAll CONT
+have_MDNE
+to_IN INother
+do_VB ACT
+is_VPRT SPLIT
+just_RB EMPH
+look_VB
+at_IN INother
+plan_NN NSTNCother
+then_RB RBother
+tell_VB COMM
+me_FPP1S FPPAll
+what_WHSC WHSCother
+you_SPP2
+think_VPRT MENTAL
+and_CC
+discuss_VB COMM
+with_IN INother
+$_$
+S3P3_CD
+if_COND
+this_DEMO
+is_VPRT BEMA
+not_XX0
+confidential_JJAT JJATother
+investment_NN NOMZ
+lol_DMA
+🤣_.
+after_IN INother
+that_DEMO
+investor_NN NNHUMAN
+only_RB RBother
+will_MDWS MDPREDAll
+have_MDNE
+to_IN INother
+sit_VB ACT
+and_CC
+chill_VB
+with_IN INother
+coffee_NN NNother
+all_QUAN
+the_DT
+work_NN NNABSPROC
+will_MDWS MDPREDAll
+be_VB
+done_PASS PASSAll ACT
+under_IN INother
+my_FPP1S FPPAll
+lead_NN NNTECH
+with_IN INother
+my_FPP1S FPPAll
+team_NN NNother
+of_IN INother
+$_$
+S3P2_CD
+my_FPP1S FPPAll
+loyal_JJAT JJATother
+friend_NN NNHUMAN
+and_CC
+another_DT
+person_NN NNHUMAN
+who_WHSC WHSCother
+just_RB EMPH
+went_VBD
+to_IN INother
+Lahore_NN NNP
+for_IN INother
+Ecommerce_NN NNP
+meeting_NN NCOMP
+today_TIME
+._.
+1/22/21_CD
+,_,
+3:42_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+Tomorrow_TIME
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+buy_VB ACT
+tools_NN NNCONC
+since_IN INother
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+not_XX0
+worried_JJPR JJATDother
+about_IN INother
+tools_NN NNCONC
+payment_NN NCOMP
+at_IN INother
+the_DT
+moment_NN NNQUANT
+but_CC
+to_IN INother
+bring_VB ACT
+Products_NN NNother
+that_THRC THRCother
+can_MDCA MDPOSSCAll
+run_VB ACT
+for_IN INother
+more_QUAN
+than_IN INother
+a_DT
+year_NN NNother
+in_IN INother
+market_NN NNPLACE
+1/22/21_CD
+,_,
+3:43_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+and_CC
+my_FPP1S FPPAll
+plan_NN NSTNCother
+is_VPRT
+to_IN INother
+invest_VB
+minimum_NN NNother
+at_IN INother
+the_DT
+time_NN NNQUANT
+and_CC
+i'll_RB CONT
+explain_VB COMM
+reason_NN NNCOG
+behind_IN PrepNSTNC
+this_DEMO
+._.
+it_PIT
+'s_VPRT CONT BEMA
+a_DT
+chemistry_NN NNother
+for_IN INother
+traffic_NN NNother
+of_IN INother
+customers_NN NNHUMAN
+1/22/21_CD
+,_,
+4:03_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_EMO
+$_$
+A_CD
+I_FPP1S FPPAll
+am_VPRT BEMA
+confident_JJPR JJEPSTother
+in_IN INother
+your_SPP2
+ability_NN NNCOG
+to_IN INother
+produce_VB ACT
+something_QUPR
+worthwhile_JJPR JJPRother
+1/22/21_CD
+,_,
+4:05_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+Thanks_NN POLITE
+._.
+My_FPP1S FPPAll
+dad_NN NNother
+is_VPRT
+going_GTO MDPREDAll
+to_IN INother
+invest_VB
+to_IN INother
+that_DEMO
+'s_VPRT CONT
+why_WHSC WHSCother
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+have_MDNE
+to_IN INother
+register_VB
+llc_NN NNother
+as_CC
+well_RB RBother
+and_CC
+for_IN INother
+that_THSC THSCother
+I_FPP1S FPPAll
+'ve_VPRT CONT
+choose_PEAS MENTAL
+some_QUAN
+names_NN NNABSPROC
+and_CC
+one_PRPother
+will_MDWS MDPREDAll
+be_VB BEMA
+the_DT
+name_NN NNABSPROC
+of_IN INother
+llc_NN NNother
+to_IN INother
+run_VB ACT
+on_IN INother
+Amazon_NN NNP
+Like_LIKE
+of_IN INother
+my_FPP1S FPPAll
+favorite_JJAT JJATother
+name_NN NNABSPROC
+is_VPRT BEMA
+for_IN INother
+now_TIME
+"_``
+DotCare_NN NNP
+"_''
+which_WHSC WHSCother
+impacts_VPRT
+customer_NN NNHUMAN
+'s_POS
+satisfaction_NN NOMZ
+to_IN INother
+take_VB ACT
+care_NN NNABSPROC
+of_IN INother
+each_QUAN
+dot_NN NNCONC
+items_NN NCOMP
+1/22/21_CD
+,_,
+4:07_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+like_VPRT MENTAL
+the_DT
+name_NN NNABSPROC
+1/22/21_CD
+,_,
+4:59_CD
+PM_NN NNother
+-$_NN NNother
+A_NN NNother
+:_:
+😎_EMO
+1/22/21_CD
+,_,
+5:52_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/22/21_CD
+,_,
+5:59_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Definitely_RB RSTNCAll RFACT
+you_SPP2
+’re_VPRT
+getting_PROG
+a_DT
+better_JJAT JJATother
+deal_NN NNABSPROC
+from_IN INother
+Pakistan_NN NNP
+1/22/21_CD
+,_,
+5:59_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+Yes_DMA
+._.
+1/22/21_CD
+,_,
+6:00_CD
+PM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+Getting_VBG
+product_NN NNother
+approved_PGET PASSAll MENTAL
+was_VBD BEMA
+in_IN INother
+BC_NN NNP
+Boot_NN NNP
+Camp_NN NNP
+which_WHSC WHSCother
+they_TPP3P
+closed_VBD
+but_CC
+they_TPP3P
+let_VBD CAUSE
+others_NN NNother
+from_IN INother
+last_JJAT JJATother
+batch_NN NNother
+to_IN INother
+guide_VB
+people_NN NNHUMAN
+for_IN INother
+product_NN NNother
+approval_NN NCOMP
+and_CC
+next_JJAT JJATother
+target_NN NNCONC
+🎯_EMO
+is_VPRT
+to_IN INother
+get_VB
+that_DEMO
+boot_NN NNother
+camp_NN NCOMP
+senior_JJAT JJATother
+seller_NN NNother
+1/22/21_CD
+,_,
+6:04_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Nice_JJPR JJEVAL
+👍🏽_EMO
+1/23/21_CD
+,_,
+6:57_CD
+AM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+I_FPP1S FPPAll
+purchased_VBD
+the_DT
+tools_NN NNCONC
+extension_NN NCOMP
+for_IN INother
+me_FPP1S FPPAll
+and_CC
+my_FPP1S FPPAll
+friend_NN NNHUMAN
+in_IN INother
+pakistan_NN NNP
+._.
+1/23/21_CD
+,_,
+7:27_CD
+AM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+just_RB EMPH
+Got_VBD
+my_FPP1S FPPAll
+tools_NN NNCONC
+😎🚬_.
+1/23/21_CD
+,_,
+8:15_CD
+AM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+I_FPP1S FPPAll
+got_VBD
+premium_NN NNother
+and_CC
+friend_NN NNHUMAN
+i_FPP1S FPPAll
+got_VBD
+basic_JJPR JJPRother
+for_IN INother
+now_TIME
+until_IN INother
+he_TPP3S
+gets_VPRT
+his_TPP3S
+first_JJAT JJATother
+client_NN NNHUMAN
+for_IN INother
+test_NN NNABSPROC
+._.
+1/23/21_CD
+,_,
+8:15_CD
+AM_NN NNother
+-$_NN NNother
+A_NN NNother
+:_:
+Premium_JJAT JJATother
+Package_NN NNCONC
+•_NFP
+AMZScout_NN NNother
+Web_NN NCOMP
++_SYM
+Extension_NN NNother
+•_NFP
+Helium_NN NNother
+10_CD
+Diamond_NN NNother
+/_,
+Platinum_NN NNother
++_SYM
+Extension_NN NNother
+•_NFP
+Viral_NN NNP
+Launch_NN NNP
+Pro_NN NNP
++_SYM
+Chrome_NN NNother
+Extension_NN NCOMP
+•_NFP
+Merchant_NN NNP
+Word_NN NNP
+Pro_NN NNP
+(_-LRB-
+GLOBAL_NN NNP
+)_-RRB-
+•_SYM
+Scan_NN NNP
+Unlimited_NN NNP
+Pro_NN NNP
+•_SYM
+Egrow_NN NNP
+Plus_CC
+•_NFP
+Keepa_NN NNP
+Pro_NN NNP
+•_NFP
+Grammarly_NN NNP
+Premium_JJAT JJATother
+Pro_NN NNP
+•_NFP
+Helium_NN NNP
+10_CD
+Official_JJAT JJTOPIC
+Course_NN NNother
+-_HYPH
+Freedom_NN NNABSPROC
+Ticket_NN NCOMP
+(_-LRB-
+worth_JJAT JJATother
+997_CD
+$_$
+)_-RRB-
+-_,
+Hot_JJPR JJPRother
+selling_VBG ACT
+Course_NN NNother
+Customer_NN NNHUMAN
+Support_NN NCOMP
+–_:
+24/7_CD
+Tools_NN NNCONC
+Usage_NN NCOMP
+1/23/21_CD
+,_,
+8:16_CD
+AM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Jungle_NN NNP
+will_MDWS MDPREDAll
+come_VB ACT
+in_IN INother
+a_DT
+week_NN NNQUANT
+1/23/21_CD
+,_,
+8:43_CD
+AM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Awesome_JJPR JJPRother
+!_.
+1/23/21_CD
+,_,
+12:08_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Watched_VBN ACT
+your_SPP2
+video_NN NNCONC
+._.
+Great_JJAT JJEVAL
+introduction_NN NOMZ
+1/23/21_CD
+,_,
+12:08_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Now_TIME
+i_FPP1S FPPAll
+have_VPRT
+full_JJAT JJATother
+access_NN NNother
+to_IN INother
+so_EMPH
+many_QUAN
+tools_NN NNCONC
+now_TIME
+i_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+do_VB ACT
+all_QUAN
+kind_NN NNABSPROC
+of_IN INother
+advance_NN NNother
+research_NN NCOMP
+1/23/21_CD
+,_,
+12:32_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+That_DEMO
+’s_VPRT BEMA
+great_JJPR JJEVAL
+🙌🏽_.
+1/23/21_CD
+,_,
+3:52_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/23/21_CD
+,_,
+3:52_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/23/21_CD
+,_,
+3:52_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/23/21_CD
+,_,
+3:52_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/23/21_CD
+,_,
+5:14_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Will_MDWS MDPREDAll
+look_VB
+at_IN INother
+this_DEMO
+tonight_TIME
+1/23/21_CD
+,_,
+7:40_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+There_EX
+are_VPRT
+still_RB RBother
+so_EMPH
+many_QUAN
+hours_NN NNQUANT
+of_IN INother
+hands_NN NNCONC
+on_IN INother
+training_NN NNABSPROC
+I_FPP1S FPPAll
+need_VPRT MENTAL
+but_CC
+taking_VBG ACT
+care_NN NNABSPROC
+of_IN INother
+home_NN NNGRP
+and_CC
+$_$
+S3P4_CD
+minus_IN INother
+my_FPP1S FPPAll
+hours_NN NNQUANT
+which_WHSC WHSCother
+is_VPRT
+also_CC
+good_JJAT JJEVAL
+thing_NN NNother
+as_IN INother
+family_NN NNHUMAN
+but_CC
+since_IN INother
+I_FPP1S FPPAll
+got_VBD
+tools_NN NNCONC
+now_TIME
+my_FPP1S FPPAll
+way_NN NNABSPROC
+is_VPRT
+getting_PROG
+clear_JJPR JJEPSTother
+1/23/21_CD
+,_,
+8:11_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Yeah_DMA
+I_FPP1S FPPAll
+understand_VPRT MENTAL
+._.
+It_PIT
+’s_VPRT BEMA
+hard_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+do_VB ACT
+both_QUAN
+but_CC
+keep_VB ASPECT
+steady_JJPR JJPRother
+with_IN INother
+it_PIT
+1/23/21_CD
+,_,
+8:12_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Sure_FPUH
+,_,
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+create_VB
+a_DT
+list_NN NNTECH
+in_IN INother
+the_DT
+morning_NN NNQUANT
+and_CC
+share_VB ACT
+with_IN INother
+you_SPP2
+to_IN INother
+make_VB ACT
+your_SPP2
+product_NN NNother
+hunt_VB
+more_QUAN
+organic_NN NNother
+1/23/21_CD
+,_,
+8:55_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Yay_FPUH
+!_.
+Sounds_VPRT EXIST
+great_JJPR JJEVAL
+1/24/21_CD
+,_,
+4:07_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+’m_VPRT
+going_GTO MDPREDAll
+to_IN INother
+sit_VB ACT
+down_RP
+and_CC
+gather_VB VLIKother
+some_QUAN
+notes_NN NNCONC
+on_IN INother
+things_NN NNother
+you_SPP2
+mentioned_VBD COMM
+1/24/21_CD
+,_,
+4:08_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+Aaaaaaaaaaaaaaaaaaaa_FPUH
+😱_EMO
+you_SPP2
+reminded_VBD MENTAL
+me_FPP1S FPPAll
+well_DMA
+._.
+I_FPP1S FPPAll
+forgot_VBD MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVMNTL
+create_VB
+major_JJAT JJATother
+steps_NN NNCONC
+what_WHSC WHSCother
+to_IN INother
+calculate_VB MENTAL
+for_IN INother
+product_NN NNother
+hunting_NN NCOMP
+._.
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+make_VB ACT
+one_CD
+quick_RB RBother
+and_CC
+send_VB ACT
+you_SPP2
+shortly_TIME
+1/24/21_CD
+,_,
+4:10_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+No_XX0
+worries_NN NNother
+,_,
+whenever_WHSC WHSCother
+you_SPP2
+get_VPRT
+a_DT
+chance_NN NNother
+1/24/21_CD
+,_,
+4:10_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+am_VPRT
+starting_PROG ASPECT
+from_IN INother
+the_DT
+beginning_NN NNABSPROC
+once_TIME
+again_FREQ
+1/24/21_CD
+,_,
+4:10_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+Good_JJAT JJEVAL
+step_NN NNCONC
+1/24/21_CD
+,_,
+4:10_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+experiment_VB
+for_IN INother
+fun_NN NNABSPROC
+,_,
+once_TIME
+I_FPP1S FPPAll
+gain_VPRT
+an_DT
+understanding_NN NNCOG
+again_FREQ
+1/24/21_CD
+,_,
+4:11_CD
+PM_NN NNother
+-$_NN NNother
+A_NN NNother
+:_:
+💰🚬_EMO
+1/24/21_CD
+,_,
+4:56_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+When_WHQU
+searching_VBG
+for_IN INother
+a_DT
+product_NN NNother
+to_IN INother
+hunt_VB
+,_,
+what_WHQU
+do_VPRT DOAUX
+you_SPP2
+keep_VB ASPECT
+in_IN INother
+mind_NN NNother
+?_.
+Randomly_RB RBother
+things_NN NNother
+?_.
+Anything_QUPR
+and_CC
+everything_QUPR
+to_IN INother
+see_VB MENTAL
+how_WHQU
+the_DT
+keyword_NN NNother
+volume_NN NCOMP
+is_VPRT
+?_.
+It_PIT
+’s_VPRT BEMA
+so_EMPH
+hard_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+think_VB MENTAL
+of_IN INother
+a_DT
+product_NN NNother
+1/24/21_CD
+,_,
+5:00_CD
+PM_NN NNother
+-$_NN NNother
+A_NN NNother
+:_:
+*_SYM
+Search_NN NNother
+volume_NN NCOMP
+*_SYM
+Monthly_JJPR JJTIME
+/_,
+Annual_JJAT JJTIME
+revenue_NN NNother
+*_SYM
+Ratings_NN NNother
+/_,
+Reviews_NN NNother
+*_SYM
+top_JJAT JJREL
+5_CD
+seller_NN NNother
+'s_POS
+monthly_JJAT JJTIME
+profit_NN NNABSPROC
+1/24/21_CD
+,_,
+5:08_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Got_VBN
+it_PIT
+1/24/21_CD
+,_,
+5:28_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/24/21_CD
+,_,
+5:29_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+When_WHSC WHSCother
+i_FPP1S FPPAll
+say_VPRT COMM
+means_VPRT COMM THATD
+i_FPP1S FPPAll
+say_VPRT COMM
+,_,
+question_NN NNABSPROC
+is_VPRT BEMA
+mine_FPP1S FPPAll
+&_CC
+answers_NN NNABSPROC
+is_VPRT BEMA
+mine_FPP1S FPPAll
+💰🚬_EMO
+😎_.
+1/24/21_CD
+,_,
+5:34_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+A_DT
+friend_NN NNHUMAN
+told_VBD COMM
+me_FPP1S FPPAll
+sunny_JJAT JJATother
+ali_NN NNP
+has_VPRT
+been_PEAS BEMA
+bankrupt_JJAT JJATother
+3_CD
+-_SYM
+4_CD
+times_NN NNQUANT
+as_RB RBother
+recent_JJPR JJTIME
+as_IN INother
+2015_CD
+._.
+He_TPP3S
+has_VPRT
+kind_NN NNABSPROC
+of_IN HDG
+a_DT
+cultish_JJAT JJATother
+following_VBG ACT
+so_SO
+please_FPUH POLITE
+be_VB BEMA
+careful_JJPR JJPRother
+before_IN INother
+spending_VBG ACT
+money_NN NNother
+1/24/21_CD
+,_,
+5:35_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Thanks_NN POLITE
+for_IN INother
+the_DT
+document_NN NNCONC
+I_FPP1S FPPAll
+’ll_MDother
+refer_VB
+to_IN INother
+it_PIT
+for_IN INother
+revision_NN NNother
+1/24/21_CD
+,_,
+5:35_CD
+PM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+I_FPP1S FPPAll
+know_VPRT MENTAL
+he_TPP3S
+was_VBD BEMA
+bankrupt_JJPR JJPRother
+that_DEMO
+time_NN NNQUANT
+but_CC
+he_TPP3S
+made_VBD ACT
+mistakes_NN NNother
+an_DT
+he_TPP3S
+mention_VB COMM
+each_QUAN
+and_CC
+everything_QUPR
+from_IN INother
+his_TPP3S
+12_CD
+years_NN NNother
+of_IN INother
+journey_NN NNother
+as_IN INother
+entrepreneur_NN NNother
+1/24/21_CD
+,_,
+5:37_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+As_RB RBother
+long_RB RBother
+as_IN COND
+you_SPP2
+are_VPRT BEMA
+aware_JJPR JJATDother
+1/24/21_CD
+,_,
+5:38_CD
+PM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+That_DEMO
+time_NN NNQUANT
+he_TPP3S
+did_VBD ACT
+some_QUAN
+mistakes_NN NNother
+in_IN INother
+his_TPP3S
+fantasies_NN NNother
+later_TIME
+due_IN INother
+to_IN INother
+global_JJAT JJATother
+crises_NN NNother
+,_,
+to_IN INother
+save_VB ACT
+his_TPP3S
+employees_NN NNHUMAN
+he_TPP3S
+filed_VBD
+bankruptcy_NN NNother
+but_CC
+his_TPP3S
+employees_NN NNHUMAN
+stood_VBD EXIST
+by_IN INother
+him_TPP3S
+for_IN INother
+next_JJAT JJATother
+6_CD
+months_NN NNQUANT
+and_CC
+later_TIME
+he_TPP3S
+quickly_RB RBother
+rises_VPRT OCCUR
+up_RP
+and_CC
+became_VBD OCCUR
+billionaire_NN NNother
+and_CC
+now_TIME
+providing_VBG ACT
+free_JJAT JJATother
+education_NN NNABSPROC
+on_IN INother
+his_TPP3S
+journey_NN NNother
+and_CC
+students_NN NNHUMAN
+are_VPRT
+showing_PROG ACT
+receipts_NN NNother
+with_IN INother
+prove_NN NNother
+that_THSC THSCother
+yes_DMA
+by_IN INother
+learning_VBG MENTAL
+from_IN INother
+his_TPP3S
+lectures_NN NNPLACE
+on_IN INother
+free_JJPR JJPRother
+given_VBN ACT
+portal_NN NNother
+by_IN INother
+his_TPP3S
+Extreme_NN NNP
+Commerce_NN NNP
+team_NN NCOMP
+and_CC
+making_VBG ACT
+$_$
+200_CD
+-_SYM
+$_$
+500_CD
+to_IN INother
+max_VB
+$_$
+$_$
+$$_CD
+monthly_JJPR JJTIME
+even_RB RBother
+those_DEMO
+people_NN NNHUMAN
+who_WHSC WHSCother
+never_FREQ
+spoke_VBD COMM
+English_NN NNP
+in_IN INother
+their_TPP3P
+life_NN NNABSPROC
+._.
+1/24/21_CD
+,_,
+5:40_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Right_DMA
+when_WHSC WHSCother
+you_SPP2
+know_VPRT MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+to_IN INother
+make_VB ACT
+$_$
+,_,
+it_PIT
+’s_VPRT BEMA
+not_XX0
+impossible_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+do_VB ACT
+it_PIT
+again_FREQ
+1/24/21_CD
+,_,
+5:42_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+I_FPP1S FPPAll
+know_VPRT MENTAL THATD
+many_QUAN
+people_NN NNHUMAN
+trying_VBG ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+bring_VB ACT
+him_TPP3S
+down_RP
+by_IN INother
+many_QUAN
+things_NN NNother
+but_CC
+he_TPP3S
+told_VBD COMM
+in_IN INother
+his_TPP3S
+life_NN NNABSPROC
+interview_NN NCOMP
+that_DEMO
+"_``
+I_FPP1S FPPAll
+cried_VBD
+when_WHSC WHSCother
+bank_NN NNGRP
+sent_VBD ACT
+final_VB
+me_FPP1S FPPAll
+a_DT
+notice_NN NNCONC
+to_IN INother
+take_VB ACT
+back_JJAT JJATother
+possession_NN NNother
+of_IN INother
+mortgaged_VBN
+house_NN NNGRP
+and_CC
+sent_VBD ACT
+his_TPP3S
+family_NN NNHUMAN
+back_RB RBother
+to_IN INother
+karachi_NN NNP
+to_IN INother
+his_TPP3S
+parents_NN NNHUMAN
+for_IN INother
+a_DT
+while_NN NNother
+"_''
+1/24/21_CD
+,_,
+5:44_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+later_TIME
+he_TPP3S
+decided_VBD MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+go_VB
+back_RB RBother
+to_IN INother
+his_TPP3S
+Chinese_JJAT JJATother
+employer_NN NNHUMAN
+in_IN INother
+Malaysia_NN NNP
+where_WHSC WHSCother
+he_TPP3S
+stayed_VBD EXIST
+in_IN INother
+his_TPP3S
+old_JJAT JJTIME
+office_NN NNPLACE
+because_CUZ
+he_TPP3S
+'s_POS
+senior_JJAT JJATother
+Microsoft_NN NNP
+&_CC
+cisco_NN NNP
+system_NN NCOMP
+engineer_NN NNHUMAN
+then_RB RBother
+due_IN INother
+to_IN INother
+cheap_JJAT JJATother
+costly_JJAT JJATother
+live_NN NNother
+in_IN INother
+malaysia_NN NNP
+he_TPP3S
+started_VBD ASPECT
+business_NN NOMZ
+again_FREQ
+from_IN INother
+cheaper_JJAT JJATother
+land_NN NNPLACE
+and_CC
+thrown_VBD ACT
+his_TPP3S
+shoes_NN NNother
+coat_NN NCOMP
+and_CC
+luxuries_NN NNother
+and_CC
+said_VBD COMM
+i'll_IN CONT
+give_VB ACT
+free_JJAT JJATother
+education_NN NNABSPROC
+and_CC
+my_FPP1S FPPAll
+life_NN NNABSPROC
+journey_NN NCOMP
+to_IN INother
+pakistanies_NN NNother
+so_SO
+they_TPP3P
+'ll_MDWS MDPREDAll CONT
+not_XX0
+make_VB ACT
+mistakes_NN NNother
+like_LIKE
+me_FPP1S FPPAll
+1/24/21_CD
+,_,
+5:44_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Aww_FPUH
+he_TPP3S
+has_VPRT
+a_DT
+way_NN NNABSPROC
+with_IN INother
+words_NN NNTECH
+1/24/21_CD
+,_,
+5:45_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+understand_VB MENTAL THATD
+your_SPP2
+friend_NN NNHUMAN
+said_VBD COMM
+what_WHSC WhVSTNCAll WhVCOM
+she_TPP3S
+/_,
+he_TPP3S
+heard_VBD MENTAL THATD
+I_FPP1S FPPAll
+did_VBD ACT
+n't_XX0 CONT
+started_VBN ASPECT
+from_IN INother
+Jan_NN NNP
+2020_CD
+until_IN INother
+Dec_NN NNP
+,_,
+then_RB RBother
+I_FPP1S FPPAll
+joined_VBD ACT
+his_TPP3S
+FB_NN NNother
+group_NN NCOMP
+and_CC
+saw_VBD MENTAL THATD
+youngesters_NN NNother
+making_VBG ACT
+money_NN NNother
+1/24/21_CD
+,_,
+5:47_CD
+PM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+He_TPP3S
+has_VPRT
+his_TPP3S
+Warehouse_NN NNother
+in_IN INother
+Dallas_NN NNP
+1/24/21_CD
+,_,
+5:47_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+not_XX0
+full_JJPR JJPRother
+but_CC
+virtual_JJPR JJPRother
+by_IN INother
+AMZ_NN NNP
+1/24/21_CD
+,_,
+5:49_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Oh_FPUH
+I_FPP1S FPPAll
+see_VPRT MENTAL
+1/24/21_CD
+,_,
+5:50_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/24/21_CD
+,_,
+5:50_CD
+PM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+This_DEMO
+is_VPRT BEMA
+his_TPP3S
+life_NN NNABSPROC
+interview_NN NCOMP
+but_CC
+in_IN INother
+urdu_NN NNother
+1/24/21_CD
+,_,
+5:55_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+I_FPP1S FPPAll
+’ll_MDother
+watch_VB ACT
+it_PIT
+soon_TIME
+1/24/21_CD
+,_,
+5:58_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Leave_VB ACT
+that_DEMO
+video_NN NNCONC
+that_THRC THRCother
+'s_VPRT CONT BEMA
+too_RB RBother
+long_JJPR JJDESCAll JJSIZE
+1/24/21_CD
+,_,
+5:58_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+1/24/21_CD
+,_,
+5:59_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+you_SPP2
+can_MDCA MDPOSSCAll
+watch_VB ACT
+this_DEMO
+he_TPP3S
+explained_VBD COMM
+openly_RB RBother
+how_WHSC WHSCother
+he_TPP3S
+became_VBD OCCUR
+bankrupt_JJPR JJPRother
+and_CC
+recovered_VBD
+it_PIT
+with_IN INother
+his_TPP3S
+25_CD
+CEO's_NN NNother
+1/24/21_CD
+,_,
+6:10_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+He_TPP3S
+is_VPRT BEMA
+very_AMP
+charismatic_JJPR JJPRother
+1/24/21_CD
+,_,
+6:11_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+Yes_DMA
+._.
+He_TPP3S
+'s_VPRT CONT
+providing_PROG ACT
+1000_CD
+laptops_NN NNother
+with_IN INother
+$_$
+100,000_CD
+budget_NN NNother
+to_IN INother
+genuine_JJAT JJATother
+and_CC
+powerful_JJAT JJATother
+brain_NN NNCONC
+youngsters_NN NCOMP
+in_IN INother
+pakistan_NN NNP
+from_IN INother
+low_JJAT JJATother
+class_NN NNPLACE
+families_NN NCOMP
+with_IN INother
+high_JJAT JJATother
+speed_NN NNother
+internet_NN NCOMP
+USBs_NN NNP
+1/24/21_CD
+,_,
+6:12_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Innovator_NN NNother
+looking_VBG
+towards_IN INother
+the_DT
+future_NN NNQUANT
+1/24/21_CD
+,_,
+6:14_CD
+PM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+Yes_DMA
+he_TPP3S
+comes_VPRT ACT
+live_JJAT JJATother
+2_CD
+-_SYM
+3_CD
+times_NN NNQUANT
+for_IN INother
+free_JJAT JJATother
+guidance_NN NNother
+and_CC
+answer_VPRT COMM
+many_QUAN
+people_NN NNHUMAN
+within_IN INother
+his_TPP3S
+capacity_NN NOMZ
+and_CC
+provide_VB ACT
+investors_NN NNHUMAN
+if_COND
+a_DT
+person_NN NNHUMAN
+has_VPRT
+no_XX0
+money_NN NNother
+but_CC
+genuine_JJAT JJATother
+talent_NN NNother
+to_IN INother
+start_VB ASPECT
+business_NN NOMZ
+._.
+he_TPP3S
+never_FREQ
+opened_VBD ACT
+his_TPP3S
+seller_NN NNother
+acounts_NN NCOMP
+since_IN INother
+2012_CD
+all_QUAN
+things_NN NNother
+are_VPRT
+run_PASS PASSAll ACT
+by_IN INother
+his_TPP3S
+25_CD
+CEO_NN NNother
+'s_POS
+he_TPP3S
+just_RB EMPH
+sit_VB ACT
+and_CC
+provide_VB ACT
+free_JJAT JJATother
+education_NN NNABSPROC
+._.
+1/24/21_CD
+,_,
+6:17_CD
+PM_NN NNother
+-$A_NN NNother
+:_:
+Watch_VB ACT
+this_DEMO
+must_MDNE
+when_WHSC WHSCother
+to_IN INother
+invest_VB
+and_CC
+share_VB ACT
+your_SPP2
+money_NN NNother
+for_IN INother
+investing_NN NNother
+1/24/21_CD
+,_,
+6:20_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Hmm_FPUH
+1/24/21_CD
+,_,
+9:57_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+1/24/21_CD
+,_,
+9:57_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+When_WHSC WHSCother
+you_SPP2
+have_VPRT
+time_NN NNQUANT
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll
+watch_VB ACT
+if_COND
+you_SPP2
+’re_VPRT BEMA
+interested_JJPR JJPRother
+1/25/21_CD
+,_,
+1:59_CD
+AM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+Sure_DMA
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+watch_VB ACT
+this_DEMO
+._.
+I_FPP1S FPPAll
+always_FREQ
+do_VPRT ACT
+analysis_NN NNCOG
+on_IN INother
+such_JJAT JJATother
+videos_NN NNCONC
+like_LIKE
+some_QUAN
+underworld_JJAT JJATother
+families_NN NNHUMAN
+who_WHSC WHSCother
+copied_VBD
+same_JJPR JJREL
+$_$
+Bi_NN NNother
+idea_NN NSTNCother NCOMP
+and_CC
+now_TIME
+taking_VBG ACT
+control_NN NNABSPROC
+of_IN INother
+world_NN NNother
+banking_NN NCOMP
+systems_NN NNABSPROC
+and_CC
+people_NN NNHUMAN
+believe_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+banks_NN NNGRP
+have_VPRT
+Rights_NN NNABSPROC
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+control_VB ACT
+our_FPP1P FPPAll
+brain_NN NNCONC
+and_CC
+fantasy_NN NNother
+with_IN INother
+money_NN NNother
+1/25/21_CD
+,_,
+8:25_CD
+AM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Right_DMA
+it_PIT
+’s_VPRT BEMA
+all_QUAN
+an_DT
+illusion_NN NNother
+1/25/21_CD
+,_,
+8:25_CD
+AM_NN NNother
+-_NFP
+$A_NN NNP
+:_:
+Only_RB RBother
+north_NN NNP
+korea_NN NNP
+was_VBD BEMA
+safe_JJPR JJPRother
+from_IN INother
+this_DEMO
+but_CC
+nowadays_TIME
+that_DEMO
+too_RB RBother
+1/25/21_CD
+,_,
+3:33_CD
+PM_NN NNother
+-_NFP
+$A_NN NNother
+:_:
+Another_DT
+Strategy_NN NNABSPROC
+:_:
+Not_XX0
+so_EMPH
+far_TIME
+but_CC
+today_TIME
+I_FPP1S FPPAll
+was_VBD
+having_PROG
+AMZ_NN NNP
+FBA_NN NNP
+discussion_NN NCOMP
+with_IN INother
+friend_NN NNHUMAN
+$_$
+S3P2_CD
+about_IN INother
+minimum_JJAT JJATother
+budget_NN NNother
+to_IN INother
+launch_VB
+a_DT
+small_JJAT JJDESCAll JJSIZE
+scale_NN NNother
+product_NN NCOMP
+with_IN INother
+minimum_JJAT JJATother
+70_CD
+%_NN NNother
++_SYM
+profit_NN NNABSPROC
+margin_NN NCOMP
+monthly_RB RBother
+,_,
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+start_VB ASPECT
+around_PLACE
+$_$
+5_CD
+K_CD
+-_SYM
+$_$
+7_CD
+K_CD
+and_CC
+this_DEMO
+is_VPRT BEMA
+only_RB RBother
+for_IN INother
+launch_NN NNother
+._.
+For_IN INother
+bleeding_NN NNother
+(_-LRB-
+giveaways_NN NNother
+for_IN INother
+bringing_VBG ACT
+customers_NN NNHUMAN
+traffic_NN NCOMP
+)_-RRB-
+&_CC
+PPC_NN NNother
+(_-LRB-
+Pay_VIMP ACT
+Per_IN INother
+Click_NN NNother
+)_-RRB-
+advertisement_NN NOMZ
+we_FPP1P FPPAll
+must_MDNE
+have_VB
+$_$
+3_CD
+k_CD
+in_IN INother
+reserve_NN NNother
+in_IN INother
+which_WHSC WHSCother
+$_$
+2_CD
+k_CD
+for_IN INother
+Advertising_NN NNother
+campaign_NN NCOMP
+and_CC
+rest_NN NNABSPROC
+of_IN INother
+$_$
+1_CD
+k_CD
+for_IN INother
+the_DT
+same_JJAT JJREL
+thing_NN NNother
+but_CC
+just_RB EMPH
+for_IN INother
+backup_NN NNother
+._.
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+do_VB ACT
+PPC_NN NNP
+/_,
+Giveaways_NN NNother
+and_CC
+Upwork_NN NNother
+marketing_NN NCOMP
+to_IN INother
+test_VB
+our_FPP1P FPPAll
+product_NN NNother
+and_CC
+leave_VB ACT
+reviews_NN NNother
+._.
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT SPLIT
+also_CC
+create_VB
+5_CD
+%_NN NNother
+-_SYM
+20_CD
+%_NN NNother
+up_IN INother
+&_CC
+down_IN INother
+coupons_NN NNother
+._.
+1/25/21_CD
+,_,
+3:59_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Ca_MDCA MDPOSSCAll
+n’t_RB RBother
+you_SPP2
+experiment_VB
+with_IN INother
+1_CD
+k_CD
+budget_NN NNother
+and_CC
+see_VB MENTAL
+how_WHQU
+it_PIT
+does_VPRT ACT
+in_IN INother
+the_DT
+market_NN NNPLACE
+?_.
+Take_VB ACT
+the_DT
+revenue_NN NNother
+and_CC
+reinvest_VB
+into_IN INother
+marketing_NN NNABSPROC
+?_.
+1/25/21_CD
+,_,
+4:00_CD
+PM_NN NNother
+-_NFP
+$_$
+B_CD
+:_:
+Start_VB ASPECT
+really_RB EMPH
+small_JJPR JJDESCAll JJSIZE
+and_CC
+work_VB ACT
+up_RP
+to_IN INother
+it_PIT
+._.
+7_CD
+k_CD
+starting_NN NNother
+seems_VPRT EXIST
+so_EMPH
+high_RB RBother
+because_CUZ
+you_SPP2
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+know_VB MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+it_PIT
+will_MDWS MDPREDAll SPLIT
+really_RB EMPH
+do_VB ACT
+once_TIME
+it_PIT
+launches_VPRT
+1/25/21_CD
+,_,
+4:03_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+with_IN INother
+1_CD
+k_CD
+budget_NN NNother
+we_FPP1P FPPAll
+can't_MDother
+launch_VB
+a_DT
+product_NN NNother
+by_IN INother
+ourselves_FPP1P FPPAll
+on_IN INother
+our_FPP1P FPPAll
+seller_NN NNother
+account_NN NCOMP
+._.
+i'm_VPRT CONT SPLIT
+still_RB RBother
+trying_PROG ACT
+to_IN INother
+look_VB
+if_COND
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll SPLIT
+still_RB RBother
+launch_VB
+in_IN INother
+$_$
+3_CD
+k_CD
+-_SYM
+$_$
+4_CD
+k_CD
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+do_VB ACT
+AMZ_NN NNP
+wholesale_NN NCOMP
+easily_RB RBother
+once_TIME
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+finish_VB ASPECT
+learning_NN NNother
+bullet_NN NCOMP
+concepts_NN NNCOG
+._.
+This_DEMO
+require_VPRT CAUSE
+minimum_JJPR JJPRother
+$_$
+3_CD
+K_CD
+but_CC
+for_IN INother
+middleclass_JJAT JJATother
+person_NN NNHUMAN
+like_LIKE
+me_FPP1S FPPAll
+it_PIT
+would_MDWO MDPREDAll
+be_VB BEMA
+hard_JJPR JJPRother
+since_IN INother
+the_DT
+revenue_NN NNother
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+earn_VB ACT
+in_IN INother
+wholesale_NN NNother
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+have_MDNE
+to_IN INother
+apply_VB ACT
+all_QUAN
+again_FREQ
+in_IN INother
+bringing_VBG ACT
+more_QUAN
+&_CC
+more_QUAN
+products_NN NNother
+into_IN INother
+Amazon_NN NNP
+warehouse_NN NCOMP
+for_IN INother
+customers_NN NNHUMAN
+._.
+1/25/21_CD
+,_,
+4:05_CD
+PM_NN NNother
+-_NFP
+$_$
+A_CD
+:_:
+that_DEMO
+'s_VPRT CONT
+why_WHSC WHSCother
+I_FPP1S FPPAll
+and_CC
+my_FPP1S FPPAll
+friend_NN NNHUMAN
+$_$
+S3P2_CD
+we_FPP1P FPPAll
+decided_VBD MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+work_VB ACT
+for_IN INother
+any_QUAN
+client_NN NNHUMAN
+for_IN INother
+just_RB EMPH
+short_JJAT JJDESCAll JJSIZE
+time_NN NNQUANT
+like_LIKE
+part_NN NNQUANT
+time_NN NCOMP
+for_IN INother
+2_CD
+-_SYM
+3_CD
+months_NN NNQUANT
+as_IN INother
+AMZ_NN NNP
+FBA_NN NNP
+VA_NN NNP
+to_IN INother
+understand_VB MENTAL
+the_DT
+market_NN NNPLACE
+then_RB RBother
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+hit_VB
+our_FPP1P FPPAll
+product_NN NNother
+._.
+I_FPP1S FPPAll
+is_VPRT
+not_XX0
+guaranteed_PASS PASSAll CAUSE
+that_THSC THSCother
+our_FPP1P FPPAll
+product_NN NNother
+would_MDWO MDPREDAll
+rises_VPRT OCCUR
+quickly_RB RBother
+but_CC
+most_JJAT EMPH
+chances_NN NNother
+will_MDWS MDPREDAll
+come_VB ACT
+up_RP
+when_WHSC WHSCother
+I_FPP1S FPPAll
+and_CC
+$_$
+S3P2_CD
+will_MDWS MDPREDAll
+learn_VB MENTAL
+each_QUAN
+and_CC
+everything_QUPR
+for_IN INother
+our_FPP1P FPPAll
+need_NN NNCOG
+to_IN INother
+run_VB ACT
+a_DT
+professional_JJAT JJATother
+amazon_NN NNother
+sellers_NN NCOMP
+account_NN NNABSPROC

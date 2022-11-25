@@ -1,0 +1,2783 @@
+The_DT
+Department_NN NNP
+of_IN INother
+English_NN NNP
+has_VPRT
+the_DT
+same_JJAT JJREL
+year_NN NNother
+of_IN INother
+inception_NN NOMZ
+as_IN INother
+the_DT
+University_NN NNP
+of_IN INother
+Delhi_NN NNP
+,_,
+1922_CD
+._.
+The_DT
+Department_NN NNP
+offers_VPRT COMM
+degrees_NN NNother
+at_IN INother
+MA_NN NNP
+,_,
+MPhil_NN NNP
+and_CC
+PhD_NN NNother
+levels_NN NCOMP
+and_CC
+oversees_VPRT
+undergraduate_JJAT JJATother
+teaching_NN NNABSPROC
+at_IN INother
+the_DT
+79_CD
+Colleges_NN NNP
+which_WHSC WHSCother
+are_VPRT
+affiliated_PASS PASSAll
+to_IN INother
+the_DT
+University_NN NNP
+._.
+From_IN INother
+1970_CD
+the_DT
+Department_NN NNP
+began_VBD ASPECT
+functioning_VBG
+from_IN INother
+two_CD
+campuses_NN NNPLACE
+:_:
+the_DT
+main_JJAT JJREL
+Campus_NN NNPLACE
+at_IN INother
+the_DT
+Arts_NN NNP
+Faculty_NN NNP
+,_,
+North_NN NNP
+Delhi_NN NNP
+._.
+Students_NN NNHUMAN
+also_CC
+enroll_VPRT
+at_IN INother
+the_DT
+Non-Collegiate_NN NNP
+Women_NN NNP
+'s_POS
+Education_NN NNP
+Board_NN NNP
+for_IN INother
+the_DT
+MA_NN NNP
+degree_NN NCOMP
+._.
+We_FPP1P FPPAll
+provide_VPRT ACT
+intensive_JJAT JJATother
+mentoring_NN NNother
+to_IN INother
+our_FPP1P FPPAll
+students_NN NNHUMAN
+both_QUAN
+in_IN INother
+and_CC
+beyond_IN INother
+the_DT
+classroom_NN NNPLACE
+in_IN INother
+a_DT
+wide_JJAT JJDESCAll JJSIZE
+variety_NN NNABSPROC
+of_IN INother
+forums_NN NNother
+._.
+Ongoing_JJAT JJATother
+lectures_NN NNPLACE
+,_,
+film_NN NNCONC
+screenings_NN NCOMP
+,_,
+symposia_NN NNother
+,_,
+conferences_NN NNother
+,_,
+and_CC
+colloquia_NN NNother
+on_IN INother
+interdisciplinary_JJAT JJATother
+themes_NN NNother
+make_VPRT ACT
+up_RP
+our_FPP1P FPPAll
+calendar_NN NNother
+._.
+Programmes_NN NNother
+:_:
+MA_NN NNother
+,_,
+MPhil_NN NNP
+,_,
+PhD_NN NNother
+UGC_NN NCOMP
+-_HYPH
+SAP_NN NNother
+III_FPUH
+Centres_NN NNP
+Centre_NN NNP
+for_IN INother
+Academic_NN NNP
+Translation_NN NNP
+and_CC
+Archiving_NN NNP
+Centre_NN NNP
+for_IN INother
+Studies_NN NNP
+in_IN INother
+Violence_NN NNP
+,_,
+Memory_NN NNP
+,_,
+and_CC
+Trauma_NN NNP
+(_-LRB-
+CSVMT_NN NNP
+)_-RRB-
+Center_NN NNP
+for_IN INother
+Dalit_NN NNP
+Studies_NN NNP
+Faculty_NN NNP
+Members_NN NNP
+Please_FPUH POLITE
+Visit_VB ACT
+DU_NN NNP
+ERP_NN NNP
+Samarth_NN NNP
+Portal_NN NNP
+How_WHSC WHSCother
+to_IN INother
+Know_VB MENTAL
+if_COND
+a_DT
+Girl_NN NNHUMAN
+is_VPRT BEMA
+a_DT
+Virgin_NN NNother
+Does_VPRT DOAUX
+it_PIT
+bother_VB MENTAL
+you_SPP2
+to_IN INother
+think_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+your_SPP2
+partner_NN NNHUMAN
+may_MDMM MDPOSSCAll
+have_VB
+had_PEAS
+other_JJAT JJATother
+sexual_JJAT JJTOPIC
+partners_NN NNHUMAN
+before_IN INother
+you_SPP2
+?_.
+It_PIT
+is_VPRT BEMA
+time_NN NNQUANT
+to_IN INother
+examine_VB MENTAL
+your_SPP2
+feelings_NN NNCOG
+about_IN PrepNSTNC
+it_PIT
+before_IN INother
+a_DT
+conflict_NN NNABSPROC
+arises_VPRT OCCUR
+in_IN INother
+your_SPP2
+relationship_NN NNABSPROC
+._.
+Sex_NN NNABSPROC
+is_VPRT BEMA
+a_DT
+deeply_RB RBother
+personal_JJAT JJATother
+aspect_NN NNABSPROC
+of_IN INother
+our_FPP1P FPPAll
+lives_NN NNABSPROC
+._.
+A_DT
+healthy_JJAT JJATother
+sex_NN NNABSPROC
+life_NN NCOMP
+between_IN INother
+two_CD
+monogamous_JJAT JJATother
+partners_NN NNHUMAN
+is_VPRT BEMA
+an_DT
+indicator_NN NNother
+of_IN INother
+their_TPP3P
+bond_NN NNABSPROC
+and_CC
+commitment_NN NOMZ
+to_IN INother
+each_QUAN
+other_JJPR JJPRother
+._.
+Whether_WHSC WHSCother
+most_QUAN
+of_IN INother
+us_FPP1P FPPAll
+admit_VPRT COMM
+it_PIT
+or_CC
+not_XX0
+,_,
+we_FPP1P FPPAll
+place_VPRT
+a_DT
+high_JJAT JJATother
+premium_NN NNother
+on_IN INother
+being_VBG
+‘_``
+exclusive_JJPR JJPRother
+’_''
+with_IN INother
+our_FPP1P FPPAll
+partners_NN NNHUMAN
+–_SYM
+it_PIT
+is_VPRT BEMA
+unthinkable_JJPR JJPRother
+to_IN INother
+imagine_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+they_TPP3P
+might_MDMM MDPOSSCAll
+cheat_VB
+on_IN INother
+us_FPP1P FPPAll
+with_IN INother
+another_DT
+person_NN NNHUMAN
+._.
+This_DEMO
+brings_VPRT ACT
+us_FPP1P FPPAll
+to_IN INother
+the_DT
+concept_NN NNCOG
+of_IN INother
+virginity_NN NOMZ
+._.
+Have_VPRT
+you_SPP2
+ever_FREQ
+dwelled_VBD
+on_IN INother
+the_DT
+idea_NN NSTNCother
+that_THSC THSCother
+your_SPP2
+lover_NN NNother
+may_MDMM MDPOSSCAll
+have_VB
+had_PEAS
+other_JJAT JJATother
+sexual_JJAT JJTOPIC
+partners_NN NNHUMAN
+before_IN INother
+you_SPP2
+?_.
+You_SPP2
+may_MDMM MDPOSSCAll
+have_VB
+dismissed_PEAS MENTAL
+the_DT
+thought_NN NSTNCother
+because_CUZ
+what_WHSC WHSCother
+you_SPP2
+have_VPRT
+with_IN INother
+your_SPP2
+partner_NN NNHUMAN
+is_VPRT BEMA
+precious_JJPR JJPRother
+–_HYPH
+and_CC
+you_SPP2
+believe_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+their_TPP3P
+past_NN NNABSPROC
+is_VPRT BEMA
+their_TPP3P
+business_NN NOMZ
+!_.
+But_CC
+if_COND
+it_PIT
+bothers_VPRT MENTAL
+you_SPP2
+to_IN INother
+think_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+your_SPP2
+partner_NN NNHUMAN
+may_MDMM MDPOSSCAll
+have_VB
+had_PEAS
+sex_NN NNABSPROC
+with_IN INother
+another_DT
+person_NN NNHUMAN
+before_IN INother
+you_SPP2
+,_,
+or_CC
+that_THSC THSCother
+you_SPP2
+do_VPRT DOAUX
+not_XX0
+wish_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVATT
+they_TPP3P
+have_VPRT
+had_PEAS
+sex_NN NNABSPROC
+with_IN INother
+anyone_QUPR
+but_CC
+you_SPP2
+,_,
+then_RB RBother
+you_SPP2
+need_MDNE
+to_IN INother
+rethink_VB
+your_SPP2
+ideas_NN NNCOG
+about_IN PrepNSTNC
+virginity_NN NOMZ
+and_CC
+sex_NN NNABSPROC
+before_IN INother
+it_PIT
+becomes_VPRT OCCUR
+a_DT
+point_NN NNother
+of_IN INother
+contention_NN NOMZ
+between_IN PrepNSTNC
+the_DT
+two_CD
+of_IN INother
+you_SPP2
+._.
+The_DT
+emphasis_NN NNABSPROC
+on_IN INother
+virginity_NN NOMZ
+Many_QUAN
+cultures_NN NNABSPROC
+around_IN INother
+the_DT
+world_NN NNother
+place_NN NCOMP
+a_DT
+lot_QUAN
+of_IN INother
+importance_NN NNABSPROC
+on_IN INother
+virginity_NN NOMZ
+;_:
+a_DT
+virgin_JJAT JJATother
+man_NN NNHUMAN
+or_CC
+a_DT
+woman_NN NNHUMAN
+who_WHSC WHSCother
+has_VPRT SPLIT
+never_FREQ
+had_PEAS
+sex_NN NNABSPROC
+._.
+Many_QUAN
+cultures_NN NNABSPROC
+believe_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+a_DT
+person_NN NNHUMAN
+should_MDNE
+be_VB BEMA
+a_DT
+virgin_NN NNother
+till_IN INother
+they_TPP3P
+get_VPRT
+married_JJPR JJPRother
+,_,
+and_CC
+that_THSC THSCother
+their_TPP3P
+first_JJPR JJPRother
+(_-LRB-
+and_CC
+only_RB RBother
+)_-RRB-
+sexual_JJAT JJTOPIC
+partner_NN NNHUMAN
+should_MDNE
+be_VB BEMA
+their_TPP3P
+spouse_NN NNHUMAN
+._.
+The_DT
+absence_NN NNABSPROC
+of_IN INother
+virginity_NN NOMZ
+is_VPRT
+seen_PASS PASSAll MENTAL
+as_IN INother
+a_DT
+sign_NN NNABSPROC
+of_IN INother
+immoral_JJAT JJATother
+character_NN NNother
+and_CC
+a_DT
+loss_NN NNother
+of_IN INother
+the_DT
+family_NN NNHUMAN
+’s_POS
+honour_NN NNother
+._.
+A_DT
+woman_NN NNHUMAN
+’s_POS
+virginity_NN NOMZ
+is_VPRT
+measured_PASS PASSAll
+by_IN INother
+whether_WHSC WHSCother
+she_TPP3S
+bleeds_VPRT
+during_IN INother
+the_DT
+first_JJAT JJATother
+time_NN NNQUANT
+of_IN INother
+sexual_JJAT JJTOPIC
+intercourse_NN NNother
+–_SYM
+this_DEMO
+happens_VPRT OCCUR
+when_WHSC WHSCother
+her_TPP3S
+hymen_NN NNother
+(_-LRB-
+a_DT
+thin_JJAT JJDESCAll JJSIZE
+membrane_NN NNother
+of_IN INother
+skin_NN NNother
+inside_IN INother
+the_DT
+vagina_NN NNother
+)_-RRB-
+ruptures_NN NNother
+on_IN INother
+penetrative_JJAT JJATother
+intercourse_NN NNother
+._.
+However_CC
+,_,
+there_EX
+are_VPRT
+many_QUAN
+problems_NN NNother
+with_IN INother
+this_DEMO
+concept_NN NNCOG
+._.
+Firstly_RB RBother
+,_,
+the_DT
+hymen_NN NNother
+may_NN NCOMP
+rupture_NN NNother
+even_RB RBother
+due_IN INother
+to_IN INother
+intense_JJAT JJATother
+sports_NN NNother
+,_,
+or_CC
+due_IN INother
+to_IN INother
+a_DT
+genetic_JJAT JJATother
+condition_NN NNABSPROC
+,_,
+or_CC
+masturbation_NN NOMZ
+._.
+Secondly_RB RBother
+,_,
+‘_``
+sex_NN NNABSPROC
+’_''
+can_MDCA MDPOSSCAll SPLIT
+also_CC
+constitute_VB EXIST
+fondling_NN NNother
+and_CC
+oral_JJAT JJTOPIC
+sex_NN NNABSPROC
+without_IN INother
+actual_JJAT JJATother
+penetration_NN NOMZ
+._.
+So_EMPH
+technically_RB RSTNCAll RNONFACT
+,_,
+a_DT
+person_NN NNHUMAN
+who_WHSC WHSCother
+has_VPRT
+had_PEAS
+oral_JJAT JJTOPIC
+sex_NN NNABSPROC
+but_CC
+not_XX0
+peno_AFX
+-_HYPH
+vaginal_JJAT JJATother
+sex_NN NNABSPROC
+is_VPRT BEMA
+not_XX0
+a_DT
+virgin_NN NNother
+–_HYPH
+or_CC
+are_VPRT
+they_TPP3P
+?_. QUTAG
+Conservative_JJAT JJATother
+cultures_NN NNABSPROC
+insist_VPRT COMM
+on_IN INother
+women_NN NNHUMAN
+undergoing_VBG
+virginity_NN NOMZ
+tests_NN NCOMP
+to_IN INother
+ascertain_VB
+if_COND
+the_DT
+woman_NN NNHUMAN
+that_THSC THSCother
+they_TPP3P
+wish_VPRT MENTAL
+their_TPP3P
+son_NN NNHUMAN
+to_IN INother
+marry_VB
+is_VPRT BEMA
+an_DT
+honourable_JJAT JJATother
+woman_NN NNHUMAN
+._.
+The_DT
+virginity_NN NOMZ
+test_NN NCOMP
+entails_VPRT
+checking_VBG ACT
+for_IN INother
+an_DT
+intact_JJAT JJATother
+hymen_NN NNother
+._.
+Sexually_RB RBother
+active_JJAT JJATother
+women_NN NNHUMAN
+who_WHSC WHSCother
+may_MDMM MDPOSSCAll
+wish_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+get_VB
+married_PGET PASSAll
+in_IN INother
+this_DEMO
+traditional_JJAT JJATother
+fashion_NN NNother
+may_MDMM MDPOSSCAll SPLIT
+then_RB RBother
+undergo_VB
+a_DT
+discreet_JJAT JJATother
+hymen_NN NNother
+reconstruction_NN NCOMP
+surgery_NN NNother
+so_SO
+as_IN INother
+to_IN INother
+avoid_VB
+the_DT
+complications_NN NOMZ
+arising_VBG OCCUR
+from_IN INother
+her_TPP3S
+husband_NN NNHUMAN
+finding_VBG VFCTother
+out_RP
+about_IN INother
+her_TPP3S
+non-virgin_JJAT JJATother
+status_NN NNother
+._.
+It_PIT
+’s_POS
+all_QUAN
+about_IN INother
+you_SPP2
+…_,
+Do_VPRT DOAUX
+you_SPP2
+feel_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVATT
+your_SPP2
+partner_NN NNHUMAN
+’s_POS
+virginity_NN NOMZ
+is_VPRT BEMA
+a_DT
+barometer_NN NNother
+of_IN INother
+their_TPP3P
+‘_``
+purity_NN NOMZ
+’_''
+and_CC
+honour_VB
+?_. YNQU
+Or_CC
+is_VPRT BEMA
+your_SPP2
+relationship_NN NNABSPROC
+with_IN INother
+them_TPP3P
+so_EMPH
+rock_JJPR JJPRother
+-_HYPH
+solid_JJPR JJPRother
+that_THSC THSCother
+their_TPP3P
+past_NN NNABSPROC
+does_VPRT DOAUX
+not_XX0
+bother_VB MENTAL
+you_SPP2
+?_. YNQU
+It_PIT
+is_VPRT BEMA
+time_NN NNQUANT
+to_IN INother
+examine_VB MENTAL
+your_SPP2
+feelings_NN NNCOG
+about_IN PrepNSTNC
+this_DEMO
+,_,
+and_CC
+to_IN INother
+discuss_VB COMM
+your_SPP2
+concerns_NN NNCOG
+with_IN INother
+your_SPP2
+partner_NN NNHUMAN
+._.
+When_WHSC WHSCother
+it_PIT
+comes_VPRT ACT
+to_IN INother
+travel_VB
+,_,
+you_SPP2
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+have_VB
+a_DT
+comfy_JJAT JJATother
+stay_NN NNother
+,_,
+scrumptious_JJAT JJATother
+food_NN NNCONC
+,_,
+adventure_NN NNother
+activities_NN NCOMP
+,_,
+and_CC
+explore_VB ACT
+all_QUAN
+famous_JJAT JJATother
+places_NN NNPLACE
+in_IN INother
+your_SPP2
+budget_NN NNother
+._.
+Most_QUAN
+of_IN INother
+you_SPP2
+try_VPRT ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+get_VB
+the_DT
+best_JJAT EMPH
+deals_NN NNABSPROC
+on_IN INother
+hotels_NN NNGRP
+,_,
+flights_NN NNGRP
+,_,
+and_CC
+even_RB RBother
+restaurants_NN NNPLACE
+so_SO
+that_THSC CUZ
+you_SPP2
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+go_VB
+out_IN INother
+of_IN INother
+budget_NN NNother
+._.
+Curious_JJPR JJPRother
+to_IN INother
+know_VB MENTAL
+which_WHQU
+cities_NN NNPLACE
+will_MDWS MDPREDAll
+cost_VB
+you_SPP2
+the_DT
+most_EMPH
+to_IN INother
+travel_VB
+around_PLACE
+?_.
+We_FPP1P FPPAll
+have_VPRT
+listed_PEAS
+below_IN INother
+the_DT
+top_JJAT JJREL
+10_CD
+expensive_JJAT JJATother
+vacation_NN NOMZ
+destinations_NN NCOMP
+in_IN INother
+the_DT
+world_NN NNother
+._.
+1_CD
+._.
+Singapore_NN NNP
+The_DT
+city_NN NNPLACE
+of_IN INother
+Singapore_NN NNP
+is_VPRT BEMA
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+city_NN NNPLACE
+in_IN INother
+the_DT
+world_NN NNother
+to_IN INother
+visit_VB ACT
+by_IN INother
+tourists_NN NNHUMAN
+._.
+Transportation_NN NOMZ
+costs_NN NCOMP
+heaps_QUAN
+of_IN INother
+money_NN NNother
+in_IN INother
+this_DEMO
+expensive_JJAT JJATother
+city_NN NNPLACE
+._.
+If_COND
+you_SPP2
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+buy_VB ACT
+and_CC
+use_VB ACT
+a_DT
+car_NN NNCONC
+,_,
+then_RB RBother
+you_SPP2
+should_MDNE
+have_VB
+huge_JJAT JJDESCAll JJSIZE
+savings_NN NNother
+for_IN INother
+it_PIT
+._.
+Singapore_NN NNP
+’s_POS
+government_NN NNGRP
+keeps_VPRT ASPECT
+the_DT
+car_NN NNCONC
+’s_POS
+rate_NN NNQUANT
+highest_JJPR JJPRother
+to_IN INother
+manage_VB
+the_DT
+total_JJAT JJATother
+cars_NN NNCONC
+on_IN INother
+the_DT
+road_NN NNPLACE
+._.
+Other_JJPR JJPRother
+than_IN INother
+this_DEMO
+,_,
+clothes_NN NNother
+and_CC
+even_RB RBother
+groceries_NN NNother
+are_VPRT BEMA
+higher_JJPR JJPRother
+in_IN INother
+rates_NN NNQUANT
+._.
+It_PIT
+is_VPRT BEMA
+the_DT
+most_EMPH
+developed_JJAT JJATother
+city_NN NNPLACE
+with_IN INother
+having_VBG
+buzzing_VBG
+foodie_NN NNother
+culture_NN NCOMP
+._.
+It_PIT
+is_VPRT SPLIT
+mostly_RB RBother
+visited_PASS PASSAll ACT
+by_IN INother
+honeymoon_NN NNother
+couples_NN NCOMP
+,_,
+professionals_NN NNHUMAN
+,_,
+and_CC
+people_NN NNHUMAN
+with_IN INother
+great_JJAT JJEVAL
+wealth_NN NNother
+._.
+2_CD
+._.
+Paris_NN NNP
+,_,
+France_NN NNP
+You_SPP2
+ca_MDCA MDPOSSCAll
+n’t_RB RBother
+neglect_NN NNother
+the_DT
+famous_JJAT JJATother
+city_NN NNPLACE
+of_IN INother
+France_NN NNP
+,_,
+Paris_NN NNP
+that_THRC THRCother
+welcomes_VPRT COMM
+a_DT
+huge_JJAT JJDESCAll JJSIZE
+number_NN NNQUANT
+of_IN INother
+tourists_NN NNHUMAN
+every_QUAN
+year_NN NNother
+._.
+Paris_NN NNP
+is_VPRT SPLIT
+also_CC
+known_PASS PASSAll MENTAL
+as_IN INother
+“_``
+The_DT
+City_NN NNP
+of_IN INother
+Romance_NN NNP
+”_''
+and_CC
+famous_JJPR JJPRother
+among_IN INother
+lovey_NN NNother
+-_HYPH
+dovey_NN NNother
+couples_NN NCOMP
+._.
+It_PIT
+is_VPRT BEMA
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+vacation_NN NOMZ
+destination_NN NCOMP
+to_IN INother
+visit_VB ACT
+by_IN INother
+tourists_NN NNHUMAN
+._.
+People_NN NNHUMAN
+just_RB EMPH
+love_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+explore_VB ACT
+its_PIT
+quaint_JJAT JJATother
+cafes_NN NNother
+,_,
+chocolates_NN NNother
+,_,
+wines_NN NNother
+,_,
+pastries_NN NNother
+,_,
+and_CC
+the_DT
+pretty_JJAT JJATother
+Eiffel_NN NNP
+Tower_NN NNP
+at_IN INother
+night_NN NNother
+._.
+It_PIT
+is_VPRT BEMA
+the_DT
+best_JJAT EMPH
+,_,
+but_CC
+expensive_JJAT JJATother
+city_NN NNPLACE
+to_IN INother
+visit_VB ACT
+by_IN INother
+newly_RB RBother
+married_VBN
+couples_NN NNHUMAN
+._.
+The_DT
+royal_JJAT JJATother
+castles_NN NNother
+,_,
+lavish_JJAT JJATother
+cathedrals_NN NNother
+,_,
+and_CC
+impressive_JJAT JJATother
+architecture_NN NNother
+in_IN INother
+the_DT
+city_NN NNPLACE
+make_VB ACT
+it_PIT
+a_DT
+worth_JJAT JJATother
+visit_NN NNother
+for_IN INother
+tourists_NN NNHUMAN
+around_IN INother
+the_DT
+world_NN NNother
+._.
+3_CD
+._.
+Hong_NN NNP
+Kong_NN NNP
+Hong_NN NNP
+Kong_NN NNP
+is_VPRT BEMA
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+cities_NN NNPLACE
+in_IN INother
+the_DT
+world_NN NNother
+to_IN INother
+live_VB EXIST
+in_IN STPR
+._.
+However_CC
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll SPLIT
+still_RB RBother
+find_VB VFCTother
+cheaper_JJAT JJATother
+options_NN NNABSPROC
+for_IN INother
+eating_VBG ACT
+,_,
+outdoor_JJAT JJATother
+activities_NN NNABSPROC
+,_,
+and_CC
+exploring_VBG ACT
+the_DT
+city_NN NNPLACE
+’s_POS
+landscape_NN NNother
+._.
+You_SPP2
+can_MDCA MDPOSSCAll
+choose_VB MENTAL
+public_JJAT JJREL
+transport_NN NNother
+for_IN INother
+commute_NN NNother
+and_CC
+open_JJAT JJATother
+markets_NN NNPLACE
+for_IN INother
+good_JJPR JJEVAL
+._.
+Apart_RB RBother
+from_IN INother
+this_DEMO
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll
+enjoy_VB MENTAL
+free_JJAT JJATother
+hiking_NN NNother
+,_,
+beaches_NN NNother
+,_,
+and_CC
+mountains_NN NNPLACE
+on_IN INother
+your_SPP2
+vacation_NN NOMZ
+._.
+Costs_NN NNother
+jump_VPRT
+when_WHSC WHSCother
+you_SPP2
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+eat_VB ACT
+International_NN NNP
+cuisines_NN NCOMP
+,_,
+stay_VIMP EXIST
+in_IN INother
+a_DT
+luxury_NN NNother
+hotel_NN NCOMP
+,_,
+and_CC
+demand_NN NNABSPROC
+fancy_JJAT JJATother
+drinks_NN NNCONC
+._.
+4_CD
+._.
+Zurich_NN NNP
+Zurich_NN NNP
+is_VPRT
+referred_PASS PASSAll
+to_IN INother
+as_IN INother
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+city_NN NNPLACE
+to_IN INother
+visit_VB ACT
+in_IN INother
+Europe_NN NNP
+._.
+The_DT
+whole_NN NNABSPROC
+of_IN INother
+Switzerland_NN NNP
+is_VPRT
+known_PASS PASSAll MENTAL
+for_IN INother
+being_VBG BEMA
+a_DT
+costly_JJAT JJATother
+destination_NN NOMZ
+._.
+A_DT
+trip_NN NNother
+to_IN INother
+Zurich_NN NNP
+for_IN INother
+a_DT
+week_NN NNQUANT
+usually_FREQ
+costs_VPRT
+around_IN INother
+Sfr1_NN NNother
+,_,
+310_CD
+per_IN INother
+head_NN NNCONC
+._.
+However_CC
+,_,
+based_VBN
+on_IN INother
+the_DT
+spending_NN NNother
+habits_NN NCOMP
+and_CC
+the_DT
+comfort_NN NNother
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll SPLIT
+still_RB RBother
+choose_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+explore_VB ACT
+the_DT
+city_NN NNPLACE
+on_IN INother
+a_DT
+low_JJAT JJATother
+budget_NN NNother
+._.
+The_DT
+cost_NN NNother
+of_IN INother
+transportation_NN NOMZ
+and_CC
+accommodation_NN NOMZ
+are_VPRT BEMA
+significantly_RB RBother
+expensive_JJPR JJPRother
+in_IN INother
+Zurich_NN NNP
+._.
+To_IN INother
+save_VB ACT
+money_NN NNother
+while_CC
+touring_VBG
+this_DEMO
+city_NN NNPLACE
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll
+choose_VB MENTAL
+an_DT
+apartment_NN NNPLACE
+rather_RB RBother
+than_IN INother
+a_DT
+hotel_NN NNGRP
+,_,
+supermarkets_NN NNother
+for_IN INother
+food_NN NNCONC
+rather_RB RBother
+than_IN INother
+going_VBG
+to_IN INother
+restaurants_NN NNPLACE
+and_CC
+go_VB
+for_IN INother
+public_JJAT JJREL
+transport_NN NNother
+instead_CC
+of_IN INother
+a_DT
+rental_NN NNother
+._.
+5_CD
+._.
+New_NN NNP
+York_NN NNP
+When_WHSC WHSCother
+you_SPP2
+talk_VPRT COMM
+about_IN INother
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+countries_NN NNPLACE
+to_IN INother
+visit_VB ACT
+,_,
+New_NN NNP
+York_NN NNP
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+be_VB
+neglected_PASS PASSAll
+._.
+Undoubtedly_RB RSTNCAll RFACT
+,_,
+it_PIT
+is_VPRT BEMA
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+city_NN NNPLACE
+to_IN INother
+visit_VB ACT
+and_CC
+live_VB EXIST
+in_IN STPR
+._.
+Making_VBG ACT
+a_DT
+budget_NN NNother
+trip_NN NCOMP
+o_IN INother
+New_NN NNP
+York_NN NNP
+can_MDCA MDPOSSCAll
+be_VB BEMA
+challenging_JJPR JJPRother
+,_,
+but_CC
+still_CONC
+,_,
+it_PIT
+can_MDCA MDPOSSCAll
+be_VB
+done_PASS PASSAll ACT
+if_COND
+you_SPP2
+do_VPRT ACT
+little_JJAT JJDESCAll JJSIZE
+research_NN NNABSPROC
+earlier_TIME
+before_IN INother
+visiting_VBG ACT
+the_DT
+city_NN NNPLACE
+._.
+You_SPP2
+can_MDCA MDPOSSCAll
+look_VB
+for_IN INother
+food_NN NNCONC
+at_IN INother
+cheap_JJAT JJATother
+prices_NN NNother
+at_IN INother
+few_QUAN
+places_NN NNPLACE
+,_,
+and_CC
+transportation_NN NOMZ
+charges_NN NCOMP
+can_MDCA MDPOSSCAll SPLIT
+also_CC
+be_VB
+saved_PASS PASSAll ACT
+while_CC
+choosing_VBG MENTAL
+public_JJAT JJREL
+transport_NN NNother
+._.
+However_CC
+,_,
+you_SPP2
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+save_VB ACT
+more_AMP
+on_IN INother
+accommodation_NN NOMZ
+and_CC
+adventure_NN NNother
+activities_NN NCOMP
+._.
+6_CD
+._.
+Los_NN NNP
+Angeles_NN NNP
+For_IN INother
+all_QUAN
+those_DEMO
+wanderlust_NN NNother
+who_WHSC WHSCother
+are_VPRT BEMA
+ready_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+spend_VB ACT
+on_IN INother
+their_TPP3P
+vacation_NN NOMZ
+,_,
+Los_NN NNP
+Angeles_NN NNP
+is_VPRT BEMA
+the_DT
+best_JJAT EMPH
+choice_NN NNABSPROC
+for_IN INother
+them_TPP3P
+._.
+However_CC
+,_,
+when_WHSC WHSCother
+it_PIT
+comes_VPRT ACT
+to_IN INother
+budget_NN NNother
+traveling_NN NCOMP
+,_,
+then_RB RBother
+it_PIT
+is_VPRT BEMA
+not_XX0
+a_DT
+good_JJAT JJEVAL
+option_NN NNABSPROC
+._.
+Tourists_NN NNHUMAN
+in_IN INother
+Los_NN NNP
+Angeles_NN NNP
+will_MDWS MDPREDAll
+have_MDNE
+to_IN INother
+deal_VB
+with_IN INother
+expensive_JJAT JJATother
+accommodation_NN NOMZ
+in_IN INother
+hotels_NN NNGRP
+,_,
+tourist_NN NNHUMAN
+activities_NN NCOMP
+,_,
+food_NN NNCONC
+,_,
+and_CC
+even_RB RBother
+rental_JJAT JJATother
+cars_NN NNCONC
+._.
+However_CC
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll
+reduce_VB ACT
+a_DT
+bit_QUAN
+of_IN INother
+cost_NN NNother
+by_IN INother
+sharing_VBG ACT
+the_DT
+accommodation_NN NOMZ
+and_CC
+having_VBG
+food_NN NNCONC
+from_IN INother
+the_DT
+street_NN NNother
+markets_NN NCOMP
+._.
+7_CD
+._.
+Tokyo_NN NNP
+,_,
+Japan_NN NNP
+Japan_NN NNP
+is_VPRT BEMA
+not_XX0
+a_DT
+cheap_JJAT JJATother
+place_NN NNPLACE
+to_IN INother
+take_VB ACT
+a_DT
+tour_NN NNother
+,_,
+but_CC
+yes_DMA
+it_PIT
+is_VPRT BEMA
+not_XX0
+a_DT
+prohibitively_RB RBother
+expensive_JJAT JJATother
+country_NN NNPLACE
+than_IN INother
+you_SPP2
+may_MDMM MDPOSSCAll
+think_VB MENTAL
+._.
+You_SPP2
+may_MDMM MDPOSSCAll SPLIT
+still_RB RBother
+visit_VB ACT
+the_DT
+city_NN NNPLACE
+of_IN INother
+Tokyo_NN NNP
+in_IN INother
+the_DT
+budget_NN NNother
+if_COND
+you_SPP2
+choose_VPRT MENTAL
+street_NN NNother
+food_NN NCOMP
+or_CC
+cheap_JJAT JJATother
+fast_JJPR JJPRother
+-_HYPH
+food_NN NNCONC
+restaurants_NN NCOMP
+,_,
+accommodation_NN NOMZ
+in_IN INother
+hostels_NN NNother
+,_,
+and_CC
+transportation_NN NOMZ
+through_IN INother
+trains_NN NNCONC
+or_CC
+buses_NN NNother
+._.
+However_CC
+,_,
+Tokyo_NN NNP
+has_VPRT
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+hotels_NN NNGRP
+and_CC
+restaurants_NN NNPLACE
+,_,
+but_CC
+you_SPP2
+can_MDCA MDPOSSCAll SPLIT
+still_RB RBother
+find_VB VFCTother
+some_QUAN
+hotel_NN NNGRP
+rooms_NN NCOMP
+under_IN INother
+100_CD
+USD_NN NNother
+per_IN INother
+night_NN NNother
+._.
+8_CD
+._.
+Dubai_NN NNP
+Dubai_NN NNP
+is_VPRT BEMA
+popular_JJPR JJPRother
+for_IN INother
+the_DT
+world_NN NNother
+’s_POS
+class_NN NNPLACE
+shopping_NN NCOMP
+experience_NN NNCOG
+,_,
+iconic_JJAT JJATother
+buildings_NN NNPLACE
+,_,
+and_CC
+luxury_NN NNother
+hotels_NN NCOMP
+._.
+It_PIT
+has_VPRT
+a_DT
+self_NN NNother
+-_HYPH
+proclaimed_VBN
+seven_CD
+-_HYPH
+star_NN NNTECH
+hotel_NN NCOMP
+,_,
+opulent_JJAT JJATother
+mall_NN NNother
+,_,
+extraordinary_JJAT JJATother
+nightlife_NN NNother
+,_,
+and_CC
+what_WHSC WHSCother
+not_XX0
+?_.
+It_PIT
+is_VPRT
+indeed_RB RSTNCAll RFACT
+not_XX0
+a_DT
+cheap_JJAT JJATother
+destination_NN NOMZ
+to_IN INother
+visit_VB ACT
+by_IN INother
+tourists_NN NNHUMAN
+,_,
+but_CC
+yes_DMA
+it_PIT
+also_CC
+depends_VPRT
+on_IN INother
+the_DT
+spending_NN NNother
+habits_NN NCOMP
+of_IN INother
+a_DT
+person_NN NNHUMAN
+._.
+You_SPP2
+can_MDCA MDPOSSCAll
+choose_VB MENTAL
+budget_NN NNother
+hotels_NN NCOMP
+to_IN INother
+save_VB ACT
+money_NN NNother
+on_IN INother
+your_SPP2
+accommodation_NN NOMZ
+,_,
+cheap_JJAT JJATother
+restaurants_NN NNPLACE
+instead_CC
+of_IN INother
+fancy_JJAT JJATother
+ones_NN NNother
+,_,
+and_CC
+public_JJAT JJREL
+transport_NN NNother
+for_IN INother
+travel_NN NNother
+._.
+9_CD
+._.
+Sydney_NN NNP
+It_PIT
+comes_VPRT ACT
+under_IN INother
+top_JJAT JJREL
+10_CD
+most_RB EMPH
+expensive_JJAT JJATother
+cities_NN NNPLACE
+in_IN INother
+the_DT
+world_NN NNother
+to_IN INother
+visit_VB ACT
+and_CC
+the_DT
+third_JJAT JJATother
+position_NN NNABSPROC
+for_IN INother
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+city_NN NNPLACE
+for_IN INother
+dinner_NN NNCONC
+out_RB RBother
+._.
+Food_NN NNP
+and_CC
+drinks_NN NNCONC
+are_VPRT BEMA
+costly_JJPR JJPRother
+in_IN INother
+this_DEMO
+city_NN NNPLACE
+,_,
+but_CC
+there_EX
+are_VPRT
+few_QUAN
+things_NN NNother
+that_THRC THRCother
+you_SPP2
+can_MDCA MDPOSSCAll
+do_VB ACT
+for_IN INother
+free_JJPR JJPRother
+._.
+You_SPP2
+can_MDCA MDPOSSCAll
+explore_VB ACT
+the_DT
+free_JJAT JJATother
+museums_NN NNPLACE
+,_,
+art_NN NNother
+galleries_NN NCOMP
+,_,
+beautiful_JJAT JJEVAL
+beaches_NN NNother
+,_,
+stunning_JJAT JJATother
+public_JJAT JJREL
+coastal_JJAT JJATother
+walks_NN NNother
+that_THRC THRCother
+allow_VPRT CAUSE
+you_SPP2
+to_IN INother
+enjoy_VB MENTAL
+the_DT
+spellbinding_JJAT JJATother
+natural_JJAT JJATother
+beauty_NN NNother
+of_IN INother
+Sydney_NN NNP
+._.
+Avoid_VB
+expensive_JJAT JJATother
+restaurants_NN NNPLACE
+and_CC
+choose_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+have_VB
+authentic_JJAT JJATother
+meals_NN NNother
+at_IN INother
+chap_NN NNother
+spots_NN NCOMP
+._.
+10_CD
+._.
+London_NN NNP
+While_CC
+London_NN NNP
+is_VPRT
+also_CC
+one_CD
+of_IN INother
+the_DT
+most_EMPH
+expensive_JJAT JJATother
+cities_NN NNPLACE
+in_IN INother
+the_DT
+world_NN NNother
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll SPLIT
+still_RB RBother
+plan_VB MENTAL
+a_DT
+visit_NN NNother
+to_IN INother
+this_DEMO
+city_NN NNPLACE
+on_IN INother
+a_DT
+low_JJAT JJATother
+budget_NN NNother
+._.
+However_CC
+,_,
+you_SPP2
+will_MDWS MDPREDAll
+have_MDNE
+to_IN INother
+skip_VB
+the_DT
+luxury_NN NNother
+and_CC
+much_QUAN
+more_AMP
+comfortable_JJPR JJPRother
+to_IN INother
+do_VB ACT
+so_SO
+._.
+Choose_VIMP MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+have_VB
+a_DT
+budget_NN NNother
+accommodation_NN NCOMP
+where_WHSC WHSCother
+you_SPP2
+have_VPRT
+a_DT
+kitchen_NN NNother
+to_IN INother
+cook_VB
+your_SPP2
+own_JJAT JJATother
+meals_NN NNother
+and_CC
+visit_VB ACT
+mainly_FREQ
+free_JJAT JJATother
+accommodation_NN NOMZ
+._.
+You_SPP2
+can_MDCA MDPOSSCAll SPLIT
+also_CC
+save_VB ACT
+more_AMP
+on_IN INother
+air_NN NNother
+tickets_NN NCOMP
+by_IN INother
+booking_VBG
+them_TPP3P
+through_IN INother
+EaseMyTrip_NN NNP
+._.
+One_PRPother
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+deny_VB COMM
+the_DT
+fact_NN NSTNCother
+that_THSC THSCother
+this_DEMO
+world_NN NNother
+is_VPRT BEMA
+full_JJPR JJPRother
+of_IN INother
+masterpieces_NN NNother
+and_CC
+non-traditional_JJAT JJATother
+architectures_NN NNother
+._.
+There_EX
+are_VPRT
+several_QUAN
+unique_JJAT JJATother
+things_NN NNother
+on_IN INother
+this_DEMO
+planet_NN NNPLACE
+,_,
+including_VBG EXIST
+weird_JJAT JJATother
+and_CC
+unusual_JJAT JJATother
+restaurants_NN NNPLACE
+of_IN INother
+the_DT
+world_NN NNother
+,_,
+strange_JJAT JJATother
+and_CC
+unique_JJAT JJATother
+temples_NN NNother
+,_,
+and_CC
+unusual_JJAT JJATother
+museums_NN NNPLACE
+around_IN INother
+the_DT
+globe_NN NNother
+._.
+Many_QUAN
+architects_NN NNother
+have_VPRT
+created_PEAS
+countless_JJAT JJATother
+man_NN NNHUMAN
+-_HYPH
+made_VBN ACT
+structures_NN NNABSPROC
+and_CC
+large_JJAT JJDESCAll JJSIZE
+buildings_NN NNPLACE
+that_THRC THRCother
+not_XX0
+only_RB RBother
+amaze_VB
+visitors_NN NNother
+but_CC
+also_CC
+have_VPRT
+gone_PEAS
+beyond_IN INother
+the_DT
+boundaries_NN NNPLACE
+of_IN INother
+nature_NN NNABSPROC
+._.
+There_EX
+are_VPRT
+numerous_JJAT JJATother
+incredible_JJAT JJATother
+buildings_NN NNPLACE
+in_IN INother
+the_DT
+world_NN NNother
+that_THRC THRCother
+are_VPRT
+known_PASS PASSAll MENTAL
+for_IN INother
+their_TPP3P
+far_PLACE
+-_HYPH
+out_RB RBother
+shapes_NN NNABSPROC
+,_,
+awe_NN NNother
+-_HYPH
+inspiring_VBG
+designs_NN NNABSPROC
+,_,
+and_CC
+unique_JJAT JJATother
+styles_NN NNABSPROC
+._.
+We_FPP1P FPPAll
+have_VPRT
+compiled_PEAS
+some_QUAN
+of_IN INother
+the_DT
+most_EMPH
+remarkable_JJAT JJATother
+structures_NN NNABSPROC
+in_IN INother
+the_DT
+world_NN NNother
+you_SPP2
+love_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+visit_VB ACT
+._.
+Independence_NN NNP
+Temple_NN NNP
+,_,
+USA_NN NNP
+Independence_NN NNP
+Temple_NN NNP
+is_VPRT BEMA
+a_DT
+house_NN NNGRP
+of_IN INother
+worship_NN NNother
+and_CC
+education_NN NNABSPROC
+that_THRC THRCother
+is_VPRT
+dedicated_PASS PASSAll
+to_IN INother
+the_DT
+pursuit_NN NNother
+of_IN INother
+peace_NN NNother
+._.
+It_PIT
+is_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+most_EMPH
+unusual_JJAT JJATother
+structures_NN NNABSPROC
+of_IN INother
+the_DT
+world_NN NNother
+._.
+The_DT
+charming_JJAT JJATother
+architecture_NN NNother
+in_IN INother
+Missouri_NN NNP
+dominates_VPRT
+the_DT
+skyline_NN NNother
+of_IN INother
+the_DT
+city_NN NNPLACE
+._.
+The_DT
+temple_NN NNother
+is_VPRT BEMA
+the_DT
+key_JJAT JJATother
+point_NN NNother
+of_IN INother
+the_DT
+headquarters_NN NNother
+of_IN INother
+the_DT
+Community_NN NNGRP
+of_IN INother
+Christ_NN NNP
+._.
+Built_VBN
+by_IN INother
+the_DT
+Community_NN NNGRP
+of_IN INother
+Christ_NN NNP
+in_IN INother
+response_NN NNother
+to_IN INother
+a_DT
+revelation_NN NOMZ
+,_,
+architecture_NN NNother
+of_IN INother
+the_DT
+temple_NN NNother
+reminds_VPRT MENTAL
+the_DT
+curved_JJAT JJATother
+shell_NN NNCONC
+of_IN INother
+the_DT
+Nautilus_JJAT JJATother
+with_IN INother
+a_DT
+stainless_JJAT JJATother
+steel_NN NNCONC
+spire_NN NCOMP
+rising_VBG OCCUR
+up_RP
+to_IN INother
+300_CD
+feet_NN NNCONC
+._.
+It_PIT
+presents_VPRT
+an_DT
+assortment_NN NOMZ
+of_IN INother
+modern_JJAT JJATother
+and_CC
+traditional_JJAT JJATother
+religious_JJAT JJATother
+art_NN NNother
+from_IN INother
+all_QUAN
+around_IN INother
+the_DT
+world_NN NNother
+._.
+Ren_NN NNP
+Building_NN NNP
+,_,
+China_NN NNP
+Ren_NN NNP
+Building_NN NNP
+is_VPRT BEMA
+an_DT
+attractively_RB RBother
+designed_VBN
+building_NN NNPLACE
+in_IN INother
+Shanghai_NN NNP
+._.
+Copenhagen_NN NNP
+’s_POS
+Bjarke_NN NNP
+Ingels_NN NNP
+Group_NN NNP
+(_-LRB-
+BIG_NN NNP
+)_-RRB-
+proposed_VBD COMM
+this_DEMO
+striking_JJAT JJATother
+design_NN NNABSPROC
+of_IN INother
+this_DEMO
+building_NN NNPLACE
+replicating_VBG
+the_DT
+Chinese_JJAT JJATother
+character_NN NNother
+of_IN INother
+Person_NN NNHUMAN
+to_IN INother
+correspond_VB
+with_IN INother
+Shanghai_NN NNP
+’s_POS
+“_``
+Better_NN NNP
+City_NN NNP
+,_,
+Better_NN NNP
+Life_NN NNP
+”_''
+2010_CD
+World_NN NNP
+Expo_NN NNP
+._.
+The_DT
+project_NN NNother
+was_VBD
+proposed_PASS PASSAll COMM
+for_IN INother
+a_DT
+hotel_NN NNGRP
+,_,
+sports_NN NNother
+and_CC
+conference_NN NNother
+centre_NN NCOMP
+._.
+The_DT
+building_NN NNPLACE
+was_VBD
+visualised_PASS PASSAll
+as_IN INother
+two_CD
+buildings_NN NNPLACE
+blending_VBG
+into_IN INother
+one_CD
+._.
+The_DT
+first_JJAT JJATother
+building_NN NNPLACE
+that_THRC THRCother
+emerged_VBD OCCUR
+from_IN INother
+the_DT
+water_NN NNCONC
+was_VBD
+dedicated_PASS PASSAll
+to_IN INother
+activities_NN NNABSPROC
+of_IN INother
+the_DT
+body_NN NNCONC
+and_CC
+housed_VBN
+sports_NN NNother
+and_CC
+water_NN NNCONC
+culture_NN NCOMP
+center_NN NNTECH
+._.
+The_DT
+other_JJAT JJATother
+building_NN NNPLACE
+that_THRC THRCother
+emerged_VBD OCCUR
+from_IN INother
+the_DT
+land_NN NNPLACE
+was_VBD
+dedicated_PASS PASSAll
+to_IN INother
+the_DT
+spirit_NN NNother
+and_CC
+enlightenment_NN NOMZ
+and_CC
+housed_VBN
+a_DT
+tastefully_RB RBother
+equipped_VBN
+conference_NN NNother
+center_NN NCOMP
+._.
+Wing_NN NNP
+Shape_NN NCOMP
+Zayed_NN NNP
+National_NN NNP
+Museum_NN NNP
+,_,
+United_NN NNP
+Arab_NN NNP
+Emirates_NN NNP
+Situated_VBN
+on_IN INother
+Saadiyat_NN NNP
+Island_NN NNP
+,_,
+Abu_NN NNP
+Dhabi_NN NNP
+,_,
+UAE_NN NNP
+,_,
+this_DEMO
+is_VPRT BEMA
+the_DT
+first_JJAT JJATother
+museum_NN NNPLACE
+in_IN INother
+the_DT
+island_NN NNother
+that_THRC THRCother
+showcases_VPRT
+the_DT
+history_NN NNother
+,_,
+culture_NN NNABSPROC
+,_,
+and_CC
+the_DT
+socio_GW
+-_HYPH
+economic_JJAT JJATother
+transformation_NN NOMZ
+of_IN INother
+the_DT
+country_NN NNPLACE
+._.
+It_PIT
+features_VPRT
+five_CD
+wing_NN NNother
+-_HYPH
+shaped_VBN
+towers_NN NNother
+projecting_VBG
+from_IN INother
+an_DT
+artificially_RB RBother
+landscaped_VBN
+mound_NN NNCONC
+having_VBG
+the_DT
+galleries_NN NNother
+._.
+The_DT
+towers_NN NNother
+seem_VPRT EXIST
+like_LIKE
+thermal_JJAT JJATother
+chimneys_NN NNother
+._.
+The_DT
+museum_NN NNPLACE
+has_VPRT
+different_JJAT JJREL
+performance_NN NNABSPROC
+spaces_NN NCOMP
+._.
+Its_PIT
+large_JJAT JJDESCAll JJSIZE
+auditorium_NN NNother
+boasts_VPRT
+of_IN INother
+a_DT
+reminiscent_JJAT JJATother
+set_NN NNABSPROC
+for_IN INother
+presentations_NN NNABSPROC
+and_CC
+films_NN NNCONC
+._.
+The_DT
+lobby_NN NNother
+blends_VPRT
+with_IN INother
+more_QUAN
+venues_NN NNother
+to_IN INother
+create_VB
+a_DT
+perfect_JJAT JJATother
+atmosphere_NN NNother
+for_IN INother
+traditional_JJAT JJATother
+performances_NN NNABSPROC
+including_VBG EXIST
+poetry_NN NNother
+readings_NN NCOMP
+,_,
+music_NN NNABSPROC
+,_,
+and_CC
+dance_NN NNother
+._.
+Basket_NN NNP
+Building_NN NNP
+,_,
+USA_NN NNP
+Built_VBN
+in_IN INother
+shape_NN NNABSPROC
+of_IN INother
+a_DT
+giant_JJAT JJATother
+basket_NN NNother
+,_,
+Basket_NN NNP
+Building_NN NNP
+is_VPRT BEMA
+a_DT
+beautiful_JJAT JJEVAL
+structure_NN NNABSPROC
+and_CC
+a_DT
+visual_JJAT JJTOPIC
+treat_NN NNother
+for_IN INother
+those_DEMO
+seeking_VBG
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+admire_VB
+unique_JJAT JJATother
+things_NN NNother
+of_IN INother
+the_DT
+world_NN NNother
+._.
+Situated_VBN
+in_IN INother
+Ohio_NN NNP
+,_,
+USA_NN NNP
+,_,
+it_PIT
+is_VPRT BEMA
+among_IN INother
+some_QUAN
+of_IN INother
+the_DT
+weird_JJAT JJATother
+structures_NN NNABSPROC
+of_IN INother
+the_DT
+world_NN NNother
+housing_VBG
+the_DT
+headquarters_NN NNother
+of_IN INother
+Longaberger_NN NNP
+Basket_NN NNP
+Company_NN NNP
+._.
+The_DT
+unique_JJAT JJATother
+building_NN NNPLACE
+is_VPRT BEMA
+an_DT
+exact_JJAT JJATother
+imitation_NN NOMZ
+of_IN INother
+a_DT
+normal_JJAT JJATother
+shopping_NN NNother
+basket_NN NCOMP
+and_CC
+160_CD
+times_NN NNQUANT
+larger_JJPR JJPRother
+than_IN INother
+a_DT
+Longaberger_NN NNP
+’s_POS
+medium_NN NNother
+basket_NN NCOMP
+._.
+Due_IN INother
+to_IN INother
+its_PIT
+exclusive_JJAT JJATother
+shape_NN NNABSPROC
+,_,
+it_PIT
+turned_VBD ACT
+into_IN INother
+one_CD
+of_IN INother
+most_JJAT EMPH
+prime_JJAT JJATother
+tourist_NN NNHUMAN
+attraction_NN NCOMP
+points_NN NNother
+of_IN INother
+the_DT
+city_NN NNPLACE
+._.
+With_IN INother
+a_DT
+wonderful_JJAT JJATother
+design_NN NNABSPROC
+preserving_VBG
+all_QUAN
+the_DT
+details_NN NNABSPROC
+,_,
+this_DEMO
+unique_JJAT JJATother
+building_NN NNPLACE
+has_VPRT
+two_CD
+attached_VBN
+handles_NN NNother
+._.
+Cybertecture_NN NNother
+Egg_NN NNP
+Office_NN NNP
+Building_NN NNP
+,_,
+India_NN NNP
+Blending_VBG
+a_DT
+natural_JJAT JJATother
+shape_NN NNABSPROC
+with_IN INother
+innovative_JJAT JJATother
+technologies_NN NNother
+,_,
+this_DEMO
+exclusive_JJAT JJATother
+poultry_NN NNother
+-_HYPH
+inspired_VBN
+office_NN NNPLACE
+building_NN NCOMP
+is_VPRT BEMA
+an_DT
+architectural_JJAT JJATother
+wonder_NN NNother
+for_IN INother
+the_DT
+visitors_NN NNother
+._.
+The_DT
+building_NN NNPLACE
+is_VPRT
+designed_PASS PASSAll
+by_IN INother
+a_DT
+firm_NN NNGRP
+based_VBN
+in_IN INother
+Hong_NN NNP
+Kong_NN NNP
+._.
+The_DT
+building_NN NNPLACE
+boasts_VPRT
+of_IN INother
+an_DT
+iconic_JJAT JJATother
+architecture_NN NNother
+complimented_VBN
+with_IN INother
+environmental_JJAT JJTOPIC
+design_NN NNABSPROC
+,_,
+excellent_JJAT JJATother
+control_NN NNABSPROC
+systems_NN NCOMP
+,_,
+and_CC
+evolutionary_JJAT JJATother
+engineering_NN NNother
+._.
+These_DEMO
+features_NN NNABSPROC
+create_VPRT
+the_DT
+most_EMPH
+exclusive_JJAT JJATother
+building_NN NNPLACE
+for_IN INother
+the_DT
+city_NN NNPLACE
+of_IN INother
+Mumbai_NN NNP
+._.
+Earth_NN NNP
+House_NN NNP
+,_,
+Switzerland_NN NNP
+Resembling_NN NNP
+to_IN INother
+real_JJAT JJATother
+life_NN NNABSPROC
+Hobbit_NN NNP
+holes_NN NCOMP
+,_,
+Earth_NN NNP
+House_NN NNP
+is_VPRT BEMA
+an_DT
+architectural_JJAT JJATother
+marvel_NN NNother
+styled_VBN
+through_IN INother
+the_DT
+natural_JJAT JJATother
+terrains_NN NNother
+for_IN INother
+forming_VBG ACT
+the_DT
+walls_NN NNCONC
+of_IN INother
+a_DT
+house_NN NNGRP
+._.
+These_DEMO
+are_VPRT
+really_RB EMPH
+homes_NN NNGRP
+erected_VBD
+into_IN INother
+hillsides_NN NNother
+,_,
+with_IN INother
+banked_VBN
+earth_NN NNPLACE
+situated_VBN
+on_IN INother
+the_DT
+top_NN NNPLACE
+of_IN INother
+the_DT
+basic_JJAT JJATother
+structures_NN NNABSPROC
+._.
+People_NN NNHUMAN
+live_VPRT EXIST
+in_IN INother
+this_DEMO
+residence_NN NNPLACE
+from_IN INother
+many_QUAN
+years_NN NNother
+._.
+It_PIT
+is_VPRT BEMA
+among_IN INother
+the_DT
+most_EMPH
+unusual_JJAT JJATother
+houses_NN NNGRP
+of_IN INother
+the_DT
+world_NN NNother
+._.
+Bubble_NN NNCONC
+Palace_NN NCOMP
+,_,
+France_NN NNP
+Also_CC
+known_VBN MENTAL
+as_IN INother
+Palais_NN NNP
+Bulles_NN NNP
+,_,
+Bubble_NN NNCONC
+Palace_NN NCOMP
+is_VPRT BEMA
+a_DT
+huge_JJAT JJDESCAll JJSIZE
+residence_NN NNPLACE
+in_IN INother
+Théoule_NN NNP
+-_HYPH
+sur_FW
+-_HYPH
+Mer_NN NNother
+,_,
+close_JJPR JJPRother
+to_IN INother
+Cannes_NN NNP
+,_,
+France_NN NNP
+._.
+The_DT
+building_NN NNPLACE
+was_VBD
+designed_PASS PASSAll
+by_IN INother
+the_DT
+Hungarian_JJAT JJATother
+architect_NN NNother
+Antti_NN NNP
+Lovag_NN NNP
+and_CC
+the_DT
+period_NN NNQUANT
+of_IN INother
+its_PIT
+construction_NN NNABSPROC
+was_VBD BEMA
+from_IN INother
+1975_CD
+to_IN INother
+1989_CD
+._.
+The_DT
+palace_NN NNother
+was_VBD
+actually_DMA
+built_VBN
+for_IN INother
+a_DT
+French_JJAT JJATother
+industrialist_NN NNother
+but_CC
+later_TIME
+on_RB RBother
+,_,
+a_DT
+fashion_NN NNother
+designer_NN NCOMP
+named_VBN
+Pierre_NN NNP
+Cardin_NN NNP
+bought_VBD ACT
+it_PIT
+as_IN INother
+his_TPP3S
+holiday_NN NNother
+home_NN NCOMP
+._.
+The_DT
+1200_CD
+square_JJAT JJATother
+meters_NN NNQUANT
+house_NN NCOMP
+comprises_VPRT
+a_DT
+front_JJAT JJATother
+area_NN NNPLACE
+,_,
+panoramic_JJAT JJATother
+lounge_NN NNother
+,_,
+500_CD
+-_HYPH
+seat_NN NNCONC
+open_JJPR JJPRother
+-_HYPH
+air_NN NNother
+amphitheatre_NN NCOMP
+,_,
+10_CD
+bedrooms_NN NNother
+,_,
+numerous_JJAT JJATother
+swimming_NN NNother
+pools_NN NCOMP
+and_CC
+waterfalls_NN NNother
+._.
+It_PIT
+is_VPRT
+decorated_PASS PASSAll
+very_AMP
+beautifully_RB RBother
+._.
+Casa_NN NNP
+Batllo_NN NNP
+,_,
+Spain_NN NNP
+Situated_VBN
+in_IN INother
+the_DT
+heart_NN NNCONC
+of_IN INother
+Barcelona_NN NNP
+,_,
+Casa_NN NNP
+Batllo_NN NNP
+is_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+masterpieces_NN NNother
+of_IN INother
+Antoni_NN NNP
+Gaudí_NN NNP
+._.
+Comprised_VBN
+of_IN INother
+a_DT
+beautiful_JJAT JJEVAL
+color_NN NNABSPROC
+combination_NN NCOMP
+and_CC
+offering_NN NNother
+fantastic_JJAT JJATother
+architectural_JJAT JJATother
+splendour_NN NNother
+,_,
+it_PIT
+is_VPRT BEMA
+an_DT
+amazing_JJAT JJATother
+building_NN NNPLACE
+that_THRC THRCother
+captivates_VPRT
+the_DT
+visitors_NN NNother
+with_IN INother
+its_PIT
+rare_JJAT JJATother
+charm_NN NNother
+._.
+The_DT
+current_JJAT JJATother
+building_NN NNPLACE
+is_VPRT BEMA
+the_DT
+remodel_NN NNother
+of_IN INother
+a_DT
+formerly_TIME
+built_VBN
+house_NN NNGRP
+,_,
+which_WHSC WHSCother
+was_VBD
+restructured_PASS PASSAll
+by_IN INother
+Gaudí_NN NNP
+in_IN INother
+1904_CD
+._.
+It_PIT
+has_VPRT
+been_PEAS
+refurbished_PASS PASSAll
+many_QUAN
+times_NN NNQUANT
+post_VPRT
+that_DEMO
+._.
+Casa_NN NNP
+Terracota_NN NNP
+,_,
+Colombia_NN NNP
+Also_CC
+called_VBD COMM
+as_IN INother
+Ceramic_NN NNP
+House_NN NNP
+,_,
+Casa_NN NNP
+Terracota_NN NNP
+is_VPRT SPLIT
+entirely_AMP
+built_PASS PASSAll
+by_IN INother
+hand_NN NNCONC
+through_IN INother
+clay_NN NNCONC
+and_CC
+parched_JJPR JJPRother
+in_IN INother
+the_DT
+sun_NN NNother
+._.
+Located_VBN
+in_IN INother
+a_DT
+regal_JJAT JJATother
+mountain_NN NNPLACE
+village_NN NCOMP
+of_IN INother
+Colombia_NN NNP
+,_,
+this_DEMO
+unusual_JJAT JJATother
+structure_NN NNABSPROC
+is_VPRT SPLIT
+also_CC
+known_PASS PASSAll MENTAL
+as_IN INother
+the_DT
+‘_``
+Casa_NN NNP
+de_NN NNP
+Flintstone_NN NNP
+’_''
+or_CC
+Flintstone_NN NNP
+House_NN NNP
+by_IN INother
+locals_NN NNother
+._.
+It_PIT
+appears_VPRT EXIST
+like_LIKE
+a_DT
+large_JJAT JJDESCAll JJSIZE
+mound_NN NNCONC
+of_IN INother
+clay_NN NNCONC
+,_,
+freely_RB RBother
+shaped_VBN
+to_IN INother
+look_VB
+like_LIKE
+a_DT
+cottage_NN NNother
+._.
+This_DEMO
+weird_JJAT JJATother
+structure_NN NNABSPROC
+is_VPRT
+surrounded_PASS PASSAll
+by_IN INother
+lush_JJAT JJATother
+green_JJAT JJDESCAll JJCOLR
+farmland_NN NNother
+and_CC
+positioned_VBN
+against_IN INother
+a_DT
+spectacular_JJAT JJATother
+setting_NN NNABSPROC
+of_IN INother
+the_DT
+mountains_NN NNPLACE
+._.

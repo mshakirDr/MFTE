@@ -1,0 +1,2443 @@
+I_FPP1S FPPAll
+hope_VPRT MENTAL THATD
+some_QUAN
+progress_NN NNABSPROC
+will_MDWS MDPREDAll
+happen_VB OCCUR
+during_IN INother
+President_NN NNP
+Erdogan_NN NNP
+'s_POS
+visit_NN NNother
+,_,
+about_IN INother
+defence_NN NNother
+relation_NN NCOMP
+Mahathir_NN NNP
+,_,
+Rouhani_NN NNP
+,_,
+Imran_NN NNP
+,_,
+Erdogan_NN NNP
+likely_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+visit_VB ACT
+Dhaka_NN NNP
+D_NN NNP
+-_HYPH
+8_CD
+summit_NN NNother
+in_IN INother
+May_NN NNP
+30_CD
+-_SYM
+31_CD
+Shahidul_NN NNP
+Islam_NN NNP
+Chowdhury_NN NNP
+|_,
+Published_VBN
+:_:
+00:15_CD
+,_,
+Feb_NN NNP
+14,2020_CD
+|_NFP
+Updated_VBN
+:_:
+00:18_CD
+,_,
+Feb_NN NNP
+14,2020_CD
+Top_JJAT JJREL
+leaders_NN NNHUMAN
+of_IN INother
+eight_CD
+countries_NN NNPLACE
+are_VPRT BEMA
+highly_AMP
+likely_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+be_VB BEMA
+in_IN INother
+Dhaka_NN NNP
+on_IN INother
+May_NN NNP
+30_CD
+and_CC
+31_CD
+for_IN INother
+joining_VBG ACT
+a_DT
+summit_NN NNother
+meeting_NN NCOMP
+of_IN INother
+D_NN NNP
+-_HYPH
+8_CD
+Organisation_NN NNP
+for_IN INother
+Economic_NN NNP
+Cooperation_NN NNP
+,_,
+a_DT
+group_NN NNother
+of_IN INother
+eight_CD
+Muslim_JJPR JJPRother
+-_HYPH
+majority_NN NOMZ
+developing_VBG OCCUR
+countries_NN NNPLACE
+._.
+The_DT
+Malaysian_JJAT JJATother
+government_NN NNGRP
+has_VPRT SPLIT
+formally_RB RBother
+confirmed_PEAS MENTAL
+the_DT
+visit_NN NNother
+of_IN INother
+its_PIT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+Mahathir_NN NNP
+Mohamad_NN NNP
+,_,
+and_CC
+several_QUAN
+countries_NN NNPLACE
+have_VPRT SPLIT
+also_CC
+informally_RB RBother
+confirmed_PEAS MENTAL
+that_THSC THSCother
+their_TPP3P
+heads_NN NNCONC
+of_IN INother
+the_DT
+government_NN NNGRP
+would_MDWO MDPREDAll
+join_VB ACT
+the_DT
+summit_NN NNother
+,_,
+diplomatic_JJAT JJATother
+sources_NN NNABSPROC
+said_VBD COMM
+._.
+Bangladesh_NN NNP
+,_,
+Egypt_NN NNP
+,_,
+Indonesia_NN NNP
+,_,
+Iran_NN NNP
+,_,
+Malaysia_NN NNP
+,_,
+Nigeria_NN NNP
+,_,
+Pakistan_NN NNP
+and_CC
+Turkey_NN NNP
+are_VPRT BEMA
+members_NN NNHUMAN
+of_IN INother
+the_DT
+organisation_NN NOMZ
+,_,
+also_CC
+known_VBN MENTAL
+as_IN INother
+Developing_VBG OCCUR
+-_HYPH
+8_CD
+._.
+The_DT
+government_NN NNGRP
+will_MDWS MDPREDAll SPLIT
+also_CC
+send_VB ACT
+invitations_NN NOMZ
+to_IN INother
+Egyptian_JJAT JJATother
+president_NN NNHUMAN
+Abdel_NN NNP
+Fattah_NN NNP
+el_NN NNP
+-_HYPH
+Sisi_NN NNP
+,_,
+Indonesian_JJAT JJATother
+president_NN NNHUMAN
+Joko_NN NNP
+Widodo_NN NNP
+,_,
+Iranian_JJAT JJATother
+president_NN NNHUMAN
+Hassan_NN NNP
+Rouhani_NN NNP
+,_,
+Malaysian_JJAT JJATother
+president_NN NNHUMAN
+Mahathir_NN NNP
+Mohamad_NN NNP
+,_,
+Nigerian_JJAT JJATother
+president_NN NNHUMAN
+Muhammadu_NN NNP
+Buhari_NN NNP
+,_,
+Pakistan_NN NNP
+prime_JJAT JJATother
+minister_NN NNHUMAN
+Imran_NN NNP
+Ahmed_NN NNP
+Khan_NN NNP
+Niazi_NN NNP
+and_CC
+Turkish_JJAT JJATother
+president_NN NNHUMAN
+Recep_NN NNP
+Tayyip_NN NNP
+Erdogan_NN NNP
+to_IN INother
+visit_VB ACT
+Bangladesh_NN NNP
+,_,
+officials_NN NNHUMAN
+said_VBD COMM
+._.
+Foreign_JJAT JJATother
+ministers_NN NNHUMAN
+of_IN INother
+the_DT
+member_NN NNHUMAN
+countries_NN NCOMP
+are_VPRT SPLIT
+also_CC
+expected_PASS PASSAll MENTAL
+to_IN INother
+join_VB ACT
+a_DT
+council_NN NNother
+meeting_NN NCOMP
+before_IN INother
+the_DT
+summit_NN NNother
+set_VBD
+for_IN INother
+May_NN NNP
+30_CD
+._.
+The_DT
+D_NN NNP
+-_HYPH
+8_CD
+leaders_NN NNHUMAN
+are_VPRT BEMA
+likely_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+visit_VB ACT
+Rohingya_NN NNP
+camps_NN NCOMP
+in_IN INother
+Cox_NN NNP
+’s_POS
+Bazar_NN NNP
+on_IN INother
+May_NN NNP
+31_CD
+._.
+Developing_VBG OCCUR
+-_HYPH
+8_CD
+was_VBD
+established_PASS PASSAll
+in_IN INother
+1997_CD
+,_,
+with_IN INother
+its_PIT
+headquarters_NN NNother
+in_IN INother
+Istanbul_NN NNP
+._.
+Its_PIT
+objectives_NN NNABSPROC
+are_VPRT
+to_IN INother
+improve_VB
+member_NN NNHUMAN
+states_NN NCOMP
+’_POS
+position_NN NNABSPROC
+in_IN INother
+the_DT
+global_JJAT JJATother
+economy_NN NNABSPROC
+,_,
+diversity_NN NNABSPROC
+and_CC
+create_VB
+new_JJAT JJTIME
+opportunities_NN NNABSPROC
+in_IN PrepNSTNC
+trade_NN NNABSPROC
+relations_NN NCOMP
+,_,
+and_CC
+enhance_VB
+participation_NN NOMZ
+in_IN INother
+decision_NN NSTNCother
+-_HYPH
+making_VBG ACT
+at_IN INother
+international_JJAT JJATother
+level_NN NNABSPROC
+,_,
+among_IN INother
+others_NN NNother
+._.
+Link_NN NNABSPROC
+:_:
+https://www.newagebd.net/article/99523/mahathir-rouhani-imran-erdogan-likely-to-visit-dhaka_URL
+07:50_CD
+PM_NN NNother
+,_,
+September_NN NNP
+14_CD
+,_,
+2020_CD
+/_,
+LAST_NN NNother
+MODIFIED_VBN
+:_:
+08:09_CD
+PM_NN NNother
+,_,
+September_NN NNP
+14_CD
+,_,
+2020_CD
+Bangladesh_NN NNP
+keen_JJPR JJPRother
+to_IN INother
+deepen_VB
+ties_NN NNother
+with_IN INother
+Turkey_NN NNP
+:_:
+PM_NN NNother
+UNB_NN NNP
+,_,
+Dhaka_NN NNP
+Prime_NN NNP
+Minister_NN NNP
+Sheikh_NN NNP
+Hasina_NN NNP
+today_TIME
+said_VBD COMM THATD
+Bangladesh_NN NNP
+is_VPRT BEMA
+keen_JJPR JJPRother
+to_IN INother
+boost_VB
+its_PIT
+relationship_NN NNABSPROC
+with_IN INother
+Turkey_NN NNP
+as_IN INother
+it_PIT
+is_VPRT SPLIT
+deeply_RB RBother
+rooted_PASS PASSAll
+in_IN INother
+shared_VBN ACT
+history_NN NNother
+,_,
+faith_NN NNother
+and_CC
+traditions_NN NNABSPROC
+based_VBN
+on_IN INother
+trust_NN NNother
+and_CC
+confidence_NN NNother
+._.
+The_DT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+said_VBD COMM
+this_DEMO
+while_CC
+virtually_RB RBother
+opening_VBG ACT
+Bangladesh_NN NNP
+'s_POS
+Embassy_NN NNP
+complex_NN NCOMP
+in_IN INother
+Ankara_NN NNP
+from_IN INother
+her_TPP3S
+official_JJAT JJTOPIC
+residence_NN NNPLACE
+Gono_NN NNP
+Bhaban_NN NNP
+._.
+Turkish_JJAT JJATother
+Foreign_NN NNP
+Minister_NN NNP
+Mevlut_NN NNP
+Cavusoglu_NN NNP
+and_CC
+Bangladesh_NN NNP
+Foreign_NN NNP
+Minister_NN NNP
+Dr_NN NNP
+AK_NN NNP
+Abdul_NN NNP
+Momen_NN NNP
+also_CC
+spoke_VBD COMM
+at_IN INother
+the_DT
+programme_NN NNother
+._.
+The_DT
+PM_NN NNother
+recalled_VBD MENTAL
+her_TPP3S
+visit_NN NNother
+to_IN INother
+Ankara_NN NNP
+at_IN INother
+the_DT
+invitation_NN NOMZ
+of_IN INother
+then_RB RBother
+Prime_NN NNP
+Minister_NN NNP
+and_CC
+now_TIME
+President_NN NNP
+of_IN INother
+Turkey_NN NNP
+Recep_NN NNP
+Tayyip_NN NNP
+Erdogan_NN NNP
+on_IN INother
+April_NN NNP
+13_CD
+,_,
+2012_CD
+and_CC
+said_VBD COMM
+the_DT
+formal_JJAT JJATother
+diplomatic_JJAT JJATother
+ties_NN NNother
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+began_VBD ASPECT
+in_IN INother
+1974_CD
+._.
+On_IN INother
+behalf_NN NNother
+of_IN INother
+the_DT
+Bangladesh_NN NNP
+government_NN NCOMP
+and_CC
+herself_TPP3S
+,_,
+Sheikh_NN NNP
+Hasina_NN NNP
+thanked_VBD COMM
+Turkey_NN NNP
+for_IN INother
+extending_VBG ACT
+support_NN NNABSPROC
+to_IN INother
+Bangladesh_NN NNP
+on_IN INother
+various_JJAT JJREL
+issues_NN NNABSPROC
+,_,
+including_VBG EXIST
+the_DT
+Rohingya_NN NNP
+crisis_NN NCOMP
+._.
+"_``
+All_QUAN
+the_DT
+support_NN NNABSPROC
+you_SPP2
+extended_VBD ACT
+for_IN INother
+[_-LRB-
+resolving_VBG
+]_-RRB-
+the_DT
+Rohingya_NN NNP
+crisis_NN NCOMP
+,_,
+we_FPP1P FPPAll
+also_CC
+thank_VPRT COMM POLITE
+you_SPP2
+for_IN INother
+your_SPP2
+support_NN NNABSPROC
+…_.
+I_FPP1S FPPAll
+think_VPRT MENTAL THATD
+it_PIT
+has_VPRT
+been_PEAS BEMA
+nearly_DWNT
+three_CD
+years_NN NNother
+[_-LRB-
+since_IN INother
+the_DT
+crisis_NN NNother
+broke_VBD
+out_RP
+]_-RRB-
+._.
+So_SO
+,_,
+Rohingya_NN NNP
+people_NN NCOMP
+should_MDNE
+go_VB
+back_RB RBother
+to_IN INother
+their_TPP3P
+own_JJAT JJATother
+country_NN NNPLACE
+._.
+I_FPP1S FPPAll
+feel_VPRT MENTAL THATD
+Turkey_NN NNP
+can_MDCA MDPOSSCAll
+play_VB ACT
+a_DT
+pivotal_JJAT JJATother
+role_NN NNABSPROC
+in_IN INother
+this_DEMO
+regard_NN NNother
+,_,
+"_''
+she_TPP3S
+said_VBD COMM
+._.
+About_IN INother
+the_DT
+Covid_NN NNP
+-_HYPH
+19_CD
+crisis_NN NNother
+,_,
+the_DT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+said_VBD COMM THATD
+the_DT
+world_NN NNother
+is_VPRT
+enduring_PROG
+a_DT
+difficult_JJAT JJATother
+time_NN NNQUANT
+due_IN INother
+to_IN INother
+the_DT
+pandemic_NN NNother
+as_IN INother
+it_PIT
+has_VPRT
+battered_PEAS
+the_DT
+health_NN NNABSPROC
+systems_NN NCOMP
+and_CC
+the_DT
+economies_NN NNABSPROC
+of_IN INother
+most_JJAT EMPH
+countries_NN NNPLACE
+._.
+In_IN INother
+Bangladesh_NN NNP
+,_,
+she_TPP3S
+said_VBD COMM
+,_,
+they_TPP3P
+have_VPRT
+been_PEAS
+able_ABLE
+to_IN SPLIT
+successfully_RB RBother
+contain_VB EXIST
+the_DT
+spread_NN NNother
+of_IN INother
+the_DT
+virus_NN NNTECH
+._.
+"_``
+At_IN INother
+the_DT
+same_JJAT JJREL
+time_NN NNQUANT
+our_FPP1P FPPAll
+timely_JJAT JJATother
+and_CC
+appropriate_JJAT JJATother
+measures_NN NNQUANT
+and_CC
+stimulus_NN NNABSPROC
+packages_NN NCOMP
+have_VPRT SPLIT
+also_CC
+been_PEAS
+able_ABLE
+to_IN INother
+minimise_VB
+the_DT
+disastrous_JJAT JJATother
+effects_NN NNABSPROC
+of_IN INother
+the_DT
+deadly_JJAT JJATother
+disease_NN NNother
+._.
+We_FPP1P FPPAll
+'ve_VPRT CONT
+so_EMPH
+far_TIME
+announced_PEAS COMM
+a_DT
+set_NN NNABSPROC
+of_IN INother
+Covid_NN NNP
+-_HYPH
+19_CD
+recovery_NN NNother
+packages_NN NCOMP
+worth_JJAT JJATother
+13.25_CD
+billion_CD
+dollars_NN NNCONC
+,_,
+equivalent_JJPR JJPRother
+to_IN INother
+4.03_CD
+percent_NN NNQUANT
+of_IN INother
+our_FPP1P FPPAll
+GDP_NN NNother
+._.
+"_''
+The_DT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+also_CC
+commended_VBD
+Turkish_JJAT JJATother
+leadership_NN NNABSPROC
+for_IN INother
+its_PIT
+success_NN NNABSPROC
+in_IN INother
+fighting_VBG
+the_DT
+deadly_JJAT JJATother
+pandemic_NN NNother
+and_CC
+appreciated_VBD MENTAL
+its_PIT
+initiative_NN NNother
+to_IN INother
+dispatch_VB
+medical_JJAT JJTOPIC
+supplies_NN NNother
+to_IN INother
+different_JJAT JJREL
+countries_NN NNPLACE
+,_,
+including_VBG EXIST
+Bangladesh_NN NNP
+._.
+She_TPP3S
+said_VBD COMM THATD
+Bangladesh_NN NNP
+is_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+fastest_JJAT JJATother
+-_HYPH
+growing_VBG OCCUR
+economies_NN NNABSPROC
+in_IN INother
+the_DT
+world_NN NNother
+._.
+After_IN INother
+showing_VBG ACT
+some_QUAN
+initial_JJAT JJREL
+sluggishness_NN NOMZ
+for_IN INother
+a_DT
+month_NN NNQUANT
+or_CC
+two_CD
+due_IN INother
+to_IN INother
+the_DT
+pandemic_NN NNother
+,_,
+exports_NN NNother
+have_VPRT
+started_PEAS ASPECT
+making_VBG ACT
+a_DT
+turnaround_NN NNother
+from_IN INother
+July_NN NNP
+._.
+"_``
+We_FPP1P FPPAll
+'re_VPRT CONT
+overcoming_PROG
+the_DT
+situation_NN NNABSPROC
+._.
+The_DT
+country_NN NNPLACE
+'s_POS
+foreign_JJAT JJATother
+currency_NN NNother
+reserve_NN NCOMP
+now_TIME
+stands_VPRT EXIST
+at_IN INother
+a_DT
+record_JJAT JJATother
+39.40_CD
+billion_CD
+US_NN NNP
+dollars_NN NCOMP
+._.
+We_FPP1P FPPAll
+'re_VPRT CONT BEMA
+on_IN INother
+the_DT
+right_JJAT JJEPSTother
+path_NN NNother
+to_IN INother
+graduate_VB
+from_IN INother
+LDC_NN NNP
+[_-LRB-
+least_RB RBother
+developed_VBN OCCUR
+country_NN NNPLACE
+]_-RRB-
+to_IN INother
+a_DT
+developing_VBG OCCUR
+country_NN NNPLACE
+,_,
+"_''
+she_TPP3S
+said_VBD COMM
+._.
+Talking_VBG COMM
+about_IN INother
+the_DT
+newly_RB RBother
+-_HYPH
+built_VBN
+Embassy_NN NNP
+Complex_NN NNP
+,_,
+the_DT
+Prime_NN NNP
+Minister_NN NNP
+said_VBD COMM THATD
+it_PIT
+took_VBD ACT
+less_QUAN
+than_IN INother
+two_CD
+years_NN NNother
+to_IN INother
+complete_VB ASPECT
+the_DT
+construction_NN NNABSPROC
+of_IN INother
+the_DT
+Embassy_NN NNP
+building_NN NCOMP
+with_IN INother
+the_DT
+help_NN NNABSPROC
+of_IN INother
+the_DT
+Turkish_NN NNP
+as_CC
+well_RB RBother
+as_IN INother
+Bangladesh_NN NNP
+authorities_NN NCOMP
+._.
+The_DT
+distinct_JJAT JJATother
+red_JJPR JJDESCAll JJCOLR
+-_HYPH
+brick_NN NNother
+cladding_NN NCOMP
+on_IN INother
+the_DT
+Embassy_NN NNP
+complex_NN NCOMP
+would_MDWO MDPREDAll
+resonate_VB
+for_IN INother
+long_JJPR JJDESCAll JJSIZE
+the_DT
+Bangladeshi_JJAT JJATother
+architectural_JJAT JJATother
+impression_NN NSTNCother
+and_CC
+heritage_NN NNother
+._.
+The_DT
+spacious_JJAT JJATother
+complex_NN NNABSPROC
+has_VPRT
+all_QUAN
+facilities_NN NNABSPROC
+along_IN INother
+with_IN INother
+a_DT
+beautiful_JJAT JJEVAL
+auditorium_NN NNother
+._.
+It_PIT
+proudly_RB RBother
+hosts_VPRT
+a_DT
+bust_NN NNother
+of_IN INother
+Father_NN NNP
+of_IN INother
+the_DT
+Nation_NN NNP
+Bangabandhu_NN NNP
+Sheikh_NN NNP
+Mujibur_NN NNP
+Rahman_NN NNP
+and_CC
+a_DT
+Shaheed_NN NNP
+Minar_NN NNP
+._.
+To_IN INother
+achieve_VB
+vision_NN NNother
+2021_CD
+and_CC
+2041_CD
+,_,
+she_TPP3S
+said_VBD COMM
+,_,
+Bangladesh_NN NNP
+is_VPRT
+set_PASS PASSAll
+to_IN INother
+expand_VB ACT
+its_PIT
+global_JJAT JJATother
+outreach_NN NNother
+by_IN INother
+establishing_VBG
+many_QUAN
+more_QUAN
+diplomatic_JJAT JJATother
+offices_NN NNPLACE
+._.
+"_``
+This_DEMO
+permanent_JJAT JJATother
+embassy_NN NNother
+complex_NN NCOMP
+in_IN INother
+Ankara_NN NNP
+is_VPRT BEMA
+a_DT
+testimony_NN NNother
+to_IN INother
+the_DT
+priority_NN NOMZ
+Bangladesh_NN NNP
+attaches_VPRT
+to_IN INother
+boost_VB
+further_CC
+its_PIT
+friendship_NN NNother
+with_IN INother
+Turkey_NN NNP
+._.
+The_DT
+recently_TIME
+built_VBN
+Turkish_JJAT JJATother
+Embassy_NN NNP
+building_NN NCOMP
+in_IN INother
+Dhaka_NN NNP
+also_CC
+demonstrates_VPRT VFCTother
+the_DT
+same_JJAT JJREL
+sentiment_NN NOMZ
+,_,
+"_''
+she_TPP3S
+said_VBD COMM
+._.
+She_TPP3S
+hoped_VBD MENTAL
+the_DT
+formal_JJAT JJATother
+opening_NN NNother
+of_IN INother
+the_DT
+Turkish_JJAT JJATother
+Embassy_NN NNP
+building_NN NCOMP
+in_IN INother
+Dhaka_NN NNP
+would_MDWO MDPREDAll SPLIT
+also_CC
+take_VB ACT
+place_NN NNPLACE
+soon_TIME
+with_IN INother
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+President_NN NNP
+Erdogan_NN NNP
+during_IN INother
+the_DT
+ongoing_JJAT JJATother
+Mujib_NN NNP
+Year_NN NNP
+._.
+"_``
+Please_FPUH POLITE
+convey_VB
+my_FPP1S FPPAll
+invitation_NN NOMZ
+to_IN INother
+the_DT
+president_NN NNHUMAN
+and_CC
+the_DT
+first_JJAT JJATother
+lady_NN NNHUMAN
+,_,
+"_''
+the_DT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+requested_VBD
+the_DT
+Turkish_JJAT JJATother
+foreign_JJAT JJATother
+minister_NN NNHUMAN
+._.
+She_TPP3S
+also_CC
+thanked_VBD COMM
+Turkey_NN NNP
+for_IN INother
+repairing_VBG
+the_DT
+Bangladeshi_JJAT JJATother
+Navy_NN NNP
+ship_NN NCOMP
+that_THRC THRCother
+was_VBD
+damaged_PASS PASSAll
+in_IN INother
+the_DT
+recent_JJAT JJTIME
+blasts_NN NNother
+in_IN INother
+Lebanon_NN NNP
+._.
+https://www.thedailystar.net/bangladesh-keen-deepen-ties-turkey-1961169_URL
+8_CD
+December_NN NNP
+,_,
+2020_CD
+05:24:18_CD
+PM_NN NNother
+/_,
+LAST_RB RBother
+MODIFIED_VBN
+:_:
+8_CD
+December_NN NNP
+,_,
+2020_CD
+08:06:45_CD
+PM_NN NNother
+Fast_JJPR JJPRother
+-_HYPH
+growing_VBG OCCUR
+Bangladesh_NN NNP
+attracts_VPRT
+Turkish_JJAT JJATother
+entrepreneurs_NN NNother
+UNB_NN NNP
+,_,
+Dhaka_NN NNP
+Turkish_JJAT JJATother
+Ambassador_NN NNother
+to_IN INother
+Bangladesh_NN NNP
+Mustafa_NN NNP
+Osman_NN NNP
+Turan_NN NNP
+has_VPRT
+said_PEAS COMM
+his_TPP3S
+country_NN NNPLACE
+eyes_VPRT
+an_DT
+increased_VBN OCCUR
+investment_NN NOMZ
+in_IN INother
+Bangladesh_NN NNP
+with_IN INother
+a_DT
+significant_JJAT JJATother
+jump_NN NNother
+in_IN INother
+bilateral_JJAT JJATother
+trade_NN NNABSPROC
+volume_NN NCOMP
+through_IN INother
+product_NN NNother
+diversification_NN NCOMP
+as_IN INother
+Bangladesh_NN NNP
+’s_POS
+economy_NN NNABSPROC
+is_VPRT
+growing_PROG OCCUR
+fast_RB RBother
+._.
+“_``
+We_FPP1P FPPAll
+see_VPRT MENTAL
+a_DT
+Bangladesh_NN NNP
+which_WHSC WHSCother
+has_VPRT
+a_DT
+very_AMP
+bright_JJAT JJDESCAll JJCOLR
+future_NN NNQUANT
+._.
+Its_PIT
+economy_NN NNABSPROC
+is_VPRT
+growing_PROG OCCUR
+fast_RB RBother
+like_LIKE
+ours_FPP1P FPPAll
+._.
+Turkish_JJAT JJATother
+investors_NN NNHUMAN
+are_VPRT BEMA
+keen_JJPR JJPRother
+to_IN INother
+invest_VB
+in_IN INother
+Bangladesh_NN NNP
+as_IN INother
+it_PIT
+offers_VPRT COMM
+attractive_JJAT JJATother
+incentives_NN NNother
+for_IN INother
+foreign_JJAT JJATother
+investors_NN NNHUMAN
+,_,
+”_''
+he_TPP3S
+told_VBD COMM
+UNB_NN NNP
+in_IN INother
+an_DT
+interview_NN NNother
+at_IN INother
+his_TPP3S
+office_NN NNPLACE
+._.
+Ambassador_NN NNP
+Turan_NN NNP
+who_WHSC WHSCother
+came_VBD ACT
+to_IN INother
+Bangladesh_NN NNP
+just_RB EMPH
+before_IN INother
+the_DT
+Covid_NN NNP
+-_HYPH
+19_CD
+pandemic_NN NNother
+said_VBD COMM
+a_DT
+prominent_JJAT JJATother
+Turkish_JJAT JJATother
+company_NN NNGRP
+will_MDWS MDPREDAll
+invest_VB
+US_NN NNP
+$_$
+100_CD
+million_CD
+in_IN INother
+LPG_NN NNP
+(_-LRB-
+Liquefied_NN NNP
+Petroleum_NN NNP
+Gas_NN NNP
+)_-RRB-
+sector_NN NNPLACE
+in_IN INother
+Chattogram_NN NNP
+._.
+“_``
+That_DEMO
+will_MDWS MDPREDAll
+be_VB BEMA
+an_DT
+initial_JJAT JJREL
+investment_NN NOMZ
+._.
+”_''
+He_TPP3S
+said_VBD COMM
+improving_VBG
+trade_NN NNABSPROC
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+,_,
+boosting_VBG
+investment_NN NOMZ
+in_IN INother
+Bangladesh_NN NNP
+,_,
+enhancing_VBG
+cultural_JJPR JJPRother
+and_CC
+people_NN NNHUMAN
+-_HYPH
+to-_JJAT JJATother
+people_NN NNHUMAN
+ties_NN NCOMP
+are_VPRT BEMA
+among_IN INother
+his_TPP3S
+priorities_NN NOMZ
+during_IN INother
+his_TPP3S
+tenure_NN NNother
+in_IN INother
+Bangladesh_NN NNP
+._.
+“_``
+As_IN INother
+an_DT
+envoy_NN NNother
+,_,
+there_EX
+’s_VPRT
+always_FREQ
+a_DT
+desire_NN NNCOG
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+do_VB ACT
+something_QUPR
+more_AMP
+,_,
+”_''
+Ambassador_NN NNP
+Turan_NN NNP
+said_VBD COMM
+,_,
+adding_VBG ACT
+that_THSC THSCother
+he_TPP3S
+is_VPRT BEMA
+lucky_JJPR JJPRother
+to_IN INother
+see_VB MENTAL
+the_DT
+positive_JJAT JJEPSTother
+atmosphere_NN NNother
+in_IN INother
+place_NN NNPLACE
+created_VBN
+by_IN INother
+his_TPP3S
+predecessors_NN NNother
+to_IN INother
+take_VB ACT
+forward_RP
+the_DT
+relations_NN NNCOG
+to_IN INother
+a_DT
+new_JJAT JJTIME
+height_NN NNQUANT
+._.
+The_DT
+envoy_NN NNother
+,_,
+who_WHSC WHSCother
+also_CC
+served_VBD
+in_IN INother
+Italy_NN NNP
+,_,
+Albania_NN NNP
+,_,
+North_NN NNP
+Macedonia_NN NNP
+,_,
+Kosovo_NN NNP
+,_,
+Austria_NN NNP
+,_,
+Afghanistan_NN NNP
+and_CC
+Belgium_NN NNP
+,_,
+laid_VBD
+emphasis_NN NNABSPROC
+on_IN INother
+product_NN NNother
+diversification_NN NCOMP
+to_IN INother
+help_VB CAUSE
+grow_VB OCCUR
+trade_NN NNABSPROC
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+._.
+“_``
+Our_FPP1P FPPAll
+economies_NN NNABSPROC
+are_VPRT
+growing_PROG OCCUR
+quite_RB RBother
+fast_RB RBother
+._.
+We_FPP1P FPPAll
+’re_VPRT BEMA
+happy_JJPR JJPRother
+that_THSC ThSTNCAll ThJSTNCAll ThJATT
+our_FPP1P FPPAll
+economic_JJPR JJPRother
+and_CC
+trade_NN NNABSPROC
+relations_NN NCOMP
+are_VPRT
+improving_PROG
+._.
+We_FPP1P FPPAll
+’re_VPRT
+expecting_PROG MENTAL
+better_JJAT JJATother
+trade_NN NNABSPROC
+volume_NN NCOMP
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+._.
+”_''
+The_DT
+Turkish_JJAT JJATother
+envoy_NN NNother
+said_VBD COMM THATD
+they_TPP3P
+buy_VPRT ACT
+a_DT
+lot_QUAN
+of_IN INother
+jute_NN NNother
+products_NN NCOMP
+from_IN INother
+Bangladesh_NN NNP
+and_CC
+will_MDWS MDPREDAll
+explore_VB ACT
+other_JJAT JJATother
+areas_NN NNPLACE
+saying_VBG COMM
+the_DT
+two_CD
+countries_NN NNPLACE
+can_MDCA MDPOSSCAll SPLIT
+always_FREQ
+diversify_VB
+their_TPP3P
+trade_NN NNABSPROC
+._.
+“_``
+Bangladesh_NN NNP
+has_VPRT
+a_DT
+very_AMP
+strong_JJAT JJATother
+pharmaceutical_JJAT JJATother
+industry_NN NNother
+,_,
+growing_VBG OCCUR
+IT_PRPother
+industry_NN NNother
+,_,
+”_''
+he_TPP3S
+said_VBD COMM
+adding_VBG ACT
+that_THSC THSCother
+agro_NN NNother
+industries_NN NCOMP
+,_,
+light_NN NNTECH
+engineering_NN NCOMP
+,_,
+service_NN NNABSPROC
+sector_NN NCOMP
+,_,
+tourism_NN NNother
+and_CC
+health_NN NNABSPROC
+sector_NN NCOMP
+are_VPRT BEMA
+some_QUAN
+promising_JJAT JJATother
+areas_NN NNPLACE
+of_IN INother
+cooperation_NN NOMZ
+._.
+The_DT
+bilateral_JJAT JJATother
+trade_NN NNABSPROC
+volume_NN NCOMP
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+is_VPRT BEMA
+now_TIME
+around_IN INother
+US_NN NNP
+$_$
+1_CD
+billion_CD
+and_CC
+the_DT
+Ambassador_NN NNP
+said_VBD COMM
+there_EX
+is_VPRT
+a_DT
+scope_NN NNother
+to_IN INother
+increase_VB OCCUR
+it_PIT
+further_CC
+._.
+Ambassador_NN NNP
+Turan_NN NNP
+said_VBD COMM
+:_EMO
+“_``
+The_DT
+trade_NN NNABSPROC
+volume_NN NCOMP
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+in_IN INother
+the_DT
+first_JJAT JJATother
+10_CD
+months_NN NNQUANT
+of_IN INother
+the_DT
+current_JJAT JJATother
+year_NN NNother
+stood_VBD EXIST
+at_IN INother
+US_NN NNP
+$_$
+754_CD
+million_CD
+and_CC
+the_DT
+figure_NN NNother
+is_VPRT BEMA
+the_DT
+same_JJAT JJREL
+what_WHSC WHSCother
+we_FPP1P FPPAll
+had_VBD
+seen_PEAS MENTAL
+in_IN INother
+the_DT
+first_JJAT JJATother
+10_CD
+months_NN NNQUANT
+of_IN INother
+2019_CD
+._.
+”_''
+“_``
+That_DEMO
+’s_VPRT BEMA
+good_JJAT JJEVAL
+news_NN NSTNCother
+indeed_RB RSTNCAll RFACT
+!_.
+We_FPP1P FPPAll
+kept_VBD ASPECT
+the_DT
+same_JJAT JJREL
+level_NN NNABSPROC
+of_IN INother
+trade_NN NNABSPROC
+despite_CONC
+the_DT
+pandemic_NN NNother
+where_WHSC WHSCother
+other_JJAT JJATother
+countries_NN NNPLACE
+are_VPRT
+experiencing_PROG MENTAL
+a_DT
+significant_JJAT JJATother
+drop_NN NNCONC
+in_IN INother
+their_TPP3P
+trade_NN NNABSPROC
+volumes_NN NCOMP
+._.
+This_DEMO
+year_NN NNother
+,_,
+the_DT
+trade_NN NNABSPROC
+balance_NN NCOMP
+is_VPRT BEMA
+in_IN INother
+favour_NN NNother
+of_IN INother
+Bangladesh_NN NNP
+as_IN INother
+Bangladesh_NN NNP
+is_VPRT
+selling_PROG ACT
+a_DT
+lot_QUAN
+of_IN INother
+jute_NN NNother
+products_NN NCOMP
+to_IN INother
+Turkey_NN NNP
+,_,
+”_''
+he_TPP3S
+pointed_VBD
+out_RP
+._.
+Main_JJAT JJREL
+commodities_NN NOMZ
+exported_VBN
+to_IN INother
+Bangladesh_NN NNP
+from_IN INother
+Turkey_NN NNP
+are_VPRT BEMA
+raw_JJAT JJATother
+materials_NN NNother
+,_,
+agriculture_NN NNother
+and_CC
+food_NN NNCONC
+products_NN NCOMP
+,_,
+textile_NN NNother
+and_CC
+agriculture_NN NNother
+machinery_NN NCOMP
+and_CC
+textile_NN NNother
+chemicals_NN NCOMP
+,_,
+while_CC
+Turkey_NN NNP
+imports_VPRT
+jute_NN NNother
+yarns_NN NCOMP
+&_CC
+twine_NN NNother
+,_,
+jute_NN NNother
+manufacturers_NN NCOMP
+’_POS
+knitwear_NN NNother
+and_CC
+readymade_NN NNother
+garments_NN NCOMP
+._.
+Talking_VBG COMM
+about_IN INother
+Turkish_JJAT JJATother
+companies_NN NNGRP
+’_POS
+presence_NN NNABSPROC
+in_IN INother
+Bangladesh_NN NNP
+,_,
+the_DT
+Ambassador_NN NNP
+said_VBD COMM
+Turkey_NN NNP
+'s_POS
+leading_VBG
+home_NN NNGRP
+appliance_NN NCOMP
+manufacturer_NN NNHUMAN
+Arçelik_NN NNP
+bought_VBD ACT
+majority_NN NOMZ
+shares_NN NCOMP
+of_IN INother
+Singer_NN NNP
+Bangladesh_NN NNP
+and_CC
+made_VBD ACT
+it_PIT
+quite_RB RBother
+profitable_JJPR JJPRother
+._.
+The_DT
+Turkish_JJAT JJATother
+company_NN NNGRP
+thinks_VPRT MENTAL
+Singer_NN NNP
+Bangladesh_NN NNP
+'s_POS
+business_NN NOMZ
+will_MDWS MDPREDAll
+benefit_VB
+significantly_RB RBother
+from_IN INother
+the_DT
+sale_NN NNother
+as_IN INother
+Arçelik_NN NNP
+is_VPRT BEMA
+a_DT
+much_QUAN
+larger_JJPR JJPRother
+and_CC
+financially_RB RBother
+stronger_JJAT JJATother
+company_NN NNGRP
+with_IN INother
+a_DT
+commitment_NN NOMZ
+to_IN INother
+,_,
+and_CC
+a_DT
+worldwide_JJAT JJATother
+reputation_NN NOMZ
+in_IN INother
+the_DT
+home_NN NNGRP
+appliance_NN NCOMP
+sector_NN NNPLACE
+._.
+The_DT
+Ambassador_NN NNP
+said_VBD COMM THATD
+the_DT
+Turkish_JJAT JJATother
+investors_NN NNHUMAN
+are_VPRT BEMA
+interested_JJPR JJPRother
+to_IN INother
+invest_VB
+in_IN INother
+a_DT
+special_JJAT JJATother
+economic_JJAT JJATother
+zone_NN NNother
+as_IN INother
+Bangladesh_NN NNP
+offers_VPRT COMM
+quite_RB RBother
+attractive_JJAT JJATother
+incentives_NN NNother
+for_IN INother
+investment_NN NOMZ
+._.
+“_``
+We_FPP1P FPPAll
+’re_VPRT
+going_GTO MDPREDAll
+to_IN INother
+organise_VB
+a_DT
+virtual_JJAT JJATother
+meeting_NN NNABSPROC
+among_IN INother
+businesses_NN NOMZ
+of_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+,_,
+”_''
+Ambassador_NN NNP
+Turan_NN NNP
+said_VBD COMM
+._.
+Top_JJAT JJREL
+executives_NN NNHUMAN
+of_IN INother
+the_DT
+Bangladesh_NN NNP
+Investment_NN NNP
+Development_NN NNP
+Authority_NN NNP
+(_-LRB-
+BIDA_NN NNP
+)_-RRB-
+,_,
+Federation_NN NNP
+of_IN INother
+Bangladesh_NN NNP
+Chambers_NN NNP
+of_IN INother
+Commerce_NN NNP
+and_CC
+Industries_NN NNP
+(_-LRB-
+FBCCI_NN NNP
+)_-RRB-
+and_CC
+Foreign_NN NNP
+Economic_NN NNP
+Relations_NN NNP
+Board_NN NNP
+(_-LRB-
+DEİK_NN NNP
+)_-RRB-
+of_IN INother
+Turkey_NN NNP
+will_MDWS MDPREDAll
+take_VB ACT
+part_NN NNQUANT
+in_IN INother
+the_DT
+discussion_NN NNABSPROC
+to_IN INother
+identify_VB MENTAL
+areas_NN NNPLACE
+of_IN INother
+cooperation_NN NOMZ
+and_CC
+explore_VB ACT
+opportunities_NN NSTNCother
+jointly_RB RBother
+._.
+Turkish_JJAT JJATother
+contracting_NN NNother
+companies_NN NCOMP
+are_VPRT
+also_CC
+interested_JJPR JJPRother
+in_IN INother
+mega_JJAT JJATother
+infrastructure_NN NNother
+projects_NN NCOMP
+in_IN INother
+Bangladesh_NN NNP
+._.
+50_CD
+Years_NN NNother
+of_IN INother
+Independence_NN NNP
+The_DT
+Turkish_JJAT JJATother
+Ambassador_NN NNP
+,_,
+who_WHSC WHSCother
+joined_VBD ACT
+the_DT
+Ministry_NN NNP
+of_IN INother
+Foreign_JJAT JJATother
+Affairs_NN NNP
+of_IN INother
+Turkey_NN NNP
+in_IN INother
+1992_CD
+,_,
+highly_AMP
+appreciated_VBD MENTAL
+Bangladesh_NN NNP
+’s_POS
+growth_NN NNother
+,_,
+especially_RB RBother
+the_DT
+achievements_NN NNABSPROC
+made_VBN ACT
+over_IN INother
+the_DT
+last_JJAT JJATother
+10_CD
+years_NN NNother
+saying_VBG COMM THATD
+50_CD
+years_NN NNother
+have_VPRT
+been_PEAS BEMA
+quite_RB RBother
+a_DT
+significant_JJAT JJATother
+journey_NN NNother
+for_IN INother
+Bangladesh_NN NNP
+._.
+“_``
+Bangladesh_NN NNP
+is_VPRT
+progressing_PROG
+in_IN INother
+a_DT
+speedy_JJAT JJATother
+way_NN NNABSPROC
+with_IN INother
+an_DT
+impressive_JJAT JJATother
+development_NN NNABSPROC
+achieved_VBN
+in_IN INother
+the_DT
+last_JJAT JJATother
+10_CD
+years_NN NNother
+under_IN INother
+the_DT
+leadership_NN NNABSPROC
+of_IN INother
+Prime_NN NNP
+Minister_NN NNP
+Sheikh_NN NNP
+Hasina_NN NNP
+._.
+In_IN INother
+the_DT
+last_JJAT JJATother
+decade_NN NNother
+,_,
+Bangladesh_NN NNP
+has_VPRT
+become_PEAS OCCUR
+a_DT
+model_NN NNABSPROC
+for_IN INother
+many_QUAN
+developing_VBG OCCUR
+countries_NN NNPLACE
+,_,
+”_''
+he_TPP3S
+said_VBD COMM
+._.
+The_DT
+Turkish_JJAT JJATother
+Ambassador_NN NNP
+said_VBD COMM THATD
+Bangladesh_NN NNP
+has_VPRT
+got_HGOT
+a_DT
+solid_JJAT JJATother
+foundation_NN NOMZ
+given_VBN ACT
+by_IN INother
+Father_NN NNP
+of_IN INother
+the_DT
+Nation_NN NNP
+Bangabandhu_NN NNP
+Sheikh_NN NNP
+Mujibur_NN NNP
+Rahman_NN NNP
+,_,
+and_CC
+today_TIME
+Bangladesh_NN NNP
+is_VPRT BEMA
+a_DT
+much_QUAN
+-_HYPH
+respected_VBN
+nation_NN NOMZ
+globally_RB RBother
+._.
+He_TPP3S
+said_VBD COMM
+Bangladesh_NN NNP
+’s_POS
+foreign_JJAT JJATother
+policy_NN NNABSPROC
+-_HYPH
+“_``
+friendship_NN NNother
+to_IN INother
+all_QUAN
+,_,
+malice_NN NNother
+to_IN INother
+none_QUPR
+”_''
+,_,
+is_VPRT
+coinciding_PROG
+with_IN INother
+Turkey_NN NNP
+’s_POS
+foreign_JJAT JJATother
+policy_NN NNABSPROC
+motto_NN NCOMP
+“_``
+peace_NN NNother
+at_IN INother
+home_NN NNGRP
+,_,
+peace_NN NNother
+in_IN INother
+the_DT
+world_NN NNother
+._.
+”_''
+The_DT
+Ambassador_NN NNP
+said_VBD COMM THATD
+Bangladesh_NN NNP
+is_VPRT
+making_PROG ACT
+significant_JJAT JJATother
+contributions_NN NNABSPROC
+to_IN INother
+global_JJAT JJATother
+peace_NN NNother
+through_IN INother
+its_PIT
+robust_JJAT JJATother
+engagement_NN NOMZ
+with_IN INother
+the_DT
+UN_NN NNP
+peacekeeping_NN NCOMP
+operations_NN NNABSPROC
+._.
+Therefore_RB CUZ
+,_,
+it_PIT
+will_MDWS MDPREDAll
+be_VB BEMA
+a_DT
+very_AMP
+well_RB RBother
+-_HYPH
+deserved_VBN EXIST
+celebration_NN NOMZ
+for_IN INother
+Bangladesh_NN NNP
+,_,
+its_PIT
+people_NN NNHUMAN
+and_CC
+the_DT
+government_NN NNGRP
+of_IN INother
+Bangladesh_NN NNP
+,_,
+he_TPP3S
+said_VBD COMM
+._.
+Talking_VBG COMM
+about_IN INother
+Turkish_JJAT JJATother
+presence_NN NNABSPROC
+in_IN INother
+the_DT
+mega_JJAT JJATother
+celebrations_NN NOMZ
+on_IN INother
+March_NN NNP
+26_CD
+,_,
+the_DT
+Ambassador_NN NNP
+said_VBD COMM THATD
+they_TPP3P
+are_VPRT
+looking_PROG
+into_IN INother
+how_WHSC WHSCother
+the_DT
+situation_NN NNABSPROC
+evolves_VPRT
+following_VBG ACT
+Covid_NN NNP
+-_HYPH
+19_CD
+pandemic_NN NNother
+._.
+He_TPP3S
+said_VBD COMM
+Prime_NN NNP
+Minister_NN NNP
+Sheikh_NN NNP
+Hasina_NN NNP
+,_,
+while_CC
+virtually_RB RBother
+inaugurating_VBG
+the_DT
+newly_RB RBother
+-_HYPH
+built_VBN
+Bangladesh_NN NNP
+Embassy_NN NNP
+complex_NN NCOMP
+in_IN INother
+Ankara_NN NNP
+on_IN INother
+September_NN NNP
+14_CD
+,_,
+invited_VBD COMM
+President_NN NNP
+of_IN INother
+Turkey_NN NNP
+Recep_NN NNP
+Tayyip_NN NNP
+Erdogan_NN NNP
+through_IN INother
+Turkish_JJAT JJATother
+Foreign_NN NNP
+Minister_NN NNP
+Mevlut_NN NNP
+Cavusoglu_NN NNP
+._.
+Meanwhile_RB RBother
+,_,
+Foreign_JJAT JJATother
+Minister_NN NNP
+Dr_NN NNP
+AK_NN NNP
+Abdul_NN NNP
+Momen_NN NNP
+also_CC
+handed_VBD
+over_IN INother
+the_DT
+invitation_NN NOMZ
+to_IN INother
+his_TPP3S
+Turkish_JJAT JJATother
+counterpart_NN NNother
+to_IN INother
+visit_VB ACT
+Bangladesh_NN NNP
+._.
+“_``
+We_FPP1P FPPAll
+’ll_MDother
+see_VB MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+the_DT
+Covid_NN NNP
+-_HYPH
+19_CD
+situation_NN NNABSPROC
+evolves_VPRT
+in_IN INother
+March_NN NNP
+next_JJAT JJATother
+year_NN NNother
+._.
+We_FPP1P FPPAll
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+know_VB MENTAL
+yet_CC
+how_WHSC WHSCother
+the_DT
+situation_NN NNABSPROC
+will_MDWS MDPREDAll
+be_VB BEMA
+at_IN INother
+that_DEMO
+time_NN NNQUANT
+,_,
+”_''
+the_DT
+Ambassador_NN NNP
+said_VBD COMM
+._.
+Ambassador_NN NNP
+Turan_NN NNP
+expressed_VBD COMM
+satisfaction_NN NOMZ
+over_IN INother
+his_TPP3S
+discussion_NN NNABSPROC
+with_IN INother
+a_DT
+number_NN NNQUANT
+of_IN INother
+ministers_NN NNHUMAN
+in_IN INother
+Bangladesh_NN NNP
+regarding_VBG MENTAL
+cooperation_NN NOMZ
+between_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+in_IN INother
+the_DT
+coming_VBG ACT
+years_NN NNother
+._.
+“_``
+I_FPP1S FPPAll
+am_VPRT
+hoping_PROG MENTAL
+to_IN INother
+meet_VB ACT
+with_IN INother
+Prime_NN NNP
+Minister_NN NNP
+Sheikh_NN NNP
+Hasina_NN NNP
+and_CC
+Speaker_NN NNP
+Dr_NN NNP
+Shirin_NN NNP
+Sharmin_NN NNP
+Chaudhury_NN NNP
+soon_TIME
+._.
+”_''
+Hospital_NN NNGRP
+to_IN INother
+Be_VB
+Built_PASS PASSAll
+Responding_VBG COMM
+to_IN INother
+a_DT
+question_NN NNABSPROC
+,_,
+the_DT
+Turkish_JJAT JJATother
+Ambassador_NN NNP
+said_VBD COMM THATD
+Turkey_NN NNP
+wants_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+establish_VB
+a_DT
+hospital_NN NNGRP
+in_IN INother
+Bangladesh_NN NNP
+as_IN INother
+it_PIT
+has_VPRT
+vast_JJAT JJATother
+experience_NN NNCOG
+in_IN INother
+the_DT
+health_NN NNABSPROC
+sector_NN NCOMP
+._.
+He_TPP3S
+said_VBD COMM THATD
+it_PIT
+is_VPRT SPLIT
+not_XX0
+yet_TIME
+decided_PASS PASSAll MENTAL
+whether_WHSC WHSCother
+the_DT
+hospital_NN NNGRP
+will_MDWS MDPREDAll
+be_VB BEMA
+a_DT
+specialized_VBN
+one_NN NNother
+or_CC
+a_DT
+general_JJAT JJREL
+hospital_NN NNGRP
+but_CC
+they_TPP3P
+plan_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+build_VB
+it_PIT
+in_IN INother
+Dhaka_NN NNP
+._.
+“_``
+That_DEMO
+’s_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+big_JJAT JJDESCAll JJSIZE
+projects_NN NNother
+in_IN INother
+our_FPP1P FPPAll
+mind_NN NNother
+._.
+We_FPP1P FPPAll
+would_MDWO MDPREDAll
+like_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+share_VB ACT
+our_FPP1P FPPAll
+experience_NN NNCOG
+._.
+”_''
+The_DT
+Ambassador_NN NNP
+said_VBD COMM THATD
+they_TPP3P
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+explore_VB ACT
+opportunities_NN NNABSPROC
+in_IN PrepNSTNC
+medical_JJAT JJTOPIC
+tourism_NN NNother
+._.
+“_``
+We_FPP1P FPPAll
+provide_VPRT ACT
+very_AMP
+good_JJAT JJEVAL
+health_NN NNABSPROC
+services_NN NCOMP
+._.
+That_DEMO
+’s_VPRT
+why_WHSC WHSCother
+Turkey_NN NNP
+has_VPRT
+become_PEAS OCCUR
+one_CD
+of_IN INother
+the_DT
+top_JJAT JJREL
+five_CD
+destinations_NN NOMZ
+for_IN INother
+health_NN NNABSPROC
+tourism_NN NCOMP
+in_IN INother
+the_DT
+world_NN NNother
+._.
+Turkey_NN NNP
+could_MDCO MDPOSSCAll
+be_VB BEMA
+another_DT
+destination_NN NOMZ
+for_IN INother
+those_DEMO
+Bangladeshis_NN NNP
+who_WHSC WHSCother
+go_VPRT
+abroad_PLACE
+for_IN INother
+better_JJAT JJATother
+treatment_NN NNABSPROC
+._.
+”_''
+He_TPP3S
+also_CC
+said_VBD COMM THATD
+Turkey_NN NNP
+wants_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+boost_VB
+cultural_JJAT JJATother
+exchanges_NN NNABSPROC
+and_CC
+academic_JJAT JJATother
+cooperation_NN NOMZ
+to_IN INother
+help_VB CAUSE
+Turkish_JJAT JJATother
+and_CC
+Bangladeshi_JJAT JJATother
+people_NN NNHUMAN
+learn_VB MENTAL
+more_QUAN
+about_HDG
+each_QUAN
+other_JJPR JJPRother
+._.
+“_``
+It_PIT
+gives_VPRT ACT
+me_FPP1S FPPAll
+much_QUAN
+pleasure_NN NNother
+that_THSC THSCother
+Turkish_JJAT JJATother
+TV_NN NNother
+serials_NN NCOMP
+are_VPRT
+becoming_PROG OCCUR
+very_AMP
+popular_JJPR JJPRother
+in_IN INother
+Bangladesh_NN NNP
+,_,
+”_''
+said_VBD COMM
+Ambassador_NN NNP
+Turan_NN NNP
+adding_VBG ACT
+that_THSC THSCother
+relations_NN NNCOG
+between_IN INother
+Turkish_JJAT JJATother
+and_CC
+Bengali_JJAT JJATother
+nations_NN NOMZ
+have_VPRT
+strong_JJAT JJATother
+historical_JJAT JJATother
+and_CC
+cultural_JJAT JJATother
+roots_NN NNCONC
+dating_VBG
+back_RB RBother
+before_IN INother
+the_DT
+foundation_NN NOMZ
+of_IN INother
+the_DT
+People_NN NNP
+’s_POS
+Republic_NN NNP
+of_IN INother
+Bangladesh_NN NNP
+._.
+Solidarity_NN NOMZ
+amid_IN INother
+Covid-19_NN NNP
+The_DT
+Turkish_JJAT JJATother
+Ambassador_NN NNP
+appreciated_VBD MENTAL
+Bangladesh_NN NNP
+’s_POS
+efforts_NN NNother
+in_IN INother
+dealing_VBG
+with_IN INother
+the_DT
+Covid_NN NNP
+-_HYPH
+19_CD
+situation_NN NNABSPROC
+._.
+“_``
+It_PIT
+’s_VPRT BEMA
+good_JJPR JJEVAL
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+see_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+the_DT
+situation_NN NNABSPROC
+is_VPRT BEMA
+under_IN INother
+control_NN NNABSPROC
+in_IN INother
+Bangladesh_NN NNP
+._.
+Bangladesh_NN NNP
+made_VBD ACT
+it_PIT
+possible_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+deal_VB
+with_IN INother
+the_DT
+situation_NN NNABSPROC
+in_IN INother
+a_DT
+very_AMP
+efficient_JJAT JJATother
+way_NN NNABSPROC
+._.
+”_''
+He_TPP3S
+said_VBD COMM THATD
+this_DEMO
+is_VPRT BEMA
+a_DT
+challenging_JJAT JJATother
+situation_NN NNABSPROC
+for_IN INother
+all_QUAN
+the_DT
+countries_NN NNPLACE
+due_IN INother
+to_IN INother
+Covid_NN NNP
+-_HYPH
+19_CD
+pandemic_NN NNother
+and_CC
+it_PIT
+is_VPRT BEMA
+time_NN NNQUANT
+to_IN INother
+help_VB CAUSE
+each_QUAN
+other_JJPR JJPRother
+._.
+“_``
+We_FPP1P FPPAll
+have_MDNE
+to_IN INother
+deal_VB
+with_IN INother
+it_PIT
+with_IN INother
+solidarity_NN NOMZ
+and_CC
+unity_NN NOMZ
+._.
+We_FPP1P FPPAll
+remain_VPRT EXIST
+in_IN INother
+solidarity_NN NOMZ
+with_IN INother
+Bangladesh_NN NNP
+._.
+”_''
+The_DT
+Turkish_JJAT JJATother
+envoy_NN NNother
+said_VBD COMM
+upon_IN INother
+instruction_NN NOMZ
+from_IN INother
+President_NN NNP
+Erdoğan_NN NNP
+Turkish_NN NNP
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+provided_VBD ACT
+five_CD
+tonnes_NN NNother
+of_IN INother
+medical_JJAT JJTOPIC
+supplies_NN NNother
+to_IN INother
+Bangladesh_NN NNP
+including_VBG EXIST
+masks_NN NNother
+,_,
+Personal_JJAT JJATother
+Protective_NN NNP
+Equipment_NN NCOMP
+(_-LRB-
+PPE_NN NNother
+)_-RRB-
+and_CC
+ventilators_NN NNother
+._.
+He_TPP3S
+said_VBD COMM THATD
+Turkey_NN NNP
+provided_VBD ACT
+medical_JJAT JJTOPIC
+supplies_NN NNother
+to_IN INother
+150_CD
+countries_NN NNPLACE
+and_CC
+Bangladesh_NN NNP
+is_VPRT BEMA
+one_CD
+of_IN INother
+those_DEMO
+countries_NN NNPLACE
+._.
+http://www.theindependentbd.com/post/257009_URL
