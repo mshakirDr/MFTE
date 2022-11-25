@@ -12,10 +12,12 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 from stanza.server import CoreNLPClient
+import stanza
+from stanza.pipeline.core import DownloadMethod
 import multiprocessing
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
-    """Tags text files in dir_in with stanza nlp client and writes to dir_out
+    """Tags text files in dir_in with CoreNLPClient and writes to dir_out
 
     Args:
         dir_nlp (str): Stanfrod Core NLP path
@@ -37,7 +39,7 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
             for file in files:
                 text = open(file=file, encoding='utf-8', errors="ignore").read()
                 file_name = os.path.basename(file)
-                print(file)
+                print("Stanford tagger tagging:", file)
                 ann = client.annotate(text)
                 s_list = list()
                 for s in ann.sentence:
@@ -52,6 +54,38 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     else:
         print("No files to tag.")
 
+def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
+    """Tags text files in dir_in with stanza nlp client and writes to dir_out
+
+    Args:
+        dir_in (str): dir with plain text files to be tagged
+        dir_out (str): dir to write Stanford Tagger tagged files
+    """
+    Path(dir_out).mkdir(parents=True, exist_ok=True)   
+    #text = open(dir+"corpus\BD-CMT274.txt").read()
+    files = glob.glob(dir_in+"*.txt")
+    nlp = stanza.Pipeline('en', processors={'tokenize': 'default', 
+                                        'pos': "english-bidirectional-distsim-prod1.tagger"}, download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
+    if len(files) > 0:
+        for file in files:
+            text = open(file=file, encoding='utf-8', errors="ignore").read()
+            file_name = os.path.basename(file)
+            print("Stanza tagger tagging:", file)
+            doc = nlp(text)
+            s_list = list()
+            for sentence in doc.sentences:
+                words = []
+                for word in sentence.words:
+                    words.append(word.text + '_' + word.xpos)
+                s_words = " ".join(words)
+                s_list.append(s_words)
+            s = "\n".join(s_list)
+            with open(file=dir_out+file_name, encoding='utf-8', mode='w') as f:
+                f.write(s)
+    else:
+        print("No files to tag.")
+
+        
 def process_sentence (words: list, extended: bool = False) -> list:
     """Retunrs words list tagged
 
@@ -2077,7 +2111,8 @@ if __name__ == "__main__":
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
     ttr = 400
-    tag_stanford(nlp_dir, input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    tag_stanford_stanza(input_dir, output_stanford)
     tag_MD(output_stanford, output_MD, extended=True)
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
