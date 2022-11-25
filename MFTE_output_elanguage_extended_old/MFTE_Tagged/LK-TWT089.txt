@@ -1,0 +1,2352 @@
+@mxxxxxxxxxxxs_NN NNMention
+Have_VPRT
+you_SPP2
+read_VB MENTAL
+the_DT
+books_NN NNCONC
+?_. YNQU
+Try_VB ACT
+them_TPP3P
+._.
+What_WHQU
+is_VPRT BEMA
+worse_JJPR JJPRother
+?_.
+To_IN INother
+be_VB BEMA
+a_DT
+broken_JJAT JJATother
+soul_NN NNother
+or_CC
+to_IN INother
+break_VB
+another_DT
+soul_NN NNother
+?_. YNQU
+The_DT
+prospect_NN NNother
+of_IN INother
+an_DT
+early_JJAT JJTIME
+demise_NN NNother
+is_VPRT
+somehow_RB RBother
+very_AMP
+calming_JJPR JJPRother
+._.
+@Lxxxxxxxxxxxx_NN NNMention
+Oh_FPUH
+._.
+I_FPP1S FPPAll
+was_VBD BEMA
+about_RB RBother
+to_IN INother
+bring_VB ACT
+out_RP
+the_DT
+wine_NN NNother
+bottles_NN NCOMP
+🙄_EMO
+@Mxxxxxxxxxxxxxs_NN NNMention
+Mine_FPP1S FPPAll
+would_MDWO MDPREDAll
+do_VB ACT
+this_DEMO
+in_IN INother
+a_DT
+heart_NN NNCONC
+beat_VBD ACT
+People_NN NNHUMAN
+are_VPRT BEMA
+so_EMPH
+quick_JJPR JJPRother
+to_IN INother
+judge_VB MENTAL
+,_,
+criticise_VIMP
+and_CC
+accuse_VIMP COMM
+without_IN INother
+knowing_VBG MENTAL
+all_QUAN
+sides_NN NNABSPROC
+of_IN INother
+a_DT
+story_NN NNother
+._.
+They_TPP3P
+can_MDCA MDPOSSCAll
+not_XX0
+see_VB MENTAL
+beyond_IN INother
+their_TPP3P
+own_JJAT JJATother
+anger_NN NNother
+and_CC
+emotions_NN NNCOG
+to_IN INother
+understand_VB MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+the_DT
+other_JJAT JJATother
+party_NN NNother
+must_MDNE
+be_VB
+feeling_PROG MENTAL
+._.
+I_FPP1S FPPAll
+think_VPRT MENTAL
+too_RB RBother
+much_QUAN
+Feel_VB MENTAL
+too_RB RBother
+much_QUAN
+Love_NN NNother
+too_RB RBother
+much_QUAN
+I_FPP1S FPPAll
+am_VPRT BEMA
+too_RB RBother
+much_QUAN
+And_CC
+yet_TIME
+I_FPP1S FPPAll
+am_VPRT
+not_XX0
+enough_RB RBother
+I_FPP1S FPPAll
+have_VPRT
+a_DT
+thought_NN NNCOG
+in_IN PrepNSTNC
+my_FPP1S FPPAll
+head_NN NNCONC
+Burning_VBG ACT
+to_IN INother
+be_VB BEMA
+a_DT
+poem_NN NNTECH
+Yearning_NN NCOMP
+for_IN INother
+words_NN NNTECH
+That_THRC THRCother
+just_RB EMPH
+wo_MDWS MDPREDAll
+n't_XX0 CONT
+do_VB ACT
+justice_NN NNother
+Do_VPRT ACT
+these_DEMO
+quotes_NN NNother
+/_,
+advices_NN NNother
+really_RB EMPH
+help_VB CAUSE
+?_. YNQU
+https://t.co/Pz6ivMeHTk_URL
+Smile_NN NNother
+,_,
+because_CUZ
+no_XX0
+one_QUPR
+really_RB EMPH
+cares_VPRT MENTAL
+._.
+The_DT
+best_JJAT EMPH
+place_NN NNPLACE
+to_IN INother
+get_VB
+lost_PGET PASSAll ACT
+is_VPRT BEMA
+in_IN INother
+a_DT
+crowd_NN NNother
+of_IN INother
+people_NN NNHUMAN
+._.
+Leave_VB ACT
+it_PIT
+to_IN INother
+Sri_NN NNP
+Lankans_NN NNP
+to_IN INother
+turn_VB ACT
+a_DT
+tragic_JJAT JJATother
+murder_NN NNother
+into_IN INother
+jokes_NN NNother
+and_CC
+memes_NN NNother
+🙄_EMO
+Where_WHSC WHSCother
+do_VPRT DOAUX
+I_FPP1S FPPAll
+end_VB ASPECT
+and_CC
+you_SPP2
+begin_VB ASPECT
+?_.
+So_SO
+the_DT
+airshow_NN NNother
+was_VBD BEMA
+a_DT
+disappointment_NN NOMZ
+🙄_EMO
+@Yxxxxxxxxxxxd_NN NNMention
+Love_NN NNP
+language_NN NCOMP
+Reach_NN NNP
+for_IN INother
+the_DT
+stars_NN NNTECH
+with_IN INother
+me_FPP1S FPPAll
+The_DT
+stars_NN NNTECH
+that_THRC THRCother
+we_FPP1P FPPAll
+will_MDWS MDPREDAll SPLIT
+never_FREQ
+touch_VB
+But_CC
+still_RB RBother
+Reach_NN NNP
+for_IN INother
+the_DT
+stars_NN NNTECH
+with_IN INother
+me_FPP1S FPPAll
+Whatever_WHSC WHSCother
+the_DT
+question_NN NNABSPROC
+,_,
+whatever_WHSC WHSCother
+the_DT
+doubt_NN NSTNCother
+,_,
+whatever_WHSC WHSCother
+the_DT
+suspicion_NN NNother
+,_,
+love_NN NNother
+is_VPRT BEMA
+the_DT
+answer_NN NNABSPROC
+._.
+Sometimes_FREQ
+we_FPP1P FPPAll
+do_VPRT ACT
+things_NN NNother
+knowing_VBG MENTAL THATD
+it_PIT
+will_MDWS MDPREDAll
+hurt_VB
+us_FPP1P FPPAll
+._.
+I_FPP1S FPPAll
+feel_VPRT MENTAL
+what_WHSC WhVSTNCAll WhVATT
+I_FPP1S FPPAll
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+feel_VB MENTAL
+._.
+No_XX0
+one_QUPR
+can_MDCA MDPOSSCAll
+tell_VB COMM
+me_FPP1S FPPAll
+what_WHSC WHSCother
+to_IN INother
+feel_VB MENTAL
+,_,
+when_WHSC WHSCother
+to_IN INother
+feel_VB MENTAL
+and_CC
+how_WHSC WHSCother
+to_IN INother
+feel_VB MENTAL
+._.
+No_XX0
+one_QUPR
+can_MDCA MDPOSSCAll
+tell_VB COMM
+me_FPP1S FPPAll
+not_XX0
+to_IN INother
+feel_VB MENTAL
+._.
+My_FPP1S FPPAll
+feelings_NN NSTNCother
+are_VPRT BEMA
+my_FPP1S FPPAll
+own_JJPR JJPRother
+and_CC
+no_XX0
+one_QUPR
+else_RB RBother
+has_MDNE
+to_IN INother
+deal_VB
+with_IN INother
+them_TPP3P
+._.
+I_FPP1S FPPAll
+no_DMA
+longer_RB RBother
+live_VB EXIST
+._.
+I_FPP1S FPPAll
+survive_VPRT
+._.
+I_FPP1S FPPAll
+exist_VPRT EXIST
+._.
+I_FPP1S FPPAll
+pull_VPRT ACT
+through_RB RBother
+._.
+But_CC
+I_FPP1S FPPAll
+no_DMA
+longer_RB RBother
+live_VB EXIST
+._.
+If_COND
+being_VBG
+loved_PASS PASSAll MENTAL
+does_VPRT DOAUX
+not_XX0
+heal_VB
+a_DT
+broken_JJAT JJATother
+heart_NN NNCONC
+,_,
+if_COND
+it_PIT
+does_VPRT DOAUX
+not_XX0
+change_VB OCCUR
+a_DT
+broken_JJAT JJATother
+soul_NN NNother
+,_,
+was_VBD BEMA
+the_DT
+love_NN NNother
+really_RB EMPH
+worth_JJAT JJATother
+anything_QUPR
+at_IN INother
+all_QUAN
+?_. YNQU
+Broken_JJAT JJATother
+hearts_NN NNCONC
+break_VPRT
+hearts_NN NNCONC
+Broken_JJAT JJATother
+souls_NN NNother
+break_VPRT
+souls_NN NNother
+Those_DEMO
+who_WHSC WHSCother
+awaken_VPRT
+the_DT
+deepest_JJAT JJATother
+love_NN NNother
+always_FREQ
+leave_VB ACT
+behind_IN INother
+the_DT
+most_EMPH
+deepest_JJAT JJATother
+scars_NN NNother
+._.
+@mxxxxxxxxxxxs_NN NNMention
+Fellow_JJAT JJATother
+wine_NN NNother
+lover_NN NCOMP
+!!_.
+❤️_EMO
+❤️_EMO
+❤️_EMO
+I_FPP1S FPPAll
+cry_VPRT
+For_IN INother
+what_WHSC WHSCother
+could_MDCO MDPOSSCAll
+have_VB
+been_PEAS
+What_WHSC WHSCother
+should_MDNE
+have_VB
+been_PEAS BEMA
+For_IN INother
+what_WHSC WHSCother
+was_VBD
+found_PASS PASSAll
+too_RB RBother
+late_JJPR JJTIME
+What_WHSC WHSCother
+was_VBD
+lost_PASS PASSAll ACT
+even_RB RBother
+before_IN INother
+it_PIT
+was_VBD
+found_PASS PASSAll
+For_IN INother
+what_WHSC WHSCother
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+hold_VB ACT
+on_RP
+to_IN INother
+What_WHSC WHSCother
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+let_VB CAUSE
+go_VB
+I_FPP1S FPPAll
+cry_VB
+For_IN INother
+you_SPP2
+._.
+._.
+A_DT
+screaming_VBG
+mind_NN NNother
+and_CC
+a_DT
+silent_JJAT JJATother
+heart_NN NNCONC
+._.
+Recipe_NN NNother
+for_IN INother
+big_JJAT JJDESCAll JJSIZE
+changes_NN NNABSPROC
+._.
+#change_HST
+#infj_HST
+#thoughts_HST
+#feelings_HST
+#poetry_HST
+Yes_DMA
+it_PIT
+'s_VPRT CONT BEMA
+a_DT
+new_JJAT JJTIME
+year_NN NNother
+,_,
+new_JJAT JJTIME
+beginnings_NN NNABSPROC
+for_IN INother
+some_QUAN
+people_NN NNHUMAN
+._.
+But_CC
+for_IN INother
+others_NN NNother
+,_,
+it_PIT
+'s_VPRT CONT BEMA
+just_RB EMPH
+another_DT
+day_NN NNQUANT
+in_IN INother
+the_DT
+calendar_NN NNother
+._.
+Things_NN NNother
+are_VPRT BEMA
+the_DT
+same_JJAT JJREL
+as_IN INother
+they_TPP3P
+were_VBD BEMA
+yesterday_TIME
+,_,
+the_DT
+day_NN NNQUANT
+before_TIME
+,_,
+and_CC
+the_DT
+day_NN NNQUANT
+before_IN INother
+that_DEMO
+._.
+The_DT
+silent_JJAT JJATother
+whisper_NN NNother
+The_DT
+unsung_JJAT JJATother
+song_NN NNother
+The_DT
+colourless_JJAT JJATother
+dream_NN NNother
+Gives_VPRT ACT
+life_NN NNABSPROC
+to_IN INother
+The_DT
+unending_JJAT JJATother
+story_NN NNother
+The_DT
+most_EMPH
+beautiful_JJAT JJEVAL
+symphony_NN NNother
+The_DT
+most_EMPH
+colourful_JJAT JJATother
+wishes_NN NNother
+Of_IN PrepNSTNC
+a_DT
+heart_NN NNCONC
+Hiding_VBG
+a_DT
+love_NN NNother
+so_EMPH
+precious_JJPR JJPRother
+That_THSC THSCother
+its_PIT
+yearnings_NN NNother
+Will_MDWS MDPREDAll SPLIT
+forever_RB RBother
+remain_VB EXIST
+hidden_JJPR JJPRother
+._.
+._.
+Oh_FPUH
+,_,
+how_WHSC WHSCother
+we_FPP1P FPPAll
+wish_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVATT
+a_DT
+place_NN NNPLACE
+of_IN INother
+moment_NN NNQUANT
+'s_POS
+respite_NN NNother
+could_MDCO MDPOSSCAll
+be_VB BEMA
+a_DT
+lifelong_JJAT JJATother
+shelter_NN NNother
+._.
+But_CC
+the_DT
+place_NN NNPLACE
+of_IN INother
+rest_NN NNABSPROC
+must_MDNE
+be_VB
+left_PASS PASSAll ACT
+behind_PLACE
+._.
+The_DT
+first_JJAT JJATother
+rule_NN NNABSPROC
+of_IN INother
+truly_RB RBother
+living_VBG EXIST
+-_HYPH
+Do_VPRT ACT
+the_DT
+thing_NN NNother
+you_SPP2
+'re_VPRT CONT BEMA
+most_RB EMPH
+afraid_JJPR JJATDother
+of_IN STPR
+._.
+A_DT
+moment_NN NNQUANT
+._.
+._.
+Heart_NN NNCONC
+stopped_VBD ASPECT
+Breath_NN NNP
+silent_JJPR JJPRother
+Seeing_VBG MENTAL
+nothing_QUPR
+but_IN INother
+your_SPP2
+eyes_NN NNCONC
+Hearing_VBG MENTAL
+nothing_QUPR
+but_IN INother
+your_SPP2
+heart_NN NNCONC
+beat_VBD ACT
+When_WHSC WHSCother
+the_DT
+world_NN NNother
+fades_VPRT
+away_PLACE
+And_CC
+you_SPP2
+fill_VPRT
+my_FPP1S FPPAll
+universe_NN NNother
+._.
+._.
+❤️_EMO
+https://t.co/0yCLeHyVK6_URL
+The_DT
+most_EMPH
+cherished_VBN
+thoughts_NN NSTNCother
+and_CC
+feelings_NN NSTNCother
+are_VPRT
+hidden_PASS PASSAll
+amongst_IN INother
+the_DT
+darkest_JJAT JJATother
+of_IN INother
+emotions_NN NNCOG
+._.
+It_PIT
+'s_VPRT CONT BEMA
+not_XX0
+enough_JJPR JJPRother
+to_IN INother
+know_VB MENTAL
+your_SPP2
+worth_NN NNother
+._.
+You_SPP2
+should_MDNE
+be_VB BEMA
+well_RB RBother
+aware_JJPR JJATDother
+of_IN INother
+your_SPP2
+weaknesses_NN NOMZ
+and_CC
+toxic_JJAT JJATother
+traits_NN NNABSPROC
+as_CC
+well_RB RBother
+._.
+How_WHSC WHSCother
+upset_JJPR JJPRother
+these_DEMO
+so_SO
+-_HYPH
+called_VBN COMM
+members_NN NNHUMAN
+of_IN INother
+the_DT
+senior_JJAT JJATother
+management_NN NNABSPROC
+get_VB
+when_WHSC WHSCother
+they_TPP3P
+'re_VPRT CONT
+sent_PASS PASSAll ACT
+email_NN NNother
+reminders_NN NCOMP
+by_IN INother
+a_DT
+junior_JJAT JJATother
+staff_NN NNother
+member_NN NCOMP
+on_IN INother
+work_NN NNABSPROC
+that_THRC THRCother
+they_TPP3P
+were_VBD
+supposed_PASS PASSAll MENTAL
+to_IN INother
+do_VB ACT
+but_CC
+have_VB
+n't_XX0 CONT
+done_PEAS ACT
+._.
+The_DT
+higher_JJAT JJATother
+up_IN INother
+they_TPP3P
+are_VPRT
+,_,
+the_DT
+more_AMP
+fragile_JJPR JJPRother
+their_TPP3P
+ego_NN NNother
+🙄_EMO
+What_WHSC WHSCother
+love_NN NNother
+might_MDMM MDPOSSCAll
+have_VB
+been_PEAS
+If_COND
+it_PIT
+was_VBD
+given_PASS PASSAll ACT
+as_IN INother
+much_QUAN
+as_IN INother
+it_PIT
+was_VBD
+received_PASS PASSAll ACT
+If_COND
+it_PIT
+was_VBD
+received_PASS PASSAll ACT
+as_RB RBother
+much_QUAN
+as_IN INother
+it_PIT
+was_VBD
+given_PASS PASSAll ACT
+Oh_FPUH
+..._:
+What_WHSC WHSCother
+love_NN NNother
+might_MDMM MDPOSSCAll
+have_VB
+been_PEAS
+._.
+._.
+Fight_VB
+for_IN INother
+someone_QUPR
+you_SPP2
+love_VPRT MENTAL
+,_,
+but_CC
+never_FREQ
+fight_VB
+for_IN INother
+someone_QUPR
+to_IN INother
+love_VB MENTAL
+you_SPP2
+._.
+@mxxxxxxxxxxxs_NN NNMention
+Take_VB ACT
+your_SPP2
+own_JJAT JJATother
+time_NN NNQUANT
+._.
+It_PIT
+'s_VPRT CONT
+no_XX0
+one_QUPR
+else_RB RBother
+'s_POS
+business_NN NOMZ
+❤️_EMO
+Ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+figure_VB
+out_RP
+whether_WHSC WHSCother
+to_IN INother
+get_VB
+the_DT
+wine_NN NNother
+out_IN INother
+of_IN INother
+my_FPP1S FPPAll
+system_NN NNABSPROC
+or_CC
+my_FPP1S FPPAll
+system_NN NNABSPROC
+out_IN INother
+of_IN INother
+the_DT
+wine_NN NNother
+._.
+@_NFP
+9xxxxxxxxr_GW
+I_FPP1S FPPAll
+go_VPRT
+through_IN INother
+this_DEMO
+with_IN INother
+hubby_NN NNother
+😅_EMO
+😅_EMO
+😅_EMO
+I_FPP1S FPPAll
+burn_VPRT ACT
+..._:
+._.
+I_FPP1S FPPAll
+burn_VPRT ACT
+,_,
+I_FPP1S FPPAll
+burn_VPRT ACT
+,_,
+I_FPP1S FPPAll
+burn_VPRT ACT
+Then_RB RBother
+I_FPP1S FPPAll
+am_VPRT BEMA
+ash_JJPR JJPRother
+Blown_VBN
+away_PLACE
+in_IN INother
+the_DT
+wind_NN NNother
+._.
+._.
+@Dxxxxxxxr_NN NNMention
+It_PIT
+is_VPRT BEMA
+a_DT
+true_JJAT JJEPSTother
+blessing_NN NNother
+if_COND
+all_QUAN
+of_IN INother
+this_DEMO
+can_MDCA MDPOSSCAll
+be_VB
+found_PASS PASSAll
+in_IN INother
+one_CD
+person_NN NNHUMAN
+._.
+Of_IN INother
+all_QUAN
+the_DT
+things_NN NNother
+to_IN INother
+lose_VB ACT
+faith_NN NNother
+in_IN INother
+,_,
+the_DT
+worst_JJAT JJATother
+is_VPRT BEMA
+love_NN NNother
+._.
+Once_TIME
+you_SPP2
+lose_VPRT ACT
+faith_NN NNother
+in_IN INother
+love_NN NNother
+,_,
+nothing_QUPR
+else_JJPR JJPRother
+makes_VPRT ACT
+sense_NN NNCOG
+._.
+Nothing_QUPR
+else_JJAT JJATother
+matters_NN NNTECH
+._.
+It_PIT
+is_VPRT
+love_NN NNother
+that_THRC THRCother
+we_FPP1P FPPAll
+hold_VPRT ACT
+on_RP
+to_IN INother
+The_DT
+love_NN NNother
+we_FPP1P FPPAll
+give_VPRT ACT
+The_DT
+love_NN NNother
+we_FPP1P FPPAll
+get_VPRT
+The_DT
+love_NN NNother
+that_THRC THRCother
+hurts_VPRT
+And_CC
+the_DT
+love_NN NNother
+that_THRC THRCother
+heals_VPRT
+For_IN INother
+if_COND
+we_FPP1P FPPAll
+lose_VPRT ACT
+faith_NN NNother
+in_IN INother
+love_NN NNother
+All_QUAN
+else_RB RBother
+will_MDWS MDPREDAll
+cease_VB ASPECT
+to_IN INother
+make_VB ACT
+sense_NN NNCOG
+All_QUAN
+else_RB RBother
+will_MDWS MDPREDAll
+become_VB OCCUR
+empty_JJPR JJPRother
+and_CC
+meaningless_JJPR JJPRother
+For_IN INother
+as_RB RBother
+long_JJPR JJDESCAll JJSIZE
+as_IN COND
+there_EX
+is_VPRT
+love_NN NNother
+There_EX
+is_VPRT
+hope_NN NSTNCother
+I_FPP1S FPPAll
+hope_VPRT MENTAL
+I_FPP1S FPPAll
+never_FREQ
+lose_VPRT ACT
+the_DT
+amazement_NN NOMZ
+I_FPP1S FPPAll
+have_VPRT
+over_RB RBother
+beautiful_JJAT JJEVAL
+sunrises_NN NNother
+and_CC
+sunsets_NN NNother
+https://t.co/yljqv45zvF_URL
+Not_XX0
+sure_JJPR JJEPSTother
+what_WHSC WHSCother
+all_QUAN
+the_DT
+fuss_NN NNother
+about_IN INother
+Bridgerton_NN NNP
+is_VPRT
+._.
+For_IN INother
+me_FPP1S FPPAll
+,_,
+it_PIT
+'s_VPRT CONT BEMA
+just_RB EMPH
+another_DT
+love_NN NNother
+story_NN NCOMP
+where_WHSC WHSCother
+the_DT
+couple_NN NNHUMAN
+ends_VPRT ASPECT
+up_RP
+together_RB RBother
+happily_RB RBother
+ever_FREQ
+after_TIME
+._.
+No_XX0
+intrigue_NN NNother
+,_,
+no_XX0
+mystery_NN NNother
+,_,
+nothing_QUPR
+to_IN INother
+get_VB
+my_FPP1S FPPAll
+mind_NN NNother
+thinking_VBG MENTAL
+🤷‍♀️_EMO
+@Mxxxxxxxxxxxxxs_NN NNMention
+@exxxxxxxxxxxxxn_NN NNMention
+Why_WHSC WHSCother
+though_CONC
+?_.
+Are_VPRT
+you_SPP2
+implying_PROG EXIST
+that_THSC THSCother
+only_RB RBother
+women_NN NNHUMAN
+gossip_NN NCOMP
+?_. YNQU
+Or_CC
+that_DEMO
+gossiping_VBG
+makes_VPRT ACT
+men_NN NNHUMAN
+less_RB RBother
+manly_JJPR JJPRother
+?_.
+You_SPP2
+do_VPRT ACT EMPH
+realise_VB
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+this_DEMO
+just_RB EMPH
+demeans_VPRT
+women_NN NNHUMAN
+right_RB RBother
+?_.
+The_DT
+world_NN NNother
+only_RB RBother
+knows_VPRT MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+we_FPP1P FPPAll
+reveal_VPRT EXIST
+to_IN INother
+it_PIT
+._.
+The_DT
+untold_JJAT JJATother
+stories_NN NNother
+,_,
+the_DT
+hidden_JJAT JJATother
+pain_NN NNother
+,_,
+the_DT
+secret_JJAT JJATother
+longings_NN NNother
+._.
+._.
+These_DEMO
+are_VPRT
+what_WHSC WHSCother
+actually_DMA
+make_VPRT ACT
+us_FPP1P FPPAll
+,_,
+us_FPP1P FPPAll
+._.
+In_IN INother
+the_DT
+end_NN NNABSPROC
+as_IN INother
+we_FPP1P FPPAll
+lay_VPRT ACT
+on_IN INother
+our_FPP1P FPPAll
+deathbed_NN NNother
+,_,
+there_EX
+is_VPRT
+no_XX0
+one_QUPR
+who_WHSC WHSCother
+knows_VPRT MENTAL
+us_FPP1P FPPAll
+better_JJPR JJPRother
+than_IN INother
+our_FPP1P FPPAll
+own_JJAT JJATother
+selves_NN NNother
+._.
+We_FPP1P FPPAll
+were_VBD
+alone_RB RBother
+,_,
+all_QUAN
+along_IN INother
+._.
+@hxxxxxxxxxxxy_NN NNMention
+I_FPP1S FPPAll
+agree_VPRT MENTAL COMM
+with_IN INother
+you_SPP2
+._.
+She_TPP3S
+was_VBD
+actually_DMA
+quite_RB RBother
+selfish_JJPR JJPRother
+._.
+Bonnie_NN NNP
+called_VBD COMM
+her_TPP3S
+out_RP
+on_IN INother
+this_DEMO
+a_DT
+few_QUAN
+times_NN NNQUANT
+._.
+The_DT
+screaming_NN NNother
+of_IN INother
+the_DT
+mind_NN NNother
+is_VPRT BEMA
+muted_JJPR JJPRother
+at_IN INother
+the_DT
+merest_JJAT JJATother
+whisper_NN NNother
+of_IN INother
+the_DT
+heart_NN NNCONC
+._.
+But_CC
+as_RB RBother
+soon_RB RBother
+as_IN INother
+the_DT
+heart_NN NNCONC
+is_VPRT BEMA
+silent_JJPR JJPRother
+,_,
+the_DT
+clamouring_JJAT JJATother
+mind_NN NNother
+overwhelms_VPRT
+every_QUAN
+word_NN NNTECH
+that_THSC THSCother
+the_DT
+heart_NN NNCONC
+so_EMPH
+dearly_RB RBother
+spoke_VBD COMM
+._.
+Sometimes_FREQ
+the_DT
+journey_NN NNother
+is_VPRT BEMA
+in_IN INother
+the_DT
+waiting_NN NNother
+,_,
+the_DT
+pausing_VBG
+and_CC
+the_DT
+resting_NN NNother
+._.
+There_EX
+are_VPRT
+some_QUAN
+days_NN NNQUANT
+that_THRC THRCother
+I_FPP1S FPPAll
+am_VPRT SPLIT
+extremely_AMP
+determined_PASS PASSAll MENTAL
+to_IN INother
+be_VB BEMA
+in_IN INother
+a_DT
+bad_JJAT JJEVAL
+mood_NN NNother
+._.
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+move_VB ACT
+mountains_NN NNPLACE
+to_IN INother
+stay_VB EXIST
+in_IN INother
+my_FPP1S FPPAll
+funk_NN NNother
+._.
+#infj_HST
+@Mxxxxxxx7_NN NNMention
+She_TPP3S
+was_VBD BEMA
+so_EMPH
+much_QUAN
+better_JJPR JJPRother
+than_IN INother
+Elena_NN NNP
+When_WHSC WHSCother
+you_SPP2
+unmute_VPRT
+yourself_SPP2
+on_IN INother
+a_DT
+Teams_NN NNP
+call_VPRT COMM
+coz_CUZ
+somone_NN NNother
+made_VBD ACT
+a_DT
+joke_NN NNother
+and_CC
+the_DT
+others_NN NNother
+should_MDNE
+hear_VB MENTAL THATD
+you_SPP2
+laughing_VBG
+🙄_EMO
+What_WHSC WHSCother
+you_SPP2
+do_VPRT ACT
+for_IN INother
+them_TPP3P
+,_,
+they_TPP3P
+will_MDWS MDPREDAll SPLIT
+never_FREQ
+do_VB ACT
+for_IN INother
+you_SPP2
+._.
+Are_VPRT
+we_FPP1P FPPAll
+filling_PROG
+in_IN INother
+the_DT
+blanks_NN NNother
+,_,
+or_CC
+are_VPRT BEMA
+the_DT
+blanks_NN NNother
+filling_VBG
+us_FPP1P FPPAll
+?_. YNQU
+@mxxxxxxxxxxxs_NN NNMention
+I_FPP1S FPPAll
+watched_VBD ACT
+it_PIT
+!_.
+Worth_JJPR JJPRother
+the_DT
+wait_NN NNother
+👌_EMO
+I_FPP1S FPPAll
+am_VPRT BEMA
+the_DT
+dark_JJAT JJDESCAll JJCOLR
+And_CC
+therefore_RB CUZ
+My_FPP1S FPPAll
+light_NN NNTECH
+shines_VPRT OCCUR
+bright_JJPR JJDESCAll JJCOLR
+Blinding_VBG
+eyes_NN NNCONC
+To_IN INother
+the_DT
+darkness_NN NOMZ
+@Sxxxxxxxxxxxe_NN NCOMP NNMention
+@dxxxxxxk_NN NNMention
+@dxxxxxxk_NN NNMention
+is_VPRT
+becoming_PROG OCCUR
+useless_JJPR JJPRother
+in_IN INother
+their_TPP3P
+service_NN NNABSPROC
+,_,
+coverage_NN NNother
+and_CC
+data_NN NNTECH
+speed_NN NCOMP
+._.
+Same_JJPR JJREL
+for_IN INother
+@Mxxxxxxxxxxxxxa_NN NNMention
+It_PIT
+'s_VPRT CONT BEMA
+often_FREQ
+easier_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+convince_VB COMM
+others_NN NNother
+of_IN INother
+something_QUPR
+than_IN INother
+to_IN INother
+convince_VB COMM
+yourself_SPP2
+._.
+Me_FPP1S FPPAll
+alone_RB RBother
+with_IN INother
+my_FPP1S FPPAll
+thoughts_NN NSTNCother
+is_VPRT BEMA
+the_DT
+most_EMPH
+dangerous_JJAT JJATother
+place_NN NNPLACE
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+be_VB BEMA
+You_SPP2
+are_VPRT BEMA
+My_FPP1S FPPAll
+muse_NN NNother
+The_DT
+one_NN NNother
+that_THRC THRCother
+awakens_VPRT
+my_FPP1S FPPAll
+deepest_JJAT JJATother
+emotions_NN NNCOG
+The_DT
+one_NN NNother
+that_THRC THRCother
+colours_NN NNother
+my_FPP1S FPPAll
+monochrome_NN NNother
+dreams_VPRT
+The_DT
+one_CD
+that_THRC THRCother
+inspires_VPRT
+my_FPP1S FPPAll
+poetic_JJAT JJATother
+soul_NN NNother
+The_DT
+one_NN NNother
+that_THRC THRCother
+gives_VPRT ACT
+me_FPP1S FPPAll
+meaning_VBG COMM THATD
+I_FPP1S FPPAll
+choose_VPRT MENTAL
+you_SPP2
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+keep_VB ASPECT
+on_IN INother
+choosing_VBG MENTAL
+you_SPP2
+Over_IN INother
+and_CC
+over_IN INother
+Till_IN INother
+the_DT
+end_NN NNABSPROC
+of_IN INother
+time_NN NNQUANT
+Confession_NN NNP
+._.
+Was_VBD BEMA
+never_FREQ
+a_DT
+fan_NN NNother
+of_IN INother
+Friends_NN NNHUMAN
+😐_EMO
+You_SPP2
+were_VBD BEMA
+not_XX0
+A_DT
+choice_NN NNABSPROC
+Or_CC
+an_DT
+option_NN NNABSPROC
+You_SPP2
+were_VBD BEMA
+A_DT
+blessing_NN NNother
+And_CC
+a_DT
+privilege_NN NNother
+Of_IN INother
+the_DT
+highest_JJAT JJATother
+order_NN NNABSPROC
+@axxxxxxxxxxc_NN NCOMP NNMention
+Absolutely_AMP
+._.
+Poetry_NN NNP
+is_VPRT BEMA
+life_NN NNABSPROC
+❤️_EMO
+@Mxxxxxxx7_NN NNMention
+Melting_NN NNother
+._.
+._.
+🤤_EMO
+🤤_EMO
+Knowing_VBG MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+to_IN INother
+battle_VB
+makes_VPRT ACT
+you_SPP2
+a_DT
+soldier_NN NNother
+._.
+Know_VB MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+to_IN INother
+battle_VB
+and_CC
+when_WHSC WHSCother
+to_IN INother
+battle_NN NNother
+makes_VPRT ACT
+you_SPP2
+a_DT
+warrior_NN NNother
+._.
+It_PIT
+is_VPRT BEMA
+a_DT
+true_JJAT JJEPSTother
+blessing_NN NNother
+to_IN INother
+find_VB VFCTother
+a_DT
+friend_NN NNHUMAN
+who_WHSC WHSCother
+will_MDWS MDPREDAll
+keep_VB ASPECT
+on_IN INother
+believing_VBG MENTAL
+in_IN INother
+you_SPP2
+when_WHSC WHSCother
+you_SPP2
+'ve_VPRT CONT
+lost_PEAS ACT
+your_SPP2
+way_NN NNABSPROC
+._.
+Every_QUAN
+warrior_NN NNother
+needs_VPRT MENTAL
+a_DT
+faithful_JJAT JJATother
+friend_NN NNHUMAN
+who_WHSC WHSCother
+can_MDCA MDPOSSCAll
+remind_VB MENTAL
+him_TPP3S
+of_IN INother
+his_TPP3S
+strength_NN NNABSPROC
+when_WHSC WHSCother
+he_TPP3S
+himself_TPP3S
+has_VPRT
+forgotten_PEAS MENTAL
+._.
+https://t.co/qMeo0bccuG_URL
+I_FPP1S FPPAll
+met_VBD ACT
+me_FPP1S FPPAll
+When_WHSC WHSCother
+you_SPP2
+met_VBD ACT
+me_FPP1S FPPAll
+Newest_JJAT JJATother
+episodes_NN NNother
+of_IN INother
+Lucifer_NN NNP
+were_VBD
+meh.The_URL
+episode_NN NNother
+where_WHSC WHSCother
+they_TPP3P
+break_VPRT
+out_RP
+in_IN INother
+song_NN NNother
+and_CC
+dance_NN NNother
+was_VBD BEMA
+a_DT
+total_JJAT JJATother
+waste.The_URL
+episode_NN NNother
+with_IN INother
+Lucifer_NN NNP
+'s_POS
+prank_NN NNother
+on_IN INother
+Dan_NN NNP
+was_VBD
+also_CC
+meaningless.The_URL
+murder_NN NNother
+cases_NN NCOMP
+were_VBD BEMA
+so_EMPH
+extremely_AMP
+predictable.Had_URL
+to_IN INother
+drag_VB
+myself_FPP1S FPPAll
+thru_IN INother
+the_DT
+episodes_NN NNother
+coz_CUZ
+I_FPP1S FPPAll
+was_VBD
+determined_PASS PASSAll MENTAL
+to_IN INother
+finish_VB ASPECT
+With_IN INother
+the_DT
+adoption_NN NOMZ
+of_IN INother
+working_VBG ACT
+from_IN INother
+home_NN NNGRP
+,_,
+it_PIT
+seems_VPRT EXIST
+many_QUAN
+companies_NN NNGRP
+have_VPRT
+lost_PEAS ACT
+sense_NN NNCOG
+of_IN INother
+working_VBG ACT
+hours_NN NNQUANT
+._.
+Employees_NN NNHUMAN
+are_VPRT
+expected_PASS PASSAll MENTAL
+to_IN INother
+be_VB BEMA
+on_IN INother
+call_NN NNother
+24_CD
+hours_NN NNQUANT
+._.
+The_DT
+words_NN NNTECH
+"_``
+urgent_JJPR JJPRother
+"_''
+and_CC
+"_``
+ASAP_RB RBother
+"_''
+are_VPRT SPLIT
+more_AMP
+frequently_FREQ
+being_PROG
+used_PASS PASSAll ACT
+,_,
+even_RB RBother
+during_IN INother
+off_JJAT JJATother
+hours_NN NNQUANT
+and_CC
+days_NN NNQUANT
+._.
+Looked_VBD
+at_IN INother
+But_CC
+unseen_JJPR JJPRother
+Listened_VBD MENTAL
+to_IN INother
+But_CC
+unheard_JJPR JJPRother
+Touched_VBN
+But_CC
+unfelt_JJPR JJPRother
+Existing_VBG EXIST
+Surviving_VBG
+But_CC
+not_XX0
+living_VBG EXIST
+._.
+._.
+Love_NN NNother
+is_VPRT
+,_,
+in_IN INother
+its_PIT
+essence_NN NNother
+,_,
+An_DT
+unlimitness_NN NOMZ
+Limited_JJPR JJPRother
+to_IN INother
+two_CD
+hearts_NN NNCONC
+A_DT
+timelessness_NN NOMZ
+Caught_NN NCOMP
+in_IN INother
+a_DT
+moment_NN NNQUANT
+An_DT
+unconditional_JJAT JJATother
+Promised_VBN COMM
+between_IN INother
+two_CD
+souls_NN NNother
+Love_NN NCOMP
+has_VPRT
+no_XX0
+reason_NN NSTNCother
+But_CC
+is_VPRT BEMA
+the_DT
+reason_NN NSTNCother
+#poeticlicense_HST
+#poetry_HST
+#poems_HST
+#infj_HST
+@nxxxxxxxxxxxxxk_NN NNMention
+@Wxxxxxxxxxa_NN NNMention
+Stay_VB EXIST
+strong_JJPR JJPRother
+❤️_EMO
+"_``
+The_DT
+broken_VBN
+are_VPRT SPLIT
+more_AMP
+evolved_PASS PASSAll
+._.
+"_''
+--_:
+The_DT
+Beast_NN NNP
+,_,
+"_''
+Split_NN NNP
+"_''
+Some_QUAN
+days_NN NNQUANT
+,_,
+even_RB RBother
+the_DT
+sunlight_NN NNother
+is_VPRT BEMA
+annoying_JJAT JJATother
+Best_JJAT EMPH
+times_NN NNQUANT
+to_IN INother
+be_VB BEMA
+at_IN INother
+office_NN NNPLACE
+-_HYPH
+Early_JJPR JJTIME
+in_IN INother
+the_DT
+morning_NN NNQUANT
+when_WHSC WHSCother
+no_XX0
+one_QUPR
+else_RB RBother
+has_VPRT
+come_PEAS ACT
+and_CC
+after_IN INother
+working_VBG ACT
+hours_NN NNQUANT
+when_WHSC WHSCother
+everyone_QUPR
+else_RB RBother
+has_VPRT
+left_PEAS ACT
+._.
+My_FPP1S FPPAll
+alone_JJAT JJATother
+time_NN NNQUANT
+is_VPRT BEMA
+for_IN INother
+me_FPP1S FPPAll
+to_IN SPLIT
+not_XX0
+do_VB ACT
+what_WHSC WHSCother
+I_FPP1S FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+want_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+do_VB ACT
+._.
+There_EX
+is_VPRT
+not_XX0
+a_DT
+single_JJAT JJREL
+person_NN NNHUMAN
+on_IN INother
+this_DEMO
+earth_NN NNPLACE
+who_WHSC WHSCother
+can_MDCA MDPOSSCAll
+pull_VB ACT
+us_FPP1P FPPAll
+out_IN INother
+of_IN INother
+a_DT
+bad_JJAT JJEVAL
+mood_NN NNother
+if_COND
+we_FPP1P FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+want_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+be_VB
+pulled_PASS PASSAll ACT
+out_IN INother
+of_IN INother
+it_PIT
+._.
+We_FPP1P FPPAll
+all_QUAN
+have_VPRT
+that_DEMO
+one_CD
+person_NN NNHUMAN
+who_WHSC WHSCother
+we_FPP1P FPPAll
+wish_VPRT MENTAL
+would_MDWO MDPREDAll
+try_VB ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+pull_VB ACT
+us_FPP1P FPPAll
+out_RP
+._.
+The_DT
+sad_JJAT JJATother
+part_NN NNQUANT
+is_VPRT
+,_,
+that_DEMO
+person_NN NNHUMAN
+usually_FREQ
+misses_VPRT MENTAL
+the_DT
+cue_NN NNother
+._.
+How_WHSC WHSCother
+do_VPRT DOAUX
+we_FPP1P FPPAll
+say_VB COMM
+goodbye_FPUH
+When_WHSC WHSCother
+I_FPP1S FPPAll
+have_VPRT
+seen_PEAS MENTAL
+your_SPP2
+soul_NN NNother
+And_CC
+you_SPP2
+have_VPRT
+seen_PEAS MENTAL
+mine_FPP1S FPPAll
+._.
+._.
+Time_NN NNP
+._.
+._.
+Not_XX0
+enough_JJAT JJATother
+time_NN NNQUANT
+To_IN INother
+hold_VB ACT
+you_SPP2
+To_IN INother
+comfort_VB
+you_SPP2
+To_IN INother
+feel_VB MENTAL
+you_SPP2
+To_IN INother
+love_VB MENTAL
+you_SPP2
+But_CC
+so_EMPH
+much_QUAN
+time_NN NNQUANT
+To_IN INother
+long_RB RBother
+for_IN INother
+you_SPP2
+To_IN INother
+cry_VB
+for_IN INother
+you_SPP2
+To_IN INother
+wait_VB ACT
+for_IN INother
+you_SPP2
+To_IN INother
+miss_VB MENTAL
+you_SPP2
+#poems_HST
+#poem_HST
+#poet_HST
+#ItsOkayToNotBeOkay_HST
+#poetry_HST
+#INFJ_HST
+Accepting_VBG MENTAL
+something_QUPR
+and_CC
+being_VBG
+resigned_PASS PASSAll
+to_IN INother
+the_DT
+fact_NN NSTNCother
+are_VPRT BEMA
+two_CD
+very_AMP
+different_JJAT JJREL
+things_NN NNother
+Love_VPRT MENTAL
+does_VPRT DOAUX
+not_XX0
+require_VB CAUSE
+you_SPP2
+to_IN INother
+demand_VB COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+you_SPP2
+make_VPRT ACT
+someone_QUPR
+a_DT
+priority_NN NOMZ
+in_IN INother
+your_SPP2
+life_NN NNABSPROC
+._.
+Love_NN NNother
+is_VPRT
+understanding_PROG
+that_THSC THSCother
+sometimes_FREQ
+there_EX
+are_VPRT
+other_JJAT JJATother
+things_NN NNother
+/_,
+people_NN NNHUMAN
+that_THRC THRCother
+require_VPRT CAUSE
+your_SPP2
+attention_NN NNCOG
+._.
+True_JJAT JJEPSTother
+love_NN NNother
+will_MDWS MDPREDAll
+respect_VB
+your_SPP2
+other_JJAT JJATother
+commitments_NN NOMZ
+._.
+Everyone_QUPR
+should_MDNE
+have_VB
+a_DT
+place_NN NNPLACE
+/_HYPH
+time_NN NNQUANT
+where_WHSC WHSCother
+they_TPP3P
+can_MDCA MDPOSSCAll
+sit_VB ACT
+quietly_RB RBother
+and_CC
+stare_VB ACT
+off_RP
+into_IN INother
+space_NN NNCONC
+thinking_VBG MENTAL
+about_IN INother
+absolutely_AMP
+nothing_QUPR
+without_IN INother
+being_VBG
+judged_PASS PASSAll MENTAL
+as_IN INother
+a_DT
+mental_JJAT JJTOPIC
+case_NN NNCONC
+._.
+Sometimes_FREQ
+the_DT
+worst_JJAT JJATother
+place_NN NNPLACE
+to_IN INother
+be_VB
+is_VPRT BEMA
+inside_IN INother
+my_FPP1S FPPAll
+own_JJAT JJATother
+head_NN NNCONC
+._.
+But_CC
+I_FPP1S FPPAll
+'ve_VPRT CONT
+learned_PEAS MENTAL
+to_IN INother
+find_VB VFCTother
+calm_NN NNother
+among_IN INother
+the_DT
+storm_NN NNother
+that_THSC THSCother
+rages_NN NNother
+._.
+I_FPP1S FPPAll
+'d_VBD CONT
+much_QUAN
+rather_RB RBother
+be_VB
+lost_PASS PASSAll ACT
+in_IN INother
+these_DEMO
+storms_NN NNother
+of_IN INother
+my_FPP1S FPPAll
+own_JJAT JJATother
+making_NN NNother
+._.
+Between_IN INother
+what_WHSC WHSCother
+is_VPRT
+said_PASS PASSAll COMM
+but_CC
+not_XX0
+meant_VBN COMM
+,_,
+and_CC
+what_WHSC WHSCother
+is_VPRT
+meant_PASS PASSAll COMM
+but_CC
+not_XX0
+said_VBD COMM
+,_,
+most_QUAN
+of_IN INother
+love_NN NNother
+is_VPRT
+lost_PASS PASSAll ACT
+._.
+Have_VPRT
+you_SPP2
+ever_FREQ
+heard_VBD MENTAL THATD
+a_DT
+child_NN NNHUMAN
+screaming_VBG
+with_IN INother
+laughter_NN NNother
+?_. YNQU
+An_DT
+expression_NN NNABSPROC
+of_IN INother
+absolute_JJAT JJATother
+joy_NN NNother
+bubbling_VBG
+up_RP
+and_CC
+overflowing_VBG
+out_IN INother
+of_IN INother
+an_DT
+innocent_JJAT JJATother
+little_JJAT JJDESCAll JJSIZE
+mouth_NN NNCONC
+._.
+._.
+There_EX
+is_VPRT
+no_XX0
+other_JJAT JJATother
+sound_NN NNABSPROC
+so_EMPH
+pure_JJPR JJPRother
+as_IN INother
+that_DEMO
+❤️_EMO
+❤️_EMO
+Men_NN NNP
+label_NN NCOMP
+women_NN NNHUMAN
+as_IN INother
+crazy_JJPR JJPRother
+and_CC
+over-emotional_JJPR JJPRother
+simply_RB RBother
+because_CUZ
+of_IN INother
+egoistic_JJAT JJATother
+reluctance_NN NNother
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+accept_VB MENTAL
+the_DT
+fact_NN NSTNCother
+that_THSC THSCother
+they_TPP3P
+,_,
+the_DT
+men_NN NNHUMAN
+,_,
+may_MDMM MDPOSSCAll
+actually_DMA
+be_VB BEMA
+the_DT
+reason_NN NSTNCother
+why_WHSC WHSCother
+a_DT
+woman_NN NNHUMAN
+is_VPRT BEMA
+upset_JJPR JJPRother
+._.
+For_IN INother
+you_SPP2
+,_,
+a_DT
+million_CD
+times_NN NNQUANT
+._.
+._.
+@CxxxxxxxZ_NN NNMention
+Absolutely_AMP
+👌_EMO
+👌_EMO
+All_QUAN
+of_IN INother
+this_DEMO
+was_VBD
+sighted_PASS PASSAll
+within_IN INother
+the_DT
+Sacred_NN NNP
+City_NN NNP
+of_IN INother
+Polonnaruwa_NN NNP
+._.
+This_DEMO
+is_VPRT BEMA
+shameful_JJPR JJPRother
+and_CC
+shows_VPRT ACT
+the_DT
+sheer_JJAT JJATother
+idiocy_NN NNother
+of_IN INother
+humans_FPUH
+._.
+Educate_VB
+your_SPP2
+children_NN NNHUMAN
+to_IN INother
+be_VB BEMA
+doctors_NN NNHUMAN
+,_,
+engineers_NN NNHUMAN
+,_,
+and_CC
+all_QUAN
+that_DEMO
+._.
+But_CC
+above_PLACE
+all_QUAN
+else_RB RBother
+,_,
+teach_VIMP COMM
+them_TPP3P
+to_IN INother
+pick_VB ACT
+up_RP
+after_IN INother
+themselves_TPP3P
+,_,
+and_CC
+to_IN INother
+not_XX0
+litter_NN NNother
+._.
+https://t.co/11jR3IvoHr_URL
+A_DT
+gift_NN NNCONC
+is_VPRT
+made_PASS PASSAll ACT
+special_JJPR JJPRother
+,_,
+not_XX0
+by_IN INother
+the_DT
+gift_NN NNCONC
+itself_PIT
+,_,
+but_CC
+by_IN INother
+the_DT
+giver_NN NNother
+._.
+Poetry_NN NNP
+is_VPRT BEMA
+addictive_JJPR JJPRother
+._.
+Once_TIME
+you_SPP2
+start_VPRT ASPECT
+expressing_VBG COMM
+through_IN INother
+poems_NN NNTECH
+,_,
+there_EX
+is_VPRT
+no_XX0
+stopping_NN NNother
+._.
+It_PIT
+serves_VPRT
+as_IN INother
+a_DT
+release_NN NNother
+._.
+Regardless_CONC
+of_IN INother
+who_WHSC WHSCother
+reads_VPRT MENTAL
+or_CC
+who_WHSC WHSCother
+understands_VPRT MENTAL
+,_,
+the_DT
+poet_NN NNHUMAN
+must_MDNE
+word_NN NNTECH
+out_IN INother
+the_DT
+storm_NN NNother
+in_IN INother
+his_TPP3S
+/_SYM
+her_TPP3S
+head_NN NNCONC
+._.
+Have_VPRT
+you_SPP2
+seen_PEAS MENTAL
+The_DT
+minute_NN NNQUANT
+'s_POS
+rest_NN NNABSPROC
+A_NN NNother
+brief_JJAT JJATother
+respite_NN NNother
+From_IN INother
+the_DT
+burdens_NN NNother
+Of_IN INother
+a_DT
+housewife_NN NNother
+A_NN NNother
+working_VBG ACT
+mom_NN NNHUMAN
+A_DT
+man_NN NNHUMAN
+supplying_VBG
+for_IN INother
+his_TPP3S
+family_NN NNHUMAN
+A_DT
+son_NN NNHUMAN
+looking_VBG
+after_IN INother
+elderly_JJAT JJATother
+parents_NN NNHUMAN
+Have_VPRT
+you_SPP2
+seen_PEAS MENTAL
+the_DT
+moment_NN NNQUANT
+'s_POS
+stillness_NN NOMZ
+Where_WHSC WHSCother
+they_TPP3P
+take_VPRT ACT
+a_DT
+second_JJAT JJATother
+To_IN INother
+inhale_VB
+To_IN INother
+exhale_VB
+To_IN INother
+close_VB
+their_TPP3P
+eyes_NN NNCONC
+A_DT
+minute_NN NNQUANT
+'s_POS
+rest_NN NNABSPROC
+https://t.co/iLRDuH1efc_URL
+@wxxxxxxk_NN NNMention
+🤣_EMO
+Good_JJAT JJEVAL
+one_CD
+Why_WHSC WHSCother
+is_VPRT BEMA
+the_DT
+day_NN NNQUANT
+that_THSC THSCother
+you_SPP2
+get_VPRT
+special_JJPR JJPRother
+half_QUAN
+holidays_NN NNother
+so_EMPH
+crazy_JJPR JJPRother
+damn_EMPH
+busy_JJPR JJPRother
+??_.
+🤬_EMO
+😩_EMO
+@dxxxxxxj_NN NNMention
+Yes_DMA
+!_.
+This_DEMO
+half_QUAN
+holiday_NN NNother
+was_VBD BEMA
+absolutely_AMP
+pointless_JJPR JJPRother
+See_VB MENTAL
+yourself_SPP2
+through_IN INother
+my_FPP1S FPPAll
+eyes_NN NNCONC
+You_SPP2
+will_MDWS MDPREDAll
+fall_VB OCCUR
+madly_RB RBother
+in_IN INother
+love_NN NNother
+❤️_EMO
+💙_EMO
+I_FPP1S FPPAll
+personally_RB RBother
+would_MDWO MDPREDAll
+not_XX0
+want_VB MENTAL
+anyone_QUPR
+wishing_VBG MENTAL
+me_FPP1S FPPAll
+long_JJAT JJDESCAll JJSIZE
+life_NN NNABSPROC
+,_,
+if_COND
+it_PIT
+is_VPRT
+not_XX0
+accompanied_PASS PASSAll ACT
+by_IN INother
+good_JJAT JJEVAL
+health_NN NNABSPROC
+._.
+There_EX
+is_VPRT
+no_XX0
+point_NN NNother
+living_PROG EXIST
+a_DT
+long_RB RBother
+,_,
+sick_JJPR JJPRother
+,_,
+bed_NN NNCONC
+-_HYPH
+ridden_JJAT JJATother
+life_NN NNABSPROC
+._.
+That_DEMO
+is_VPRT
+no_XX0
+life_NN NNABSPROC
+at_IN INother
+all_QUAN
+._.
+Is_VPRT BEMA
+it_PIT
+weird_JJPR JJPRother
+that_THSC THSCother
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+sit_VB ACT
+in_IN INother
+one_CD
+place_NN NNPLACE
+for_IN INother
+hours_NN NNQUANT
+on_IN INother
+end_NN NNABSPROC
+,_,
+staring_VBG ACT
+off_RP
+into_IN INother
+space_NN NNCONC
+,_,
+completely_AMP
+lost_VBN ACT
+in_IN INother
+thought_NN NSTNCother
+?_.
+It_PIT
+'s_VPRT CONT BEMA
+always_FREQ
+the_DT
+last_JJAT JJATother
+line_NN NNother
+in_IN INother
+a_DT
+poem_NN NNTECH
+that_THRC THRCother
+gets_VPRT
+you_SPP2
+._.
+It_PIT
+'s_VPRT CONT BEMA
+the_DT
+hardest_JJAT JJATother
+line_NN NNother
+to_IN INother
+put_VB ACT
+together_RB RBother
+._.
+The_DT
+words_NN NNTECH
+just_RB EMPH
+do_VPRT DOAUX
+n't_XX0 CONT
+justify_VB MENTAL
+the_DT
+emotion_NN NNCOG
+that_THRC THRCother
+is_VPRT
+fighting_PROG
+to_IN INother
+be_VB
+expressed_PASS PASSAll COMM
+._.
+Sometimes_FREQ
+all_QUAN
+you_SPP2
+want_VPRT MENTAL
+is_VPRT
+to_IN INother
+be_VB BEMA
+alone_JJPR JJPRother
+in_IN INother
+a_DT
+dark_NN NNother
+,_,
+quiet_JJAT JJATother
+corner_NN NNother
+with_IN INother
+your_SPP2
+head_NN NNCONC
+in_IN INother
+your_SPP2
+hands_NN NNCONC

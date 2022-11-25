@@ -1,0 +1,3069 @@
+The_DT
+morning_NN NNQUANT
+of_IN INother
+June_NN NNP
+27th_CD
+was_VBD BEMA
+clear_JJPR JJEPSTother
+and_CC
+sunny_JJPR JJPRother
+,_,
+with_IN INother
+the_DT
+fresh_JJAT JJATother
+warmth_NN NNother
+of_IN INother
+a_DT
+full_JJAT JJATother
+-_HYPH
+summer_NN NNQUANT
+day_NN NCOMP
+;_:
+the_DT
+flowers_NN NNCONC
+were_VBD
+blossoming_PROG
+profusely_RB RBother
+and_CC
+the_DT
+grass_NN NNother
+was_VBD BEMA
+richly_RB RBother
+green_JJPR JJDESCAll JJCOLR
+._.
+The_DT
+people_NN NNHUMAN
+of_IN INother
+the_DT
+village_NN NNPLACE
+began_VBD ASPECT
+to_IN INother
+gather_VB VLIKother
+in_IN INother
+the_DT
+square_NN NNTECH
+,_,
+between_IN INother
+the_DT
+post_NN NNCONC
+office_NN NCOMP
+and_CC
+the_DT
+bank_NN NNGRP
+,_,
+around_HDG
+ten_CD
+o’clock_NN NNCONC
+;_:
+in_IN INother
+some_QUAN
+towns_NN NNother
+there_PLACE
+were_VBD BEMA
+so_EMPH
+many_QUAN
+people_NN NNHUMAN
+that_THSC THSCother
+the_DT
+lottery_NN NNother
+took_VBD ACT
+two_CD
+days_NN NNQUANT
+and_CC
+had_MDNE
+to_IN INother
+be_VB
+started_PASS PASSAll ASPECT
+on_IN INother
+June_NN NNP
+26th_CD
+,_,
+but_CC
+in_IN INother
+this_DEMO
+village_NN NNPLACE
+,_,
+where_WHSC WHSCother
+there_EX
+were_VBD
+only_RB RBother
+about_HDG
+three_CD
+hundred_CD
+people_NN NNHUMAN
+,_,
+the_DT
+whole_JJAT JJATother
+lottery_NN NNother
+took_VBD ACT
+only_RB RBother
+about_HDG
+two_CD
+hours_NN NNQUANT
+,_,
+so_SO
+it_PIT
+could_MDCO MDPOSSCAll
+begin_VB ASPECT
+at_IN INother
+ten_CD
+o’clock_NN NNCONC
+in_IN INother
+the_DT
+morning_NN NNQUANT
+and_CC
+still_RB RBother
+be_VB BEMA
+through_IN INother
+in_IN INother
+time_NN NNQUANT
+to_IN INother
+allow_VB CAUSE
+the_DT
+villagers_NN NNother
+to_IN INother
+get_VB
+home_NN NNGRP
+for_IN INother
+noon_NN NNother
+dinner_NN NCOMP
+._.
+The_DT
+children_NN NNHUMAN
+assembled_VBN
+first_RB RBother
+,_,
+of_IN INother
+course_DMA RSTNCAll RFACT
+._.
+School_NN NNP
+was_VBD BEMA
+recently_TIME
+over_IN INother
+for_IN INother
+the_DT
+summer_NN NNQUANT
+,_,
+and_CC
+the_DT
+feeling_NN NNCOG
+of_IN PrepNSTNC
+liberty_NN NNother
+sat_VBD ACT
+uneasily_RB RBother
+on_IN INother
+most_QUAN
+of_IN INother
+them_TPP3P
+;_:
+they_TPP3P
+tended_VBD EXIST
+to_IN ToSTNCAll ToVSTNCAll ToVPROB
+gather_VB VLIKother
+together_RB RBother
+quietly_RB RBother
+for_IN INother
+a_DT
+while_NN NNother
+before_IN INother
+they_TPP3P
+broke_VBD
+into_IN INother
+boisterous_JJAT JJATother
+play_NN NNTECH
+,_,
+and_CC
+their_TPP3P
+talk_NN NNABSPROC
+was_VBD BEMA
+still_RB RBother
+of_IN INother
+the_DT
+classroom_NN NNPLACE
+and_CC
+the_DT
+teacher_NN NNHUMAN
+,_,
+of_IN INother
+books_NN NNCONC
+and_CC
+reprimands_NN NNother
+._.
+Bobby_NN NNP
+Martin_NN NNP
+had_VBD SPLIT
+already_TIME
+stuffed_PEAS
+his_TPP3S
+pockets_NN NNother
+full_JJPR JJPRother
+of_IN INother
+stones_NN NNCONC
+,_,
+and_CC
+the_DT
+other_JJAT JJATother
+boys_NN NNHUMAN
+soon_TIME
+followed_VBD ACT
+his_TPP3S
+example_NN NNother
+,_,
+selecting_VBG
+the_DT
+smoothest_JJAT JJATother
+and_CC
+roundest_JJAT JJATother
+stones_NN NNCONC
+;_:
+Bobby_NN NNP
+and_CC
+Harry_NN NNP
+Jones_NN NNP
+and_CC
+Dickie_NN NNP
+Delacroix_NN NNP
+—_:
+the_DT
+villagers_NN NNother
+pronounced_VBN
+this_DEMO
+name_NN NNABSPROC
+“_``
+Dellacroy_NN NNP
+”_''
+—_:
+eventually_TIME
+made_VBD ACT
+a_DT
+great_JJAT JJEVAL
+pile_NN NNother
+of_IN INother
+stones_NN NNCONC
+in_IN INother
+one_CD
+corner_NN NNother
+of_IN INother
+the_DT
+square_JJAT JJATother
+and_CC
+guarded_VBD
+it_PIT
+against_IN INother
+the_DT
+raids_NN NNother
+of_IN INother
+the_DT
+other_JJAT JJATother
+boys_NN NNHUMAN
+._.
+The_DT
+girls_NN NNHUMAN
+stood_VBD EXIST
+aside_RB RBother
+,_,
+talking_VBG COMM
+among_IN INother
+themselves_TPP3P
+,_,
+looking_VBG
+over_IN INother
+their_TPP3P
+shoulders_NN NNother
+at_IN INother
+the_DT
+boys_NN NNHUMAN
+,_,
+and_CC
+the_DT
+very_AMP
+small_JJAT JJDESCAll JJSIZE
+children_NN NNHUMAN
+rolled_VBN
+in_IN INother
+the_DT
+dust_NN NNCONC
+or_CC
+clung_NN NNother
+to_IN INother
+the_DT
+hands_NN NNCONC
+of_IN INother
+their_TPP3P
+older_JJAT JJATother
+brothers_NN NNHUMAN
+or_CC
+sisters_NN NNHUMAN
+._.
+Soon_TIME
+the_DT
+men_NN NNHUMAN
+began_VBD ASPECT
+to_IN INother
+gather_VB VLIKother
+,_,
+surveying_VBG
+their_TPP3P
+own_JJAT JJATother
+children_NN NNHUMAN
+,_,
+speaking_VBG COMM
+of_IN INother
+planting_NN NNother
+and_CC
+rain_NN NNCONC
+,_,
+tractors_NN NNother
+and_CC
+taxes_NN NNother
+._.
+They_TPP3P
+stood_VBD EXIST
+together_RB RBother
+,_,
+away_PLACE
+from_IN INother
+the_DT
+pile_NN NNother
+of_IN INother
+stones_NN NNCONC
+in_IN INother
+the_DT
+corner_NN NNother
+,_,
+and_CC
+their_TPP3P
+jokes_NN NNother
+were_VBD BEMA
+quiet_JJPR JJPRother
+and_CC
+they_TPP3P
+smiled_VBD ACT
+rather_RB RBother
+than_IN INother
+laughed_VBD
+._.
+The_DT
+women_NN NNHUMAN
+,_,
+wearing_VBG ACT
+faded_VBN
+house_NN NNGRP
+dresses_NN NCOMP
+and_CC
+sweaters_NN NNother
+,_,
+came_VBD ACT
+shortly_TIME
+after_IN INother
+their_TPP3P
+menfolk_NN NNother
+._.
+They_TPP3P
+greeted_VBD
+one_CD
+another_DT
+and_CC
+exchanged_VBD
+bits_NN NNother
+of_IN INother
+gossip_NN NNother
+as_IN INother
+they_TPP3P
+went_VBD
+to_IN INother
+join_VB ACT
+their_TPP3P
+husbands_NN NNHUMAN
+._.
+Soon_TIME
+the_DT
+women_NN NNHUMAN
+,_,
+standing_VBG EXIST
+by_IN INother
+their_TPP3P
+husbands_NN NNHUMAN
+,_,
+began_VBD ASPECT
+to_IN INother
+call_VB COMM
+to_IN INother
+their_TPP3P
+children_NN NNHUMAN
+,_,
+and_CC
+the_DT
+children_NN NNHUMAN
+came_VBD ACT
+reluctantly_RB RBother
+,_,
+having_MDNE
+to_IN INother
+be_VB
+called_PASS PASSAll COMM
+four_CD
+or_CC
+five_CD
+times_NN NNQUANT
+._.
+Bobby_NN NNP
+Martin_NN NNP
+ducked_VBD
+under_IN INother
+his_TPP3S
+mother_NN NNHUMAN
+’s_POS
+grasping_VBG
+hand_NN NNCONC
+and_CC
+ran_VBD ACT
+,_,
+laughing_VBG
+,_,
+back_RB RBother
+to_IN INother
+the_DT
+pile_NN NNother
+of_IN INother
+stones_NN NNCONC
+._.
+His_TPP3S
+father_NN NNHUMAN
+spoke_VBD COMM
+up_RP
+sharply_RB RBother
+,_,
+and_CC
+Bobby_NN NNP
+came_VBD ACT
+quickly_RB RBother
+and_CC
+took_VBD ACT
+his_TPP3S
+place_NN NNPLACE
+between_IN INother
+his_TPP3S
+father_NN NNHUMAN
+and_CC
+his_TPP3S
+oldest_JJAT JJATother
+brother_NN NNHUMAN
+._.
+The_DT
+lottery_NN NNother
+was_VBD
+conducted_PASS PASSAll
+—_:
+as_RB RBother
+were_VBD BEMA
+the_DT
+square_JJAT JJATother
+dances_NN NNother
+,_,
+the_DT
+teen_NN NNother
+-_HYPH
+age_NN NNQUANT
+club_NN NCOMP
+,_,
+the_DT
+Halloween_NN NNP
+program_NN NCOMP
+—_HYPH
+by_IN INother
+Mr._NN NNP
+Summers_NN NNP
+,_,
+who_WHSC WHSCother
+had_VBD
+time_NN NNQUANT
+and_CC
+energy_NN NNQUANT
+to_IN INother
+devote_VB
+to_IN INother
+civic_JJAT JJATother
+activities_NN NNABSPROC
+._.
+He_TPP3S
+was_VBD BEMA
+a_DT
+round_NN NNother
+-_HYPH
+faced_VBN MENTAL
+,_,
+jovial_JJAT JJATother
+man_NN NNHUMAN
+and_CC
+he_TPP3S
+ran_VBD ACT
+the_DT
+coal_NN NNother
+business_NN NCOMP
+,_,
+and_CC
+people_NN NNHUMAN
+were_VBD BEMA
+sorry_JJPR POLITE
+for_IN INother
+him_TPP3S
+,_,
+because_CUZ
+he_TPP3S
+had_VBD
+no_XX0
+children_NN NNHUMAN
+and_CC
+his_TPP3S
+wife_NN NNHUMAN
+was_VBD BEMA
+a_DT
+scold_VB
+._.
+When_WHSC WHSCother
+he_TPP3S
+arrived_VBD
+in_IN INother
+the_DT
+square_NN NNTECH
+,_,
+carrying_VBG ACT
+the_DT
+black_JJAT JJDESCAll JJCOLR
+wooden_JJAT JJATother
+box_NN NNCONC
+,_,
+there_EX
+was_VBD
+a_DT
+murmur_NN NNother
+of_IN INother
+conversation_NN NOMZ
+among_IN INother
+the_DT
+villagers_NN NNother
+,_,
+and_CC
+he_TPP3S
+waved_VBD
+and_CC
+called_VBD COMM
+,_,
+“_``
+Little_JJAT JJDESCAll JJSIZE
+late_JJAT JJTIME
+today_TIME
+,_,
+folks_NN NNother
+._.
+”_''
+The_DT
+postmaster_NN NNother
+,_,
+Mr._NN NNP
+Graves_NN NNP
+,_,
+followed_VBD ACT
+him_TPP3S
+,_,
+carrying_VBG ACT
+a_DT
+three_CD
+-_HYPH
+legged_JJAT JJATother
+stool_NN NNother
+,_,
+and_CC
+the_DT
+stool_NN NNother
+was_VBD
+put_PASS PASSAll ACT
+in_IN INother
+the_DT
+center_NN NNTECH
+of_IN INother
+the_DT
+square_JJAT JJATother
+and_CC
+Mr._NN NNP
+Summers_NN NNP
+set_VBD
+the_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+down_RP
+on_IN INother
+it_PIT
+._.
+The_DT
+villagers_NN NNother
+kept_VBD ASPECT
+their_TPP3P
+distance_NN NNother
+,_,
+leaving_VBG ACT
+a_DT
+space_NN NNCONC
+between_IN INother
+themselves_TPP3P
+and_CC
+the_DT
+stool_NN NNother
+,_,
+and_CC
+when_WHQU
+Mr._NN NNP
+Summers_NN NNP
+said_VBD COMM
+,_,
+“_``
+Some_QUAN
+of_IN INother
+you_SPP2
+fellows_NN NNother
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+give_VB ACT
+me_FPP1S FPPAll
+a_DT
+hand_NN NNCONC
+?_.
+,_,
+”_''
+there_EX
+was_VBD
+a_DT
+hesitation_NN NOMZ
+before_IN INother
+two_CD
+men_NN NNHUMAN
+,_,
+Mr._NN NNP
+Martin_NN NNP
+and_CC
+his_TPP3S
+oldest_JJAT JJATother
+son_NN NNHUMAN
+,_,
+Baxter_NN NNP
+,_,
+came_VBD ACT
+forward_RB RBother
+to_IN INother
+hold_VB ACT
+the_DT
+box_NN NNCONC
+steady_JJPR JJPRother
+on_IN INother
+the_DT
+stool_NN NNother
+while_CC
+Mr._NN NNP
+Summers_NN NNP
+stirred_VBD
+up_RP
+the_DT
+papers_NN NNCONC
+inside_IN INother
+it_PIT
+._.
+The_DT
+original_JJAT JJREL
+paraphernalia_NN NNother
+for_IN INother
+the_DT
+lottery_NN NNother
+had_VBD
+been_PEAS
+lost_PASS PASSAll ACT
+long_RB RBother
+ago_TIME
+,_,
+and_CC
+the_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+now_TIME
+resting_VBG
+on_IN INother
+the_DT
+stool_NN NNother
+had_VBD
+been_PEAS
+put_PASS PASSAll ACT
+into_IN INother
+use_NN NNABSPROC
+even_RB RBother
+before_IN INother
+Old_NN NNP
+Man_NN NNP
+Warner_NN NNP
+,_,
+the_DT
+oldest_JJAT JJATother
+man_NN NNHUMAN
+in_IN INother
+town_NN NNother
+,_,
+was_VBD
+born_PASS PASSAll
+._.
+Mr._NN NNP
+Summers_NN NNP
+spoke_VBD COMM
+frequently_FREQ
+to_IN INother
+the_DT
+villagers_NN NNother
+about_IN INother
+making_VBG ACT
+a_DT
+new_JJAT JJTIME
+box_NN NNCONC
+,_,
+but_CC
+no_XX0
+one_QUPR
+liked_VBD MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+upset_VB
+even_RB RBother
+as_IN INother
+much_QUAN
+tradition_NN NNABSPROC
+as_IN INother
+was_VBD
+represented_PASS PASSAll EXIST
+by_IN INother
+the_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+._.
+There_EX
+was_VBD
+a_DT
+story_NN NNother
+that_THRC THRCother
+the_DT
+present_JJAT JJATother
+box_NN NNCONC
+had_VBD
+been_PEAS
+made_PASS PASSAll ACT
+with_IN INother
+some_QUAN
+pieces_NN NNCONC
+of_IN INother
+the_DT
+box_NN NNCONC
+that_THRC THRCother
+had_VBD
+preceded_PEAS
+it_PIT
+,_,
+the_DT
+one_NN NNother
+that_THRC THRCother
+had_VBD
+been_PEAS
+constructed_PASS PASSAll
+when_WHSC WHSCother
+the_DT
+first_JJAT JJATother
+people_NN NNHUMAN
+settled_VBD
+down_RP
+to_IN INother
+make_VB ACT
+a_DT
+village_NN NNPLACE
+here_PLACE
+._.
+Every_QUAN
+year_NN NNother
+,_,
+after_IN INother
+the_DT
+lottery_NN NNother
+,_,
+Mr._NN NNP
+Summers_NN NNP
+began_VBD ASPECT
+talking_VBG COMM
+again_FREQ
+about_IN INother
+a_DT
+new_JJAT JJTIME
+box_NN NNCONC
+,_,
+but_CC
+every_QUAN
+year_NN NNother
+the_DT
+subject_NN NNABSPROC
+was_VBD
+allowed_PASS PASSAll CAUSE
+to_IN INother
+fade_VB
+off_RP
+without_IN INother
+anything_QUPR
+’s_POS
+being_NN NNother
+done_VBN ACT
+._.
+The_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+grew_VBD OCCUR
+shabbier_JJPR JJPRother
+each_QUAN
+year_NN NNother
+;_:
+by_IN INother
+now_TIME
+it_PIT
+was_VBD
+no_DMA
+longer_RB RBother
+completely_AMP
+black_JJPR JJDESCAll JJCOLR
+but_CC
+splintered_JJPR JJPRother
+badly_RB RBother
+along_IN INother
+one_CD
+side_NN NNABSPROC
+to_IN INother
+show_VB ACT
+the_DT
+original_JJAT JJREL
+wood_NN NNCONC
+color_NN NCOMP
+,_,
+and_CC
+in_IN INother
+some_QUAN
+places_NN NNPLACE
+faded_VBD
+or_CC
+stained_VBD
+._.
+Mr._NN NNP
+Martin_NN NNP
+and_CC
+his_TPP3S
+oldest_JJAT JJATother
+son_NN NNHUMAN
+,_,
+Baxter_NN NNP
+,_,
+held_VBD ACT
+the_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+securely_RB RBother
+on_IN INother
+the_DT
+stool_NN NNother
+until_IN INother
+Mr._NN NNP
+Summers_NN NNP
+had_VBD
+stirred_PEAS
+the_DT
+papers_NN NNCONC
+thoroughly_AMP
+with_IN INother
+his_TPP3S
+hand_NN NNCONC
+._.
+Because_CUZ
+so_EMPH
+much_QUAN
+of_IN INother
+the_DT
+ritual_NN NNother
+had_VBD
+been_PEAS
+forgotten_PASS PASSAll MENTAL
+or_CC
+discarded_PASS PASSAll
+,_,
+Mr._NN NNP
+Summers_NN NNP
+had_VBD
+been_PEAS BEMA
+successful_JJPR JJPRother
+in_IN INother
+having_VBG
+slips_NN NNother
+of_IN INother
+paper_NN NNCONC
+substituted_VBN
+for_IN INother
+the_DT
+chips_NN NNother
+of_IN INother
+wood_NN NNCONC
+that_THRC THRCother
+had_VBD
+been_PEAS
+used_PASS PASSAll ACT
+for_IN INother
+generations_NN NNABSPROC
+._.
+Chips_NN NNother
+of_IN INother
+wood_NN NNCONC
+,_,
+Mr._NN NNP
+Summers_NN NNP
+had_VBD
+argued_PEAS COMM
+,_,
+had_VBD
+been_PEAS BEMA
+all_QUAN
+very_AMP
+well_RB RBother
+when_WHSC WHSCother
+the_DT
+village_NN NNPLACE
+was_VBD BEMA
+tiny_JJPR JJPRother
+,_,
+but_CC
+now_TIME
+that_THSC THSCother
+the_DT
+population_NN NOMZ
+was_VBD BEMA
+more_QUAN
+than_IN INother
+three_CD
+hundred_CD
+and_CC
+likely_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJCRTN
+keep_VB ASPECT
+on_IN INother
+growing_VBG OCCUR
+,_,
+it_PIT
+was_VBD BEMA
+necessary_JJPR JJREL
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+use_VB ACT
+something_QUPR
+that_THRC THRCother
+would_MDWO MDPREDAll
+fit_VB EXIST
+more_AMP
+easily_RB RBother
+into_IN INother
+the_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+._.
+The_DT
+night_NN NNother
+before_IN INother
+the_DT
+lottery_NN NNother
+,_,
+Mr._NN NNP
+Summers_NN NNP
+and_CC
+Mr._NN NNP
+Graves_NN NNP
+made_VBD ACT
+up_RP
+the_DT
+slips_NN NNother
+of_IN INother
+paper_NN NNCONC
+and_CC
+put_VB ACT
+them_TPP3P
+into_IN INother
+the_DT
+box_NN NNCONC
+,_,
+and_CC
+it_PIT
+was_VBD SPLIT
+then_RB RBother
+taken_PASS PASSAll ACT
+to_IN INother
+the_DT
+safe_JJAT JJATother
+of_IN INother
+Mr._NN NNP
+Summers_NN NNP
+’_''
+coal_NN NNother
+company_NN NCOMP
+and_CC
+locked_VBD
+up_RP
+until_IN INother
+Mr._NN NNP
+Summers_NN NNP
+was_VBD BEMA
+ready_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+take_VB ACT
+it_PIT
+to_IN INother
+the_DT
+square_JJAT JJATother
+next_JJAT JJATother
+morning_NN NNQUANT
+._.
+The_DT
+rest_NN NNABSPROC
+of_IN INother
+the_DT
+year_NN NNother
+,_,
+the_DT
+box_NN NNCONC
+was_VBD
+put_PASS PASSAll ACT
+away_PLACE
+,_,
+sometimes_FREQ
+one_CD
+place_NN NNPLACE
+,_,
+sometimes_FREQ
+another_DT
+;_:
+it_PIT
+had_VBD
+spent_PEAS ACT
+one_CD
+year_NN NNother
+in_IN INother
+Mr._NN NNP
+Graves_NN NNP
+’_''
+barn_NN NNother
+and_CC
+another_DT
+year_NN NNother
+underfoot_PLACE
+in_IN INother
+the_DT
+post_NN NNCONC
+office_NN NCOMP
+,_,
+and_CC
+sometimes_FREQ
+it_PIT
+was_VBD
+set_PASS PASSAll
+on_IN INother
+a_DT
+shelf_NN NNother
+in_IN INother
+the_DT
+Martin_NN NNP
+grocery_NN NCOMP
+and_CC
+left_VBD ACT
+there_PLACE
+._.
+There_EX
+was_VBD
+a_DT
+great_JJAT JJEVAL
+deal_NN NNABSPROC
+of_IN INother
+fussing_VBG
+to_IN INother
+be_VB
+done_PASS PASSAll ACT
+before_IN INother
+Mr._NN NNP
+Summers_NN NNP
+declared_VBD COMM
+the_DT
+lottery_NN NNother
+open_JJPR JJPRother
+._.
+There_EX
+were_VBD
+the_DT
+lists_NN NNTECH
+to_IN INother
+make_VB ACT
+up_RP
+—_HYPH
+of_IN INother
+heads_NN NNCONC
+of_IN INother
+families_NN NNHUMAN
+,_,
+heads_NN NNCONC
+of_IN INother
+households_NN NNGRP
+in_IN INother
+each_QUAN
+family_NN NNHUMAN
+,_,
+members_NN NNHUMAN
+of_IN INother
+each_QUAN
+household_NN NNGRP
+in_IN INother
+each_QUAN
+family_NN NNHUMAN
+._.
+There_EX
+was_VBD
+the_DT
+proper_JJAT JJATother
+swearing_NN NNother
+-_HYPH
+in_IN INother
+of_IN INother
+Mr._NN NNP
+Summers_NN NNP
+by_IN INother
+the_DT
+postmaster_NN NNother
+,_,
+as_IN INother
+the_DT
+official_NN NNHUMAN
+of_IN INother
+the_DT
+lottery_NN NNother
+;_:
+at_IN INother
+one_CD
+time_NN NNQUANT
+,_,
+some_QUAN
+people_NN NNHUMAN
+remembered_VBD MENTAL
+,_,
+there_EX
+had_VBD
+been_PEAS
+a_DT
+recital_NN NNother
+of_IN INother
+some_QUAN
+sort_NN NNABSPROC
+,_,
+performed_VBN
+by_IN INother
+the_DT
+official_NN NNHUMAN
+of_IN INother
+the_DT
+lottery_NN NNother
+,_,
+a_DT
+perfunctory_JJAT JJATother
+,_,
+tuneless_JJAT JJATother
+chant_VB
+that_DEMO
+had_VBD
+been_PEAS
+rattled_PASS PASSAll
+off_RP
+duly_RB RBother
+each_QUAN
+year_NN NNother
+;_:
+some_QUAN
+people_NN NNHUMAN
+believed_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+the_DT
+official_NN NNHUMAN
+of_IN INother
+the_DT
+lottery_NN NNother
+used_VBN ACT
+to_IN INother
+stand_VB EXIST
+just_RB EMPH
+so_SO
+when_WHSC WHSCother
+he_TPP3S
+said_VBD COMM
+or_CC
+sang_VBD COMM
+it_PIT
+,_,
+others_NN NNother
+believed_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+he_TPP3S
+was_VBD
+supposed_PASS PASSAll MENTAL
+to_IN INother
+walk_VB ACT
+among_IN INother
+the_DT
+people_NN NNHUMAN
+,_,
+but_CC
+years_NN NNother
+and_CC
+years_NN NNother
+ago_TIME
+this_DEMO
+part_NN NNQUANT
+of_IN INother
+the_DT
+ritual_NN NNother
+had_VBD
+been_PEAS
+allowed_PASS PASSAll CAUSE
+to_IN INother
+lapse_NN NNother
+._.
+There_EX
+had_VBD
+been_PEAS
+,_,
+also_CC
+,_,
+a_DT
+ritual_NN NNother
+salute_NN NCOMP
+,_,
+which_WHSC WHSCother
+the_DT
+official_NN NNHUMAN
+of_IN INother
+the_DT
+lottery_NN NNother
+had_VBD
+had_PEAS
+to_IN INother
+use_VB ACT
+in_IN INother
+addressing_VBG COMM
+each_QUAN
+person_NN NNHUMAN
+who_WHSC WHSCother
+came_VBD ACT
+up_RP
+to_IN INother
+draw_VB
+from_IN INother
+the_DT
+box_NN NNCONC
+,_,
+but_CC
+this_DEMO
+also_CC
+had_VBD
+changed_PEAS OCCUR
+with_IN INother
+time_NN NNQUANT
+,_,
+until_IN INother
+now_TIME
+it_PIT
+was_VBD
+felt_PASS PASSAll MENTAL
+necessary_JJPR JJREL
+only_RB RBother
+for_IN INother
+the_DT
+official_NN NNHUMAN
+to_IN INother
+speak_VB COMM
+to_IN INother
+each_QUAN
+person_NN NNHUMAN
+approaching_VBG
+._.
+Mr._NN NNP
+Summers_NN NNP
+was_VBD BEMA
+very_AMP
+good_JJPR JJEVAL
+at_IN INother
+all_QUAN
+this_DEMO
+;_:
+in_IN INother
+his_TPP3S
+clean_JJAT JJATother
+white_JJAT JJDESCAll JJCOLR
+shirt_NN NNother
+and_CC
+blue_JJAT JJDESCAll JJCOLR
+jeans_NN NNother
+,_,
+with_IN INother
+one_CD
+hand_NN NNCONC
+resting_VBG
+carelessly_RB RBother
+on_IN INother
+the_DT
+black_JJAT JJDESCAll JJCOLR
+box_NN NNCONC
+,_,
+he_TPP3S
+seemed_VBD EXIST
+very_AMP
+proper_JJPR JJPRother
+and_CC
+important_JJPR JJPRother
+as_IN INother
+he_TPP3S
+talked_VBD COMM
+interminably_RB RBother
+to_IN INother
+Mr._NN NNP
+Graves_NN NNP
+and_CC
+the_DT
+Martins_NN NNP
+._.
+When_WHSC WHSCother
+I_FPP1S FPPAll
+spoke_VBD COMM
+with_IN INother
+Olivia_NN NNP
+Troye_NN NNP
+on_IN INother
+Thursday_NN NNP
+afternoon_NN NCOMP
+,_,
+she_TPP3S
+sounded_VBD EXIST
+more_QUAN
+than_IN INother
+a_DT
+little_JJAT JJDESCAll JJSIZE
+scared_JJPR JJPRother
+._.
+She_TPP3S
+was_VBD BEMA
+about_RB RBother
+to_IN INother
+go_VB
+public_JJPR JJREL
+with_IN INother
+a_DT
+scorching_VBG
+video_NN NNCONC
+,_,
+in_IN INother
+which_WHSC WHSCother
+she_TPP3S
+would_MDWO MDPREDAll
+denounce_VB
+President_NN NNP
+Donald_NN NNP
+Trump_NN NNP
+and_CC
+his_TPP3S
+stewardship_NN NNother
+of_IN INother
+the_DT
+country_NN NNPLACE
+during_IN INother
+the_DT
+coronavirus_NN NNother
+pandemic_NN NCOMP
+._.
+Troye_NN NNP
+,_,
+who_WHSC WHSCother
+served_VBD
+as_IN INother
+Vice-President_NN NNP
+Mike_NN NNP
+Pence_NN NNP
+’s_POS
+adviser_NN NNHUMAN
+for_IN INother
+homeland_NN NNother
+security_NN NCOMP
+until_IN INother
+late_JJAT JJTIME
+July_NN NNP
+,_,
+has_VPRT
+witnessed_PEAS
+the_DT
+Administration_NN NNP
+’s_POS
+response_NN NNother
+to_IN INother
+the_DT
+crisis_NN NNother
+as_IN INother
+Pence_NN NNP
+’s_POS
+top_JJAT JJREL
+aide_NN NNHUMAN
+on_IN INother
+the_DT
+White_NN NNP
+House_NN NNP
+coronavirus_NN NCOMP
+task_NN NNABSPROC
+force_NN NCOMP
+._.
+She_TPP3S
+had_VBD
+seen_PEAS MENTAL
+Trump_NN NNP
+rant_NN NCOMP
+in_IN INother
+private_JJPR JJPRother
+about_IN INother
+Fox_NN NNP
+News_NN NSTNCother NNP
+coverage_NN NCOMP
+as_IN INother
+his_TPP3S
+public_JJPR JJREL
+-_HYPH
+health_NN NNABSPROC
+advisers_NN NCOMP
+desperately_RB RBother
+tried_VBD ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+get_VB
+him_TPP3S
+to_IN INother
+focus_VB
+on_IN INother
+a_DT
+disease_NN NNother
+that_THRC THRCother
+has_VPRT SPLIT
+now_TIME
+killed_PEAS
+some_QUAN
+two_CD
+hundred_CD
+thousand_CD
+Americans_NN NNP
+._.
+She_TPP3S
+had_VBD
+decided_PEAS MENTAL
+that_THSC THSCother
+Trump_NN NNP
+was_VBD
+lying_PROG ACT
+to_IN INother
+the_DT
+American_JJAT JJATother
+public_NN NNother
+about_IN INother
+the_DT
+disease_NN NNother
+,_,
+and_CC
+that_DEMO
+“_``
+words_NN NNTECH
+matter_RB RBother
+,_,
+especially_RB RBother
+when_WHSC WHSCother
+you_SPP2
+’re_VPRT BEMA
+the_DT
+President_NN NNP
+of_IN INother
+the_DT
+United_NN NNP
+States_NN NNP
+,_,
+”_''
+and_CC
+that_THSC THSCother
+it_PIT
+was_VBD BEMA
+time_NN NNQUANT
+to_IN INother
+speak_VB COMM
+out_RP
+._.
+She_TPP3S
+was_VBD BEMA
+nervous_JJPR JJPRother
+and_CC
+scared_JJPR JJPRother
+and_CC
+worried_JJPR JJATDother
+for_IN INother
+her_TPP3S
+family_NN NNHUMAN
+and_CC
+her_TPP3S
+career_NN NNABSPROC
+._.
+But_CC
+she_TPP3S
+plunged_VBD
+ahead_PLACE
+anyway_DMA
+._.
+I_FPP1S FPPAll
+asked_VBD COMM
+about_IN INother
+her_TPP3S
+firsthand_JJAT JJATother
+observation_NN NNCOG
+of_IN PrepNSTNC
+the_DT
+President_NN NNP
+during_IN INother
+the_DT
+crisis_NN NNother
+._.
+She_TPP3S
+said_VBD COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+Trump_NN NNP
+was_VBD
+“_``
+disruptive_JJPR JJPRother
+._.
+”_''
+That_THSC THSCother
+he_TPP3S
+could_MDCO MDPOSSCAll
+not_XX0
+“_``
+focus_VIMP
+._.
+”_''
+That_THSC THSCother
+he_TPP3S
+was_VBD
+consumed_PASS PASSAll
+by_IN INother
+himself_TPP3S
+and_CC
+his_TPP3S
+prospects_NN NNother
+in_IN INother
+November_NN NNP
+._.
+“_``
+For_IN INother
+him_TPP3S
+,_,
+it_PIT
+was_VBD BEMA
+all_QUAN
+about_IN INother
+the_DT
+election_NN NOMZ
+,_,
+”_''
+Troye_NN NNP
+told_VBD COMM
+me_FPP1S FPPAll
+._.
+“_``
+He_TPP3S
+just_RB EMPH
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+seem_VB EXIST
+to_IN ToSTNCAll ToVSTNCAll ToVPROB
+care_VB MENTAL
+about_IN INother
+anyone_QUPR
+else_RB RBother
+besides_CC
+himself_TPP3S
+._.
+”_''
+Troye_NN NNP
+joined_VBD ACT
+the_DT
+coronavirus_NN NNother
+task_NN NCOMP
+force_NN NNother
+when_WHSC WHSCother
+it_PIT
+was_VBD SPLIT
+first_RB RBother
+established_PASS PASSAll
+,_,
+in_IN INother
+late_JJAT JJTIME
+January_NN NNP
+,_,
+before_IN INother
+any_QUAN
+Americans_NN NNP
+had_VBD
+died_PEAS OCCUR
+from_IN INother
+COVID_NN NNP
+-_HYPH
+19_NN NNP
+._.
+Her_TPP3S
+experience_NN NNCOG
+on_IN INother
+it_PIT
+,_,
+Troye_NN NNP
+told_VBD COMM
+me_FPP1S FPPAll
+,_,
+convinced_VBD COMM
+her_TPP3S
+that_THSC THSCother
+Trump_NN NNP
+’s_POS
+handling_NN NNother
+of_IN INother
+the_DT
+situation_NN NNABSPROC
+—_:
+the_DT
+conscious_JJAT JJATother
+spreading_VBG
+of_IN INother
+disinformation_NN NOMZ
+,_,
+the_DT
+disregard_NN NNother
+for_IN INother
+the_DT
+task_NN NNABSPROC
+force_NN NCOMP
+’s_POS
+work_NN NNABSPROC
+—_,
+had_VBD
+made_PEAS ACT
+the_DT
+crisis_NN NNother
+far_EMPH
+worse_JJPR JJPRother
+for_IN INother
+Americans_NN NNP
+._.
+She_TPP3S
+warned_VBD COMM
+about_IN INother
+the_DT
+President_NN NNP
+’s_POS
+push_NN NNother
+for_IN INother
+a_DT
+vaccine_NN NNother
+before_IN INother
+the_DT
+November_NN NNP
+election_NN NCOMP
+and_CC
+said_VBD COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+she_TPP3S
+did_VBD DOAUX
+not_XX0
+trust_VB MENTAL
+him_TPP3S
+to_IN INother
+do_VB ACT
+the_DT
+right_JJAT JJEPSTother
+thing_NN NNother
+for_IN INother
+the_DT
+country_NN NNPLACE
+’s_POS
+health_NN NNABSPROC
+and_CC
+safety_NN NNother
+._.
+“_``
+What_WHSC WHSCother
+I_FPP1S FPPAll
+’m_VPRT BEMA
+really_RB EMPH
+concerned_JJPR JJATDother
+about_IN INother
+is_VPRT
+if_COND
+they_TPP3P
+rush_VPRT
+this_DEMO
+vaccine_NN NNother
+and_CC
+pressure_NN NNABSPROC
+people_NN NCOMP
+and_CC
+get_VB
+something_QUPR
+out_RB RBother
+because_CUZ
+they_TPP3P
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+save_VB ACT
+the_DT
+election_NN NOMZ
+,_,
+”_''
+she_TPP3S
+said_VBD COMM
+._.
+Troye_NN NNP
+is_VPRT BEMA
+the_DT
+first_JJAT JJATother
+White_NN NNP
+House_NN NNP
+staff_NN NCOMP
+member_NN NNHUMAN
+who_WHSC WHSCother
+has_VPRT
+worked_PEAS ACT
+on_IN INother
+the_DT
+coronavirus_NN NNother
+response_NN NCOMP
+to_IN INother
+speak_VB COMM
+out_RP
+publicly_RB RBother
+against_IN INother
+Trump_NN NNP
+,_,
+but_CC
+the_DT
+President_NN NNP
+and_CC
+the_DT
+Administration_NN NNABSPROC
+she_TPP3S
+described_VBD COMM
+were_VBD BEMA
+drearily_RB RBother
+consistent_JJPR JJPRother
+with_IN INother
+portraits_NN NNCONC
+that_THRC THRCother
+have_VPRT
+emerged_PEAS OCCUR
+in_IN INother
+countless_JJAT JJATother
+other_JJPR JJPRother
+tell_VB COMM
+-_HYPH
+all_QUAN
+interviews_NN NNother
+and_CC
+books_NN NNCONC
+:_:
+a_DT
+White_NN NNP
+House_NN NNP
+riven_VBN
+by_IN INother
+backstabbing_NN NNother
+and_CC
+suspicion_NN NNother
+,_,
+where_WHSC WHSCother
+trouble_NN NNABSPROC
+flowed_VBD OCCUR
+from_IN INother
+the_DT
+top_JJAT JJREL
+and_CC
+good_JJAT JJEVAL
+governance_NN NNother
+was_VBD BEMA
+subordinate_JJPR JJPRother
+to_IN INother
+Presidential_JJAT JJATother
+whim_NN NNother
+and_CC
+partisan_JJAT JJATother
+calculation_NN NNCOG
+._.
+She_TPP3S
+told_VBD COMM
+me_FPP1S FPPAll
+she_TPP3S
+believed_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+most_JJAT EMPH
+other_JJAT JJATother
+staffers_NN NNother
+on_IN INother
+the_DT
+coronavirus_NN NNother
+task_NN NCOMP
+force_NN NNother
+were_VBD SPLIT
+genuinely_RB RBother
+motivated_PASS PASSAll
+to_IN INother
+help_VB CAUSE
+Americans_NN NNP
+weather_VPRT
+the_DT
+pandemic_NN NNother
+but_CC
+that_THSC THSCother
+Trump_NN NNP
+blocked_VBD
+them_TPP3P
+from_IN INother
+implementing_VBG
+the_DT
+right_JJAT JJEPSTother
+policies_NN NNABSPROC
+._.
+“_``
+Everything_QUPR
+that_THRC THRCother
+you_SPP2
+’re_VPRT
+putting_PROG ACT
+in_IN INother
+place_NN NNPLACE
+is_VPRT
+derailed_PASS PASSAll
+not_XX0
+just_RB EMPH
+by_IN INother
+a_DT
+random_JJAT JJATother
+person_NN NNHUMAN
+—_,
+it_PIT
+’s_POS
+derailed_VBN
+by_IN INother
+a_DT
+No._NN NNother
+1_CD
+._.
+It_PIT
+’s_POS
+derailed_VBN
+by_IN INother
+the_DT
+person_NN NNHUMAN
+at_IN INother
+the_DT
+very_AMP
+top_JJPR JJREL
+,_,
+”_''
+she_TPP3S
+said_VBD COMM
+._.
+Troye_NN NNP
+described_VBD COMM
+herself_TPP3S
+to_IN INother
+me_FPP1S FPPAll
+as_IN INother
+a_DT
+lifelong_JJAT JJATother
+Republican_NN NNP
+,_,
+whose_WHSC WHSCother
+first_JJAT JJATother
+job_NN NNABSPROC
+out_IN INother
+of_IN INother
+college_NN NNGRP
+was_VBD BEMA
+at_IN INother
+the_DT
+Republican_NN NNP
+National_NN NNP
+Committee_NN NNP
+._.
+On_IN INother
+9/11_CD
+,_,
+she_TPP3S
+fled_VBD
+her_TPP3S
+office_NN NNPLACE
+on_IN INother
+foot_NN NNCONC
+,_,
+walking_VBG ACT
+home_RB RBother
+past_IN INother
+the_DT
+smoldering_VBG
+fire_NN NNTECH
+of_IN INother
+the_DT
+Pentagon_NN NNP
+,_,
+a_DT
+moment_NN NNQUANT
+that_THRC THRCother
+convinced_VBD COMM
+her_TPP3S
+,_,
+like_LIKE
+many_QUAN
+others_NN NNother
+in_IN INother
+her_TPP3S
+generation_NN NNABSPROC
+,_,
+to_IN INother
+pursue_VB
+a_DT
+career_NN NNABSPROC
+in_IN INother
+national_JJAT JJATother
+security_NN NNABSPROC
+._.
+She_TPP3S
+went_VBD
+on_IN INother
+to_IN INother
+serve_VB
+as_IN INother
+a_DT
+George_NN NNP
+W._NN NNP
+Bush_NN NNP
+Administration_NN NNP
+appointee_NN NCOMP
+in_IN INother
+the_DT
+Pentagon_NN NNP
+._.
+For_IN INother
+the_DT
+first_JJAT JJATother
+year_NN NNother
+and_CC
+a_DT
+half_QUAN
+of_IN INother
+the_DT
+Trump_NN NNP
+Administration_NN NNP
+,_,
+she_TPP3S
+worked_VBD ACT
+at_IN INother
+the_DT
+Department_NN NNP
+of_IN INother
+Homeland_NN NNP
+Security_NN NNP
+,_,
+as_IN INother
+a_DT
+career_NN NNABSPROC
+intelligence_NN NCOMP
+official_NN NNHUMAN
+,_,
+before_IN INother
+being_VBG
+detailed_PASS PASSAll
+to_IN INother
+Pence_NN NNP
+’s_POS
+staff_NN NNother
+._.
+Civil_JJAT JJATother
+servants_NN NNother
+like_LIKE
+her_TPP3S
+were_VBD
+reviled_PASS PASSAll
+as_IN INother
+“_``
+deep_JJAT JJDESCAll JJSIZE
+staters_NN NNother
+”_''
+by_IN INother
+Trump_NN NNP
+’s_POS
+political_JJAT JJTOPIC
+appointees_NN NNother
+,_,
+she_TPP3S
+said_VBD COMM
+._.
+They_TPP3P
+were_VBD
+viewed_PASS PASSAll
+with_IN INother
+even_RB RBother
+more_QUAN
+suspicion_NN NNother
+after_IN INother
+Trump_NN NNP
+’s_POS
+impeachment_NN NOMZ
+in_IN INother
+the_DT
+House_NN NNP
+,_,
+in_IN INother
+December_NN NNP
+,_,
+was_VBD
+aided_PASS PASSAll
+by_IN INother
+testimony_NN NNother
+from_IN INother
+mid-level_NN NNABSPROC
+White_NN NNP
+House_NN NNP
+staffers_NN NCOMP
+,_,
+including_VBG EXIST
+Jennifer_NN NNP
+Williams_NN NNP
+,_,
+Pence_NN NNP
+’s_POS
+national_JJPR JJPRother
+-_HYPH
+security_NN NNABSPROC
+aide_NN NCOMP
+,_,
+who_WHSC WHSCother
+worked_VBD ACT
+in_IN INother
+the_DT
+office_NN NNPLACE
+next_JJPR JJPRother
+to_IN INother
+Troye_NN NNP
+’s_POS
+._.
+“_``
+I_FPP1S FPPAll
+actually_DMA
+find_VPRT
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+term_NN NNQUANT
+very_AMP
+offensive_JJPR JJPRother
+,_,
+”_''
+she_TPP3S
+told_VBD COMM
+me_FPP1S FPPAll
+,_,
+“_``
+because_CUZ
+not_XX0
+once_TIME
+while_CC
+I_FPP1S FPPAll
+was_VBD SPLIT
+there_PLACE
+did_VBD DOAUX
+I_FPP1S FPPAll
+do_VB ACT
+anything_QUPR
+that_THRC THRCother
+I_FPP1S FPPAll
+believe_VPRT MENTAL
+would_MDWO MDPREDAll
+lead_VB
+anyone_QUPR
+to_IN INother
+think_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+I_FPP1S FPPAll
+was_VBD BEMA
+a_DT
+‘_``
+deep_JJAT JJDESCAll JJSIZE
+stater_NN NNother
+,_,
+’_''
+constantly_FREQ
+undermining_VBG
+his_TPP3S
+agenda_NN NNother
+. . ._NFP
+._.
+At_IN INother
+the_DT
+end_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+,_,
+I_FPP1S FPPAll
+’m_VPRT BEMA
+a_DT
+career_NN NNABSPROC
+officer_NN NCOMP
+and_CC
+my_FPP1S FPPAll
+job_NN NNABSPROC
+was_VBD
+to_IN INother
+serve_VB
+,_,
+no_DMA
+matter_RB CONC
+who_WHSC WHSCother
+was_VBD BEMA
+in_IN INother
+office_NN NNPLACE
+._.
+”_''
+Soon_TIME
+after_IN INother
+our_FPP1P FPPAll
+conversation_NN NOMZ
+,_,
+a_DT
+coalition_NN NOMZ
+called_VBN COMM
+Republican_JJAT JJATother
+Voters_NN NNother
+Against_IN INother
+Trump_NN NNP
+released_VBD
+Troye_NN NNP
+’s_POS
+video_NN NNCONC
+,_,
+the_DT
+third_JJAT JJATother
+such_JJAT JJATother
+testimonial_NN NNother
+of_IN INother
+a_DT
+former_JJAT JJATother
+Administration_NN NNP
+official_NN NCOMP
+speaking_VBG COMM
+out_IN INother
+against_IN INother
+the_DT
+President_NN NNP
+that_THSC THSCother
+the_DT
+group_NN NNother
+has_VPRT
+produced_PEAS ACT
+in_IN INother
+recent_JJAT JJTIME
+weeks_NN NNQUANT
+._.
+In_IN INother
+the_DT
+video_NN NNCONC
+,_,
+Troye_NN NNP
+speaks_VPRT COMM
+directly_RB RBother
+to_IN INother
+the_DT
+camera_NN NNCONC
+._.
+As_IN INother
+pictures_NN NNCONC
+of_IN INother
+her_TPP3S
+sitting_VBG ACT
+alongside_PLACE
+Vice-President_NN NNP
+Pence_NN NNP
+flash_NN NCOMP
+onscreen_JJPR JJPRother
+,_,
+she_TPP3S
+says_VPRT COMM
+that_DEMO
+,_,
+by_IN INother
+mid-February_NN NNother
+,_,
+the_DT
+task_NN NNABSPROC
+force_NN NCOMP
+knew_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+the_DT
+coronavirus_NN NNother
+was_VBD BEMA
+a_DT
+lethal_JJAT JJATother
+threat_NN NNother
+to_IN PrepNSTNC
+the_DT
+U.S._NN NNP
+“_``
+But_CC
+the_DT
+President_NN NNP
+did_VBD SPLIT DOAUX
+n’t_RB RBother
+want_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+hear_VB MENTAL
+that_DEMO
+,_,
+because_CUZ
+his_TPP3S
+biggest_JJAT JJATother
+concern_NN NNCOG
+was_VBD
+that_THSC THSCother
+we_FPP1P FPPAll
+were_VBD BEMA
+in_IN INother
+an_DT
+election_NN NOMZ
+year_NN NCOMP
+._.
+”_''
+Troye_NN NNP
+adds_VPRT ACT
+,_,
+“_``
+It_PIT
+was_VBD BEMA
+shocking_JJPR JJPRother
+to_IN INother
+see_VB MENTAL THATD
+the_DT
+President_NN NNP
+saying_VBG COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+the_DT
+virus_NN NNTECH
+was_VBD BEMA
+a_DT
+hoax_NN NNother
+,_,
+saying_VBG COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+everything_QUPR
+was_VBD
+O.K._NN NNP
+when_WHSC WHSCother
+it_PIT
+was_VBD
+not_XX0
+,_,
+”_''
+despite_CONC
+what_WHSC WHSCother
+he_TPP3S
+had_VBD
+been_PEAS SPLIT
+very_AMP
+clearly_RB RBother
+told_PASS PASSAll COMM
+in_IN INother
+private_JJPR JJPRother
+._.
+Troye_NN NNother
+ends_VPRT ASPECT
+the_DT
+video_NN NNCONC
+by_IN INother
+calling_VBG COMM
+herself_TPP3S
+a_DT
+“_``
+John_NN NNP
+McCain_NN NNP
+Republican_NN NNP
+”_''
+and_CC
+endorsing_VBG
+Trump_NN NNP
+’s_POS
+opponent_NN NNother
+,_,
+Joe_NN NNP
+Biden_NN NNP
+._.
+In_IN INother
+the_DT
+video_NN NNCONC
+,_,
+Troye_NN NNP
+recounts_VPRT
+when_WHSC WHSCother
+Trump_NN NNP
+,_,
+a_DT
+noted_VBN
+germaphobe_NN NNother
+,_,
+met_VBD ACT
+with_IN INother
+the_DT
+coronavirus_NN NNother
+task_NN NCOMP
+force_NN NNother
+,_,
+early_TIME
+on_IN INother
+in_IN INother
+the_DT
+crisis_NN NNother
+,_,
+and_CC
+told_VBD COMM
+its_PIT
+members_NN NNHUMAN
+that_THSC THSCother
+perhaps_HDG
+the_DT
+pandemic_NN NNother
+was_VBD BEMA
+a_DT
+good_JJAT JJEVAL
+thing_NN NNother
+because_CUZ
+he_TPP3S
+would_MDWO MDPREDAll SPLIT
+no_DMA
+longer_RB RBother
+have_MDNE
+to_IN INother
+shake_VB ACT
+hands_NN NNCONC
+with_IN INother
+all_QUAN
+the_DT
+“_``
+disgusting_JJAT JJATother
+people_NN NNHUMAN
+”_''
+at_IN INother
+his_TPP3S
+rallies_NN NNother
+and_CC
+other_JJAT JJATother
+public_JJAT JJREL
+events_NN NNother
+._.
+During_IN INother
+our_FPP1P FPPAll
+interview_NN NNother
+,_,
+I_FPP1S FPPAll
+asked_VBD COMM
+Troye_NN NNP
+if_COND
+she_TPP3S
+could_MDCO MDPOSSCAll
+remember_VB MENTAL
+other_JJPR JJPRother
+particularly_RB RBother
+memorable_JJAT JJATother
+times_NN NNQUANT
+when_WHSC WHSCother
+Trump_NN NNP
+spoke_VBD COMM
+privately_RB RBother
+to_IN INother
+the_DT
+group_NN NNother
+._.
+She_TPP3S
+recalled_VBD MENTAL
+how_WHSC WHSCother
+Trump_NN NNP
+refused_VBD
+several_QUAN
+times_NN NNQUANT
+to_IN INother
+consider_VB MENTAL
+urgent_JJAT JJATother
+business_NN NOMZ
+that_THSC THSCother
+the_DT
+task_NN NNABSPROC
+force_NN NCOMP
+presented_VBN
+to_IN INother
+him_TPP3S
+,_,
+deciding_VBG MENTAL
+“_``
+to_IN INother
+talk_VB COMM
+about_IN INother
+himself_TPP3S
+and_CC
+a_DT
+preferred_VBN MENTAL
+news_NN NSTNCother
+network_NN NCOMP
+and_CC
+how_WHSC WHSCother
+upset_JJPR JJPRother
+he_TPP3S
+was_VBD BEMA
+with_IN INother
+them_TPP3P
+,_,
+instead_CC
+of_IN INother
+focussing_VBG
+on_IN INother
+the_DT
+agenda_NN NNother
+at_IN INother
+hand_NN NNCONC
+._.
+”_''
+Fox_NN NNP
+News_NN NSTNCother NNP
+coverage_NN NCOMP
+,_,
+in_IN INother
+other_JJAT JJATother
+words_NN ELAB
+,_,
+preoccupied_VBD
+the_DT
+President_NN NNP
+more_QUAN
+than_IN INother
+saving_VBG ACT
+American_JJAT JJATother
+lives_NN NNABSPROC
+._.
+I_FPP1S FPPAll
+asked_VBD COMM
+Troye_NN NNP
+if_COND
+that_DEMO
+shocked_JJAT JJATDother
+her_TPP3S
+._.
+“_``
+No_DMA
+,_,
+”_''
+she_TPP3S
+said_VBD COMM
+._.
+She_TPP3S
+remembered_VBD MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+she_TPP3S
+thought_VBD MENTAL
+at_IN INother
+the_DT
+time_NN NNQUANT
+:_EMO
+“_``
+This_DEMO
+is_VPRT
+exactly_RB RBother
+what_WHSC WHSCother
+you_SPP2
+would_MDWO MDPREDAll
+expect_VB MENTAL
+._.
+”_''
+,_,
+the_DT
+surprise_NN NNother
+here_PLACE
+is_VPRT
+not_XX0
+that_THSC THSCother
+Trump_NN NNP
+acted_VBD
+so_EMPH
+callously_RB RBother
+in_IN INother
+the_DT
+midst_NN NNother
+of_IN INother
+a_DT
+pandemic_NN NNother
+but_CC
+that_THSC THSCother
+so_EMPH
+many_QUAN
+senior_JJAT JJATother
+government_NN NNGRP
+officials_NN NCOMP
+know_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+this_DEMO
+is_VPRT
+happening_PROG OCCUR
+and_CC
+are_VPRT
+doing_PROG ACT
+nothing_QUPR
+to_IN INother
+stop_VB ASPECT
+it_PIT
+._.
+Troye_NN NNP
+’s_POS
+testimony_NN NNother
+,_,
+like_LIKE
+that_DEMO
+of_IN INother
+so_EMPH
+many_QUAN
+others_NN NNother
+,_,
+is_VPRT BEMA
+from_IN INother
+inside_IN INother
+the_DT
+room_NN NNPLACE
+—_HYPH
+in_IN INother
+this_DEMO
+case_NN NNCONC
+,_,
+from_IN INother
+inside_IN INother
+the_DT
+very_AMP
+room_NN NNPLACE
+that_THRC THRCother
+is_VPRT
+supposed_PASS PASSAll MENTAL
+to_IN INother
+be_VB
+dealing_PROG
+with_IN INother
+the_DT
+single_JJAT JJREL
+biggest_JJAT JJATother
+crisis_NN NNother
+currently_TIME
+afflicting_VBG
+the_DT
+United_NN NNP
+States_NN NNP
+._.
+Every_QUAN
+Presidency_NN NNP
+has_VPRT
+its_PIT
+dissenters_NN NNother
+,_,
+people_NN NNHUMAN
+who_WHSC WHSCother
+leave_VPRT ACT
+and_CC
+tell_VPRT COMM
+tales_NN NNother
+after_IN INother
+they_TPP3P
+do_VPRT ACT
+so_SO
+._.
+But_CC
+there_EX
+has_VPRT SPLIT
+never_FREQ
+been_PEAS
+anything_QUPR
+like_LIKE
+the_DT
+stories_NN NNother
+that_THRC THRCother
+have_VPRT
+emerged_PEAS OCCUR
+from_IN INother
+the_DT
+Trump_NN NNP
+White_NN NNP
+House_NN NNP
+,_,
+from_IN INother
+so_EMPH
+many_QUAN
+who_WHSC WHSCother
+worked_VBD ACT
+with_IN INother
+the_DT
+President_NN NNP
+and_CC
+observed_VBD MENTAL
+him_TPP3S
+up_RP
+close_RB RBother
+._.
+People_NN NNHUMAN
+like_LIKE
+his_TPP3S
+former_JJAT JJATother
+national_JJPR JJPRother
+-_HYPH
+security_NN NNABSPROC
+adviser_NN NCOMP
+John_NN NNP
+Bolton_NN NNP
+,_,
+who_WHSC WHSCother
+called_VBD COMM
+Trump_NN NNP
+“_``
+unfit_JJPR JJPRother
+”_''
+for_IN INother
+office_NN NNPLACE
+._.
+And_CC
+people_NN NNHUMAN
+like_LIKE
+the_DT
+former_JJAT JJATother
+Secretary_NN NNP
+of_IN INother
+Defense_NN NNP
+Jim_NN NNP
+Mattis_NN NNP
+,_,
+the_DT
+former_JJAT JJATother
+White_NN NNP
+House_NN NNP
+chief_NN NCOMP
+of_IN INother
+staff_NN NNother
+John_NN NNP
+Kelly_NN NNP
+,_,
+and_CC
+the_DT
+former_JJAT JJATother
+director_NN NNHUMAN
+of_IN INother
+National_NN NNP
+Intelligence_NN NNP
+Dan_NN NNP
+Coats_NN NNP
+,_,
+all_QUAN
+of_IN INother
+whom_WHSC WHSCother
+have_VPRT
+relayed_PEAS
+grave_JJAT JJATother
+concerns_NN NNCOG
+about_IN INother
+Trump_NN NNP
+that_THRC THRCother
+have_VPRT
+made_PEAS ACT
+their_TPP3P
+way_NN NNABSPROC
+to_IN INother
+Bob_NN NNP
+Woodward_NN NNP
+and_CC
+other_JJAT JJATother
+journalists_NN NNother
+._.
+In_IN INother
+the_DT
+end_NN NNABSPROC
+,_,
+this_DEMO
+is_VPRT
+what_WHSC WHSCother
+struck_VBD
+me_FPP1S FPPAll
+most_RB EMPH
+during_IN INother
+my_FPP1S FPPAll
+conversation_NN NOMZ
+with_IN INother
+Troye_NN NNP
+:_:
+she_TPP3S
+is_VPRT BEMA
+young_JJPR JJTIME
+,_,
+only_RB RBother
+forty_CD
+-_HYPH
+three_CD
+years_NN NNother
+old_JJPR JJTIME
+,_,
+with_IN INother
+a_DT
+long_JJAT JJDESCAll JJSIZE
+career_NN NNABSPROC
+ahead_PLACE
+of_IN INother
+her_TPP3S
+,_,
+and_CC
+she_TPP3S
+was_VBD BEMA
+willing_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+put_VB ACT
+it_PIT
+all_QUAN
+on_IN INother
+the_DT
+line_NN NNother
+publicly_RB RBother
+,_,
+whereas_CONC
+people_NN NNHUMAN
+like_LIKE
+Mattis_NN NNP
+and_CC
+Kelly_NN NNP
+were_VBD
+not_XX0
+._.
+That_DEMO
+contrast_NN NNABSPROC
+could_MDCO MDPOSSCAll
+not_XX0
+have_VB
+been_PEAS BEMA
+more_AMP
+stark_JJPR JJPRother
+as_IN INother
+I_FPP1S FPPAll
+read_VPRT MENTAL
+a_DT
+Coats_NN NNP
+Op_NN NCOMP
+-_HYPH
+Ed_NN NNother
+in_IN INother
+the_DT
+Times_NN NNP
+that_THRC THRCother
+published_VBD
+the_DT
+same_JJAT JJREL
+day_NN NNQUANT
+as_IN INother
+Troye_NN NNP
+’s_POS
+video_NN NNCONC
+._.
+Coats_NN NNP
+,_,
+clearly_RB RBother
+referring_VBG
+to_IN INother
+Trump_NN NNP
+’s_POS
+recent_JJPR JJTIME
+undermining_VBG
+of_IN INother
+faith_NN NNother
+in_IN INother
+the_DT
+upcoming_JJAT JJATother
+election_NN NOMZ
+,_,
+said_VBD COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+a_DT
+national_JJAT JJATother
+commission_NN NNother
+should_MDNE
+be_VB
+established_PASS PASSAll
+by_IN INother
+Congress_NN NNP
+to_IN INother
+insure_VB
+confidence_NN NNother
+in_IN INother
+this_DEMO
+fall_NN NNother
+’s_POS
+voting_NN NNother
+._.
+Coats_NN NNP
+never_FREQ
+once_TIME
+referred_VBN
+to_IN INother
+Trump_NN NNP
+by_IN INother
+name_NN NNABSPROC
+,_,
+and_CC
+he_TPP3S
+has_VPRT SPLIT
+never_FREQ
+publicly_RB RBother
+come_PEAS ACT
+forward_RB RBother
+to_IN INother
+share_VB ACT
+with_IN INother
+Americans_NN NNP
+his_TPP3S
+misgivings_NN NNother
+about_IN INother
+the_DT
+President_NN NNP
+._.
+Why_WHSC WHSCother
+not_XX0
+?_.
+He_TPP3S
+is_VPRT BEMA
+a_DT
+veteran_JJAT JJATother
+U.S._NN NNP
+senator_NN NCOMP
+and_CC
+a_DT
+former_JJAT JJATother
+U.S._NN NNP
+ambassador_NN NCOMP
+who_WHSC WHSCother
+closed_VBD
+out_IN INother
+his_TPP3S
+career_NN NNABSPROC
+as_IN INother
+the_DT
+head_NN NNCONC
+of_IN INother
+the_DT
+massive_JJAT JJATother
+U.S._NN NNP
+intelligence_NN NCOMP
+bureaucracy_NN NNother
+._.
+What_WHQU
+does_VPRT DOAUX
+he_TPP3S
+have_MDNE
+to_IN INother
+risk_VB
+?_.
+Troye_NN NNP
+,_,
+with_IN INother
+much_QUAN
+more_QUAN
+to_IN INother
+lose_VB ACT
+—_:
+and_CC
+with_IN INother
+none_QUPR
+of_IN INother
+the_DT
+stature_NN NNother
+of_IN INother
+a_DT
+former_JJAT JJATother
+member_NN NNHUMAN
+of_IN INother
+Congress_NN NNP
+or_CC
+a_DT
+former_JJAT JJATother
+Marine_NN NNP
+general_JJPR JJREL
+—_HYPH
+had_VBD
+much_QUAN
+more_QUAN
+courage_NN NNother
+than_IN INother
+all_QUAN
+of_IN INother
+them_TPP3P
+._.
+She_TPP3S
+went_VBD
+ahead_PLACE
+when_WHSC WHSCother
+they_TPP3P
+have_VPRT
+not_XX0
+,_,
+knowing_VBG MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+she_TPP3S
+would_MDWO MDPREDAll
+be_VB
+attacked_PASS PASSAll
+._.
+And_CC
+,_,
+sure_DMA
+enough_RB RBother
+,_,
+when_WHSC WHSCother
+the_DT
+video_NN NNCONC
+went_VBD
+online_PLACE
+,_,
+the_DT
+White_NN NNP
+House_NN NNP
+released_VBD
+a_DT
+comment_NN NNABSPROC
+about_IN PrepNSTNC
+her_TPP3S
+that_THRC THRCother
+was_VBD BEMA
+harsh_JJPR JJPRother
+and_CC
+personal_JJPR JJPRother
+._.
+Her_TPP3S
+direct_JJAT JJREL
+supervisor_NN NNHUMAN
+in_IN INother
+Pence_NN NNP
+’s_POS
+office_NN NNPLACE
+,_,
+Lieutenant_NN NNP
+General_NN NNP
+Keith_NN NNP
+Kellogg_NN NNP
+,_,
+told_VBD COMM
+the_DT
+Washington_NN NNP
+Post_NN NNP
+that_THRC THRCother
+Troye_NN NNP
+was_VBD BEMA
+a_DT
+“_``
+disgruntled_JJPR JJPRother
+”_''
+former_JJAT JJATother
+detailee_NN NNother
+from_IN INother
+the_DT
+Department_NN NNP
+of_IN INother
+Homeland_NN NNP
+Security_NN NNP
+who_WHSC WHSCother
+was_VBD
+“_``
+no_DMA
+longer_RB RBother
+capable_JJPR JJPRother
+of_IN INother
+keeping_VBG ASPECT
+up_RP
+with_IN INother
+her_TPP3S
+day_NN NNQUANT
+-_HYPH
+to_IN INother
+-_HYPH
+day_NN NNQUANT
+duties_NN NCOMP
+._.
+”_''
+Later_TIME
+,_,
+when_WHSC WHSCother
+Pence_NN NNP
+himself_TPP3S
+was_VBD
+asked_PASS PASSAll COMM
+about_IN INother
+Troye_NN NNP
+,_,
+he_TPP3S
+told_VBD COMM
+reporters_NN NNother
+that_THSC THSCother
+she_TPP3S
+was_VBD
+just_RB EMPH
+“_``
+one_CD
+more_QUAN
+disgruntled_JJAT JJATother
+employee_NN NNHUMAN
+who_WHSC WHSCother
+’s_POS
+left_VBD ACT
+the_DT
+White_NN NNP
+House_NN NNP
+[_-LRB-
+and_CC
+]_-RRB-
+decided_VBD MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+play_VB ACT
+politics_NN NNother
+during_IN INother
+an_DT
+election_NN NOMZ
+year_NN NCOMP
+._.
+”_''
+When_WHSC WHSCother
+I_FPP1S FPPAll
+spoke_VBD COMM
+with_IN INother
+Troye_NN NNP
+once_TIME
+more_AMP
+,_,
+on_IN INother
+Thursday_NN NNP
+evening_NN NCOMP
+,_,
+she_TPP3S
+was_VBD
+bracing_PROG
+for_IN INother
+more_QUAN
+such_JJAT JJATother
+comments_NN NNABSPROC
+from_IN PrepNSTNC
+powerful_JJAT JJATother
+men_NN NNHUMAN
+._.

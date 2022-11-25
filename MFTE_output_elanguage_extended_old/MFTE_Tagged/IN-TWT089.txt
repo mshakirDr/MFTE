@@ -1,0 +1,3417 @@
+@Nxxxxxxxxxxxx1_NN NNMention
+Congratulations_NN NOMZ
+Mr._NN NNP
+Golden_NN NNP
+boy_NN NCOMP
+of_IN INother
+india_NN NNP
+🇮🇳_EMO
+Preparing_NN NNP
+kitchen_NN NCOMP
+garden_NN NNother
+at_IN INother
+the_DT
+school_NN NNGRP
+https://t.co/Qj1udB1uiX_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+,_,
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+❤️_EMO
+🌹_EMO
+🌹_EMO
+🙏_EMO
+https://t.co/0kcj6hjmat_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+https://t.co/Nwla441qQO_URL
+@bxxxxxxxxxxxb_NN NNMention
+thanks_NN POLITE
+🙏_EMO
+💐_EMO
+@Sxxxxxxxxu_NN NNMention
+Being_VBG BEMA
+a_DT
+teacher_NN NNHUMAN
+I_FPP1S FPPAll
+am_VPRT BEMA
+thankful_JJPR JJPRother
+to_IN INother
+you_SPP2
+for_IN INother
+wishing_VBG MENTAL
+me_FPP1S FPPAll
+a_DT
+happy_JJAT JJATDother
+teachers_NN NNHUMAN
+day_NN NCOMP
+🙏_EMO
+🙏_EMO
+Happy_JJAT JJATDother
+teachers_NN NNHUMAN
+day_NN NCOMP
+to_IN INother
+all_QUAN
+of_IN INother
+us_FPP1P FPPAll
+🙏_EMO
+😊_EMO
+🌹_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/wnXKoIndpc_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+Sandeep_NN NNP
+🙏_EMO
+@Rxxxxxxxxxx1_NN NNMention
+Same_JJPR JJREL
+to_IN INother
+you_SPP2
+sir_NN NNP
+🙏_EMO
+💐_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Good_NN NNP
+morning_NN NCOMP
+too_RB RBother
+🙏_EMO
+💐_EMO
+@kxxxxxxxxxxxxxr_NN NNMention
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+🙏_EMO
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+🌹_EMO
+🌹_EMO
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+🌹_EMO
+🌷_EMO
+❤️_EMO
+🌷_EMO
+🌹_EMO
+https://t.co/oz3pYl4sBz_URL
+"_``
+The_DT
+US_NN NNP
+will_MDWS MDPREDAll
+not_XX0
+join_VB ACT
+the_DT
+WHO_WHSC WHSCother
+-_HYPH
+linked_VBN
+global_JJAT JJATother
+effort_NN NNother
+to_IN INother
+develop_VB OCCUR
+a_DT
+COVID_NN NNother
+-_HYPH
+19_CD
+vaccine_NN NNother
+,_,
+WaPo_NN NNP
+reports_VPRT COMM
+"_``
+https://t.co/oiyY93MyKt_URL
+Good_JJAT JJEVAL
+night_NN NNother
+and_CC
+sweet_JJAT JJATother
+dreams_NN NNother
+🌃_EMO
+🌃_EMO
+😊_EMO
+https://t.co/SgmkB25B2K_URL
+Yeah_DMA
+we_FPP1P FPPAll
+have_MDNE
+to_IN INother
+learn_VB MENTAL
+from_IN INother
+our_FPP1P FPPAll
+mistakes_NN NNother
+🙏_EMO
+🌹_EMO
+https://t.co/R38sUudJv4_URL
+Have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+🙏_EMO
+🌹_EMO
+https://t.co/88M3x9XYlT_URL
+"_``
+Zydus_NN NNP
+Cadila_NN NNP
+'s_POS
+COVID_NN NNP
+-_HYPH
+19_NN NNP
+vaccine_NN NCOMP
+found_VBD VFCTother
+safe_JJPR JJPRother
+,_,
+going_VBG
+into_IN INother
+Phase_NN NNABSPROC
+-_HYPH
+2_CD
+trial_NN NNABSPROC
+"_''
+https://t.co/zvLTNUOcCK_URL
+Good_JJAT JJEVAL
+afternoon_NN NNother
+🌹_EMO
+🌹_EMO
+💜_EMO
+💖_EMO
+💙_EMO
+❤️_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/fzUmoAoggi_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+Thanks_NN POLITE
+and_CC
+same_JJPR JJREL
+to_IN INother
+you_SPP2
+🙏_EMO
+🙏_EMO
+💐_EMO
+@RxxxxxxxxxxxxxP_NN NNMention
+Thanks_NN POLITE
+sir_NN NNother
+with_IN INother
+good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+@Axxxxxxxxxa_NN NNMention
+What_WHSC WHSCother
+happens_VPRT OCCUR
+🤔_EMO
+@RxxxxxxxxxxxxxP_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+sir_NN NCOMP
+🙏_EMO
+🙏_EMO
+@NxxxxxxxxxxxA_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+🙏_EMO
+😊_EMO
+@Axxxxxxxxxxxxx1_NN NNMention
+Thanks_NN POLITE
+Ajay_NN NNP
+🙏_EMO
+🙏_EMO
+"_``
+A_DT
+remote_JJAT JJATother
+tribe_NN NNother
+in_IN INother
+India_NN NNP
+'s_POS
+Andamans_NN NNP
+has_VPRT
+recorded_PEAS
+its_PIT
+first_JJAT JJATother
+cases_NN NNCONC
+of_IN INother
+COVID_NN NNother
+-_HYPH
+19_CD
+"_''
+https://t.co/YAhR6IMlVC_URL
+@cxxxxxxxxxx8_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+sir_NN NCOMP
+@Txxxxxxxxxxxx2_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+Ayush_NN NNP
+Protect_VB
+mother_NN NNHUMAN
+nature_NN NCOMP
+._.
+Our_FPP1P FPPAll
+existence_NN NNother
+is_VPRT SPLIT
+only_RB RBother
+depend_VB
+upon_IN INother
+it_PIT
+._.
+Because_CUZ
+we_FPP1P FPPAll
+are_VPRT BEMA
+just_RB EMPH
+small_JJAT JJDESCAll JJSIZE
+parts_NN NNQUANT
+of_IN INother
+it_PIT
+._.
+🌲_EMO
+🌳_EMO
+🌴_EMO
+https://t.co/NYIWJe1k1S_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Thanqqqqq_NN NNP
+🙏_EMO
+💐_EMO
+@axxxxxxxxk_NN NNMention
+@Rxxxxa_NN NNMention
+@kxxxxxxxa_NN NNMention
+@Kxxxxxxxxxxn_NN NNMention
+@Hxxxxxxxx2_NN NNMention
+@Pxxxxxxxxxg_NN NNMention
+@txxxxxr_NN NNMention
+Atul_NN NNP
+very_AMP
+nice_JJPR JJEVAL
+👌_EMO
+🙏_EMO
+💐_EMO
+@Fxxxxxxxt_NN NNMention
+Very_AMP
+correct_JJPR JJEPSTother
+👍_EMO
+💯_EMO
+Have_VPRT
+a_DT
+beautiful_JJAT JJEVAL
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+❤️_EMO
+💜_EMO
+💖_EMO
+💙_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/ABJK9xTuLc_URL
+@Uxxxxxxxxxxxxx0_NN NNMention
+@sxxxxxxxxxxd_NN NNMention
+@ixxxxxxxxxxxxxa_NN NNMention
+@oxxxxxxxxxxxxm_NN NNMention
+@Axxxxxxxxxxl_NN NNMention
+@Dxxxxxxxa_NN NNMention
+@UxxxO_NN NNMention
+@txxxxxxxxi_NN NNMention
+@Wxxxxxxxx6_NN NNMention
+@Ixxxxxxxxxxxn_NN NNMention
+@Uxxxxxxxa_NN NNMention
+@MxxxxxxxxxxxxxI_NN NNMention
+Thanks_NN POLITE
+🙏_EMO
+Happy_JJAT JJATDother
+morning_NN NNQUANT
+🌹_EMO
+🙏_EMO
+🌹_EMO
+https://t.co/L09iOivijm_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Same_JJPR JJREL
+to_IN INother
+you_SPP2
+Kunal_NN NNP
+._.
+Looking_VBG
+handsome_JJPR JJPRother
+😊_EMO
+👌_EMO
+@Sxxxxxxxxxx5_NN NNMention
+Right_NN NSTNCother NNP
+hai_NN NNP
+always_FREQ
+be_VB BEMA
+positive_JJPR JJEPSTother
+in_IN INother
+every_QUAN
+situation_NN NNABSPROC
+🙏_EMO
+😊_EMO
+💐_EMO
+Tribute_NN NNother
+to_IN INother
+the_DT
+legend_NN NNother
+of_IN INother
+the_DT
+India_NN NNP
+🇮🇳_EMO
+on_IN INother
+there_PRPother
+birth_NN NNABSPROC
+anniversary_NN NCOMP
+🙏_EMO
+🙏_EMO
+🙏_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/vbRs3ZX5Ve_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Thanks_NN POLITE
+Sir_NN NNP
+😊_EMO
+Good_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/kP0jy0erBT_URL
+Love_NN NNother
+❤_EMO
+animals_NN NNHUMAN
+and_CC
+save_VB ACT
+animals_NN NNHUMAN
+🐵_EMO
+🐔_EMO
+🐶_EMO
+🐷_EMO
+https://t.co/JCgdPaPhmb_URL
+@Nxxxxxxxxxn_NN NNMention
+Amazing_JJPR JJPRother
+👍_EMO
+😍_EMO
+@Cxxxxxxxxxxxxr_NN NNMention
+Yummy_NN NNP
+😋_EMO
+"_``
+World_NN NNP
+Heart_NN NNP
+Day_NN NNP
+:_:
+10_CD
+'_SYM
+Must_MDNE
+-_HYPH
+Eat_VB ACT
+'_''
+Foods_NN NNP
+For_IN INother
+A_DT
+Healthy_JJAT JJATother
+Heart_NN NNCONC
+"_''
+https://t.co/Kc96CBgkIj_URL
+Suprabhat_NN NNP
+🌹_EMO
+🌹_EMO
+be_VB BEMA
+positive_JJPR JJEPSTother
+,_,
+be_VB BEMA
+valuable_JJPR JJPRother
+,_,
+be_VB BEMA
+happy_JJPR JJATDother
+😊_EMO
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+😊_EMO
+🙏_EMO
+https://t.co/SpAJ03CU2r_URL
+Girl_NN NNHUMAN
+child_NN NCOMP
+'s_POS
+are_VPRT BEMA
+blessings_NN NNother
+of_IN INother
+the_DT
+God_NN NNP
+and_CC
+the_DT
+great_JJAT JJEVAL
+creation_NN NOMZ
+,_,
+so_SO
+love_VB MENTAL
+❤_EMO
+them_TPP3P
+take_VB ACT
+care_NN NNABSPROC
+and_CC
+educate_VB
+them_TPP3P
+#InternationalGirlChildDay_HST
+https://t.co/HtgYH4bSDP_URL
+@Mxxxxxxxxxxxxx7_NN NNMention
+@vxxxxxxxxxxxxx3_NN NNMention
+Very_AMP
+good_JJAT JJEVAL
+morning_NN NNQUANT
+sir_NN NCOMP
+🙏_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Sorry_JJPR POLITE
+for_IN INother
+being_VBG
+late_TIME
+,_,
+good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+🙏_EMO
+🙏_EMO
+🙏_EMO
+💐_EMO
+💐_EMO
+Have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+https://t.co/v3IH4g6bH3_URL
+@Txxxxxxxxxxxx2_NN NNMention
+😊_EMO
+Global_JJPR JJPRother
+🌎_EMO
+✋_EMO
+washing_VBG
+day_NN NNQUANT
+https://t.co/ObZXWx75BK_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+Thanqqqqqqqqq_NN NNP
+🙏_EMO
+💐_EMO
+@Rxxxxxxxxxx1_NN NNMention
+Good_JJAT JJEVAL
+night_NN NNother
+😊_EMO
+🙏_EMO
+Salute_VIMP
+the_DT
+real_JJAT JJATother
+hero_NN NNHUMAN
+of_IN INother
+the_DT
+youth_NN NNother
+🙏_EMO
+🙏_EMO
+https://t.co/GObwn9nYqN_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+Have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+💐_EMO
+@Dxxxxxxxxxxxr_NN NNMention
+Thanks_NN POLITE
+sir_NN NNother
+🙏_EMO
+🙏_EMO
+💐_EMO
+"_``
+Music_NN NNABSPROC
+composer_NN NCOMP
+Aditya_NN NNP
+Paudwal_NN NNP
+dies_VPRT OCCUR
+aged_JJAT JJATother
+35_CD
+"_``
+https://t.co/Dax2TOKI3E_URL
+@Rxxxxxxxxxx1_NN NNMention
+Good_JJAT JJEVAL
+afternoon_NN NNother
+🙏_EMO
+🙏_EMO
+💐_EMO
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+,_,
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+🙏_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/E9puvTbCqD_URL
+"_``
+Pfizer_NN NNP
+CEO_NN NNP
+says_VPRT COMM
+drug_NN NNCONC
+company_NN NCOMP
+will_MDWS MDPREDAll
+know_VB MENTAL
+if_COND
+COVID_NN NNP
+-_HYPH
+19_NN NNP
+vaccine_NN NCOMP
+works_VPRT ACT
+before_IN INother
+the_DT
+end_NN NNABSPROC
+of_IN INother
+October_NN NNP
+"_''
+https://t.co/Sm99yF6Pi0_URL
+Happy_JJAT JJATDother
+engineer_NN NNHUMAN
+day_NN NCOMP
+to_IN INother
+all_QUAN
+my_FPP1S FPPAll
+engineer_NN NNHUMAN
+friends_NN NCOMP
+🙏_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/C9CSmFNy3u_URL
+🌹_EMO
+🌹_EMO
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+and_CC
+peaceful_JJAT JJATother
+and_CC
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+😊_EMO
+🌹_EMO
+🌷_EMO
+❤️_EMO
+🌷_EMO
+🌹_EMO
+🌷_EMO
+🌻_EMO
+🌻_EMO
+https://t.co/ZOh4kQL5jW_URL
+Good_JJAT JJEVAL
+afternoon_NN NNother
+and_CC
+wishes_VPRT MENTAL
+you_SPP2
+all_QUAN
+happy_JJAT JJATDother
+daughters_NN NNHUMAN
+day_NN NCOMP
+._.
+🙏_EMO
+😘_EMO
+🌹_EMO
+😘_EMO
+https://t.co/2bH7ckOEDg_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+and_CC
+happy_JJAT JJATDother
+day_NN NNQUANT
+to_IN INother
+all_QUAN
+of_IN INother
+us_FPP1P FPPAll
+🙏_EMO
+💐_EMO
+https://t.co/l879DsHt7p_URL
+Blessed_JJAT JJATother
+thankful_JJPR JJPRother
+to_IN INother
+God_NN NNP
+🙏_EMO
+🌹_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+peaceful_JJAT JJATother
+day_NN NNQUANT
+💐_EMO
+💐_EMO
+🌹_EMO
+https://t.co/ZMe5Lmxy4u_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Thanks_NN POLITE
+sir_NN NNother
+with_IN INother
+good_JJAT JJEVAL
+afternoon_NN NNother
+🙏_EMO
+💐_EMO
+@kxxxxxxxxxxxxxr_NN NNMention
+Thanks_NN POLITE
+with_IN INother
+good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+💐_EMO
+"_``
+All_QUAN
+You_SPP2
+Need_MDNE
+to_IN INother
+Know_VB MENTAL
+about_IN INother
+India_NN NNP
+’s_POS
+Newly_RB RBother
+-_HYPH
+Approved_VBN MENTAL
+COVID_NN NNother
+19_CD
+Test_NN NNABSPROC
+"_''
+https://t.co/seQ0m7o1pX_URL
+Always_FREQ
+be_VB BEMA
+positive_JJPR JJEPSTother
+in_IN INother
+your_SPP2
+life_NN NNABSPROC
+,_,
+never_FREQ
+loose_VB
+your_SPP2
+temper_NN NNother
+,_,
+because_CUZ
+temper_NN NNother
+is_VPRT BEMA
+precious_JJPR JJPRother
+._.
+🙏_EMO
+🌹_EMO
+😊_EMO
+Good_JJAT JJEVAL
+night_NN NNother
+and_CC
+sweet_JJAT JJATother
+dreams_NN NNother
+._.
+🙏_EMO
+🌃_EMO
+🌃_EMO
+https://t.co/aMzv0a4ajL_URL
+Write_VIMP COMM
+it_PIT
+at_IN INother
+your_SPP2
+heart_NN NNCONC
+that_THSC THSCother
+every_QUAN
+day_NN NNQUANT
+is_VPRT BEMA
+the_DT
+best_JJAT EMPH
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/JZ5syy8mWZ_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Good_JJAT JJEVAL
+afternoon_NN NNother
+sir_NN NCOMP
+🙏_EMO
+💐_EMO
+Good_JJAT JJEVAL
+evening_NN NNother
+to_IN INother
+everyone_QUPR
+Have_VPRT
+a_DT
+positive_JJAT JJEPSTother
+and_CC
+great_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+🙏_EMO
+👍_EMO
+❤️_EMO
+🌹_EMO
+💐_EMO
+https://t.co/59kl1DqZ4A_URL
+One_CD
+of_IN INother
+my_FPP1S FPPAll
+favorite_JJAT JJATother
+song_NN NNother
+,_,
+I_FPP1S FPPAll
+love_VPRT MENTAL
+it_PIT
+🌹_EMO
+🌹_EMO
+https://t.co/xgoe67demc_URL
+Happy_JJAT JJATDother
+father_NN NNHUMAN
+'s_POS
+Day_NN NNQUANT
+🌹_EMO
+😘_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+https://t.co/9fEr2x1UUl_URL
+Speechless_JJAT JJATother
+conditions_NN NNABSPROC
+of_IN INother
+ignored_VBN MENTAL
+one_CD
+by_IN INother
+their_TPP3P
+family_NN NNHUMAN
+we_FPP1P FPPAll
+have_MDNE
+to_IN INother
+think_VB MENTAL
+about_IN INother
+......._NFP
+😢_EMO
+💔_EMO
+https://t.co/WYyMScNGSm_URL
+"_``
+PM_NN NNother
+Narendra_NN NNP
+Modi_NN NNP
+lays_VPRT
+the_DT
+foundation_NN NOMZ
+of_IN INother
+the_DT
+controversial_JJAT JJATother
+Ram_NN NNP
+temple_NN NCOMP
+in_IN INother
+Ayodhya_NN NNP
+"_''
+https://t.co/087uw5eG0m_URL
+"_``
+Deaths_NN NNABSPROC
+and_CC
+injuries_NN NNother
+reported_VBD COMM
+after_IN INother
+massive_JJAT JJATother
+blast_NN NNother
+in_IN INother
+Beirut_NN NNP
+,_,
+Lebanon_NN NNP
+"_``
+https://t.co/X1bzx9BOwI_URL
+Good_JJAT JJEVAL
+afternoon_NN NNother
+and_CC
+happy_JJPR JJPRother
+to_IN INother
+all_QUAN
+of_IN INother
+you_SPP2
+,_,
+is_VPRT BEMA
+the_DT
+divine_JJAT JJATother
+bond_NN NNABSPROC
+of_IN INother
+love_NN NNother
+,_,
+cares_VPRT MENTAL
+and_CC
+worries_VPRT MENTAL
+each_QUAN
+other_JJPR JJPRother
+,_,
+let_VIMP CAUSE
+us_FPP1P FPPAll
+enjoy_VB MENTAL
+😊_EMO
+🌹_EMO
+❤️_EMO
+❤️_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/ZmN6yQ5zat_URL
+"_``
+Brothers_NN NNHUMAN
+and_CC
+sisters_NN NNHUMAN
+celebrate_VPRT MENTAL
+the_DT
+bond_NN NNABSPROC
+of_IN INother
+love_NN NNother
+on_IN INother
+"_``
+https://t.co/EDCnphxKG0_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+Thanks_NN POLITE
+with_IN INother
+same_JJPR JJREL
+to_IN INother
+you_SPP2
+🙏_EMO
+😊_EMO
+https://t.co/hPtNTqAJUg_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+and_CC
+happy_JJAT JJATDother
+friendship_NN NNother
+day_NN NCOMP
+to_IN INother
+all_QUAN
+the_DT
+lovely_JJAT JJEVAL
+friends_NN NNHUMAN
+🙏_EMO
+🌹_EMO
+🌹_EMO
+🌹_EMO
+❤️_EMO
+❤️_EMO
+❤️_EMO
+🌹_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/UOMc6ZWKFJ_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Very_AMP
+nice_JJPR JJEVAL
+👌_EMO
+👌_EMO
+"_``
+Ministry_NN NNP
+of_IN INother
+Health_NN NNP
+warns_VPRT COMM
+against_IN INother
+using_VBG ACT
+N_NN NNother
+-_HYPH
+95_CD
+masks_NN NNother
+with_IN INother
+valved_VBN
+respirators_NN NNother
+amid_IN INother
+rising_VBG OCCUR
+COVID_NN NNother
+-_HYPH
+19_CD
+cases_NN NNCONC
+"_''
+https://t.co/xMjE6ayOtU_URL
+Good_JJAT JJEVAL
+noon_NN NNother
+🙏_EMO
+no_DMA
+is_VPRT BEMA
+complete_JJPR JJREL
+here_PLACE
+._.
+Life_NN NNABSPROC
+is_VPRT BEMA
+easy_JJPR JJPRother
+when_WHSC WHSCother
+you_SPP2
+compromise_VPRT
+🙏_EMO
+😊_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/a8K6xLcKOR_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Thanks_NN POLITE
+sir_NN NNother
+🙏_EMO
+from_IN INother
+all_QUAN
+the_DT
+teachers_NN NNHUMAN
+🙏_EMO
+💐_EMO
+😊_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Is_VPRT
+friendship_NN NNother
+day_NN NCOMP
+to_IN INother
+day_NN NNQUANT
+._.
+🤔_EMO
+🌞_EMO
+🌞_EMO
+🌹_EMO
+🌹_EMO
+🙏_EMO
+Everything_QUPR
+is_VPRT BEMA
+easy_JJPR JJPRother
+if_COND
+you_SPP2
+are_VPRT BEMA
+crazy_JJPR JJPRother
+,_,
+nothing_QUPR
+is_VPRT BEMA
+easy_JJPR JJPRother
+if_COND
+you_SPP2
+are_VPRT BEMA
+lazy_JJPR JJPRother
+._.
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+and_CC
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/RVGg8E28YG_URL
+@RxxxxxxxxxxxxxP_NN NNMention
+Welcome_VPRT COMM
+sir_NN NNother
+🙏_EMO
+"_``
+Five_CD
+Rafale_NN NNP
+jets_NN NCOMP
+land_NN NNPLACE
+at_IN INother
+the_DT
+Ambala_NN NNP
+airbase_NN NCOMP
+"_''
+https://t.co/Kj4nU8eQqM_URL
+You_SPP2
+are_VPRT BEMA
+my_FPP1S FPPAll
+peace_NN NNother
+,_,
+you_SPP2
+are_VPRT BEMA
+my_FPP1S FPPAll
+light_NN NNTECH
+,_,
+you_SPP2
+are_VPRT BEMA
+my_FPP1S FPPAll
+soul_NN NNother
+,_,
+you_SPP2
+are_VPRT BEMA
+proof_NN NNother
+of_IN INother
+my_FPP1S FPPAll
+existence_NN NNother
+._.
+🙏_EMO
+🙏_EMO
+https://t.co/LiJfQfEsHd_URL
+On_IN INother
+Google_NN NNP
+meet_VPRT ACT
+mission_NN NNother
+prerna_NN NCOMP
+workshop_NN NNother
+today_TIME
+😊_EMO
+https://t.co/gRo1qWwBoT_URL
+"_``
+Billboard_NN NNP
+of_IN INother
+Ram_NN NNP
+is_VPRT
+displayed_PASS PASSAll
+in_IN INother
+Times_NN NNP
+Square_NN NNP
+,_,
+but_CC
+fact_NN NSTNCother
+-_HYPH
+checkers_NN NNother
+say_VPRT COMM THATD
+some_QUAN
+images_NN NNABSPROC
+are_VPRT BEMA
+fake_JJPR JJPRother
+"_``
+https://t.co/iKK0XkRHqo_URL
+A_DT
+smile_NN NNother
+is_VPRT BEMA
+a_DT
+worths_NN NNother
+thousand_CD
+,_,
+words_NN NNTECH
+spread_VPRT
+around_PLACE
+☺️_EMO
+🌹_EMO
+#thursdaymorning_HST
+"_``
+Madhya_NN NNP
+Pradesh_NN NNP
+Chief_NN NNP
+Minister_NN NNP
+Shivraj_NN NNP
+Singh_NN NNP
+Chouhan_NN NNP
+tests_VPRT
+positive_JJPR JJEPSTother
+for_IN INother
+COVID_NN NNother
+-_HYPH
+19_CD
+"_''
+https://t.co/Jb372a1ISp_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+,_,
+have_VPRT
+a_DT
+nice_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+😊_EMO
+🌹_EMO
+🌹_EMO
+🌻_EMO
+🌻_EMO
+🌞_EMO
+🌞_EMO
+https://t.co/7c3kgpkyZt_URL
+"_``
+India_NN NNP
+Begins_VPRT ASPECT
+Production_NN NNABSPROC
+of_IN INother
+Oxford_NN NNP
+Coronavirus_NN NNP
+Vaccine_NN NNP
+‘_``
+Covidshield_NN NNP
+’_''
+"_``
+https://t.co/XS6WYPDJzu_URL
+"_``
+First_RB RBother
+five_CD
+Rafale_NN NNP
+fighter_NN NCOMP
+aircrafts_NN NNother
+take_VPRT ACT
+off_RP
+for_IN INother
+India_NN NNP
+"_''
+https://t.co/10IMhWySsL_URL
+"_``
+A_DT
+time_NN NNQUANT
+capsule_NN NCOMP
+will_MDWS MDPREDAll
+not_XX0
+be_VB
+placed_PASS PASSAll
+under_IN INother
+the_DT
+Ram_NN NNP
+Temple_NN NNP
+on_IN INother
+August_NN NNP
+5_CD
+,_,
+says_VPRT COMM
+temple_NN NNother
+trust_NN NCOMP
+"_''
+https://t.co/gaek7XiBK4_URL
+@Axxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxh_NN NNMention
+@NxxxxxxxxxxxP_NN NNMention
+@Sxxxxxxxxx9_NN NNMention
+@NxxxxxxxxxxxxM_NN NNMention
+@AxxxxxxxxxxxxP_NN NNMention
+@_NN NNMention
+@Axxxxxxxxxxxxx7_NN NNMention
+@AxxxxxxxxxxxL_NN NNMention
+@mxxxxxxxxxxxa_NN NNMention
+@sxxxxxxxxxxxp_NN NNMention
+@axxxxxxxxxxxxxp_NN NNMention
+Right_NN NSTNCother NNP
+🙌_EMO
+"_``
+Oxford_NN NNP
+'s_POS
+COVID_NN NNother
+-_HYPH
+19_CD
+vaccine_NN NNother
+:_:
+India_NN NNP
+readies_VPRT
+five_CD
+sites_NN NNother
+for_IN INother
+human_FPUH
+trials_NN NNABSPROC
+"_''
+https://t.co/QYHYNZmxH3_URL
+@RxxxxxxxxxxxxxP_NN NNMention
+You_SPP2
+are_VPRT BEMA
+right_JJAT JJEPSTother
+sir_NN NNother
+with_IN INother
+good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+🙏_EMO
+@NxxxxxxxxxxxA_NN NNMention
+Good_NN NNP
+evening_NN NCOMP
+🙏_EMO
+🙏_EMO
+Happy_JJAT JJATDother
+Sunday_NN NNP
+😊_EMO
+🌻_EMO
+🌻_EMO
+🌻_EMO
+🌹_EMO
+🌻_EMO
+🌻_EMO
+🌻_EMO
+https://t.co/7eii4ydO3J_URL
+@Txxxxxxxxxxxx2_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+Ayush_NN NNP
+ji_NN NNP
+A_NN NNP
+beautiful_JJAT JJEVAL
+day_NN NNQUANT
+begins_VPRT ASPECT
+with_IN INother
+beautiful_JJAT JJEVAL
+mindset_NN NNother
+🌹_EMO
+🌹_EMO
+🙌_EMO
+So_SO
+have_VB
+a_DT
+delicious_JJAT JJATother
+coffee_NN NNother
+😊_EMO
+https://t.co/C4e0mOpmdt_URL
+@Rxxxxxxxxxxxxx3_NN NNMention
+@mxxxxxxxxxxxxxh_NN NNMention
+@dxxxxxxxxxi_NN NNMention
+@cxxxxxxxm_NN NNMention
+@vxxxxxxxxxxxxp_NN NNMention
+@AxxxxxxxxxxxL_NN NNMention
+Excellent_JJAT JJATother
+job_NN NNABSPROC
+👌_EMO
+👍_EMO
+🙌_EMO
+@dxxxxxxxxxi_NN NNMention
+@IxxxxxxxxP_NN NNMention
+@Uxxxxt_NN NNMention
+@CxxxxxxxxxP_NN NNMention
+@VxxxxxxxxS_NN NNMention
+@Mxxxxxxxxxxxm_NN NNMention
+Good_NN NNP
+evening_NN NCOMP
+sir_NN NNother
+🙏_EMO
+💐_EMO
+welcome_JJPR JJPRother
+to_IN INother
+RAEBARELI_NN NNP
+sir_NN NNP
+🙏_EMO
+💐_EMO
+💐_EMO
+"_``
+NASA_NN NNP
+confirms_VPRT MENTAL
+dent_NN NNother
+in_IN INother
+Earth_NN NNP
+’s_POS
+protective_JJAT JJATother
+shield_NN NNother
+is_VPRT
+splitting_PROG
+into_IN INother
+two_CD
+"_''
+https://t.co/hcdoCBwOUK_URL
+@NxxxxxxxxxxxA_NN NNMention
+what_WHSC WHSCother
+is_VPRT BEMA
+your_SPP2
+profession_NN NNother
+🙏_EMO
+"_``
+Govt_NN NNother
+Warns_VPRT COMM
+Against_IN INother
+Using_VBG ACT
+N_NN NNother
+-_HYPH
+95_CD
+Mask_NN NNP
+With_IN INother
+Valved_NN NNP
+Respirators_NN NNP
+,_,
+Here_PLACE
+'s_VPRT CONT
+Why_WHSC WHSCother
+"_``
+https://t.co/njxen7wN8R_URL
+@NxxxxxxxxxxxA_NN NNMention
+Thanks_NN POLITE
+no_XX0
+need_NN NNCOG
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+and_CC
+have_VPRT
+a_DT
+beautiful_JJAT JJEVAL
+and_CC
+peaceful_JJAT JJATother
+day_NN NNQUANT
+for_IN INother
+you_SPP2
+🌹_EMO
+🌹_EMO
+🙏_EMO
+🕉️_EMO
+https://t.co/qeUfpKagyD_URL
+Be_VB BEMA
+aware_JJPR JJATDother
+🙏_EMO
+https://t.co/r0QULYtmF7_URL
+Wishing_VBG MENTAL
+you_SPP2
+a_DT
+blessed_JJAT JJATother
+full_JJPR JJPRother
+of_IN INother
+knowledge_NN NSTNCother
+,_,
+wisdom_NN NNother
+,_,
+happiness_NN NOMZ
+and_CC
+hormone_NN NNother
+._.
+🙏_EMO
+🙏_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/ZWEKQ2Abb0_URL
+@Dxxxxxxxxxxxr_NN NNMention
+Thanks_NN POLITE
+Dinkar_NN NNP
+🙏_EMO
+🌷_EMO
+"_``
+celebrations_NN NOMZ
+begin_VPRT ASPECT
+across_IN INother
+India_NN NNP
+with_IN INother
+restrictions_NN NOMZ
+in_IN INother
+place_NN NNPLACE
+to_IN INother
+curb_VB
+the_DT
+spread_NN NNother
+of_IN INother
+COVID_NN NNP
+-_HYPH
+19_NN NNP
+"_''
+https://t.co/L4gh4HPRJY_URL
+🙏_EMO
+🙏_EMO
+🙏_EMO
+welcome_FPUH
+to_IN INother
+our_FPP1P FPPAll
+home_NN NNGRP
+,_,
+make_VIMP ACT
+our_FPP1P FPPAll
+life_NN NNABSPROC
+happy_JJPR JJATDother
+and_CC
+peaceful_JJPR JJPRother
+😊_EMO
+🙏_EMO
+🙏_EMO
+https://t.co/LDazYoPB1y_URL
+@Sxxxxxxxxu_NN NNMention
+Good_NN NNP
+evening_NN NCOMP
+and_CC
+thanks_NN POLITE
+🙏_EMO
+🙏_EMO
+@Txxxxxxxxxxxx2_NN NNMention
+busy_JJPR JJPRother
+,_,
+thanks_NN POLITE
+🙏_EMO
+🙏_EMO
+🙏_EMO
+@Rxxxxxxxxxx1_NN NNMention
+Thanks_NN POLITE
+with_IN INother
+good_JJAT JJEVAL
+night_NN NNother
+🙏_EMO
+😊_EMO
+@Rxxxxxxxxxx1_NN NNMention
+Wow_FPUH
+so_EMPH
+beautiful_JJPR JJEVAL
+👌_EMO
+👌_EMO
+🌹_EMO
+May_MDMM MDPOSSCAll
+the_DT
+blessings_NN NNother
+of_IN INother
+Lord_NN NNP
+krishna_NN NNP
+is_VPRT BEMA
+always_FREQ
+with_IN INother
+you_SPP2
+and_CC
+your_SPP2
+family_NN NNHUMAN
+._.
+Happy_JJPR JJPRother
+to_IN INother
+all_QUAN
+of_IN INother
+you_SPP2
+._.
+🙏_EMO
+🙏_EMO
+😊_EMO
+https://t.co/mQ8YZKEsOk_URL
+@Rxxxxxxxxxr_NN NNMention
+Wow_FPUH
+nice_JJPR JJEVAL
+I_FPP1S FPPAll
+should_MDNE
+try_VB ACT
+👍_EMO
+👌_EMO
+"_``
+Pandit_NN NNother
+Jasraj_NN NNP
+passes_VPRT ACT
+away_PLACE
+at_IN INother
+90_CD
+"_``
+https://t.co/Xp6RwShqUk_URL
+@NxxxxxxxxxxxA_NN NNMention
+Thanks_NN POLITE
+with_IN INother
+very_AMP
+good_JJAT JJEVAL
+evening_NN NNother
+😊_EMO
+🙏_EMO
+https://t.co/7rEGDMGdKH_URL
+Let_VIMP CAUSE
+us_FPP1P FPPAll
+stand_VB EXIST
+together_RB RBother
+to_IN INother
+appreciate_VB MENTAL
+the_DT
+resilience_NN NNother
+,_,
+knowledge_NN NSTNCother
+and_CC
+perseverance_NN NNother
+of_IN INother
+the_DT
+indigenous_JJAT JJATother
+people_NN NNHUMAN
+who_WHSC WHSCother
+make_VPRT ACT
+our_FPP1P FPPAll
+world_NN NNother
+a_DT
+better_JJAT JJATother
+place_NN NNPLACE
+._.
+🙏_EMO
+🌹_EMO
+https://t.co/seoPLbBwnu_URL
+"_``
+New_NN NNP
+Zealand_NN NNP
+has_VPRT
+gone_PEAS
+100_CD
+days_NN NNQUANT
+without_IN INother
+community_NN NNGRP
+transmission_NN NCOMP
+of_IN INother
+COVID_NN NNother
+-_HYPH
+19_CD
+—_HYPH
+here_PLACE
+'s_VPRT CONT
+how_WHSC WHSCother
+they_TPP3P
+did_VBD ACT
+it_PIT
+"_``
+https://t.co/PLgzZmlWXA_URL
+"_``
+The_DT
+ISKCON_NN NNP
+temple_NN NCOMP
+in_IN INother
+Vrindavan_NN NNP
+has_VPRT
+been_PEAS
+sealed_PASS PASSAll
+after_IN INother
+22_CD
+people_NN NNHUMAN
+tested_VBN
+COVID_NN NNP
+-_HYPH
+19_CD
+positive_JJPR JJEPSTother
+"_``
+https://t.co/uGknU265h7_URL
+Now_TIME
+lord_NN NNother
+krishna_NN NCOMP
+is_VPRT
+born_PASS PASSAll
+🙏_EMO
+🙏_EMO
+🙏_EMO
+bring_VIMP ACT
+happiness_NN NOMZ
+in_IN INother
+our_FPP1P FPPAll
+lives_NN NNABSPROC
+🙏_EMO
+🙏_EMO
+https://t.co/AowwOvPPG9_URL
+"_``
+Here_PLACE
+'s_VPRT CONT BEMA
+everything_QUPR
+you_SPP2
+need_MDNE
+to_IN INother
+know_VB MENTAL
+about_IN INother
+the_DT
+Beirut_NN NNP
+explosion_NN NCOMP
+"_''
+https://t.co/oO3HyUVBiu_URL
+"_``
+The_DT
+world_NN NNother
+’s_POS
+best_JJAT EMPH
+hope_NN NNother
+for_IN PrepNSTNC
+enough_JJAT JJATother
+Covid_NN NNother
+-_HYPH
+19_CD
+vaccine_NN NNother
+comes_VPRT ACT
+from_IN INother
+India_NN NNP
+"_''
+https://t.co/jztzdTjCus_URL
+@Pxxxxxxxxxxx1_NN NNMention
+Yummy_NN NNP
+😋_EMO
+and_CC
+healthy_JJPR JJPRother
+too_RB RBother
+😍_EMO
+@dxxxxxxxxxi_NN NNMention
+@Sxxxxxxxx1_NN NNMention
+@IxxxxxxxxP_NN NNMention
+@CxxxxxxxxP_NN NNMention
+@Mxxxxxxxxxxxm_NN NNMention
+Shubhra_NN NNP
+ma'am_NN NCOMP
+personally_RB RBother
+i_FPP1S FPPAll
+always_FREQ
+miss_VPRT MENTAL
+you_SPP2
+😘_EMO
+😘_EMO
+🙏_EMO
+🌹_EMO
+🌹_EMO
+._.
+Wishing_VBG MENTAL
+you_SPP2
+all_QUAN
+the_DT
+best_JJAT EMPH
+🙏_EMO
+🎊_EMO
+🎊_EMO
+good_JJAT JJEVAL
+luck_NN NNother
+ma'am_NN NCOMP
+,_,
+God_NN NNP
+bless_VPRT
+you_SPP2
+🙏_EMO
+🙏_EMO
+https://t.co/FMsjD2NpXM_URL
+"_``
+Daughters_NN NNHUMAN
+have_VPRT
+equal_JJAT JJATother
+claim_NN NNABSPROC
+under_IN PrepNSTNC
+the_DT
+Hindu_NN NNP
+Succession_NN NNP
+Act_NN NNP
+even_RB RBother
+if_COND
+born_VBN
+before_IN INother
+2005_CD
+"_``
+https://t.co/bMq7cQL0sB_URL
+"_``
+Independence_NN NNP
+day_NN NCOMP
+celebrations_NN NOMZ
+begin_VPRT ASPECT
+across_IN INother
+the_DT
+nation_NN NOMZ
+"_``
+#HappyIndependenceDay_HST
+https://t.co/aY3m7AxG6v_URL
+Good_NN NNP
+morning_NN NCOMP
+and_CC
+happy_JJAT JJATDother
+independence_NN NNother
+day_NN NCOMP
+🙏_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/rkZgLXmGdG_URL
+@Rxxxxxxxxxx1_NN NNMention
+Thanks_NN POLITE
+🙏_EMO
+ok_JJAT JJATother
+@Rxxxxxxxxxxxxx9_NN NNMention
+@BxxxxP_NN NNMention
+@Pxxxxxxa_NN NNMention
+@nxxxxxxxxxxi_NN NNMention
+@Hxxxxxxxxxy_NN NNMention
+Yeah_DMA
+I_FPP1S FPPAll
+m_VPRT
+agree_VPRT MENTAL COMM
+._.
+And_CC
+onething_VBG
+is_VPRT
+also_CC
+that_THSC THSCother
+school_NN NNGRP
+'s_POS
+are_VPRT
+not_XX0
+going_GTO MDPREDAll
+to_IN INother
+pay_VB ACT
+their_TPP3P
+staff_NN NNother
+._.
+@Rxxxxxxxxxx1_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+have_VPRT
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+😊_EMO
+🙏_EMO
+@cxxxxxxxxxx8_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+https://t.co/5XRZ0RbmSn_URL
+"_``
+Head_NN NNP
+of_IN INother
+Ram_NN NNP
+temple_NN NCOMP
+trust_NN NNother
+in_IN INother
+Ayodhya_NN NNP
+tests_NN NCOMP
+positive_JJPR JJEPSTother
+for_IN INother
+COVID_NN NNother
+-_HYPH
+19_CD
+"_''
+https://t.co/UsVHFAFGjg_URL
+Have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+🌹_EMO
+https://t.co/JMM48mSvso_URL
+Suprabhat_NN NNP
+🙏_EMO
+🌹_EMO
+be_VB BEMA
+a_DT
+divine_JJAT JJATother
+soul_NN NNother
+and_CC
+positive_JJPR JJEPSTother
+for_IN INother
+every_QUAN
+one_CD
+,_,
+be_VB BEMA
+happy_JJPR JJATDother
+😊_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/y1etkieHUq_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Kunal_NN NNP
+u_PRPother
+r_VPRT
+looking_VBG
+handsome_JJPR JJPRother
+😍_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Keep_VB ASPECT
+it_PIT
+up_RP
+👍_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Welcome_VPRT COMM
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+🌞_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+blessed_JJAT JJATother
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+💕_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/PTNU6pES1D_URL
+@Rxxxxxxxxxx1_NN NNMention
+Thanks_NN POLITE
+Rinku_NN NNP
+🙏_EMO
+😊_EMO
+@Txxxxxxxxxxxa_NN NNMention
+Amazing_NN NNP
+👌_EMO
+👌_EMO
+@Axxxxxxxxxxt_NN NNMention
+@Sxxxxxxxxxxa_NN NNMention
+Nice_NN NNP
+👍_EMO
+👏_EMO
+👏_EMO
+"_``
+Meet_VIMP ACT
+Indian_JJAT JJATother
+origin_NN NNABSPROC
+Dr._NN NNP
+Swati_NN NNP
+Mohan_NN NNP
+,_,
+who_WHSC WHSCother
+led_VBD
+NASA_NN NNP
+'s_POS
+Perseverance_NN NNother
+Rover_NN NNP
+landing_NN NCOMP
+"_''
+https://t.co/4HF1hRdyAZ_URL
+Many_QUAN
+-_HYPH
+Many_QUAN
+happy_JJAT JJATDother
+returns_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+🎂_EMO
+🎂_EMO
+🎂_EMO
+#HappyBirthdayMSDhoni_HST
+https://t.co/yqd7rSKpqg_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+U_NN NNother
+like_LIKE
+him_TPP3S
+😊_EMO
+@Mxxxxxxxxxxxxs_NN NNMention
+Yeah_DMA
+👍_EMO
+correct_JJAT JJEPSTother
+@Lxxxxxxxxx7_NN NNMention
+🙏_EMO
+🚩_EMO
+Wish_VIMP MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+be_VB
+there_PLACE
+🙏_EMO
+@bxxxxxxxxxxxxx_NN NNMention
+So_EMPH
+cute_JJAT JJATother
+@mxxxxxxxxxxxxxe_NN NNMention
+Beautiful_NN NNP
+Good_NN NNP
+morning_NN NCOMP
+🌞_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+🌹_EMO
+🙏_EMO
+https://t.co/zeZgWIwLXj_URL
+Think_VIMP MENTAL
+about_IN INother
+it_PIT
+🤔_EMO
+🙏_EMO
+https://t.co/Qilhnetr4z_URL
+@lxxxxxxxxxxxxa_NN NNMention
+Looking_VBG
+delicious_JJPR JJPRother
+enjoy_VB MENTAL
+it_PIT
+😍_EMO
+@Cxxxxxxxu_NN NNMention
+Okk_NN NNP
+thanks_NN NCOMP POLITE
+🙏_EMO
+❤_EMO
+🌹_EMO
+@axxxxxxxxk_NN NNMention
+Nice_NN NNP
+👌_EMO
+May_MDMM MDPOSSCAll
+the_DT
+Lord_NN NNP
+Buddha_NN NNP
+guide_VB
+you_SPP2
+and_CC
+show_VPRT ACT
+you_SPP2
+the_DT
+right_JJAT JJEPSTother
+path_NN NNother
+to_IN INother
+achieve_VB
+your_SPP2
+dreams_NN NNother
+._.
+https://t.co/erNBXeLYmw_URL
+"_''
+2021_CD
+French_NN NNP
+Open_NN NNP
+"_''
+#RolandGarros_HST
+https://t.co/NHCsSJWHuu_URL
+"_''
+The_DT
+Copa_NN NNP
+América_NN NNP
+has_VPRT
+been_PEAS
+moved_PASS PASSAll ACT
+from_IN INother
+Argentina_NN NNP
+to_IN INother
+Brazil_NN NNP
+over_IN INother
+COVID_NN NNP
+-_HYPH
+19_CD
+concerns_NN NNCOG
+"_''
+https://t.co/dukCWue1cY_URL
+@Nxxxxxxxxxxxxa_NN NNMention
+Excellent_JJAT JJATother
+work_NN NNABSPROC
+"_''
+Over_IN INother
+85_CD
+%_NN NNother
+of_IN INother
+new_JJAT JJTIME
+COVID_NN NNP
+-_HYPH
+19_CD
+cases_NN NNCONC
+are_VPRT BEMA
+from_IN INother
+six_CD
+states_NN NNABSPROC
+across_IN INother
+India_NN NNP
+"_''
+https://t.co/VV5xlDUJBw_URL
+@lxxxxxxxxxxxxa_NN NNMention
+So_EMPH
+yummy_JJPR JJPRother
+😋_EMO
+dinner_NN NNCONC
+🍽_EMO
+"_``
+Prime_NN NNP
+Minister_NN NNP
+Modi_NN NNP
+announces_VPRT COMM
+free_JJAT JJATother
+vaccines_NN NNother
+to_IN INother
+adults_NN NNHUMAN
+over_IN INother
+the_DT
+age_NN NNQUANT
+of_IN INother
+18_CD
+"_''
+https://t.co/6Et2v51a2f_URL
+Have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+blessed_JJAT JJATother
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+https://t.co/IFFxUSDeHd_URL
+@gxxxxx7_NN NNMention
+Yeah_DMA
+always_FREQ
+positive_JJPR JJEPSTother
+Have_VPRT
+a_DT
+blessed_JJAT JJATother
+day_NN NNQUANT
+🌹_EMO
+https://t.co/1ITS4jQNPe_URL
+@Cxxxxxxxu_NN NNMention
+Chef_NN NNother
+is_VPRT BEMA
+it_PIT
+veg_NN NNother
+..._:
+?_. YNQU
+@Cxxxxxxxu_NN NNMention
+👨‍🍳_EMO
+actually_DMA
+I_FPP1S FPPAll
+m_VPRT BEMA
+vegetarian_JJPR JJPRother
+😊_EMO
+💯_EMO
+Many_QUAN
+-_HYPH
+Many_QUAN
+happy_JJAT JJATDother
+returns_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+to_IN INother
+Mr_NN NNP
+Chief_NN NNP
+Minister_NN NNP
+of_IN INother
+UP_NN NNP
+🙏_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/KdLju6gSVY_URL
+"_``
+Officials_NN NNHUMAN
+call_VPRT COMM
+for_IN INother
+removal_NN NNother
+of_IN INother
+Lakshadweep_NN NNP
+administrator_NN NCOMP
+"_''
+https://t.co/fDdZiPKj8h_URL
+He_TPP3S
+is_VPRT BEMA
+my_FPP1S FPPAll
+student_NN NNHUMAN
+,_,
+he_TPP3S
+makes_VPRT ACT
+me_FPP1S FPPAll
+a_DT
+proud_JJAT JJATother
+,_,
+he_TPP3S
+got_VBD
+the_DT
+job_NN NNABSPROC
+in_IN INother
+upp_NN NNother
+😊_EMO
+https://t.co/IrZDC7IRH6_URL
+@sxxxxxxxxxx0_NN NNMention
+Thanks_NN POLITE
+and_CC
+u_PRPother
+too_RB RBother
+💐_EMO
+@Txxxxxxxxxxxxx1_NN NNMention
+Yeah_DMA
+🙏_EMO
+We_FPP1P FPPAll
+don_VPRT
+it_PIT
+🙋_EMO
+💪_EMO
+🇮🇳_EMO
+https://t.co/t4O0c7dKHv_URL
+@Axxxxxxxxxxxxx1_NN NNMention
+Thanks_NN POLITE
+🙏_EMO
+We_FPP1P FPPAll
+must_MDNE
+salute_VB
+to_IN INother
+missile_NN NNother
+man_NN NCOMP
+🙏_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/LMU823DTb1_URL
+Let_VIMP CAUSE
+'s_FPP1P FPPAll
+all_QUAN
+pledge_NN NNother
+to_IN INother
+protect_VB
+and_CC
+preserve_VB
+our_FPP1P FPPAll
+mother_NN NNHUMAN
+earth_NN NCOMP
+🌎_EMO
+https://t.co/mjDFD4ARWt_URL
+@Sxxxxxxxxxxxxa_NN NNMention
+Yeah_DMA
+😊_EMO
+💐_EMO
+It_PIT
+'s_VPRT CONT BEMA
+our_FPP1P FPPAll
+responsibility_NN NNCOG
+to_IN PrepNSTNC
+vaccinate_NN NNother
+._.
+🙏_EMO
+India_NN NNP
+will_MDWS MDPREDAll
+win_VB ACT
+,_,
+fight_VIMP
+against_IN INother
+corona_NN NNother
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🙏_EMO
+https://t.co/JbSNWvbcsj_URL
+@Nxxxxxxxxxxxxx8_NN NNMention
+@mxxxxxxxxxxxxxh_NN NNMention
+@Sxxxxxxxxxxxxxa_NN NNMention
+@Gxxxxxxxxxxp_NN NNMention
+@CxxxxxxxxP_NN NNMention
+@Uxxxxt_NN NNMention
+@dxxxxxxxxxxxxxh_NN NNMention
+@Gxxxxxxxxxa_NN NNMention
+@CxxxxxxxxxP_NN NNMention
+@Uxxxxxxxxxxxxn_NN NNMention
+@pxxxxp_NN NNMention
+@axxxxk_NN NNMention
+@exv_NN NNMention
+@Axxxxxxxxxx2_NN NNMention
+@Sxxxxxxx8_NN NNMention
+Yeah_DMA
+we_FPP1P FPPAll
+have_VPRT
+it_PIT
+👍_EMO
+Happy_JJAT JJATDother
+friendship_NN NNother
+day_NN NCOMP
+to_IN INother
+all_QUAN
+my_FPP1S FPPAll
+friends_NN NNHUMAN
+👭_EMO
+👬_EMO
+🌹_EMO
+💛_EMO
+💕_EMO
+💛_EMO
+🌹_EMO
+https://t.co/Nl8cbORBus_URL
+@Sxxxxxxxxxxxxxa_NN NNMention
+Good_NN NNP
+morning_NN NCOMP
+🌹_EMO
+Women_NN NNHUMAN
+empowerment_NN NCOMP
+💪_EMO
+🙋_EMO
+Keep_VIMP ASPECT
+it_PIT
+up_RP
+🙋_EMO
+💪_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+Congratulations_NN NOMZ
+🎉_EMO
+https://t.co/tuLKZo8s4f_URL
+Congratulations_NN NOMZ
+to_IN INother
+every_QUAN
+member_NN NNHUMAN
+of_IN INother
+the_DT
+hockey_NN NNother
+🏒_EMO
+contingent_NN NNother
+on_IN INother
+winning_VBG ACT
+the_DT
+bronze_NN NNother
+🥉_EMO
+for_IN INother
+India_NN NNP
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+#Olympics_HST
+https://t.co/Hk9RcTWaAR_URL
+@Uxxxxt_NN NNMention
+@mxxxxxxxxxxxxxh_NN NNMention
+I_FPP1S FPPAll
+also_CC
+want_VPRT MENTAL
+transfer_NN NNABSPROC
+"_''
+Neeraj_NN NNP
+Chopra_NN NNP
+wins_VPRT ACT
+India_NN NNP
+'s_POS
+first_JJAT JJATother
+gold_NN NNother
+at_IN INother
+Tokyo_NN NNP
+Olympics_NN NNP
+"_''
+https://t.co/fxpVdlEB00_URL
+Have_VPRT
+a_DT
+blessed_JJAT JJATother
+and_CC
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+🌹_EMO
+💛_EMO
+💕_EMO
+💛_EMO
+🌹_EMO
+https://t.co/JDhT2GRsgx_URL
+@dxxxxxxxxxxxxxh_NN NNMention
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+sir_NN NCOMP
+🌹_EMO
+https://t.co/xzgXXNX5zn_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Kunal_NN NNP
+salted_VBN
+in_IN INother
+a_DT
+sauce_NN NNother
+pan_NN NCOMP
+at_IN INother
+the_DT
+age_NN NNQUANT
+of_IN INother
+12_CD
+😍_EMO
+This_DEMO
+is_VPRT BEMA
+not_XX0
+a_DT
+leave_NN NNother
+,_,
+this_DEMO
+is_VPRT BEMA
+a_DT
+relief_NN NNother
+,_,
+we_FPP1P FPPAll
+want_VPRT MENTAL
+period_NN NNQUANT
+leave_NN NCOMP
+🇮🇳_EMO
+🇮🇳_EMO
+#PeriodLeave_HST
+https://t.co/7NY5wawXGI_URL
+Thanqqqqqq_NN NNP
+to_IN INother
+all_QUAN
+my_FPP1S FPPAll
+Twitter_NN NNP
+family_NN NCOMP
+👪_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+to_IN INother
+all_QUAN
+my_FPP1S FPPAll
+loving_JJPR JJPRother
+❤️_EMO
+family_NN NNHUMAN
+members_NN NCOMP
+🌹_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+🙏_EMO
+🇮🇳_EMO
+https://t.co/Mc9M5D0P5a_URL
+@sxxxxxxxxxxs_NN NNMention
+Yeah_DMA
+ma'am_NN NNother
+ur_SPP2
+correct_JJPR JJEPSTother
+,_,
+and_CC
+ur_SPP2
+tweet_NN NNother
+is_VPRT
+represent_VB EXIST
+that_THSC THSCother
+u_PRPother
+have_VPRT
+a_DT
+soft_JJAT JJATother
+corner_NN NNother
+for_IN INother
+her_TPP3S
+._.
+🌹_EMO
+🙏_EMO
+👍_EMO
+@sxxxxxxxxxxs_NN NNMention
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+ma'am_NN NCOMP
+🌹_EMO
+💕_EMO
+God_NN NNP
+always_FREQ
+bless_VB
+us_FPP1P FPPAll
+and_CC
+give_VB ACT
+what_WHSC WHSCother
+we_FPP1P FPPAll
+deserve_VPRT EXIST
+._.
+🙏_EMO
+🙏_EMO
+🌹_EMO
+Happy_JJAT JJATDother
+birthday_NN NNother
+🎂_EMO
+🎉_EMO
+🎁_EMO
+to_IN INother
+my_FPP1S FPPAll
+loving_JJPR JJPRother
+❤️_EMO
+Babu_NN NNP
+😘_EMO
+😘_EMO
+https://t.co/hVbAg5QfPR_URL
+@Dxxxxxxxxxxxxx0_NN NNMention
+Thanks_NN POLITE
+🙏_EMO
+💐_EMO
+@mxxxxxxxxxe_NN NNMention
+Blessed_JJAT JJATother
+work_NN NNABSPROC
+by_IN INother
+Yogi_NN NNP
+Government_NN NNP
+🙏_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+@mxxxxxxxxxe_NN NNMention
+Thanks_NN POLITE
+sir_NN NNother
+to_IN INother
+appreciating_VBG MENTAL
+them_TPP3P
+🙏_EMO
+🌹_EMO
+🇮🇳_EMO
+@Txxxxxxxxxxxa_NN NNMention
+Yeah_DMA
+it_PIT
+is_VPRT BEMA
+correct_JJPR JJEPSTother
+✅_EMO
+"_``
+Pfizer_NN NNP
+and_CC
+other_JJPR JJPRother
+approved_VBN MENTAL
+COVID_NN NNother
+-_HYPH
+19_CD
+vaccines_NN NNother
+continue_VPRT ASPECT
+to_IN INother
+show_VB ACT
+efficacy_NN NNother
+in_IN INother
+real_JJAT JJATother
+world_NN NNother
+conditions_NN NCOMP
+,_,
+according_VBG
+to_IN INother
+reports_NN NSTNCother
+"_''
+https://t.co/r7cry8u9ek_URL
+"_``
+Tokyo_NN NNP
+2020_CD
+:_:
+India_NN NNP
+at_IN INother
+the_DT
+Olympic_NN NNP
+Games_NN NNP
+🇮🇳_EMO
+"_``
+https://t.co/tlNsGoJDpQ_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Kunal_NN NNP
+it_PIT
+'s_VPRT CONT
+looking_PROG
+yummy_JJPR JJPRother
+😋_EMO
+._.
+Definitely_RB RSTNCAll RFACT
+I_FPP1S FPPAll
+try_VPRT ACT
+@Sxxxxxxxxxxxxxa_NN NNMention
+I_FPP1S FPPAll
+m_VPRT
+also_CC
+the_DT
+part_NN NNQUANT
+of_IN INother
+this_DEMO
+program_NN NNother
+https://t.co/xe7l8feCur_URL
+@Mxxxxxxxxxx6_NN NNMention
+Looking_VBG
+beautiful_JJPR JJEVAL
+❤_EMO
+@Sxxxxxxxxxxxxxa_NN NNMention
+@Gxxxxxxxxxxp_NN NNMention
+@CxxxxxxxxP_NN NNMention
+@Uxxxxt_NN NNMention
+@dxxxxxxxxxxxxxh_NN NNMention
+@CxxxxxxxxxP_NN NNMention
+@Uxxxxxxxxxxxxn_NN NNMention
+@exv_NN NNMention
+@Axxxxxxxxxx2_NN NNMention
+This_DEMO
+is_VPRT BEMA
+our_FPP1P FPPAll
+right_JJPR JJEPSTother
+and_CC
+we_FPP1P FPPAll
+have_VPRT
+it_PIT
+😊_EMO
+👍_EMO
+🇮🇳_EMO
+Please_FPUH POLITE
+take_VB ACT
+it_PIT
+to_IN INother
+number_NN NNQUANT
+one_CD
+👍_EMO
+🇮🇳_EMO
+https://t.co/swtEZjO8m6_URL
+This_DEMO
+is_VPRT BEMA
+our_FPP1P FPPAll
+need_NN NNCOG
+,_,
+we_FPP1P FPPAll
+want_VPRT MENTAL
+I_FPP1S FPPAll
+,_,
+please_FPUH POLITE
+give_VB ACT
+it_PIT
+,_,
+it_PIT
+'s_VPRT CONT BEMA
+my_FPP1S FPPAll
+right_NN NSTNCother
+,_,
+and_CC
+we_FPP1P FPPAll
+have_VPRT
+it_PIT
+👍_EMO
+🇮🇳_EMO
+#PeriodLeave_HST
+https://t.co/qeKRwqjgKA_URL
+Miss_NN NNP
+you_SPP2
+😘_EMO
+😘_EMO
+https://t.co/frOM82NQi2_URL
+"_``
+If_COND
+you_SPP2
+'ve_VPRT CONT SPLIT
+ever_FREQ
+seen_PEAS MENTAL
+two_CD
+trees_NN NNCONC
+in_IN INother
+intimate_JJAT JJATother
+contact_NN NNABSPROC
+,_,
+you_SPP2
+'ve_VPRT CONT
+witnessed_PEAS
+inosculation_NN NOMZ
+"_''
+https://t.co/wVSjQtSmcN_URL
+@gxxxxxxe_NN NNMention
+Sure_FPUH
+👍_EMO
+"_``
+Israel_NN NNP
+and_CC
+Hamas_NN NNP
+agree_VPRT MENTAL COMM
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+cease_VB ASPECT
+-_:
+fire_NN NNTECH
+starting_VBG ASPECT
+Friday_NN NNP
+after_IN INother
+nearly_DWNT
+two_CD
+weeks_NN NNQUANT
+of_IN INother
+violence_NN NNother
+,_,
+reports_NN NSTNCother
+say_VPRT COMM
+"_``
+https://t.co/ehSGmcJUBe_URL
+Suprabhat_NN NNP
+🌹_EMO
+💕_EMO
+🌹_EMO
+have_VPRT
+a_DT
+blessed_JJAT JJATother
+weekend_NN NNQUANT
+🍕_EMO
+🏠_EMO
+🎉_EMO
+https://t.co/tVQZaHoi3a_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+🌹_EMO
+🌹_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+🌹_EMO
+https://t.co/L0PcbTX3pr_URL
+Happy_JJAT JJATDother
+women_NN NNHUMAN
+'s_POS
+day_NN NNQUANT
+all_QUAN
+the_DT
+lovely_JJAT JJEVAL
+ladies_NN NNHUMAN
+and_CC
+girls_NN NNHUMAN
+🙆_EMO
+🌹_EMO
+🌹_EMO
+✌_EMO
+✌_EMO
+🇮🇳_EMO
+https://t.co/2iJn407wS0_URL
+Option_NN NNABSPROC
+"_''
+B_NN NNother
+"_``
+https://t.co/qTqndjBKHS_URL
+@AxxxxxxxxxxxL_NN NNMention
+@mxxxxxxxxxxxxxh_NN NNMention
+@dxxxxxxxxxp_NN NNMention
+@mxxxxxxxxxe_NN NNMention
+Excellent_JJAT JJATother
+work_NN NNABSPROC
+Aditi_NN NNP
+ma'am_NN NCOMP
+👍_EMO
+✌_EMO
+🇮🇳_EMO
+Congratulations_NN NOMZ
+to_IN INother
+their_TPP3P
+happy_JJAT JJATDother
+married_JJAT JJATother
+life_NN NNABSPROC
+✌_EMO
+💐_EMO
+💐_EMO
+💐_EMO
+💐_EMO
+💐_EMO
+https://t.co/HrVjDbaCck_URL
+@Axxxxxxxxxxxxx3_NN NNMention
+Correct_JJPR JJEPSTother
+A_DT
+very_AMP
+beautiful_JJAT JJEVAL
+creation_NN NOMZ
+of_IN INother
+the_DT
+poet_NN NNHUMAN
+👌_EMO
+🌹_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/ffXutNy7QK_URL
+Congratulations_NN NOMZ
+to_IN INother
+UP_NN NNother
+government_NN NCOMP
+👍_EMO
+🙏_EMO
+🌹_EMO
+https://t.co/fh8CYaJIw7_URL
+"_``
+India_NN NNP
+begins_VPRT ASPECT
+the_DT
+second_JJAT JJATother
+phase_NN NNABSPROC
+of_IN INother
+the_DT
+world_NN NNother
+’s_POS
+largest_JJAT JJATother
+COVID_NN NNother
+-_HYPH
+19_CD
+vaccination_NN NOMZ
+campaign_NN NCOMP
+"_''
+https://t.co/E4ZJq6lJ3x_URL
+Today_TIME
+on_IN INother
+28_CD
+february_NN NNP
+we_FPP1P FPPAll
+are_VPRT
+celebrate_VB MENTAL
+national_JJAT JJATother
+science_NN NNABSPROC
+day_NN NCOMP
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/qzfNsHgWGj_URL
+Be_VB BEMA
+positive_JJPR JJEPSTother
+in_IN INother
+ur_SPP2
+life_NN NNABSPROC
+🙏_EMO
+🙏_EMO
+🌹_EMO
+https://t.co/fYP6lbuYGN_URL
+"_``
+Getting_VBG
+humans_FPUH
+to_IN INother
+Mars_NN NNP
+by_IN INother
+2026_CD
+may_MDMM MDPOSSCAll SPLIT
+no_DMA
+longer_RB RBother
+be_VB BEMA
+a_DT
+pipe_NN NNCONC
+dream_NN NCOMP
+"_''
+https://t.co/hU5hva9S87_URL
+Have_VPRT
+a_DT
+great_JJAT JJEVAL
+and_CC
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+🌹_EMO
+🙏_EMO
+https://t.co/9YSGSilmu2_URL
+@sxxxxxxxxxxx0_NN NNMention
+Good_JJAT JJEVAL
+evening_NN NNother
+🙏_EMO
+🇮🇳_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Same_JJPR JJREL
+to_IN INother
+you_SPP2
+"_``
+'_''
+Metro_NN NNP
+man_NN NCOMP
+'_''
+E_NN NNother
+Sreedharan_NN NNother
+is_VPRT
+set_PASS PASSAll
+to_IN INother
+join_VB ACT
+the_DT
+BJP_NN NNP
+"_``
+https://t.co/KXrlCIBLpv_URL
+@cxxxxxxxxxx8_NN NNMention
+@wxxxxx0_NN NNMention
+I_FPP1S FPPAll
+m_VPRT
+not_XX0
+using_PROG ACT
+fb_NN NNother
+"_''
+Earthquake_NN NNother
+tremors_NN NCOMP
+felt_VBD MENTAL
+in_IN INother
+parts_NN NNQUANT
+of_IN INother
+Pakistan_NN NNP
+and_CC
+India_NN NNP
+"_''
+https://t.co/qdbdov5JEj_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Yummy_NN NNP
+😋_EMO
+Kunal_NN NNP
+Really_RB EMPH
+ilove_VPRT
+it_PIT
+💕_EMO
+💕_EMO
+💕_EMO
+Tribute_NN NNother
+to_IN INother
+brave_JJAT JJATother
+CRPF_NN NNP
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/ZkJD14xZbb_URL
+This_DEMO
+lovely_JJAT JJEVAL
+card_NN NNCONC
+and_CC
+good_JJAT JJEVAL
+wishes_NN NSTNCother
+given_VBN ACT
+by_IN INother
+my_FPP1S FPPAll
+kids_NN NNHUMAN
+🌹_EMO
+💕_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+https://t.co/m5BbyBwU7z_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+U_PRPother
+too_RB RBother
+Kunal_JJPR JJPRother
+😊_EMO
+🌹_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+Same_JJPR JJREL
+to_IN INother
+you_SPP2
+🙏_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+@cxxxxxxxxxx8_NN NNMention
+@wxxxxx0_NN NNMention
+Good_JJPR JJEVAL
+Have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+to_IN INother
+all_QUAN
+of_IN INother
+you_SPP2
+🌹_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+https://t.co/gwR1NTpHCJ_URL
+"_``
+NASA_NN NNP
+Perseverance_NN NCOMP
+rover_NN NNother
+successfully_RB RBother
+lands_VPRT
+on_IN INother
+Mars_NN NNP
+"_''
+https://t.co/0dXrCgKuRW_URL
+"_``
+COVID_NN NNother
+-_HYPH
+19_CD
+in_IN INother
+India_NN NNP
+"_''
+#coronavirus_HST
+https://t.co/BGkrrKXvMB_URL
+Happy_NN NNP
+monday_NN NNP
+🌹_EMO
+🌹_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+🌹_EMO
+🌹_EMO
+🙏_EMO
+🇮🇳_EMO
+https://t.co/Eu7FYockLW_URL
+@gxxxxxxh_NN NNMention
+many_QUAN
+many_QUAN
+happy_JJAT JJATDother
+returns_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+Happy_JJAT JJATDother
+sunday_NN NNP
+to_IN INother
+all_QUAN
+of_IN INother
+you_SPP2
+🙏_EMO
+🌹_EMO
+https://t.co/i8GfvIc5PG_URL
+"_``
+Some_QUAN
+countries_NN NNPLACE
+are_VPRT
+considering_PROG MENTAL
+COVID_NN NNP
+-_HYPH
+19_NN NNP
+vaccine_NN NCOMP
+passports_NN NNother
+,_,
+though_CONC
+experts_NN NNHUMAN
+have_VPRT
+pointed_PEAS
+to_IN INother
+health_NN NNABSPROC
+and_CC
+ethical_JJAT JJATother
+questions_NN NNABSPROC
+"_''
+https://t.co/etRo1AkgJJ_URL
+Celebration_NN NOMZ
+of_IN INother
+in_IN INother
+my_FPP1S FPPAll
+block_NN NNCONC
+https://t.co/jlcKD5H2FJ_URL
+@sxxxxxxxxxi_NN NNMention
+Never_FREQ
+forget_VB MENTAL
+😢_EMO
+Stay_VIMP EXIST
+home_RB RBother
+🏠_EMO
+stay_VIMP EXIST
+safe_JJPR JJPRother
+and_CC
+stay_VIMP EXIST
+healthy_JJPR JJPRother
+✌_EMO
+😊_EMO
+https://t.co/UoRGXvMt3P_URL
+"_``
+Assembly_NN NNP
+Elections_NN NNP
+2021_CD
+:_:
+Vote_NN NNother
+counting_VBG MENTAL
+underway_JJPR JJPRother
+in_IN INother
+Assam_NN NNP
+,_,
+West_NN NNP
+Bengal_NN NNP
+,_,
+Tamil_NN NNP
+Nadu_NN NNP
+,_,
+Kerala_NN NNP
+and_CC
+Puducherry_NN NNP
+"_''
+#AssemblyElections2021_HST
+https://t.co/X2HDNElzVL_URL
+Laughter_NN NNother
+is_VPRT BEMA
+indeed_RB RSTNCAll RFACT
+a_DT
+best_JJAT EMPH
+medicine_NN NNother
+,_,
+choose_VIMP MENTAL
+the_DT
+life_NN NNABSPROC
+😊_EMO
+🌹_EMO
+https://t.co/BOJOYSqDEZ_URL
+Take_VB ACT
+precautions_NN NOMZ
+and_CC
+follow_VB ACT
+the_DT
+COVID_NN NNother
+-_HYPH
+19_CD
+🦠_EMO
+😷_EMO
+protocols_NN NNother
+https://t.co/rrrY0TLhm4_URL
+Communication_NN NOMZ
+is_VPRT BEMA
+the_DT
+life_NN NNABSPROC
+line_NN NCOMP
+of_IN INother
+any_QUAN
+relationship_NN NNABSPROC
+,_,
+if_COND
+you_SPP2
+stop_VPRT ASPECT
+Communicating_VBG
+,_,
+u_PRPother
+start_VPRT ASPECT
+loosing_VBG
+your_SPP2
+valuable_JJAT JJATother
+relationship_NN NNABSPROC
+._.
+🌹_EMO
+💕_EMO
+🌹_EMO
+Never_FREQ
+forget_VB MENTAL
+you_SPP2
+#RohitSardana_HST
+https://t.co/9Zb49VDsTu_URL
+@Sxxxxxxxxxxl_NN NNMention
+Very_AMP
+true_JJPR JJEPSTother
+and_CC
+nice_JJPR JJEVAL
+👍_EMO
+👏_EMO
+https://t.co/YXTYpflF88_URL
+@Kxxxxxxxxxxxxx5_NN NNMention
+Have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+"_``
+Here_PLACE
+'s_VPRT CONT
+how_WHSC WHSCother
+people_NN NNHUMAN
+are_VPRT
+finding_PROG
+positivity_NN NOMZ
+and_CC
+connection_NN NNABSPROC
+through_IN INother
+the_DT
+pandemic_NN NNother
+"_``
+https://t.co/WZlm3uDJ1a_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Absolutely_AMP
+right_JJAT JJEPSTother
+Kunal_NN NNP
+"_''
+Gujarat_NN NNP
+coast_NN NCOMP
+braces_VPRT
+for_IN INother
+Cyclone_NN NNP
+Tauktae_NN NNP
+as_IN INother
+storm_NN NNother
+intensifies_VPRT
+"_``
+https://t.co/d9ETqERasw_URL
+"_``
+Gujarat_NN NNP
+state_NN NCOMP
+evacuates_VPRT
+more_QUAN
+than_IN INother
+200,000_CD
+people_NN NNHUMAN
+as_IN INother
+Cyclone_NN NNP
+Tauktae_NN NNP
+hits_VPRT
+"_``
+https://t.co/d9ETqERasw_URL
+We_FPP1P FPPAll
+miss_VPRT MENTAL
+you_SPP2
+always_FREQ
+😢_EMO
+😢_EMO
+🙏_EMO
+https://t.co/asxWS4ufAW_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+🌹_EMO
+have_VPRT
+a_DT
+great_JJAT JJEVAL
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+https://t.co/A01SdKeJ2T_URL
+@Gxxxxxxxxxxxxs_NN NNMention
+C_NN NNother
+-_HYPH
+could_MDCO MDPOSSCAll
+have_VB
+found_PEAS
+Stay_VB EXIST
+home_RB RBother
+,_,
+Stay_VIMP EXIST
+safe_JJPR JJPRother
+Be_VB BEMA
+positive_JJPR JJEPSTother
+and_CC
+take_VB ACT
+care_NN NNABSPROC
+of_IN INother
+your_SPP2
+self_NN NNother
+✌_EMO
+✌_EMO
+https://t.co/1CdSs0ltEE_URL
+Happy_JJAT JJATDother
+mother_NN NNHUMAN
+'s_POS
+day_NN NNQUANT
+to_IN INother
+all_QUAN
+lovely_JJAT JJEVAL
+mother_NN NNHUMAN
+'s_POS
+😘_EMO
+😘_EMO
+😘_EMO
+🌹_EMO
+💕_EMO
+💕_EMO
+🌹_EMO
+https://t.co/LplvSU6N92_URL
+"_``
+82_CD
+-_HYPH
+year_NN NNother
+-_HYPH
+old_JJAT JJTIME
+UP_NN NNother
+woman_NN NCOMP
+beats_VPRT ACT
+COVID_NN NNother
+-_HYPH
+19_CD
+using_VBG ACT
+the_DT
+'_``
+proning_VBG
+'_''
+technique_NN NNABSPROC
+"_''
+https://t.co/wvRKWwtGHR_URL
+"_``
+COVID_NN NNother
+-_HYPH
+19_CD
+vaccine_NN NNother
+registration_NN NCOMP
+opens_VPRT ACT
+for_IN INother
+those_DEMO
+18_CD
++_SYM
+across_IN INother
+India_NN NNP
+on_IN INother
+Wednesday_NN NNP
+"_''
+https://t.co/6bsJsvbQel_URL
+Have_VPRT
+a_DT
+positive_JJAT JJEPSTother
+day_NN NNQUANT
+🙏_EMO
+🌹_EMO
+https://t.co/wHGvZLShRz_URL
+"_''
+,_,
+the_DT
+festival_NN NNother
+of_IN INother
+colours_NN NNother
+,_,
+is_VPRT
+here_PLACE
+"_``
+https://t.co/GLLPPdBe7x_URL
+"_``
+COVID_NN NNP
+-_HYPH
+19_CD
+:_:
+How_WHSC WHSCother
+to_IN INother
+Protect_VB
+Yourself_SPP2
+"_``
+https://t.co/yKod0hQdev_URL
+Happy_JJPR JJATDother
+😊_EMO
+🌹_EMO
+💕_EMO
+🌹_EMO
+https://t.co/tSBwPY4wI6_URL
+Happy_JJAT JJATDother
+and_CC
+blessed_JJAT JJATother
+sunday_NN NNP
+🙏_EMO
+🌹_EMO
+https://t.co/WpllJyTb91_URL
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+🙏_EMO
+😢_EMO
+https://t.co/lMd4kXN0mm_URL
+Save_VB ACT
+water_NN NNCONC
+💧_EMO
+💦_EMO
+🙏_EMO
+https://t.co/N1TfRxycds_URL
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+and_CC
+take_VB ACT
+care_NN NNABSPROC
+of_IN INother
+your_SPP2
+health_NN NNABSPROC
+🙏_EMO
+🌹_EMO
+https://t.co/kqwHaXDWwR_URL
+"_``
+India_NN NNP
+records_VPRT
+more_QUAN
+than_IN INother
+200,000_CD
+fresh_JJAT JJATother
+COVID_NN NNother
+-_HYPH
+19_CD
+infections_NN NOMZ
+in_IN INother
+24_CD
+hours_NN NNQUANT
+"_''
+https://t.co/iSUXx908ci_URL
+"_``
+Camphor_NN NNP
+does_VPRT DOAUX
+not_XX0
+elevate_VB
+oxygen_NN NNTECH
+levels_NN NCOMP
+,_,
+doctors_NN NNHUMAN
+and_CC
+fact_NN NSTNCother
+-_HYPH
+checkers_NN NNother
+say_VPRT COMM
+"_``
+https://t.co/3mlsUnLcar_URL
+@Cxxxxxxxxxxxxr_NN NNMention
+Kunal_NN NNP
+amazing_JJPR JJPRother
+👍_EMO
+😍_EMO
+@sxxxxxxxxp_NN NNMention
+@Dxxxxxxxxxxxxs_NN NNMention
+You_SPP2
+too_RB RBother
+sir_NN NNother
+🙏_EMO
+https://t.co/wni111zceb_URL
+@bxxxxxxxxxxxxxa_NN NNMention
+U_PRPother
+too_RB RBother
+🌹_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+@axxxxxxxxxa_NN NNMention
+U_NN NNP
+too_RB RBother
+🙏_EMO
+@Dxxxxxxxxxxxxx0_NN NNMention
+,_,
+anything_QUPR
+wrong_JJPR JJPRother
+❔_EMO
+@Dxxxxxxxxxxxxx0_NN NNMention
+Yeah_DMA
+👍_EMO
+I_FPP1S FPPAll
+m_VPRT BEMA
+proud_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEFCT
+be_VB BEMA
+a_DT
+Mauryavanshi_NN NNP
+💪_EMO
+🚩_EMO
+🇮🇳_EMO
+@Dxxxxxxxxxxxxx0_NN NNMention
+Well_DMA
+-_HYPH
+known_VBN MENTAL
+🇮🇳_EMO
+@Sxxxxxxxxxxxxa_NN NNMention
+@Dxxxxxxxxxxxxx0_NN NNMention
+First_NN NNP
+off_RB RBother
+all_QUAN
+i_FPP1S FPPAll
+m_VPRT BEMA
+teacher_NN NNHUMAN
+,_,
+then_RB RBother
+anything_QUPR
+else_JJPR JJPRother
+🇮🇳_EMO
+🇮🇳_EMO
+Excellent_JJAT JJATother
+work_NN NNABSPROC
+by_IN INother
+you_SPP2
+🙏_EMO
+🌹_EMO
+🇮🇳_EMO
+https://t.co/NlDlOSzji7_URL
+Happy_JJAT JJATDother
+independence_NN NNother
+day_NN NCOMP
+to_IN INother
+all_QUAN
+of_IN INother
+you_SPP2
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/UZHKBwPNR7_URL
+@nxxxxxxxxxxi_NN NNMention
+Happy_JJAT JJATDother
+independence_NN NNother
+day_NN NCOMP
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/XwTiccXvTO_URL
+Congratulations_NN NOMZ
+🎉_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+https://t.co/Mipw4I9vVY_URL
+@Pxxxxxxxxxxxxxa_NN NNMention
+@Txxxxxxxxxi_NN NNMention
+@MxxxxxxxI_NN NNMention
+@ixxxxxxxxxxxr_NN NNMention
+All_QUAN
+the_DT
+best_JJAT EMPH
+team_NN NNother
+India_NN NNP
+🇮🇳_EMO
+,_,
+we_FPP1P FPPAll
+are_VPRT BEMA
+always_FREQ
+with_IN INother
+you_SPP2
+🇮🇳_EMO
+🇮🇳_EMO
+🙋_EMO
+Congratulations_NN NOMZ
+champion_VPRT
+🏆_EMO
+to_IN INother
+make_VB ACT
+me_FPP1S FPPAll
+a_DT
+proud_JJAT JJATother
+💪_EMO
+🇮🇳_EMO
+🇮🇳_EMO
+😘_EMO
+all_QUAN
+the_DT
+best_JJAT EMPH
+👍_EMO
+💯_EMO
+https://t.co/yA2D0Be7ih_URL
+@Pxxxxxxxxxxxxxa_NN NNMention
+@Axxxxxxxxxxa_NN NNMention
+Weldon_NN NNP
+👍_EMO
+🇮🇳_EMO
+@Ixxxxxxxxxxxxxs_NN NNMention
+@Pxxxxxxxxxxxxxa_NN NNMention
+@Axxxxxxxxxxa_NN NNMention
+@bxxxxxxxxxxa_NN NNMention
+@jxxxxxxxxxxxxj_NN NNMention
+@axxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxxxxxy_NN NNMention
+@Txxxxxxxxxxxa_NN NNMention
+Congratulations_NN NOMZ
+🎉_EMO
+to_IN INother
+golden_JJAT JJATother
+girl_NN NNHUMAN
+of_IN INother
+india_NN NNother
+🇮🇳_EMO
+🇮🇳_EMO
+🙏_EMO
+👍_EMO
+@Kxxxxxxxxxxxxxj_NN NNMention
+Truly_RB RBother
+said_VBD COMM
+👍_EMO
+"_``
+Satellites_NN NNother
+are_VPRT
+littering_PROG
+our_FPP1P FPPAll
+solar_JJAT JJATother
+system_NN NNABSPROC
+at_IN INother
+a_DT
+rapid_JJAT JJATother
+speed_NN NNother
+"_''
+https://t.co/L1OIq0Dj1P_URL
+🙏_EMO
+may_MDMM MDPOSSCAll
+Lord_NN NNP
+Shiva_NN NCOMP
+give_VB ACT
+the_DT
+power_NN NNABSPROC
+and_CC
+strength_NN NNABSPROC
+to_IN INother
+everyone_QUPR
+._.
+Wish_VPRT MENTAL
+you_SPP2
+a_DT
+very_AMP
+happy_JJPR JJATDother
+🙏_EMO
+🚩_EMO
+🚩_EMO
+🚩_EMO
+https://t.co/nPvcvW2IOr_URL

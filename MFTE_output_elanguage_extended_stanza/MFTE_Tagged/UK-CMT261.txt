@@ -1,0 +1,2496 @@
+Go_VB
+out_RP
+into_IN INother
+the_DT
+street_NN NNother
+and_CC
+ask_VB COMM
+the_DT
+general_JJAT JJREL
+public_NN NNother
+to_IN INother
+name_VB
+the_DT
+Leader_NN NNHUMAN
+of_IN INother
+the_DT
+Labour_NN NNP
+Party_NN NCOMP
+and_CC
+see_VB MENTAL
+just_RB EMPH
+how_WHSC WHSCother
+many_QUAN
+do_VPRT DOAUX
+n't_XX0 CONT
+actually_DMA
+know_VB MENTAL
+._.
+A_DT
+local_JJAT JJATother
+paper_NN NNCONC
+actually_DMA
+did_VBD ACT
+that_DEMO
+recently_TIME
+in_IN INother
+Hartlepool_NN NNP
+and_CC
+less_QUAN
+than_IN INother
+50_CD
+%_NN NNother
+knew_VBD MENTAL
+his_TPP3S
+name_NN NNABSPROC
+._.
+Quite_RB RBother
+amazing_JJPR JJPRother
+given_VBN ACT
+there_EX
+is_VPRT
+a_DT
+by_IN INother
+-_HYPH
+election_NN NOMZ
+imminent_NN NCOMP
+-_,
+then_RB RBother
+again_FREQ
+there_EX
+are_VPRT
+no_DMA
+less_QUAN
+than_IN INother
+3_CD
+former_JJAT JJATother
+Labour_NN NNP
+MPs_NN NNP
+standing_VBG EXIST
+for_IN INother
+various_JJAT JJREL
+parties_NN NNother
+so_SO
+it_PIT
+must_MDNE
+confuse_VB
+the_DT
+hell_NN NNPLACE
+out_RP
+of_IN INother
+the_DT
+electorate_NN NNother
+._.
+If_COND
+Labour_NN NNother
+do_VPRT DOAUX
+n't_XX0 CONT
+get_VB
+real_JJPR JJPRother
+and_CC
+cut_VB
+deals_NN NNABSPROC
+with_IN INother
+other_JJAT JJATother
+parties_NN NNother
+,_,
+they_TPP3P
+can_MDCA MDPOSSCAll
+forget_VB MENTAL
+being_VBG BEMA
+in_IN INother
+power_NN NNABSPROC
+ever_FREQ
+again_FREQ
+._.
+Giving_VBG ACT
+up_RP
+the_DT
+prospect_NN NNother
+of_IN INother
+total_JJAT JJATother
+power_NN NNABSPROC
+to_IN INother
+a_DT
+senior_NN NNother
+career_NN NNABSPROC
+politician_NN NCOMP
+is_VPRT
+like_LIKE
+giving_VBG ACT
+up_RP
+their_TPP3P
+right_JJAT JJEPSTother
+leg_NN NNCONC
+,_,
+but_CC
+it's_FPP1P FPPAll
+that_DEMO
+or_CC
+drift_NN NNother
+into_IN INother
+permanent_JJAT JJATother
+irrelevance_NN NNother
+._.
+The_DT
+left_NN NNPLACE
+should_MDNE
+put_VB ACT
+forget_VB MENTAL
+the_DT
+'_``
+Labour_NN NNP
+'_''
+party_NN NNother
+and_CC
+electoral_JJAT JJATother
+politics_NN NNother
+for_IN INother
+now_TIME
+and_CC
+put_VB ACT
+all_QUAN
+its_PIT
+efforts_NN NNother
+where_WHSC WHSCother
+it_PIT
+will_MDWS MDPREDAll
+have_VB
+the_DT
+most_EMPH
+effect_NN NNABSPROC
+and_CC
+greater_JJAT JJATother
+chance_NN NNother
+of_IN INother
+success_NN NNABSPROC
+in_IN INother
+electing_VBG
+socialists_NN NNother
+into_IN INother
+the_DT
+top_JJAT JJREL
+positions_NN NNABSPROC
+of_IN INother
+the_DT
+unions_NN NNother
+._.
+I_FPP1S FPPAll
+'m_VPRT CONT SPLIT
+currently_TIME
+feeling_PROG MENTAL
+jealous_JJPR JJPRother
+because_CUZ
+I_FPP1S FPPAll
+thought_VBD MENTAL THATD
+Biden_NN NNP
+was_VBD
+going_GTO MDPREDAll
+to_IN INother
+be_VB BEMA
+a_DT
+terrible_JJPR JJPRother
+right_RB RBother
+-_HYPH
+leaning_VBG
+centrist_NN NNother
+but_CC
+now_TIME
+we_FPP1P FPPAll
+'re_VPRT CONT BEMA
+the_DT
+state_NN NNABSPROC
+sliding_VBG
+into_IN INother
+fascism_NN NNother
+._.
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+still_RB RBother
+hopeful_JJPR JJATDother
+though_CONC
+and_CC
+at_IN INother
+least_EMPH
+when_WHSC WHSCother
+the_DT
+Conservatives_NN NNP
+do_VPRT DOAUX EMPH
+try_VB ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+abolish_VB
+the_DT
+Human_FPUH
+Rights_NN NSTNCother
+'_''
+Act_VB
+then_RB RBother
+Keir_NN NNP
+Starmer_NN NNP
+will_MDWS MDPREDAll
+have_VB
+some_QUAN
+really_RB EMPH
+good_JJAT JJEVAL
+arguments_NN NNABSPROC
+against_IN INother
+that_DEMO
+policy_NN NNABSPROC
+._.
+Why_WHSC WHSCother
+vote_VB
+for_IN INother
+a_DT
+red_JJAT JJDESCAll JJCOLR
+tory_NN NNother
+,_,
+when_WHSC WHSCother
+you_SPP2
+can_MDCA MDPOSSCAll
+have_VB
+the_DT
+real_JJAT JJATother
+thing_NN NNother
+(_-LRB-
+as_IN INother
+exemplified_VBN
+by_IN INother
+Ed_NN NNP
+Miliband_NN NNP
+'s_POS
+spectacular_JJAT JJATother
+failure_NN NNABSPROC
+in_IN PrepNSTNC
+2015_CD
+)_-RRB-
+He_TPP3S
+should_MDNE
+have_VB
+opposed_PEAS
+brexit_NN NNother
+,_,
+not_XX0
+nodded_VBN
+it_PIT
+through_RP
+._.
+It_PIT
+’s_VPRT BEMA
+not_XX0
+the_DT
+leader_NN NNHUMAN
+,_,
+it_PIT
+’s_VPRT
+not_XX0
+even_RB RBother
+the_DT
+party_NN NNother
+._.
+It_PIT
+’s_VPRT BEMA
+the_DT
+country_NN NNPLACE
+._.
+Look_VB
+in_IN INother
+the_DT
+mirror_VB
+._.
+The_DT
+majority_NN NOMZ
+will_MDWS MDPREDAll
+not_XX0
+vote_VB
+for_IN INother
+Equality_NN NNP
+,_,
+Fairness_NN NNP
+,_,
+Social_JJPR JJTOPIC
+and_CC
+Economic_NN NNP
+Justices_NN NNother
+._.
+It_PIT
+’s_VPRT
+just_RB EMPH
+how_WHSC WHSCother
+it_PIT
+is_VPRT
+(_-LRB-
+at_IN INother
+the_DT
+moment_NN NNQUANT
+)_-RRB-
+._.
+It_PIT
+will_MDWS MDPREDAll
+change_VB OCCUR
+._.
+Inevitably_RB RSTNCAll RFACT
+._.
+>_NFP
+The_DT
+majority_NN NOMZ
+will_MDWS MDPREDAll
+not_XX0
+vote_VB
+for_IN INother
+Equality_NN NNP
+,_,
+Fairness_NN NNP
+,_,
+Social_JJPR JJTOPIC
+and_CC
+Economic_NN NNP
+>_NFP
+Justices_NN NNother
+._.
+Not_XX0
+under_IN INother
+FPTP_NN NNP
+but_CC
+look_VB
+at_IN INother
+consistent_JJAT JJATother
+British_JJAT JJATother
+Attitudes_NN NNP
+Surveys_NN NCOMP
+-_,
+most_RB EMPH
+British_NN NNP
+people_NN NNHUMAN
+align_VPRT
+with_IN INother
+these_DEMO
+values_NN NNABSPROC
+,_,
+it_PIT
+'s_VPRT CONT
+just_RB EMPH
+that_THSC THSCother
+under_IN INother
+FTFP_NN NNP
+,_,
+the_DT
+gammon_NN NNother
+values_NN NCOMP
+of_IN INother
+tabloids_NN NNother
+dominate_JJPR JJPRother
+._.
+Most_JJAT EMPH
+people_NN NNHUMAN
+do_VPRT DOAUX
+n't_XX0 CONT
+vote_VB
+Conservatives_NN NNother
+-_,
+they_TPP3P
+won_VBD ACT
+last_JJAT JJATother
+time_NN NNQUANT
+on_IN INother
+43_CD
+%_NN NNother
+of_IN INother
+67_CD
+%_NN NNother
+-_,
+when_WHSC WHSCother
+Labour_NN NNother
+give_VB ACT
+up_RP
+their_TPP3P
+fantasy_NN NNother
+of_IN INother
+winning_VBG ACT
+power_NN NNABSPROC
+without_IN INother
+cutting_VBG
+deals_NN NNABSPROC
+with_IN INother
+other_JJPR JJPRother
+parties_NN NNother
+,_,
+most_RB EMPH
+British_JJAT JJATother
+voters_NN NNother
+will_MDWS MDPREDAll
+get_VB
+something_QUPR
+nearer_JJPR JJPRother
+to_IN INother
+what_WHSC WHSCother
+they_TPP3P
+vote_VPRT
+for_IN STPR
+._.
+I_FPP1S FPPAll
+think_VPRT MENTAL THATD
+the_DT
+trouble_NN NNABSPROC
+is_VPRT BEMA
+with_IN INother
+the_DT
+definition_NN NNABSPROC
+of_IN INother
+those_DEMO
+values_NN NNABSPROC
+._.
+It_PIT
+'s_VPRT CONT BEMA
+not_XX0
+that_DEMO
+Conservative_JJAT JJATother
+voters_NN NNother
+do_VPRT DOAUX
+n't_XX0 CONT
+believe_VB MENTAL
+in_IN INother
+them_TPP3P
+,_,
+they_TPP3P
+just_RB EMPH
+think_VPRT MENTAL THATD
+you_SPP2
+can_MDCA MDPOSSCAll
+do_VB ACT
+well_RB RBother
+by_RB RBother
+working_VBG ACT
+hard_RB RBother
+and_CC
+ignore_VB MENTAL
+any_QUAN
+other_JJAT JJATother
+factors_NN NNABSPROC
+._.
+They_TPP3P
+still_RB RBother
+believe_VPRT MENTAL
+in_IN INother
+the_DT
+supposed_VBN MENTAL
+benefits_NN NNABSPROC
+of_IN INother
+privatisation_NN NOMZ
+and_CC
+lack_NN NNother
+of_IN INother
+regulations_NN NNABSPROC
+._.
+Should_MDNE
+be_VB BEMA
+easy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+counter_VB
+really_RB EMPH
+._.
+But_CC
+what_WHQU
+if_COND
+peoples_NN NNHUMAN
+first_JJAT JJATother
+impression_NN NSTNCother
+was_VBD
+actually_DMA
+accurate_JJPR JJPRother
+?_.
+Labour_NN NNother
+needs_MDNE
+to_IN INother
+decide_VB MENTAL
+what_WHSC WHSCother
+it_PIT
+stands_VPRT EXIST
+for_IN INother
+because_CUZ
+it_PIT
+seems_VPRT EXIST
+most_JJAT EMPH
+people_NN NNHUMAN
+do_VPRT ACT
+n't_XX0 CONT
+know_VB MENTAL
+,_,
+including_VBG EXIST
+its_PIT
+members_NN NNHUMAN
+._.
+They_TPP3P
+are_VPRT BEMA
+n't_XX0 CONT
+for_IN INother
+working_VBG ACT
+people_NN NNHUMAN
+._.
+They_TPP3P
+are_VPRT BEMA
+n't_XX0 CONT
+for_IN INother
+the_DT
+impoverished_JJAT JJATother
+._.
+They_TPP3P
+are_VPRT
+n't_XX0 CONT
+for_IN INother
+the_DT
+dispossessed_VBN
+._.
+They_TPP3P
+are_VPRT BEMA
+n't_XX0 CONT
+for_IN INother
+the_DT
+exploited_VBN
+._.
+They_TPP3P
+are_VPRT BEMA
+n't_XX0 CONT
+green_JJPR JJDESCAll JJCOLR
+._.
+They_TPP3P
+are_VPRT BEMA
+n't_XX0 CONT
+socialist_JJPR JJPRother
+._.
+They_TPP3P
+are_VPRT
+n't_XX0 CONT
+even_RB RBother
+social_JJAT JJTOPIC
+democratic_JJPR JJPRother
+._.
+The_DT
+only_JJAT JJATother
+thing_NN NNother
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+think_VB MENTAL
+the_DT
+Labour_NN NNP
+Party_NN NNP
+is_VPRT BEMA
+for_IN INother
+,_,
+is_VPRT BEMA
+a_DT
+career_NN NNABSPROC
+ladder_NN NCOMP
+for_IN INother
+Tory_NN NNP
+rejects_VPRT
+!_.
+Even_RB RBother
+more_AMP
+(_-LRB-
+for_IN INother
+their_TPP3P
+hopes_NN NNother
+of_IN PrepNSTNC
+forming_VBG ACT
+a_DT
+Govt._NN NNother
+at_IN INother
+any_QUAN
+time_NN NNQUANT
+soon_TIME
+)_-RRB-
+they_TPP3P
+are_VPRT BEMA
+n't_XX0 CONT
+for_IN INother
+the_DT
+Scots_NN NNP
+either_RB RBother
+._.
+Many_QUAN
+politicians_NN NNother
+are_VPRT BEMA
+worried_JJPR JJATDother
+about_IN INother
+loosing_VBG
+voters_NN NNother
+,_,
+so_SO
+they_TPP3P
+just_RB EMPH
+make_VPRT ACT
+no_DMA
+statement_VB
+at_IN INother
+all_QUAN
+expecting_VBG MENTAL
+everybody_QUPR
+to_IN INother
+be_VB BEMA
+Happy_JJPR JJATDother
+._.
+What_WHSC WHSCother
+’s_VPRT
+happening_PROG OCCUR
+to_IN INother
+Labour_NN NNP
+under_IN INother
+Starmer_NN NNP
+is_VPRT BEMA
+pasokification_NN NOMZ
+._.
+I_FPP1S FPPAll
+expected_VBD MENTAL
+it_PIT
+to_.
+happen_VB OCCUR
+,_,
+I_FPP1S FPPAll
+did_VBD SPLIT DOAUX
+n’t_RB RBother
+expect_VB MENTAL
+it_PIT
+to_IN INother
+happen_VB OCCUR
+so_EMPH
+quickly_RB RBother
+._.
+They_TPP3P
+’ll_MDother
+be_VB BEMA
+a_DT
+dead_JJAT JJATother
+party_NN NNother
+within_IN INother
+a_DT
+decade_NN NNother
+-_,
+to_IN INother
+me_FPP1S FPPAll
+and_CC
+many_QUAN
+others_NN NNother
+,_,
+they_TPP3P
+already_TIME
+are_VPRT
+._.
+Labour_NN NNother
+,_,
+although_CONC
+it_PIT
+will_MDWS MDPREDAll SPLIT
+never_FREQ
+dare_VB MENTAL
+admit_VB COMM
+it_PIT
+to_IN INother
+itself_PIT
+,_,
+is_VPRT BEMA
+pre-emintently_RB RBother
+the_DT
+party_NN NNother
+of_IN INother
+the_DT
+Union_NN NNP
+._.
+The_DT
+Tories_NN NNP
+may_MDMM MDPOSSCAll
+tack_VB
+"_``
+and_CC
+Unionist_NN NNP
+"_''
+onto_IN INother
+their_TPP3P
+party_NN NNother
+name_NN NCOMP
+but_CC
+that_DEMO
+'s_VPRT CONT BEMA
+just_RB EMPH
+an_DT
+historic_JJAT JJATother
+sop_NN NNother
+to_IN INother
+the_DT
+NI_NN NNother
+vote_NN NCOMP
+._.
+The_DT
+Tories_NN NNP
+do_VPRT DOAUX
+n't_XX0 CONT
+need_VB MENTAL
+the_DT
+Scots_NN NNother
+or_CC
+Welsh_JJAT JJATother
+vote_NN NNother
+to_IN INother
+form_VB ACT
+a_DT
+Govt._NN NNP
+and_CC
+they_TPP3P
+know_VPRT MENTAL
+that_DEMO
+._.
+The_DT
+minute_NN NNQUANT
+Labour_NN NNP
+lost_VBD ACT
+Scotland_NN NNP
+,_,
+the_DT
+writing_NN NNother
+was_VBD BEMA
+on_IN INother
+the_DT
+wall_NN NNCONC
+._.
+No_XX0
+matter_NN CONC
+what_WHSC WHSCother
+Starmer_NN NNP
+does_VPRT ACT
+the_DT
+Corbyn_NN NNP
+cult_NN NCOMP
+-_,
+much_QUAN
+of_IN INother
+whom_WHSC WHSCother
+I_FPP1S FPPAll
+suspect_VPRT MENTAL
+have_VPRT
+expelled_VBD
+themselves_TPP3P
+from_IN INother
+their_TPP3P
+Labour_NN NNP
+membership_NN NCOMP
+-_,
+seem_VPRT EXIST
+hell_NN NNPLACE
+bent_VBN
+on_IN INother
+wingeing_VBG
+,_,
+moaning_VBG
+,_,
+and_CC
+viscerally_RB RBother
+attacking_VBG
+him_TPP3S
+for_IN INother
+whatever_WHSC WHSCother
+he_TPP3S
+does_VPRT DOAUX
+to_IN INother
+satiate_VB
+their_TPP3P
+ultra_NN NNother
+-_HYPH
+tribalism_NN NNother
+and_CC
+soothe_VB
+their_TPP3P
+emotions_NN NNCOG
+that_THSC THSCother
+their_TPP3P
+messiah_NN NNother
+is_VPRT
+no_DMA
+longer_RB RBother
+at_RB RBother
+the_DT
+helm_NN NNother
+of_IN INother
+the_DT
+party_NN NNother
+._.
+Starmer_NN NNP
+has_VPRT
+done_PEAS ACT
+his_TPP3S
+best_JJPR EMPH
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+chart_VB
+a_DT
+very_AMP
+difficult_JJAT JJATother
+course_NN NNother
+and_CC
+haul_VB
+the_DT
+party_NN NNother
+back_RB RBother
+from_IN INother
+an_DT
+historic_JJAT JJATother
+landslide_NN NNother
+General_NN NNP
+Election_NN NNP
+defeat_NN NCOMP
+._.
+He_TPP3S
+has_VPRT SPLIT
+also_CC
+resisted_PEAS
+indulging_VBG
+in_IN INother
+tribal_JJAT JJATother
+arguments_NN NNABSPROC
+within_IN INother
+the_DT
+party_NN NNother
+._.
+He_TPP3S
+has_VPRT
+managed_PEAS
+to_IN INother
+lead_VB
+the_DT
+Labour_NN NNP
+Party_NN NNP
+to_IN INother
+,_,
+currently_TIME
+at_IN INother
+worst_JJPR JJPRother
+a_DT
+9_CD
+%_NN NNother
+point_NN NNother
+deficit_NN NCOMP
+in_IN INother
+the_DT
+opinion_NN NSTNCother
+polls_NN NCOMP
+after_IN INother
+inheriting_VBG
+from_IN INother
+Corbyn_NN NNP
+opinion_NN NSTNCother NCOMP
+poll_NN NNother
+deficits_NN NCOMP
+of_IN INother
+20_CD
+to_IN INother
+25_CD
+%_NN NNother
+points_NN NNother
+._.
+At_RB RBother
+best_JJPR EMPH
+the_DT
+party_NN NNother
+under_IN INother
+Starmer_NN NNP
+has_VPRT
+enjoyed_PEAS MENTAL
+a_DT
+couple_NN NNHUMAN
+of_IN INother
+poll_NN NNother
+leads_NN NCOMP
+of_IN INother
+up_IN INother
+to_IN INother
+5_CD
+%_NN NNother
+points_NN NNother
+over_IN INother
+Johnson_NN NNP
+’s_POS
+Conservatives_NN NNP
+,_,
+all_QUAN
+within_IN INother
+the_DT
+space_NN NNCONC
+of_IN INother
+one_CD
+year_NN NNother
+._.
+But_CC
+has_VPRT
+this_DEMO
+satisfied_JJAT JJATother
+Momentum_NN NNother
+?_.
+Satisfied_JJPR JJPRother
+the_DT
+rump_NN NNother
+of_IN INother
+the_DT
+Corbyn_NN NNP
+Cult_NN NNP
+?_.
+Of_IN INother
+course_DMA RSTNCAll RFACT
+not_XX0
+-_NFP
+all_QUAN
+that_THRC THRCother
+matters_VPRT EXIST
+to_IN INother
+them_TPP3P
+is_VPRT BEMA
+their_TPP3P
+own_JJAT JJATother
+narrow_JJAT JJDESCAll JJSIZE
+ideological_JJAT JJATother
+purity_NN NOMZ
+and_CC
+devotion_NN NOMZ
+to_IN INother
+a_DT
+leader_NN NNHUMAN
+that_THRC THRCother
+buried_VBD
+Labour_NN NNP
+in_IN INother
+the_DT
+2019_CD
+General_NN NNP
+Election_NN NNP
+._.
+Starmer_NN NNP
+can_MDCA MDPOSSCAll
+seem_VB EXIST
+to_IN INother
+do_VB ACT
+nothing_QUPR
+right_RB RBother
+for_IN INother
+these_DEMO
+people_NN NNHUMAN
+._.
+If_COND
+I_FPP1S FPPAll
+was_VBD BEMA
+Starmer_NN NNP
+,_,
+I_FPP1S FPPAll
+would_MDWO MDPREDAll
+lance_VB
+the_DT
+boil_NN NNother
+and_CC
+expel_VB
+Corbyn_NN NNP
+from_IN INother
+the_DT
+Labour_NN NNP
+Party_NN NNother
+for_IN INother
+bringing_VBG ACT
+the_DT
+party_NN NNother
+into_IN INother
+disrepute_NN NNother
+over_IN INother
+the_DT
+antisemitism_NN NNother
+scandal_NN NCOMP
+._.
+After_IN INother
+all_QUAN
+,_,
+if_COND
+any_QUAN
+ordinary_JJAT JJATother
+member_NN NNHUMAN
+behaved_VBD ACT
+in_IN INother
+the_DT
+way_NN NNABSPROC
+he_TPP3S
+did_VBD ACT
+with_IN INother
+his_TPP3S
+dithering_NN NNother
+and_CC
+inaction_NN NOMZ
+-_,
+his_TPP3S
+failure_NN NNABSPROC
+to_IN PrepNSTNC SPLIT
+effectively_RB RBother
+eradicate_VB
+the_DT
+scourge_NN NNother
+of_IN INother
+antisemitism_NN NNother
+within_IN INother
+Labour_NN NNP
+’s_POS
+ranks_NN NNother
+-_,
+they_TPP3P
+would_MDWO MDPREDAll
+have_VB
+breached_PEAS
+that_DEMO
+cardinal_JJAT JJATother
+rule_VB
+in_IN INother
+the_DT
+party_NN NNother
+rule_NN NCOMP
+book_NN NNCONC
+-_,
+not_XX0
+to_IN INother
+bring_VB ACT
+the_DT
+party_NN NNother
+into_IN INother
+disrepute_NN NNother
+._.
+It_PIT
+carries_VPRT ACT
+the_DT
+penalty_NN NNother
+of_IN INother
+expulsion_NN NNother
+from_IN INother
+the_DT
+party_NN NNother
+._.
+I_FPP1S FPPAll
+dont_MDother
+think_VB MENTAL THATD
+it_PIT
+would_MDWO MDPREDAll
+matter_VB EXIST
+whether_WHSC WHSCother
+Starmer_NN NNP
+expelled_VBD
+Corbyn_NN NNP
+or_CC
+not_XX0
+._.
+The_DT
+plain_JJAT JJATother
+fact_NN NSTNCother
+is_VPRT
+that_THSC THSCother
+when_WHSC WHSCother
+it_PIT
+comes_VPRT ACT
+to_IN INother
+his_TPP3S
+own_JJAT JJATother
+membership_NN NNother
+,_,
+by_IN INother
+now_TIME
+Starmer_NN NNP
+is_VPRT
+Leader_NN NNHUMAN
+in_IN INother
+name_NN NNABSPROC
+only_RB RBother
+and_CC
+the_DT
+first_JJAT JJATother
+chance_NN NNother
+that_THRC THRCother
+offers_VPRT COMM
+he_TPP3S
+will_MDWS MDPREDAll
+be_VB
+gone_PASS PASSAll
+._.
+Then_RB RBother
+some_QUAN
+normality_NN NOMZ
+and_CC
+sanity_NN NOMZ
+will_MDWS MDPREDAll
+return_VB
+and_CC
+Starmer_NN NNP
+'s_POS
+weird_JJPR JJPRother
+'_''
+off_RP
+with_IN INother
+their_TPP3P
+head_NN NNCONC
+'_``
+stuff_NN NNother
+will_MDWS MDPREDAll
+be_VB
+sorted_PASS PASSAll
+out_RP
+and_CC
+Labour_NN NNP
+might_MDMM MDPOSSCAll
+stand_VB EXIST
+a_DT
+chance_NN NNother
+again_FREQ
+._.
+The_DT
+left_NN NNPLACE
+should_MDNE
+forget_VB MENTAL
+the_DT
+'_``
+Labour_NN NNP
+'_''
+party_NN NNother
+and_CC
+electoral_JJAT JJATother
+politics_NN NNother
+for_IN INother
+now_TIME
+and_CC
+concentrate_VB
+all_QUAN
+it's_FPP1P FPPAll
+efforts_NN NNother
+elsewhere_PLACE
+,_,
+the_DT
+unions_NN NNother
+._.
+The_DT
+trouble_NN NNABSPROC
+is_VPRT
+that_THSC THSCother
+Labour_NN NNP
+is_VPRT
+"_``
+a_DT
+broad_JJAT JJATother
+church_NN NNGRP
+"_''
+._.
+Nothing_QUPR
+wrong_JJPR JJPRother
+with_IN INother
+that_DEMO
+PROVIDED_VBD ACT
+that_THSC THSCother
+at_IN INother
+the_DT
+end_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+all_QUAN
+factions_NN NOMZ
+within_IN INother
+the_DT
+party_NN NNother
+will_MDWS MDPREDAll
+unite_VB
+to_IN INother
+secure_VB
+electoral_JJAT JJATother
+victory_NN NNother
+._.
+Labour_NN NNother
+will_MDWS MDPREDAll
+not_XX0
+(_-LRB-
+seemingly_RB RBother
+cannot_MDother
+)_-RRB-
+do_VB ACT
+this_DEMO
+._.
+The_DT
+Tories_NN NNother
+,_,
+in_IN INother
+their_TPP3P
+own_JJAT JJATother
+way_NN NNABSPROC
+every_QUAN
+bit_NN NNother
+as_IN INother
+broad_JJPR JJPRother
+a_DT
+church_NN NNGRP
+as_IN INother
+Labour_NN NNP
+can_MDCA MDPOSSCAll
+._.
+And_CC
+do_VB DOAUX
+._.
+And_CC
+win_VB ACT
+office_NN NNPLACE
+._.
+Either_CC
+Labour_NN NNP
+can_MDCA MDPOSSCAll
+find_VB VFCTother
+some_QUAN
+party_NN NNother
+discipline_NN NCOMP
+from_IN INother
+somewhere_QUPR
+or_CC
+it_PIT
+is_VPRT
+finished_PASS PASSAll ASPECT
+._.
+I_FPP1S FPPAll
+think_VPRT MENTAL
+the_DT
+major_JJAT JJATother
+question_NN NNABSPROC
+that_THRC THRCother
+should_MDNE
+be_VB
+occupying_PROG
+the_DT
+minds_NN NNother
+of_IN INother
+progressives_NN NNother
+at_IN INother
+the_DT
+moment_NN NNQUANT
+is_VPRT
+"_``
+What_WHQU
+replaces_VPRT
+Labour_NN NNP
+?_.
+"_''
+80_CD
+%_NN NNother
+of_IN INother
+people_NN NNHUMAN
+who_WHSC WHSCother
+voted_VBD
+for_IN INother
+Corbyn_NN NNP
+in_IN INother
+leadership_NN NNABSPROC
+elections_NN NCOMP
+voted_VBD
+for_IN INother
+Starmer_NN NNP
+._.
+The_DT
+wails_NN NNother
+of_IN INother
+"_``
+its_PIT
+all_QUAN
+jeremy_NN NNother
+corbyns_NN NCOMP
+fault_NN NNother
+"_''
+grow_VPRT OCCUR
+ever_FREQ
+shriller_JJPR JJPRother
+._.
+Uniting_VBG
+a_DT
+lot_QUAN
+of_IN INother
+different_JJAT JJREL
+people_NN NNHUMAN
+with_IN INother
+disparate_JJAT JJATother
+views_NN NNCOG
+to_IN PrepNSTNC
+form_VB ACT
+one_CD
+force_NN NNother
+to_.
+achieve_VB
+something_QUPR
+is_VPRT
+called_PASS PASSAll COMM
+Leadership_NN NNP
+._.
+That_DEMO
+is_VPRT BEMA
+THE_DT
+leader_NN NNHUMAN
+'s_POS
+job_NN NNABSPROC
+._.
+Not_XX0
+PMQs_NN NNother
+,_,
+not_XX0
+appearing_VBG EXIST
+in_IN INother
+a_DT
+high_JJAT JJATother
+viz_ELAB
+jacket_NN NNother
+somewhere_QUPR
+,_,
+but_CC
+that_DEMO
+._.
+That_DEMO
+is_VPRT BEMA
+the_DT
+bread_NN NNother
+and_CC
+butter_NN NNother
+of_IN INother
+leadership_NN NNABSPROC
+._.
+If_COND
+you_SPP2
+can't_MDother
+do_VB ACT
+that_THSC THSCother
+you_SPP2
+have_VPRT
+no_XX0
+business_NN NOMZ
+sitting_VBG ACT
+in_IN INother
+the_DT
+leaders_NN NNHUMAN
+chair_NN NCOMP
+._.
+Plenty_QUAN
+of_IN INother
+people_NN NNHUMAN
+who_WHSC WHSCother
+are_VPRT
+not_XX0
+especially_RB RBother
+clever_JJPR JJPRother
+are_VPRT BEMA
+absolutely_AMP
+brilliant_JJPR JJPRother
+at_IN INother
+it_PIT
+._.
+Plenty_QUAN
+of_IN INother
+very_AMP
+clever_JJAT JJATother
+people_NN NNHUMAN
+cannot_MDother
+do_VB DOAUX
+it_PIT
+to_IN INother
+save_VB ACT
+their_TPP3P
+lives_NN NNABSPROC
+._.
+Keir_NN NNP
+Starmer_NN NNP
+is_VPRT BEMA
+shit_NN EMPH
+at_IN INother
+it_PIT
+._.
+He_TPP3S
+needs_MDNE
+to_IN INother
+do_VB ACT
+a_DT
+spoof_NN NNother
+video_NN NCOMP
+of_IN INother
+"_``
+Love_NN NNP
+Actually_DMA
+"_''
+but_CC
+wearing_VBG ACT
+a_DT
+Union_NN NNP
+Jack_NN NNP
+thong_NN NCOMP
+while_CC
+explaining_VBG COMM
+how_WHSC WhVSTNCAll WhVCOM
+he'd_PRPother CONT
+lose_VPRT ACT
+the_DT
+country_NN NNPLACE
+another_DT
+£_$
+1.5_CD
+trillion_CD
+in_IN INother
+capital_NN NNABSPROC
+flight_NN NNGRP
+,_,
+collapse_NN NNother
+exports_NN NCOMP
+even_RB RBother
+further_CC
+and_CC
+bankrupt_JJPR JJPRother
+even_RB RBother
+more_AMP
+British_JJAT JJATother
+small_JJPR JJDESCAll JJSIZE
+traders_NN NNother
+._.
+Sign_VB COMM
+off_RP
+with_IN INother
+__NFP
+"_``
+fuck_VIMP EMPH
+business_NN NOMZ
+!_.
+"_''
+__NFP
+and_CC
+he_TPP3S
+'ll_MDWS MDPREDAll CONT
+walk_VB ACT
+it_PIT
+in_RP
+._.
+Do_VB SPLIT DOAUX
+n’t_RB RBother
+forget_VB MENTAL
+the_DT
+slip_NN NNother
+wire_NN NCOMP
+._.
+Admittedly_RB RBother
+it_PIT
+'s_VPRT CONT BEMA
+difficult_JJPR JJPRother
+but_CC
+Starmer_NN NNP
+should_MDNE
+take_VB ACT
+every_QUAN
+opportunity_NN NSTNCother
+to_.
+humiliate_FPUH
+Johnson_NN NNP
+._.
+PMQs_NN NNP
+provides_VPRT ACT
+the_DT
+best_JJAT EMPH
+theatre_NN NNother
+._.
+Whenever_WHSC WHSCother
+Johnson_NN NNP
+evades_VPRT
+giving_VBG ACT
+a_DT
+direct_JJAT JJREL
+answer_NN NNABSPROC
+Starmer_NN NNP
+could_MDCO MDPOSSCAll
+throw_VB ACT
+up_RP
+his_TPP3S
+hands_NN NNCONC
+,_,
+tell_VIMP COMM
+the_DT
+Speaker_NN NNHUMAN
+that_THRC THRCother
+he_TPP3S
+will_MDWS MDPREDAll
+play_VB ACT
+no_XX0
+further_JJAT JJATother
+part_NN NNQUANT
+in_IN INother
+this_DEMO
+charade_NN NNother
+and_CC
+sit_VB ACT
+down_RP
+._.
+Only_RB RBother
+anoraks_NN NNother
+take_VPRT ACT
+notice_NN NNCONC
+of_IN INother
+PMQs_NN NNother
+._.
+At_IN INother
+our_FPP1P FPPAll
+most_RB EMPH
+dangerous_JJAT JJATother
+time_NN NNQUANT
+when_WHSC WHSCother
+we_FPP1P FPPAll
+the_DT
+public_NN NNother
+are_VPRT
+faced_PASS PASSAll MENTAL
+with_IN INother
+facisim_JJAT JJATother
+plague_NN NNother
+Brexit_NN NNP
+what_WHSC WHSCother
+do_VPRT DOAUX
+we_FPP1P FPPAll
+get_VB
+to_IN INother
+protect_VB
+us_FPP1P FPPAll
+._.
+Sir_NN NNP
+Keif_NN NNP
+._.
+Bloody_JJAT EMPH
+marvellous_JJPR JJPRother
+._.
+Labour_NN NNother
+old_JJPR JJTIME
+new_JJPR JJTIME
+or_CC
+reborn_JJPR JJPRother
+._.
+We_FPP1P FPPAll
+shall_MDWS MDPREDAll
+not_XX0
+forget_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVATT
+you_SPP2
+left_VBD ACT
+us_FPP1P FPPAll
+out_RP
+to_IN INother
+dry_VB
+with_IN INother
+this_DEMO
+poorest_JJAT JJATother
+escuse_NN NNother
+of_IN INother
+a_DT
+leader_NN NNHUMAN
+..._.
+If_COND
+it_PIT
+was_VBD BEMA
+n't_XX0 CONT
+for_IN INother
+covid_NN NNother
+and_CC
+hence_RB CUZ
+no_XX0
+party_NN NNother
+conferences_NN NCOMP
+and_CC
+other_JJAT JJATother
+limitations_NN NOMZ
+on_RB RBother
+usual_JJAT JJATother
+political_JJAT JJTOPIC
+activities_NN NNABSPROC
+-_,
+if_COND
+it_PIT
+was_VBD BEMA
+n't_XX0 CONT
+for_IN INother
+that_DEMO
+I_FPP1S FPPAll
+very_AMP
+much_QUAN
+doubt_VPRT MENTAL
+starmer_NN NNP
+would_MDWO MDPREDAll SPLIT
+still_RB RBother
+be_VB
+party_NN NNother
+leader_NN NCOMP
+now_TIME
+._.
+He_TPP3S
+has_VPRT
+a_DT
+massive_JJAT JJATother
+day_NN NNQUANT
+of_IN INother
+reckoning_NN NNother
+to_IN INother
+face_VB MENTAL
+from_IN INother
+his_TPP3S
+own_JJAT JJATother
+membership_NN NNother
+and_CC
+lockdown_NN NNother
+has_VPRT
+enabled_PEAS CAUSE
+him_TPP3S
+to_IN INother
+hide_VB
+from_IN INother
+it_PIT
+,_,
+but_CC
+not_XX0
+forever_RB RBother
+._.
+Starmer_NN NNP
+'s_POS
+job_NN NNABSPROC
+was_VBD
+to_IN INother
+keep_VB ASPECT
+the_DT
+left_NN NNPLACE
+out_IN INother
+of_IN INother
+power_NN NNABSPROC
+and_CC
+Guardian_NN NNP
+columnists_NN NCOMP
+cheered_VBD
+him_TPP3S
+on_RP
+._.
+He_TPP3S
+has_VPRT
+succeeded_VBD
+in_IN INother
+doing_VBG ACT
+his_TPP3S
+job_NN NNABSPROC
+and_CC
+Guardian_NN NNother
+columnists_NN NCOMP
+should_MDNE
+be_VB BEMA
+happy_JJPR JJATDother
+with_IN INother
+Sir_NN NNP
+Keith_NN NNP
+._.
+The_DT
+left_NN NNPLACE
+should_MDNE
+forget_VB MENTAL
+electoral_JJAT JJATother
+politics_NN NNother
+and_CC
+helping_VBG CAUSE
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+get_VB
+'_``
+the_DT
+vote_NN NNother
+out_RP
+'_''
+in_RB RBother
+general_JJAT JJREL
+elections_NN NOMZ
+and_CC
+local_JJAT JJATother
+elections_NN NOMZ
+and_CC
+should_MDNE SPLIT
+instead_CC
+focus_VB
+all_QUAN
+its_PIT
+efforts_NN NNother
+on_IN INother
+the_DT
+unions_NN NNother
+and_CC
+work_VB ACT
+towards_IN INother
+electing_VBG
+socialists_NN NNother
+into_IN INother
+leadership_NN NNABSPROC
+positions_NN NCOMP
+including_VBG EXIST
+general_JJAT JJREL
+secretaries_NN NNHUMAN
+._.
+Only_RB RBother
+then_RB RBother
+can_MDCA MDPOSSCAll
+the_DT
+left_VBN ACT
+hope_NN NNother
+to_IN PrepNSTNC
+be_VB BEMA
+a_DT
+position_NN NNABSPROC
+to_.
+help_VB CAUSE
+the_DT
+working_NN NNother
+class_NN NCOMP
+back_RB RBother
+onto_IN INother
+the_DT
+political_JJAT JJTOPIC
+stage_NN NNABSPROC
+._.
+Without_IN INother
+a_DT
+politically_RB RBother
+active_JJAT JJATother
+working_NN NNother
+class_NN NCOMP
+there_EX
+is_VPRT
+no_XX0
+way_NN NNABSPROC
+of_IN INother
+pulling_VBG ACT
+the_DT
+'_``
+Labour_NN NNP
+'_''
+party_NN NNother
+to_IN INother
+the_DT
+left_NN NNPLACE
+let_VB CAUSE
+only_RB RBother
+the_DT
+PLP_NN NNother
+which_WHSC WHSCother
+is_VPRT
+dominated_PASS PASSAll
+by_IN INother
+right_JJAT JJEPSTother
+wing_NN NNother
+representatives_NN NCOMP
+._.
+Without_IN INother
+the_DT
+unions_NN NNother
+moving_VBG ACT
+to_IN INother
+the_DT
+left_NN NNPLACE
+the_DT
+choice_NN NNABSPROC
+in_IN INother
+2024_CD
+will_MDWS MDPREDAll
+be_VB BEMA
+between_IN INother
+a_DT
+very_AMP
+right_JJAT JJEPSTother
+wing_NN NNother
+Tory_NN NNP
+party_NN NNP
+and_CC
+a_DT
+right_JJAT JJEPSTother
+wing_NN NNother
+flag_NN NCOMP
+waving_VBG
+Labour_NN NNP
+leadership_NN NCOMP
+._.
+And_CC
+the_DT
+that_DEMO
+is_VPRT
+case_NN NNCONC
+there_EX
+really_RB EMPH
+will_MDWS MDPREDAll
+be_VB BEMA
+point_NN NNother
+in_IN INother
+working_VBG ACT
+class_NN NNPLACE
+voters_NN NCOMP
+voting_VBG
+at_RB RBother
+all_QUAN
+._.
+At_IN INother
+best_JJPR EMPH
+a_DT
+Labour_NN NNP
+government_NN NCOMP
+would_MDWO MDPREDAll
+be_VB BEMA
+pause_NN NNother
+between_IN INother
+successive_JJAT JJATother
+Tory_NN NNP
+governments_NN NNGRP
+just_RB EMPH
+Blair_NN NNP
+proved_VBD MENTAL
+to_IN INother
+be_VB
+._.
+Useless_JJPR JJPRother
+with_IN INother
+the_DT
+charisma_NN NNother
+of_IN INother
+a_DT
+fencing_NN NNother
+post_NN NCOMP
+._.
+Why_WHSC WHSCother
+Labour_NN NNP
+elected_VBN
+Starmer_NN NNP
+was_VBD
+to_.
+get_VB
+back_RB RBother
+into_IN INother
+being_VBG BEMA
+nicer_JJAT JJATother
+version_NN NNABSPROC
+of_IN INother
+the_DT
+Tories_NN NNP
+._.
+All_QUAN
+those_DEMO
+who_WHSC WHSCother
+had_VBD
+wanted_PEAS MENTAL
+rid_NN NNother
+of_IN INother
+Corbyn_NN NNP
+got_VBD
+their_TPP3P
+man_NN NNHUMAN
+and_CC
+much_QUAN
+good_JJPR JJEVAL
+it_PIT
+has_VPRT
+done_PEAS ACT
+them_TPP3P
+._.
+At_IN INother
+least_EMPH
+Corbyn_NN NNP
+had_VBD
+a_DT
+vision_NN NNother
+of_IN INother
+a_DT
+fairer_JJAT JJATother
+society_NN NNother
+and_CC
+a_DT
+manifesto_NN NNother
+that_THRC THRCother
+offered_VBD COMM
+real_JJAT JJATother
+change_NN NNABSPROC
+._.
+No_XX0
+one_QUPR
+has_VPRT
+the_DT
+faintest_JJAT JJATother
+idea_NN NSTNCother
+what_WHSC WHSCother
+Starmer_NN NNP
+stands_VPRT EXIST
+for_IN INother
+if_COND
+anything_QUPR
+._.
+Tories_NN NNother
+will_MDWS MDPREDAll
+walk_VB ACT
+the_DT
+next_JJAT JJATother
+election_NN NOMZ
+unless_COND
+Labour_NN NNP
+wakes_VPRT
+up_RP
+._.
+>_NFP
+At_IN INother
+least_EMPH
+Corbyn_NN NNP
+had_VBD
+a_DT
+vision_NN NNother
+of_IN INother
+a_DT
+fairer_JJAT JJATother
+society_NN NNother
+and_CC
+a_DT
+manifesto_NN NNother
+that_THRC THRCother
+>_NFP
+offered_VBD COMM
+real_JJAT JJATother
+change_NN NNABSPROC
+._.
+And_CC
+the_DT
+lowest_JJAT JJATother
+approval_NN NNother
+ratings_NN NCOMP
+since_IN INother
+approval_NN NNother
+ratings_NN NCOMP
+began_VBD ASPECT
+._.
+No_XX0
+Labour_NN NNP
+leader_NN NCOMP
+would_MDWO MDPREDAll
+have_VB
+survived_PEAS
+Brexit_NN NNP
+._.
+He_TPP3S
+brought_VBD ACT
+hundreds_NN NNother
+of_IN INother
+thousands_NN NNother
+into_IN INother
+the_DT
+Party_NN NNother
+and_CC
+real_JJAT JJATother
+enthusiasm_NN NNother
+._.
+>_NFP
+At_IN INother
+least_EMPH
+Corbyn_NN NNP
+had_VBD
+a_DT
+vision_NN NNother
+of_IN INother
+a_DT
+fairer_JJAT JJATother
+society_NN NNother
+and_CC
+a_DT
+manifesto_NN NNother
+that_THRC THRCother
+>_NFP
+offered_VBD COMM
+real_JJAT JJATother
+change_NN NNABSPROC
+._.
+And_CC
+on_IN INother
+the_DT
+back_NN NNother
+of_IN INother
+it_PIT
+the_DT
+public_NN NNother
+rammed_VBD
+the_DT
+door_NN NNCONC
+shut_VBD
+in_IN INother
+his_TPP3S
+face_NN NNCONC
+._.
+Make_VIMP ACT
+of_IN INother
+that_THSC THSCother
+what_WHSC WHSCother
+you_SPP2
+will_MDWS MDPREDAll
+,_,
+but_CC
+I_FPP1S FPPAll
+'d_MDWO MDPREDAll CONT
+suggest_VB COMM THATD
+it_PIT
+means_VPRT COMM
+a_DT
+leader_NN NNHUMAN
+such_JJPR JJPRother
+as_IN ELAB
+Corbyn_NN NNP
+has_VPRT
+no_XX0
+chance_NN NNother
+of_IN INother
+being_VBG
+elected_PASS PASSAll
+,_,
+at_IN INother
+least_EMPH
+in_IN INother
+England_NN NNP
+or_CC
+pre-independence_JJPR JJPRother
+Scotland_NN NNP
+._.
+And_CC
+why_WHQU
+was_VBD BEMA
+that_DEMO
+?_.
+Do_VPRT DOAUX
+n't_XX0 CONT
+you_SPP2
+know_VB MENTAL
+?_. YNQU
+Great_JJPR JJEVAL
+at_IN INother
+enthusing_VBG
+supporters_NN NNother
+._.
+Also_CC
+great_JJPR JJEVAL
+at_IN INother
+repelling_VBG
+non_RB RBother
+aligned_VBN
+voters_NN NNother
+,_,
+on_RB RBother
+whose_WHSC WHSCother
+support_NN NNABSPROC
+you_SPP2
+need_MDNE
+to_IN INother
+win_VB ACT
+elections_NN NOMZ
+._.
+90_CD
+%_NN NNother
+off_RB RBother
+500,000_CD
+<_-LRB-
+40_CD
+%_NN NNother
+of_IN INother
+35_CD
+m_CD
+._.
+He_TPP3S
+simply_RB RBother
+has_VPRT
+no_XX0
+vision_NN NNother
+._.
+All_QUAN
+this_DEMO
+Starmer_NN NNP
+-_HYPH
+bashing_VBG
+in_IN INother
+the_DT
+comments_NN NSTNCother
+is_VPRT BEMA
+unfair_JJPR JJPRother
+._.
+He_TPP3S
+has_VPRT
+a_DT
+very_AMP
+clear_JJAT JJEPSTother
+4_CD
+point_NN NNother
+plan_NN NSTNCother NCOMP
+:_:
+1\._NN NNP
+Slander_NN NNP
+Corbyn_NN NNP
+2\_SYM
+._.
+Become_VIMP OCCUR
+party_NN NNother
+leader_NN NCOMP
+3\_FPUH
+._.
+??????_.
+4\._NN NNP
+Profit_NN NCOMP
+!_.
+For_IN INother
+the_DT
+Tories_NN NNP
+,_,
+the_DT
+Labour_NN NNP
+Party_NN NNP
+has_VPRT
+become_PEAS OCCUR
+the_DT
+gift_NN NNCONC
+that_THRC THRCother
+just_RB EMPH
+keeps_VPRT ASPECT
+on_RB RBother
+giving_VBG ACT
+._.
+And_CC
+judging_VBG MENTAL
+by_IN INother
+the_DT
+majority_NN NOMZ
+of_IN INother
+the_DT
+comments_NN NSTNCother
+here_PLACE
+,_,
+between_IN INother
+the_DT
+disappointment_NN NOMZ
+,_,
+resignation_NN NOMZ
+and_CC
+indifference_NN NNother
+of_IN INother
+Labour_NN NNother
+supporters_NN NCOMP
+,_,
+the_DT
+situation_NN NNABSPROC
+is_VPRT
+not_XX0
+going_GTO MDPREDAll
+to_IN INother
+be_VB
+changing_PROG OCCUR
+any_QUAN
+time_NN NNQUANT
+in_IN INother
+the_DT
+foreseeable_JJAT JJATother
+future_NN NNQUANT
+._.
+Regardless_CONC
+of_IN INother
+how_WHSC WHSCother
+you_SPP2
+might_MDMM MDPOSSCAll
+feel_VB MENTAL
+about_IN INother
+Starmer_NN NNP
+,_,
+surely_RB RBother
+there_EX
+'s_VPRT CONT
+a_DT
+fight_NN NNother
+worth_JJPR JJPRother
+fighting_VBG
+?_.
+Or_CC
+is_VPRT
+Johnson_NN NNP
+just_RB EMPH
+going_VBG
+to_IN INother
+jolly_VB
+and_CC
+con_VB
+his_TPP3S
+way_NN NNABSPROC
+to_IN INother
+re-election_VB
+?_. YNQU
+Half_QUAN
+his_TPP3S
+own_JJAT JJATother
+party_NN NNother
+are_VPRT SPLIT
+quietly_RB RBother
+thinking_PROG MENTAL
+of_IN INother
+not_XX0
+voting_NN NNother
+Labour_NN NNP
+._.
+There_EX
+has_VPRT
+been_PEAS
+some_QUAN
+pretty_RB RBother
+brutal_JJAT JJATother
+and_CC
+unacceptable_JJAT JJATother
+stuff_NN NNother
+going_VBG
+on_RP
+in_IN INother
+the_DT
+labour_NN NNother
+party_NN NCOMP
+and_CC
+it_PIT
+is_VPRT
+only_RB RBother
+to_IN INother
+be_VB
+expected_PASS PASSAll MENTAL
+that_THSC THSCother
+there_EX
+will_MDWS MDPREDAll
+be_VB
+a_DT
+reaction_NN NNABSPROC
+._.
+The_DT
+people_NN NNHUMAN
+of_IN INother
+England_NN NNP
+deserve_VPRT EXIST
+the_DT
+Tories_NN NNP
+frankly_RB RSTNCAll RNONFACT
+._.
+Even_RB RBother
+Blair_NN NNP
+did_VBD DOAUX
+n't_XX0 CONT
+kick_VB
+the_DT
+left_NN NNPLACE
+in_IN INother
+his_TPP3S
+first_JJAT JJATother
+term_NN NNQUANT
+._.
+I_FPP1S FPPAll
+have_VPRT
+supported_PEAS
+and_CC
+voted_VBN
+Labour_NN NNother
+since_IN INother
+the_DT
+60s_NN NNother
+._.
+I_FPP1S FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+think_VB MENTAL
+._.
+i_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+hold_VB ACT
+my_FPP1S FPPAll
+nose_NN NNother
+at_IN INother
+the_DT
+next_JJAT JJATother
+GE_NN NNother
+._.
+For_IN INother
+me_FPP1S FPPAll
+it_PIT
+is_VPRT BEMA
+the_DT
+balance_NN NNABSPROC
+between_IN INother
+how_WHSC WHSCother
+much_QUAN
+I_FPP1S FPPAll
+want_VPRT MENTAL
+the_DT
+candidate_NN NNHUMAN
+and_CC
+how_WHSC WHSCother
+little_JJPR JJDESCAll JJSIZE
+I_FPP1S FPPAll
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+do_VB ACT
+anything_QUPR
+that_THRC THRCother
+increases_VPRT OCCUR
+the_DT
+chance_NN NNother
+of_IN INother
+still_RB RBother
+being_VBG
+stuck_PASS PASSAll
+with_IN INother
+Starmer_NN NNP
+._.
+Its_PIT
+a_DT
+shame_NN NNother
+that_THSC THSCother
+conference_NN NNother
+and_CC
+normal_JJAT JJATother
+things_NN NNother
+are_VPRT SPLIT
+n't_XX0 CONT
+still_RB RBother
+taking_PROG ACT
+place_NN NNPLACE
+,_,
+so_SO
+that_THSC THSCother
+there_EX
+could_MDCO MDPOSSCAll SPLIT
+just_RB EMPH
+be_VB BEMA
+a_DT
+leadership_NN NNABSPROC
+challenge_NN NCOMP
+and_CC
+he_TPP3S
+could_MDCO MDPOSSCAll
+go_VB
+,_,
+without_IN INother
+people_NN NNHUMAN
+taking_VBG ACT
+it_PIT
+out_RP
+on_IN INother
+all_QUAN
+the_DT
+other_JJAT JJATother
+Labour_NN NNP
+candidates_NN NCOMP
+._.
+That_DEMO
+means_VPRT COMM THATD
+you_SPP2
+are_VPRT BEMA
+almost_DWNT
+80_CD
+years_NN NNother
+old_JJPR JJTIME
+?_.
+I_FPP1S FPPAll
+am_VPRT BEMA
+only_RB RBother
+61_CD
+,_,
+..._,
+and_CC
+a_DT
+analog_NN NNother
+SPD_NN NCOMP
+voter_NN NNother
+in_IN INother
+Germany_NN NNP
+,_,
+..._,
+but_CC
+the_DT
+SPD_NN NNP
+is_VPRT
+wrecked_PASS PASSAll
+,_,
+..._,
+and_CC
+Labour_NN NNP
+is_VPRT
+wrecked_PASS PASSAll
+also_CC
+!_.
+Blair_NN NNP
+and_CC
+Schröder_NN NNP
+did_VBD ACT
+big_JJAT JJDESCAll JJSIZE
+mistakes_NN NNother
+._.
+New_NN NNP
+Labour_NN NNP
+nonsense_NN NCOMP
+!_.
+Your_SPP2
+Labour_NN NNP
+party_NN NCOMP
+got_VBD
+the_DT
+idea_NN NSTNCother
+they_TPP3P
+could_MDCO MDPOSSCAll
+gain_VB
+the_DT
+monopoly_NN NNother
+of_IN INother
+social_JJAT JJTOPIC
+care_NN NNABSPROC
+?_.
+The_DT
+people_NN NNHUMAN
+do_VPRT SPLIT DOAUX
+n't_XX0 CONT
+even_RB RBother
+want_VB MENTAL
+it_PIT
+!_.
+Because_CUZ
+of_IN INother
+FPTP_NN NNP
+,_,
+..._,
+there_EX
+are_VPRT
+too_RB RBother
+many_QUAN
+votes_NN NNother
+in_IN INother
+the_DT
+dust_NN NNCONC
+bin_NN NCOMP
+,_,
+..._,
+and_CC
+the_DT
+idea_NN NNCOG
+of_IN PrepNSTNC
+a_DT
+2_CD
+party_NN NNother
+system_NN NCOMP
+is_VPRT
+wrecked_PASS PASSAll
+now_TIME
+._.
+In_IN INother
+Germany_NN NNP
+we_FPP1P FPPAll
+have_VPRT
+a_DT
+chance_NN NNother
+to_IN INother
+soften_VB
+the_DT
+Neo_NN NNP
+Liberal_JJAT JJATother
+ideas_NN NNCOG
+in_IN PrepNSTNC
+coalition_NN NOMZ
+governments_NN NNGRP
+,_,
+..._,
+not_XX0
+ideal_JJPR JJPRother
+,_,
+but_CC
+better_JJPR JJPRother
+than_IN INother
+your_SPP2
+mess_NN NNother
+._.

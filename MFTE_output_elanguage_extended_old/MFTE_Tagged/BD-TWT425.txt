@@ -1,0 +1,2437 @@
+@sxxxxxxxxxi_NN NNMention
+a_DT
+big_JJAT JJDESCAll JJSIZE
+NO_DMA
+!_.
+@sxxxxxxxxx1_NN NNMention
+expected_VBN MENTAL
+at_IN INother
+least_EMPH
+2_CD
+-_HYPH
+2_CD
+in_IN INother
+first_JJPR JJPRother
+half_QUAN
+._.
+._.
+haha_FPUH
+so_SO
+._.
+._.
+https://t.co/NRO3HY5KaL_URL
+@wxxxxxxxz_NN NNMention
+such_EMPH
+an_DT
+underrated_JJAT JJATother
+player_NN NNHUMAN
+@wxxxxxxxxxxxxx8_NN NCOMP NNMention
+very_AMP
+underrated_JJAT JJATother
+player_NN NNHUMAN
+..._,
+he_TPP3S
+'s_VPRT CONT
+playing_PROG ACT
+like_LIKE
+a_DT
+class_NN NNPLACE
+player_NN NCOMP
+#ChelseaBarca_HST
+Thanks_NN POLITE
+for_IN INother
+following_VBG ACT
+._.
+._.
+hope_VPRT MENTAL THATD
+you_SPP2
+will_MDWS MDPREDAll
+enjoy_VB MENTAL
+your_SPP2
+time_NN NNQUANT
+here_PLACE
+in_IN INother
+#Twitter_HST
+@sxxxxxxxxxi_NN NNMention
+This_DEMO
+is_VPRT
+what_WHQU
+happened_VBD OCCUR
+with_IN INother
+me_FPP1S FPPAll
+😎_EMO
+https://t.co/9Fp2aIL1Gp_URL
+@bxxxxr_NN NNMention
+@Bxxxxxxxs_NN NNMention
+Why_WHQU
+in_IN INother
+India_NN NNP
+?_.
+Practice_VB
+against_IN INother
+Bangladesh_NN NNP
+for_IN INother
+india_NN NNP
+series_NN NCOMP
+?_.
+Should_MDNE
+we_FPP1P FPPAll
+go_VB
+?_. YNQU
+@bxxxxr_NN NNMention
+@Bxxxxxxxs_NN NNMention
+joke_NN NNother
+@wxxxxxxxz_NN NCOMP NNMention
+he_TPP3S
+is_VPRT BEMA
+the_DT
+one_CD
+who_WHSC WHSCother
+catch_VPRT ACT
+my_FPP1S FPPAll
+eyes_NN NNCONC
+today_TIME
+#razzak_HST
+having_VBG
+a_DT
+good_JJAT JJEVAL
+day_NN NNQUANT
+at_IN INother
+mirpur_NN NNother
+after_IN INother
+making_VBG ACT
+comeback_NN NNother
+in_IN INother
+national_JJAT JJATother
+team_NN NNother
+#BanvsSL_HST
+@Mxxxxxxxxxxx0_NN NNMention
+@Bxxxxxxxs_NN NNMention
+dear_JJAT JJATother
+@Mxxxxxxxxxxx0_NN NNMention
+you_SPP2
+are_VPRT BEMA
+a_DT
+true_JJAT JJEPSTother
+gentleman_NN NNother
+of_IN INother
+a_DT
+cricket_NN NNother
+field_NN NCOMP
+!_.
+Keep_VB ASPECT
+make_VB ACT
+us_FPP1P FPPAll
+proud_JJPR JJPRother
+._.
+💜_EMO
+💜_EMO
+@Axxxxxxxxxxxm_NN NNMention
+have_VPRT
+a_DT
+very_AMP
+good_JJAT JJEVAL
+day_NN NNQUANT
+@axxxxxxxu_NN NCOMP NNMention
+right_JJAT JJEPSTother
+@Rxxxxi_NN NNMention
+try_VB ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+stay_VB EXIST
+away_PLACE
+from_IN INother
+them_TPP3P
+@sxxxxxxxxxxx0_NN NNMention
+totally_AMP
+miss_VPRT MENTAL
+understanding_NN NNCOG
+at_IN INother
+important_JJAT JJATother
+time_NN NNQUANT
+😭_EMO
+😭_EMO
+@sxxxxxxxxxxx0_NN NNMention
+but_CC
+no_XX0
+run_NN NNother
+from_IN INother
+there_PLACE
+!_.
+@Mxxxxxxxxxxx0_NN NNMention
+is_VPRT BEMA
+on_IN INother
+fire_NN NNTECH
+here_PLACE
+in_IN INother
+mirpur_NN NNother
+!_.
+just_RB EMPH
+before_IN INother
+night_NN NNother
+of_IN INother
+#IPLAuction2018_HST
+@sxxxxxxxxxxx0_NN NNMention
+True_JJPR JJEPSTother
+!_.
+Happy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEFCT
+see_VB MENTAL THATD
+him_TPP3S
+scoring_VBG
+runs_NN NNother
+If_COND
+you_SPP2
+drink_VPRT
+enough_JJAT JJATother
+water_NN NNCONC
+in_IN INother
+the_DT
+morning_NN NNQUANT
+,_,
+you_SPP2
+will_MDWS MDPREDAll
+feel_VB MENTAL
+happier_JJPR JJPRother
+,_,
+sharper_JJPR JJPRother
+,_,
+and_CC
+more_AMP
+energetic_JJPR JJPRother
+throughout_IN INother
+the_DT
+day_NN NNQUANT
+._.
+@wxxxxxxxz_NN NNMention
+haha_FPUH
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+a_DT
+Madrid_NN NNP
+fan_NN NCOMP
+and_CC
+I_FPP1S FPPAll
+have_VPRT
+some_QUAN
+feeling_NN NNCOG
+for_IN PrepNSTNC
+Brazil_NN NNP
+football_NN NCOMP
+scores_NN NNCONC
+are_VPRT
+level_NN NNABSPROC
+now_TIME
+!_.
+@Mxxxxxxx_NN NNMention
+astrologer_NN NNother
+@sxxxxxxxxx1_NN NCOMP NNMention
+unbelievable_JJPR JJPRother
+so_SO
+@Sxxxxxxxs_NN NNMention
+are_VPRT
+planning_PROG MENTAL
+to_IN INother
+play_VB ACT
+against_IN INother
+@Kxxxxxxx_NN NNMention
+!_.
+one_CD
+more_QUAN
+game_NN NNCONC
+for_IN INother
+orange_JJAT JJATother
+lovers_NN NNother
+#SRHvCSK_HST
+#IPL2018_HST
+@Ixxxx4_NN NNMention
+He_TPP3S
+mentioned_VBD COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+he_TPP3S
+'ll_MDWS MDPREDAll CONT
+be_VB BEMA
+here_PLACE
+for_IN INother
+our_FPP1P FPPAll
+world_NN NNother
+cup_NN NCOMP
+preparation_NN NOMZ
+Finally_RB RBother
+!_.
+a_DT
+coaching_NN NNother
+staff_NN NCOMP
+confirmed_VBN MENTAL
+by_IN INother
+@Bxxxxxxxs_NN NNMention
+great_JJAT JJEVAL
+move_NN NNother
+for_IN INother
+our_FPP1P FPPAll
+cricket_NN NNother
+https://t.co/TWZY4EJKJH_URL
+@Zxxxxxxxxxxx_NN NNMention
+ignore_VB MENTAL
+the_DT
+moushomi_NN NNother
+fans_NN NCOMP
+😃_EMO
+@Sxxxxxi_NN NNMention
+It_PIT
+'s_VPRT CONT
+just_RB EMPH
+like_LIKE
+another_DT
+valentines_NN NNother
+day_NN NCOMP
+for_IN INother
+us_FPP1P FPPAll
+@Rxxxxxxxxxxxx9_NN NNMention
+@Wxxxxxxxxxs_NN NNMention
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+feel_VB MENTAL
+for_IN INother
+you_SPP2
+Russel_NN NNP
+._.
+._.
+Your_SPP2
+umpires_NN NNother
+reaction_NN NCOMP
+after_IN INother
+dropping_VBG
+tamim_NN NNother
+was_VBD BEMA
+so_EMPH
+cute_JJAT JJATother
+@bxxxxxxxxxxa_NN NNMention
+Umpires_NN NNother
+should_MDNE SPLIT
+also_CC
+get_VB
+some_QUAN
+fines_NN NNother
+and_CC
+points_NN NNother
+._.
+._.
+What_WHSC WHSCother
+'s_VPRT CONT BEMA
+your_SPP2
+thought_NN NNCOG
+on_IN PrepNSTNC
+that_DEMO
+?_.
+All_QUAN
+4_CD
+umpires_NN NNother
+was_VBD BEMA
+from_IN INother
+SL_NN NNP
+yesterday_TIME
+@sxxxxxxxxxxx0_NN NNMention
+I_FPP1S FPPAll
+know_VPRT MENTAL
+which_WHSC WhVSTNCAll WhVFCT
+group_NN NNother
+are_VPRT BEMA
+you_SPP2
+belong_VB
+with_IN STPR
+._.
+._.
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+check_VB ACT
+this_DEMO
+article_NN NNother
+._.
+hope_VPRT MENTAL THATD
+you_SPP2
+'ll_MDWS MDPREDAll CONT
+get_VB
+your_SPP2
+answers_NN NNABSPROC
+https://t.co/mL4wNHZAkp_URL
+@sxxxxxxxxxxx0_NN NNMention
+Comparing_VBG MENTAL
+your_SPP2
+national_JJAT JJATother
+sports_NN NNother
+team_NN NCOMP
+with_IN INother
+Indian_JJAT JJATother
+onions_NN NNother
+and_CC
+Pakistani_JJAT JJATother
+chicken_NN NNother
+!_.
+😂_EMO
+you_SPP2
+are_VPRT BEMA
+sick_JJAT JJATother
+Sabbir_NN NNP
+._.
+._.
+Qatar_NN NNP
+is_VPRT BEMA
+out_IN INother
+Kobe_NN NNP
+in_IN INother
+his_TPP3S
+speech_NN NNother
+after_IN INother
+winning_VBG ACT
+an_DT
+Oscar_NN NNP
+“_``
+As_IN INother
+basketball_NN NNother
+players_NN NCOMP
+we_FPP1P FPPAll
+’re_VPRT
+supposed_PASS PASSAll MENTAL
+to_IN INother
+shut_VB
+up_RP
+and_CC
+dribble_NN NNother
+,_,
+but_CC
+I_FPP1S FPPAll
+’m_VPRT BEMA
+glad_JJPR JJATDother
+we_FPP1P FPPAll
+did_VBD ACT
+a_DT
+little_JJAT JJDESCAll JJSIZE
+more_QUAN
+than_IN INother
+that_DEMO
+”_''
+._.
+Now_TIME
+that_THSC THSCother
+@kxxxxxxxxt_NN NNMention
+has_VPRT
+an_DT
+Oscar_NN NNP
+!_.
+He_TPP3S
+was_VBD BEMA
+the_DT
+man_NN NNHUMAN
+went_VBD
+jail_NN NNother
+for_IN INother
+raped_VBN
+a_DT
+girl_NN NNHUMAN
+Lautaro_NN NNP
+Martinez_NN NNP
+is_VPRT
+trending_PROG
+in_IN INother
+Asia_NN NNP
+also_CC
+!_.
+#Football_HST
+@bxxxxxxxD_NN NNMention
+good_JJAT JJEVAL
+night_NN NNother
+@CxxxxxxxC_NN NCOMP NNMention
+should_MDNE
+have_VB
+won_PEAS ACT
+this_DEMO
+game_NN NNCONC
+!_.
+unlucky_JJPR JJPRother
+now_TIME
+you_SPP2
+can_MDCA MDPOSSCAll
+believe_VB MENTAL THATD
+messi_NN NNother
+can_MDCA MDPOSSCAll
+score_VB
+against_IN INother
+Chelsea_NN NNP
+😜_EMO
+@wxxxxxxxxxxxxx8_NN NNMention
+missed_VBD MENTAL
+too_RB RBother
+many_QUAN
+easy_JJAT JJATother
+chances_NN NNother
+today_TIME
+&_CC
+they_TPP3P
+have_MDNE
+to_IN INother
+pay_VB ACT
+for_IN INother
+this_DEMO
+@sxxxxxxxxxxx0_NN NNMention
+now_TIME
+he_TPP3S
+is_VPRT BEMA
+safe_JJPR JJPRother
+for_IN INother
+2/3_CD
+series_NN NNABSPROC
+@Ixxxx4_NN NCOMP NNMention
+now_TIME
+hatters_NN NNother
+will_MDWS MDPREDAll
+miss_VB MENTAL
+him_TPP3S
+@IxL_NN NNMention
+@CxxxxxxxxL_NN NNMention
+stealing_VBG
+in_IN INother
+daylight_NN NNother
+any_QUAN
+update_NN NNother
+about_IN INother
+shakib_NN NNP
+'s_POS
+injury_NN NNother
+?_.
+is_VPRT BEMA
+it_PIT
+too_RB RBother
+serious_JJPR JJPRother
+?_. YNQU
+@Ixxxx4_NN NNMention
+Thanks_NN POLITE
+for_IN INother
+make_VB ACT
+it_PIT
+my_FPP1S FPPAll
+day_NN NNQUANT
+@rxxxxxxxxd_NN NCOMP NNMention
+https://t.co/fT5vhudFL0_URL
+Champiooooooooon_NN NNP
+!!!_.
+After_IN INother
+first_RB RBother
+half_QUAN
+@Nxxxxxxxxxr_NN NNMention
+is_VPRT
+trending_PROG
+worldwide_RB RBother
+!_.
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+customize_VB
+your_SPP2
+#WordPress_HST
+#Website_HST
+and_CC
+fix_NN NNother
+errors_NN NCOMP
+https://t.co/SB5gV1nMqp_URL
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+customize_VB
+your_SPP2
+@Wxxxxxxxs_NN NNMention
+website_NN NNother
+Install_VB
+theme_NN NNother
+and_CC
+plugins_NN NNother
+._.
+._.
+Contact_NN NNABSPROC
+with_IN INother
+me_FPP1S FPPAll
+https://t.co/FfNscaajaf_URL
+My_FPP1S FPPAll
+choices_NN NNABSPROC
+._.
+My_FPP1S FPPAll
+problems_NN NNother
+._.
+My_FPP1S FPPAll
+mistakes_NN NNother
+._.
+My_FPP1S FPPAll
+lessons_NN NNother
+._.
+My_FPP1S FPPAll
+life_NN NNABSPROC
+!_.
+@exxxxxxxxm_NN NNMention
+i_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+help_VB CAUSE
+you_SPP2
+._.
+._.
+I_FPP1S FPPAll
+am_VPRT BEMA
+good_JJPR JJEVAL
+at_IN INother
+it_PIT
+._.
+Guys_NN NNHUMAN
+please_FPUH POLITE
+follow_VB ACT
+my_FPP1S FPPAll
+friend_NN NNHUMAN
+Sharif_NN NNP
+._.
+._.
+He_TPP3S
+is_VPRT BEMA
+new_JJPR JJTIME
+here_PLACE
+@Oxxxxxx4_NN NNMention
+Sergio_NN NNP
+Ramos_NN NNP
+has_VPRT SPLIT
+now_TIME
+scored_PEAS
+81_CD
+goals_NN NNABSPROC
+in_IN INother
+his_TPP3S
+career_NN NNABSPROC
+,_,
+as_IN INother
+a_DT
+defender_NN NNother
+!_.
+this_DEMO
+is_VPRT BEMA
+something_QUPR
+extraordinary_JJPR JJPRother
+😳_EMO
+Morata_NN NNP
+should_MDNE SPLIT
+really_RB EMPH
+be_VB
+benching_PROG
+Benzema_NN NNP
+._.
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+say_VB COMM
+this_DEMO
+enough_JJAT JJATother
+!_.
+Trying_VBG ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+sleep_VB
+@sxxxxxxxxxxx0_NN NNMention
+I_FPP1S FPPAll
+still_RB RBother
+have_VPRT
+believe_VPRT MENTAL
+._.
+._.
+Miracle_NN NNother
+can_MDCA MDPOSSCAll
+happen_VB OCCUR
+in_IN INother
+cricket_NN NNother
+Morning_NN NNP
+Twitter_NN NNP
+#Dhaka_HST
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+customize_VB
+your_SPP2
+WordPress_NN NNP
+website_NN NCOMP
+https://t.co/YSJgazA0JI_URL
+#WordPress_HST
+#WordPress_HST
+#WP_HST
+#WP_HST
+#Plugins_HST
+Is_VPRT
+Enjoying_PROG MENTAL
+Potato_NN NNother
+Chips_NN NCOMP
+Dear_JJAT JJATother
+music_NN NNABSPROC
+,_,
+Thanks_NN POLITE
+for_IN INother
+being_VBG BEMA
+with_IN INother
+me_FPP1S FPPAll
+when_WHSC WHSCother
+no_XX0
+one_QUPR
+else_RB RBother
+was_VBD
+._.
+I_FPP1S FPPAll
+will_MDWS MDPREDAll SPLIT
+never_FREQ
+be_VB
+able_ABLE
+to_IN INother
+thank_VB COMM POLITE
+you_SPP2
+enough_JJPR JJPRother
+for_IN INother
+always_FREQ
+..._,
+https://t.co/pW3szgw51o_URL
+Gon_NN NNP
+na_IN INother
+watch_VB ACT
+first_JJPR JJPRother
+ever_FREQ
+shakib_JJAT JJATother
+khans_NN NNother
+movie_NN NCOMP
+at_IN INother
+hall_NN NNPLACE
+@exxxxxxxxm_NN NCOMP NNMention
+just_RB EMPH
+listened_VBD MENTAL
+your_SPP2
+new_JJAT JJTIME
+track_NN NNABSPROC
+"_''
+"_``
+Nice_NN NNP
+rhythmic_JJAT JJATother
+music_NN NNABSPROC
+._.
+._.
+its_PIT
+your_SPP2
+first_JJAT JJATother
+rnb_NN NNother
+?_.
+@Ixxxxxxi_NN NNMention
+specially_RB RBother
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+remember_VB MENTAL
+ever_FREQ
+feeling_VBG MENTAL
+worse_JJPR JJPRother
+on_IN INother
+my_FPP1S FPPAll
+birthday_NN NNother
+._.
+Few_QUAN
+days_NN NNQUANT
+back_RB RBother
+my_FPP1S FPPAll
+passed_VBN ACT
+away_PLACE
+from_IN INother
+us_FPP1P FPPAll
+._.
+So_SO
+it_PIT
+'s_VPRT CONT BEMA
+difficult_JJPR JJPRother
+..._,
+https://t.co/i9peO8Dus2_URL
+UCL_NN NNother
+king_NN NCOMP
+they_TPP3P
+said_VBD COMM
+._.
+._.
+well_DMA
+said_VBN COMM
+._.
+._.
+best_JJPR EMPH
+in_IN INother
+the_DT
+world_NN NNother
+@rxxxxxxxxxxx9_NN NCOMP NNMention
+you_SPP2
+are_VPRT BEMA
+a_DT
+rockstar_NN NNother
+!_.
+#SRHvKKR_HST
+@Bxxxxxxxxxj_NN NNMention
+morning_NN NNQUANT
+😂_EMO
+Zidane_NN NNP
+should_MDNE SPLIT
+just_RB EMPH
+put_VB ACT
+in_RP
+Bale_NN NNP
+first_JJAT JJATother
+thing_NN NNother
+in_IN INother
+2nd_CD
+half_QUAN
+._.
+Isco_NN NNP
+is_VPRT
+not_XX0
+performing_PROG
+Today_TIME
+!_.
+Can_MDCA MDPOSSCAll
+India_NN NNP
+get_VB
+their_TPP3P
+first_JJAT JJATother
+win_NN NNother
+of_IN INother
+this_DEMO
+series_NN NNABSPROC
+?_. YNQU
+or_CC
+South_NN NNP
+Africa_NN NNP
+will_MDWS MDPREDAll
+make_VB ACT
+it_PIT
+3_CD
+-_SYM
+0_CD
+?_.
+#INDvSA_HST
+Dear_NN NNP
+Internet_NN NNP
+,_,
+Thanks_NN POLITE
+for_IN INother
+being_VBG BEMA
+with_IN INother
+me_FPP1S FPPAll
+throughout_IN INother
+my_FPP1S FPPAll
+good_JJAT JJEVAL
+times_NN NNQUANT
+&_CC
+bad_JJAT JJEVAL
+times_NN NNQUANT
+._.
+Thank_VPRT COMM POLITE
+you_SPP2
+for_IN INother
+all_QUAN
+that_THRC THRCother
+you_SPP2
+have_VPRT
+..._NFP
+https://t.co/K7bvoKAFqd_URL
+https://t.co/a8JPFZhT9E_URL
+@Mxxxxxxp_NN NNMention
+Because_CUZ
+he_TPP3S
+is_VPRT BEMA
+a_DT
+Bangladeshi_JJAT JJATother
+Ludu_NN NNP
+star_NN NCOMP
+is_VPRT BEMA
+a_DT
+virus_NN NNTECH
+Where_WHSC WHSCother
+are_VPRT BEMA
+all_QUAN
+the_DT
+anti_AFX
+madridistas_NN NNother
+?_.
+Where_WHQU
+are_VPRT BEMA
+all_QUAN
+the_DT
+Ronaldo_NN NNP
+haters_NN NCOMP
+?_.
+Stay_VB EXIST
+quiet_JJPR JJPRother
+._.
+No_DMA
+more_AMP
+long_JJAT JJDESCAll JJSIZE
+talk_NN NNABSPROC
+Also_CC
+,_,
+Ronaldo_NN NNP
+just_RB EMPH
+locked_VBD
+up_RP
+his_TPP3S
+5th_CD
+Ballon_NN NNP
+D'or_NN NNP
+._.
+What_WHSC WHSCother
+a_DT
+legend_NN NNother
+._.
+What_WHSC WHSCother
+a_DT
+man_NN NNHUMAN
+!_.
+Best_JJAT EMPH
+player_NN NNHUMAN
+in_IN INother
+the_DT
+world_NN NNother
+._.
+Just_RB EMPH
+woke_VBD
+up_RP
+to_IN INother
+a_DT
+very_AMP
+shocking_JJAT JJATother
+news_NN NSTNCother
+!_.
+😭_EMO
+In_IN INother
+high_JJAT JJATother
+school_NN NNGRP
+I_FPP1S FPPAll
+could_MDCO MDPOSSCAll
+n't_XX0 CONT
+go_VB
+a_DT
+day_NN NNQUANT
+without_IN INother
+listening_VBG MENTAL
+Linkin_NN NNP
+Park_NN NNP
+._.
+I_FPP1S FPPAll
+used_VBD ACT
+..._NFP
+https://t.co/hSFAdeDaJc_URL
+@Rxxxxi_NN NNMention
+amazing_JJAT JJATother
+TWEET_NN NNother
+TO_IN INother
+FOLLOWERS_NN NNother
+https://t.co/CZ5fZ4vQgU_URL
+When_WHSC WHSCother
+you_SPP2
+concentrate_VPRT
+more_AMP
+on_IN INother
+Twitter_NN NNP
+nd_NN NNP
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+make_VB ACT
+difference_NN NNother
+between_IN INother
+goal_NN NNABSPROC
+posts_NN NCOMP
+._.
+Pique_NN NNP
+😂_EMO
+#HalaMadrid_HST
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+convert_VB
+psd_NN NNother
+to_IN INother
+responsive_JJAT JJATother
+html5_NN NNother
+css3_NN NCOMP
+using_VBG ACT
+boo_VB
+..._NFP
+for_IN INother
+$_$
+5_CD
+on_IN INother
+#Fiverr_HST
+#PSD_HST
+#Responsive_HST
+#Website_HST
+https://t.co/VHL3C7EWj4_URL
+#WordPress_HST
+#Themeforest_HST
+#Install_HST
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+install_VB
+,_,
+setup_NN NNother
+theme_NN NCOMP
+and_CC
+customize_VB
+your_SPP2
+wordpress_NN NNother
+for_IN INother
+$_$
+5_CD
+on_IN INother
+#Fiverr_HST
+https://t.co/Q14Of0Khkf_URL
+Three_CD
+more_QUAN
+wickets_NN NNother
+to_IN INother
+go_VB
+!_.
+Come_VB ACT
+on_RP
+Tigers_NN NNP
+@Mxxxxxb_NN NCOMP NNMention
+creating_VBG
+websites_NN NNother
+Juventus_NN NNP
+conceded_VBD VATTother
+2_CD
+goals_NN NNABSPROC
+the_DT
+entire_JJAT JJREL
+tournament_NN NOMZ
+._.
+Real_NN NNP
+Madrid_NN NNP
+slid_VBD
+in_IN INother
+&_CC
+scored_VBD
+4_CD
+goals_NN NNABSPROC
+on_IN INother
+their_TPP3P
+own_JJPR JJPRother
+._.
+What_WHQU
+solid_JJAT JJATother
+defense_NN NNother
+?_.
+Congratulations_NN NOMZ
+@Fxxxxxxxxm_NN NCOMP NNMention
+@Lxxxxxxxxxi_NN NNMention
+so_EMPH
+sad_JJPR JJPRother
+my_FPP1S FPPAll
+goodness_DMA
+!_.
+what_WHSC WHSCother
+a_DT
+goal_NN NNABSPROC
+from_IN INother
+@Gxxxxxxxxxx1_NN NNMention
+brilliant_JJAT JJATother
+@axxxxxxxu_NN NNMention
+Haha_FPUH
+._.
+._.
+good_JJAT JJEVAL
+morning_NN NNQUANT
+☺_EMO
+☺_EMO
+Just_RB EMPH
+Bangladeshi_JJAT JJATother
+things_NN NNother
+#BANvSL_HST
+https://t.co/HH10ZmVi3S_URL
+2016 2017 2018_CD
+three_CD
+in_IN INother
+a_DT
+row_NN NNother
+!_.
+best_JJAT EMPH
+football_NN NNother
+club_NN NCOMP
+in_IN INother
+the_DT
+world_NN NNother
+#HalaMadrid_HST
+#UCLfinal_HST
+#NP_HST
+Wind_NN NNother
+of_IN INother
+change_NN NNABSPROC
+#Scorpions_HST
+#NP_HST
+Wish_VPRT MENTAL
+you_SPP2
+were_VBD
+here_PLACE
+#PinkFloyd_HST
+#NP_HST
+another_DT
+brick_NN NNother
+in_IN INother
+the_DT
+wall_NN NNCONC
+#PinkFloyd_HST
+@Dxxxxxxxxxxxs_NN NNMention
+@Ixxxxxxi_NN NNMention
+@_NN NNMention
+@Lxxxxxxxxxi_NN NNMention
+@rxxxxxxxxxxxxxy_NN NNMention
+@Sxxxxxxxxn_NN NNMention
+I_FPP1S FPPAll
+'m_VPRT CONT
+there_PLACE
+!!_.
+@Bxxxxxxxc_NN NNMention
+Why_WHQU
+he_TPP3S
+'s_VPRT CONT BEMA
+in_IN INother
+test_NN NNABSPROC
+squad_NN NCOMP
+why_WHQU
+not_XX0
+naeem_JJAT JJATother
+islam_NN NNother
+?_.
+It_PIT
+'s_VPRT CONT BEMA
+Official_JJPR JJTOPIC
+and_CC
+Clear_VB
+https://t.co/vFYCMe2L9y_URL
+Why_WHQU
+@Mxxxxxxxxxxx0_NN NNMention
+is_VPRT BEMA
+in_IN INother
+Test_NN NNABSPROC
+squad_NN NCOMP
+?_.
+Any_QUAN
+logic_NN NNother
+?_.
+#BANvWI_HST
+@Rxxxxi_NN NNMention
+Happy_JJAT JJATDother
+birthday_NN NNother
+the_DT
+old_JJAT JJTIME
+lady_NN NNHUMAN
+of_IN INother
+Twitter_NN NNP
+It_PIT
+'s_VPRT CONT BEMA
+time_NN NNQUANT
+to_IN INother
+go_VB
+home_RB RBother
+for_IN INother
+English_NN NNP
+players_NN NCOMP
+😜_EMO
+#CROENG_HST
+#Itscomminghome_HST
+Sometimes_FREQ
+i_FPP1S FPPAll
+tweets_VPRT
+a_DT
+lot_QUAN
+._.
+._.
+it_PIT
+'s_VPRT CONT BEMA
+not_XX0
+my_FPP1S FPPAll
+problem_NN NNother
+it_PIT
+'s_VPRT CONT
+depends_VPRT
+on_IN INother
+my_FPP1S FPPAll
+mode_NN NNother
+._.
+This_DEMO
+Croatian_JJAT JJATother
+team_NN NNother
+looks_VPRT
+so_EMPH
+tired_JJPR JJPRother
+in_IN INother
+the_DT
+field_NN NNPLACE
+#CROENG_HST
+Papon_NN NNP
+:_:
+cutter_NN NNother
+cutter_NN NCOMP
+after_IN INother
+watching_VBG ACT
+#FRAvsBEL_HST
+:_:
+attack_NN NNother
+attack_NN NCOMP
+@Dxxxxxxxxxr_NN NNMention
+@rxxxxxxxxd_NN NNMention
+also_CC
+done_VBN ACT
+a_DT
+great_JJAT JJEVAL
+business_NN NOMZ
+84m_NN NCOMP
+to_IN INother
+105m_NN NNother
+after_IN INother
+9_CD
+years_NN NNother
+at_IN INother
+the_DT
+age_NN NNQUANT
+of_IN INother
+33_CD
+Good_JJPR JJEVAL
+Bye_FPUH
+letter_NN NNTECH
+:(_NFP
+https://t.co/pWCtmUTsO7_URL
+Ronaldo_NN NNP
+open_JJAT JJATother
+letter_NN NNTECH
+to_IN INother
+Madrid_NN NNP
+fans_NN NCOMP
+on_IN INother
+website_NN NNother
+:_EMO
+"_``
+I_FPP1S FPPAll
+just_RB EMPH
+have_VPRT
+enormous_JJAT JJATother
+thanks_NN POLITE
+for_IN INother
+this_DEMO
+club_NN NNCONC
+these_DEMO
+fans_NN NNother
+,_,
+and_CC
+this_DEMO
+city_NN NNPLACE
+._.
+But_CC
+I_FPP1S FPPAll
+believe_VPRT MENTAL THATD
+the_DT
+time_NN NNQUANT
+has_VPRT
+come_PEAS ACT
+to_IN INother
+open_VB ACT
+a_DT
+new_JJAT JJTIME
+stage_NN NNABSPROC
+in_IN INother
+my_FPP1S FPPAll
+life_NN NNABSPROC
+,_,
+so_SO
+I_FPP1S FPPAll
+have_VPRT
+asked_PEAS COMM
+the_DT
+club_NN NNCONC
+to_IN INother
+accept_VB MENTAL
+to_IN INother
+let_VIMP CAUSE
+me_FPP1S FPPAll
+go_VB
+"_``
+Deal_NN NNABSPROC
+Done_VBN ACT
+!_.
+@Cxxxxxxxo_NN NNMention
+goes_VPRT
+to_IN INother
+@jxxxxxxxxxxn_NN NNMention
+Thanks_NN POLITE
+for_IN INother
+everything_QUPR
+camp_NN NNother
+you_SPP2
+did_VBD ACT
+for_IN INother
+@rxxxxxxxxxx_NN NNMention
+._.
+best_JJAT EMPH
+wishes_NN NNother
+for_IN PrepNSTNC
+your_SPP2
+new_JJAT JJTIME
+place_NN NNPLACE
+._.
+@Bxxxxxxxs_NN NNMention
+@Txxxxxxxxxxxxx8_NN NNMention
+Do_VPRT DOAUX
+n't_XX0 CONT
+worry_VB MENTAL
+!_.
+Keep_VB ASPECT
+believe_VB MENTAL
+and_CC
+work_VB ACT
+hard_RB RBother
+._.
+._.
+good_JJAT JJEVAL
+times_NN NNQUANT
+will_MDWS MDPREDAll
+come_VB ACT
+85_CD
+%_NN NNother
+of_IN INother
+people_NN NNHUMAN
+have_VPRT
+experienced_PEAS MENTAL
+a_DT
+dream_NN NNother
+so_EMPH
+real_JJPR JJPRother
+that_THSC THSCother
+they_TPP3P
+were_VBD BEMA
+not_XX0
+sure_JJPR JJEPSTother
+if_COND
+it_PIT
+happened_VBD OCCUR
+in_IN INother
+real_JJAT JJATother
+life_NN NNABSPROC
+or_CC
+not_XX0
+._.
+@nxxxxxl_NN NNMention
+This_DEMO
+one_NN NNother
+is_VPRT BEMA
+fake_JJPR JJPRother
+._.
+._.
+#NP_HST
+Still_RB RBother
+loving_VBG MENTAL
+you_SPP2
+#Scorpions_HST
+I_FPP1S FPPAll
+'m_VPRT CONT
+team_NN NNother
+#GIF_HST
+._.
+How_WHSC WHSCother
+do_VPRT DOAUX
+you_SPP2
+pronounce_VB
+it_PIT
+?_.
+Welcome_VPRT COMM
+to_IN INother
+twitter_NN NNother
+@pxxxxxxxxxxx4_NN NCOMP NNMention
+@Txxxxxxxxxxxxt_NN NNMention
+@Txxxxxr_NN NNMention
+Need_VPRT MENTAL
+an_DT
+edit_NN NNother
+button_NN NCOMP
+immediately_TIME
+Just_RB EMPH
+think_VB MENTAL
+this_DEMO
+young_JJAT JJTIME
+players_NN NNHUMAN
+of_IN INother
+France_NN NNP
+in_IN INother
+2022_CD
+world_NN NNother
+cup_NN NCOMP
+._.
+._.
+back_RB RBother
+to_IN INother
+back_VB
+?_.
+rakibwp21_NN NNother
+will_MDWS MDPREDAll
+install_VB
+,_,
+setup_NN NNother
+theme_NN NCOMP
+and_CC
+customize_VB
+your_SPP2
+wordpress_NN NNother
+for_IN INother
+$_$
+5_CD
+on_IN INother
+#Fiverr_HST
+#Themeforest_HST
+#Website_HST
+https://t.co/Q14Of0Khkf_URL
+Thank_VPRT COMM POLITE
+you_SPP2
+dependable_JJAT JJATother
+@mxxxxxxxxx5_NN NNMention
+@Sxxxxxxxxxxxl_NN NNMention
+yammi_NN NNother
+..._:
+enjoy_VB MENTAL
+your_SPP2
+bite_NN NNother
+What_WHSC WHSCother
+goes_VPRT
+around_PLACE
+comes_VPRT ACT
+back_RB RBother
+around_PLACE
+..._:
+Mashrafee_NN NNP
+should_MDNE
+come_VB ACT
+as_IN INother
+a_DT
+opening_NN NNother
+batsman_NN NCOMP
+tomorrow_TIME
+against_IN INother
+india_NN NNP
+#BanvsInd_HST
+#Asiacup2018_HST
+Happiness_NN NNP
+is_VPRT
+watching_PROG ACT
+slog_VB
+over_IN INother
+batting_NN NNother
+of_IN INother
+Afghanistan_NN NNP
+#AsiaCup2018_HST
+#PakvsAfg_HST
+@sxxxxxxxxx1_NN NNMention
+this_DEMO
+is_VPRT BEMA
+alarming_JJPR JJPRother
+!_.
+Thank_VPRT COMM POLITE
+you_SPP2
+@Txxxxxxxxxxxxx8_NN NNMention
+@Gxxxxxxxxxx1_NN NNMention
+is_VPRT BEMA
+on_IN INother
+fire_NN NNTECH
+now_TIME
+!_.
+#UCLFinal2018_HST
+Learning_VBG MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+to_IN INother
+type_VB
+Bangla_NN NNP
+with_IN INother
+bijoy_NN NNP
+._.
+._.
+and_CC
+realizing_VBG MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+how_WHSC WHSCother
+much_QUAN
+and_CC
+why_WHSC WHSCother
+i_FPP1S FPPAll
+love_VPRT MENTAL
+so_EMPH
+much_QUAN
+avro_IN INother
+@xxxxxxxxxu_NN NNMention
+haha_FPUH
+..._NFP
+really_RB EMPH
+😝_EMO
+why_WHQU
+i_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+find_VB VFCTother
+Barcelona_NN NNP
+match_NN NCOMP
+live_VB EXIST
+on_IN INother
+fb_NN NNother
+?_.
+Do_VB DOAUX
+n't_XX0 CONT
+waste_VB
+time_NN NNQUANT
+on_IN INother
+Facebook_NN NNP
+#LifeAdviceIn5Words_HST
+Manchester_NN NNP
+United_NN NNP
+1_CD
+-_SYM
+0_CD
+Leicester_NN NNP
+@Axxxxxxxx_NN NCOMP NNMention
+praying_VBG COMM
+for_IN INother
+your_SPP2
+speedy_JJAT JJATother
+recovery_NN NNother
+@Dxxxxxxxxxxxxg_NN NCOMP NNMention
+This_DEMO
+is_VPRT
+what_WHSC WHSCother
+happend_VPRT
+when_WHSC WHSCother
+you_SPP2
+trust_VPRT MENTAL
+translators_NN NNother
+😛_EMO
+it_PIT
+'s_VPRT CONT BEMA
+32_CD
+°C_NN NNother
+temperature_NN NNQUANT
+1:30_CD
+am_VPRT BEMA
+Dhaka_NN NNP
+Excellent_JJPR JJPRother
+miss_VPRT MENTAL
+._.
+._.
+it_PIT
+'s_VPRT CONT
+over_RB RBother
+now_TIME
+for_IN INother
+Russia_NN NNP
+#RUSCRO_HST
+I_FPP1S FPPAll
+am_VPRT BEMA
+fucking_JJAT EMPH
+gold_NN NNother
+,_,
+you_SPP2
+can_MDCA MDPOSSCAll
+prefer_VB MENTAL
+Silver_NN NNother
+and_CC
+it_PIT
+’s_POS
+totally_AMP
+okay_JJPR JJPRother
+._.
+https://t.co/DcqlRm4iA0_URL
+@sxxxxxxxxx1_NN NNMention
+Please_FPUH POLITE
+noooo_JJAT JJATother
+@wxxxxxxxz_NN NNMention
+Tomorrow_TIME
+12_CD
+am_NN NNother
+last_JJAT JJATother
+10_CD
+minute_NN NNQUANT
+are_VPRT BEMA
+real_JJAT JJATother
+brazil_NN NNother
+Messi_NN NNP
+played_VBD ACT
+today_TIME
+?_.
+https://t.co/OurfdCxEyX_URL
+@wxxxxxxxz_NN NNMention
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+do_VB ACT
+it_PIT
+King_NN NNP
+scores_NN NCOMP
+!!_.
+in_IN INother
+just_RB EMPH
+4_CD
+minutes_NN NNQUANT
+England_NN NNP
+looks_VPRT
+good_JJAT JJEVAL
+@sxxxxxxxxx1_NN NNMention
+loading_NN NNother
+@Mxxxxxxxx0_NN NCOMP NNMention
+It_PIT
+could_MDCO MDPOSSCAll
+have_VB
+been_PEAS BEMA
+a_DT
+super_RB EMPH
+over_IN INother
+if_COND
+you_SPP2
+try_VPRT ACT
+dive_NN NNother
+#IndVsBan_HST
+#WT20_HST
+Beating_VBG ACT
+India_NN NNP
+in_IN INother
+back_RB RBother
+to_IN INother
+back_RB RBother
+games_NN NNCONC
+who_WHSC WHSCother
+are_VPRT BEMA
+the_DT
+unbeaten_JJAT JJATother
+champion_NN NNother
+for_IN INother
+the_DT
+last_JJAT JJATother
+six_CD
+seasons_NN NNother
+it_PIT
+'s_VPRT CONT BEMA
+simply_RB RBother
+unbelievable_JJPR JJPRother
+!_.
+I_FPP1S FPPAll
+hope_VPRT MENTAL THATD
+@Bxxxxxxxs_NN NNMention
+will_MDWS MDPREDAll
+give_VB ACT
+them_TPP3P
+proper_JJAT JJATother
+facilities_NN NNABSPROC
+and_CC
+increase_VB OCCUR
+their_TPP3P
+match_NN NNCONC
+fees_NN NCOMP
+#AsiaCup2018_HST
+#BanVsInd_HST
+Bangladesh_NN NNP
+Women_NN NNP
+cricket_NN NCOMP
+team_NN NNother
+not_XX0
+play_VB ACT
+for_IN INother
+the_DT
+heart_NN NNCONC
+lance_NN NCOMP
+or_CC
+kidneys_NN NNother
+they_TPP3P
+play_VPRT ACT
+for_IN INother
+the_DT
+cup_NN NNother
+!_.
+a_DT
+big_JJAT JJDESCAll JJSIZE
+congratulations_NN NOMZ
+to_IN INother
+them_TPP3P
+._.
+._.
+@Bxxxxxxxs_NN NNMention
+women_NN NNHUMAN
+team_NN NCOMP
+become_VPRT OCCUR
+the_DT
+first_JJAT JJATother
+team_NN NNother
+to_IN INother
+beat_VB ACT
+@Bxxxxxxxn_NN NNMention
+in_IN INother
+Asia_NN NNP
+Cup_NN NNP
+history_NN NCOMP
+!_.
+First_RB RBother
+ever_FREQ
+loss_NN NNother
+to_IN INother
+Team_NN NNP
+India_NN NNP
+in_IN INother
+Asia_NN NNP
+Cup_NN NNP
+!!_.
+#IndvsBan_HST
+@wxxxxxxxz_NN NNMention
+same_JJPR JJREL
+here_PLACE
+._.
+._.
+i_FPP1S FPPAll
+miss_VPRT MENTAL
+the_DT
+old_JJAT JJTIME
+twitter_NN NNother
+@Bxxxxxxxs_NN NCOMP NNMention
+Sabbir_NN NNP
+Ahmed_NN NNP
+Will_NN NNP
+break_VB
+this_DEMO
+record_NN NNother
+https://t.co/PgN3SrsDzO_URL
+@sxxxxxxxxxxn_NN NNMention
+have_VPRT
+you_SPP2
+ever_FREQ
+been_VBN BEMA
+in_IN INother
+Bangladesh_NN NNP
+?_. YNQU
+@sxxxxxc_NN NNMention
+@Bxxxxxxxs_NN NNMention
+It_PIT
+will_MDWS MDPREDAll
+be_VB BEMA
+pathetic_JJPR JJPRother
+to_IN INother
+see_VB MENTAL
+Afghan_JJPR JJPRother
+and_CC
+Ireland_NN NNP
+stay_VB EXIST
+up_RP
+against_IN INother
+us_FPP1P FPPAll
+in_IN INother
+ranking_VBG
+._.
+._.
+@Bxxxxxxxs_NN NNMention
+is_VPRT BEMA
+simply_RB RBother
+the_DT
+most_EMPH
+unprofessional_JJAT JJATother
+and_CC
+corrupt_JJAT JJATother
+cricket_NN NNother
+board_NN NCOMP
+right_RB RBother
+now_TIME
+._.
+Sir_NN NNP
+we_FPP1P FPPAll
+need_VPRT MENTAL
+a_DT
+board_NN NNCONC
+director_NN NCOMP
+like_LIKE
+you_SPP2
+😞_EMO
+https://t.co/mwkEdGWrsB_URL
+@Mxxxxxxxx0_NN NNMention
+@Bxxxxxxxs_NN NNMention
+admin_NN NNother
+of_IN INother
+@Mxxxxxxxx0_NN NNMention
+its_PIT
+normal_JJPR JJPRother
+for_IN INother
+him_TPP3S
+and_CC
+we_FPP1P FPPAll
+are_VPRT
+used_PASS PASSAll ACT
+to_IN INother
+Wired_NN NNP
+captaincy_NN NCOMP
+from_IN INother
+Williamson_NN NNP
+#SRHvCSK_HST
+#IPL2018Final_HST
+Modric_NN NNP
+gave_VBD ACT
+his_TPP3S
+110_CD
+%_NN NNother
+today_TIME
+https://t.co/4BqApYsdnJ_URL
+@exxxxxxxxxxxxl_NN NNMention
+Croatia_NN NNP
+beat_VBD ACT
+Spain_NN NNP
+Uruguay_NN NNP
+beat_VBD ACT
+France_NN NNP
+Penalty_NN NNP
+Cup_NN NNP
+Russia_NN NNP
+2018_CD
+Hope_VPRT MENTAL THATD
+you_SPP2
+guys_NN NNHUMAN
+will_MDWS MDPREDAll
+contribute_VB
+and_CC
+join_VB ACT
+with_IN INother
+them_TPP3P
+in_IN INother
+#ctg_HST
+https://t.co/iwikNnV3lz_URL
+Subasic_JJPR JJPRother
+saves_VPRT ACT
+again_FREQ
+You_SPP2
+just_RB EMPH
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+hate_VB MENTAL
+._.
+this_DEMO
+game_NN NNCONC
+#RUSCRO_HST
+Spain_NN NNP
+😭_EMO
+😭_EMO
+Goool_NN NNP
+._.
+._.
+poor_JJPR JJEVAL
+defending_VBG ACT
+from_IN INother
+Croatia_NN NNP
+@rxxxxxxxs_NN NCOMP NNMention
+thanks_NN POLITE
+brother_NN NNHUMAN
+😜_EMO
+Vidaaaaaaa_NN NNP
+Goaaaal_NN NNP
+Croatia_NN NNP
+Studies_NN NNP
+show_VPRT ACT
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+people_NN NNHUMAN
+who_WHSC WHSCother
+stay_VPRT EXIST
+awake_JJPR JJPRother
+later_TIME
+at_IN INother
+night_NN NNother
+are_VPRT BEMA
+more_AMP
+intelligent_JJPR JJPRother
+than_IN INother
+the_DT
+people_NN NNHUMAN
+who_WHSC WHSCother
+go_VPRT
+to_IN INother
+bed_NN NNCONC
+early_TIME
+._.
+._.
+@Dxxxxxxxxxxxxg_NN NNMention
+it_PIT
+'s_VPRT CONT
+over_RB RBother
+._.
+._.
+no_XX0
+possibility_NN NSTNCother
+@axxxxxxxxxe_NN NCOMP NNMention
+Thanks_NN POLITE
+for_IN INother
+the_DT
+retweet_NN NNother
+!_.
+Open_VB ACT
+your_SPP2
+eyes_NN NNCONC
+@axxxxxxxxxe_NN NCOMP NNMention
+😍_EMO
+😍_EMO
+@Dxxxxxxxxxxxxg_NN NNMention
+Politics_NN NNP
+/_HYPH
+GF_NN NNother
+/_HYPH
+Social_JJAT JJTOPIC
+Media_NN NNother
+/_,
+Advertisement_NN NOMZ
+/_HYPH
+Club_NN NNCONC
+Politics_NN NCOMP
+ruined_VBD
+our_FPP1P FPPAll
+cricket_NN NNother
+Your_SPP2
+taste_NN NNother
+in_IN INother
+music_NN NNABSPROC
+can_MDCA MDPOSSCAll
+show_VB ACT
+how_WHSC WhVSTNCAll WhVFCT
+intelligent_JJPR JJPRother
+or_CC
+unintelligent_JJPR JJPRother
+you_SPP2
+are_VPRT
+._.
+Welldone_NN NNP
+@Bxxxxxxxs_NN NCOMP NNMention
+https://t.co/zD6Cbo0F0L_URL
+@Bxxxxxxxs_NN NNMention
+just_RB EMPH
+making_VBG ACT
+some_QUAN
+record_NN NNother
+43_CD
+the_DT
+can_NN NNother
+managed_VBD
+@xxxxxxxxxu_NN NNMention
+@Hxxxe_NN NNMention
+Best_NN NNP EMPH
+captain_NN NNother
+so_EMPH
+far_TIME
+in_IN INother
+this_DEMO
+#WorldCup_HST
+@sxxxxxxxxx1_NN NNMention
+then_RB RBother
+you_SPP2
+are_VPRT BEMA
+a_DT
+awesome_JJAT JJATother
+predictor_NN NNother
+bro_NN NCOMP
+@sxxxxxxxxx1_NN NNMention
+Kane_NN NNP
+again_FREQ
+socres_VPRT
+@Jxxxxxxxx1_NN NNMention
+saved_VBN ACT
+England_NN NNP
+@sxxxxxxxxx1_NN NCOMP NNMention
+after_IN INother
+missed_VBN MENTAL
+riad_JJAT JJATother
+tweets_NN NNother
+😜_EMO
+I_FPP1S FPPAll
+love_VPRT MENTAL
+penalties_NN NNother
+._.
+._.
+another_DT
+5/5_CD
+??_.
+joss_VB
+weather_NN NNother
+!_.
+nah_FPUH
+??_.
+Cry_VB
+._.
+Forgive_VB MENTAL
+._.
+Learn_VB MENTAL
+._.
+Move_VB ACT
+on_RP
+._.
+;)_NFP
+One_CD
+of_IN INother
+the_DT
+hardest_JJAT JJATother
+things_NN NNother
+in_IN INother
+life_NN NNABSPROC
+is_VPRT
+watching_PROG ACT
+the_DT
+person_NN NNHUMAN
+you_SPP2
+love_VPRT MENTAL
+,_,
+love_VPRT MENTAL
+someone_QUPR
+else_RB RBother
+:(_NFP
+Restarting_VBG
+Twitter_NN NNP
+..._:
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+#twitter_HST
+@ixxxxxxi_NN NNMention
+good_JJPR JJEVAL
+._.
+._.
+?_.
+celebrating_VBG MENTAL
+My_FPP1S FPPAll
+Twitter_NN NNP
+Anniversary_NN NNP
+!_.
+feeling_VBG MENTAL
+down_RB RBother
+please_FPUH POLITE
+quit_VB
+playing_VBG ACT
+games_NN NNCONC
+with_IN INother
+my_FPP1S FPPAll
+heart_NN NNCONC
+._.
+._.
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+not_XX0
+a_DT
+toy_NN NNother
+._.
+._.
+I_FPP1S FPPAll
+like_VPRT MENTAL
+person_NN NNHUMAN
+who_WHSC WHSCother
+appreciate_VPRT MENTAL
+my_FPP1S FPPAll
+weird_JJAT JJATother
+personality_NN NOMZ
+._.
+I_FPP1S FPPAll
+miss_VPRT MENTAL
+you_SPP2
+,_,
+but_CC
+I_FPP1S FPPAll
+know_VPRT MENTAL THATD
+you_SPP2
+do_VB DOAUX
+n't_XX0 CONT
+care_VB MENTAL
+@Ixxxxxxi_NN NNMention
+good_JJPR JJEVAL
+._.
+._.
+@Bxxxxxxxs_NN NNMention
+Good_JJAT JJEVAL
+morning_NN NNQUANT
+Twitter_NN NNP
+:)_NFP
+)_-RRB-
+#dhaka_HST
+@sxxxxxxxxxxxl_NN NNMention
+best_JJPR EMPH
+in_IN INother
+the_DT
+world_NN NNother
+!_.
+love_NN NNother
+u_NN NNother
+tiger_NN NNother
+<_SYM
+3_EMO
+@axxxxxxxu_NN NNMention
+good_JJAT JJEVAL
+noon_NN NNother
+._.
+._.
+@sxxxxxxxxxxxl_NN NNMention
+4/11_CD
+and_CC
+its_PIT
+going_VBG
+!!_.
+looking_VBG
+for_IN INother
+a_DT
+miracle_NN NNother
+@ixxxxxxi_NN NCOMP NNMention
+about_IN INother
+@Ixxxxxxi_NN NNMention
+@Bxxxxxxxs_NN NNMention
+??_.
+@Exxxxxxxxxxk_NN NNMention
+thanks_NN POLITE
+for_IN INother
+the_DT
+invite_VB COMM
+but_CC
+i_FPP1S FPPAll
+wo_MDWS MDPREDAll
+n't_XX0 CONT
+come_VB ACT
+this_DEMO
+tym_NN NNother
+._.
+._.
+@Ixxxxxxi_NN NNMention
+nice_JJPR JJEVAL
+._.
+._.
+@cxxxxxxxxxx4_NN NNMention
+sure_DMA
+!_.
+@Mxxxxd_NN NNMention
+james_VPRT
+wilson_NN NNP
+@sxxxxxxxxx1_NN NCOMP NNMention
+I_FPP1S FPPAll
+think_VPRT MENTAL THATD
+you_SPP2
+are_VPRT
+watching_PROG ACT
+through_IN INother
+online_PLACE
+streaming_NN NNother
+Another_DT
+hundred_CD
+for_IN INother
+@Kxxxxxxxxx2_NN NNMention
+you_SPP2
+will_MDWS MDPREDAll
+be_VB
+missed_PASS PASSAll MENTAL
+after_IN INother
+the_DT
+world_NN NNother
+cup_NN NCOMP
+:(_NFP
+#CWC15_HST
+@IxC_NN NNMention
+The_DT
+legend_NN NNother
+@Ixxxxxxi_NN NCOMP NNMention
+same_JJPR JJREL
+to_IN INother
+you_SPP2
+#tweets_HST
+number_NN NNQUANT
+#_HST
+5k_CD
+feeling_NN NSTNCother
+thankful_JJAT JJATother
+Morning_NN NNQUANT
+starts_VPRT ASPECT
+with_IN INother
+coldplay_NN NNother
+._.
+._.
+anything_QUPR
+is_VPRT BEMA
+n't_XX0 CONT
+better_JJPR JJPRother
+than_IN INother
+this_DEMO
+._.
+._.
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+move_VB ACT
+on_IN INother
+in_IN INother
+the_DT
+fukin_JJAT JJATother
+world_NN NNother
+☕_EMO
+Grrrrrrrrrrrrrr_NN NNP
+Zzzzzz_NN NNP
+@Ixxxxxxi_NN NCOMP NNMention
+what_WHQU
+happened_VBD OCCUR
+dude_NN NNother
+??_.
+@Ixxxxxxi_NN NNMention
+better_JJPR JJPRother
+to_IN INother
+all_QUAN
+._.
+._.
+I_FPP1S FPPAll
+promised_VBD COMM
+,_,
+I_FPP1S FPPAll
+wo_MDWS MDPREDAll
+n't_XX0 CONT
+like_VB MENTAL
+my_FPP1S FPPAll
+shruti_NN NNother
+'s_POS
+pic_NN NNother
+this_DEMO
+holy_JJAT JJATother
+month_NN NNQUANT
+!!_.
+Happy_JJAT JJATDother
+facebooking_NN NNother
+I_FPP1S FPPAll
+wish_VPRT MENTAL
+I_FPP1S FPPAll
+could_MDCO MDPOSSCAll
+stay_VB EXIST
+at_IN INother
+home_NN NNGRP
+today_TIME
+!_.
+but_CC
+if_COND
+I_FPP1S FPPAll
+do_VPRT ACT
+this_DEMO
+my_FPP1S FPPAll
+boss_NN NNHUMAN
+will_MDWS MDPREDAll
+be_VB
+calling_PROG COMM
+me_FPP1S FPPAll
+for_IN EMPH
+sure_DMA
+haha_FPUH
+._.
+._.
+and_CC
+his_TPP3S
+fav_NN NNother
+..._NFP
+https://t.co/1oJp7zzxvN_URL
+I_FPP1S FPPAll
+always_FREQ
+used_VBD ACT
+to_IN INother
+update_VB
+my_FPP1S FPPAll
+fb_NN NNother
+status_NN NCOMP
+in_IN INother
+only_RB RBother
+me_FPP1S FPPAll
+privacy_NN NNother
+._.
+._.
+sometimes_FREQ
+I_FPP1S FPPAll
+do_VPRT ACT
+wrong_NN NNother
+._.
+._.
+sorry_JJAT POLITE
+peoples_NN NNHUMAN
+._.
+._.
+Yo_PRPother
+know_NN NNother
+man_NN NCOMP
+is_VPRT BEMA
+mortal_JJAT JJATother
+@axxxxxxxu_NN NNMention
+@Txxxxxxxm_NN NNMention
+I_FPP1S FPPAll
+'m_VPRT CONT
+maybe_HDG
+from_IN INother
+August_NN NNP
+!_.
+missed_VBN MENTAL
+u_PRPother
+twitter_NN NNother
+._.
+._.
+?_.
+@sxxxxxxxxx1_NN NNMention
+great_JJPR JJEVAL
+!_.
+happy_JJAT JJATDother
+morning_NN NNQUANT
+!!_.
+:)_NFP
+Stop_VB ASPECT
+the_DT
+drama_NN NNother
+and_CC
+move_VB ACT
+on_RB RBother
+..._,
+@Cxxxxxxxxxxs_NN NNMention
+the_DT
+best_JJAT EMPH
+update_NN NNother
+Forever_RB RBother
+and_CC
+always_FREQ
+no_DMA
+matter_RB CONC
+what_WHSC WHSCother
+..._:
+#HalaMadrid_HST
+Bad_JJAT JJEVAL
+luck_NN NNother
+for_IN INother
+victorious_JJPR JJPRother
+https://t.co/8O5RAeYtvn_URL
+@axxxxxxxu_NN NNMention
+Mornings_NN NNQUANT
+!!_.
+Getting_VBG
+bored_JJPR JJPRother
+😞_EMO
+Ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+stop_VB ASPECT
+laughing_VBG
+watch_VB ACT
+it_PIT
+at_IN INother
+your_SPP2
+won_VBN ACT
+risk_NN NNABSPROC
+!!_.
+#Zahangir_HST
+the_DT
+credit_NN NNother
+Shahadat_NN NNP
+Hossain_NN NNP
+https://t.co/ojXoBAvTeo_URL
+@Sxxxxxxxxxxxl_NN NNMention
+cool_JJPR JJPRother
+..._:
+Earthquake_NN NNother
+!!_.
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+safe_JJPR JJPRother
+hey_FPUH
+bitch_NN NNother
+!_.
+listen_VB MENTAL
+,_,
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+not_XX0
+your_SPP2
+second_JJAT JJATother
+choice_NN NNABSPROC
+._.
+._.
+okay_JJPR JJPRother
+??_.
+someday_RB RBother
+I_FPP1S FPPAll
+'ll_MDWS MDPREDAll CONT
+be_VB
+someones_PASS PASSAll
+first_JJAT JJATother
+priority_NN NOMZ
+._.
+._.
+I_FPP1S FPPAll
+will_MDWS MDPREDAll
+prove_VB MENTAL
+them_TPP3P
+..._NFP
+https://t.co/4cZgNKL5V9_URL
+No_XX0
+matter_NN CONC
+what_WHSC WHSCother
+tigers_NN NNother
+have_VPRT
+done_PEAS ACT
+today_TIME
+._.
+._.
+this_DEMO
+is_VPRT BEMA
+just_RB EMPH
+a_DT
+game_NN NNCONC
+not_XX0
+anything_QUPR
+else_JJPR JJPRother
+!_.
+well_DMA
+played_VBN ACT
+boys_NN NNHUMAN
+._.
+._.
+be_VB
+prepare_VB
+for_IN INother
+#wct20_HST
+#HalaMadrid_HST
+❤_EMO
+❤_EMO
+GOALLLL_SYM
+CR7_NN NNother
+Hattrick_NN NCOMP
+!!_.
+@Exxxxxxxxxxo_NN NNMention
+without_IN INother
+@Nxxxxxxxg_NN NNMention
+and_CC
+big_JJAT JJDESCAll JJSIZE
+pollard_NN NNother
+the_DT
+world_NN NNother
+will_MDWS MDPREDAll
+miss_VB MENTAL
+pure_JJAT JJATother
+entertainment_NN NOMZ
+in_IN INother
+#wcc15_HST
+@ixxxxxxi_NN NNMention
+hmm_FPUH
+good_JJPR JJEVAL
+Accept_VB MENTAL
+that_THSC THSCother
+some_QUAN
+days_NN NNQUANT
+you_SPP2
+'re_VPRT CONT BEMA
+the_DT
+pigeon_NN NNother
+,_,
+and_CC
+some_QUAN
+days_NN NNQUANT
+you_SPP2
+'re_VPRT CONT BEMA
+the_DT
+statue_NN NNCONC
+._.
+#ElClasico_HST
+I_FPP1S FPPAll
+hate_VPRT MENTAL
+the_DT
+nights_NN NNother
+that_THRC THRCother
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+sleep_VB
+because_CUZ
+my_FPP1S FPPAll
+mind_NN NNother
+does_VPRT DOAUX
+n't_XX0 CONT
+wan_VB MENTAL
+na_IN INother
+take_VB ACT
+a_DT
+break_NN NNABSPROC

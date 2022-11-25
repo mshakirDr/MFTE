@@ -1,0 +1,2502 @@
+Online_NN NNP
+Bingo_NN NNP
+is_VPRT SPLIT
+fast_RB RBother
+becoming_PROG OCCUR
+one_CD
+of_IN INother
+the_DT
+most_EMPH
+popular_JJAT JJATother
+pastimes_NN NNother
+on_IN INother
+the_DT
+‘_``
+net_NN NNother
+as_IN INother
+more_QUAN
+and_CC
+more_QUAN
+players_NN NNHUMAN
+move_VPRT ACT
+from_IN INother
+playing_VBG ACT
+in_IN INother
+their_TPP3P
+local_JJAT JJATother
+halls_NN NNPLACE
+and_CC
+clubs_NN NNCONC
+to_IN INother
+online_PLACE
+._.
+It_PIT
+’s_VPRT BEMA
+easy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+get_VB
+started_PGET PASSAll ASPECT
+and_CC
+appeals_NN NNother
+to_IN INother
+a_DT
+wide_JJAT JJDESCAll JJSIZE
+range_NN NNother
+of_IN INother
+online_PLACE
+players_NN NNHUMAN
+._.
+The_DT
+chat_NN NNother
+is_VPRT BEMA
+fun_JJPR JJPRother
+and_CC
+friendly_JJPR JJPRother
+making_VBG ACT
+bingo_NN NNother
+great_JJPR JJEVAL
+for_IN INother
+a_DT
+good_JJAT JJEVAL
+night_NN NNother
+in_IN INother
+,_,
+or_CC
+afternoon_NN NNother
+._.
+Why_WHQU
+wait_VB ACT
+until_IN INother
+later_TIME
+?_.
+You_SPP2
+can_MDCA MDPOSSCAll
+play_VB ACT
+at_IN INother
+any_QUAN
+time_NN NNQUANT
+of_IN INother
+the_DT
+day_NN NNQUANT
+or_CC
+night_NN NNother
+when_WHSC WHSCother
+playing_VBG ACT
+online_PLACE
+._.
+Choose_VIMP MENTAL
+one_CD
+of_IN INother
+our_FPP1P FPPAll
+recommended_VBN COMM
+sites_NN NNother
+when_WHSC WHSCother
+playing_VBG ACT
+and_CC
+you_SPP2
+’ll_MDother
+not_XX0
+go_VB
+far_EMPH
+wrong_JJPR JJPRother
+._.
+Of_IN INother
+course_DMA RSTNCAll RFACT
+,_,
+as_IN INother
+with_IN INother
+all_QUAN
+our_FPP1P FPPAll
+reviews_NN NNother
+,_,
+full_JJAT JJATother
+ratings_NN NNother
+are_VPRT BEMA
+available_JJPR JJPRother
+to_IN INother
+help_VB CAUSE
+you_SPP2
+choose_VB MENTAL
+._.
+Reviews_NN NNother
+and_CC
+Features_NN NNABSPROC
+Online_PLACE
+bingo_NN NNother
+is_VPRT
+established_PASS PASSAll
+but_CC
+still_RB RBother
+growing_VBG OCCUR
+fast_RB RBother
+._.
+There_EX
+are_VPRT
+many_QUAN
+new_JJAT JJTIME
+sites_NN NNother
+popping_VBG
+up_RP
+all_QUAN
+the_DT
+time_NN NNQUANT
+but_CC
+make_VB ACT
+sure_JJPR JJEPSTother
+you_SPP2
+play_VPRT ACT
+with_IN INother
+a_DT
+tried_VBN ACT
+and_CC
+tested_VBN
+,_,
+reliable_JJAT JJATother
+site_NN NNother
+by_IN INother
+checking_VBG ACT
+out_RP
+our_FPP1P FPPAll
+bingo_NN NNother
+reviews_NN NCOMP
+._.
+To_IN INother
+keep_VB ASPECT
+up_RP
+to_IN INother
+date_NN NNQUANT
+check_VB ACT
+out_RP
+our_FPP1P FPPAll
+Gaming_NN NNother
+News_NN NSTNCother NCOMP
+pages_NN NNCONC
+where_WHSC WHSCother
+we_FPP1P FPPAll
+feature_VPRT
+lots_QUAN
+of_IN INother
+player_NN NNHUMAN
+promotions_NN NCOMP
+and_CC
+news_NN NNother
+for_IN PrepNSTNC
+players_NN NNHUMAN
+._.
+One_CD
+of_IN INother
+the_DT
+great_JJAT JJEVAL
+things_NN NNother
+about_IN INother
+playing_VBG ACT
+online_PLACE
+is_VPRT
+that_THSC THSCother
+you_SPP2
+can_MDCA MDPOSSCAll SPLIT
+also_CC
+chat_VB
+with_IN INother
+the_DT
+other_JJAT JJATother
+players_NN NNHUMAN
+that_THRC THRCother
+are_VPRT
+playing_PROG ACT
+any_QUAN
+time_NN NNQUANT
+of_IN INother
+the_DT
+day_NN NNQUANT
+or_CC
+night_NN NNother
+._.
+Unlike_IN INother
+in_IN INother
+poker_NN NNother
+rooms_NN NCOMP
+or_CC
+casinos_NN NNother
+,_,
+the_DT
+chat_NN NNother
+rooms_NN NCOMP
+in_IN INother
+the_DT
+online_PLACE
+bingo_NN NNother
+halls_NN NCOMP
+are_VPRT BEMA
+great_JJAT JJEVAL
+fun_NN NNABSPROC
+and_CC
+discussions_NN NNABSPROC
+take_VPRT ACT
+place_NN NNPLACE
+on_IN INother
+a_DT
+range_NN NNother
+of_IN INother
+subjects_NN NNABSPROC
+._.
+Many_QUAN
+people_NN NNHUMAN
+use_VPRT ACT
+the_DT
+online_PLACE
+bingo_NN NNother
+chat_NN NCOMP
+rooms_NN NNPLACE
+to_IN INother
+make_VB ACT
+new_JJAT JJTIME
+friends_NN NNHUMAN
+for_IN INother
+life_NN NNABSPROC
+!_.
+Go_VB
+on_RP
+,_,
+have_VIMP
+a_DT
+go_NN NNother
+,_,
+bingo_NN NNother
+is_VPRT BEMA
+great_JJAT JJEVAL
+fun_NN NNABSPROC
+–_:
+you_SPP2
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+know_VB MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+you_SPP2
+’re_VPRT
+missing_PROG MENTAL
+until_IN INother
+you_SPP2
+’ve_VPRT
+tried_PEAS ACT
+it_PIT
+._.
+When_WHSC WHSCother
+it_PIT
+comes_VPRT ACT
+to_IN INother
+starting_VBG ASPECT
+off_RP
+playing_VBG ACT
+casino_NN NNother
+games_NN NCOMP
+,_,
+or_CC
+any_QUAN
+other_JJAT JJATother
+gambling_NN NNother
+game_NN NCOMP
+for_IN INother
+that_DEMO
+matter_NN NNTECH
+,_,
+there_EX
+are_VPRT
+a_DT
+very_AMP
+basic_JJAT JJATother
+set_NN NNABSPROC
+of_IN INother
+basic_JJAT JJATother
+gambling_NN NNother
+tips_NN NCOMP
+we_FPP1P FPPAll
+’d_MDother
+all_QUAN
+do_VB DOAUX
+well_RB RBother
+to_IN INother
+stick_VB
+to_IN INother
+._.
+I_FPP1S FPPAll
+appreciate_VPRT MENTAL
+it_PIT
+’s_VPRT
+not_XX0
+always_FREQ
+easy_JJPR JJPRother
+but_CC
+if_COND
+you_SPP2
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+continue_VB ASPECT
+enjoying_VBG MENTAL
+the_DT
+game_NN NNCONC
+and_CC
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Gaming_NN NNother
+Sites_NN NCOMP
+of_IN INother
+Note_NN NNCONC
+–_:
+The_DT
+Idiots_NN NNother
+Guide_VPRT
+to_IN INother
+Other_JJAT JJATother
+Gaming_NN NNother
+Sites_NN NCOMP
+Gaming_NN NNother
+Sites_NN NCOMP
+of_IN INother
+Note_NN NNCONC
+Every_QUAN
+once_TIME
+in_IN INother
+a_DT
+while_NN NNother
+we_FPP1P FPPAll
+come_VPRT ACT
+across_IN INother
+other_JJAT JJATother
+sites_NN NNother
+that_THRC THRCother
+are_VPRT
+gaming_PROG
+sites_NN NNother
+of_IN INother
+note_NN NNCONC
+and_CC
+of_IN INother
+a_DT
+quality_NN NNABSPROC
+we_FPP1P FPPAll
+feel_VPRT MENTAL
+is_VPRT BEMA
+worth_JJPR JJPRother
+sharing_VBG ACT
+with_IN INother
+those_DEMO
+scouring_VBG
+our_FPP1P FPPAll
+pages_NN NNCONC
+for_IN INother
+gaming_NN NNother
+and_CC
+gambling_NN NNother
+information_NN NCOMP
+._.
+When_WHSC WHSCother
+we_FPP1P FPPAll
+find_VPRT VFCTother
+a_DT
+site_NN NNother
+worth_JJPR JJPRother
+of_IN INother
+note_NN NNCONC
+and_CC
+inclusion_NN NNother
+,_,
+we_FPP1P FPPAll
+’ll_MDother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Casinos_NN NNother
+–_:
+Understanding_VBG VFCTother
+the_DT
+Terms_NN NNQUANT
+and_CC
+Conditions_NN NNABSPROC
+Before_IN INother
+joining_VBG ACT
+any_QUAN
+new_JJAT JJTIME
+online_PLACE
+casino_NN NNother
+or_CC
+gambling_NN NNother
+site_NN NCOMP
+,_,
+it_PIT
+’s_VPRT BEMA
+important_JJPR JJPRother
+that_THSC THSCother
+players_NN NNHUMAN
+read_VPRT MENTAL
+through_IN INother
+the_DT
+Terms_NN NNQUANT
+&_CC
+Conditions_NN NNABSPROC
+page_NN NCOMP
+which_WHSC WHSCother
+should_MDNE
+be_VB BEMA
+readily_RB RBother
+available_JJPR JJPRother
+for_IN INother
+players_NN NNHUMAN
+to_IN INother
+confirm_VB MENTAL
+acceptance_NN NNother
+when_WHSC WHSCother
+they_TPP3P
+create_VPRT
+their_TPP3P
+account_NN NNABSPROC
+to_IN INother
+start_VB ASPECT
+playing_VBG ACT
+._.
+When_WHSC WHSCother
+joining_VBG ACT
+,_,
+you_SPP2
+might_MDMM MDPOSSCAll
+be_VB
+tempted_PASS PASSAll
+just_RB EMPH
+to_IN INother
+check_VB ACT
+the_DT
+box_NN NNCONC
+and_CC
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+The_DT
+Gambling_NN NNother
+Idiots_NN NCOMP
+Guide_VPRT
+to_IN INother
+Playing_VBG ACT
+and_CC
+Staying_VBG EXIST
+Safe_JJPR JJPRother
+Staying_VBG EXIST
+Safe_JJPR JJPRother
+When_WHSC WHSCother
+Gambling_NN NNother
+Online_NN NNP
+When_WHSC WHSCother
+you_SPP2
+’re_VPRT
+putting_PROG ACT
+your_SPP2
+money_NN NNother
+on_IN INother
+the_DT
+line_NN NNother
+to_IN INother
+have_VB
+some_QUAN
+fun_JJAT JJATother
+gambling_NN NNother
+at_IN INother
+online_PLACE
+casinos_NN NNother
+and_CC
+other_JJAT JJATother
+gambling_NN NNother
+sites_NN NCOMP
+,_,
+it_PIT
+’s_VPRT BEMA
+important_JJPR JJPRother
+that_THSC THSCother
+you_SPP2
+stay_VPRT EXIST
+safe_JJPR JJPRother
+._.
+This_DEMO
+means_VPRT COMM
+making_VBG ACT
+sure_JJPR JJPRother
+that_THSC ThSTNCAll ThJSTNCAll ThJFCT
+both_QUAN
+your_SPP2
+money_NN NNother
+and_CC
+your_SPP2
+personal_JJAT JJATother
+information_NN NNABSPROC
+is_VPRT
+protected_PASS PASSAll
+at_IN INother
+all_QUAN
+times_NN NNQUANT
+;_:
+there_EX
+’s_VPRT
+always_FREQ
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+The_DT
+Idiots_NN NNP
+Guide_VPRT
+to_IN INother
+Funding_VBG
+Your_SPP2
+Account_NN NNABSPROC
+Funding_VBG
+Your_SPP2
+Gaming_NN NNother
+Site_NN NNP
+Account_NN NCOMP
+If_COND
+you_SPP2
+’re_VPRT
+planning_PROG MENTAL
+on_IN INother
+playing_VBG ACT
+at_IN INother
+an_DT
+online_PLACE
+casino_NN NNother
+,_,
+poker_NN NNother
+room_NN NCOMP
+,_,
+bingo_NN NNother
+site_NN NCOMP
+or_CC
+any_QUAN
+other_JJAT JJATother
+gaming_NN NNother
+site_NN NCOMP
+that_THRC THRCother
+allows_VPRT CAUSE
+bets_NN NNother
+or_CC
+wagering_NN NNother
+for_IN INother
+money_NN NNother
+then_RB RBother
+you_SPP2
+must_MDNE
+be_VB
+prepared_PASS PASSAll
+to_IN INother
+spend_VB ACT
+some_QUAN
+money_NN NNother
+._.
+In_IN INother
+order_NN NNABSPROC
+to_IN INother
+do_VB ACT
+that_DEMO
+,_,
+you_SPP2
+need_MDNE
+to_IN INother
+get_VB
+some_QUAN
+money_NN NNother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+The_DT
+Idiots_NN NNP
+Guide_NN NNP
+–_:
+Online_PLACE
+Roulette_NN NNP
+Idiots_NN NNP
+Roulette_NN NNP
+Online_NN NNP
+Roulette_NN NNP
+is_VPRT BEMA
+a_DT
+simple_JJAT JJATother
+game_NN NNCONC
+to_IN INother
+play_VB ACT
+,_,
+that_THRC THRCother
+makes_VPRT ACT
+players_NN NNHUMAN
+of_IN INother
+all_QUAN
+budgets_NN NNother
+can_MDCA MDPOSSCAll
+feel_VB MENTAL
+like_LIKE
+they_TPP3P
+’re_VPRT BEMA
+high_JJPR JJPRother
+-_HYPH
+rollers_NN NNother
+._.
+A_DT
+simple_JJAT JJATother
+game_NN NNCONC
+of_IN INother
+chance_NN NNother
+,_,
+Roulette_NN NNP
+just_RB EMPH
+feels_VPRT MENTAL
+like_LIKE
+a_DT
+casino_NN NNother
+game_NN NCOMP
+that_THRC THRCother
+comes_VPRT ACT
+with_IN INother
+status_NN NNother
+,_,
+and_CC
+it_PIT
+certainly_RB RSTNCAll RFACT
+is_VPRT BEMA
+exciting_JJPR JJPRother
+!_.
+Roulette_NN NNother
+is_VPRT BEMA
+one_CD
+staple_JJAT JJATother
+casino_NN NNother
+game_NN NCOMP
+that_THRC THRCother
+can_MDCA MDPOSSCAll
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+The_DT
+Idiots_NN NNP
+Guide_NN NNP
+–_:
+Online_NN NNP
+Blackjack_NN NNP
+Blackjack_NN NNP
+for_IN INother
+Idiots_NN NNP
+Blackjack_NN NNP
+is_VPRT BEMA
+a_DT
+game_NN NNCONC
+that_THRC THRCother
+attracts_VPRT
+many_QUAN
+players_NN NNHUMAN
+both_QUAN
+at_IN INother
+online_PLACE
+casinos_NN NNother
+and_CC
+brick_NN NNother
+and_CC
+mortar_JJAT JJATother
+casinos_NN NNother
+because_CUZ
+of_IN INother
+its_PIT
+quick_JJAT JJATother
+game_NN NNCONC
+play_NN NCOMP
+,_,
+and_CC
+decent_JJAT JJATother
+odds_NN NNother
+that_THRC THRCother
+players_NN NNHUMAN
+will_MDWS MDPREDAll
+win_VB ACT
+._.
+Unlike_IN INother
+in_IN INother
+other_JJAT JJATother
+online_PLACE
+casino_NN NNother
+games_NN NCOMP
+,_,
+like_LIKE
+Video_NN NNP
+Poker_NN NNP
+,_,
+which_WHSC WHSCother
+require_VPRT CAUSE
+players_NN NNHUMAN
+to_IN INother
+play_VB ACT
+hand_NN NNCONC
+after_IN INother
+hand_NN NNCONC
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Online_PLACE
+Scratchcards_NN NNother
+–_:
+The_DT
+Idiots_NN NNP
+Guide_NN NCOMP
+Scratchcards_NN NNP
+for_IN INother
+Idiots_NN NNP
+Scratchcards_NN NNP
+were_VBD
+popularised_PASS PASSAll
+as_IN INother
+a_DT
+fun_JJAT JJATother
+,_,
+new_JJAT JJTIME
+instant_JJPR JJPRother
+-_HYPH
+win_NN NNother
+lottery_NN NCOMP
+game_NN NNCONC
+,_,
+available_JJPR JJPRother
+from_IN INother
+lottery_NN NNother
+stands_NN NCOMP
+around_IN INother
+the_DT
+world_NN NNother
+._.
+Players_NN NNHUMAN
+were_VBD SPLIT
+initially_TIME
+attracted_PASS PASSAll
+to_IN INother
+Scratchcards_NN NNP
+because_CUZ
+of_IN INother
+their_TPP3P
+instant_JJAT JJATother
+gratification_NN NOMZ
+(_-LRB-
+players_NN NNHUMAN
+know_VPRT MENTAL
+whether_WHSC WhVSTNCAll WhVFCT
+they_TPP3P
+’ve_VPRT
+won_PEAS ACT
+or_CC
+lost_VBN ACT
+immediately_TIME
+,_,
+and_CC
+do_VPRT SPLIT DOAUX
+n’t_RB RBother
+have_MDNE
+to_IN INother
+wait_VB ACT
+for_IN INother
+the_DT
+draw_NN NNother
+of_IN INother
+weekly_JJAT JJTIME
+lottery_NN NNother
+…_,
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Slots_NN NNother
+–_:
+The_DT
+Idiots_NN NNother
+Guide_NN NCOMP
+Slots_NN NNother
+for_IN INother
+Idiots_NN NNP
+Online_PLACE
+Slots_NN NNother
+are_VPRT
+designed_PASS PASSAll
+similarly_RB RBother
+to_IN INother
+the_DT
+classic_JJAT JJATother
+slots_NN NNother
+you_SPP2
+’d_MDother
+find_VB VFCTother
+at_IN INother
+Brick_NN NNP
+and_CC
+Mortar_NN NNP
+casinos_NN NNP
+,_,
+and_CC
+make_VB ACT
+up_RP
+about_HDG
+70_CD
+%_NN NNother
+of_IN INother
+the_DT
+casino_NN NNother
+games_NN NCOMP
+found_VBN VFCTother
+virtually_RB RBother
+._.
+The_DT
+variety_NN NNABSPROC
+of_IN INother
+slots_NN NNother
+available_JJPR JJPRother
+online_PLACE
+are_VPRT BEMA
+classic_JJAT JJATother
+style_NN NNABSPROC
+3_CD
+-_HYPH
+reel_NN NNother
+and_CC
+5_CD
+-_HYPH
+reel_NN NNother
+slot_NN NCOMP
+machines_NN NNCONC
+,_,
+which_WHSC WHSCother
+means_VPRT COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT ThVCOMM
+players_NN NNHUMAN
+must_MDNE
+lineup_VB
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Online_PLACE
+Bingo_NN NNother
+–_:
+The_DT
+Idiots_NN NNP
+Guide_NN NCOMP
+Online_PLACE
+Bingo_NN NNother
+Idiots_NN NCOMP
+Bingo_NN NNother
+is_VPRT BEMA
+a_DT
+fun_JJAT JJATother
+and_CC
+entertaining_JJAT JJATother
+way_NN NNABSPROC
+to_IN INother
+gamble_VB
+offline_PLACE
+and_CC
+is_VPRT
+becoming_PROG OCCUR
+hugely_RB RBother
+popular_JJPR JJPRother
+as_IN INother
+an_DT
+online_PLACE
+gambling_NN NNother
+game_NN NCOMP
+too_RB RBother
+._.
+With_IN INother
+thousands_NN NNother
+of_IN INother
+online_PLACE
+bingo_NN NNother
+sites_NN NCOMP
+on_IN INother
+offer_NN NNother
+virtually_RB RBother
+,_,
+it_PIT
+’s_VPRT BEMA
+a_DT
+game_NN NNCONC
+that_THRC THRCother
+’s_VPRT
+reaching_PROG ACT
+more_QUAN
+and_CC
+more_QUAN
+people_NN NNHUMAN
+and_CC
+growing_VBG OCCUR
+in_IN INother
+popularity_NN NOMZ
+very_AMP
+quickly_RB RBother
+._.
+You_SPP2
+might_MDMM MDPOSSCAll
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Today_TIME
+we_FPP1P FPPAll
+’re_VPRT
+going_GTO MDPREDAll
+to_IN INother
+take_VB ACT
+a_DT
+look_NN NNCOG
+at_IN INother
+Twister_NN NNP
+Poker_NN NNP
+with_IN INother
+our_FPP1P FPPAll
+recommended_VBN COMM
+place_NN NNPLACE
+to_IN INother
+play_VB ACT
+Twister_NN NNP
+being_VBG
+BetFred_NN NNP
+Poker_NN NNP
+._.
+We_FPP1P FPPAll
+’ll_MDother
+assume_VB MENTAL THATD
+you_SPP2
+’ve_VPRT SPLIT
+already_TIME
+got_HGOT
+an_DT
+account_NN NNABSPROC
+at_IN INother
+BetFred_NN NNP
+or_CC
+that_THSC THSCother
+you_SPP2
+know_VPRT MENTAL
+the_DT
+drill_NN NNother
+when_WHSC WHSCother
+opening_VBG ACT
+one_CD
+._.
+Twister_NN NNP
+Poker_NN NNP
+has_VPRT
+become_PEAS OCCUR
+one_CD
+of_IN INother
+the_DT
+more_AMP
+popular_JJAT JJATother
+poker_NN NNother
+game_NN NCOMP
+genres_NN NNother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Have_VPRT
+you_SPP2
+Got_PEAS
+the_DT
+Nuts_NN NNP
+?_. YNQU
+Poker_NN NNother
+Terminology_NN NCOMP
+._.
+Have_VPRT
+you_SPP2
+Got_PEAS
+the_DT
+Nuts_NN NNP
+?_. YNQU
+You_SPP2
+might_MDMM MDPOSSCAll
+think_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+you_SPP2
+’ve_VPRT
+got_HGOT
+the_DT
+Nuts_NN NNP
+for_IN INother
+playing_VBG ACT
+poker_NN NNother
+and_CC
+you_SPP2
+sure_RB RBother
+need_MDNE
+to_IN INother
+hold_VB ACT
+em_TPP3P
+tight_JJPR JJPRother
+but_CC
+in_IN INother
+case_NN NNCONC
+you_SPP2
+’ve_VPRT
+heard_PEAS MENTAL
+poker_NN NNother
+players_NN NCOMP
+referring_VBG
+to_IN INother
+“_``
+The_DT
+Nuts_NN NNP
+”_''
+and_CC
+you_SPP2
+are_VPRT
+n’t_RB RBother
+quite_RB RBother
+sure_DMA
+if_COND
+you_SPP2
+’ve_VPRT
+got_HGOT
+them_TPP3P
+,_,
+then_RB RBother
+here_PLACE
+is_VPRT BEMA
+a_DT
+quick_JJAT JJATother
+explanation_NN NNABSPROC
+._.
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Putting_VBG ACT
+an_DT
+Opponent_NN NNother
+on_IN INother
+a_DT
+Range_NN NNother
+of_IN INother
+Hands_NN NNCONC
+Out_IN INother
+of_IN INother
+all_QUAN
+the_DT
+strategy_NN NNABSPROC
+concepts_NN NCOMP
+we_FPP1P FPPAll
+hear_VPRT MENTAL
+discussed_VBN COMM
+in_IN INother
+poker_NN NNother
+,_,
+putting_VBG ACT
+an_DT
+opponent_NN NNother
+on_IN INother
+a_DT
+range_NN NNother
+of_IN INother
+hands_NN NNCONC
+has_MDNE
+to_IN INother
+rank_VB
+right_RB RBother
+up_RP
+there_PLACE
+and_CC
+for_IN INother
+very_AMP
+good_JJAT JJEVAL
+reason_NN NSTNCother
+._.
+After_IN INother
+all_QUAN
+,_,
+being_VBG
+able_ABLE
+to_IN INother
+determine_VB MENTAL
+a_DT
+specific_JJAT JJATother
+range_NN NNother
+of_IN INother
+cards_NN NNCONC
+your_SPP2
+opponent_NN NNother
+could_MDCO MDPOSSCAll
+have_VB
+is_VPRT BEMA
+crucial_JJPR JJPRother
+in_IN INother
+determining_VBG MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Texas_NN NNP
+Holdem_NN NNP
+–_:
+Playing_VBG ACT
+the_DT
+Short_NN NNP
+Stack_NN NNP
+A_DT
+game_NN NNCONC
+of_IN INother
+no_XX0
+limit_NN NNother
+Texas_NN NNP
+Holdem_NN NNP
+has_VPRT
+been_PEAS
+going_PROG
+on_RP
+for_IN INother
+quite_QUAN
+some_QUAN
+time_NN NNQUANT
+._.
+Most_QUAN
+of_IN INother
+the_DT
+original_JJAT JJREL
+players_NN NNHUMAN
+have_VPRT SPLIT
+already_TIME
+lost_PEAS ACT
+their_TPP3P
+chips_NN NNother
+and_CC
+left_VBN ACT
+their_TPP3P
+seats_NN NNCONC
+._.
+You_SPP2
+are_VPRT
+left_PASS PASSAll ACT
+at_IN INother
+the_DT
+table_NN NNCONC
+with_IN INother
+a_DT
+small_JJAT JJDESCAll JJSIZE
+number_NN NNQUANT
+of_IN INother
+players_NN NNHUMAN
+that_THRC THRCother
+each_QUAN
+have_VPRT
+a_DT
+relatively_RB RBother
+even_RB RBother
+stack_NN NNother
+(_-LRB-
+or_CC
+perhaps_HDG
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Short_JJPR JJDESCAll JJSIZE
+Handed_VBN
+Limit_NN NNP
+Texas_NN NNP
+Holdem_NN NNP
+Intermediate_JJAT JJATother
+Poker_NN NNP
+Strategy_NN NNP
+–_:
+Short_NN NNP
+Handed_NN NNP
+Limit_NN NNP
+Texas_NN NNP
+Holdem_NN NNP
+A_DT
+short_JJAT JJDESCAll JJSIZE
+handed_JJAT JJATother
+poker_NN NNother
+game_NN NCOMP
+is_VPRT BEMA
+one_CD
+in_IN INother
+which_WHSC WHSCother
+you_SPP2
+play_VPRT ACT
+against_IN INother
+six_CD
+or_CC
+less_QUAN
+than_IN INother
+six_CD
+players_NN NNHUMAN
+._.
+Playing_VBG ACT
+this_DEMO
+game_NN NNCONC
+can_MDCA MDPOSSCAll
+be_VB BEMA
+advantageous_JJPR JJPRother
+especially_RB RBother
+when_WHSC WHSCother
+you_SPP2
+are_VPRT BEMA
+new_JJPR JJTIME
+to_IN INother
+poker_VB
+,_,
+as_IN INother
+it_PIT
+has_VPRT
+few_QUAN
+players_NN NNHUMAN
+._.
+The_DT
+lesser_JJAT JJATother
+the_DT
+number_NN NNQUANT
+of_IN INother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Texas_NN NNP
+Holdem_NN NNP
+Poker_NN NNP
+Strategy_NN NNP
+–_:
+Playing_VBG ACT
+the_DT
+Turn_NN NNP
+Card_NN NNP
+There_EX
+have_VPRT
+been_PEAS
+many_QUAN
+articles_NN NNother
+written_VBN COMM
+about_IN INother
+how_WHSC WHSCother
+to_IN INother
+play_VB ACT
+your_SPP2
+cards_NN NNCONC
+pre-flop_JJPR JJPRother
+and_CC
+also_CC
+after_IN INother
+the_DT
+flop_NN NNother
+but_CC
+few_QUAN
+detail_NN NNABSPROC
+how_WHSC WHSCother
+your_SPP2
+cards_NN NNCONC
+should_MDNE
+be_VB
+played_PASS PASSAll ACT
+in_IN INother
+the_DT
+other_JJAT JJATother
+betting_NN NNother
+rounds_NN NCOMP
+–_:
+playing_VBG ACT
+the_DT
+turn_NN NNother
+card_NN NCOMP
+._.
+This_DEMO
+article_NN NNother
+is_VPRT
+based_PASS PASSAll
+around_IN INother
+making_VBG ACT
+the_DT
+correct_JJAT JJEPSTother
+play_NN NNTECH
+or_CC
+poker_NN NNother
+strategy_NN NCOMP
+when_WHSC WHSCother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Professional_JJAT JJATother
+Poker_NN NNother
+Player_NN NCOMP
+Poker_NN NNother
+is_VPRT BEMA
+the_DT
+game_NN NNCONC
+of_IN INother
+the_DT
+moment_NN NNQUANT
+,_,
+and_CC
+looks_VPRT
+set_JJPR JJPRother
+to_IN INother
+be_VB BEMA
+for_IN INother
+the_DT
+next_JJAT JJATother
+few_QUAN
+years_NN NNother
+anyway_DMA
+._.
+At_IN INother
+Doolallys.com_URL
+we_FPP1P FPPAll
+ca_MDCA MDPOSSCAll SPLIT
+n’t_RB RBother
+think_VB MENTAL
+of_IN INother
+any_QUAN
+other_JJAT JJATother
+game_NN NNCONC
+that_THRC THRCother
+could_MDCO MDPOSSCAll
+surpass_VB
+poker_NN NNother
+as_IN INother
+the_DT
+world_NN NNother
+’s_POS
+most_RB EMPH
+popular_JJAT JJATother
+online_PLACE
+gambling_NN NNother
+game_NN NCOMP
+._.
+With_IN INother
+so_EMPH
+many_QUAN
+people_NN NNHUMAN
+playing_VBG ACT
+poker_NN NNother
+online_PLACE
+,_,
+stories_NN NNother
+of_IN INother
+people_NN NNHUMAN
+turning_VBG ACT
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+How_WHSC WHSCother
+to_IN INother
+Take_VB ACT
+Pot_NN NNCONC
+Size_NN NCOMP
+into_IN INother
+Consideration_NN NNCOG
+Beginner_VB
+Poker_NN NNother
+Strategy_NN NCOMP
+–_:
+How_WHSC WHSCother
+to_IN INother
+Take_VB ACT
+Pot_NN NNCONC
+Size_NN NCOMP
+into_IN INother
+Consideration_NN NNCOG
+One_CD
+of_IN INother
+the_DT
+key_JJAT JJATother
+aspects_NN NNABSPROC
+to_IN INother
+take_VB ACT
+into_IN INother
+consideration_NN NNCOG
+when_WHSC WHSCother
+playing_VBG ACT
+poker_NN NNother
+is_VPRT BEMA
+the_DT
+pot_NN NNCONC
+size_NN NCOMP
+._.
+This_DEMO
+will_MDWS MDPREDAll
+help_VB CAUSE
+you_SPP2
+decide_VB MENTAL
+whether_WHSC WHSCother
+you_SPP2
+should_MDNE
+bet_VB
+,_,
+raise_VIMP
+,_,
+check_VIMP ACT
+or_CC
+fold_VIMP
+at_IN INother
+any_QUAN
+point_NN NNother
+in_IN INother
+the_DT
+game_NN NNCONC
+._.
+Also_CC
+,_,
+understanding_VBG VFCTother
+pot_NN NNCONC
+size_NN NCOMP
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Poker_NN NNother
+Fish_NN NCOMP
+and_CC
+Poker_NN NNP
+Sharks_NN NNP
+Poker_NN NNother
+Fish_NN NCOMP
+and_CC
+Poker_NN NNother
+Sharks_NN NCOMP
+–_:
+An_DT
+Explanation_NN NNABSPROC
+If_COND
+you_SPP2
+are_VPRT
+referred_PASS PASSAll
+to_IN INother
+as_IN INother
+a_DT
+“_``
+FISH_NN NNCONC
+”_''
+or_CC
+“_``
+POKER_NN NNother
+FISH_NN NCOMP
+”_''
+,_,
+then_RB RBother
+you_SPP2
+are_VPRT SPLIT
+n’t_RB RBother
+being_PROG
+paid_PASS PASSAll ACT
+any_QUAN
+compliment_NN NOMZ
+,_,
+on_IN INother
+the_DT
+contrary_NN CC
+,_,
+a_DT
+fish_NN NNCONC
+in_IN INother
+poker_NN NNother
+is_VPRT
+someone_QUPR
+who_WHSC WHSCother
+plays_VPRT ACT
+badly_RB RBother
+and_CC
+is_VPRT BEMA
+inexperienced_JJPR JJPRother
+._.
+The_DT
+definition_NN NNABSPROC
+of_IN INother
+poker_NN NNother
+fish_NN NCOMP
+comes_VPRT ACT
+from_IN INother
+the_DT
+other_JJAT JJATother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Playing_VBG ACT
+Pocket_NN NNother
+Aces_NN NCOMP
+–_:
+Texas_NN NNP
+Holdem_NN NNP
+Strategy_NN NNP
+Starting_VBG ASPECT
+Hands_NN NNCONC
+–_:
+Playing_VBG ACT
+Pocket_NN NNother
+Aces_NN NCOMP
+An_DT
+Ace_NN NNother
+in_IN INother
+the_DT
+Hole_NN NNPLACE
+–_:
+Is_VPRT BEMA
+that_DEMO
+an_DT
+Ace_NN NNother
+in_IN INother
+your_SPP2
+pocket_NN NNother
+or_CC
+are_VPRT BEMA
+you_SPP2
+just_RB EMPH
+pleased_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEFCT
+see_VB MENTAL
+me_FPP1S FPPAll
+?_. YNQU
+How_WHSC WHSCother
+you_SPP2
+should_MDNE
+be_VB
+playing_PROG ACT
+pockets_NN NNother
+Aces_NN NNP
+._.
+Anyone_QUPR
+who_WHSC WHSCother
+has_VPRT
+played_PEAS ACT
+Holdem_NN NNother
+for_IN INother
+any_QUAN
+length_NN NNQUANT
+of_IN INother
+time_NN NNQUANT
+knows_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+a_DT
+pair_NN NNother
+of_IN INother
+aces_NN NNother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+NetEnt_NN NNP
+,_,
+leading_VBG
+provider_NN NNHUMAN
+of_IN INother
+digital_JJAT JJATother
+gaming_NN NNother
+solutions_NN NCOMP
+,_,
+has_VPRT
+continued_PEAS ASPECT
+its_PIT
+jackpot_NN NNother
+hot_JJPR JJPRother
+-_HYPH
+streak_NN NNother
+after_IN INother
+another_DT
+lucky_JJAT JJATother
+player_NN NNHUMAN
+from_IN INother
+Sweden_NN NNP
+dropped_VBD
+a_DT
+massive_JJAT JJATother
+win_NN NNother
+on_IN INother
+NetEnts_NN NNP
+Mega_NN NNP
+Fortune_NN NNP
+progressive_JJPR JJPRother
+winning_VBG ACT
+€_$
+3,773,845.27_CD
+while_CC
+playing_VBG ACT
+Mega_NN NNP
+Fortune™_EMO
+at_IN INother
+LeoVegas_NN NNP
+casino_NN NNP
+._.
+This_DEMO
+is_VPRT BEMA
+hot_JJPR JJPRother
+on_IN INother
+the_DT
+heels_NN NNother
+of_IN INother
+a_DT
+Mega_NN NNP
+Fortune_NN NCOMP
+Dreams_NN NNother
+jackpot_NN NCOMP
+reported_VBN COMM
+previously_TIME
+._.
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Mega_JJAT JJATother
+Fortune_NN NNother
+Dreams_NN NCOMP
+Progressive_JJAT JJATother
+Jackpot_NN NNother
+Pays_VPRT ACT
+Out_RP
+Over_RB RBother
+4_CD
+Million_CD
+Euros_NN NNother
+NetEnt_NN NNP
+,_,
+leading_VBG
+provider_NN NNHUMAN
+of_IN INother
+digital_JJAT JJATother
+gaming_NN NNother
+solutions_NN NCOMP
+,_,
+has_VPRT
+continued_PEAS ASPECT
+its_PIT
+great_JJAT JJEVAL
+start_NN NNABSPROC
+to_IN INother
+2018_CD
+after_IN INother
+another_DT
+lucky_JJAT JJATother
+player_NN NNHUMAN
+secured_VBD
+a_DT
+€_$
+4,084,430.35_CD
+jackpot_NN NNother
+while_CC
+playing_VBG ACT
+Mega_NN NNP
+Fortune_NN NNP
+Dreams_NN NNP
+progressive_JJAT JJATother
+jackpot_NN NNother
+._.
+The_DT
+life_NN NNABSPROC
+-_HYPH
+changing_VBG OCCUR
+amount_NN NNQUANT
+of_IN INother
+money_NN NNother
+was_VBD
+won_PASS PASSAll ACT
+by_IN INother
+a_DT
+Sweden_NN NNP
+-_HYPH
+based_VBN
+player_NN NNHUMAN
+whilst_CC
+playing_VBG ACT
+the_DT
+progressive_JJAT JJATother
+jackpot_NN NNother
+slot_NN NCOMP
+on_IN INother
+Unibet_NN NNP
+casino_NN NCOMP
+._.
+Mega_NN NNother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Major_NN NNP
+Millions_NN NNP
+Slot_NN NNP
+–_:
+Progressive_NN NNP
+Slot_NN NNP
+Machine_NN NNP
+The_DT
+Major_NN NNP
+Millions_NN NNP
+Slot_NN NNP
+machine_NN NCOMP
+has_VPRT SPLIT
+always_FREQ
+held_PEAS ACT
+some_QUAN
+of_IN INother
+the_DT
+largest_JJAT JJATother
+slot_NN NNother
+machine_NN NCOMP
+jackpots_NN NNother
+online_PLACE
+._.
+It_PIT
+’s_VPRT
+comes_VPRT ACT
+in_IN INother
+two_CD
+versions_NN NNABSPROC
+with_IN INother
+3_CD
+or_CC
+5_CD
+reels_NN NNother
+,_,
+the_DT
+Jackpot_NN NNother
+on_IN INother
+the_DT
+3_CD
+reel_NN NNother
+machine_NN NCOMP
+is_VPRT BEMA
+the_DT
+same_JJAT JJREL
+as_IN INother
+the_DT
+5_CD
+reel_NN NNother
+version_NN NCOMP
+and_CC
+both_QUAN
+increase_NN NNother
+at_IN INother
+the_DT
+same_JJAT JJREL
+speed_NN NNother
+._.
+Major_JJAT JJATother
+Millions_NN NNother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Mega_NN NNP
+Moolah_NN NNP
+Slot_NN NCOMP
+–_:
+Progressive_JJAT JJATother
+Slot_NN NNother
+Game_NN NCOMP
+For_IN INother
+those_DEMO
+not_XX0
+used_VBN ACT
+to_IN INother
+the_DT
+slang_NN NNother
+word_NN NCOMP
+of_IN INother
+Moolah_NN NNP
+,_,
+it_PIT
+means_VPRT COMM
+money_NN NNother
+and_CC
+there_EX
+’s_VPRT
+plenty_QUAN
+of_IN INother
+moolah_NN NNother
+to_IN INother
+be_VB
+won_PASS PASSAll ACT
+in_IN INother
+the_DT
+,_,
+safari_NN NNother
+themed_NN NCOMP
+,_,
+Mega_NN NNP
+Moolah_NN NNP
+progressive_JJAT JJATother
+slot_NN NNother
+game_NN NCOMP
+._.
+The_DT
+Mega_NN NNP
+Moolah_NN NNP
+game_NN NCOMP
+offers_VPRT COMM
+four_CD
+tiered_VBN
+jackpots_NN NNother
+in_IN INother
+combination_NN NNABSPROC
+with_IN INother
+this_DEMO
+video_NN NNCONC
+slot_NN NCOMP
+game_NN NNCONC
+’s_POS
+progressive_JJAT JJATother
+jackpot_NN NNother
+._.
+There_EX
+will_MDWS MDPREDAll
+be_VB
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+2020_CD
+has_VPRT
+been_PEAS BEMA
+disasterous_JJPR JJPRother
+so_EMPH
+far_TIME
+but_CC
+NetEnt_NN NNP
+has_VPRT
+livened_PEAS
+up_RP
+the_DT
+casino_NN NNother
+with_IN INother
+some_QUAN
+worthly_RB RBother
+slots_NN NNother
+games_NN NCOMP
+._.
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Gold_NN NNother
+Money_NN NCOMP
+Frog_NN NNother
+NetEnt_NN NNP
+is_VPRT
+ramping_PROG
+up_RP
+the_DT
+excitement_NN NOMZ
+factor_NN NCOMP
+in_IN INother
+its_PIT
+latest_JJPR JJPRother
+,_,
+enchanting_VBG
+slot_NN NNother
+release_NN NCOMP
+,_,
+Gold_NN NNP
+Money_NN NNP
+Frog™_EMO
+._.
+This_DEMO
+Asian_JJAT JJATother
+-_HYPH
+themed_JJAT JJATother
+title_NN NNother
+offers_VPRT COMM
+three_CD
+progressive_JJAT JJATother
+Jackpots_NN NNother
+._.
+At_IN INother
+first_RB RBother
+,_,
+the_DT
+name_NN NNABSPROC
+of_IN INother
+the_DT
+game_NN NNCONC
+,_,
+Gold_NN NNP
+Money_NN NCOMP
+Frog_NN NNP
+may_MDMM MDPOSSCAll
+be_VB BEMA
+a_DT
+little_JJAT JJDESCAll JJSIZE
+offputting_JJPR JJPRother
+but_CC
+players_NN NNHUMAN
+searching_VBG
+for_IN INother
+Gold_NN NNother
+trinkets_NN NCOMP
+in_IN INother
+this_DEMO
+5_CD
+-_HYPH
+reel_NN NNother
+,_,
+3_CD
+-_HYPH
+row_NN NNother
+slots_NN NCOMP
+title_NN NNother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Durian_NN NNP
+Dynamite_NN NNP
+from_IN INother
+Quickspin_NN NNP
+–_:
+Smelly_NN NNP
+Fruit_NN NNP
+Festival_NN NNP
+?_.
+When_WHSC WHSCother
+I_FPP1S FPPAll
+first_RB RBother
+heard_VBD MENTAL
+that_THSC THSCother
+Quickspin_NN NNP
+were_VBD BEMA
+in_IN INother
+the_DT
+process_NN NNABSPROC
+of_IN INother
+finalising_VBG
+a_DT
+game_NN NNCONC
+based_VBN
+on_IN INother
+the_DT
+rather_RB RBother
+strange_JJPR JJPRother
+and_CC
+often_FREQ
+smelly_JJAT JJATother
+Durian_NN NNP
+fruit_NN NCOMP
+,_,
+I_FPP1S FPPAll
+must_MDNE
+admit_VB COMM
+to_IN SPLIT
+not_XX0
+being_VBG BEMA
+over_RB RBother
+enthusiastic_JJPR JJPRother
+!_.
+Durian_NN NNP
+Dynamite_NN NNP
+looks_VPRT
+to_IN INother
+provide_VB ACT
+a_DT
+real_JJAT JJATother
+fruit_NN NNCONC
+festival_NN NCOMP
+though_CONC
+with_IN INother
+a_DT
+nicely_RB RBother
+produced_VBN ACT
+slot_NN NNother
+game_NN NCOMP
+that_THRC THRCother
+ticks_VPRT
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Turn_VB ACT
+Your_SPP2
+Fortune_NN NNother
+and_CC
+Turn_VB ACT
+Your_SPP2
+Fortune_NN NNother
+Max_NN NNP
+Slots_NN NNP
+NetEnt_NN NNP
+does_VPRT ACT
+its_PIT
+again_FREQ
+with_IN INother
+a_DT
+slot_NN NNother
+game_NN NCOMP
+offering_VBG COMM
+luxury_NN NNother
+with_IN INother
+the_DT
+launch_NN NNother
+of_IN INother
+Turn_NN NNP
+Your_SPP2
+Fortune_NN NNP
+TM_NN NNP
+–_:
+With_IN INother
+MAX_NN NNP
+version_NN NCOMP
+Inspired_VBN
+by_IN INother
+French_NN NNP
+Art_NN NNP
+Nouveau_NN NNP
+,_,
+Turn_VIMP ACT
+Your_SPP2
+Fortune_NN NNP
+TM_NN NNP
+and_CC
+Turn_VB ACT
+Your_SPP2
+Fortune_NN NNP
+MAX_NN NNP
+offers_VPRT COMM
+players_NN NNHUMAN
+an_DT
+experience_NN NNCOG
+of_IN INother
+majestic_JJAT JJATother
+grandeur_NN NNother
+,_,
+stunning_VBG
+collectable_JJAT JJATother
+symbols_NN NNABSPROC
+and_CC
+exciting_VBG
+game_NN NNCONC
+mechanics_NN NCOMP
+._.
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Berryburst_NN NNP
+MAX_NN NNP
+Times_NN NNP
+Two_CD
+Debuts_NN NNother
+Press_NN NNP
+Release_NN NNP
+–_:
+NetEnt_NN NNP
+has_VPRT
+launched_PEAS
+Berryburst_NN NNP
+and_CC
+Berryburst_NN NNP
+MAX_NN NNP
+–_:
+the_DT
+first_JJAT JJATother
+double_JJAT JJATother
+release_NN NNother
+from_IN INother
+its_PIT
+groundbreaking_VBG
+,_,
+mixed_VBN
+volatility_NN NOMZ
+product_NN NCOMP
+line_NN NNother
+._.
+Berryburst_NN NNP
+is_VPRT BEMA
+a_DT
+frenzy_NN NNother
+of_IN INother
+floating_VBG
+and_CC
+fluctuating_VBG
+fruity_JJAT JJATother
+fragments_NN NOMZ
+in_IN INother
+a_DT
+5_CD
+-_HYPH
+reel_NN NNother
+,_,
+3_CD
+-_HYPH
+row_NN NNother
+video_NN NCOMP
+slot_NN NNother
+._.
+It_PIT
+features_VPRT
+the_DT
+repeatedly_FREQ
+successful_JJAT JJATother
+Cluster_NN NNother
+Pays™_EMO
+mechanic_NN NNother
+allowing_VBG CAUSE
+players_NN NNHUMAN
+to_IN INother
+see_VB MENTAL
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+MAX_NN NNP
+Games_NN NNP
+at_IN INother
+NetEnt_NN NNP
+with_IN INother
+BerryBurst_NN NNP
+MAX_NN NNP
+NetEnt_NN NNP
+,_,
+the_DT
+innovative_JJAT JJATother
+and_CC
+slots_NN NNother
+game_NN NCOMP
+specialists_NN NNother
+are_VPRT
+expanding_PROG ACT
+their_TPP3P
+slot_NN NNother
+offering_VBG COMM
+with_IN INother
+the_DT
+launch_NN NNother
+of_IN INother
+the_DT
+MAX_NN NNP
+games_NN NCOMP
+products_NN NNother
+._.
+The_DT
+concept_NN NNCOG
+simultaneously_TIME
+caters_VPRT
+to_IN INother
+different_JJAT JJREL
+player_NN NNHUMAN
+groups_NN NCOMP
+and_CC
+their_TPP3P
+motivations_NN NOMZ
+and_CC
+allows_VPRT CAUSE
+operators_NN NNother
+to_IN INother
+address_VB COMM
+different_JJAT JJREL
+needs_NN NNCOG
+with_IN INother
+one_CD
+game_NN NNCONC
+launch_NN NCOMP
+and_CC
+marketing_NN NNABSPROC
+push_NN NCOMP
+._.
+MAX_NN NNP
+games_NN NCOMP
+are_VPRT
+released_PASS PASSAll
+in_IN INother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Asgardian_JJAT JJATother
+Stones_NN NNP
+from_IN INother
+NetEnt_NN NNP
+Set_NN NNP
+to_IN INother
+Immerse_VB
+Players_NN NNHUMAN
+in_IN INother
+a_DT
+Mythical_NN NNP
+Quest_NN NCOMP
+NetEnt_NN NNP
+,_,
+leading_VBG
+provider_NN NNHUMAN
+of_IN INother
+digital_JJAT JJATother
+gaming_NN NNother
+solutions_NN NCOMP
+,_,
+has_VPRT
+unveiled_PEAS
+its_PIT
+newest_JJAT JJATother
+fantasy_NN NNother
+-_HYPH
+based_VBN
+game_NN NNCONC
+,_,
+Asgardian_NN NNP
+Stones_NN NNP
+™_EMO
+,_,
+which_WHSC WHSCother
+delves_VPRT
+into_IN INother
+the_DT
+realms_NN NNother
+of_IN INother
+Nordic_JJAT JJATother
+mythology_NN NNother
+and_CC
+includes_VPRT EXIST
+industry_NN NNother
+first_JJAT JJATother
+crush_NN NNother
+features_NN NCOMP
+._.
+The_DT
+5_CD
+-_HYPH
+reel_NN NNother
+,_,
+3_CD
+-_HYPH
+row_NN NNother
+,_,
+20_CD
+-_HYPH
+bet_NN NNother
+lines_NN NCOMP
+video_NN NNCONC
+slot_NN NCOMP
+game_NN NNCONC
+sets_VPRT
+pulses_NN NNother
+racing_VBG
+as_IN INother
+it_PIT
+takes_VPRT ACT
+players_NN NNHUMAN
+into_IN INother
+magical_JJAT JJATother
+surroundings_NN NNother
+,_,
+where_WHSC WHSCother
+only_RB RBother
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Booming_VBG
+Games_NN NNCONC
+Debuts_NN NCOMP
+It_PIT
+’s_VPRT
+Golden_NN NNP
+Royals_NN NNP
+Slot_NN NNP
+at_IN INother
+ICE_NN NNP
+Leading_VBG
+slot_NN NNother
+developer_NN NCOMP
+Booming_NN NNP
+Games_NN NNP
+is_VPRT
+targeting_PROG
+new_JJAT JJTIME
+markets_NN NNPLACE
+and_CC
+further_JJAT JJATother
+growth_NN NNother
+this_DEMO
+year_NN NNother
+after_IN INother
+a_DT
+landmark_NN NNother
+2017_CD
+._.
+The_DT
+company_NN NNGRP
+has_VPRT
+established_PEAS
+deals_NN NNABSPROC
+with_IN INother
+major_JJAT JJATother
+operators_NN NNother
+such_JJPR JJPRother
+as_IN ELAB
+Betsson_NN NNP
+Group_NN NNP
+,_,
+Vera&John_NN NNP
+,_,
+BetClic_NN NNP
+Everest_NN NNP
+and_CC
+Aspire_NN NNP
+Global_NN NNP
+over_IN INother
+the_DT
+last_JJAT JJATother
+12_CD
+months_NN NNQUANT
+._.
+It_PIT
+enhanced_VBD
+its_PIT
+portfolio_NN NNother
+with_IN INother
+the_DT
+release_NN NNother
+of_IN INother
+a_DT
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Slotmillions_NN NNother
+–_:
+First_NN NNP
+Mega_NN NNP
+Fortune_NN NNP
+Millionaire_NN NNP
+A_DT
+Slotmillions_NN NNP
+player_NN NCOMP
+is_VPRT
+enjoying_PROG MENTAL
+a_DT
+Mega_NN NNP
+Fortune_NN NNP
+win_NN NCOMP
+after_IN INother
+the_DT
+NetEnt_NN NNP
+slot_NN NCOMP
+game_NN NNCONC
+paid_VBD ACT
+out_RP
+a_DT
+2018_CD
+perfect_JJAT JJATother
+start_NN NNABSPROC
+progressive_JJAT JJATother
+jackpot_NN NNother
+of_IN INother
+€_$
+2,553,604.67_CD
+while_CC
+spinning_VBG
+the_DT
+reels_NN NNother
+on_IN INother
+the_DT
+progressive_JJAT JJATother
+jackpot_NN NNother
+slot_NN NCOMP
+,_,
+Mega_NN NNP
+Fortune™_EMO
+,_,
+a_DT
+regular_JJAT JJATother
+Millionaire_NN NNother
+maker_NN NCOMP
+._.
+The_DT
+€_$
+2.5_CD
+m_CD
+prize_NN NNother
+was_VBD
+claimed_PASS PASSAll COMM
+by_IN INother
+a_DT
+UK_NN NNP
+-_HYPH
+based_VBN
+player_NN NNHUMAN
+,_,
+who_WHSC WHSCother
+wishes_VPRT MENTAL
+…_:
+Read_VIMP MENTAL
+More_QUAN
+»_''
+Slot_NN NNother
+Game_NN NCOMP
+Jackpots_NN NNother
+Hit_VB
+321_CD
+for_IN INother
+NetEnt_NN NNP
+in_IN INother
+2017_CD
+NetEnt_NN NNP
+reveals_VPRT EXIST
+that_THSC THSCother
+321_CD
+slot_NN NNother
+game_NN NCOMP
+jackpots_NN NNother
+were_VBD
+paid_PASS PASSAll ACT
+out_RP
+during_IN INother
+2017_CD
+–_:
+amounting_VBG
+to_IN INother
+€_$
+78.3_CD
+million_CD
+._.
+Mega_NN NNP
+Fortune™_EMO
+,_,
+Mega_NN NNP
+Fortune_NN NNP
+Dreams™_EMO
+,_,
+Arabian_NN NNP
+Nights_NN NNP
+™_EMO
+and_CC
+Hall_NN NNP
+of_IN INother
+Gods™_EMO
+are_VPRT
+NetEnt_NN NNP
+’s_POS
+four_CD
+global_JJAT JJATother
+accumulative_JJAT JJATother
+jackpot_NN NNother
+games_NN NCOMP
+._.
+Together_RB RBother
+they_TPP3P
+give_VPRT ACT
+operators_NN NNother
+access_NN NCOMP
+to_IN INother
+the_DT
+largest_JJAT JJATother
+online_PLACE
+slot_NN NNother
+game_NN NCOMP
+jackpots_NN NNother
+in_IN INother
+the_DT
+iGaming_NN NNother
+…_,
+Read_VIMP MENTAL
+More_QUAN
+»_''

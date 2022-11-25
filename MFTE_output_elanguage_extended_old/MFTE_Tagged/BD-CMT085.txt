@@ -1,0 +1,2310 @@
+we_FPP1P FPPAll
+never_FREQ
+learnt_VBD MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVMNTL
+value_VB
+our_FPP1P FPPAll
+history_NN NNother
+and_CC
+culture_NN NNABSPROC
+There_EX
+are_VPRT
+only_RB RBother
+1296_CD
+governmentd_JJAT JJATother
+dental_JJAT JJATother
+surgeon_NN NNother
+whole_NN NCOMP
+over_IN INother
+the_DT
+country_NN NNPLACE
+._.
+That_DEMO
+'s_VPRT CONT
+why_WHSC WHSCother
+Bangladeshi_NN NNP
+are_VPRT
+being_PROG
+deprive_VB
+of_IN INother
+dental_JJAT JJATother
+treatment_NN NNABSPROC
+officially_RB RBother
+._.
+So_SO
+it_PIT
+’s_POS
+necessary_JJPR JJREL
+and_CC
+urgency_NN NNother
+to_IN INother
+requirement_NN NSTNCother
+300_CD
+dental_JJAT JJATother
+surgeon_NN NNother
+for_IN INother
+the_DT
+country_NN NNPLACE
+as_IN INother
+proposed_VBN COMM
+by_IN INother
+DGHS_NN NNP
+._.
+We_FPP1P FPPAll
+have_VPRT
+been_PEAS
+deprive_VPRT
+._.
+We_FPP1P FPPAll
+want_VPRT MENTAL
+Justic_NN NNP
+._.
+Lots_QUAN
+of_IN INother
+thanks_CUZ
+to_IN INother
+"_``
+The_DT
+Daily_NN NNP
+Star_NN NNP
+"_''
+for_IN INother
+covering_VBG ACT
+such_EMPH
+a_DT
+crying_VBG
+need_NN NNCOG
+issue_NN NCOMP
+._.
+._.
+i_FPP1S FPPAll
+hope_VPRT MENTAL
+govt.will_URL
+recruit_NN NNother
+sufficient_JJAT JJATother
+amount_NN NNQUANT
+of_IN INother
+dental_JJAT JJATother
+surgeons_NN NNother
+to_IN INother
+ensure_VB CAUSE
+the_DT
+dental_JJAT JJATother
+health_NN NNABSPROC
+of_IN INother
+our_FPP1P FPPAll
+citizens_NN NNHUMAN
+._.
+Finally_RB RBother
+,_,
+a_DT
+good_JJAT JJEVAL
+initiative_NN NNother
+,_,
+better_JJPR JJPRother
+than_IN INother
+banning_VBG
+PUBG_NN NNother
+._.
+first_RB RBother
+of_IN INother
+all_QUAN
+its_PIT
+spelled_VBN
+breathalyzer_NN NNother
+..._,
+second_RB RBother
+would_MDWO MDPREDAll
+love_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+see_VB MENTAL
+more_QUAN
+of_IN INother
+these_DEMO
+in_IN INother
+Daulatdia_NN NNP
+,_,
+so_SO
+when_WHSC WHSCother
+a_DT
+Poteeta_NN NNP
+tells_VPRT COMM
+me_FPP1S FPPAll
+she_TPP3S
+loves_VPRT MENTAL
+me_FPP1S FPPAll
+,_,
+I_FPP1S FPPAll
+can_MDCA MDPOSSCAll
+find_VB VFCTother
+out_RP
+is_VPRT BEMA
+she_TPP3S
+drunk_JJPR JJPRother
+or_CC
+does_VPRT DOAUX
+she_TPP3S
+mean_VB COMM
+it_PIT
+If_COND
+the_DT
+waterway_NN NNother
+is_VPRT
+brought_PASS PASSAll ACT
+back_RB RBother
+to_IN INother
+life_NN NNABSPROC
+as_IN INother
+the_DT
+rivers_NN NNPLACE
+and_CC
+water_NN NNCONC
+features_NN NCOMP
+are_VPRT BEMA
+a_DT
+living_VBG EXIST
+entity_NN NOMZ
+Bangaldeshis_NN NNP
+will_MDWS MDPREDAll
+benefit_VB
+immensely_RB RBother
+._.
+Good_JJAT JJEVAL
+wellbeing_NN NNother
+,_,
+pleasant_JJAT JJATother
+landscape_NN NNother
+,_,
+increased_VBN OCCUR
+price_NN NNother
+of_IN INother
+houses_NN NNGRP
+as_IN INother
+people_NN NNHUMAN
+like_LIKE
+water_NN NNCONC
+features_NN NCOMP
+,_,
+less_QUAN
+mosquitos_NN NNother
+,_,
+less_QUAN
+disease_NN NNother
+and_CC
+better_JJAT JJATother
+standard_NN NNABSPROC
+of_IN INother
+living_NN NNother
+._.
+our_FPP1P FPPAll
+brother_NN NNHUMAN
+and_CC
+sister_NN NNHUMAN
+who_WHSC WHSCother
+died_VBD OCCUR
+in_IN INother
+the_DT
+accident_NN NNother
+will_MDWS MDPREDAll SPLIT
+never_FREQ
+come_VB ACT
+back_RB RBother
+to_IN INother
+life_NN NNABSPROC
+to_IN INother
+enjoy_VB MENTAL
+safe_JJAT JJATother
+road_NN NNPLACE
+system_NN NCOMP
+,_,
+and_CC
+to_IN INother
+attend_VB
+every_QUAN
+-_HYPH
+day_NN NNQUANT
+college_NN NCOMP
+class_NN NNPLACE
+..._:
+oh_FPUH
+oh_FPUH
+my_FPP1S FPPAll
+Allah_NN NNP
+can_MDCA MDPOSSCAll
+not_XX0
+bear_VB MENTAL
+the_DT
+pain_NN NNother
+in_IN INother
+our_FPP1P FPPAll
+heart_NN NNCONC
+._.
+At_IN INother
+least_EMPH
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+not_XX0
+have_VB
+any_QUAN
+threaht_NN NNother
+from_IN INother
+terrorism_NN NNother
+attacks_NN NCOMP
+._.
+We_FPP1P FPPAll
+are_VPRT BEMA
+very_AMP
+certain_JJPR JJEPSTother
+peacefully_RB RBother
+._.
+Like_LIKE
+Sweden_NN NNP
+president_NN NCOMP
+or_CC
+Austrian_JJAT JJATother
+president_NN NNHUMAN
+carrying_VBG ACT
+his_TPP3S
+luggages_NN NNother
+without_IN INother
+any_QUAN
+body_NN NNCONC
+guard_NN NCOMP
+at_IN INother
+railway_NN NNother
+station_NN NCOMP
+._.
+How_WHSC WHSCother
+good_JJPR JJEVAL
+._.
+Hi_FPUH
+world_NN NNother
+we_FPP1P FPPAll
+and_CC
+you_SPP2
+are_VPRT
+secured_PASS PASSAll
+in_IN INother
+this_DEMO
+country_NN NNPLACE
+now.Any_QUAN
+international_JJAT JJATother
+games_NN NNCONC
+and_CC
+events_NN NNother
+can_MDCA MDPOSSCAll
+be_VB
+performed_PASS PASSAll
+here_PLACE
+._.
+So_SO
+do_VB DOAUX
+n't_XX0 CONT
+worry_VB MENTAL
+._.
+Very_AMP
+interesting_JJPR JJPRother
+and_CC
+thought_VBD MENTAL
+provoking_VBG
+._.
+But_CC
+will_MDWS MDPREDAll
+the_DT
+concerned_JJAT JJATDother
+authority_NN NNABSPROC
+take_VB ACT
+their_TPP3P
+lessons_NN NNother
+,_,
+feel_VIMP MENTAL
+ashamed_JJPR JJPRother
+and_CC
+think_VIMP MENTAL
+of_IN INother
+bringing_VBG ACT
+some_QUAN
+changes_NN NNABSPROC
+?_.
+Number_NN NNQUANT
+of_IN INother
+imported_VBN
+cars_NN NNCONC
+must_MDNE
+be_VB
+limited_PASS PASSAll
+including_VBG EXIST
+the_DT
+duty_NN NNother
+free_JJAT JJATother
+cars_NN NNCONC
+by_IN INother
+some_QUAN
+over_IN INother
+previleged_JJAT JJATother
+group_NN NNother
+like_LIKE
+MPS_NN NNP
+and_CC
+when_WHSC WHSCother
+even_RB RBother
+no_DMA
+longer_RB RBother
+an_DT
+mp_NN NNother
+have_MDNE
+to_IN INother
+be_VB
+stopped_PASS PASSAll ASPECT
+._.
+THis_NN NNother
+creates_VPRT
+more_QUAN
+poverty_NN NNother
+in_IN INother
+the_DT
+povertty_NN NNother
+stricken_VBN
+country_NN NNPLACE
+._.
+General_NN NNP
+awareness_NN NCOMP
+of_IN INother
+traffic_NN NNother
+rules_NN NCOMP
+shiould_VBD
+be_VB
+pulicised_PASS PASSAll
+at_IN INother
+all_QUAN
+levels_NN NNABSPROC
+._.
+perfect_JJAT JJATother
+order_NN NNABSPROC
+by_IN INother
+court_NN NNPLACE
+First_RB RBother
+make_VB ACT
+sure_JJPR JJEPSTother
+there_EX
+are_VPRT
+enough_JJAT JJATother
+road_NN NNPLACE
+markings_NN NCOMP
+and_CC
+sign_VB COMM
+on_IN INother
+the_DT
+roads_NN NNPLACE
+the_DT
+cameras_NN NNCONC
+are_VPRT
+being_PROG
+implemented_PASS PASSAll
+._.
+I_FPP1S FPPAll
+wish_VPRT MENTAL
+more_QUAN
+photos_NN NNother
+were_VBD
+included_PASS PASSAll EXIST
+._.
+At_IN INother
+least_EMPH
+they_TPP3P
+are_VPRT
+taking_PROG ACT
+some_QUAN
+necessarysteps_NN NNother
+*_SYM
+sigh_NN NNother
+*_SYM
+Delhi_NN NNP
+is_VPRT BEMA
+the_DT
+champion_NN NNother
+._.
+What_WHSC WHSCother
+is_VPRT
+Modi_NN NNP
+doing_PROG ACT
+all_QUAN
+these_DEMO
+years_NN NNother
+?_.
+All_QUAN
+smoke_NN NNother
+coming_VBG ACT
+from_IN INother
+Punjab_NN NNP
+after_IN INother
+harvest_NN NNother
+season_NN NCOMP
+??_.
+It_PIT
+is_VPRT BEMA
+very_AMP
+good_JJAT JJEVAL
+news_NN NSTNCother
+that_THSC THSCother
+Govt_NN NNother
+constructed_VBN
+exclusive_JJAT JJATother
+bicyce_NN NNother
+lane_NN NCOMP
+._.
+However_CC
+,_,
+if_COND
+entire_JJAT JJREL
+city_NN NNPLACE
+is_VPRT
+not_XX0
+connected_PASS PASSAll
+through_IN INother
+this_DEMO
+lane_NN NNother
+,_,
+its_PIT
+usage_NN NNother
+will_MDWS MDPREDAll
+be_VB
+devlaued_PASS PASSAll
+._.
+very_AMP
+good_JJAT JJEVAL
+initiative_NN NNother
+need_VPRT MENTAL
+such_JJAT JJATother
+lane_NN NNother
+in_IN INother
+every_QUAN
+roads_NN NNPLACE
+._.
+Just_RB EMPH
+!!!_.
+Freeing_VBG
+foot_NN NNCONC
+path_NN NCOMP
+is_VPRT BEMA
+the_DT
+demand_NN NNABSPROC
+._.
+why_WHSC WHSCother
+6_CD
+feet_NN NNCONC
+whilst_CC
+international_JJAT JJATother
+standard_NN NNABSPROC
+is_VPRT BEMA
+for_IN INother
+5_CD
+feet_NN NNCONC
+only_RB RBother
+!_.
+eventually_TIME
+rickshaw_NN NNother
+,_,
+van_NN NNother
+,_,
+motorbike_NN NNother
+as_IN INother
+such_JJPR JJPRother
+will_MDWS MDPREDAll
+be_VB
+running_PROG ACT
+through_IN INother
+these_DEMO
+lanes_NN NNother
+Poor_JJAT JJEVAL
+condition_NN NNABSPROC
+of_IN INother
+foot_NN NNCONC
+path_NN NCOMP
+is_VPRT BEMA
+a_DT
+BIG_JJAT JJDESCAll JJSIZE
+hurdle_NN NNother
+for_IN INother
+common_JJAT JJATother
+people_NN NNHUMAN
+which_WHSC WHSCother
+must_MDNE
+be_VB
+cleaned_PASS PASSAll ACT
+giving_VBG ACT
+topmost_JJAT JJATother
+priority_NN NOMZ
+._.
+Bicycle_NN NNother
+lanes_NN NCOMP
+are_VPRT
+also_CC
+most_RB EMPH
+essential_JJPR JJPRother
+for_IN INother
+common_JJAT JJATother
+mass_NN NNother
+._.
+These_DEMO
+will_MDWS MDPREDAll
+contribute_VB
+to_IN INother
+ease_VB
+the_DT
+present_JJAT JJATother
+traffic_NN NNother
+jam_NN NCOMP
+._.
+A_DT
+lot_QUAN
+of_IN INother
+people_NN NNHUMAN
+will_MDWS MDPREDAll
+move_VB ACT
+by_IN INother
+bicycle_NN NNother
+and_CC
+feet_NN NNCONC
+._.
+Rush_NN NNother
+in_IN INother
+public_JJAT JJREL
+transport_NN NNother
+and_CC
+rickshaw_NN NNother
+will_MDWS MDPREDAll
+be_VB
+reduced_PASS PASSAll ACT
+,_,
+present_JJAT JJATother
+practice_NN NNABSPROC
+of_IN INother
+using_VBG ACT
+main_JJAT JJREL
+roads_NN NNPLACE
+by_IN INother
+pedestrian_NN NNother
+(_-LRB-
+compelled_VBN
+due_IN INother
+to_IN INother
+blocked_VBN
+footpaths_NN NNother
+)_-RRB-
+will_MDWS MDPREDAll SPLIT
+also_CC
+be_VB
+reduced_PASS PASSAll ACT
+and_CC
+more_QUAN
+space_NN NNCONC
+in_IN INother
+the_DT
+main_JJAT JJREL
+roads_NN NNPLACE
+will_MDWS MDPREDAll
+be_VB BEMA
+available_JJPR JJPRother
+._.
+Bicycle_NN NNother
+lane_NN NCOMP
+is_VPRT BEMA
+as_IN INother
+important_JJPR JJPRother
+as_IN INother
+the_DT
+Metro_NN NNP
+Rail_NN NNP
+._.
+Time_NN NNQUANT
+to_IN INother
+invest_VB
+on_IN INother
+the_DT
+cycle_NN NNQUANT
+lane_NN NCOMP
+:)_NFP
+More_QUAN
+bangladeshis_NN NNHUMAN
+need_MDNE
+to_IN INother
+get_VB
+on_IN INother
+a_DT
+bike_NN NNother
+._.
+Bikes_NN NNother
+were_VBD BEMA
+a_DT
+cultural_JJAT JJATother
+icon_NN NNother
+in_IN INother
+China_NN NNP
+but_CC
+with_IN INother
+economic_JJAT JJATother
+growth_NN NNother
+cars_NN NCOMP
+have_VPRT
+become_PEAS OCCUR
+a_DT
+major_JJAT JJATother
+source_NN NNABSPROC
+of_IN INother
+pollution_NN NOMZ
+in_IN INother
+cities_NN NNPLACE
+._.
+In_IN INother
+Western_JJAT JJATother
+countries_NN NNPLACE
+like_LIKE
+UK_NN NNP
+cycle_NN NCOMP
+lanes_NN NNother
+are_VPRT
+being_PROG
+built_PASS PASSAll
+at_IN INother
+a_DT
+tremendous_JJAT JJATother
+pace_NN NNother
+,_,
+London_NN NNP
+must_MDNE
+have_VB
+upwards_PLACE
+of_IN INother
+20_CD
+km_NN NNother
+of_IN INother
+cycle_NN NNQUANT
+lanes_NN NCOMP
+in_IN INother
+narrow_JJAT JJDESCAll JJSIZE
+roads_NN NNPLACE
+built_VBN
+during_IN INother
+the_DT
+Victorian_JJAT JJATother
+era_NN NNother
+._.
+The_DT
+popularity_NN NOMZ
+of_IN INother
+cycling_NN NNother
+as_IN INother
+a_DT
+means_NN NNother
+of_IN INother
+commuting_NN NNother
+,_,
+exercise_NN NNABSPROC
+and_CC
+a_DT
+recreational_JJAT JJATother
+activity_NN NNABSPROC
+is_VPRT BEMA
+wonderful_JJPR JJPRother
+._.
+The_DT
+UK_NN NNP
+was_VBD SPLIT
+never_FREQ
+known_PASS PASSAll MENTAL
+to_IN INother
+be_VB BEMA
+cycle_NN NNQUANT
+friendly_JJPR JJPRother
+,_,
+London_NN NNP
+is_VPRT BEMA
+famous_JJPR JJPRother
+for_IN INother
+old_JJAT JJTIME
+victorian_JJAT JJATother
+narrow_JJAT JJDESCAll JJSIZE
+roads_NN NNPLACE
+however_CC
+it_PIT
+has_VPRT
+managed_PEAS
+to_IN INother
+introduce_VB
+cycle_NN NNQUANT
+lanes_NN NCOMP
+._.
+what_WHQU
+was_VBD BEMA
+their_TPP3P
+fault_NN NNother
+?_.
+let_VIMP CAUSE
+us_FPP1P FPPAll
+see_VB MENTAL
+their_TPP3P
+literature_NN NNother
+/_HYPH
+content_NN NNABSPROC
+please_FPUH POLITE
+Mr._NN NNP
+Correspondant_NN NNP
+,_,
+Avoid_VIMP
+the_DT
+word_NN NNTECH
+Harijan_NN NNP
+to_IN INother
+address_VB COMM
+to_IN INother
+Scheduled_JJAT JJATother
+Castes_NN NNother
+._.
+It_PIT
+is_VPRT
+prohibited_PASS PASSAll
+by_IN INother
+the_DT
+Central_NN NNP
+Govt._NN NNP
+in_IN INother
+1982_CD
+._.
+I_FPP1S FPPAll
+have_VPRT
+a_DT
+simple_JJAT JJATother
+question_NN NNABSPROC
+to_IN INother
+Swiss_JJAT JJATother
+Ambassador_NN NNP
+;_:
+NO_XX0
+offence_NN NNother
+I_FPP1S FPPAll
+mean_VPRT COMM
+._.
+My_FPP1S FPPAll
+question_NN NNABSPROC
+is_VPRT
+:_:
+When_WHSC WHSCother
+Bangladesh_NN NNP
+is_VPRT
+going_GTO MDPREDAll
+to_IN INother
+be_VB BEMA
+the_DT
+"_``
+Switzerland_NN NNP
+of_IN INother
+the_DT
+East_NN NNP
+"_''
+?_. YNQU
+Hope_NN NSTNCother NNP
+Bangladesh_NN NNP
+can_MDCA MDPOSSCAll
+have_VB
+atleast_RB RBother
+a_DT
+few_QUAN
+banks_NN NNGRP
+soon_TIME
+like_LIKE
+Switzerland_NN NNP
+so_SO
+that_THSC CUZ
+Asian_JJAT JJATother
+thieves_NN NNother
+need_VPRT MENTAL
+not_XX0
+travel_VB
+to_IN INother
+Switzerland_NN NNP
+with_IN INother
+their_TPP3P
+ill_JJPR JJPRother
+earned_VBN ACT
+money_NN NNother
+._.
+There_EX
+is_VPRT
+no_XX0
+second_JJAT JJATother
+thought_NN NSTNCother
+or_CC
+consulting_VBG COMM
+anyone_QUPR
+responsible_JJPR JJPRother
+and_CC
+knwledgable_JJPR JJPRother
+about_IN INother
+trees_NN NNCONC
+and_CC
+environment_NN NNPLACE
+._.
+One_CD
+fine_JJAT JJEVAL
+day_NN NNQUANT
+again_FREQ
+we_FPP1P FPPAll
+shall_MDWS MDPREDAll
+read_VB MENTAL
+about_RB RBother
+Jahngirngr_NN NNP
+University_NN NNP
+doing_VBG ACT
+the_DT
+same_JJAT JJREL
+destruction_NN NOMZ
+by_IN INother
+educated_JJAT JJATother
+people_NN NNHUMAN
+._.
+Trees_NN NNCONC
+and_CC
+its_PIT
+branches_NN NNCONC
+/_,
+foliage_NN NNother
+takes_VPRT ACT
+years_NN NNother
+to_IN INother
+grow_VB OCCUR
+,_,
+chopped_VBN
+in_IN INother
+minutes_NN NNQUANT
+!_.
+fantastic_JJAT JJATother
+symbol_NN NNABSPROC
+can_MDCA MDPOSSCAll
+bring_VB ACT
+peace_NN NNother
+in_IN INother
+Bangladesh_NN NNP
+by_IN INother
+upcoming_JJAT JJATother
+nation_NN NOMZ
+election_NN NCOMP
+._.
+Well_DMA
+done_VBN ACT
+,_,
+many_QUAN
+thanks_NN POLITE
+May_NN NNP
+Allah_NN NNP
+grant_VB
+her_TPP3S
+._.
+This_DEMO
+article_NN NNother
+is_VPRT BEMA
+incomplete_JJPR JJPRother
+._.
+Good_JJPR JJEVAL
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+know_VB MENTAL
+this_DEMO
+kind_NN NNABSPROC
+of_IN INother
+role_NN NNABSPROC
+._.
+There_EX
+are_VPRT
+only_RB RBother
+a_DT
+few_QUAN
+Multistory_JJAT JJATother
+structure_NN NNABSPROC
+like_LIKE
+this_DEMO
+in_IN INother
+the_DT
+world_NN NNother
+._.
+A_DT
+Multistory_JJAT JJATother
+Truck_NN NNP
+Terminal_NN NNP
+is_VPRT BEMA
+not_XX0
+a_DT
+feasible_JJAT JJATother
+proposal_NN NNABSPROC
+at_IN PrepNSTNC
+Tejgaon_NN NNP
+._.
+Good_JJAT JJEVAL
+idea_NN NSTNCother
+,_,
+that_DEMO
+is_VPRT BEMA
+new_JJAT JJTIME
+concept_NN NNCOG
+DNCC_NN NNP
+,_,
+#happyEidMobarak_HST
+Thanks_NN POLITE
+for_IN INother
+development_NN NNABSPROC
+our_FPP1P FPPAll
+country_NN NNPLACE
+also_CC
+many_QUAN
+many_QUAN
+thanks_NN POLITE
+for_IN INother
+revamp_VB
+ancient_JJAT JJATother
+playground_NN NNother
+._.
+Very_AMP
+sad_JJPR JJPRother
+._.
+May_MDMM MDPOSSCAll
+his_TPP3S
+soul_NN NNother
+rest_NN NCOMP
+in_IN INother
+peace_NN NNother
+._.
+Hand_NN NNP
+sanitizer_NN NCOMP
+contains_VPRT EXIST
+atleast_RB RBother
+70_CD
+%_NN NNother
+Alcohol_NN NNCONC
+which_WHSC WHSCother
+is_VPRT BEMA
+highly_AMP
+inflammable_JJPR JJPRother
+._.
+All_QUAN
+should_MDNE
+take_VB ACT
+note_NN NNCONC
+._.
+Dear_JJAT JJATother
+15_CD
+media_NN NNother
+personalities_NN NCOMP
+,_,
+Need_VPRT MENTAL
+relocation_NN NOMZ
+and_CC
+birth_NN NNABSPROC
+control_NN NCOMP
+must_MDNE
+for_IN INother
+stray_JJAT JJATother
+dogs_NN NNother
+._.
+They_TPP3P
+could_MDCO MDPOSSCAll
+not_XX0
+recover_VB
+the_DT
+192_CD
+railway_NN NNother
+stingers_NN NCOMP
+and_CC
+220_CD
+roadway_NN NNother
+decks_NN NCOMP
+from_IN INother
+the_DT
+river_NN NNPLACE
+?_.
+What_WHSC WHSCother
+a_DT
+waste_NN NNother
+of_IN INother
+public_JJAT JJREL
+money_NN NNother
+._.
+Shows_VPRT ACT
+lack_NN NNother
+of_IN INother
+responsibility_NN NSTNCother
+and_CC
+mismanagement_NN NOMZ
+What_WHSC WHSCother
+is_VPRT BEMA
+a_DT
+'_``
+stinger_NN NNother
+'_''
+?_.
+A_DT
+scorpion_NN NNother
+._.
+You_SPP2
+can_MDCA MDPOSSCAll
+get_VB
+all_QUAN
+photos_NN NNother
+from_IN INother
+Google_NN NNP
+Map_NN NNP
+,_,
+those_DEMO
+days_NN NNQUANT
+are_VPRT
+gone_PASS PASSAll
+when_WHSC WHSCother
+you_SPP2
+need_VPRT MENTAL
+a_DT
+phototo_NN NNother
+be_VB
+taken_PASS PASSAll ACT
+at_IN INother
+ground_NN NSTNCother
+level_NN NCOMP
+._.
+Get_VB
+real_JJPR JJPRother
+._.
+We_FPP1P FPPAll
+are_VPRT BEMA
+much_QUAN
+talked_VBD COMM
+about_IN INother
+the_DT
+new_JJAT JJTIME
+stapes_NN NNother
+,_,
+But_CC
+nobodies_NN NNother
+mentioned_VBD COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+why_WHSC WHSCother
+the_DT
+Bangladesh_NN NNP
+National_NN NNP
+Building_NN NNP
+Code_NN NNP
+-_HYPH
+BNBC_NN NNP
+does_VPRT DOAUX
+not_XX0
+publish_VB
+the_DT
+gadget_NN NNother
+even_RB RBother
+after_IN INother
+the_DT
+approval_NN NNother
+by_IN INother
+the_DT
+cabinet_NN NNother
+in_IN INother
+2017_CD
+?_.
+What_WHSC WHSCother
+was_VBD BEMA
+the_DT
+interest_NN NNABSPROC
+under_IN INother
+it_PIT
+?_.
+who_WHQU
+are_VPRT BEMA
+the_DT
+big_JJAT JJDESCAll JJSIZE
+fish_NN NNCONC
+behind_IN INother
+it_PIT
+?_.
+Case_NN NNP
+filers_NN NCOMP
+must_MDNE
+be_VB
+ruling_PROG
+party_NN NNother
+people_NN NCOMP
+who_WHSC WHSCother
+actually_DMA
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+grab_VB
+these_DEMO
+._.
+Very_AMP
+sad_JJPR JJPRother
+Can_MDCA MDPOSSCAll
+it_PIT
+dual_JJAT JJATother
+language_NN NNABSPROC
+-_HYPH
+Bangla_NN NNother
+and_CC
+English_NN NNP
+?_. YNQU
+The_DT
+same_JJAT JJREL
+Old_NN NNP
+Story_NN NNP
+,_,
+repeating_VBG ACT
+and_CC
+getting_VBG
+Bigger_JJPR JJPRother
+and_CC
+Worse_JJPR JJPRother
+with_IN INother
+time_NN NNQUANT
+._.
+We_FPP1P FPPAll
+may_MDMM MDPOSSCAll
+build_VB
+weirs_NN NNother
+on_IN INother
+the_DT
+canals_NN NNother
+to_IN INother
+slow_VB
+down_RP
+the_DT
+excessive_JJAT JJATother
+flow_NN NNABSPROC
+of_IN INother
+post-storm_JJAT JJATother
+water_NN NNCONC
+._.
+This_DEMO
+can_MDCA MDPOSSCAll SPLIT
+only_RB RBother
+happen_VB OCCUR
+in_IN INother
+Dhaka_NN NNP
+University_NN NNP
+._.
+They_TPP3P
+retained_VBD
+the_DT
+professors_NN NNHUMAN
+but_CC
+plan_NN NNABSPROC
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+expel_VB
+the_DT
+students_NN NNHUMAN
+now_TIME
+-_:
+how_WHSC WHSCother
+wonderful_JJPR JJPRother
+?_.
+._.
+The_DT
+incident_NN NNother
+is_VPRT BEMA
+confusing_JJPR JJPRother
+._.
+Is_VPRT
+Ms._NN NNP
+Oishee_NN NNP
+Khan_NN NNP
+Covid_NN NNP
+-_HYPH
+19_CD
+positive_JJPR JJEPSTother
+or_CC
+not_XX0
+?_. YNQU
+Based_VBN
+on_IN INother
+her_TPP3S
+COVID_NN NNother
+-_HYPH
+19_CD
+latest_JJAT JJATother
+test_NN NNABSPROC
+result_NN NSTNCother NCOMP
+,_,
+she_TPP3S
+should_MDNE
+either_CC
+fly_VB
+to_IN INother
+London_NN NNP
+or_CC
+seek_VB
+medical_JJAT JJTOPIC
+treatment_NN NNABSPROC
+._.
+I_FPP1S FPPAll
+wish_VPRT MENTAL
+her_TPP3S
+the_DT
+best_JJAT EMPH
+._.
+is_VPRT BEMA
+this_DEMO
+an_DT
+isolated_VBN
+incidence_NN NNother
+?_. YNQU
+When_WHQU
+will_MDWS MDPREDAll
+start_VB ASPECT
+e-passport_NN NNother
+?_.
+excellent_JJPR JJPRother
+This_DEMO
+is_VPRT BEMA
+the_DT
+danger_NN NNother
+area_NN NCOMP
+._.
+The_DT
+1897_CD
+Great_JJAT JJEVAL
+Indian_JJAT JJATother
+Earthquake_NN NNother
+,_,
+measuring_VBG
+8.7_CD
+on_IN INother
+the_DT
+Richter_NN NNP
+scale_NN NCOMP
+,_,
+caused_VBD CAUSE
+about_HDG
+20_CD
+metres_NN NNother
+of_IN INother
+pop_NN NNother
+-_HYPH
+up_NN NNother
+in_IN INother
+a_DT
+few_QUAN
+seconds_NN NNQUANT
+along_IN INother
+the_DT
+Dauki_NN NNP
+Fault_NN NNP
+in_IN INother
+Meghalaya_NN NNP
+._.
+The_DT
+earthquake_NN NNother
+severely_RB RBother
+damaged_VBN
+Sylhet_NN NNP
+&_CC
+other_JJAT JJATother
+northern_JJAT JJATother
+towns_NN NNother
+,_,
+devastating_VBG
+an_DT
+area_NN NNPLACE
+of_IN INother
+150,000_CD
+square_JJAT JJATother
+miles_NN NNQUANT
+,_,
+including_VBG EXIST
+the_DT
+region_NN NNPLACE
+that_THRC THRCother
+is_VPRT BEMA
+now_TIME
+in_IN INother
+north_PLACE
+Bangladesh_NN NNP
+._.
+There_EX
+was_VBD
+widespread_JJAT JJATother
+liquefaction_NN NOMZ
+in_IN INother
+the_DT
+Sylhet_NN NNP
+floodplains_NN NCOMP
+,_,
+which_WHSC WHSCother
+would_MDWO MDPREDAll
+it_PIT
+to_IN INother
+happen_VB OCCUR
+now_TIME
+,_,
+would_MDWO MDPREDAll
+bring_VB ACT
+down_RP
+most_RB EMPH
+buildings_NN NNPLACE
+._.
+Buildings_NN NNPLACE
+in_IN INother
+Dhaka_NN NNP
+were_VBD SPLIT
+also_CC
+destroyed_PASS PASSAll
+._.
+If_COND
+this_DEMO
+same_JJAT JJREL
+earthquake_NN NNother
+happened_VBD OCCUR
+today_TIME
+,_,
+it_PIT
+would_MDWO MDPREDAll
+be_VB BEMA
+catastrophic_JJPR JJPRother
+._.
+There_EX
+is_VPRT
+also_CC
+evidence_NN NNother
+of_IN INother
+regular_JJAT JJATother
+historic_JJAT JJATother
+strong_JJAT JJATother
+earthquakes_NN NNother
+in_IN INother
+the_DT
+surrounding_VBG
+areas_NN NNPLACE
+just_RB EMPH
+north_PLACE
+,_,
+N.E._NN NNP
+&_CC
+N.W._NN NNP
+of_IN INother
+Bangladesh_NN NNP
+that_THRC THRCother
+have_VPRT
+affected_PEAS CAUSE
+many_QUAN
+northern_JJAT JJATother
+cities_NN NNPLACE
+&_CC
+towns_NN NNother
+of_IN INother
+Bangladesh_NN NNP
+._.
+Congratulations_NN NOMZ
+sir_NN NCOMP
+We_FPP1P FPPAll
+are_VPRT BEMA
+proud_JJAT JJATother
+sir_NN NNother
+._.
+This_DEMO
+is_VPRT BEMA
+an_DT
+ill_JJAT JJATother
+motivated_JJAT JJATother
+statement_NN NNTECH
+from_IN PrepNSTNC
+BEZA_NN NNP
+._.
+Hon’ble_JJAT JJATother
+Prime_NN NNP
+Minister_NN NNP
+needs_MDNE
+to_IN INother
+intervene_VB
+in_IN INother
+this_DEMO
+issue_NN NNABSPROC
+._.
+Otherwise_COND
+,_,
+I_FPP1S FPPAll
+am_VPRT BEMA
+afraid_JJPR JJATDother
+,_,
+it_PIT
+will_MDWS MDPREDAll
+become_VB OCCUR
+similar_JJAT JJREL
+episode_NN NNother
+of_IN INother
+Singur_NN NNP
+/_HYPH
+Nandigram_NN NNP
+of_IN INother
+West_NN NNP
+Bengal_NN NNP
+in_IN INother
+India_NN NNP
+._.
+Construction_NN NNABSPROC
+looks_VPRT
+like_LIKE
+in_IN INother
+good_JJAT JJEVAL
+progress_NN NNABSPROC
+._.
+wha_IN INother
+a_DT
+brutality_NN NOMZ
+!_.
+Nusrat_NN NNP
+you_SPP2
+have_VPRT
+gone_PEAS
+forever_RB RBother
+but_CC
+you_SPP2
+were_VBD
+,_,
+you_SPP2
+are_VPRT
+&_CC
+you_SPP2
+will_MDWS MDPREDAll
+alive_JJPR JJPRother
+among_IN INother
+us_FPP1P FPPAll
+._.
+we_FPP1P FPPAll
+will_MDWS MDPREDAll SPLIT
+never_FREQ
+forget_VB MENTAL
+you_SPP2
+because_CUZ
+you_SPP2
+have_VPRT
+taught_PEAS COMM
+us_FPP1P FPPAll
+to_IN INother
+protest_VB
+against_IN INother
+rapists_NN NNother
+and_CC
+culprits_NN NNother
+._.
+We_FPP1P FPPAll
+hope_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVATT
+the_DT
+criminals_NN NNother
+by_IN INother
+all_QUAN
+means_NN NNother
+will_MDWS MDPREDAll
+be_VB
+punished_PASS PASSAll
+and_CC
+never_FREQ
+can_MDCA MDPOSSCAll
+be_VB
+dare_VB MENTAL
+to_IN INother
+do_VB ACT
+such_JJPR JJPRother
+as_IN ELAB
+a_DT
+brutality_NN NOMZ
+activity_NN NCOMP
+._.
+We_FPP1P FPPAll
+pray_VPRT COMM
+for_IN INother
+your_SPP2
+to_IN INother
+Almighty_NN NNP
+Allah_NN NNP
+for_IN INother
+your_SPP2
+universal_JJAT JJATother
+peace_NN NNother
+&_CC
+Heaven_NN NNP
+as_CC
+well_RB RBother
+as_IN INother
+we_FPP1P FPPAll
+also_CC
+said_VBD COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+we_FPP1P FPPAll
+have_VPRT
+no_XX0
+speech_NN NNother
+to_IN INother
+console_VB
+your_SPP2
+family_NN NNHUMAN
+only_RB RBother
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+say_VB COMM THATD
+Allah_NN NNP
+might_MDMM MDPOSSCAll
+give_VB ACT
+them_TPP3P
+having_VBG
+patience_NN NNother
+to_IN INother
+endure_VB
+your_SPP2
+losing_VBG ACT
+panic_NN NNother
+._.
+._.
+please_FPUH POLITE
+see_VB MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+we_FPP1P FPPAll
+may_MDMM MDPOSSCAll
+suffer_VB MENTAL
+hungry_JJPR JJPRother
+but_CC
+do_VPRT DOAUX
+not_XX0
+die_VB OCCUR
+of_IN INother
+modified_VBN
+golden_JJAT JJATother
+rice_NN NNother
+and_CC
+bt_NN NNother
+-_HYPH
+brinjal_NN NNother
+._.
+Death_NN NNABSPROC
+penalty_NN NCOMP
+is_VPRT BEMA
+cruel_JJPR JJPRother
+,_,
+inhuman_JJAT JJATother
+and_CC
+degrading_JJAT JJATother
+punishment_NN NOMZ
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+all_QUAN
+think_VB MENTAL
+about_IN INother
+the_DT
+most_EMPH
+heinous_JJAT JJATother
+crime_NN NNABSPROC
+and_CC
+say_VB COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+deserves_VPRT EXIST
+the_DT
+dealth_NN NNother
+penalty_NN NCOMP
+but_CC
+capital_NN NNABSPROC
+punishment_NN NCOMP
+could_MDCO MDPOSSCAll
+end_VB ASPECT
+up_RP
+in_IN INother
+the_DT
+rare_JJAT JJATother
+case_NN NNCONC
+killing_VBG
+an_DT
+innocent_JJAT JJATother
+person_NN NNHUMAN
+._.
+Who_WHQU
+wants_VPRT MENTAL
+this_DEMO
+on_IN INother
+their_TPP3P
+concious_JJPR JJPRother
+?_.
+Stop_VB ASPECT
+All_QUAN
+Capital_NN NNABSPROC
+Punishment_NN NCOMP
+!_.
+acid_NN NNCONC
+throwers_NN NCOMP
+should_MDNE
+be_VB
+death_NN NNABSPROC
+sentenced_PASS PASSAll
+May_NN NNP
+Allah_NN NNP
+bless_VB
+his_TPP3S
+soul_NN NNother
+and_CC
+grant_VB
+him_TPP3S
+a_DT
+place_NN NNPLACE
+amongst_IN INother
+HIS_TPP3S
+loved_VBN MENTAL
+ones_NN NNother
+._.
+RIP_FPUH
+may_MDMM MDPOSSCAll
+Allah_NN NNP
+grant_VB
+him_TPP3S
+We_FPP1P FPPAll
+want_VPRT MENTAL
+free_JJAT JJATother
+Maidul_NN NNP
+Islam_NN NNP
+Must_MDNE
+have_VB
+big_JJAT JJDESCAll JJSIZE
+brothers_NN NNHUMAN
+in_IN INother
+Dhaka_NN NNP
+._.
+Our_FPP1P FPPAll
+prayers_NN NNother
+for_IN INother
+the_DT
+departed_VBN
+soul_NN NNother
+._.
+._.
+._.
+please_FPUH POLITE
+keep_VB ASPECT
+him_TPP3S
+in_IN INother
+prayer_NN NNother
+on_IN INother
+every_QUAN
+individuals_NN NNHUMAN
+._.
+._.
+salute_NN NNother
+May_MDMM MDPOSSCAll
+your_SPP2
+soul_NN NNother
+rest_NN NCOMP
+in_IN INother
+peace_NN NNother
+._.
+May_MDMM MDPOSSCAll
+your_SPP2
+soul_NN NNother
+rest_NN NCOMP
+in_IN INother
+peace_NN NNother
+This_DEMO
+is_VPRT BEMA
+an_DT
+awfully_RB RBother
+forbidding_VBG
+act_NN NNABSPROC
+..._:
+Can_MDCA MDPOSSCAll
+a_DT
+father_NN NNHUMAN
+commit_VB
+such_EMPH
+a_DT
+incestuous_JJAT JJATother
+crime_NN NNABSPROC
+?_. YNQU
+The_DT
+report_NN NSTNCother
+does_VPRT DOAUX
+not_XX0
+say_VB COMM
+if_COND
+the_DT
+father_NN NNHUMAN
+is_VPRT BEMA
+insane_JJPR JJPRother
+,_,
+maniac_NN NNother
+or_CC
+abnormal_JJPR JJPRother
+..._,
+It_PIT
+should_MDNE
+be_VB BEMA
+3.889_CD
+billion_CD
+rather_RB RBother
+than_IN INother
+3,889_CD
+billion_CD
+actually_DMA
+the_DT
+protestors_NN NNother
+do_VPRT DOAUX
+n't_XX0 CONT
+love_VB MENTAL
+their_TPP3P
+country_NN NNPLACE
+,_,
+they_TPP3P
+are_VPRT BEMA
+selfish_JJAT JJATother
+people_NN NNHUMAN
+._.
+if_COND
+they_TPP3P
+love_VPRT MENTAL
+their_TPP3P
+country_NN NNPLACE
+,_,
+they_TPP3P
+must_MDNE
+want_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+establish_VB THATD
+the_DT
+merit_NN NNother
+based_VBN
+recruitment_NN NOMZ
+system_NN NCOMP
+so_SO
+that_THSC CUZ
+the_DT
+country_NN NNPLACE
+can_MDCA MDPOSSCAll
+be_VB
+progressed_PASS PASSAll
+in_IN INother
+accordance_NN NNother
+with_IN INother
+the_DT
+global_JJAT JJATother
+pace_NN NNother
+._.
+shame_NN NNother
+on_IN INother
+the_DT
+brainless_JJAT JJATother
+stupid_JJAT JJATother
+people_NN NNHUMAN
+._.
+May_MDMM MDPOSSCAll
+Allah_NN NNP
+helps_VPRT CAUSE
+them_TPP3P
+who_WHSC WHSCother
+are_VPRT BEMA
+victims_NN NNHUMAN
+in_IN INother
+this_DEMO
+accident_NN NNother
+._.
+Our_FPP1P FPPAll
+government_NN NNGRP
+did_VBD SPLIT DOAUX
+n’t_RB RBother
+take_VB ACT
+harder_JJAT JJATother
+stance_NN NNother
+to_IN INother
+evacuate_VB
+the_DT
+godowns_NN NNother
+from_IN INother
+residential_JJAT JJATother
+area_NN NNPLACE
+after_IN INother
+NIMTOLI_NN NNP
+TRAGEDY_NN NNP
+._.
+Are_VPRT BEMA
+the_DT
+pharma_NN NNother
+factories_NN NCOMP
+around_IN INother
+the_DT
+country_NN NNPLACE
+taking_VBG ACT
+enough_JJAT JJATother
+care_NN NNABSPROC
+against_IN INother
+fire_NN NNTECH
+and_CC
+for_IN INother
+ensuring_VBG CAUSE
+safety_NN NNother
+?_.
+If_COND
+not_XX0
+,_,
+it_PIT
+should_MDNE
+move_VB ACT
+right_RB RBother
+now_TIME
+to_IN INother
+do_VB ACT
+so_SO
+taking_VBG ACT
+a_DT
+page_NN NNCONC
+of_IN INother
+the_DT
+RMG_NN NNP
+'s_POS
+book_NN NNCONC
+of_IN INother
+experience_NN NNCOG
+,_,
+before_IN INother
+anything_QUPR
+nearly_DWNT
+as_IN INother
+horrible_JJPR JJPRother
+as_IN INother
+an_DT
+incident_NN NNother
+like_LIKE
+"_``
+Rana_NN NNP
+Plaza_NN NNP
+"_''
+may_MDMM MDPOSSCAll
+occur_VB OCCUR
+!_.
+Hope_VPRT MENTAL
+he_TPP3S
+gets_VPRT
+well_RB RBother
+soon_TIME
+._.
+Very_AMP
+poor_JJAT JJEVAL
+journalism_NN NNother
+._.
+This_DEMO
+is_VPRT BEMA
+21st_JJAT JJATother
+century_NN NNQUANT
+I_FPP1S FPPAll
+am_VPRT BEMA
+sure_JJPR JJEPSTother
+you_SPP2
+can_MDCA MDPOSSCAll
+provide_VB ACT
+a_DT
+picture_NN NNCONC
+of_IN INother
+the_DT
+new_JJAT JJTIME
+train_NN NNCONC
+._.
+wonderful_JJAT JJATother
+Two_CD
+things_NN NNother
+would_MDWO MDPREDAll
+be_VB BEMA
+necessary_JJPR JJREL
+before_IN INother
+expecting_VBG MENTAL
+a_DT
+successful_JJAT JJATother
+safe_JJAT JJATother
+spawning_NN NNother
+of_IN INother
+the_DT
+fish_NN NNCONC
+stock_NN NCOMP
+:_:
+one_CD
+,_,
+to_IN INother
+ensure_VB CAUSE
+possible_JJAT JJEPSTother
+alternatives_NN NNABSPROC
+for_IN INother
+the_DT
+survival_NN NNother
+of_IN INother
+the_DT
+fishermen_NN NNother
+during_IN INother
+the_DT
+period_NN NNQUANT
+of_IN INother
+the_DT
+fishing_NN NNother
+-_HYPH
+ban_NN NNother
+,_,
+and_CC
+two_CD
+,_,
+to_IN INother
+provide_VB ACT
+the_DT
+fisheries_NN NNother
+depatments_NN NCOMP
+with_IN INother
+enough_JJAT JJATother
+manpower_NN NNother
+and_CC
+means_VPRT COMM
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+inform_VB COMM
+and_CC
+enforce_VB
+the_DT
+ban_NN NNother
+._.
+A_DT
+deficit_NN NNother
+in_IN INother
+these_DEMO
+respects_NN NNABSPROC
+would_MDWO MDPREDAll
+endanger_VB
+the_DT
+intended_VBN MENTAL
+increase_NN NNother
+of_IN INother
+the_DT
+fish_NN NNCONC
+-_HYPH
+wealth_NN NNother
+of_IN INother
+the_DT
+nation_NN NOMZ
+(_-LRB-
+through_IN INother
+the_DT
+safe_JJAT JJATother
+-_HYPH
+spawning_NN NNother
+programme_NN NCOMP
+)_-RRB-
+._.
+You_SPP2
+are_VPRT BEMA
+good_JJPR JJEVAL
+,_,
+man_NN NNHUMAN
+._.
+Inspiring_JJPR JJPRother
+for_IN INother
+youngster_NN NNother
+also_CC
+._.
+Why_WHSC WHSCother
+not_XX0
+an_DT
+agreement_NN NNABSPROC
+to_IN PrepNSTNC
+visa_NN NNCONC
+free_JJAT JJATother
+travel_NN NNother
+for_IN INother
+the_DT
+two_CD
+countries_NN NNPLACE
+'_POS
+tourists_NN NNHUMAN
+._.
+According_VBG
+permission_NN NNother
+of_IN INother
+private_JJAT JJATother
+TV_NN NNother
+channels_NN NCOMP
+or_CC
+FM_NN NNP
+Radio_NN NNP
+stations_NN NCOMP
+,_,
+more_QUAN
+in_IN INother
+excess_NN NNother
+of_IN INother
+the_DT
+need_NN NNCOG
+,_,
+does_VPRT DOAUX
+not_XX0
+attest_VB
+to_IN INother
+freedom_NN NNABSPROC
+of_IN INother
+press_NN NNother
+when_WHSC WHSCother
+there_EX
+is_VPRT
+prohibitory_JJAT JJATother
+act_NN NNABSPROC
+of_IN INother
+Digital_NN NNP
+Security_NN NNP
+like_LIKE
+dracolian_JJAT JJATother
+sword_NN NNother
+in_IN INother
+force_NN NNother
+._.
+And_CC
+when_WHSC WHSCother
+openly_RB RBother
+the_DT
+journalists_NN NNother
+can_MDCA MDPOSSCAll
+not_XX0
+be_VB
+daunted_PASS PASSAll
+,_,
+the_DT
+clandestine_JJAT JJATother
+methods_NN NNABSPROC
+are_VPRT
+deployed_PASS PASSAll
+,_,
+and_CC
+Shafiqul_NN NNP
+Islam_NN NNP
+Kazol_NN NNP
+'s_POS
+disappearance_NN NNother
+is_VPRT BEMA
+a_DT
+glaring_JJAT JJATother
+example_NN NNother
+,_,
+though_CONC
+he_TPP3S
+was_VBD
+found_PASS PASSAll
+after_IN INother
+over_RB RBother
+50_CD
+days_NN NNQUANT
+in_IN INother
+Benapole_NN NNP
+._.
+Thanks_NN POLITE
+for_IN INother
+reporting_VBG COMM
+national_JJAT JJATother
+crisis_NN NNother
+result_NN NCOMP
+of_IN PrepNSTNC
+using_VBG ACT
+unskilled_JJAT JJATother
+labour_NN NNother
+and_CC
+non-coperativeness_NN NOMZ
+between_IN INother
+the_DT
+different_JJAT JJREL
+authorities_NN NNABSPROC
+._.
+._.
+Regarding_VBG MENTAL
+Gas_NN NNother
+supply_NN NCOMP
+interruption_NN NOMZ
+prior_RB RBother
+should_MDNE
+informed_VBN COMM
+for_IN INother
+public_JJPR JJREL
+safety.This_URL
+is_VPRT BEMA
+simply_RB RBother
+moral_JJAT JJATother
+duty_NN NNother
+of_IN INother
+the_DT
+respective_JJAT JJATother
+authority_NN NNABSPROC
+._.
+This_DEMO
+heralds_VPRT
+for_IN INother
+a_DT
+new_JJAT JJTIME
+of_IN INother
+doing.All_QUAN
+mosques_NN NNother
+and_CC
+relegious_JJAT JJATother
+avenues_NN NNother
+will_MDWS MDPREDAll
+be_VB
+notified_PASS PASSAll
+immediatelly_RB RBother
+to_IN INother
+do_VB ACT
+miking_NN NNother
+like_LIKE
+the_DT
+death_NN NNABSPROC
+of_IN INother
+a_DT
+person_NN NNHUMAN
+._.
+It_PIT
+'s_VPRT CONT BEMA
+better_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+use_VB ACT
+LPG_NN NNP
+._.
+Most_QUAN
+of_IN INother
+the_DT
+people_NN NNHUMAN
+in_IN INother
+other_JJAT JJATother
+cities_NN NNPLACE
+and_CC
+towns_NN NNother
+in_IN INother
+Bangladesh_NN NNP
+use_VPRT ACT
+LPG_NN NNP
+._.
+It_PIT
+is_VPRT BEMA
+time_NN NNQUANT
+to_IN INother
+stop_VB ASPECT
+using_VBG ACT
+supply_NN NNother
+gas_NN NCOMP
+and_CC
+to_IN INother
+say_VB COMM
+'_``
+good_JJPR JJEVAL
+bye_FPUH
+'_''
+to_IN INother
+it_PIT
+._.
+Should_MDNE
+not_XX0
+take_VB ACT
+24_CD
+hrs_NN NNother
+to_IN INother
+replace_VB
+a_DT
+gas_NN NNother
+valve_NN NCOMP
+._.
+This_DEMO
+is_VPRT BEMA
+ridiculous_JJPR JJPRother
+._.
+Either_CC
+a_DT
+lack_NN NNother
+of_IN INother
+skill_NN NNABSPROC
+gas_NN NCOMP
+workers_NN NNHUMAN
+or_CC
+red_JJAT JJDESCAll JJCOLR
+tape_NN NNCONC
+._.
+Gas_NN NNother
+has_VPRT
+been_PEAS
+halted_PASS PASSAll
+at_IN INother
+Elephant_NN NNP
+Road_NN NNP
+since_IN INother
+15th_CD
+22:00_CD
+hours_NN NNQUANT
+._.
+There_EX
+was_VBD
+no_XX0
+gas_NN NNother
+at_IN INother
+my_FPP1S FPPAll
+house_NN NNGRP
+since_IN INother
+then_RB RBother
+._.
+Everybody_QUPR
+should_MDNE
+take_VB ACT
+the_DT
+responsibility_NN NNCOG
+for_IN PrepNSTNC
+making_VBG ACT
+the_DT
+situation_NN NNABSPROC
+worse_JJAT JJATother
+People_NN NNHUMAN
+should_MDNE
+be_VB BEMA
+religious_JJPR JJPRother
+(_-LRB-
+and_CC
+should_MDNE
+not_XX0
+pretend_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVMNTL
+be_VB BEMA
+religious_JJPR JJPRother
+)_-RRB-
+to_IN INother
+save_VB ACT
+the_DT
+nation_NN NOMZ
+,_,
+All_QUAN
+the_DT
+foot_NN NNCONC
+bridges_NN NCOMP
+are_VPRT BEMA
+so_EMPH
+steep_JJPR JJPRother
+that_THSC THSCother
+a_DT
+persons_NN NNother
+of_IN INother
+above_PLACE
+40_CD
+years_NN NNother
+of_IN INother
+age_NN NNQUANT
+are_VPRT BEMA
+difficult_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+climb_VB ACT
+not_XX0
+to_IN INother
+speak_VB COMM
+of_IN INother
+people_NN NNHUMAN
+of_IN INother
+about_HDG
+80_CD
+years_NN NNother
+of_IN INother
+age_NN NNQUANT
+what_WHSC WHSCother
+I_FPP1S FPPAll
+am_VPRT
+and_CC
+have_VPRT
+often_FREQ
+to_IN INother
+trudge_NN NNother
+._.

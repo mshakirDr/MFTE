@@ -1,0 +1,2957 @@
+O_FPUH
+God_NN NNP
+,_,
+grant_NN NNother
+peace_NN NCOMP
+to_IN INother
+the_DT
+BTS_NN NNP
+Army_NN NNP
+._.
+They_TPP3P
+have_VPRT
+gone_PEAS
+mad_JJPR JJPRother
+._.
+😏_EMO
+😏_EMO
+(_-LRB-
+Crazy_NN NNP
+Bit_NN NCOMP
+*_SYM
+h_SYM
+)_-RRB-
+#BLACKPINK_HST
+#LalisaManoban_HST
+#LISA_HST
+#JENNIE_HST
+@Yxxxxxxxxxxxa_NN NNMention
+no_XX0
+caption_NN NOMZ
+**_SYM
+Happy_JJAT JJATDother
+Birthday_NN NNother
+Arijit_NN NNP
+Singh_NN NNP
+**_SYM
+Really_RB EMPH
+If_COND
+you_SPP2
+do_VPRT DOAUX
+not_XX0
+have_VB
+a_DT
+sweet_JJAT JJATother
+day_NN NNQUANT
+for_IN INother
+so_EMPH
+many.@Txxxxxxxxxxxxh_JJAT JJATother
+@rxxxxxxxi_NN NNMention
+https://t.co/eh4AWibDI6_URL
+@axxxxx9_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@pxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@Yxxxxxxxxxxxb_NN NNMention
+ni_NN NNP
+this_DEMO
+is_VPRT BEMA
+new_JJPR JJTIME
+coming_VBG ACT
+events_NN NNother
+#FunYashDposter_HST
+@mxxxxxxxxxc_NN NNMention
+@Rxxxxxxxxxxxxxk_NN NNMention
+._.
+I_FPP1S FPPAll
+hope_VPRT MENTAL THATD
+all_QUAN
+friends_NN NNHUMAN
+know_VPRT MENTAL
+it_PIT
+._.
+._.
+Friends_NN NNHUMAN
+Vote_VPRT
+our_FPP1P FPPAll
+fav_NN NNother
+serial_JJAT JJATother
+n_NN NNother
+vote_NN NNother
+our_FPP1P FPPAll
+Fav_NN NNP
+Actor_NN NCOMP
+Aranya_NN NNP
+n_NN NNother
+Actress_NN NNother
+Pakhi_NN NNP
+@YxxxxxxxC_NN NCOMP NNMention
+@mxxxxxxxxxc_NN NNMention
+https://t.co/tAE9LcFn3d_URL
+@axxxxxxxxxxr_NN NNMention
+tnx_NN NNother
+for_IN INother
+ur_SPP2
+comments_NN NSTNCother
+._.
+._.
+@ixxxxxxxxxxs_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+best_JJAT EMPH
+stars_NN NNTECH
+in_IN INother
+Calcutta_NN NNP
+._.
+._.
+our_FPP1P FPPAll
+favorite_JJAT JJATother
+@mxxxxxxxxxc_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@pxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@Rxxxxxxxxxxxxxk_NN NNMention
+Really_RB EMPH
+Madhumita_NN NNP
+looking_VBG
+so_EMPH
+nice_JJPR JJEVAL
+._.
+BSB_NN NNP
+perfect_JJAT JJATother
+actress_NN NNother
+@pxxxxxxxa_NN NCOMP NNMention
+this_DEMO
+is_VPRT BEMA
+all_QUAN
+friends_NN NNHUMAN
+request_VPRT
+we_FPP1P FPPAll
+all_QUAN
+polyseme_NN NNother
+Film_NN NNP
+for_IN INother
+@Yxxxxxxxxxxxa_NN NNMention
+n_NN NNother
+Madhumita_NN NNother
+._.
+plz_NN NNother
+help_NN NCOMP
+._.
+._.
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxb_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+BSB_NN NNP
+last_JJAT JJATother
+romantic_JJAT JJATother
+moments_NN NNQUANT
+._.
+We_FPP1P FPPAll
+waiting_VBG ACT
+for_IN INother
+new_JJAT JJTIME
+romantic_JJAT JJATother
+moments_NN NNQUANT
+@mxxxxxxxxxc_NN NCOMP NNMention
+really_RB EMPH
+nice_JJAT JJEVAL
+look_NN NNCOG
+._.
+._.
+@Yxxxxxxxxxxxb_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+YD_NN NNP
+real_JJAT JJATother
+animals_NN NNHUMAN
+lover_NN NCOMP
+@Yxxxxxxxxxxxb_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+always_FREQ
+our_FPP1P FPPAll
+yash_NN NNother
+superstar_NN NCOMP
+._.
+._.
+@Yxxxxxxxxxxxa_NN NNMention
+awesome_JJAT JJATother
+@YxxxxxxxC_NN NNMention
+@DxxxxxxxxG_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+really_RB EMPH
+..@Yxxxxxxxxxxxb_NN NNP
+@Axxxxxxxxxxxxxt_NN NCOMP NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@pxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+go_VB
+ahead_PLACE
+._.
+._.
+we_FPP1P FPPAll
+all_QUAN
+support_VPRT
+u._NN NNother
+._.
+@YxxxxxxxC_NN NNMention
+real_JJAT JJATother
+Animal_NN NNHUMAN
+lover_NN NCOMP
+._.
+._.
+#AdoptAPetwithYashD_HST
+@mxxxxxxxxxc_NN NNMention
+happy_JJAT JJATDother
+@YxxxxxxxC_NN NNMention
+beautiful_JJPR JJEVAL
+._.
+._.
+@Yxxxxxxxxxxxa_NN NNMention
+wow_FPUH
+dashing_VBG
+look.i_FPP1S FPPAll
+think_VPRT MENTAL
+Complete_VIMP ASPECT
+6pack_NN NNother
+https://t.co/eO4MANlRFH_URL
+Rehenuma_NN NNP
+-@Bxxxxxxxxxxxxxa_NN NNP
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@TxxxxxxxxD_NN NNMention
+plz_NN NNother
+see_VB MENTAL
+it_PIT
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+romantic_JJAT JJATother
+sad_JJPR JJPRother
+..._NFP
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+we_FPP1P FPPAll
+all_QUAN
+time_NN NNQUANT
+polysome_NN NCOMP
+._.
+._.
+@Mxxxxx1_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+I_FPP1S FPPAll
+like_VPRT MENTAL
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@pxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+unlimited_JJAT JJATother
+love_NN NNother
+n_NN NNother
+support_NN NNABSPROC
+._.
+Best_JJPR EMPH
+of_IN INother
+luck_NN NNother
+Just_RB EMPH
+fun_JJPR JJPRother
+._.
+._.
+ABP_NN NNP
+https://t.co/skSJz6spkI_URL
+@Yxxxxxxxxxxxa_NN NNMention
+after_IN INother
+returning_VBG
+to_IN INother
+ASR_NN NNP
+#BSB_HST
+Just_NN NNP EMPH
+fun..@YxxxxxxxC_NN NNP
+#FilmFORyashhD_HST
+https://t.co/BoLivYQSla_URL
+@mxxxxxxxxxc_NN NNMention
+friends_NN NNHUMAN
+plz_VPRT
+voting_VBG
+@Bxxxxxxxxxxxxxa_NN NNMention
+@pxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Mxxxxxxxxxxxxb_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+ohhh_FPUH
+._.
+._.
+new_JJAT JJTIME
+look_NN NNCOG
+._.
+Awesome_JJPR JJPRother
+Really_RB EMPH
+..@Yxxxxxxxxxxxa_NN NNP
+@mxxxxxxxxxc_NN NCOMP NNMention
+https://t.co/FS5trpZQTy_URL
+@pxxxxxxxa_NN NNMention
+really_RB EMPH
+SVF_NN NNP
+er_FPUH
+all_QUAN
+show_VPRT ACT
+so_EMPH
+beautiful_JJPR JJEVAL
+._.
+Thx_NN NNother
+@Vxxxxxxxxxxxxs_NN NCOMP NNMention
+for_IN INother
+giving_VBG ACT
+our_FPP1P FPPAll
+nice_JJAT JJEVAL
+TV_NN NNother
+show_NN NCOMP
+@mxxxxxxxxxc_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+lovely_JJAT JJEVAL
+822_CD
+episodes_NN NNother
+and_CC
+uncountable_JJAT JJATother
+memories_NN NNCOG
+._.
+._.
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@axxxxxxxxxxr_NN NNMention
+https://t.co/BngGgAu3j4_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+Iam_NN NNP
+so_EMPH
+happy_JJAT JJATDother
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@YxxxxxM_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@Hxxxxxxxx1_NN NNMention
+Rocking_NN NNP
+Hero_NN NNP
+@mxxxxxxxxxc_NN NCOMP NNMention
+so_EMPH
+lovely_JJAT JJEVAL
+couple_NN NNHUMAN
+._.
+._.
+@mxxxxxxxxxc_NN NNMention
+ohh.good_URL
+@mxxxxxxxxxxxxxy_NN NNMention
+congratulations_NN NOMZ
+team_NN NCOMP
+Madhumita_NN NNP
+Chakraborty_NN NNP
+for_IN INother
+10k_NN NNother
++_SYM
+followers_NN NNother
+@mxxxxxxxxxc_NN NCOMP NNMention
+so_EMPH
+beautiful_JJPR JJEVAL
+looks_VPRT
+@Yxxxxxxxxxxxa_NN NNMention
+tnx_NN NNother
+for_IN INother
+wish_NN NSTNCother
+._.
+We_FPP1P FPPAll
+all_QUAN
+Muslim_JJAT JJATother
+fan_NN NNother
+really_RB EMPH
+@Axxxxxxxxxxxxxt_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@axxxxxxxxxxxxxu_NN NNMention
+@pxxxxxxxxxxxd_NN NNMention
+@Yxxxxxxxxs_NN NNMention
+good_JJAT JJEVAL
+edit_NN NNother
+@Rxxxxxxxxxxxxxk_NN NCOMP NNMention
+@YxxxxxM_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@Txxxxxxxxxxt_NN NNMention
+good_JJPR JJEVAL
+but_CC
+love_VPRT MENTAL
+ASR_NN NNP
+@Rxxxxxxxxxxxxxk_NN NCOMP NNMention
+@YxxxxxM_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@Txxxxxxxxxxt_NN NNMention
+one_CD
+n_NN NNother
+only_RB RBother
+ASR_NN NNP
+@mxxxxxxxxxc_NN NCOMP NNMention
+plz_NN NNother
+share_NN NCOMP
+u_NN NNother
+r_NN NNother
+email_NN NNother
+address_NN NCOMP
+._.
+Twitter_NN NNP
+@Mxxxxxxxi_NN NCOMP NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Mxxxxxxxi_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+waiting_VBG ACT
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@axxxxxxxxxxxxxu_NN NNMention
+@Yxxxxxxxxs_NN NNMention
+she_TPP3S
+is_VPRT BEMA
+talented_JJAT JJATother
+actress_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@ixxxxxy_NN NNMention
+@pxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxd_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+this_DEMO
+is_VPRT BEMA
+fake_JJAT JJATother
+id_NN NNother
+of_IN INother
+Madhumita_NN NNP
+ok_JJPR JJPRother
+._.
+._.
+Confused_JJAT JJATother
+ASR_NN NNP
+???????_.
+Really_RB EMPH
+awesome_JJAT JJATother
+n_NN NNother
+funny_JJAT JJATother
+episode_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+https://t.co/I2nfbz5CA6_URL
+@mxxxxxxxxxc_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+miss_VPRT MENTAL
+u._NN NNP
+._.
+@Txxxxxxxxxxxx7_NN NNMention
+@YxxxxxM_NN NNMention
+so_EMPH
+Confused_JJPR JJPRother
+#ASR_HST
+@mxxxxxxxxxxxxxy_NN NNMention
+@pxxxxxxxa_NN NNMention
+If_COND
+you_SPP2
+prove_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+you_SPP2
+are_VPRT BEMA
+a_DT
+fake_JJAT JJATother
+._.
+You_SPP2
+are_VPRT
+used_PASS PASSAll ACT
+to_IN INother
+link_VB
+Madhumita_NN NNP
+Facebook_NN NNP
+ID_NN NNP
+._.
+._.
+@sxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+#TE3N_HST
+#FunYashDposter_HST
+Bachshan_NN NNP
+n_NN NNother
+yash_NN NNother
+coming_VBG ACT
+...@Yxxxxxxxxxxxa_NN NNP
+@Yxxxxxxxxxxxb_NN NCOMP NNMention
+https://t.co/tUzwtqrwd2_URL
+@Dxxxxxxxxxxi_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@Txxxxxxxxxxt_NN NNMention
+@Yxxxxxxxxxxxb_NN NNMention
+ha_FPUH
+ha_FPUH
+Fun_NN NNP
+post_NN NCOMP
+._.
+._.
+@TxxxxxxxxD_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+yes_DMA
+._.
+._.
+we_FPP1P FPPAll
+all_QUAN
+time_NN NNQUANT
+ready_JJPR JJPRother
+for_IN INother
+viewing_VBG
+yash_NN NNother
+n_NN NNother
+Madhumita_NN NNP
+@YxxxxxxxC_NN NCOMP NNMention
+@ixxxxxy_NN NNMention
+this_DEMO
+is_VPRT BEMA
+Good_JJAT JJEVAL
+news_NN NSTNCother
+Bangladeshi_JJAT JJATother
+fan_NN NNother
+@bxxxxxxxxxxxxxl_NN NCOMP NNMention
+finally_RB RBother
+tnx_IN INother
+Madhumita_NN NNP
+..@mxxxxxxxxxc_NN NNP
+love_NN NCOMP
+u._NN NNother
+._.
+._.
+@Yxxxxxxxxxxxxx_NN NNMention
+@pxxxxxxxa_NN NNMention
+BA_NN NNP
+@Bxxxxxxxxxxxa_NN NCOMP NNMention
+twitter_NN NNother
+https://t.co/7HvJb4YTob_URL
+BSB_NN NNP
+video_NN NCOMP
+mixes_VPRT
+S_NN NNother
+O_NN NNother
+the_DT
+year_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+plz_NN NNother
+see_VB MENTAL
+it_PIT
+._.
+._.
+._.
+Madhumita_NN NNP
+Sarcar_NN NNP
+n_NN NNother
+Sourav_NN NNP
+Chakraborty_NN NNP
+:_:
+https://t.co/DZcgRiaw6Q_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+eyes_NN NNCONC
+r_VPRT
+like_LIKE
+nice_JJAT JJEVAL
+words_NN NNTECH
+._.
+._.
+sometimes_FREQ
+changing_VBG OCCUR
+their_TPP3P
+meaning_NN NNABSPROC
+but_CC
+always_FREQ
+written_VBN COMM
+the_DT
+same_JJAT JJREL
+https://t.co/OirXtCeCN0_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+romantic_JJAT JJATother
+n_NN NNother
+lovely_JJAT JJEVAL
+moment_NN NNQUANT
+@Bxxxxxxxxxxxxxa_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+@TxxxxxxxxD_NN NNMention
+https://t.co/HQpwd3xheS_URL
+@Yxxxxxxxxxxxa_NN NNMention
+so_EMPH
+nice_JJPR JJEVAL
+looking_VBG
+..._,
+happy_JJAT JJATDother
+Sunday_NN NNP
+..._:
+@Yxxxxxxxxxxxa_NN NNMention
+real_JJAT JJATother
+parrot_NN NNother
+@YxxxxxxxC_NN NCOMP NNMention
+https://t.co/P1x77EZiNT_URL
+@TxxxxxxxxD_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Oxxxxxxx7_NN NNMention
+@mxxxxxx8_NN NNMention
+@ixxxxxxxxxxxxx8_NN NNMention
+@Mxxxxxxxxxxa_NN NNMention
+@Exxxxxxxn_NN NNMention
+good_JJAT JJEVAL
+morning_NN NNQUANT
+all_QUAN
+..._:
+@Yxxxxxxxxxxxa_NN NNMention
+good_JJAT JJEVAL
+night_NN NNother
+bro_NN NCOMP
+..._:
+Happy_JJPR JJATDother
+#Hug_HST
+#Day_HST
+all_QUAN
+#BSB_HST
+celebrity_NN NOMZ
+New_NN NNP
+Day_NN NNP
+._.
+thx_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+n_NN NNother
+Madhumita_NN NNother
+For_IN INother
+wish_NN NSTNCother
+romantic_JJAT JJATother
+episode_NN NNother
+@YxxxxxxxC_NN NCOMP NNMention
+https://t.co/1kvtRcWkek_URL
+@Yxxxxxxxxxxxa_NN NNMention
+good_JJAT JJEVAL
+actor_NN NNother
+in_IN INother
+India_NN NNP
+._.
+._.
+YashhD_NN NNother
+is_VPRT BEMA
+very_AMP
+popular_JJAT JJATother
+actor_NN NNother
+._.
+._.
+people_NN NNHUMAN
+love_VPRT MENTAL
+yash_JJAT JJATother
+..@YxxxxxxxC_NN NNP
+https://t.co/01wdBT7UkN_URL
+@Yxxxxxxxxxxxa_NN NNMention
+Worlds_NN NNother
+of_IN INother
+eyes_NN NNCONC
+._.
+._.
+intoxicating_JJAT JJATother
+eyes_NN NNCONC
+that_THRC THRCother
+Speak_VPRT COMM
+a_DT
+thousand_CD
+words_NN NNTECH
+@YxxxxxxxC_NN NCOMP NNMention
+https://t.co/VmRSXdRafA_URL
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+funny_JJAT JJATother
+pic_NN NNother
+really_RB EMPH
+@Yxxxxxxxxxxxa_NN NNMention
+hey_FPUH
+yash_VB
+my_FPP1S FPPAll
+first_JJAT JJATother
+poem_NN NNTECH
+for_IN INother
+u_PRPother
+Hope_VPRT MENTAL
+u_PRPother
+!!_.
+Notice_NN NNCONC
+I_FPP1S FPPAll
+made_VBD ACT
+with_IN INother
+request_NN NNother
+Notice_VPRT MENTAL
+me_FPP1S FPPAll
+its_PIT
+a_DT
+biggest_JJAT JJATother
+request_NN NNother
+https://t.co/O9icDE3DZD_URL
+@Bxxxxxxxxxxxxxn_NN NNMention
+hey_FPUH
+Salman_NN NNP
+my_FPP1S FPPAll
+first_JJAT JJATother
+poem_NN NNTECH
+for_IN INother
+u_PRPother
+hope_VPRT MENTAL
+u_PRPother
+!!_.
+Notice_NN NNCONC
+I_FPP1S FPPAll
+made_VBD ACT
+with_IN INother
+respect_NN NNABSPROC
+Notice_VPRT MENTAL
+me_FPP1S FPPAll
+its_PIT
+a_DT
+biggest_JJAT JJATother
+request_NN NNother
+https://t.co/ErxfINAiTR_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+No_XX0
+one_QUPR
+can_MDCA MDPOSSCAll
+match_VB
+ur_SPP2
+hard_JJAT JJATother
+work_NN NNABSPROC
+I_FPP1S FPPAll
+accept_VPRT MENTAL
+ur_SPP2
+spirit_NN NNother
+._.
+Bt_NN NNP
+plz_NN NNP
+Plz_NN NNP
+take_VB ACT
+care_NN NNABSPROC
+of_IN INother
+urself_NN NNother
+._.
+ur_SPP2
+health_NN NNABSPROC
+is_VPRT BEMA
+always_FREQ
+the_DT
+frst_NN NNother
+priority_NN NCOMP
+to_IN INother
+all_QUAN
+of_IN INother
+us_FPP1P FPPAll
+we_FPP1P FPPAll
+all_QUAN
+knw_VPRT
+ur_SPP2
+dedication_NN NOMZ
+towards_IN INother
+#BSB_HST
+.@Yxxxxxxxxxxxa_NN NNP
+@YxxxxxxxC_NN NCOMP NNMention
+Simple_JJAT JJATother
+Reminders_NN NNother
+-_HYPH
+https://t.co/3mFy1WncqT_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@SxxxxxxxM_NN NNMention
+@Dxxxxxxxxxxxi_NN NNMention
+nice_JJAT JJEVAL
+Sid_NN NNP
+._.
+._.
+happy_JJAT JJATDother
+family_NN NNHUMAN
+My_FPP1S FPPAll
+life_NN NNABSPROC
+super_JJAT EMPH
+star_NN NNTECH
+tollywood_NN NCOMP
+Hero_NN NNHUMAN
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+N_NN NNother
+Bollywood_NN NNother
+super_JJAT EMPH
+star_NN NNTECH
+@Bxxxxxxxxxxxxxn_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+https://t.co/t5G2KLnutW_URL
+Friends_NN NNP
+plz_NN NCOMP
+see_VB MENTAL THATD
+it_PIT
+n_NN NNother
+tell_VB COMM
+me_FPP1S FPPAll
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+https://t.co/0eHLQpkZd2_URL
+Old_NN NNP
+episode_NN NCOMP
+._.
+._.
+@Bxxxxxxxxxxxxxa_NN NNMention
+lovely_JJAT JJEVAL
+n_NN NNother
+romantic_JJAT JJATother
+episode_NN NNother
+..@Yxxxxxxxxxxxa_NN NNP
+@YxxxxxxxC_NN NCOMP NNMention
+#iammadhumitasarcar_HST
+https://t.co/EEt0OxgZES_URL
+ASR_NN NNP
+ready_JJPR JJPRother
+..._,
+for_IN INother
+Raj_NN NNP
+._.
+._.
+#Fanny_HST
+#Photo_HST
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+https://t.co/IVK9BZATgL_URL
+@txxxxxxxxxxr_NN NNMention
+tnx_NN NNother
+._.
+._.
+this_DEMO
+is_VPRT BEMA
+not_XX0
+real_JJAT JJATother
+yash_NN NNother
+this_DEMO
+is_VPRT BEMA
+real_JJAT JJATother
+yash_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+so_EMPH
+plz_JJPR JJPRother
+delete_VB
+this_DEMO
+mentioned_VBN COMM
+@yxxxxxxxxxxxxxB_NN NNMention
+@YxxxxxxxC_NN NNMention
+This_DEMO
+morning_NN NNQUANT
+himself_TPP3S
+in_IN INother
+@Yxxxxxxxxxxxa_NN NNMention
+is_VPRT
+pampering_PROG
+himself_TPP3S
+in_IN INother
+Paris_NN NNP
+!_.
+https://t.co/6ZCuIrWm7m_URL
+Good_JJAT JJEVAL
+news_NN NSTNCother
+Good_JJAT JJEVAL
+news.@Yxxxxxxxxxxxa_NN NNother
+n_NN NNother
+#madhumitasarcar_HST
+7:30_CD
+pm.@YxxxxxxxC_NN NNother
+https://t.co/4EgQ78CIMC_URL
+Friends_NN NNHUMAN
+share_VPRT ACT
+you_SPP2
+Saying_VBG COMM
+Madhumita_NN NNP
+https://t.co/sDw7m1CRZu_URL
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@pxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+Please_FPUH POLITE
+see_VB MENTAL
+it_PIT
+pic_NN NNother
+._.
+._.
+#HappyNewYear_HST
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+only_RB RBother
+for_IN INother
+you_SPP2
+@Yxxxxxxxxxxxa_NN NNMention
+bro_NN NNother
+._.
+._.
+https://t.co/BdmWERKmDr_URL
+Happy_NN NNP
+New_NN NNP
+year_NN NCOMP
+2016_CD
+..._:
+#iammadhumitasarcar_HST
+#Pic_HST
+..._:
+https://t.co/dFd9KFxnsq_URL
+@ixxxxxxxxxxi_NN NNMention
+._.
+._.
+Because_CUZ
+I_FPP1S FPPAll
+loved_VBD MENTAL
+you_SPP2
+........._,
+hmmmmm_FPUH
+..._:
+@ixxxxxxxxxxi_NN NNMention
+Happy_JJAT JJATDother
+Birthday_NN NNother
+to_IN INother
+you_SPP2
+DEV_VPRT
+._.
+._.
+Wish_VPRT MENTAL
+you_SPP2
+Good_JJAT JJEVAL
+life_NN NNABSPROC
+._.
+._.
+good_JJAT JJEVAL
+success_NN NNABSPROC
+..._:
+https://t.co/JGPNI6TWMk_URL
+Plz_NN NNother
+see_VPRT MENTAL THATD
+it.n_NN NNP
+tell_VB COMM
+me_FPP1S FPPAll
+..._,
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+happy_JJAT JJATDother
+republic_NN NNother
+all_QUAN
+friends_NN NNHUMAN
+._.
+._.
+https://t.co/qm76AXnjqW_URL
+@mxxxxxxxxxc_NN NNMention
+nice_JJAT JJEVAL
+look_NN NNCOG
+._.
+._.
+@Yxxxxxxxxxb_NN NNMention
+congratulations_NN NOMZ
+#madhumitasarcar_HST
+today_TIME
+is_VPRT BEMA
+very_AMP
+awesome_JJAT JJATother
+@Bxxxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+https://t.co/b7eMnBYJAF_URL
+@Yxxxxxxxxxxxa_NN NNMention
+our_FPP1P FPPAll
+yash_NN NNother
+ready_JJPR JJPRother
+for_IN INother
+shooting_VBG
+n_NN NNother
+we_FPP1P FPPAll
+ready_JJPR JJPRother
+for_IN INother
+support_NN NNABSPROC
+yash_NN NCOMP
+._.
+#FilmFOTyashD_HST
+@YxxxxxxxC_NN NNMention
+https://t.co/QLPHqMVYRj_URL
+@Yxxxxxxxxxxxa_NN NNMention
+we_FPP1P FPPAll
+polyseme_VPRT
+all_QUAN
+time_NN NNQUANT
+your_SPP2
+success_NN NNABSPROC
+#TARGET_HST
+eighteen_CD
+to_IN INother
++20_CD
+#Handred_HST
+On_IN INother
+-_HYPH
+20_CD
+ok_JJAT JJATother
+@YxxxxxxxC_NN NNMention
+#HITfilmFORyashD_HST
+https://t.co/c9MoyvqsQ9_URL
+https://t.co/08aUR1Uz0f_URL
+Best_JJPR EMPH
+of_IN INother
+luck_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+._.
+._.
+we_FPP1P FPPAll
+pray_VPRT COMM
+for_IN INother
+you_SPP2
+._.
+@YxxxxxxxC_NN NNMention
+https://t.co/ldXobzs2xq_URL
+@Yxxxxxxxxxxxa_NN NNMention
+you_SPP2
+forward_RB RBother
+ut_VPRT
+#HITFilmFORyash_HST
+we_FPP1P FPPAll
+all_QUAN
+yashians_NN NNother
+seminarist_VPRT
+thy_SPP2
+to_IN INother
+@YxxxxxxxC_NN NNMention
+#FilmFORyashD_HST
+https://t.co/9f0NTV91ne_URL
+@YxxxxxxxC_NN NNMention
+._.
+._.
+butterfly_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+Hero_NN NNP
+The_DT
+SuperStar_NN NNP
+._.
+._.
+coming_VBG ACT
+soon_TIME
+#HITfilmFORyashD_HST
+@YxxxxxxxC_NN NNMention
+https://t.co/1vcTkuL3gu_URL
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+True_JJAT JJEPSTother
+success_NN NNABSPROC
+can_MDCA MDPOSSCAll SPLIT
+only_RB RBother
+be_VB
+achieved_PASS PASSAll
+in_IN INother
+partnership_NN NNother
+with_IN INother
+God_NN NNP
+._.
+._.
+@fxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+1_CD
+app_NN NNother
+what_WHSC WHSCother
+name_NN NNABSPROC
+this_DEMO
+app_NN NNother
+@fxxxxxxxxxxxa_NN NCOMP NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+ohh_FPUH
+my_FPP1S FPPAll
+God_NN NNP
+app_NN NCOMP
+@fxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+your_SPP2
+edit_NN NNother
+so_EMPH
+nice_JJAT JJEVAL
+plz_NN NNother
+video_NN NCOMP
+edit_NN NNother
+app_NN NCOMP
+._.
+._.
+https://t.co/ggszLUslVF_URL
+See_VB MENTAL
+it_PIT
+@Bxxxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@TxxxxxxxxD_NN NNMention
+edit_VB
+me_FPP1S FPPAll
+._.
+._.
+@Yxxxxxxxxxxxa_NN NNMention
+what_WHSC WHSCother
+Atoner_NN NNP
+your_SPP2
+Acting_NN NNother
+,_,
+Musicking_VBG
+Ins_NN NNother
+and_CC
+outs_NN NNother
+lovesome_JJPR JJPRother
+#HITfilmFORyashD_HST
+@YxxxxxxxC_NN NNMention
+https://t.co/UsNow5Gw1k_URL
+Our_FPP1P FPPAll
+Superb_JJPR JJPRother
+Rocking_VBG
+Dashing_VBG
+Romantic_JJAT JJATother
+lovely_JJAT JJEVAL
+boy_NN NNHUMAN
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+N_NN NNother
+sweet_JJAT JJATother
+@mxxxxxxxxxxxxxy_NN NNMention
+#HITfilmFORyashD_HST
+@YxxxxxxxC_NN NNMention
+https://t.co/7upC3QzAic_URL
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+yes_DMA
+._.
+._.
+he_TPP3S
+is_VPRT
+superstar_NN NNother
+#HITfilmsFORyashD_HST
+@pxxxxxxxa_NN NNMention
+ohh_FPUH
+good_JJAT JJEVAL
+new_JJPR JJTIME
+._.
+._.
+but_CC
+??_.
+Lovely_JJAT JJEVAL
+boy_NN NNHUMAN
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+n_NN NNother
+sweet_JJAT JJATother
+@Yxxxxxxl_NN NNMention
+._.
+all_QUAN
+actress_NN NNother
+perfect_JJAT JJATother
+Hero_NN NNHUMAN
+yash_NN NCOMP
+#FilmFORYashD_HST
+@YxxxxxxxC_NN NNMention
+https://t.co/IHqd5EQsdg_URL
+@mxxxxxxxxxc_NN NNMention
+good_JJAT JJEVAL
+night_NN NNother
+._.
+._.
+@Yxxxxxxxxxxxa_NN NNMention
+plucky_NN NNP
+,_,
+Thousand_NN NNP
+price_NN NCOMP
+Smiler_NN NNP
+Romantic_JJPR JJPRother
+,_,
+Child_NN NNHUMAN
+like_LIKE
+Attitudinze_NN NNP
+,_,
+on_IN INother
+the_DT
+Part_NN NNQUANT
+of_IN INother
+Clickable_JJAT JJATother
+@YxxxxxxxC_NN NNMention
+https://t.co/MHZxiRgOYy_URL
+@YxxxxxxxC_NN NNMention
+yash_NN NNP
+Best_NN NNP EMPH
+._.
+._.
+another_DT
+actor_NN NNother
+lol_DMA
+..._:
+I_FPP1S FPPAll
+am_VPRT
+watching_PROG ACT
+an_DT
+episode_NN NNother
+of_IN INother
+https://t.co/ciWm0MrYyc_URL
+#RomanticFilmFORYashD_HST
+romantic_JJAT JJATother
+boy_NN NNHUMAN
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+n_NN NNother
+romantic_JJAT JJATother
+actress_NN NNother
+@sxxxxxxxxxxxe_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+@ixxxxxxxxxo_NN NNMention
+https://t.co/vhXHcxiaQa_URL
+@YxxxxxxxC_NN NNMention
+..._NFP
+Only_RB RBother
+for_IN INother
+you_SPP2
+Madhumita_NN NNP
+.@mxxxxxxxxxxxxxy_NN NNP
+@mxxxxxxxxxc_NN NCOMP NNMention
+@Mxxxxxxxxxxxxb_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+https://t.co/ORBq1cYUYB_URL
+,_,
+plz_NN NNother
+response_NN NCOMP
+@ixxxxxxxxxo_NN NNMention
+yash_NN NNother
+n_NN NNother
+madhu_NN NNother
+best_JJAT EMPH
+popular_JJAT JJATother
+actor_NN NNother
+in_IN INother
+India_NN NNP
+._.
+https://t.co/5dDE7j3BWQ_URL
+@ixxxxxy_NN NNMention
+@Bxxxxxxxs_NN NNMention
+best_JJPR EMPH
+of_IN INother
+luck_NN NNother
+._.
+We_FPP1P FPPAll
+polyseme_NN NNother
+N_NN NNother
+#BSB2_HST
+Hero_NN NNHUMAN
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+n_NN NNother
+heroin_NN NNother
+#MadhumitaC_HST
+@pxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+Plz_NN NNP
+._.
+._.
+https://t.co/8NgF4G8weD_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+plz_FW
+friends_NN NNHUMAN
+tell_VPRT COMM
+me_FPP1S FPPAll
+._.
+._.
+@YxxxxxxxC_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+https://t.co/gBfbKmMuOr_URL
+@Txxxxxxxxxxt_NN NNMention
+@ixxxxxxxxxxi_NN NNMention
+@jxxxx0_NN NNMention
+nice_JJAT JJEVAL
+Fun_NN NNP
+video_NN NCOMP
+..._:
+https://t.co/df5gVH9CnX_URL
+Friends_NN NNHUMAN
+like_LIKE
+my_FPP1S FPPAll
+page_NN NNCONC
+https://t.co/cCDrkxdRvW_URL
+@Bxxxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Mxxxxxxxxxxxxb_NN NNMention
+https://t.co/TzzAJpP9Nq_URL
+#BSB_HST
+video_NN NNCONC
+mixes_VPRT
+YJHD_NN NNother
+songs_NN NCOMP
+@Bxxxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@TxxxxxxxxD_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+just_RB EMPH
+awesome_JJAT JJATother
+@mxxxxxxxxxc_NN NNMention
+haha_FPUH
+._.
+._.
+Happy_JJAT JJATDother
+Anniversary_NN NNother
+@sxxxxxxxxc_NN NCOMP NNMention
+Happy_JJAT JJATDother
+Anniversary_NN NNother
+Thank_VPRT COMM POLITE
+you_SPP2
+Super_NN NNP EMPH
+Star_NN NNP
+._.
+._.
+@Pxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@AxxxxxC_NN NNMention
+https://t.co/GQfgNobLjP_URL
+Finally_RB RBother
+!!!_.
+The_DT
+wait_NN NNother
+is_VPRT BEMA
+Over_IN INother
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+#_HST
+14Jan_SYM
+@ixxxxxy_NN NNMention
+@Pxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@AxxxxxC_NN NNMention
+https://t.co/KeVTEYxFYA_URL
+LOVE_VPRT MENTAL
+&_CC
+RESPECT_NN NNABSPROC
+@dxxxxxxxxxxxxxe_NN NCOMP NNMention
+#ISupportDeepika_HST
+#brave_HST
+🔥_EMO
+🔥_EMO
+Coming_VBG ACT
+Soon_TIME
+!_.
+!!_.
+#Excited_HST
+https://t.co/MwIa5QIyUP_URL
+@Hxxxxxxxx1_NN NNMention
+Right_JJAT JJEPSTother
+2011_CD
+-_HYPH
+2018_CD
+|_HYPH
+uncountable_JJAT JJATother
+memories_NN NNCOG
+...@mxxxxxxxxxt_JJPR JJPRother
+https://t.co/Uv08o3MylT_URL
+@mxxxxxxxxxt_NN NNMention
+Thank_VPRT COMM POLITE
+you_SPP2
+sooooooooo_RB RBother
+much_QUAN
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+😘_EMO
+😘_EMO
+😘_EMO
+😘_EMO
+😘_EMO
+New_JJAT JJTIME
+transformation_NN NOMZ
+😍_EMO
+😍_EMO
+Pic_NN NNP
+Source_NN NCOMP
+:_:
+Madhumita_NN NNP
+'s_POS
+instagram_NN NNother
+account_NN NCOMP
+._.
+._.
+@mxxxxxxxxxt_NN NNMention
+https://t.co/967gQipPDC_URL
+@mxxxxxxxxxt_NN NNMention
+Wishing_VBG MENTAL
+u_PRPother
+a_DT
+lots_QUAN
+of_IN INother
+greetings_NN NNother
+b_NN NNother
+-_HYPH
+day_NN NNQUANT
+!_.
+I_FPP1S FPPAll
+wish_VPRT MENTAL
+u_PRPother
+all_QUAN
+the_DT
+love_NN NNother
+and_CC
+happiness_NN NOMZ
+in_IN INother
+the_DT
+world_NN NNother
+,_,
+all_QUAN
+of_IN INother
+which_WHSC WHSCother
+u_PRPother
+deserve.May_URL
+all_QUAN
+ur_SPP2
+dreams_NN NNother
+and_CC
+wishes_NN NSTNCother
+come_VPRT ACT
+true.Hope_URL
+your_SPP2
+special_JJAT JJATother
+day_NN NNQUANT
+,_,
+brings_VPRT ACT
+u_PRPother
+all_QUAN
+that_THRC THRCother
+your_SPP2
+heart_NN NNCONC
+desires!Wishing_VBG MENTAL
+you_SPP2
+a_DT
+day_NN NNQUANT
+that_THRC THRCother
+is_VPRT BEMA
+as_IN INother
+special_JJPR JJPRother
+in_IN INother
+every_QUAN
+way_NN NNABSPROC
+as_IN INother
+u_PRPother
+are_VPRT
+._.
+https://t.co/MwHi6wSVvC_URL
+@Sxxxxxxxxxxxa_NN NNMention
+@sxxxxxxxxxxxxh_NN NNMention
+@Pxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxl_NN NNMention
+@pxxxxxxxxk_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@Rxxxxxxxxxxh_NN NNMention
+Best_NN NNP EMPH
+wishs_VPRT
+Dear_JJAT JJATother
+Madhumita_NN NNP
+Finally_RB RBother
+the_DT
+wait_NN NNother
+is_VPRT BEMA
+over_IN INother
+...._,
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+Picture_NN NNCONC
+From_IN INother
+the_DT
+of_IN INother
+#MadhumitaFanspeaks_HST
+@mxxxxxxxxxt_NN NNMention
+@Sxxxxxxxl_NN NNMention
+@Pxxxxxxxxxxa_NN NNMention
+@Txxxxxxxxxxxa_NN NNMention
+https://t.co/2vnQ8CenGT_URL
+Best_JJAT EMPH
+wishes_NN NSTNCother
+._.
+._.
+And_CC
+thank_VPRT COMM
+u_PRPother
+so_EMPH
+much_QUAN
+for_IN INother
+this_DEMO
+gift_NN NNCONC
+"_''
+"_``
+@ixxxxxy_NN NNMention
+@Pxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@Sxxxxxxxl_NN NNMention
+https://t.co/OnApFYmVVr_URL
+Wishing_VBG MENTAL
+the_DT
+legend_NN NNother
+of_IN INother
+indian_JJAT JJATother
+cinema_NN NNother
+,_,
+@Sxxxxxxxxn_NN NNMention
+sir_NN NNP
+a_DT
+very_AMP
+happy_JJAT JJATDother
+birthday_NN NNother
+!!_.
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+Happy_JJAT JJATDother
+Birthday_NN NNother
+ASR_NN NCOMP
+,_,
+Kabir_NN NNP
+,_,
+Ronojoy_NN NNP
+,_,
+Joy_NN NNP
+,_,
+Ishan_NN NNP
+aka_RB RBother
+Yash_NN NNP
+._.
+._.
+Eagerly_RB RBother
+waiting_VBG ACT
+for_IN INother
+your_SPP2
+new_JJAT JJTIME
+film_NN NNCONC
+._.
+._.
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+https://t.co/QbKIHOR0NM_URL
+Finally_RB RBother
+Watched_VBD ACT
+Movie_NN NNCONC
+._.
+I_FPP1S FPPAll
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+watch_VB ACT
+it_PIT
+now_TIME
+again_FREQ
+and_CC
+again_FREQ
+._.
+._.
+Such_EMPH
+a_DT
+well_RB RBother
+balanced_JJAT JJATother
+movie_NN NNCONC
+!_.
+I_FPP1S FPPAll
+cried_VBD
+,_,
+I_FPP1S FPPAll
+laughed_VBD
+,_,
+I_FPP1S FPPAll
+enjoyed_VBD MENTAL
+._.
+._.
+9/10_CD
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+#NITESH_HST
+💙_EMO
+💙_EMO
+@ixxxxR_NN NNMention
+love_NN NNother
+From_IN INother
+Bangladesh_NN NNP
+@Sxxxxxxxxxxxxr_NN NCOMP NNMention
+@Sxxxxxxxxxxxxy_NN NNMention
+@Sxxxxxxxxxxxxs_NN NNMention
+@SxxxxxxxxxC_NN NNMention
+https://t.co/bV70DoNBQI_URL
+Best_NN NNP EMPH
+wishes_VPRT MENTAL
+for_IN INother
+whole_JJAT JJATother
+team_NN NNother
+._.
+Really_RB EMPH
+happy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEFCT
+see_VB MENTAL
+this_DEMO
+News_NN NSTNCother
+._.
+@mxxxxxxxxxt_NN NNMention
+and_CC
+@AxxxxxC_NN NNMention
+congratulations_NN NOMZ
+._.
+Hope_VPRT MENTAL
+the_DT
+new_JJAT JJTIME
+comes_VPRT ACT
+out_RP
+blasting_VBG
+._.
+Thanks_NN POLITE
+@Pxxxxxxxxxxa_NN NNMention
+https://t.co/YbTc8BVMbr_URL
+@nxxxxxxxxM_NN NNMention
+Caption_NN NNP
+is_VPRT
+Missing_PROG MENTAL
+?_.
+🤔_EMO
+@mxxxxxxxxxt_NN NNMention
+@pxxxxxxxxxxxxa_NN NNMention
+Happy_JJAT JJATDother
+Birthday_NN NNother
+bumba_NN NCOMP
+...._,
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+Ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+wait_VB ACT
+to_IN INother
+see_VB MENTAL
+a_DT
+new_JJAT JJTIME
+,_,
+I_FPP1S FPPAll
+am_VPRT BEMA
+so_EMPH
+excited_JJPR JJPRother
+._.
+._.
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+😇_EMO
+😇_EMO
+😇_EMO
+😇_EMO
+@mxxxxxxxxxt_NN NNMention
+@AxxxxxC_NN NNMention
+@Txxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxl_NN NNMention
+@Pxxxxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+https://t.co/WGHZn33nwX_URL
+So_EMPH
+Finally_RB RBother
+..._:
+🤗_EMO
+🤗_EMO
+🤗_EMO
+🤗_EMO
+@Sxxxxxxxl_NN NNMention
+@AxxxxxC_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+https://t.co/ueuz9kFuOG_URL
+@Axxxxxxxxxxxxxt_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@AxxxxxC_NN NNMention
+@Txxxxxxxxxxxa_NN NNMention
+@MxxxxxxxxxC_NN NNMention
+Right.waiting_URL
+for_IN INother
+madhumita_NN NNother
+to_IN INother
+announce_VB COMM
+herself_TPP3S
+._.
+._.
+but_CC
+Now_TIME
+confirm_VB MENTAL
+._.
+..._NFP
+so_CC
+💃_EMO
+💃_EMO
+💃_EMO
+💃_EMO
+💃_EMO
+First_JJAT JJATother
+time_NN NNQUANT
+@mxxxxxxxxxt_NN NCOMP NNMention
+with_IN INother
+@AxxxxxC_NN NNMention
+😊_EMO
+😊_EMO
+(_-LRB-
+But_CC
+not_XX0
+sure_JJPR JJEPSTother
+😜_EMO
+😜_EMO
+😜_EMO
+😜_EMO
+)_-RRB-
+@Txxxxxxxxxxxa_NN NNMention
+@MxxxxxxxxxC_NN NNMention
+https://t.co/4dcCBEhxv4_URL
+@Sxxxxxxxxx_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+Do_VPRT DOAUX
+n't_XX0 CONT
+miss_VB MENTAL
+._.
+._.
+@mxxxxxxxxxt_NN NNMention
+@Sxxxxxxxxx_NN NNMention
+Waiting_NN NNP
+for_IN INother
+You_SPP2
+😘_EMO
+😘_EMO
+😘_EMO
+😘_EMO
+Our_FPP1P FPPAll
+Beauty_NN NNother
+queen_NN NCOMP
+👸_EMO
+👸_EMO
+👸_EMO
+👸_EMO
+👸_EMO
+@Txxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+https://t.co/EaXpt2zLip_URL
+@Hxxxxxxxx1_NN NNMention
+@Rxxxxxxxa_NN NNMention
+@sxxxxxxxxxxxxx0_NN NNMention
+@ixxxxxxxxxxxn_NN NNMention
+@Fxxxxxxxxxxa_NN NNMention
+@Jxxxxxxxxxxi_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@txxxxxxxxxx1_NN NNMention
+@Mxxxxxxxi_NN NNMention
+Strong_JJPR JJPRother
+✊_EMO
+✊_EMO
+✊_EMO
+✊_EMO
+👌_EMO
+Bangladesh_NN NNP
+is_VPRT
+turning_PROG ACT
+50_CD
+years_NN NNother
+old_JJPR JJTIME
+🇧🇩_EMO
+❤_EMO
+#Happy50Bangladesh_HST
+https://t.co/Kcnntl4wBp_URL
+@Cxxxxxxx1_NN NNMention
+@BxxxxxxxK_NN NNMention
+BLINKS_VPRT
+REVOLUTION_NN NNABSPROC
+ON_IN INother
+BBMA_NN NNother
+I_FPP1S FPPAll
+vote_VPRT
+#HowYouLikeThat_HST
+for_IN INother
+#BestMusicVideo_HST
+on_IN INother
+#iHeartAwards_HST
+@pxxxxxxxa_NN NNMention
+Dodal_NN NNP
+Couple_NN NCOMP
+..._:
+#NamJooHyuk_HST
+#Namzy_HST
+#Suzy_HST
+#DoDal_HST
+@Yxxxxxxxxxxxa_NN NNMention
+plz_NN NNother
+plz_NN NCOMP
+plz_NN NNother
+da_NN NNP
+read_VBD MENTAL
+it_PIT
+Plz_NN NNP
+plz_NN NCOMP
+tell_VB COMM
+me_FPP1S FPPAll
+fb_VB
+account_NN NNABSPROC
+._.
+._.
+plz_NN NNother
+..._:
+Cartoon_NN NNP
+Art_NN NNP
+!_.
+little_JJAT JJDESCAll JJSIZE
+gift_NN NNCONC
+❤_EMO
+❤_EMO
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+https://t.co/mPBJCjjZvZ_URL
+@Bxxxs_NN NNMention
+@BxxxxxxxK_NN NNMention
+I_FPP1S FPPAll
+'m_VPRT CONT
+voting_PROG
+for_IN INother
+@BxxxxxxxK_NN NNMention
+for_IN INother
+#BBMAsTopSocial_HST
+Only_RB RBother
+God_NN NNP
+has_VPRT
+the_DT
+power_NN NNABSPROC
+to_IN INother
+cause_VB CAUSE
+disease.Stop_URL
+attacking_VBG
+my_FPP1S FPPAll
+Lisa_NN NNP
+._.
+😠_EMO
+😡_EMO
+😡_EMO
+#LoveYouLisa_HST
+#GetWellSoonLisa_HST
+#LISA_HST
+My_FPP1S FPPAll
+strong_JJAT JJATother
+girl_NN NNHUMAN
+,_,
+I_FPP1S FPPAll
+believe_VPRT MENTAL THATD
+you_SPP2
+will_MDWS MDPREDAll
+be_VB
+recovery_NN NNother
+very_AMP
+soon_TIME
+._.
+🖤_EMO
+💗_EMO
+Praying_VBG COMM
+for_IN INother
+everyone_QUPR
+’s_POS
+safety_NN NNother
+🙏_EMO
+#GetWellSoonLisa_HST
+#LoveYouLisa_HST
+#LoveYouROSE_HST
+#LoveYouBLACKPINK_HST
+https://t.co/o3wL4m7isZ_URL
+"_``
+STAY_VIMP EXIST
+SAFE_JJAT JJATother
+BLACKPINK_NN NNother
+"_''
+#GetwellsoonLisa_HST
+@BxxxxxxxK_NN NNMention
+https://t.co/0InYG7wTsd_URL
+praying_VBG COMM
+for_IN INother
+everyone_QUPR
+’s_POS
+safety_NN NNother
+..._:
+._.
+https://t.co/W4DKYZtCfV_URL
+Player_NN NNP
+Number_NN NNP
+26_CD
+#SquidGame_HST
+#Netflix_HST
+https://t.co/IDmBFo2ISs_URL
+Little_NN NNP
+@kxxxxxxxxn_NN NCOMP NNMention
+💃_EMO
+https://t.co/KmhLiGNzMl_URL
+But_CC
+when_WHSC WHSCother
+a_DT
+Muslim_JJAT JJATother
+woman_NN NNHUMAN
+wears_VPRT ACT
+:_:
+It_PIT
+'s_VPRT CONT BEMA
+a_DT
+ter_NN NNother
+****_SYM
+sm_NN NNother
+,_,
+it_PIT
+'s_VPRT CONT BEMA
+oppression_NN NNother
+._.
+😷_EMO
+Problem_NN NNP
+🤐_EMO
+https://t.co/EFVieAjqBS_URL
+Cool_FPUH
+,_,
+Hot_JJPR JJPRother
+and_CC
+Cute_JJPR JJPRother
+❄_EMO
+🔥_EMO
+😍_EMO
+https://t.co/rnnI2PcDEt_URL
+I_FPP1S FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+wait_VB ACT
+for_IN INother
+this_DEMO
+#LALISA_HST
+@BxxxxxxxK_NN NNMention
+https://t.co/3RMtyWyKJO_URL
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+so_EMPH
+excited_JJPR JJPRother
+🤗_EMO
+🤗_EMO
+https://t.co/0j77mgK9cn_URL
+You_SPP2
+treat_VPRT
+me_FPP1S FPPAll
+well_DMA
+,_,
+I_FPP1S FPPAll
+will_MDWS MDPREDAll SPLIT
+definitely_RB RSTNCAll RFACT
+treat_VB
+you_SPP2
+better.Making_URL
+enemies_NN NNother
+is_VPRT BEMA
+not_XX0
+our_FPP1P FPPAll
+job.If_COND
+you_SPP2
+really_RB EMPH
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+protect_VB
+your_SPP2
+favorite_JJAT JJATother
+artist_NN NNHUMAN
+,_,
+then_RB RBother
+respect_VB
+other_JJAT JJATother
+Artists_NN NNHUMAN
+as_CC
+well_RB RBother
+._.
+❤_EMO
+❤_EMO
+#StopCyberbullying_HST
+https://t.co/MwnzDqBr2h_URL
+has_VPRT
+crossed_PEAS
+3_CD
+million_CD
+views_NN NSTNCother
+..._:
+❤_EMO
+❤_EMO
+#Yashmita_HST
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@Sxxxxxxxl_NN NNMention
+https://t.co/2c6c3h6WdY_URL
+https://t.co/dwwBuL15kS_URL
+Congratulations_NN NOMZ
+Guys_NN NCOMP
+!_.
+"_``
+"_``
+has_VPRT
+crossed_PEAS
+1_CD
+million_CD
+views_NN NNCOG
+in_IN PrepNSTNC
+14_CD
+hours_NN NNQUANT
+,_,
+good_JJAT JJEVAL
+work_NN NNABSPROC
+deserves_VPRT EXIST
+everyone_QUPR
+'s_POS
+love...@mxxxxxxxxxt_ADD
+@Yxxxxxxxxxxxa_NN NNMention
+@Txxxxxxxxxxxn_NN NNMention
+@Sxxxxxxxl_NN NNMention
+@bxxxxxxi_NN NNMention
+https://t.co/cxTSlzyeKJ_URL
+This_DEMO
+is_VPRT BEMA
+your_SPP2
+idol_NN NNother
+'s_POS
+innocent_JJAT JJATother
+mistake_NN NNother
+._.
+Stop_VB ASPECT
+attacking_VBG
+Jennie_NN NNP
+Kim_NN NNP
+!_.
+It_PIT
+'s_VPRT CONT BEMA
+not_XX0
+a_DT
+crime_NN NNABSPROC
+to_IN INother
+be_VB BEMA
+beautiful_JJPR JJEVAL
+._.
+._.
+🙈_EMO
+🙈_EMO
+#JENNIE_HST
+#BLACKPINK_HST
+@Axxxxxxxxxxx2_NN NNMention
+I_FPP1S FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+._.
+._.
+😭_EMO
+😭_EMO
+@Txxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxl_NN NNMention
+😡_EMO
+😠_EMO
+😠_EMO
+@Txxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxl_NN NNMention
+Hmm_FPUH
+._.
+._.
+notice_NN NNCONC
+474k_NN NCOMP
++_SYM
+Views_NN NSTNCother
+._.
+._.
+Going_GTO MDPREDAll
+to_IN INother
+be_VB BEMA
+a_DT
+new_JJAT JJTIME
+record.Go_URL
+ahead_PLACE
+#Yashmitaian_HST
+✊_EMO
+✊_EMO
+@mxxxxxxxxxt_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Txxxxxxxxxxxa_NN NNMention
+https://t.co/1rNqYaad5a_URL
+@Dxxxxxxxxxxxxx3_NN NNMention
+Thanks_NN POLITE
+❤_EMO
+@mxxxxxxxxxt_NN NNMention
+'s_POS
+Airport_NN NNother
+look_NN NCOMP
+😍_EMO
+❤_EMO
+https://t.co/RSmp3JYzIa_URL
+Get_VB
+ready_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+jump_VB
+!_.
+#Yashmitaian_HST
+releasing_VBG
+this_DEMO
+August_NN NNP
+on_IN INother
+#SVFMusic_HST
+@mxxxxxxxxxt_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Txxxxxxxxxxxn_NN NNMention
+@Sxxxxxxxl_NN NNMention
+@Sxxxxxxc_NN NNMention
+@Sxxxxxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@bxxxxxxi_NN NNMention
+https://t.co/tAIzS85wie_URL
+@jxxxxxxx0_NN NNMention
+Thanks_NN POLITE
+for_IN INother
+sharing_NN NNother
+._.
+@Sxxxxxxxl_NN NNMention
+Ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+Wait_VB ACT
+For_IN INother
+this_DEMO
+❤_EMO
+❤_EMO
+🤗_EMO
+🤗_EMO
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+so_EMPH
+excited_JJAT JJATother
+@pxxxxxxxxxxxy_NN NNMention
+Oohh_NN NNP
+thanks_NN NCOMP POLITE
+😍_EMO
+Thanks_NN POLITE
+Love_NN NNP
+❤_EMO
+❤_EMO
+https://t.co/t8cItAyi7z_URL
+I_FPP1S FPPAll
+really_RB EMPH
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+go_VB
+see_VB MENTAL
+it_PIT
+,_,
+but_CC
+its_PIT
+Not_XX0
+Available_JJPR JJPRother
+here_PLACE
+😑_EMO
+😭_EMO
+😭_EMO
+@BxxxxxxxK_NN NNMention
+https://t.co/01Gi6JFJ0K_URL
+Believe_VB MENTAL
+it_PIT
+or_CC
+not_XX0
+you_SPP2
+guys_NN NNHUMAN
+are_VPRT SPLIT
+really_RB EMPH
+talking_PROG COMM
+all_QUAN
+nonsense_NN NNother
+._.
+Try_VB ACT
+to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+learn_VB MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+to_IN INother
+respect_VB
+everyone.if_COND
+any_QUAN
+Toxic_JJAT JJATother
+Fan_NN NNother
+Do_VPRT ACT
+something_QUPR
+Bad_JJPR JJEVAL
+,_,
+then_RB RBother
+blame_VPRT MENTAL
+only_RB RBother
+them_TPP3P
+,_,
+why_WHQU
+the_DT
+whole_JJAT JJATother
+fanbase_NN NNother
+and_CC
+idols_NN NNother
+gets_VPRT
+blame_NN NNother
+?_.
+#respectblackpink_HST
+#ArmysApologizeToBLACKPINK_HST
+#BLACKPINK_HST
+#Kpop_HST
+https://t.co/1zM3W4SP6n_URL
+"_``
+You_SPP2
+do_VPRT DOAUX
+n't_XX0 CONT
+need_MDNE
+to_IN INother
+be_VB BEMA
+Muslim_JJPR JJPRother
+to_IN INother
+stand_VB EXIST
+for_IN INother
+Gaza_NN NNP
+,_,
+You_SPP2
+just_RB EMPH
+need_MDNE
+to_IN INother
+be_VB
+Human_FPUH
+._.
+"_''
+#PalestineWillBeFree_HST
+#المسجد_HST
+#SavePalestine_HST
+#المسجد_HST
+https://t.co/vnwznBftSq_URL
+I_FPP1S FPPAll
+want_VPRT MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+know_VB MENTAL
+too_RB RBother
+!_.
+😁_EMO
+Anyway_DMA
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+all_QUAN
+work_VPRT ACT
+a_DT
+little_JJAT JJDESCAll JJSIZE
+harder_JJPR JJPRother
+._.
+._.
+Music_NN NNABSPROC
+Video_NN NCOMP
+link_NN NNABSPROC
+:_:
+https://t.co/1rNqYaad5a_URL
+#Yashmitaian_HST
+https://t.co/GQ0AJy4DiZ_URL
+Congratulations_NN NOMZ
+@BxxxxxxxK_NN NCOMP NNMention
+nominated_VBD
+for_IN INother
+Top_JJAT JJREL
+Social_JJAT JJTOPIC
+Artist_NN NNHUMAN
+at_IN INother
+the_DT
+Billboard_NN NNP
+Music_NN NNP
+Awards_NN NNP
+2021_CD
+#Blackpink_HST
+#BBMAs2021_HST
+#BillboardMusicAwards_HST
+https://t.co/iM9aTNqBzP_URL
+@TxxxxxxxxD_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@YxxxxxxxC_NN NNMention
+nice_JJPR JJEVAL
+your_SPP2
+looking_VBG
+so_EMPH
+nice_JJPR JJEVAL
+..._:
+Best_JJPR EMPH
+👏_EMO
+👏_EMO
+👏_EMO
+👏_EMO
+👏_EMO
+https://t.co/a7KE5Ay75K_URL
+My_FPP1S FPPAll
+heartbeat_NN NNother
+💓_EMO
+💓_EMO
+@mxxxxxxxxxt_NN NNMention
+https://t.co/2YcQsXp13N_URL
+@Yxxxxxxxxxxxa_NN NNMention
+YD_NN NNother
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+@ixxxxxxy_NN NNMention
+looking_VBG
+awesome_JJPR JJPRother
+._.
+._.
+Totally_AMP
+#Gangster_HST
+every_QUAN
+Look_VB
+Just_RB EMPH
+Rock_VB
+Only_JJAT JJATother
+1Day_NN NNother
+#ThikEmonEbhabe_HST
+crosses_NN NNABSPROC
+227k_NN NCOMP
++_SYM
+views.Congratz_URL
+Team_NN NNP
+#Gangster_HST
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxa_NN NNMention
+https://t.co/RuncNhKR8a_URL
+@Sxxxxxxxxxxxa_NN NNMention
+@Rxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+#ThikEmonEbhabe_HST
+this_DEMO
+awesome_JJAT JJATother
+song.n_NN NNother
+YD_NN NCOMP
+Expression_NN NNABSPROC
+just_RB EMPH
+awesome_JJAT JJATother
+@Hxxxxxxxx1_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Bxxxxxxxxxxxa_NN NNMention
+@pxxxxxxxa_NN NNMention
+we_FPP1P FPPAll
+all_QUAN
+BD_NN NNother
+fans_NN NCOMP
+@Hxxxxxxxx1_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+yep.this_URL
+really_RB EMPH
+good_JJAT JJEVAL
+news_NN NSTNCother
+._.
+._.
+BD_NN NNother
+Fans_NN NCOMP
+waiting_VBG ACT
+@YxxxxxxxC_NN NNMention
+hmm.waiting_FPUH
+@Yxxxxxxxxxxxa_NN NNMention
+also_CC
+BD_NN NNother
+Fans_NN NCOMP
+Waiting_VBG ACT
+for_IN INother
+your_SPP2
+new_JJAT JJTIME
+upcoming_JJAT JJATother
+movie_NN NNCONC
+#Gangster_HST
+n_NN NNother
+all_QUAN
+BD_NN NNother
+fans_NN NCOMP
+enjoy_VPRT MENTAL
+your_SPP2
+first_JJAT JJATother
+song_NN NNother
+#ThikEmonEbhabe_HST
+@YxxxxxxxC_NN NNMention
+@YxxxxxxxC_NN NNMention
+we_FPP1P FPPAll
+love_VPRT MENTAL
+the_DT
+song_NN NNother
+#ThikEmonEbhabe_HST
+#Gangster_HST
+#ThikEmonEbhabe_HST
+YouTube_NN NNP
+views_VPRT
+9,729_CD
++_SYM
+success_NN NNABSPROC
+._.
+I_FPP1S FPPAll
+am_VPRT
+Surprised_PASS PASSAll
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+https://t.co/QySi7JXh9p_URL
+@Yxxxxxxxxxxxa_NN NNMention
+really_RB EMPH
+Box_NN NNP
+Office_NN NNP
+https://t.co/GOgHDQXmqo_URL
+of_IN INother
+luck_NN NNother
+team_NN NCOMP
+#Gangster_HST
+#ThikEmonEbhabe_HST
+My_FPP1S FPPAll
+New_NN NNP
+Equanimity_NN NNP
+Ringtone_NN NNP
+._.
+._.
+♬_SYM
+♬_NFP
+#Gangster_HST
+@rxxxxxxxi_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+https://t.co/RhH7s6VYhV_URL
+#Gangster_HST
+@Bxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@YxxxxxxxC_NN NNMention
+@mxxxxxxxxxxxb_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+https://t.co/eVuIAfPCKL_URL
+@Axxxxxxxxxxxxxt_NN NNMention
+Happy_NN NNP
+Birthday_NN NNP
+To_IN INother
+you_SPP2
+._.
+._.
+@Mxxxxxxxxxxxr_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+best_JJPR EMPH
+of_IN INother
+luck_NN NNother
+Happy_JJAT JJATDother
+Independence_NN NNother
+Day_NN NCOMP
+#BSB_HST
+@txxxxxxxx0_NN NNMention
+@axxxxxxxxxxr_NN NNMention
+@Axxxxxxxxxxxx1_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+https://t.co/M0ZguFFjt2_URL
+Romantic_JJAT JJATother
+ASR_NN NNother
+n_NN NNother
+Lovely_JJAT JJEVAL
+PSR_NN NNother
+._.
+@YxxxxxM_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@Hxxxxxxxx1_NN NNMention
+https://t.co/MvWJTmIFIE_URL
+@Yxxxxxxxxs_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@hxxxxxxa_NN NNMention
+@Sxxxxxx6_NN NNMention
+tnx_NN NNother
+for_IN INother
+share_NN NNABSPROC
+._.
+._.
+looking_VBG
+so_EMPH
+nice_JJAT JJEVAL
+@mxxxxxxxxxc_NN NNMention
+its_PIT
+really_RB EMPH
+good_JJAT JJEVAL
+news_NN NSTNCother
+Love_VPRT MENTAL
+it_PIT
+???_.
+Rock_NN NNP
+star_NN NNP
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+@YxxxxxM_NN NNMention
+https://t.co/aoLCJEBcb3_URL
+@mxxxxxxxxxc_NN NNMention
+@Bxxxxxxxxxxxa_NN NNMention
+sir_NN NNP
+your_SPP2
+all_QUAN
+film_NN NNCONC
+Just_RB EMPH
+awesome_JJPR JJPRother
+._.
+._.
+best_JJAT EMPH
+wishes_NN NSTNCother
+😊_EMO
+😊_EMO
+♬_SYM
+♬_NFP
+@Yxxxxxxxxs_NN NNMention
+@Axxxxxxxxxxxxxt_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@hxxxxxxa_NN NNMention
+awesome_JJAT JJATother
+look_NN NNCOG
+._.
+._.
+tnx_NN NNother
+for_IN INother
+share_NN NNABSPROC
+@mxxxxxxxxxc_NN NCOMP NNMention
+wowww_FPUH
+I_FPP1S FPPAll
+am_VPRT
+waiting_PROG ACT
+@Vxxxxxxxxxxxxs_NN NNMention
+movie_NN NNCONC
+@Yxxxxxxxxxxxa_NN NCOMP NNMention
+to_IN INother
+romance_NN NNother
+with_IN INother
+@mxxxxxxxxxxxxxy_NN NNMention
+in_IN INother
+his_TPP3S
+first_JJAT JJATother
+movie_NN NNCONC
+._.
+#YashMimiSVF_HST
+@YxxxxxM_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+https://t.co/JBD13NYL2S_URL
+@YxxxxxxxC_NN NNMention
+nice_JJAT JJEVAL
+editing_NN NNother
+._.
+._.
+@Txxxxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxxa_NN NNMention
+Beautiful_NN NNP
+Moments_NN NCOMP
+😍_EMO
+😘_EMO
+😘_EMO
+#TVCShoot_HST
+#Madhumita_HST
+@mxxxxxxxxxt_NN NNMention
+https://t.co/WQ1nIav4aE_URL
+@Bxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+Dance_NN NNP
+is_VPRT BEMA
+the_DT
+expression_NN NNABSPROC
+of_IN INother
+being_VBG BEMA
+alive_JJPR JJPRother
+!_.
+💃🏻_EMO
+💃🏻_EMO
+@mxxxxxxxxxt_NN NNMention
+#MadhumitaRack_HST
+https://t.co/I8sKyTRxKV_URL
+@Yxxxxxxxxxxxa_NN NNMention
+@Bxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+#ThikEmonEbhabe_HST
+Heart_NN NNP
+Touch_NN NNP
+Song_NN NNP
+._.
+._.
+Unending_JJAT JJATother
+love_NN NNother
+team_NN NCOMP
+#Gangster_HST
+._.
+._.
+@Sxxxxxy_NN NNMention
+Oh_FPUH
+FINALLY_RB RBother
+!!!!_.
+#Bangladesh_HST
+✌_EMO
+✌_EMO
+@cxxxxxxxxxh_NN NNMention
+Charlie_NN NNP
+'s_POS
+new_JJAT JJTIME
+album_NN NNother
+#VoiceNotes_HST
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+❤_EMO
+iTunes_NN NNother
+•_SYM
+https://t.co/T3GWmbcMyw_URL
+Apple_NN NNP
+Music_NN NNP
+•_SYM
+https://t.co/T3GWmbcMyw_URL
+Spotify_NN NNP
+•_SYM
+https://t.co/s7ZWztL1vf_URL
+Amazon_NN NNP
+•_SYM
+https://t.co/8F8ZJyLjTQ_URL
+Deezer_NN NNP
+•_SYM
+https://t.co/rZjHByhUQV_URL
+https://t.co/aXdqfPyXPk_URL
+@Yxxxxxxxxxxxa_NN NNMention
+All_QUAN
+the_DT
+best_JJAT EMPH
+Team_NN NNother
+but_CC
+who_WHQU
+is_VPRT BEMA
+the_DT
+girl_NN NNHUMAN
+?_.
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Pxxxxxxxxx1_NN NNMention
+@pxxxxxxxa_NN NNMention
+@Sxxxxxxxl_NN NNMention
+I_FPP1S FPPAll
+think_VPRT MENTAL
+new_JJAT JJTIME
+Girl_NN NNP
+._.
+._.
+but_CC
+Always_FREQ
+Expect_VB MENTAL
+..._:
+@bxxxxxxxxx_NN NNMention
+@Rxxxxxxxxx4_NN NNMention
+@Rxxxxxxxxxxxa_NN NNMention
+@Sxxxxxxxxa_NN NNMention
+@Kxxxxxxxxxxxxx1_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+Always_FREQ
+Madhumita_NN NNP
+@sxxxxxxxt_NN NCOMP NNMention
+on_IN INother
+ur_SPP2
+special_JJAT JJATother
+day_NN NNQUANT
+,_,
+I_FPP1S FPPAll
+wish_VPRT MENTAL
+u_PRPother
+good_JJAT JJEVAL
+luck.I_NN NNother
+hope_NN NSTNCother NCOMP
+this_DEMO
+wonderful_JJAT JJATother
+day_NN NNQUANT
+willl_MDother
+fill_VB
+up_RP
+ur_SPP2
+heart_NN NNCONC
+with_IN INother
+joy_NN NNother
+&_CC
+blessings.Happy_URL
+Birthday_NN NNother
+._.
+._.
+https://t.co/6a6ka7AwTp_URL
+Wishing_VBG MENTAL
+you_SPP2
+a_DT
+very_AMP
+Happy_JJAT JJATDother
+Birthday_NN NNother
+,_,
+Many_QUAN
+many_QUAN
+happy_JJAT JJATDother
+returns_NN NNABSPROC
+of_IN INother
+the_DT
+day_NN NNQUANT
+#HappyBirthday_HST
+to_IN INother
+@Yxxxxxxxxxxxa_NN NNMention
+https://t.co/Tho35T21iY_URL
+@MxxxxxxxxxC_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+@mxxxxxxxxxt_NN NNMention
+welcome_JJAT JJATother
+Dear_JJPR JJPRother
+..._,
+@sxxxxxxxxc_NN NNMention
+@Pxxxxxxxxxx3_NN NNMention
+@hxxxxxxxv_NN NNMention
+@Sxxxxxxxl_NN NNMention
+@Mxxxxxa_NN NNMention
+Already_TIME
+Done_VBN ACT
+._.
+._.
+so_EMPH
+Beautiful_JJAT JJEVAL
+Expression_NN NNABSPROC
+Queen_NN NCOMP
+._.
+._.
+#Madhumita_HST
+:*)_NFP
+@Txxxxxxxxxxxa_NN NNMention
+@MxxxxxxxxxxC_NN NNMention
+@MxxxxxxxxxC_NN NNMention
+https://t.co/G8Ib9BRvrl_URL
+@Sxxxxxxxl_NN NNMention
+._.
+Finally_RB RBother
+coming_VBG ACT
+..@Yxxxxxxxxxxxa_NN NNP
+Chakraborty_NN NNP
+Family_NN NNP
+:-)_NFP
+#Madhumita_HST
+@sxxxxxxxxc_NN NNMention
+@Txxxxxxxxxxxa_NN NNMention
+https://t.co/eORDCvYZbi_URL
+@Txxxxxxxxxxxxxa_NN NNMention
+wow_FPUH
+._.
+._.
+I_FPP1S FPPAll
+am_VPRT BEMA
+So_EMPH
+happy_JJAT JJATDother
+@Txxxxxxxxxxxa_NN NNMention
+@wxxxxxxxxxxxxxm_NN NNMention
+Writing_VBG COMM
+._.
+._.
+Our_FPP1P FPPAll
+Beauty_NN NNother
+...._,
+#Madhumita_HST
+@Mxxxxxxxxxxxxb_NN NNMention
+@YxxxxxxxxxxxxC_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+https://t.co/h9LG0x7g7n_URL
+@Axxxxxxxxxxxxx2_NN NNMention
+@YxxxxxM_NN NNMention
+@Bxxxxxxxxxxxxxa_NN NNMention
+@Vxxxxxxxxxxxxs_NN NNMention
+@mxxxxxxxxxxxx_NN NNMention
+._.
+Yes_DMA
+our_FPP1P FPPAll
+Beauty_NN NNP
+Queen_NN NNP
+...._,
+#Madhumita_HST
+https://t.co/Ln5dxiXHeo_URL
+@Oxxxxxxxxxxxxxd_NN NNMention
+looking_VBG
+so_EMPH
+nice_JJPR JJEVAL
+Always_FREQ
+miss_VPRT MENTAL
+..._:
+#ASR_HST
+#PSR_HST
+#_HST
+8:30_CD
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxM_NN NNMention
+@Txxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Sxxxxxxxxxxxxxa_NN NNMention
+https://t.co/pXp7MgDwlR_URL
+Watch_VB ACT
+the_DT
+Telefilm_NN NNP
+again_FREQ
+._.
+._.
+#Share_HST
+https://t.co/o5v2gZhy7m_URL
+@mxxxxxxxxxxxxxy_NN NNMention
+@mxxxxxxxxxc_NN NNMention
+@Cxxxxxxxxxxxxa_NN NNMention
+@Mxxxxxxxxxxxxb_NN NNMention
+Awesome_JJAT JJATother
+song_NN NNother
+#Gangster_HST
+@Yxxxxxxxxxxxa_NN NNMention
+@YxxxxxxxC_NN NNMention
+@Yxxxxxxxxxb_NN NNMention
+Video_NN NNP
+Link_NN NNP
+:_:
+-_HYPH
+https://t.co/E0zmU8fi5O_URL
+._.
+https://t.co/FhMLNiUU3i_URL
+@Yxxxxxxxxxxxa_NN NNMention
+we_FPP1P FPPAll
+r_VPRT
+always_FREQ
+with_IN INother
+u_PRPother
+._.
+n_NN NNother
+You_SPP2
+always_FREQ
+with_IN INother
+our_FPP1P FPPAll
+..._:
+@Yxxxxxxxxxxxa_NN NNMention
+4_CD
+Views_NN NSTNCother
+complete_JJPR JJREL
+._.
+So_EMPH
+next_JJAT JJATother
+target_NN NNCONC
+5_CD
+@Bxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+Do_VPRT DOAUX
+n't_XX0 CONT
+stop_VB ASPECT
+the_DT
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxa_NN NNMention
+@ixxxxxy_NN NNMention
+@pxxxxxxxa_NN NNMention
+#ThikEmonEbhabe_HST
+Full_JJPR JJPRother
+on_IN INother
+I_FPP1S FPPAll
+am_VPRT BEMA
+Wonder_JJPR JJPRother
+!_.
+Only_RB RBother
+2_CD
+Day_NN NNQUANT
+#ThikEmonEbhabe_HST
+crosses_NN NNABSPROC
+398k_NN NCOMP
++_SYM
+views_NN NSTNCother
+._.
+Congratulations_NN NOMZ
+Team_NN NNP
+#Gangster_HST
+@Yxxxxxxxxxxxa_NN NNMention
+@mxxxxxxxxxxxxxy_NN NNMention
+@Bxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+@Yxxxxxxxxxxxa_NN NNMention
+Yeee_NN NNP
+#ThikEmonEbhabe_HST
+crosses_NN NNABSPROC
+314k_CD
++_SYM
+views_NN NSTNCother
+._.
+♬_NFP
+it_PIT
+joy_NN NNother
+our_FPP1P FPPAll
+joy_NN NNother
+@YxxxxxxxC_NN NCOMP NNMention
+https://t.co/55bmeXhsVr_URL
+@Yxxxxxxxxxxxa_NN NNMention
+journey_NN NNother
+Start_NN NCOMP
+...._,
+we_FPP1P FPPAll
+r_VPRT
+always_FREQ
+with_IN INother
+u_PRPother
+._.
+Best_JJPR EMPH
+of_IN INother
+luck_NN NNother
+._.
+._.
+@Sxxxxxa_NN NNMention
+you_SPP2
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+she_TPP3S
+really_RB EMPH

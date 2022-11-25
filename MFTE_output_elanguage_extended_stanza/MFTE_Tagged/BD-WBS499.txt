@@ -1,0 +1,2690 @@
++88_CD
+09609_CD
+200555_CD
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Ltd_NN NNP
+(_-LRB-
+NHFIL_NN NNP
+)_-RRB-
+a_DT
+publicly_RB RBother
+listed_VBN
+leading_VBG
+NBFI_NN NNother
+of_IN INother
+the_DT
+country_NN NNPLACE
+has_VPRT
+accorded_PEAS
+upgraded_VBN
+credit_NN NNother
+rating_NN NCOMP
+from_IN INother
+“_``
+A1_NN NNP
+”_''
+to_IN INother
+“_``
+AA_FPUH
+-_HYPH
+”_''
+in_IN INother
+long_JJAT JJDESCAll JJSIZE
+term_NN NNQUANT
+credit_NN NCOMP
+ra_NN NNother
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Ltd_NN NNP
+(_-LRB-
+NHFIL_NN NNP
+)_-RRB-
+a_DT
+publicly_RB RBother
+listed_VBN
+leading_VBG
+NBFI_NN NNother
+of_IN INother
+the_DT
+country_NN NNPLACE
+has_VPRT
+accorded_PEAS
+upgraded_VBN
+credit_NN NNother
+rating_NN NCOMP
+from_IN INother
+“_``
+A1_NN NNP
+”_''
+to_IN INother
+“_``
+AA_FPUH
+-_HYPH
+”_''
+in_IN INother
+long_JJAT JJDESCAll JJSIZE
+term_NN NNQUANT
+credit_NN NCOMP
+rated_VBN
+by_IN INother
+Credit_NN NNP
+Rating_NN NNP
+Information_NN NNP
+and_CC
+Services_NN NNP
+Limited_NN NNP
+(_-LRB-
+CRISL_NN NNP
+)_-RRB-
+based_VBN
+on_IN INother
+the_DT
+audited_VBN
+financial_JJAT JJATother
+statement_NN NNTECH
+of_IN PrepNSTNC
+the_DT
+company_NN NNGRP
+as_IN INother
+on_IN INother
+December_NN NNP
+31_CD
+,_,
+2020_CD
+and_CC
+un-audited_JJAT JJATother
+financial_JJAT JJATother
+statements_NN NNTECH
+up_IN PrepNSTNC
+to_IN INother
+31st_NN NNother
+March_NN NNP
+2021_CD
+,_,
+which_WHSC WHSCother
+was_VBD
+“_``
+A1_NN NNP
+”_''
+last_JJAT JJATother
+year_NN NNother
+._.
+The_DT
+category_NN NNother
+of_IN INother
+“_``
+AA_FPUH
+-_HYPH
+”_''
+for_IN INother
+Long_NN NNP
+Term_NN NNP
+indicating_VBG EXIST
+that_THSC THSCother
+NHFIL_NN NNP
+has_VPRT
+very_AMP
+strong_JJAT JJATother
+capacity_NN NOMZ
+for_IN INother
+timely_JJAT JJATother
+servicing_NN NNother
+of_IN INother
+financial_JJAT JJATother
+obligations_NN NSTNCother
+offering_VBG COMM
+high_JJAT JJATother
+safety_NN NNother
+with_IN INother
+carrying_VBG ACT
+very_AMP
+low_JJAT JJATother
+risk_NN NNABSPROC
+In_IN INother
+the_DT
+Short_NN NNP
+Term_NN NNP
+rating_NN NCOMP
+,_,
+NHFIL_NN NNP
+has_VPRT
+been_PEAS
+awarded_PASS PASSAll
+as_IN INother
+“_``
+ST_NN NNP
+-_HYPH
+2_CD
+”_''
+,_,
+which_WHSC WHSCother
+indicates_VPRT EXIST THATD
+NHFIL_NN NNP
+has_VPRT
+strong_JJAT JJATother
+capacity_NN NOMZ
+for_IN INother
+timely_JJAT JJATother
+repayment_NN NOMZ
+of_IN INother
+financial_JJAT JJATother
+obligations_NN NSTNCother
+carrying_VBG ACT
+lowest_JJAT JJATother
+credit_NN NNother
+risk_NN NCOMP
+._.
+The_DT
+rating_NN NNother
+as_IN INother
+such_JJPR JJPRother
+denotes_VPRT
+that_THSC THSCother
+NHFIL_NN NNP
+is_VPRT BEMA
+on_IN INother
+a_DT
+very_AMP
+sound_NN NNABSPROC
+and_CC
+strong_JJAT JJATother
+stability_NN NOMZ
+in_IN INother
+terms_NN NNQUANT
+of_IN INother
+its_PIT
+liquidity_NN NOMZ
+base_NN NCOMP
+,_,
+internal_JJAT JJREL
+fund_NN NNother
+generation_NN NCOMP
+capacity_NN NOMZ
+and_CC
+also_CC
+having_VBG
+alternative_JJAT JJATother
+sources_NN NNABSPROC
+of_IN INother
+arranging_VBG ACT
+funds_NN NNother
+._.
+NHFIL_NN NNP
+'s_POS
+outlook_NN NNother
+remains_VPRT EXIST
+"_``
+Stable_JJPR JJPRother
+"_''
+._.
+The_DT
+outlook_NN NNother
+implies_VPRT EXIST
+that_THSC THSCother
+NHFIL_NN NNP
+is_VPRT BEMA
+on_IN INother
+the_DT
+consistent_JJAT JJATother
+growth_NN NNother
+having_VBG
+prospect_NN NNother
+of_IN INother
+further_JJAT JJATother
+progression_NN NNother
+with_IN INother
+sustainability_NN NOMZ
+._.
+National_NN NNP
+Housing_NN NCOMP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+celebrated_VBD MENTAL
+International_NN NNP
+Women_NN NNP
+’s_POS
+Day_NN NNP
+-_SYM
+2021_CD
+at_IN INother
+its_PIT
+Corporate_NN NNP
+Head_NN NNP
+Office_NN NNP
+._.
+Rtn._NN NNP
+PDG_NN NNP
+Safina_NN NNP
+Rahman_NN NNP
+MPHF_NN NNP
+,_,
+Managing_VBG
+Director_NN NNHUMAN
+of_IN INother
+Lakhsma_NN NNP
+Innerwear_NN NNP
+Ltd._NN NNP
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NCOMP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+celebrated_VBD MENTAL
+International_NN NNP
+Women_NN NNP
+’s_POS
+Day_NN NNP
+-_SYM
+2021_CD
+at_IN INother
+its_PIT
+Corporate_NN NNP
+Head_NN NNP
+Office_NN NNP
+._.
+Rtn._NN NNP
+PDG_NN NNP
+Safina_NN NNP
+Rahman_NN NNP
+MPHF_NN NNP
+,_,
+Managing_VBG
+Director_NN NNP
+of_IN INother
+Lakhsma_NN NNP
+Innerwear_NN NNP
+Ltd._NN NNP
+was_VBD BEMA
+the_DT
+Chief_NN NNP
+Guest_NN NNP
+and_CC
+presented_VBD
+her_TPP3S
+valuable_JJAT JJATother
+insight_NN NNother
+about_IN INother
+the_DT
+theme_NN NNother
+of_IN INother
+this_DEMO
+year_NN NNother
+“_``
+Choose_VIMP MENTAL
+To_IN INother
+Challenge_VB COMM
+”_''
+._.
+All_QUAN
+women_NN NNHUMAN
+employees_NN NCOMP
+of_IN INother
+the_DT
+company_NN NNGRP
+were_VBD BEMA
+present_JJPR JJPRother
+at_IN INother
+that_DEMO
+program_NN NNother
+physically_RB RBother
+and_CC
+virtually_RB RBother
+._.
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+,_,
+Managing_NN NNP
+Director_NN NNP
+of_IN INother
+NHFIL_NN NNP
+&_CC
+Former_NN NNP
+Chaiman_NN NNP
+of_IN INother
+Bangladesh_NN NNP
+Leasing_NN NNP
+and_CC
+Finance_NN NNP
+Companies_NN NNP
+Association_NN NNP
+(_-LRB-
+BLFCA_NN NNP
+)_-RRB-
+,_,
+Mr._NN NNP
+Mohammad_NN NNP
+Shamsul_NN NNP
+Islam_NN NNP
+-_HYPH
+Additional_NN NNP
+Managing_NN NNP
+Director_NN NNP
+and_CC
+Senior_NN NNP
+Officials_NN NNP
+and_CC
+Head_NN NNP
+of_IN INother
+Branches_NN NNP
+of_IN INother
+NHFIL_NN NNP
+were_VBD SPLIT
+also_CC
+participated_PASS PASSAll
+in_IN INother
+the_DT
+program_NN NNother
+._.
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+welcomed_VBD COMM
+the_DT
+Chief_NN NNP
+Guest_NN NNP
+on_IN INother
+behalf_NN NNother
+of_IN INother
+NHFIL_NN NNP
+and_CC
+greeted_VBD
+all_QUAN
+the_DT
+female_JJAT JJATother
+employees_NN NNHUMAN
+with_IN INother
+his_TPP3S
+introductory_JJAT JJATother
+speech_NN NNother
+and_CC
+a_DT
+brief_JJAT JJATother
+history_NN NNother
+of_IN INother
+International_NN NNP
+Women_NN NNP
+’s_POS
+Day_NN NNP
+._.
+Later_TIME
+Rtn._NN NNP
+PDG_NN NNP
+Safina_NN NNP
+Rahman_NN NNP
+MPHF_NN NNP
+started_VBD ASPECT
+her_TPP3S
+inspiring_JJAT JJATother
+speech_NN NNother
+by_IN INother
+singing_VBG COMM
+a_DT
+beautiful_JJAT JJEVAL
+song_NN NNother
+of_IN INother
+Rabindranath_NN NNP
+Tagore_NN NNP
+._.
+According_VBG
+to_IN INother
+her_TPP3S
+,_,
+women_NN NNHUMAN
+are_VPRT BEMA
+ready_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+take_VB ACT
+challenges_NN NNother
+both_QUAN
+inside_PLACE
+and_CC
+outside_PLACE
+of_IN INother
+the_DT
+house_NN NNGRP
+._.
+They_TPP3P
+are_VPRT BEMA
+strong_JJPR JJPRother
+enough_RB RBother
+to_IN INother
+take_VB ACT
+challenges_NN NNother
+and_CC
+overcome_VB
+all_QUAN
+impediments_NN NOMZ
+very_AMP
+confidently_RB RBother
+._.
+She_TPP3S
+also_CC
+shared_VBD ACT
+her_TPP3S
+personal_JJAT JJATother
+experiences_NN NNCOG
+as_CC
+well_RB RBother
+as_CC
+well_RB RBother
+-_HYPH
+organized_VBN
+examples_NN NNother
+that_THRC THRCother
+women_NN NNHUMAN
+has_MDNE
+to_IN INother
+face_VB MENTAL
+daily_RB RBother
+in_IN INother
+their_TPP3P
+life_NN NNABSPROC
+._.
+Ms._NN NNP
+Rahman_NN NNP
+advised_VBD COMM
+to_IN INother
+become_VB OCCUR
+more_AMP
+organized_JJPR JJPRother
+and_CC
+more_QUAN
+patience_NN NNother
+for_IN INother
+moving_VBG ACT
+forward_RB RBother
+prominently_RB RBother
+._.
+Female_JJAT JJATother
+employees_NN NNHUMAN
+from_IN INother
+different_JJAT JJREL
+Branches_NN NNP
+of_IN INother
+NHFIL_NN NNP
+shared_VBD ACT
+their_TPP3P
+views_NN NNCOG
+about_IN PrepNSTNC
+the_DT
+positive_JJAT JJEPSTother
+working_NN NNother
+environment_NN NCOMP
+of_IN INother
+NHFIL_NN NNother
+and_CC
+the_DT
+significance_NN NNother
+of_IN INother
+women_NN NNHUMAN
+empowerment_NN NCOMP
+that_THRC THRCother
+inspire_VPRT
+them_TPP3P
+._.
+In_IN INother
+concluding_VBG MENTAL
+speech_NN NNother
+,_,
+Mr._NN NNP
+Mohammad_NN NNP
+Shamsul_NN NNP
+Islam_NN NNP
+appreciated_VBD MENTAL
+the_DT
+initiative_NN NNother
+of_IN INother
+Managing_VBG
+Director_NN NNHUMAN
+of_IN INother
+NHFIL_NN NNP
+for_IN INother
+celebrating_VBG MENTAL
+the_DT
+day_NN NNQUANT
+each_QUAN
+year_NN NNother
+gracefully_RB RBother
+for_IN INother
+motivating_VBG
+all_QUAN
+the_DT
+female_JJAT JJATother
+employees_NN NNHUMAN
+._.
+He_TPP3S
+highlighted_VBD
+the_DT
+significance_NN NNother
+of_IN INother
+the_DT
+day_NN NNQUANT
+as_CC
+well_RB RBother
+as_IN INother
+acknowledged_VBN COMM
+women_NN NNHUMAN
+power_NN NCOMP
+in_IN INother
+our_FPP1P FPPAll
+day_NN NNQUANT
+to_IN INother
+day_NN NNQUANT
+life_NN NCOMP
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+,_,
+President_NN NNP
+of_IN INother
+International_NN NNP
+Chamber_NN NNP
+of_IN INother
+Commerce_NN NNP
+,_,
+Bangladesh_NN NNP
+(_-LRB-
+ICCB_NN NNP
+)_-RRB-
+and_CC
+also_CC
+chairman_NN NNother
+of_IN INother
+NHFIL_NN NNP
+is_VPRT BEMA
+among_IN INother
+150_CD
+'_``
+high_JJAT JJATother
+impact_NN NNABSPROC
+'_''
+leaders_NN NNHUMAN
+in_IN INother
+the_DT
+area_NN NNPLACE
+of_IN INother
+business_NN NOMZ
+and_CC
+social_JJAT JJTOPIC
+enterprises_NN NNother
+from_IN STPR
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+,_,
+President_NN NNP
+of_IN INother
+International_NN NNP
+Chamber_NN NNP
+of_IN INother
+Commerce_NN NNP
+,_,
+Bangladesh_NN NNP
+(_-LRB-
+ICCB_NN NNP
+)_-RRB-
+and_CC
+also_CC
+chairman_NN NNother
+of_IN INother
+NHFIL_NN NNP
+is_VPRT BEMA
+among_IN INother
+150_CD
+'_``
+high_JJAT JJATother
+impact_NN NNABSPROC
+'_''
+leaders_NN NNHUMAN
+in_IN INother
+the_DT
+area_NN NNPLACE
+of_IN INother
+business_NN NOMZ
+and_CC
+social_JJAT JJTOPIC
+enterprises_NN NNother
+from_IN INother
+Africa_NN NNP
+,_,
+Asia_NN NNP
+,_,
+Latin_NN NNP
+America_NN NNP
+and_CC
+the_DT
+Middle_NN NNP
+East_NN NNP
+who_WHSC WHSCother
+are_VPRT
+interviewed_PASS PASSAll
+under_IN INother
+the_DT
+'_``
+Creating_NN NNP
+Emerging_NN NNP
+Market_NN NNP
+Project_NN NNP
+(_-LRB-
+CEMP_NN NNP
+)_-RRB-
+’_''
+at_IN INother
+the_DT
+Harvard_NN NNP
+Business_NN NNP
+School_NN NNP
+(_-LRB-
+HBS_NN NNP
+)_-RRB-
+._.
+In_IN INother
+his_TPP3S
+interview_NN NNother
+with_IN INother
+HBS_NN NNP
+,_,
+he_TPP3S
+talked_VBD COMM
+about_IN INother
+how_WHSC WHSCother
+,_,
+in_IN INother
+1962_CD
+,_,
+he_TPP3S
+started_VBD ASPECT
+his_TPP3S
+first_JJAT JJATother
+business_NN NOMZ
+,_,
+Eastern_NN NNP
+Trading_NN NNP
+Company_NN NNP
+(_-LRB-
+now_TIME
+ETBL_NN NNP
+Holdings_NN NNP
+)_-RRB-
+._.
+He_TPP3S
+threw_VBD ACT
+light_NN NNTECH
+on_IN INother
+the_DT
+difficulties_NN NNother
+that_THSC THSCother
+businessmen_NN NNother
+used_VBD ACT
+to_IN INother
+face_VB MENTAL
+when_WHSC WHSCother
+Bangladesh_NN NNP
+was_VBD BEMA
+a_DT
+part_NN NNQUANT
+of_IN INother
+Pakistan_NN NNP
+and_CC
+during_IN INother
+the_DT
+post_NN NNCONC
+-_HYPH
+liberation_NN NOMZ
+days_NN NCOMP
+._.
+He_TPP3S
+was_VBD
+asked_PASS PASSAll COMM
+about_IN INother
+corruption_NN NOMZ
+in_IN INother
+Bangladesh_NN NNP
+in_IN INother
+different_JJAT JJREL
+sectors_NN NNPLACE
+._.
+He_TPP3S
+traced_VBD
+the_DT
+root_NN NNCONC
+of_IN INother
+the_DT
+vice_NN NNother
+in_IN INother
+the_DT
+British_JJAT JJATother
+colonial_JJAT JJATother
+rule_NN NNABSPROC
+and_CC
+a_DT
+resulting_VBG
+lack_NN NNother
+of_IN INother
+transparency_NN NNother
+,_,
+archaic_JJAT JJATother
+laws_NN NNABSPROC
+,_,
+and_CC
+political_JJAT JJTOPIC
+cronyism_NN NNother
+._.
+Regarding_VBG MENTAL
+his_TPP3S
+involvement_NN NOMZ
+with_IN INother
+ICC_NN NNP
+,_,
+He_TPP3S
+presented_VBD
+a_DT
+few_QUAN
+examples_NN NNother
+of_IN INother
+banking_NN NNother
+and_CC
+financial_JJAT JJATother
+sector_NN NNPLACE
+reform_NN NCOMP
+that_THRC THRCother
+he_TPP3S
+has_VPRT
+done_PEAS ACT
+with_IN INother
+ICC_NN NNP
+in_IN INother
+Bangladesh_NN NNP
+,_,
+including_VBG EXIST
+encouraging_VBG COMM
+an_DT
+opening_NN NNother
+to_IN INother
+private_JJAT JJATother
+sector_NN NNPLACE
+activity_NN NCOMP
+._.
+He_TPP3S
+concluded_VBD MENTAL
+his_TPP3S
+interview_NN NNother
+by_IN INother
+discussing_VBG COMM
+how_WHSC WhVSTNCAll WhVCOM
+Bangladesh_NN NNP
+reacted_VBD
+to_IN INother
+the_DT
+2008_CD
+financial_JJAT JJATother
+crisis_NN NNother
+and_CC
+issues_NN NNABSPROC
+of_IN INother
+succession_NN NNother
+._.
+The_DT
+21st_JJAT JJATother
+Annual_NN NNP
+General_NN NNP
+Meeting_NN NCOMP
+(_-LRB-
+AGM_NN NNP
+)_-RRB-
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+was_VBD
+held_PASS PASSAll ACT
+on_IN INother
+Sunday_NN NNP
+,_,
+20th_CD
+September_NN NNP
+,_,
+2020_CD
+at_IN INother
+12.00_CD
+noon_NN NNother
+through_IN INother
+virtual_JJAT JJATother
+platform_NN NNother
+(_-LRB-
+Digitally_RB RBother
+)_-RRB-
+._.
+The_DT
+shareholders_NN NNHUMAN
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+The_DT
+21st_JJAT JJATother
+Annual_NN NNP
+General_NN NNP
+Meeting_NN NCOMP
+(_-LRB-
+AGM_NN NNP
+)_-RRB-
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+was_VBD
+held_PASS PASSAll ACT
+on_IN INother
+Sunday_NN NNP
+,_,
+20th_CD
+September_NN NNP
+,_,
+2020_CD
+at_IN INother
+12.00_CD
+noon_NN NNother
+through_IN INother
+virtual_JJAT JJATother
+platform_NN NNother
+(_-LRB-
+Digitally_RB RBother
+)_-RRB-
+._.
+The_DT
+shareholders_NN NNHUMAN
+approved_VBD MENTAL
+10.00_CD
+%_NN NNother
+Cash_NN NNother
+Dividend_NN NCOMP
+for_IN INother
+the_DT
+year_NN NNother
+2019_CD
+._.
+The_DT
+Meeting_NN NNABSPROC
+was_VBD
+presided_PASS PASSAll
+over_RP
+by_IN INother
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+,_,
+Chairman_NN NNP
+of_IN INother
+the_DT
+Company_NN NNP
+._.
+In_IN INother
+the_DT
+AGM_NN NNP
+Company_NN NNP
+’s_POS
+Directors_NN NNP
+,_,
+Promoters_NN NNP
+,_,
+Chairman_NN NNP
+of_IN INother
+Audit_NN NNP
+Committee_NN NNP
+and_CC
+a_DT
+large_JJAT JJDESCAll JJSIZE
+number_NN NNQUANT
+of_IN INother
+Shareholders_NN NNHUMAN
+along_IN INother
+with_IN INother
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+,_,
+Managing_VBG
+Director_NN NNP
+and_CC
+Mr._NN NNP
+Md._NN NNP
+Sarwar_NN NNP
+Kamal_NN NNP
+,_,
+FCS_NN NNP
+,_,
+Company_NN NNP
+Secretary_NN NNP
+were_VBD BEMA
+present_JJPR JJPRother
+._.
+The_DT
+shareholders_NN NNHUMAN
+appreciated_VBN MENTAL
+and_CC
+thanked_VBN COMM
+to_IN INother
+the_DT
+Board_NN NNCONC
+of_IN INother
+Directors_NN NNHUMAN
+and_CC
+management_NN NNABSPROC
+for_IN INother
+the_DT
+continuous_JJAT JJATother
+success_NN NNABSPROC
+of_IN INother
+the_DT
+Company_NN NNGRP
+._.
+National_NN NNP
+Housing_NN NCOMP
+is_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+largest_JJAT JJATother
+Financial_NN NNP
+Institution_NN NNP
+in_IN INother
+the_DT
+country_NN NNPLACE
+engaged_VBN ACT
+mainly_FREQ
+with_IN INother
+Home_NN NNP
+Loan_NN NNP
+._.
+Total_JJAT JJATother
+shareholders_NN NNHUMAN
+’_POS
+equity_NN NNABSPROC
+of_IN INother
+the_DT
+company_NN NNGRP
+is_VPRT
+Tk._$
+1,892.13_CD
+million_CD
+as_IN INother
+on_IN INother
+December_NN NNP
+31_CD
+,_,
+2019_CD
+and_CC
+earned_VBD ACT
+Tk._$
+236.81_CD
+million_CD
+as_IN INother
+Net_NN NNP
+profit_NN NCOMP
+after_IN INother
+tax_NN NNother
+during_IN INother
+the_DT
+year_NN NNother
+2019_CD
+._.
+The_DT
+Board_NN NNP
+of_IN INother
+Directors_NN NNP
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+in_IN INother
+its_PIT
+219th_CD
+meeting_NN NNABSPROC
+held_VBN ACT
+on_IN INother
+17_CD
+September_NN NNP
+2020_CD
+elected_VBD
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+as_IN INother
+Chairman_NN NNP
+and_CC
+Syed_NN NNP
+M._NN NNP
+Altaf_NN NNP
+Huss_NN NNP
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Ltd_NN NNP
+(_-LRB-
+NHFIL_NN NNP
+)_-RRB-
+a_DT
+publicly_RB RBother
+listed_VBN
+leading_VBG
+NBFI_NN NNother
+of_IN INother
+the_DT
+country_NN NNPLACE
+has_VPRT
+accorded_PEAS
+upgraded_VBN
+credit_NN NNother
+rating_NN NCOMP
+from_IN INother
+“_``
+A1_NN NNP
+”_''
+to_IN INother
+“_``
+AA_FPUH
+-_HYPH
+”_''
+in_IN INother
+long_JJAT JJDESCAll JJSIZE
+term_NN NNQUANT
+credit_NN NCOMP
+ra_NN NNother
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Ltd_NN NNP
+(_-LRB-
+NHFIL_NN NNP
+)_-RRB-
+a_DT
+publicly_RB RBother
+listed_VBN
+leading_VBG
+NBFI_NN NNother
+of_IN INother
+the_DT
+country_NN NNPLACE
+has_VPRT
+accorded_PEAS
+upgraded_VBN
+credit_NN NNother
+rating_NN NCOMP
+from_IN INother
+“_``
+A1_NN NNP
+”_''
+to_IN INother
+“_``
+AA_FPUH
+-_HYPH
+”_''
+in_IN INother
+long_JJAT JJDESCAll JJSIZE
+term_NN NNQUANT
+credit_NN NCOMP
+rated_VBN
+by_IN INother
+Credit_NN NNP
+Rating_NN NNP
+Information_NN NNP
+and_CC
+Services_NN NNP
+Limited_NN NNP
+(_-LRB-
+CRISL_NN NNP
+)_-RRB-
+based_VBN
+on_IN INother
+the_DT
+audited_VBN
+financial_JJAT JJATother
+statement_NN NNTECH
+of_IN PrepNSTNC
+the_DT
+company_NN NNGRP
+as_IN INother
+on_IN INother
+December_NN NNP
+31_CD
+,_,
+2020_CD
+and_CC
+un-audited_JJAT JJATother
+financial_JJAT JJATother
+statements_NN NNTECH
+up_IN PrepNSTNC
+to_IN INother
+31st_NN NNother
+March_NN NNP
+2021_CD
+,_,
+which_WHSC WHSCother
+was_VBD
+“_``
+A1_NN NNP
+”_''
+last_JJAT JJATother
+year_NN NNother
+._.
+The_DT
+category_NN NNother
+of_IN INother
+“_``
+AA_FPUH
+-_HYPH
+”_''
+for_IN INother
+Long_NN NNP
+Term_NN NNP
+indicating_VBG EXIST
+that_THSC THSCother
+NHFIL_NN NNP
+has_VPRT
+very_AMP
+strong_JJAT JJATother
+capacity_NN NOMZ
+for_IN INother
+timely_JJAT JJATother
+servicing_NN NNother
+of_IN INother
+financial_JJAT JJATother
+obligations_NN NSTNCother
+offering_VBG COMM
+high_JJAT JJATother
+safety_NN NNother
+with_IN INother
+carrying_VBG ACT
+very_AMP
+low_JJAT JJATother
+risk_NN NNABSPROC
+In_IN INother
+the_DT
+Short_NN NNP
+Term_NN NNP
+rating_NN NCOMP
+,_,
+NHFIL_NN NNP
+has_VPRT
+been_PEAS
+awarded_PASS PASSAll
+as_IN INother
+“_``
+ST_NN NNP
+-_HYPH
+2_CD
+”_''
+,_,
+which_WHSC WHSCother
+indicates_VPRT EXIST THATD
+NHFIL_NN NNP
+has_VPRT
+strong_JJAT JJATother
+capacity_NN NOMZ
+for_IN INother
+timely_JJAT JJATother
+repayment_NN NOMZ
+of_IN INother
+financial_JJAT JJATother
+obligations_NN NSTNCother
+carrying_VBG ACT
+lowest_JJAT JJATother
+credit_NN NNother
+risk_NN NCOMP
+._.
+The_DT
+rating_NN NNother
+as_IN INother
+such_JJPR JJPRother
+denotes_VPRT
+that_THSC THSCother
+NHFIL_NN NNP
+is_VPRT BEMA
+on_IN INother
+a_DT
+very_AMP
+sound_NN NNABSPROC
+and_CC
+strong_JJAT JJATother
+stability_NN NOMZ
+in_IN INother
+terms_NN NNQUANT
+of_IN INother
+its_PIT
+liquidity_NN NOMZ
+base_NN NCOMP
+,_,
+internal_JJAT JJREL
+fund_NN NNother
+generation_NN NCOMP
+capacity_NN NOMZ
+and_CC
+also_CC
+having_VBG
+alternative_JJAT JJATother
+sources_NN NNABSPROC
+of_IN INother
+arranging_VBG ACT
+funds_NN NNother
+._.
+NHFIL_NN NNP
+'s_POS
+outlook_NN NNother
+remains_VPRT EXIST
+"_``
+Stable_JJPR JJPRother
+"_''
+._.
+The_DT
+outlook_NN NNother
+implies_VPRT EXIST
+that_THSC THSCother
+NHFIL_NN NNP
+is_VPRT BEMA
+on_IN INother
+the_DT
+consistent_JJAT JJATother
+growth_NN NNother
+having_VBG
+prospect_NN NNother
+of_IN INother
+further_JJAT JJATother
+progression_NN NNother
+with_IN INother
+sustainability_NN NOMZ
+._.
+National_NN NNP
+Housing_NN NCOMP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+celebrated_VBD MENTAL
+International_NN NNP
+Women_NN NNP
+’s_POS
+Day_NN NNP
+-_SYM
+2021_CD
+at_IN INother
+its_PIT
+Corporate_NN NNP
+Head_NN NNP
+Office_NN NNP
+._.
+Rtn._NN NNP
+PDG_NN NNP
+Safina_NN NNP
+Rahman_NN NNP
+MPHF_NN NNP
+,_,
+Managing_VBG
+Director_NN NNHUMAN
+of_IN INother
+Lakhsma_NN NNP
+Innerwear_NN NNP
+Ltd._NN NNP
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NCOMP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+celebrated_VBD MENTAL
+International_NN NNP
+Women_NN NNP
+’s_POS
+Day_NN NNP
+-_SYM
+2021_CD
+at_IN INother
+its_PIT
+Corporate_NN NNP
+Head_NN NNP
+Office_NN NNP
+._.
+Rtn._NN NNP
+PDG_NN NNP
+Safina_NN NNP
+Rahman_NN NNP
+MPHF_NN NNP
+,_,
+Managing_VBG
+Director_NN NNP
+of_IN INother
+Lakhsma_NN NNP
+Innerwear_NN NNP
+Ltd._NN NNP
+was_VBD BEMA
+the_DT
+Chief_NN NNP
+Guest_NN NNP
+and_CC
+presented_VBD
+her_TPP3S
+valuable_JJAT JJATother
+insight_NN NNother
+about_IN INother
+the_DT
+theme_NN NNother
+of_IN INother
+this_DEMO
+year_NN NNother
+“_``
+Choose_VIMP MENTAL
+To_IN INother
+Challenge_VB COMM
+”_''
+._.
+All_QUAN
+women_NN NNHUMAN
+employees_NN NCOMP
+of_IN INother
+the_DT
+company_NN NNGRP
+were_VBD BEMA
+present_JJPR JJPRother
+at_IN INother
+that_DEMO
+program_NN NNother
+physically_RB RBother
+and_CC
+virtually_RB RBother
+._.
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+,_,
+Managing_NN NNP
+Director_NN NNP
+of_IN INother
+NHFIL_NN NNP
+&_CC
+Former_NN NNP
+Chaiman_NN NNP
+of_IN INother
+Bangladesh_NN NNP
+Leasing_NN NNP
+and_CC
+Finance_NN NNP
+Companies_NN NNP
+Association_NN NNP
+(_-LRB-
+BLFCA_NN NNP
+)_-RRB-
+,_,
+Mr._NN NNP
+Mohammad_NN NNP
+Shamsul_NN NNP
+Islam_NN NNP
+-_HYPH
+Additional_NN NNP
+Managing_NN NNP
+Director_NN NNP
+and_CC
+Senior_NN NNP
+Officials_NN NNP
+and_CC
+Head_NN NNP
+of_IN INother
+Branches_NN NNP
+of_IN INother
+NHFIL_NN NNP
+were_VBD SPLIT
+also_CC
+participated_PASS PASSAll
+in_IN INother
+the_DT
+program_NN NNother
+._.
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+welcomed_VBD COMM
+the_DT
+Chief_NN NNP
+Guest_NN NNP
+on_IN INother
+behalf_NN NNother
+of_IN INother
+NHFIL_NN NNP
+and_CC
+greeted_VBD
+all_QUAN
+the_DT
+female_JJAT JJATother
+employees_NN NNHUMAN
+with_IN INother
+his_TPP3S
+introductory_JJAT JJATother
+speech_NN NNother
+and_CC
+a_DT
+brief_JJAT JJATother
+history_NN NNother
+of_IN INother
+International_NN NNP
+Women_NN NNP
+’s_POS
+Day_NN NNP
+._.
+Later_TIME
+Rtn._NN NNP
+PDG_NN NNP
+Safina_NN NNP
+Rahman_NN NNP
+MPHF_NN NNP
+started_VBD ASPECT
+her_TPP3S
+inspiring_JJAT JJATother
+speech_NN NNother
+by_IN INother
+singing_VBG COMM
+a_DT
+beautiful_JJAT JJEVAL
+song_NN NNother
+of_IN INother
+Rabindranath_NN NNP
+Tagore_NN NNP
+._.
+According_VBG
+to_IN INother
+her_TPP3S
+,_,
+women_NN NNHUMAN
+are_VPRT BEMA
+ready_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJABL
+take_VB ACT
+challenges_NN NNother
+both_QUAN
+inside_PLACE
+and_CC
+outside_PLACE
+of_IN INother
+the_DT
+house_NN NNGRP
+._.
+They_TPP3P
+are_VPRT BEMA
+strong_JJPR JJPRother
+enough_RB RBother
+to_IN INother
+take_VB ACT
+challenges_NN NNother
+and_CC
+overcome_VB
+all_QUAN
+impediments_NN NOMZ
+very_AMP
+confidently_RB RBother
+._.
+She_TPP3S
+also_CC
+shared_VBD ACT
+her_TPP3S
+personal_JJAT JJATother
+experiences_NN NNCOG
+as_CC
+well_RB RBother
+as_CC
+well_RB RBother
+-_HYPH
+organized_VBN
+examples_NN NNother
+that_THRC THRCother
+women_NN NNHUMAN
+has_MDNE
+to_IN INother
+face_VB MENTAL
+daily_RB RBother
+in_IN INother
+their_TPP3P
+life_NN NNABSPROC
+._.
+Ms._NN NNP
+Rahman_NN NNP
+advised_VBD COMM
+to_IN INother
+become_VB OCCUR
+more_AMP
+organized_JJPR JJPRother
+and_CC
+more_QUAN
+patience_NN NNother
+for_IN INother
+moving_VBG ACT
+forward_RB RBother
+prominently_RB RBother
+._.
+Female_JJAT JJATother
+employees_NN NNHUMAN
+from_IN INother
+different_JJAT JJREL
+Branches_NN NNP
+of_IN INother
+NHFIL_NN NNP
+shared_VBD ACT
+their_TPP3P
+views_NN NNCOG
+about_IN PrepNSTNC
+the_DT
+positive_JJAT JJEPSTother
+working_NN NNother
+environment_NN NCOMP
+of_IN INother
+NHFIL_NN NNother
+and_CC
+the_DT
+significance_NN NNother
+of_IN INother
+women_NN NNHUMAN
+empowerment_NN NCOMP
+that_THRC THRCother
+inspire_VPRT
+them_TPP3P
+._.
+In_IN INother
+concluding_VBG MENTAL
+speech_NN NNother
+,_,
+Mr._NN NNP
+Mohammad_NN NNP
+Shamsul_NN NNP
+Islam_NN NNP
+appreciated_VBD MENTAL
+the_DT
+initiative_NN NNother
+of_IN INother
+Managing_VBG
+Director_NN NNHUMAN
+of_IN INother
+NHFIL_NN NNP
+for_IN INother
+celebrating_VBG MENTAL
+the_DT
+day_NN NNQUANT
+each_QUAN
+year_NN NNother
+gracefully_RB RBother
+for_IN INother
+motivating_VBG
+all_QUAN
+the_DT
+female_JJAT JJATother
+employees_NN NNHUMAN
+._.
+He_TPP3S
+highlighted_VBD
+the_DT
+significance_NN NNother
+of_IN INother
+the_DT
+day_NN NNQUANT
+as_CC
+well_RB RBother
+as_IN INother
+acknowledged_VBN COMM
+women_NN NNHUMAN
+power_NN NCOMP
+in_IN INother
+our_FPP1P FPPAll
+day_NN NNQUANT
+to_IN INother
+day_NN NNQUANT
+life_NN NCOMP
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+,_,
+President_NN NNP
+of_IN INother
+International_NN NNP
+Chamber_NN NNP
+of_IN INother
+Commerce_NN NNP
+,_,
+Bangladesh_NN NNP
+(_-LRB-
+ICCB_NN NNP
+)_-RRB-
+and_CC
+also_CC
+chairman_NN NNother
+of_IN INother
+NHFIL_NN NNP
+is_VPRT BEMA
+among_IN INother
+150_CD
+'_``
+high_JJAT JJATother
+impact_NN NNABSPROC
+'_''
+leaders_NN NNHUMAN
+in_IN INother
+the_DT
+area_NN NNPLACE
+of_IN INother
+business_NN NOMZ
+and_CC
+social_JJAT JJTOPIC
+enterprises_NN NNother
+from_IN STPR
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+,_,
+President_NN NNP
+of_IN INother
+International_NN NNP
+Chamber_NN NNP
+of_IN INother
+Commerce_NN NNP
+,_,
+Bangladesh_NN NNP
+(_-LRB-
+ICCB_NN NNP
+)_-RRB-
+and_CC
+also_CC
+chairman_NN NNother
+of_IN INother
+NHFIL_NN NNP
+is_VPRT BEMA
+among_IN INother
+150_CD
+'_``
+high_JJAT JJATother
+impact_NN NNABSPROC
+'_''
+leaders_NN NNHUMAN
+in_IN INother
+the_DT
+area_NN NNPLACE
+of_IN INother
+business_NN NOMZ
+and_CC
+social_JJAT JJTOPIC
+enterprises_NN NNother
+from_IN INother
+Africa_NN NNP
+,_,
+Asia_NN NNP
+,_,
+Latin_NN NNP
+America_NN NNP
+and_CC
+the_DT
+Middle_NN NNP
+East_NN NNP
+who_WHSC WHSCother
+are_VPRT
+interviewed_PASS PASSAll
+under_IN INother
+the_DT
+'_``
+Creating_NN NNP
+Emerging_NN NNP
+Market_NN NNP
+Project_NN NNP
+(_-LRB-
+CEMP_NN NNP
+)_-RRB-
+’_''
+at_IN INother
+the_DT
+Harvard_NN NNP
+Business_NN NNP
+School_NN NNP
+(_-LRB-
+HBS_NN NNP
+)_-RRB-
+._.
+In_IN INother
+his_TPP3S
+interview_NN NNother
+with_IN INother
+HBS_NN NNP
+,_,
+he_TPP3S
+talked_VBD COMM
+about_IN INother
+how_WHSC WHSCother
+,_,
+in_IN INother
+1962_CD
+,_,
+he_TPP3S
+started_VBD ASPECT
+his_TPP3S
+first_JJAT JJATother
+business_NN NOMZ
+,_,
+Eastern_NN NNP
+Trading_NN NNP
+Company_NN NNP
+(_-LRB-
+now_TIME
+ETBL_NN NNP
+Holdings_NN NNP
+)_-RRB-
+._.
+He_TPP3S
+threw_VBD ACT
+light_NN NNTECH
+on_IN INother
+the_DT
+difficulties_NN NNother
+that_THSC THSCother
+businessmen_NN NNother
+used_VBD ACT
+to_IN INother
+face_VB MENTAL
+when_WHSC WHSCother
+Bangladesh_NN NNP
+was_VBD BEMA
+a_DT
+part_NN NNQUANT
+of_IN INother
+Pakistan_NN NNP
+and_CC
+during_IN INother
+the_DT
+post_NN NNCONC
+-_HYPH
+liberation_NN NOMZ
+days_NN NCOMP
+._.
+He_TPP3S
+was_VBD
+asked_PASS PASSAll COMM
+about_IN INother
+corruption_NN NOMZ
+in_IN INother
+Bangladesh_NN NNP
+in_IN INother
+different_JJAT JJREL
+sectors_NN NNPLACE
+._.
+He_TPP3S
+traced_VBD
+the_DT
+root_NN NNCONC
+of_IN INother
+the_DT
+vice_NN NNother
+in_IN INother
+the_DT
+British_JJAT JJATother
+colonial_JJAT JJATother
+rule_NN NNABSPROC
+and_CC
+a_DT
+resulting_VBG
+lack_NN NNother
+of_IN INother
+transparency_NN NNother
+,_,
+archaic_JJAT JJATother
+laws_NN NNABSPROC
+,_,
+and_CC
+political_JJAT JJTOPIC
+cronyism_NN NNother
+._.
+Regarding_VBG MENTAL
+his_TPP3S
+involvement_NN NOMZ
+with_IN INother
+ICC_NN NNP
+,_,
+He_TPP3S
+presented_VBD
+a_DT
+few_QUAN
+examples_NN NNother
+of_IN INother
+banking_NN NNother
+and_CC
+financial_JJAT JJATother
+sector_NN NNPLACE
+reform_NN NCOMP
+that_THRC THRCother
+he_TPP3S
+has_VPRT
+done_PEAS ACT
+with_IN INother
+ICC_NN NNP
+in_IN INother
+Bangladesh_NN NNP
+,_,
+including_VBG EXIST
+encouraging_VBG COMM
+an_DT
+opening_NN NNother
+to_IN INother
+private_JJAT JJATother
+sector_NN NNPLACE
+activity_NN NCOMP
+._.
+He_TPP3S
+concluded_VBD MENTAL
+his_TPP3S
+interview_NN NNother
+by_IN INother
+discussing_VBG COMM
+how_WHSC WhVSTNCAll WhVCOM
+Bangladesh_NN NNP
+reacted_VBD
+to_IN INother
+the_DT
+2008_CD
+financial_JJAT JJATother
+crisis_NN NNother
+and_CC
+issues_NN NNABSPROC
+of_IN INother
+succession_NN NNother
+._.
+The_DT
+21st_JJAT JJATother
+Annual_NN NNP
+General_NN NNP
+Meeting_NN NCOMP
+(_-LRB-
+AGM_NN NNP
+)_-RRB-
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+was_VBD
+held_PASS PASSAll ACT
+on_IN INother
+Sunday_NN NNP
+,_,
+20th_CD
+September_NN NNP
+,_,
+2020_CD
+at_IN INother
+12.00_CD
+noon_NN NNother
+through_IN INother
+virtual_JJAT JJATother
+platform_NN NNother
+(_-LRB-
+Digitally_RB RBother
+)_-RRB-
+._.
+The_DT
+shareholders_NN NNHUMAN
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+The_DT
+21st_JJAT JJATother
+Annual_NN NNP
+General_NN NNP
+Meeting_NN NCOMP
+(_-LRB-
+AGM_NN NNP
+)_-RRB-
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+was_VBD
+held_PASS PASSAll ACT
+on_IN INother
+Sunday_NN NNP
+,_,
+20th_CD
+September_NN NNP
+,_,
+2020_CD
+at_IN INother
+12.00_CD
+noon_NN NNother
+through_IN INother
+virtual_JJAT JJATother
+platform_NN NNother
+(_-LRB-
+Digitally_RB RBother
+)_-RRB-
+._.
+The_DT
+shareholders_NN NNHUMAN
+approved_VBD MENTAL
+10.00_CD
+%_NN NNother
+Cash_NN NNother
+Dividend_NN NCOMP
+for_IN INother
+the_DT
+year_NN NNother
+2019_CD
+._.
+The_DT
+Meeting_NN NNABSPROC
+was_VBD
+presided_PASS PASSAll
+over_RP
+by_IN INother
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+,_,
+Chairman_NN NNP
+of_IN INother
+the_DT
+Company_NN NNP
+._.
+In_IN INother
+the_DT
+AGM_NN NNP
+Company_NN NNP
+’s_POS
+Directors_NN NNP
+,_,
+Promoters_NN NNP
+,_,
+Chairman_NN NNP
+of_IN INother
+Audit_NN NNP
+Committee_NN NNP
+and_CC
+a_DT
+large_JJAT JJDESCAll JJSIZE
+number_NN NNQUANT
+of_IN INother
+Shareholders_NN NNHUMAN
+along_IN INother
+with_IN INother
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+,_,
+Managing_VBG
+Director_NN NNP
+and_CC
+Mr._NN NNP
+Md._NN NNP
+Sarwar_NN NNP
+Kamal_NN NNP
+,_,
+FCS_NN NNP
+,_,
+Company_NN NNP
+Secretary_NN NNP
+were_VBD BEMA
+present_JJPR JJPRother
+._.
+The_DT
+shareholders_NN NNHUMAN
+appreciated_VBN MENTAL
+and_CC
+thanked_VBN COMM
+to_IN INother
+the_DT
+Board_NN NNCONC
+of_IN INother
+Directors_NN NNHUMAN
+and_CC
+management_NN NNABSPROC
+for_IN INother
+the_DT
+continuous_JJAT JJATother
+success_NN NNABSPROC
+of_IN INother
+the_DT
+Company_NN NNGRP
+._.
+National_NN NNP
+Housing_NN NCOMP
+is_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+largest_JJAT JJATother
+Financial_NN NNP
+Institution_NN NNP
+in_IN INother
+the_DT
+country_NN NNPLACE
+engaged_VBN ACT
+mainly_FREQ
+with_IN INother
+Home_NN NNP
+Loan_NN NNP
+._.
+Total_JJAT JJATother
+shareholders_NN NNHUMAN
+’_POS
+equity_NN NNABSPROC
+of_IN INother
+the_DT
+company_NN NNGRP
+is_VPRT
+Tk._$
+1,892.13_CD
+million_CD
+as_IN INother
+on_IN INother
+December_NN NNP
+31_CD
+,_,
+2019_CD
+and_CC
+earned_VBD ACT
+Tk._$
+236.81_CD
+million_CD
+as_IN INother
+Net_NN NNP
+profit_NN NCOMP
+after_IN INother
+tax_NN NNother
+during_IN INother
+the_DT
+year_NN NNother
+2019_CD
+._.
+The_DT
+Board_NN NNP
+of_IN INother
+Directors_NN NNP
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+in_IN INother
+its_PIT
+219th_CD
+meeting_NN NNABSPROC
+held_VBN ACT
+on_IN INother
+17_CD
+September_NN NNP
+2020_CD
+elected_VBD
+Mr._NN NNP
+Mahbubur_NN NNP
+Rahman_NN NNP
+as_IN INother
+Chairman_NN NNP
+and_CC
+Syed_NN NNP
+M._NN NNP
+Altaf_NN NNP
+Huss_NN NNP
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+opened_VBD ACT
+its_PIT
+8th_CD
+Branch_NN NNCONC
+namely_ELAB
+,_,
+Feni_NN NNP
+Branch_NN NCOMP
+on_IN INother
+21_CD
+December_NN NNP
+,_,
+2019_CD
+at_IN INother
+Kazi_NN NNP
+Plaza_NN NNP
+(_-LRB-
+3rd_CD
+floor_NN NNPLACE
+)_-RRB-
+,_,
+107_CD
+,_,
+S.S.K_NN NNP
+Road_NN NNP
+,_,
+Feni_NN NNP
+Sadar_NN NNP
+,_,
+Feni_NN NNP
+._.
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rah_NN NNP
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+opened_VBD ACT
+its_PIT
+8th_CD
+Branch_NN NNCONC
+namely_ELAB
+,_,
+Feni_NN NNP
+Branch_NN NCOMP
+on_IN INother
+21_CD
+December_NN NNP
+,_,
+2019_CD
+at_IN INother
+Kazi_NN NNP
+Plaza_NN NNP
+(_-LRB-
+3rd_CD
+floor_NN NNPLACE
+)_-RRB-
+,_,
+107_CD
+,_,
+S.S.K_NN NNP
+Road_NN NNP
+,_,
+Feni_NN NNP
+Sadar_NN NNP
+,_,
+Feni_NN NNP
+._.
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+,_,
+Managing_VBG
+Director_NN NNHUMAN
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Limited_NN NNP
+inaugurated_VBD
+the_DT
+opening_VBG ACT
+ceremony_NN NNother
+._.
+Mr._NN NNP
+S._NN NNP
+M._NN NNP
+Anisuzzaman_NN NNP
+,_,
+Deputy_NN NNP
+Managing_NN NNP
+Director_NN NNP
+,_,
+Mr._NN NNP
+Shital_NN NNP
+Chandra_NN NNP
+Saha_NN NNP
+,_,
+SVP_NN NNP
+&_CC
+Head_NN NNP
+of_IN INother
+Operation_NN NNP
+,_,
+Mr._NN NNP
+Md._NN NNP
+Abdul_NN NNP
+Baten_NN NNP
+,_,
+Vice_NN NNP
+President_NN NNP
+,_,
+Mr._NN NNP
+Sayed_NN NNP
+Ahmed_NN NNP
+-_HYPH
+FCMA_NN NNP
+,_,
+Chief_NN NNP
+Financial_NN NNP
+Officer_NN NNP
+,_,
+Mr._NN NNP
+Mahbubur_NN NNP
+Rashid_NN NNP
+Al_NN NNP
+-_HYPH
+Amin_NN NNP
+,_,
+Head_NN NNP
+of_IN INother
+Principal_NN NNP
+Branch_NN NNP
+,_,
+Mr._NN NNP
+Reza_NN NNP
+Karim_NN NNP
+Md._NN NNP
+Khaled_NN NNP
+,_,
+Head_NN NNP
+of_IN INother
+Gulshan_NN NNP
+Branch_NN NNP
+,_,
+local_JJAT JJATother
+business_NN NOMZ
+people_NN NCOMP
+and_CC
+valuable_JJAT JJATother
+customers_NN NNHUMAN
+were_VBD BEMA
+present_JJPR JJPRother
+in_IN INother
+the_DT
+occasion_NN NNother
+._.
+Honorable_JJAT JJATother
+Managing_NN NNother
+Director_NN NCOMP
+welcomed_VBD COMM
+the_DT
+respected_VBN
+guests_NN NNother
+and_CC
+delivered_VBD ACT
+a_DT
+speech_NN NNother
+thereof_NN NCOMP
+._.
+The_DT
+function_NN NNABSPROC
+was_VBD
+ended_PASS PASSAll ASPECT
+with_IN INother
+Doa_NN NNP
+and_CC
+Munajat_NN NNP
+._.
+Annual_NN NNP
+Business_NN NNP
+Conference_NN NNP
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Ltd._NN NNP
+were_VBD
+held_PASS PASSAll ACT
+on_IN INother
+17th_CD
+February_NN NNP
+,_,
+2019_CD
+at_IN INother
+Corporate_NN NNP
+Head_NN NNP
+Office_NN NNP
+of_IN INother
+the_DT
+Company_NN NNP
+._.
+The_DT
+conference_NN NNother
+was_VBD
+presided_PASS PASSAll
+over_RB RBother
+by_IN INother
+Mr._NN NNP
+Md._NN NNP
+K_CD
+._.
+._.
+._.
+View_NN NSTNCother
+Details_NN NCOMP
+>>_-RRB-
+Annual_NN NNP
+Business_NN NNP
+Conference_NN NNP
+of_IN INother
+National_NN NNP
+Housing_NN NNP
+Finance_NN NNP
+and_CC
+Investments_NN NNP
+Ltd._NN NNP
+were_VBD
+held_PASS PASSAll ACT
+on_IN INother
+17th_CD
+February_NN NNP
+,_,
+2019_CD
+at_IN INother
+Corporate_NN NNP
+Head_NN NNP
+Office_NN NNP
+of_IN INother
+the_DT
+Company_NN NNP
+._.
+The_DT
+conference_NN NNother
+was_VBD
+presided_PASS PASSAll
+over_RP
+by_IN INother
+Mr._NN NNP
+Md._NN NNP
+Khalilur_NN NNP
+Rahman_NN NNP
+,_,
+Managing_VBG
+Director_NN NNP
+of_IN INother
+the_DT
+Company_NN NNP
+._.
+Mr._NN NNP
+S._NN NNP
+M._NN NNP
+Anisuzzaman_NN NNP
+,_,
+Deputy_NN NNother
+Managing_VBG
+Director_NN NNHUMAN
+,_,
+all_QUAN
+Branch_NN NNCONC
+Managers_NN NCOMP
+,_,
+Departmental_NN NNP
+Heads_NN NNP
+and_CC
+Senior_JJAT JJATother
+Executives_NN NNP
+were_VBD
+attended_PASS PASSAll
+the_DT
+conference_NN NNother
+and_CC
+given_VBN ACT
+their_TPP3P
+opinion_NN NNCOG
+to_IN PrepNSTNC
+achieve_VB
+the_DT
+business_NN NOMZ
+target_NN NCOMP
+for_IN INother
+the_DT
+year_NN NNother
+2019_CD
+._.
+The_DT
+Managing_VBG
+Director_NN NNHUMAN
+appreciated_VBD MENTAL
+all_QUAN
+the_DT
+Managers_NN NNP
+and_CC
+Executives_NN NNP
+for_IN INother
+the_DT
+business_NN NOMZ
+growth_NN NCOMP
+of_IN INother
+the_DT
+Company_NN NNP
+in_IN INother
+2018_CD
+and_CC
+gave_VBD ACT
+necessary_JJAT JJREL
+direction_NN NNABSPROC
+to_IN INother
+improve_VB
+and_CC
+achieve_VB
+the_DT
+business_NN NOMZ
+performance_NN NCOMP
+in_IN INother
+2019_CD
+._.
+Call_VB COMM
+Us_FPP1P FPPAll
+Locate_VB
+Us_FPP1P FPPAll
+Message_VB
+Us_FPP1P FPPAll
+Please_FPUH POLITE
+fill_VB
+-_,
+in_IN INother
+the_DT
+required_VBN CAUSE
+information_NN NNABSPROC
+,_,
+so_SO
+that_THSC CUZ
+our_FPP1P FPPAll
+team_NN NNother
+can_MDCA MDPOSSCAll
+get_VB
+in_IN INother
+touch_NN NNother
+with_IN INother
+you_SPP2
+._.
+Concord_NN NNP
+Baksh_NN NNP
+Tower_NN NNP
+(_-LRB-
+7th_CD
+floor_NN NNPLACE
+)_-RRB-
+Plot_NN NNother
+:_:
+11_CD
+-_SYM
+A_NN NNP
+,_,
+Road_NN NNP
+No.-_NN NNP
+48_CD
+,_,
+Block_NN NNCONC
+-_HYPH
+CWN_NN NNP
+(_-LRB-
+A_NN NNP
+)_-RRB-
+Gulshan_NN NNP
+-_HYPH
+2_CD
+,_,
+Dhaka-_NN NNP
+1212_CD
+Phone_NN NNCONC
+:_:
++88_CD
+09609_CD
+200555_CD
+email_NN NNother
+:_:
+info@nxxxxxxxxxxxxxxxxxxxm_NN NNother
+National_NN NNP
+Plaza_NN NNP
+(_-LRB-
+7th_CD
+&_CC
+8th_CD
+floor_NN NNPLACE
+)_-RRB-
+109_CD
+Bir_NN NNP
+Uttam_NN NNP
+C.R._NN NNP
+Dutta_NN NNP
+Road_NN NNP
+,_,
+Dhaka_NN NNP
+-_,
+1205_CD
+Tel_NN NNother
+:_:
+88-02-9670612-4_CD
+,_,
+88-02-9677181-2_CD
+,_,
+88-02-9669800_CD
+Fax_NN NNother
+:_:
+88-02-9671016_CD
+National_NN NNP
+Plaza_NN NNP
+(_-LRB-
+7th_CD
+&_CC
+8th_CD
+floor_NN NNPLACE
+)_-RRB-
+109_CD
+Bir_NN NNP
+Uttam_NN NNP
+C.R._NN NNP
+Dutta_NN NNP
+Road_NN NNP
+,_,
+Dhaka_NN NNP
+-_,
+1205_CD
+Tel_NN NNother
+:_:
+88-02-9670612-4_CD
+,_,
+88-02-9677181-2_CD
+,_,
+Ext.-141_NN NNother
+Fax_NN NNother
+:_:
+88-02-9671016_CD
+email_NN NNother
+:_:
+share@nxxxxxxxxxxxxxxxxxxxm_NN NNother

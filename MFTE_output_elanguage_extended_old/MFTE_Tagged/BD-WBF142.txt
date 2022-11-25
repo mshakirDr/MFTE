@@ -1,0 +1,5798 @@
+-_NFP
+Please_FPUH POLITE
+help_VB CAUSE
+solving_VBG MENTAL
+the_DT
+problem_NN NNother
+._.
+Notice_NN NNCONC
+that_THSC THSCother
+if_COND
+we_FPP1P FPPAll
+consider_VPRT MENTAL
+no_DMA
+wo_MDWS MDPREDAll
+lines_NN NNother
+are_VPRT BEMA
+parallel_JJPR JJPRother
+,_,
+and_CC
+no_DMA
+three_CD
+are_VPRT BEMA
+concurrent_JJPR JJPRother
+,_,
+then_RB RBother
+every_QUAN
+pair_NN NNother
+of_IN INother
+lines_NN NNother
+have_VPRT
+a_DT
+unique_JJAT JJATother
+point_NN NNother
+of_IN INother
+intersection_NN NOMZ
+._.
+In_IN INother
+the_DT
+other_JJAT JJATother
+direction_NN NNABSPROC
+,_,
+every_QUAN
+point_NN NNother
+of_IN INother
+intersection_NN NOMZ
+corresponds_VPRT
+to_IN INother
+exactly_RB RBother
+$_$
+2_CD
+$_$
+lines_NN NNother
+._.
+So_SO
+,_,
+there_EX
+is_VPRT
+a_DT
+bijection_NN NOMZ
+between_IN INother
+the_DT
+set_NN NNABSPROC
+of_IN INother
+all_QUAN
+pairs_NN NNother
+of_IN INother
+lines_NN NNother
+and_CC
+the_DT
+set_NN NNABSPROC
+of_IN INother
+intersection_NN NOMZ
+points_NN NCOMP
+._.
+So_SO
+,_,
+number_NN NNQUANT
+of_IN INother
+unordered_JJAT JJATother
+pairs_NN NNother
+of_IN INother
+lines_NN NNother
+$_$
+=_SYM
+^_SYM
+9C_NN NNother
+=_SYM
+36_CD
+._.
+$_$
+Please_FPUH POLITE
+give_VB ACT
+complete_JJAT JJREL
+problem_NN NNother
+,_,
+use_VIMP ACT
+the_DT
+edit_NN NNother
+button_NN NCOMP
+._.
+Here_PLACE
+is_VPRT BEMA
+the_DT
+complete_JJAT JJREL
+problem_NN NNother
+This_DEMO
+problem_NN NNother
+appeared_VBD EXIST
+as_IN INother
+problem_NN NNother
+number_NN NCOMP
+7_CD
+in_IN INother
+Regional_NN NNP
+2020_CD
+(_-LRB-
+Junior_NN NNP
+Category_NN NNP
+)_-RRB-
+._.
+This_DEMO
+one_NN NNother
+is_VPRT BEMA
+a_DT
+quite_RB RBother
+easy_JJAT JJATother
+problem_NN NNother
+._.
+Okay_FPUH
+,_,
+Here_PLACE
+is_VPRT BEMA
+the_DT
+full_JJAT JJATother
+solution_NN NNTECH
+:_:
+Total_JJAT JJATother
+pigeons_NN NNother
+are_VPRT
+$_$
+10_CD
+$_$
+._.
+It_PIT
+means_VPRT COMM
+the_DT
+2nd_CD
+or_CC
+3rd_CD
+friend_NN NNHUMAN
+can_MDCA MDPOSSCAll
+not_XX0
+take_VB ACT
+more_QUAN
+than_IN INother
+10_CD
+pigeons_NN NNother
+._.
+They_TPP3P
+can_MDCA MDPOSSCAll
+take_VB ACT
+maximum_JJAT JJREL
+10_CD
+pigeons_NN NNother
+._.
+Well_DMA
+,_,
+in_IN INother
+this_DEMO
+case_NN NNCONC
+if_COND
+you_SPP2
+think_VPRT MENTAL
+about_IN INother
+it_PIT
+,_,
+you_SPP2
+'ll_MDWS MDPREDAll CONT
+figure_VB
+out_RP
+that_THSC THSCother
+10_CD
+pigeons_NN NNother
+were_VBD
+distributed_PASS PASSAll
+among_IN INother
+2_CD
+friends_NN NNHUMAN
+._.
+If_COND
+the_DT
+second_JJAT JJATother
+friend_NN NNHUMAN
+takes_VPRT ACT
+3_CD
+pigeons_NN NNother
+,_,
+5_CD
+pigeons_NN NNother
+are_VPRT
+left_PASS PASSAll ACT
+._.
+Such_JJPR JJPRother
+like_LIKE
+that_DEMO
+,_,
+if_COND
+the_DT
+second_JJAT JJATother
+friend_NN NNHUMAN
+takes_VPRT ACT
+5_CD
+pigeons_NN NNother
+,_,
+3_CD
+pigeons_NN NNother
+are_VPRT
+left_PASS PASSAll ACT
+._.
+It_PIT
+means_VPRT COMM
+the_DT
+after_IN INother
+the_DT
+first_JJAT JJATother
+friend_NN NNHUMAN
+takes_VPRT ACT
+pigeons_NN NNother
+,_,
+8_CD
+pigeons_NN NNother
+are_VPRT
+left_PASS PASSAll ACT
+out_IN INother
+of_IN INother
+10_CD
+._.
+It_PIT
+means_VPRT COMM THATD
+the_DT
+first_JJAT JJATother
+friend_NN NNHUMAN
+took_VBD ACT
+$_$
+10_CD
+-_HYPH
+8_CD
+=_SYM
+2_CD
+$_$
+pigeons_NN NNother
+._.
+So_SO
+,_,
+the_DT
+answer_NN NNABSPROC
+is_VPRT BEMA
+2_CD
+._.
+How_WHSC WHSCother
+many_QUAN
+subsets_NN NNother
+of_IN INother
+$_$
+\_CD
+{_-LRB-
+1_CD
+,_,
+2_CD
+,_,
+3_CD
+,_,
+4_CD
+,_,
+5_CD
+,_,
+6_CD
+,_,
+7_CD
+,_,
+8_CD
+,_,
+9_CD
+\_SYM
+}_-RRB-
+$_$
+contain_VPRT EXIST
+$_$
+5_CD
+$_$
+consecutive_JJAT JJATother
+numbers_NN NNQUANT
+?_.
+User_NN NNHUMAN
+Mehrab4226_NN NCOMP
+has_VPRT SPLIT
+already_TIME
+given_PEAS ACT
+the_DT
+solution_NN NNTECH
+,_,
+though_CONC
+here_PLACE
+I_FPP1S FPPAll
+have_VPRT
+shown_PEAS ACT
+a_DT
+similar_JJAT JJREL
+approach_NN NNABSPROC
+._.
+Firstly_RB RBother
+,_,
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+look_VB
+at_IN INother
+how_WHSC WHSCother
+many_QUAN
+sets_NN NNABSPROC
+there_EX
+are_VPRT
+with_IN INother
+$_$
+5_CD
+$_$
+elements_NN NNTECH
+that_THRC THRCother
+satisfy_VPRT MENTAL
+the_DT
+question_NN NNABSPROC
+._.
+It_PIT
+is_VPRT BEMA
+easy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+see_VB MENTAL
+there_EX
+are_VPRT
+five_CD
+sets_NN NNABSPROC
+,_,
+namely_ELAB
+$_$
+\_CD
+{_-LRB-
+1_CD
+,_,
+2_CD
+,_,
+3_CD
+,_,
+4_CD
+,_,
+5_CD
+\_SYM
+}_-RRB-
+,_,
+\_SYM
+{_-LRB-
+2_CD
+,_,
+3_CD
+,_,
+4_CD
+,_,
+5_CD
+,_,
+6_CD
+\_SYM
+}_-RRB-
+,_,
+\_SYM
+{_-LRB-
+3_CD
+,_,
+4_CD
+,_,
+5_CD
+,_,
+6_CD
+,_,
+7_CD
+\_SYM
+}_-RRB-
+,_,
+\_SYM
+{_-LRB-
+4_CD
+,_,
+5_CD
+,_,
+6_CD
+,_,
+7_CD
+,_,
+8_CD
+\_SYM
+}_-RRB-
+$_$
+and_CC
+$_$
+\_CD
+{_-LRB-
+5_CD
+,_,
+6_CD
+,_,
+7_CD
+,_,
+8_CD
+,_,
+9_CD
+\_SYM
+}_-RRB-
+._.
+$_$
+Secondly_RB RBother
+,_,
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+look_VB
+at_IN INother
+how_WHSC WHSCother
+many_QUAN
+sets_NN NNABSPROC
+there_EX
+are_VPRT
+with_IN INother
+$_$
+6_CD
+$_$
+elements_NN NNTECH
+that_THRC THRCother
+satisfy_VPRT MENTAL
+the_DT
+question_NN NNABSPROC
+._.
+It_PIT
+could_MDCO MDPOSSCAll
+be_VB BEMA
+helpful_JJPR JJPRother
+to_IN INother
+use_VB ACT
+the_DT
+previous_JJAT JJREL
+sets_NN NNABSPROC
+._.
+Let_VIMP CAUSE
+'s_FPP1P FPPAll
+start_VB ASPECT
+with_IN INother
+the_DT
+set_VBN
+$_$
+\_CD
+{_-LRB-
+1_CD
+,_,
+2_CD
+,_,
+3_CD
+,_,
+4_CD
+,_,
+5_CD
+\_SYM
+}_-RRB-
+._.
+$_$
+To_IN INother
+make_VB ACT
+this_DEMO
+a_DT
+set_VBN
+with_IN INother
+$_$
+6_CD
+$_$
+elements_NN NNTECH
+,_,
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+need_MDNE
+to_IN INother
+choose_VB MENTAL
+a_DT
+number_NN NNQUANT
+from_IN INother
+the_DT
+remaining_VBG EXIST
+four_CD
+numbers_NN NNQUANT
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+write_VB COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+as_IN INother
+$_$
+^_SYM
+4C_NN NNother
+._.
+$_$
+Next_RB RBother
+,_,
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+look_VB
+at_IN INother
+the_DT
+set_VBN
+$_$
+\_CD
+{_-LRB-
+2_CD
+,_,
+3_CD
+,_,
+4_CD
+,_,
+5_CD
+,_,
+6_CD
+\_SYM
+}_-RRB-
+._.
+$_$
+Here_PLACE
+,_,
+we_FPP1P FPPAll
+have_VPRT
+3_CD
+remaining_VBG EXIST
+numbers_NN NNQUANT
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll SPLIT
+also_CC
+write_VB COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+as_IN INother
+$_$
+^_SYM
+3C_NN NNother
+._.
+$_$
+Doing_VBG ACT
+this_DEMO
+,_,
+we_FPP1P FPPAll
+get_VPRT
+that_THSC THSCother
+the_DT
+number_NN NNQUANT
+of_IN INother
+sets_NN NNABSPROC
+with_IN INother
+$_$
+6_CD
+$_$
+elements_NN NNTECH
+is_VPRT
+$_$
+^_SYM
+4C_NN NNother
++_SYM
+^_SYM
+3C_NN NNother
++_SYM
+^_SYM
+2C_NN NNother
++_SYM
+^_SYM
+1C_NN NNother
+=_SYM
+4_CD
++3_CD
++2_CD
++1_CD
+=_SYM
+10_CD
+._.
+$_$
+Finally_RB RBother
+,_,
+similar_JJPR JJREL
+to_IN INother
+the_DT
+sets_NN NNABSPROC
+with_IN INother
+six_CD
+elements_NN NNTECH
+,_,
+we_FPP1P FPPAll
+get_VPRT
+that_THSC THSCother
+the_DT
+number_NN NNQUANT
+of_IN INother
+sets_NN NNABSPROC
+with_IN INother
+$_$
+7_CD
+$_$
+elements_NN NNTECH
+is_VPRT
+$_$
+^_SYM
+4C_NN NNother
++_SYM
+^_SYM
+3C_NN NNother
++_SYM
+^_SYM
+2C_NN NNother
+=_SYM
+6_CD
++3_CD
++1_CD
+=_SYM
+10_CD
+,_,
+$_$
+the_DT
+number_NN NNQUANT
+of_IN INother
+sets_NN NNABSPROC
+with_IN INother
+$_$
+8_CD
+$_$
+elements_NN NNTECH
+is_VPRT
+$_$
+^_SYM
+4C_NN NNother
++_SYM
+^_SYM
+3C_NN NNother
+=_SYM
+4_CD
++1_CD
+=_SYM
+5_CD
+,_,
+$_$
+and_CC
+the_DT
+number_NN NNQUANT
+of_IN INother
+sets_NN NNABSPROC
+with_IN INother
+$_$
+9_CD
+$_$
+elements_NN NNTECH
+is_VPRT
+$_$
+^_SYM
+4C_NN NNother
+=_SYM
+1_CD
+$_$
+._.
+So_SO
+the_DT
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+sets_NN NNABSPROC
+/_,
+subsets_NN NNother
+is_VPRT
+$_$
+5_CD
++10_CD
++10_CD
++5_CD
++1_CD
+=_SYM
+31_CD
+._.
+$_$
+(_-LRB-
+Answer_NN NNABSPROC
+)_-RRB-
+Shurjo_NN NNP
+Let_VIMP CAUSE
+us_FPP1P FPPAll
+denote_VB
+that_DEMO
+kind_NN NNABSPROC
+of_IN INother
+subsets_NN NNother
+as_IN INother
+$_$
+X$_CD
+At_IN INother
+first_RB RBother
+,_,
+we_FPP1P FPPAll
+look_VPRT
+at_IN INother
+how_WHSC WHSCother
+many_QUAN
+sets_NN NNABSPROC
+of_IN INother
+$_$
+5_CD
+$_$
+consecutive_JJAT JJATother
+numbers_NN NNQUANT
+are_VPRT
+there_PLACE
+._.
+1_CD
+._.
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5_NN NNother
+\_SYM
+}_-RRB-
+$_$
+2_CD
+._.
+$_$
+\_CD
+{_-LRB-
+2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+$_$
+3_CD
+._.
+$_$
+\_CD
+{_-LRB-
+3,4,5,6,7_NN NNother
+\_SYM
+}_-RRB-
+$_$
+4_CD
+._.
+$_$
+\_CD
+{_-LRB-
+4,5,6,7,8_CD
+\_SYM
+}_-RRB-
+$_$
+5_CD
+._.
+$_$
+\_CD
+{_-LRB-
+5,6,7,8,9_CD
+\_SYM
+}_-RRB-
+$_$
+Now_TIME
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+divide_VB ACT
+our_FPP1P FPPAll
+work_NN NNABSPROC
+in_IN INother
+$_$
+5_CD
+$_$
+cases_NN NNCONC
+._.
+Case_NN NNP
+$_$
+1_CD
+$_$
+represents_VPRT EXIST
+when_WHSC WHSCother
+number_NN NNQUANT
+$_$
+1_CD
+$_$
+._.
+of_IN INother
+the_DT
+list_NN NNTECH
+is_VPRT BEMA
+within_IN INother
+the_DT
+subsets_NN NNother
+we_FPP1P FPPAll
+are_VPRT
+looking_PROG
+for_IN STPR
+._.
+Case_NN NNCONC
+:_:
+1_CD
+Here_PLACE
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5_NN NNother
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+6,7,8,9_CD
+\_SYM
+}_-RRB-
+\_SYM
+}_-RRB-
+$_$
+So_EMPH
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+is_VPRT
+$_$
+2_CD
+^_SYM
+4_CD
+$_NN NNother
+Case_NN NNCONC
+:_:
+2_CD
+Hese_JJPR JJPRother
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+7,8,9_CD
+\_SYM
+}_-RRB-
+\_SYM
+}_-RRB-
+$_$
+So_CC
+the_DT
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_JJAT JJATother
+$_$
+2_CD
+^_SYM
+3_CD
+$_$
+Similarly_RB RBother
+for_IN INother
+case_NN NNCONC
+$_$
+3,4,5_CD
+$_$
+we_FPP1P FPPAll
+get_VPRT
+$_$
+2_CD
+^_SYM
+2,2_CD
+^_SYM
+1,2_CD
+^_SYM
+0_CD
+$_$
+different_JJPR JJREL
+$_$
+X$_CD
+._.
+So_EMPH
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+possible_JJPR JJEPSTother
+is_VPRT
+$_$
+2_CD
+^_SYM
+4_CD
++2_CD
+^_SYM
+3_CD
++2_CD
+^_SYM
+2_CD
++2_CD
+^_SYM
+1_CD
++2_CD
+^_SYM
+0_CD
+=_SYM
+31_CD
+$_$
+I_CD
+think_VPRT MENTAL
+31_CD
+is_VPRT BEMA
+not_XX0
+the_DT
+right_JJAT JJEPSTother
+answer_NN NNABSPROC
+._.
+Nice_JJPR JJEVAL
+and_CC
+Thanks_NN POLITE
+._.
+Thank_VPRT COMM POLITE
+you_SPP2
+for_IN INother
+pointing_VBG
+that_DEMO
+out_RP
+._.
+Let_VIMP CAUSE
+us_FPP1P FPPAll
+denote_VB
+that_DEMO
+kind_NN NNABSPROC
+of_IN INother
+subsets_NN NNother
+as_IN INother
+$_$
+X$_CD
+At_IN INother
+first_RB RBother
+,_,
+we_FPP1P FPPAll
+look_VPRT
+at_IN INother
+how_WHSC WHSCother
+many_QUAN
+sets_NN NNABSPROC
+of_IN INother
+$_$
+5_CD
+$_$
+consecutive_JJAT JJATother
+numbers_NN NNQUANT
+are_VPRT
+there_PLACE
+._.
+1_CD
+._.
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5_NN NNother
+\_SYM
+}_-RRB-
+$_$
+2_CD
+._.
+$_$
+\_CD
+{_-LRB-
+2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+$_$
+3_CD
+._.
+$_$
+\_CD
+{_-LRB-
+3,4,5,6,7_NN NNother
+\_SYM
+}_-RRB-
+$_$
+4_CD
+._.
+$_$
+\_CD
+{_-LRB-
+4,5,6,7,8_CD
+\_SYM
+}_-RRB-
+$_$
+5_CD
+._.
+$_$
+\_CD
+{_-LRB-
+5,6,7,8,9_CD
+\_SYM
+}_-RRB-
+$_$
+Now_TIME
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+divide_VB ACT
+our_FPP1P FPPAll
+work_NN NNABSPROC
+in_IN INother
+$_$
+5_CD
+$_$
+cases_NN NNCONC
+._.
+Case_NN NNP
+$_$
+1_CD
+$_$
+represents_VPRT EXIST
+when_WHSC WHSCother
+number_NN NNQUANT
+$_$
+1_CD
+$_$
+._.
+of_IN INother
+the_DT
+list_NN NNTECH
+is_VPRT BEMA
+within_IN INother
+the_DT
+subsets_NN NNother
+we_FPP1P FPPAll
+are_VPRT
+looking_PROG
+for_IN STPR
+._.
+Case_NN NNCONC
+:_:
+1_CD
+Here_PLACE
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5_NN NNother
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+6,7,8,9_CD
+\_SYM
+}_-RRB-
+\_SYM
+}_-RRB-
+$_$
+So_EMPH
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+is_VPRT
+$_$
+2_CD
+^_SYM
+4_CD
+$_NN NNother
+Case_NN NNCONC
+:_:
+2_CD
+Here_PLACE
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+7,8,9_CD
+\_SYM
+}_-RRB-
+\_SYM
+}_-RRB-
+$_$
+So_CC
+the_DT
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_JJAT JJATother
+$_$
+2_CD
+^_SYM
+3_CD
+$_NN NNother
+Case_NN NNCONC
+:_:
+3_CD
+Here_PLACE
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+3,4,5,6,7_NN NNother
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+1,8,9_CD
+\_SYM
+}_-RRB-
+$_$
+So_EMPH
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+is_VPRT
+$_$
+2_CD
+^_SYM
+3_CD
+$_NN NNother
+Case_NN NNCONC
+:_:
+4_CD
+Here_PLACE
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+4,5,6,7,8_CD
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+1,2,9_CD
+\_SYM
+}_-RRB-
+$_$
+So_EMPH
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+is_VPRT
+$_$
+2_CD
+^_SYM
+3_CD
+$_NN NNother
+Case_NN NNCONC
+:_:
+5_CD
+Here_PLACE
+$_$
+X$_CD
+are_VPRT BEMA
+of_IN INother
+kind_NN NNABSPROC
+:_EMO
+$_$
+\_CD
+{_-LRB-
+5,6,7,8,9_CD
+\_SYM
+}_-RRB-
+\_SYM
+cup_NN NNother
+\_SYM
+{_-LRB-
+\_SYM
+text_NN NNother
+{_-LRB-
+Any_QUAN
+subset_NN NNother
+of_IN INother
+}_-RRB-
+\_SYM
+{_-LRB-
+1,2,3_CD
+\_SYM
+}_-RRB-
+$_$
+so_EMPH
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+of_IN INother
+this_DEMO
+kind_NN NNABSPROC
+is_VPRT
+$_$
+2_CD
+^_SYM
+3_CD
+$_$
+So_CC
+the_DT
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+$_$
+X$_CD
+we_FPP1P FPPAll
+got_VBD
+is_VPRT
+$_$
+2_CD
+^_SYM
+4_CD
++4_CD
+\_NN NNother
+times_NN NNQUANT
+2_CD
+^_SYM
+3_CD
+=_SYM
+48_CD
+$_$
+(_-LRB-
+ans_CC
+)_-RRB-
+Have_VPRT
+you_SPP2
+counted_PEAS MENTAL
+the_DT
+set_VBN
+$_$
+\_CD
+{_-LRB-
+1,3,4,5,6,7_NN NNother
+\_SYM
+}_-RRB-
+$_$
+?_. YNQU
+Thanks_NN POLITE
+._.
+I_FPP1S FPPAll
+saw_VBD MENTAL
+the_DT
+other_JJAT JJATother
+solution_NN NNTECH
+._.
+It_PIT
+'s_VPRT CONT BEMA
+correct_JJPR JJEPSTother
+._.
+You_SPP2
+can_MDCA MDPOSSCAll
+check_VB ACT
+that_DEMO
+one_NN NNother
+._.
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+not_XX0
+create_VB
+combinations_NN NNABSPROC
+of_IN INother
+4_CD
+numbers_NN NNQUANT
+on_IN INother
+all_QUAN
+those_DEMO
+5_CD
+subsets_NN NNother
+._.
+And_CC
+the_DT
+answer_NN NNABSPROC
+should_MDNE
+be_VB BEMA
+48_CD
+._.
+Solution_NN NNTECH
+1_CD
+:_:
+At_IN INother
+first_RB RBother
+consider_VB MENTAL
+1_CD
+such_JJAT JJATother
+simple_JJAT JJATother
+subset_NN NNother
+{_-LRB-
+1,2,3,4,5_NN NNother
+}_-RRB-
+Now_TIME
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+create_VB
+any_QUAN
+combination_NN NNABSPROC
+this_DEMO
+subset_NN NNother
+by_IN INother
+using_VBG ACT
+numbers_NN NNQUANT
+6,7,8,9_CD
+for_IN INother
+example_NN ELAB
+:_EMO
+{_-LRB-
+1,2,3,4,5,8,9_NN NNother
+}_-RRB-
+Total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+combination_NN NNABSPROC
+for_IN INother
+this_DEMO
+subset_NN NNother
+should_MDNE
+be_VB BEMA
+4C4_NN NNother
++4_CD
+C3_NN NNother
++4_CD
+C2_NN NNother
++4_CD
+C1_NN NNother
+=_SYM
+15_CD
+As_IN INother
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+create_VB
+total_JJAT JJATother
+5_CD
+simple_JJAT JJATother
+subsets_NN NNother
+._.
+So_SO
+the_DT
+total_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+subsets_NN NNother
+should_MDNE
+be_VB BEMA
+5_CD
+*_SYM
+15_CD
++5_CD
+=_SYM
+80_CD
+Another_DT
+possible_JJAT JJEPSTother
+solution_NN NNTECH
+is_VPRT
+:_:
+Solution_NN NNTECH
+2_CD
+:_:
+If_COND
+we_FPP1P FPPAll
+consider_VPRT MENTAL
+these_DEMO
+5_CD
+main_JJAT JJREL
+subsets_NN NNother
+{_-LRB-
+1,2,3,4,5_CD
+}_-RRB-
+{_-LRB-
+2,3,4,5,6_NN NNother
+}_-RRB-
+{_-LRB-
+3,4,5,6,7_NN NNother
+}_-RRB-
+{_-LRB-
+4,5,6,7,8_EMO
+}_-RRB-
+{_-LRB-
+5,6,7,8,9_CD
+}_-RRB-
+then_RB RBother
+total_VPRT
+such_JJAT JJATother
+subset_NN NNother
+should_MDNE
+be_VB BEMA
+5_CD
+*_SYM
+2_CD
+^_SYM
+(_-LRB-
+9_CD
+-_SYM
+5_CD
+)_-RRB-
+=_SYM
+80_CD
+Yes_DMA
+,_,
+we_FPP1P FPPAll
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+,_,
+but_CC
+as_IN INother
+result_NN NSTNCother
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+create_VB
+new_JJAT JJTIME
+combinations_NN NNABSPROC
+using_VBG ACT
+1,2_CD
+._.
+As_IN INother
+you_SPP2
+can_MDCA MDPOSSCAll
+see_VB MENTAL
+for_IN INother
+each_QUAN
+main_JJAT JJREL
+subset_NN NNother
+always_FREQ
+extra_JJAT JJATother
+4_CD
+numbers_NN NNQUANT
+are_VPRT
+remaining_PROG EXIST
+._.
+For_IN INother
+example_NN ELAB
+-_HYPH
+1,7,8,9_NN NNother
+for_IN INother
+{_-LRB-
+2,3,4,5,6_NN NNother
+}_-RRB-
+1,2,8,9_NN NNother
+for_IN INother
+{_-LRB-
+3,4,5,6,7_NN NNother
+}_-RRB-
+and_CC
+so_SO
+on_IN INother
+for_IN INother
+the_DT
+other_JJAT JJATother
+3_CD
+._.
+Does_VPRT ACT
+your_SPP2
+solution_NN NNTECH
+contain_VPRT EXIST
+subsets_NN NNother
+like_LIKE
+{_-LRB-
+2,4,5,6,7,8_CD
+}_-RRB-
+or_CC
+{_-LRB-
+1,3,4,5,6,7,8_CD
+}_-RRB-
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+creat_VB
+what_WHSC WHSCother
+you_SPP2
+are_VPRT
+saying_PROG COMM
+in_IN INother
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5_NN NNother
+\_SYM
+}_-RRB-
+$_$
+subset_NN NNother
+._.
+But_CC
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+not_XX0
+do_VB ACT
+the_DT
+same_JJAT JJREL
+for_IN INother
+$_$
+\_CD
+{_-LRB-
+3,4,5,6,7_NN NNother
+\_SYM
+}_-RRB-
+$_$
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+not_XX0
+make_VB ACT
+combinations_NN NNABSPROC
+with_IN INother
+$_$
+\_CD
+{_-LRB-
+6,7,8,9_CD
+\_SYM
+}_-RRB-
+$_$
+because_CUZ
+6,7_CD
+is_VPRT BEMA
+already_TIME
+on_IN INother
+the_DT
+main_JJAT JJREL
+subset_NN NNother
+._.
+I_FPP1S FPPAll
+finally_RB RBother
+got_VBD
+it_PIT
+._.
+Thank_VPRT COMM POLITE
+you_SPP2
+very_AMP
+much_QUAN
+for_IN INother
+correcting_VBG
+me_FPP1S FPPAll
+._.
+Why_WHSC WHSCother
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+we_FPP1P FPPAll
+create_VPRT
+combinations_NN NNABSPROC
+of_IN INother
+4_CD
+numbers_NN NNQUANT
+on_IN INother
+all_QUAN
+those_DEMO
+subsets_NN NNother
+?_.
+Would_MDWO MDPREDAll
+you_SPP2
+please_FPUH POLITE
+explain_VB COMM
+Then_RB RBother
+what_WHSC WHSCother
+you_SPP2
+are_VPRT
+doing_PROG ACT
+is_VPRT
+counting_PROG MENTAL
+the_DT
+same_JJAT JJREL
+thing_NN NNother
+multiple_JJAT JJATother
+times_NN NNQUANT
+._.
+You_SPP2
+once_TIME
+took_VBD ACT
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5_NN NNother
+\_SYM
+}_-RRB-
+$_$
+and_CC
+combined_VBN ACT
+it_PIT
+with_IN INother
+$_$
+6_CD
+$_$
+and_CC
+got_VBD
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+$_$
+to_IN INother
+get_VB
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+$_$
+._.
+Again_FREQ
+you_SPP2
+took_VBD ACT
+$_$
+\_CD
+{_-LRB-
+2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+$_$
+combined_VBN ACT
+it_PIT
+with_IN INother
+$_$
+1_CD
+$_$
+and_CC
+got_VBD
+$_$
+\_CD
+{_-LRB-
+1,2,3,4,5,6_NN NNother
+\_SYM
+}_-RRB-
+$_$
+._.
+Which_WHSC WHSCother
+is_VPRT BEMA
+the_DT
+same_JJAT JJREL
+set_NN NNABSPROC
+,_,
+but_CC
+you_SPP2
+are_VPRT
+counting_PROG MENTAL
+it_PIT
+multiple_JJAT JJATother
+times_NN NNQUANT
+._.
+Read_VIMP MENTAL
+my_FPP1S FPPAll
+2nd_CD
+solution_NN NNTECH
+,_,
+it_PIT
+avoids_VPRT
+the_DT
+error_NN NNABSPROC
+._.
+Plz_NN NNP
+solve_VB MENTAL
+this_DEMO
+problem_NN NNother
+Every_QUAN
+number_NN NNQUANT
+written_VBN COMM
+in_IN INother
+this_DEMO
+solution_NN NNTECH
+is_VPRT BEMA
+in_IN INother
+base_NN NNABSPROC
+-_:
+$_$
+10_CD
+$_$
+._.
+We_FPP1P FPPAll
+need_MDNE
+to_IN INother
+find_VB VFCTother
+$_$
+n_NN NNother
+$_$
+such_QUAN
+that_DEMO
+$_$
+n_NN NNother
+=_EMO
+(_-LRB-
+d_EMO
+__NFP
+{_-LRB-
+k_CD
+-_SYM
+1_CD
+}_-RRB-
+\_SYM
+dots_NN NNCONC
+d_NN NCOMP
+)_-RRB-
+__NFP
+7_CD
+$_$
+and_CC
+$_$
+2n_CD
+=_EMO
+(_-LRB-
+d_EMO
+__NFP
+{_-LRB-
+k_CD
+-_SYM
+1_CD
+}_-RRB-
+\_SYM
+dots_NN NNCONC
+d_NN NCOMP
+)_-RRB-
+__NFP
+{_-LRB-
+10_CD
+}_-RRB-
+$_$
+where_WHSC WHSCother
+$_$
+d_i_CD
+$_$
+s_PRPother
+are_VPRT BEMA
+digits_NN NNother
+in_IN INother
+the_DT
+base_NN NNABSPROC
+-_:
+$_$
+7_CD
+$_$
+representation_NN NOMZ
+of_IN INother
+$_$
+n_NN NNother
+$_$
+._.
+So_SO
+,_,
+for_IN INother
+each_QUAN
+$_$
+i_CD
+$_$
+,_,
+$_$
+0_CD
+\_SYM
+leq_CD
+d_NN NNother
+\_SYM
+leq_NN NNother
+6_CD
+$_$
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+write_VB COMM
+the_DT
+whole_JJAT JJATother
+thing_NN NNother
+with_IN INother
+this_DEMO
+equation_NN NNTECH
+:_EMO
+$_$
+\_SYM
+sum_NN NNother
+__NFP
+{_-LRB-
+i_FPP1S FPPAll
+=_SYM
+0_CD
+}_-RRB-
+^_SYM
+{_-LRB-
+k_NN NNother
+}_-RRB-
+10_CD
+^_SYM
+id_i_CD
+=_SYM
+2_CD
+\_SYM
+sum_NN NNother
+__NFP
+{_-LRB-
+i_FPP1S FPPAll
+=_SYM
+0_CD
+}_-RRB-
+^_SYM
+{_-LRB-
+k_NN NNother
+}_-RRB-
+7_CD
+^_SYM
+id_i_CD
+\_SYM
+Leftrightarrow_NN NNother
+\_SYM
+sum_NN NNother
+__NFP
+{_-LRB-
+i_FPP1S FPPAll
+=_SYM
+0_CD
+}_-RRB-
+^_SYM
+{_-LRB-
+k_NN NNother
+}_-RRB-
+(_-LRB-
+10_CD
+^_SYM
+i_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+i_FPP1S FPPAll
+)_-RRB-
+d_NN NNother
+=_SYM
+0_CD
+$_$
+._.
+Let_VIMP CAUSE
+'s_FPP1P FPPAll
+call_VB COMM
+$_$
+2n_CD
+$_$
+a_DT
+good_JJAT JJEVAL
+number_NN NNQUANT
+if_COND
+$_$
+n_NN NNother
+$_$
+has_VPRT
+the_DT
+desired_VBN THATD
+properties_NN NNPLACE
+given_VBN ACT
+in_IN INother
+this_DEMO
+question_NN NNABSPROC
+._.
+Lemma_NN NNP
+-_HYPH
+1_CD
+:_:
+For_IN INother
+integer_NN NNother
+$_$
+m_CD
+\_SYM
+geq3_CD
+$_$
+,_,
+$_$
+10_CD
+^_SYM
+m_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+m_CD
+>_SYM
+30_CD
+$_$
+Proof_CD
+:_:
+Base_NN NNABSPROC
+case_NN NCOMP
+:_:
+For_IN INother
+$_$
+m_CD
+=_SYM
+3_CD
+$_$
+,_,
+$_$
+10_CD
+^_SYM
+m_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+m_CD
+=_SYM
+314_CD
+>_SYM
+30_CD
+$_$
+,_,
+so_SO
+our_FPP1P FPPAll
+lemma_NN NNother
+is_VPRT BEMA
+true_JJPR JJEPSTother
+for_IN INother
+$_$
+m_CD
+=_SYM
+3_CD
+$_$
+._.
+Induction_NN NOMZ
+hypothesis_NN NSTNCother NCOMP
+:_:
+Let_VIMP CAUSE
+'s_FPP1P FPPAll
+assume_VB MENTAL THATD
+the_DT
+lemma_NN NNother
+is_VPRT BEMA
+true_JJPR JJEPSTother
+for_IN INother
+$_$
+m_CD
+=_SYM
+j_NN NNother
+$_$
+._.
+Inductive_JJAT JJATother
+step_NN NNCONC
+:_:
+For_IN INother
+$_$
+m_CD
+=_SYM
+j_NN NNother
++1_CD
+$_$
+,_,
+$_$
+10_CD
+^_SYM
+{_-LRB-
+j_NN NNother
++1_CD
+}_-RRB-
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+{_-LRB-
+j_NN NNother
++1_CD
+}_-RRB-
+=_SYM
+3_CD
+\_SYM
+cdot10_CD
+^_SYM
+j_NN NNother
++7_NN NNother
+(_-LRB-
+10_CD
+^_SYM
+j_NN NNother
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+j_NN NNother
+)_-RRB-
+>_SYM
+30_CD
+$_$
+So_SO
+,_,
+our_FPP1P FPPAll
+lemma_NN NNother
+is_VPRT BEMA
+true_JJPR JJEPSTother
+for_IN INother
+$_$
+m_CD
+=_SYM
+j_NN NNother
++1_CD
+$_$
+,_,
+that_DEMO
+completes_VPRT ASPECT
+our_FPP1P FPPAll
+proof_NN NNother
+of_IN INother
+this_DEMO
+lemma_NN NNother
+using_VBG ACT
+induction_NN NOMZ
+._.
+Claim_NN NSTNCother
+-_HYPH
+1_CD
+:_:
+There_EX
+is_VPRT
+no_XX0
+good_JJAT JJEVAL
+number_NN NNQUANT
+with_IN INother
+more_QUAN
+than_IN INother
+$_$
+3_CD
+$_$
+digits_NN NNother
+in_IN INother
+base_NN NNABSPROC
+-_:
+$_$
+10_CD
+$_$
+For_IN INother
+this_DEMO
+,_,
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+assume_VB MENTAL
+that_DEMO
+$_$
+k_CD
+\_SYM
+geq3_CD
+$_$
+and_CC
+prove_VIMP MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+the_DT
+minimum_JJAT JJATother
+value_NN NNABSPROC
+of_IN INother
+$_$
+S_k_CD
+=_SYM
+\_CD
+sum_NN NNother
+__NFP
+{_-LRB-
+i_FPP1S FPPAll
+=_SYM
+0_CD
+}_-RRB-
+^_SYM
+{_-LRB-
+k_NN NNother
+}_-RRB-
+(_-LRB-
+10_CD
+^_SYM
+i_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+i_FPP1S FPPAll
+)_-RRB-
+d_NN NNother
+>_SYM
+0_CD
+$_$
+._.
+Proof_NN NNother
+:_:
+To_IN INother
+achieve_VB
+the_DT
+minimum_JJAT JJATother
+value_NN NNABSPROC
+of_IN INother
+$_$
+S_k_CD
+$_$
+,_,
+we_FPP1P FPPAll
+need_VPRT MENTAL
+$_$
+d_k_CD
+=_SYM
+1_CD
+$_$
+,_,
+since_IN INother
+the_DT
+most_EMPH
+significant_JJAT JJATother
+digit_NN NNother
+or_CC
+the_DT
+first_JJAT JJATother
+digit_NN NNother
+is_VPRT BEMA
+nonzero_JJPR JJPRother
+and_CC
+as_IN INother
+small_JJPR JJDESCAll JJSIZE
+as_IN INother
+possible_JJPR JJEPSTother
+._.
+We_FPP1P FPPAll
+also_CC
+need_VPRT MENTAL
+$_$
+d_i_CD
+=_SYM
+0_CD
+$_$
+when_WHSC WHSCother
+$_$
+i_CD
+\_SYM
+neq_CD
+k_CD
+$_$
+and_CC
+$_$
+10_CD
+^_SYM
+i_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+i_CD
+>_SYM
+0_CD
+$_$
+and_CC
+$_$
+d_i_CD
+=_SYM
+6_CD
+$_$
+when_WHSC WHSCother
+$_$
+10_CD
+^_SYM
+i_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+i_CD
+<_SYM
+0_CD
+$_$
+._.
+That_DEMO
+means_VPRT COMM THATD
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+minimize_VB
+the_DT
+value_NN NNABSPROC
+of_IN INother
+$_$
+d_i_CD
+$_$
+when_WHSC WHSCother
+we_FPP1P FPPAll
+are_VPRT
+adding_PROG ACT
+a_DT
+non-negative_JJAT JJATother
+term_NN NNQUANT
+and_CC
+maximize_VB
+it_PIT
+when_WHSC WHSCother
+we_FPP1P FPPAll
+are_VPRT
+adding_PROG ACT
+a_DT
+negative_JJAT JJATother
+term_NN NNQUANT
+to_IN INother
+make_VB ACT
+sure_JJPR JJEPSTother
+we_FPP1P FPPAll
+are_VPRT
+adding_PROG ACT
+the_DT
+minimum_JJAT JJATother
+possible_JJPR JJEPSTother
+and_CC
+subtracting_VBG
+the_DT
+maximum_JJAT JJREL
+possible_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+get_VB
+the_DT
+minimum_JJAT JJATother
+value_NN NNABSPROC
+of_IN INother
+$_$
+S_k_CD
+$_$
+._.
+But_CC
+$_$
+10_CD
+^_SYM
+i_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+i2_CD
+$_$
+has_VPRT
+been_PEAS
+explored_PASS PASSAll ACT
+in_IN INother
+lemma_NN NNother
+-_:
+$_$
+1_CD
+$_$
+So_SO
+,_,
+the_DT
+minimum_JJAT JJATother
+value_NN NNABSPROC
+of_IN INother
+$_$
+S_k_CD
+=_EMO
+(_-LRB-
+10_CD
+^_SYM
+k_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+k_CD
+)_-RRB-
+\_SYM
+cdot1_NN NNother
++_SYM
+(_-LRB-
+10_CD
+^_SYM
+1_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+1_CD
+)_-RRB-
+\_SYM
+cdot6_NN NNother
++_SYM
+(_-LRB-
+10_CD
+^_SYM
+0_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+0_CD
+)_-RRB-
+\_SYM
+cdot6_NN NNother
+=_EMO
+(_-LRB-
+10_CD
+^_SYM
+k_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+k_CD
+)_-RRB-
+-_HYPH
+30_CD
+$_$
+By_IN INother
+lemma_NN NNother
+-_:
+$_$
+1_CD
+$_$
+,_,
+$_$
+S_k_CD
+\_SYM
+geq_CD
+min_NN NNother
+(_-LRB-
+S_NN NNother
+)_-RRB-
+=_EMO
+(_-LRB-
+10_CD
+^_SYM
+k_CD
+-_HYPH
+2_CD
+\_SYM
+cdot7_CD
+^_SYM
+k_CD
+)_-RRB-
+-_HYPH
+30_CD
+>_SYM
+0_CD
+$_$
+for_IN INother
+$_$
+k_CD
+\_SYM
+geq3_CD
+$_$
+._.
+But_CC
+$_$
+S_k_CD
+=_SYM
+0_CD
+$_$
+is_VPRT BEMA
+a_DT
+neccessary_JJAT JJATother
+condition_NN NNABSPROC
+for_IN INother
+such_EMPH
+a_DT
+good_JJAT JJEVAL
+number_NN NNQUANT
+to_IN INother
+exist_VB EXIST
+and_CC
+we_FPP1P FPPAll
+just_RB EMPH
+proved_VBD MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+this_DEMO
+is_VPRT BEMA
+not_XX0
+possible_JJPR JJEPSTother
+for_IN INother
+$_$
+k_CD
+\_SYM
+geq3_CD
+$_$
+._.
+Or_CC
+,_,
+equivalently_RB RBother
+,_,
+there_EX
+is_VPRT
+no_XX0
+good_JJAT JJEVAL
+number_NN NNQUANT
+with_IN INother
+more_QUAN
+than_IN INother
+$_$
+3_CD
+$_$
+digits_NN NNother
+._.
+So_SO
+,_,
+claim_NN NSTNCother
+-_,
+$_$
+1_CD
+$_$
+is_VPRT BEMA
+pretty_RB RBother
+much_QUAN
+proved_VBN MENTAL
+._.
+So_SO
+,_,
+now_TIME
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+finally_RB RBother
+and_CC
+peachfully_RB RBother
+give_VB ACT
+all_QUAN
+of_IN INother
+our_FPP1P FPPAll
+attention_NN NNCOG
+to_IN INother
+$_$
+k_CD
+=_SYM
+2_CD
+$_$
+case_NN NNCONC
+._.
+$_$
+S_2_CD
+=_SYM
+2d_2_CD
+-_HYPH
+4d_1_CD
+-_HYPH
+d_NN NNother
+=_SYM
+0_CD
+$_$
+To_IN INother
+get_VB
+the_DT
+largest_JJAT JJATother
+possible_JJAT JJEPSTother
+number_NN NNQUANT
+,_,
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+take_VB ACT
+our_FPP1P FPPAll
+most_RB EMPH
+significant_JJAT JJATother
+digit_NN NNother
+$_$
+d_2_CD
+=_SYM
+6_CD
+$_$
+[_-LRB-
+Remember_VIMP MENTAL
+that_DEMO
+$_$
+d_i_CD
+$_$
+is_VPRT BEMA
+a_DT
+digit_NN NNother
+in_IN INother
+base_NN NNABSPROC
+$_$
+7_CD
+$_$
+,_,
+so_SO
+$_$
+0_CD
+\_SYM
+leq_CD
+d_NN NNother
+\_SYM
+leq_NN NNother
+6_CD
+$_$
+]_-RRB-
+So_SO
+,_,
+our_FPP1P FPPAll
+equation_NN NNTECH
+becomes_VPRT OCCUR
+:_EMO
+$_$
+12_CD
+=_SYM
+4d_1_CD
++_SYM
+d_0_CD
+$_$
+Similarly_RB ELAB
+,_,
+maximum_JJAT JJREL
+possible_JJAT JJEPSTother
+value_NN NNABSPROC
+of_IN INother
+$_$
+d_1_CD
+$_$
+is_VPRT
+$_$
+3_CD
+$_$
+and_CC
+this_DEMO
+forces_VPRT CAUSE
+$_$
+d_0_CD
+=_SYM
+0_CD
+$_$
+._.
+That_DEMO
+means_VPRT COMM
+,_,
+the_DT
+largest_JJAT JJATother
+good_JJAT JJEVAL
+number_NN NNQUANT
+$_$
+2n_CD
+=_SYM
+630_CD
+\_SYM
+Leftrightarrow_NN NNP
+n_NN NNother
+=_SYM
+315_CD
+$_$
+._.
+It_PIT
+is_VPRT BEMA
+easy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+check_VB ACT
+that_DEMO
+$_$
+n_NN NNother
+=_SYM
+315_CD
+$_$
+has_VPRT
+the_DT
+desired_VBN
+properties_NN NNPLACE
+._.
+[_-LRB-
+Actually_DMA
+it_PIT
+'s_VPRT CONT SPLIT
+already_TIME
+proven_PEAS MENTAL
+]_-RRB-
+I_FPP1S FPPAll
+just_RB EMPH
+copied_VBD
+and_CC
+pasted_VBD
+The_DT
+solution_NN NNTECH
+of_IN INother
+Anindya_NN NNP
+Biswas_NN NNP
+._.
+Check_VIMP ACT
+out_RP
+the_DT
+actual_JJAT JJATother
+solution_NN NNTECH
+by_IN INother
+Anindya_NN NNP
+Biswas_NN NNP
+._.
+Here_PLACE
+is_VPRT BEMA
+the_DT
+link_NN NNABSPROC
+:_:
+viewtopic.php?f_URL
+=_SYM
+13_CD
+&_CC
+t_NN NNother
+=_SYM
+6103_CD
+a_DT
++_SYM
+b_NN NNother
++_SYM
+c_NN NNother
++_SYM
+d_NN NNother
+=_SYM
+2021_CD
+._.
+How_WHSC WHSCother
+many_QUAN
+possible_JJAT JJEPSTother
+solutions_NN NNTECH
+of_IN INother
+(_-LRB-
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+are_VPRT
+there_EX
+if_COND
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+are_VPRT BEMA
+4_CD
+different_JJAT JJREL
+positive_JJAT JJEPSTother
+integers_NN NNother
+?_.
+Position_NN NNABSPROC
+of_IN INother
+(_-LRB-
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+does_VPRT DOAUX
+n't_XX0 CONT
+matter_VB EXIST
+._.
+Ex_NN NNP
+:_EMO
+(_-LRB-
+a_DT
+,_,
+c_NN NNother
+,_,
+b_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+=_EMO
+(_-LRB-
+d_EMO
+,_,
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+)_-RRB-
+._.
+Well_DMA
+,_,
+here_PLACE
+'s_VPRT CONT BEMA
+the_DT
+solution_NN NNTECH
+:_:
+Number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+$_$
+(_-LRB-
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+$_$
+is_VPRT
+$_$
+2020_CD
+\_SYM
+choose_VIMP MENTAL
+3_CD
+$_$
+[_-LRB-
+Stars_NN NNP
+and_CC
+bars_NN NNCONC
+theorem_RB RBother
+maybe_HDG
+]_-RRB-
+Remember_VB MENTAL
+,_,
+while_CC
+doing_VBG ACT
+this_DEMO
+calculation_NN NNCOG
+,_,
+we_FPP1P FPPAll
+have_VPRT
+some_QUAN
+tuples_NN NNother
+where_WHSC WHSCother
+they_TPP3P
+are_VPRT BEMA
+not_XX0
+pairwise_JJAT JJATother
+distinct_JJPR JJPRother
+and_CC
+also_CC
+here_PLACE
+,_,
+the_DT
+positions_NN NNABSPROC
+are_VPRT BEMA
+important_JJPR JJPRother
+._.
+Now_TIME
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+calculate_VB MENTAL
+the_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+at_IN INother
+least_EMPH
+$_$
+2_CD
+$_$
+of_IN INother
+them_TPP3P
+are_VPRT BEMA
+equal_JJPR JJPRother
+._.
+Observe_VB MENTAL
+that_DEMO
+since_IN INother
+$_$
+2021_CD
+$_$
+is_VPRT BEMA
+not_XX0
+divisible_JJPR JJPRother
+by_IN INother
+$_$
+4_CD
+$_$
+,_,
+we_FPP1P FPPAll
+have_VPRT
+no_XX0
+tuple_NN NNother
+for_IN INother
+which_WHSC WHSCother
+$_$
+a_DT
+=_SYM
+b_NN NNother
+=_SYM
+c_NN NNother
+=d_NN NNother
+$_$
+._.
+Let_VIMP CAUSE
+'s_FPP1P FPPAll
+first_JJAT JJATother
+focus_NN NNother
+on_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+exactly_RB RBother
+$_$
+3_CD
+$_$
+of_IN INother
+them_TPP3P
+are_VPRT BEMA
+equal_JJPR JJPRother
+._.
+WLOG_NN NNP
+,_,
+assume_VIMP MENTAL
+that_DEMO
+$_$
+b_CD
+=_SYM
+c_NN NNother
+=d_NN NNother
+=_SYM
+m_CD
+$_$
+$_$
+\_CD
+therefore_RB CUZ
+3m_NN NNother
++_SYM
+a_DT
+=_SYM
+2021_CD
+$_$
+This_DEMO
+has_VPRT
+positive_JJAT JJEPSTother
+solutions_NN NNTECH
+when_WHSC WHSCother
+$_$
+1_CD
+\_SYM
+leq_CD
+m_NN NNother
+\_SYM
+leq_NN NNother
+673_CD
+$_$
+So_SO
+,_,
+this_DEMO
+equation_NN NNTECH
+has_VPRT
+$_$
+673_CD
+$_$
+solutions_NN NNTECH
+._.
+However_CC
+,_,
+we_FPP1P FPPAll
+have_VPRT
+$_$
+4_CD
+$_$
+choices_NN NNABSPROC
+to_IN INother
+choose_VB MENTAL
+$_$
+3_CD
+$_$
+numbers_NN NNQUANT
+to_IN INother
+be_VB BEMA
+equal_JJPR JJPRother
+._.
+And_CC
+each_QUAN
+of_IN INother
+them_TPP3P
+gives_VPRT ACT
+$_$
+673_CD
+$_$
+non-intersecting_CD
+tuples_NN NNother
+._.
+So_SO
+,_,
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+exactly_RB RBother
+$_$
+3_CD
+$_$
+of_IN INother
+the_DT
+numbers_NN NNQUANT
+are_VPRT BEMA
+equal_JJPR JJPRother
+is_VPRT
+$_$
+4_CD
+\_SYM
+times673_CD
+$_$
+._.
+For_IN INother
+convenience_NN NNother
+,_,
+we_FPP1P FPPAll
+will_MDWS MDPREDAll
+call_VB COMM
+this_DEMO
+tuples_VPRT
+the_DT
+$_$
+\_CD
+text_NN NNother
+{_-LRB-
+3_CD
+-_SYM
+tuples_NN NNother
+}_-RRB-
+$_$
+._.
+Now_TIME
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+count_VB MENTAL
+the_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+$_$
+a_DT
+=_SYM
+b_CD
+=_SYM
+m_CD
+$_$
+._.
+That_DEMO
+means_VPRT COMM
+,_,
+we_FPP1P FPPAll
+have_MDNE
+to_IN INother
+count_VB MENTAL
+the_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+of_IN INother
+the_DT
+form_NN NNother
+$_$
+(_-LRB-
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+$_$
+or_CC
+,_,
+equivalently_RB RBother
+,_,
+number_NN NNQUANT
+of_IN INother
+solutions_NN NNTECH
+to_IN INother
+the_DT
+equation_NN NNTECH
+$_$
+2m_CD
++_SYM
+c_NN NNother
++_SYM
+d_NN NNother
+=_SYM
+2021_CD
+$_$
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+substitute_VB
+$_$
+m_CD
+=_SYM
+1,2,3_CD
+,_,
+\_SYM
+dots_NN NNCONC
+,_,
+1009_CD
+$_$
+and_CC
+count_VIMP MENTAL
+each_QUAN
+of_IN INother
+them_TPP3P
+and_CC
+take_VB ACT
+their_TPP3P
+sum_NN NNother
+._.
+We_FPP1P FPPAll
+get_VPRT
+,_,
+$_$
+2_CD
++4_CD
++6_NN NNother
++_SYM
+\_SYM
+dots_NN NNCONC
++2018_CD
+=_SYM
+1019090_CD
+$_$
+._.
+However_CC
+,_,
+there_EX
+are_VPRT
+$_$
+{_-LRB-
+4_CD
+\_SYM
+choose2_CD
+}_-RRB-
+=_SYM
+6_CD
+$_$
+ways_NN NNABSPROC
+to_IN INother
+choose_VB MENTAL
+$_$
+2_CD
+$_$
+variables_NN NNother
+to_IN INother
+be_VB BEMA
+equal_JJPR JJPRother
+._.
+Another_DT
+important_JJAT JJATother
+thing_NN NNother
+to_IN INother
+realize_VB MENTAL
+is_VPRT BEMA
+the_DT
+tuple_NN NNother
+$_$
+(_-LRB-
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+$_$
+is_VPRT
+counted_PASS PASSAll MENTAL
+$_$
+3_CD
+$_$
+times_NN NNQUANT
+while_CC
+counting_VBG MENTAL
+$_$
+(_-LRB-
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+,_,
+(_-LRB-
+m_NN NNother
+,_,
+b_NN NNother
+,_,
+m_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+,_,
+(_-LRB-
+a_DT
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+d_NN NNother
+)_-RRB-
+$_$
+._.
+Thus_CUZ
+each_QUAN
+$_$
+\_CD
+text_NN NNother
+{_-LRB-
+3_CD
+-_SYM
+tuples_NN NNother
+}_-RRB-
+$_$
+will_MDWS MDPREDAll
+be_VB
+counted_PASS PASSAll MENTAL
+$_$
+3_CD
+$_$
+times_NN NNQUANT
+._.
+So_SO
+,_,
+we_FPP1P FPPAll
+have_MDNE
+to_IN INother
+subtract_VB
+twice_QUAN
+the_DT
+number_NN NNQUANT
+of_IN INother
+$_$
+\_CD
+text_NN NNother
+{_-LRB-
+3_CD
+-_SYM
+tuples_NN NNother
+}_-RRB-
+$_$
+to_IN INother
+get_VB
+the_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+at_IN INother
+least_EMPH
+two_CD
+of_IN INother
+the_DT
+variables_NN NNother
+are_VPRT BEMA
+equal_JJPR JJPRother
+._.
+So_SO
+,_,
+the_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+at_IN INother
+least_EMPH
+two_CD
+of_IN INother
+the_DT
+variables_NN NNother
+are_VPRT BEMA
+equal_JJPR JJPRother
+is_VPRT
+,_,
+$_$
+6_CD
+\_SYM
+times1019090_CD
+-_HYPH
+2_CD
+\_SYM
+times4_CD
+\_SYM
+times673_CD
+$_$
+$_$
+\_CD
+therefore_RB CUZ
+$_$
+The_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+every_QUAN
+variable_NN NNother
+is_VPRT BEMA
+pairwise_JJAT JJATother
+distinct_JJPR JJPRother
+is_VPRT
+$_$
+{_-LRB-
+2020_CD
+\_SYM
+choose3_CD
+}_-RRB-
+-_HYPH
+6_CD
+\_SYM
+times1019090_CD
++2_CD
+\_SYM
+times4_CD
+\_SYM
+times673_CD
+$_$
+._.
+Now_TIME
+since_IN INother
+we_FPP1P FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+care_VB MENTAL
+about_IN INother
+permutation_NN NOMZ
+,_,
+we_FPP1P FPPAll
+have_MDNE
+to_IN INother
+divide_VB ACT
+by_IN INother
+$_$
+4_CD
+!_.
+$_$
+since_IN INother
+every_QUAN
+combination_NN NNABSPROC
+is_VPRT
+counted_PASS PASSAll MENTAL
+$_$
+4_CD
+!_.
+$_$
+times_NN NNQUANT
+._.
+Our_FPP1P FPPAll
+final_JJAT JJREL
+answer_NN NNABSPROC
+is_VPRT
+,_,
+\_SYM
+[_-LRB-
+\_SYM
+boxed_VBN
+{_-LRB-
+\_SYM
+frac_NN NNother
+{_-LRB-
+{_-LRB-
+2020_CD
+\_SYM
+choose3_CD
+}_-RRB-
+-_HYPH
+6_CD
+\_SYM
+times1019090_CD
++2_CD
+\_SYM
+times4_CD
+\_SYM
+times673_CD
+}_-RRB-
+{_-LRB-
+4_CD
+!_.
+}_-RRB-
+=_SYM
+56899416_CD
+}_-RRB-
+\_SYM
+]_-RRB-
+In_IN INother
+the_DT
+following_VBG ACT
+question_NN NNABSPROC
+it_PIT
+has_VPRT
+been_PEAS
+asked_PASS PASSAll COMM
+that_THSC THSCother
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+are_VPRT BEMA
+four_CD
+different_JJAT JJREL
+integers_NN NNother
+._.
+So_SO
+I_FPP1S FPPAll
+'m_VPRT CONT
+not_XX0
+very_AMP
+sure_DMA
+about_IN INother
+counting_VBG MENTAL
+tuples_NN NNother
+like_LIKE
+{_-LRB-
+a_DT
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+}_-RRB-
+or_CC
+{_-LRB-
+a_DT
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+d_NN NNother
+}_-RRB-
+._.
+I_FPP1S FPPAll
+think_VPRT MENTAL THATD
+it_PIT
+would_MDWO MDPREDAll
+be_VB BEMA
+better_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+assume_VB MENTAL
+{_-LRB-
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+}_-RRB-
+is_VPRT BEMA
+a_DT
+set_NN NNABSPROC
+._.
+But_CC
+anyway_DMA
+,_,
+the_DT
+solution_NN NNTECH
+you_SPP2
+have_VPRT
+shown_PEAS ACT
+is_VPRT BEMA
+a_DT
+very_AMP
+interesting_JJAT JJATother
+one_NN NNother
+._.
+So_SO
+thank_VPRT COMM POLITE
+you_SPP2
+very_AMP
+much_QUAN
+for_IN INother
+replying_VBG COMM
+There_EX
+might_MDMM MDPOSSCAll
+be_VB
+a_DT
+straightforward_JJAT JJATother
+approach_NN NNABSPROC
+to_IN INother
+the_DT
+problem_NN NNother
+._.
+But_CC
+counting_VBG MENTAL
+the_DT
+tuples_NN NNother
+is_VPRT BEMA
+an_DT
+important_JJAT JJATother
+part_NN NNQUANT
+of_IN INother
+the_DT
+solution_NN NNTECH
+which_WHSC WHSCother
+is_VPRT
+given_PASS PASSAll ACT
+._.
+Yes_DMA
+,_,
+obviously_RB RSTNCAll RFACT
+it_PIT
+is_VPRT
+._.
+By_IN INother
+not_XX0
+counting_VBG MENTAL
+tuples_NN NNother
+like_LIKE
+{_-LRB-
+a_DT
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+,_,
+m_NN NNother
+}_-RRB-
+,_,
+I_FPP1S FPPAll
+have_VPRT
+meant_PEAS COMM
+tuples_NN NNother
+where_WHSC WHSCother
+a_DT
+=_SYM
+b_NN NNother
+=_SYM
+c_NN NNother
+=d_NN NNother
+,_,
+a_DT
+=_SYM
+b_NN NNother
+=_SYM
+c_NN NNother
+,_,
+b_NN NNother
+=_SYM
+c_NN NNother
+=d_NN NNother
+,_,
+a_DT
+=_SYM
+b_CD
+,_,
+c_NN NNother
+=_SYM
+d_NN NNother
+etc._ELAB
+._.
+Because_CUZ
+the_DT
+question_NN NNABSPROC
+says_VPRT COMM
+that_THSC ThSTNCAll ThVSTNCAll ThVCOMM
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+are_VPRT BEMA
+4_CD
+different_JJAT JJREL
+positive_JJAT JJEPSTother
+integers_NN NNother
+,_,
+but_CC
+if_COND
+a_DT
+=_SYM
+b_CD
+,_,
+then_RB RBother
+they_TPP3P
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+remain_VB EXIST
+different_JJPR JJREL
+._.
+So_SO
+,_,
+for_IN INother
+my_FPP1S FPPAll
+solution_NN NNTECH
+I_FPP1S FPPAll
+have_VPRT
+counted_PEAS MENTAL
+by_IN INother
+at_IN INother
+first_JJPR JJPRother
+keeping_VBG ASPECT
+a_DT
+md_NN NNother
+b_NN NNother
+constant_JJPR JJPRother
+and_CC
+counting_VBG MENTAL
+all_QUAN
+possible_JJAT JJEPSTother
+values_NN NNABSPROC
+of_IN INother
+c_NN NNother
+,_,
+d_NN NNother
+._.
+But_CC
+in_IN INother
+my_FPP1S FPPAll
+method_NN NNABSPROC
+repetitions_NN NCOMP
+like_LIKE
+{_-LRB-
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+}_-RRB-
+{_-LRB-
+a_DT
+,_,
+c_NN NNother
+,_,
+b_NN NNother
+,_,
+d_NN NNother
+}_-RRB-
+are_VPRT
+being_PROG
+counted_PASS PASSAll MENTAL
+as_IN INother
+2_CD
+different_JJAT JJREL
+ways_NN NNABSPROC
+and_CC
+if_COND
+I_FPP1S FPPAll
+divide_VPRT ACT
+the_DT
+number_NN NNQUANT
+by_IN INother
+4_CD
+!_.
+,_,
+there_EX
+is_VPRT
+a_DT
+remainder_NN NNother
+._.
+Currently_TIME
+I_FPP1S FPPAll
+'m_VPRT CONT BEMA
+very_AMP
+confused_JJPR JJPRother
+and_CC
+I_FPP1S FPPAll
+do_VPRT DOAUX
+n't_XX0 CONT
+think_VB MENTAL THATD
+my_FPP1S FPPAll
+answer_NN NNABSPROC
+is_VPRT BEMA
+correct_JJPR JJEPSTother
+,_,
+so_SO
+I_FPP1S FPPAll
+have_VPRT
+n't_XX0 CONT
+submitted_PEAS
+it_PIT
+in_IN INother
+the_DT
+forum_NN NNother
+._.
+I_FPP1S FPPAll
+counted_VBD MENTAL
+the_DT
+number_NN NNQUANT
+of_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+at_IN INother
+least_EMPH
+$_$
+2_CD
+$_$
+variables_NN NNother
+are_VPRT BEMA
+equal_JJPR JJPRother
+,_,
+then_RB RBother
+subtracted_VBD
+that_DEMO
+result_NN NNABSPROC
+from_IN PrepNSTNC
+the_DT
+number_NN NNQUANT
+of_IN INother
+all_QUAN
+the_DT
+tuples_NN NNother
+._.
+Thus_CUZ
+,_,
+we_FPP1P FPPAll
+are_VPRT SPLIT
+only_RB RBother
+left_PASS PASSAll ACT
+with_IN INother
+tuples_NN NNother
+where_WHSC WHSCother
+none_QUPR
+of_IN INother
+the_DT
+variables_NN NNother
+are_VPRT BEMA
+equal_JJPR JJPRother
+._.
+Yes_DMA
+,_,
+you_SPP2
+are_VPRT BEMA
+correct_JJPR JJEPSTother
+._.
+There_EX
+were_VBD
+a_DT
+few_QUAN
+problems_NN NNother
+in_IN INother
+my_FPP1S FPPAll
+approach_NN NNABSPROC
+to_IN INother
+the_DT
+problem_NN NNother
+._.
+I_FPP1S FPPAll
+have_VPRT
+got_HGOT
+the_DT
+same_JJAT JJREL
+answer_NN NNABSPROC
+as_IN INother
+you_SPP2
+after_IN INother
+fixing_VBG ACT
+the_DT
+problems_NN NNother
+._.
+Your_SPP2
+solution_NN NNTECH
+was_VBD BEMA
+a_DT
+great_JJAT JJEVAL
+help_NN NNABSPROC
+._.
+Thank_VPRT COMM POLITE
+you_SPP2
+again_FREQ
+._.
+Well_DMA
+,_,
+I_FPP1S FPPAll
+first_RB RBother
+recognize_VPRT MENTAL
+that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+we_FPP1P FPPAll
+can_MDCA MDPOSSCAll
+give_VB ACT
+an_DT
+order_NN NNABSPROC
+on_IN INother
+$_$
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+,_,
+d_NN NNother
+$_$
+WLOG_CD
+,_,
+let_VIMP CAUSE
+'s_FPP1P FPPAll
+assume_VB MENTAL
+$_$
+a_DT
+\_NN NNother
+leq_NN NNother
+b_NN NNother
+-_HYPH
+1_CD
+\_SYM
+leq_NN NNother
+c_NN NNother
+-_HYPH
+2_CD
+\_SYM
+leq_NN NNother
+d_NN NNother
+-_HYPH
+3_CD
+$_$
+So_SO
+,_,
+we_FPP1P FPPAll
+'ve_VPRT CONT
+got_HGOT
+$_$
+4a_CD
+\_SYM
+leq_NN NNother
+a_DT
++_SYM
+(_-LRB-
+b_NN NNother
+-_HYPH
+1_CD
+)_-RRB-
++_SYM
+(_-LRB-
+c_NN NNother
+-_HYPH
+2_CD
+)_-RRB-
++_SYM
+(_-LRB-
+d_NN NNother
+-_HYPH
+3_CD
+)_-RRB-
+\_SYM
+leq_NN NNother
+2015_CD
+$_$
+$_$
+\_SYM
+Rightarrow_NN NNP
+a_DT
+\_NN NNother
+leq_NN NNother
+503_CD
+$_$
+._.
+Maybe_HDG
+we_FPP1P FPPAll
+have_MDNE
+to_IN INother
+experiment_VB
+a_DT
+lot_QUAN
+but_CC
+this_DEMO
+is_VPRT BEMA
+not_XX0
+trivial_JJPR JJPRother
+at_IN INother
+all_QUAN
+._.
+I_FPP1S FPPAll
+have_VPRT
+heard_PEAS MENTAL
+that_THSC THSCother
+quintic_JJPR JJPRother
+[_-LRB-
+5_CD
+powered_JJPR JJPRother
+]_-RRB-
+equation_NN NNTECH
+in_IN INother
+some_QUAN
+case_NN NNCONC
+not_XX0
+solvable.Can_URL
+you_SPP2
+give_VB ACT
+any_QUAN
+example_NN NNother
+?_.
+It_PIT
+'s_VPRT CONT
+not_XX0
+that_THSC THSCother
+it_PIT
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+be_VB
+solved_PASS PASSAll MENTAL
+._.
+The_DT
+thing_NN NNother
+is_VPRT
+that_THSC THSCother
+there_EX
+ca_MDCA MDPOSSCAll
+n't_XX0 CONT
+be_VB BEMA
+any_QUAN
+general_JJAT JJREL
+solution_NN NNTECH
+to_IN INother
+a_DT
+equation_NN NNTECH
+having_VBG
+maximum_JJAT JJREL
+power_NN NNABSPROC
+more_QUAN
+than_IN INother
+or_CC
+equal_JJPR JJPRother
+$_$
+5_CD
+$_$
+I_FPP1S FPPAll
+could_MDCO MDPOSSCAll
+have_VB
+written_PEAS COMM
+a_DT
+lot_QUAN
+,_,
+but_CC
+it_PIT
+still_RB RBother
+wo_MDWS MDPREDAll
+n't_XX0 CONT
+cover_VB ACT
+it_PIT
+!!_.
+So_SO
+,_,
+a_DT
+better_JJAT JJATother
+idea_NN NSTNCother
+,_,
+just_RB EMPH
+go_VB
+to_IN INother
+this_DEMO
+link_NN NNABSPROC
+!_.
+http://en.wikipedia.org/wiki/Quintic_URL
+I_FPP1S FPPAll
+guess_VPRT MENTAL
+,_,
+you_SPP2
+will_MDWS MDPREDAll
+have_VB
+your_SPP2
+all_QUAN
+question_NN NNABSPROC
+'s_POS
+answer_NN NNABSPROC
+here_PLACE
+!_.
+If_COND
+you_SPP2
+have_VPRT
+anymore_RB RBother
+further_JJAT JJATother
+problem_NN NNother
+,_,
+feel_VIMP MENTAL
+free_JJPR JJPRother
+to_IN INother
+ask_VB COMM
+!_.
+$_$
+sin_NN NNother
+\_SYM
+A_NN NNother
+,_,
+sin_NN NNother
+\_SYM
+B_NN NNother
+,_,
+sin_NN NNother
+\_SYM
+C$_$
+of_IN INother
+a_DT
+triangle_NN NNother
+are_VPRT BEMA
+rational_JJPR JJPRother
+._.
+Prove_VB MENTAL
+that_DEMO
+$_$
+cos_CUZ
+\_SYM
+A_NN NNother
+,_,
+cos_CUZ
+\_SYM
+B_NN NNother
+,_,
+cos_CUZ
+\_SYM
+C$_$
+are_VPRT
+also_CC
+rational_JJPR JJPRother
+._.
+let_VB CAUSE
+the_DT
+opposite_JJAT JJATother
+sides_NN NNABSPROC
+of_IN INother
+$_$
+A_DT
+,_,
+B_NN NNP
+,_,
+C$_$
+are_VPRT
+$_$
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+$_$
+through_IN INother
+cos_CUZ
+law_NN NNABSPROC
+\_SYM
+[_-LRB-
+cos_CUZ
+A_NN NNother
+=_SYM
+\_SYM
+frac_SYM
+{_-LRB-
+a_DT
+^_SYM
+2_CD
+-_HYPH
+b_NN NNother
+^_SYM
+2_CD
+-_HYPH
+c_NN NNother
+^_SYM
+2_CD
+}_-RRB-
+{_-LRB-
+-_HYPH
+2bc_NN NNother
+}_-RRB-
+...._,
+(_-LRB-
+1_CD
+)_-RRB-
+\_SYM
+]_-RRB-
+if_COND
+$_$
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+$_$
+are_VPRT BEMA
+rational_JJPR JJPRother
+,_,
+(_-LRB-
+by_IN INother
+1_CD
+)_-RRB-
+then_RB RBother
+cos_CUZ
+of_IN INother
+all_QUAN
+angles_NN NNTECH
+will_MDWS MDPREDAll
+be_VB BEMA
+rational_JJPR JJPRother
+._.
+so_SO
+we_FPP1P FPPAll
+need_MDNE
+to_IN INother
+prove_VB MENTAL
+when_WHSC WhVSTNCAll WhVFCT
+$_$
+a_DT
+,_,
+b_NN NNother
+,_,
+c_NN NNother
+$_$
+are_VPRT BEMA
+irrational_JJPR JJPRother
+._.
+through_IN INother
+sine_NN NNother
+law_NN NCOMP
+\_NN NNother
+[_-LRB-
+\_SYM
+frac_NN NNother
+{_-LRB-
+sin_NN NNother
+A_NN NNother
+}_-RRB-
+{_-LRB-
+sin_NN NNother
+B_NN NNother
+}_-RRB-
+=_SYM
+\_SYM
+frac_SYM
+{_-LRB-
+a_DT
+}_-RRB-
+{_-LRB-
+b_NN NNother
+}_-RRB-
+,_,
+\_SYM
+frac_NN NNother
+{_-LRB-
+sin_NN NNother
+A_NN NNother
+}_-RRB-
+{_-LRB-
+sin_NN NNother
+C_NN NNother
+}_-RRB-
+=_SYM
+\_SYM
+frac_SYM
+{_-LRB-
+a_DT
+}_-RRB-
+{_-LRB-
+c_NN NNother
+}_-RRB-
+,_,
+\_SYM
+frac_NN NNother
+{_-LRB-
+sin_NN NNother
+B_NN NNother
+}_-RRB-
+{_-LRB-
+sin_NN NNother
+C_NN NNother
+}_-RRB-
+=_SYM
+\_SYM
+frac_SYM
+{_-LRB-
+b_NN NNother
+}_-RRB-
+{_-LRB-
+c_NN NNother
+}_-RRB-
+\_SYM
+]_-RRB-
+that_DEMO
+implies_VPRT EXIST
+ratio_NN NNQUANT
+among_IN INother
+the_DT
+sides_NN NNABSPROC
+are_VPRT
+rational.so_URL
+they_TPP3P
+have_VPRT
+a_DT
+common_JJAT JJATother
+irrational_JJAT JJATother
+divisor_NN NNother
+._.
+let_VB CAUSE
+$_$
+a_DT
+=_SYM
+ma_FW
+'_''
+,_,
+b_NN NNother
+=_SYM
+mb_NN NNother
+'_POS
+,_,
+c_NN NNother
+=_SYM
+mc_NN NNother
+'_''
+$_$
+where_WHSC WHSCother
+m_NN NNother
+is_VPRT BEMA
+the_DT
+common_JJAT JJATother
+irrational_JJAT JJATother
+divisor_NN NNother
+and_CC
+$_$
+a_DT
+'_``
+,_,
+b_NN NNother
+'_''
+,_,
+c_NN NNother
+'_''
+$_$
+are_VPRT BEMA
+rational_JJPR JJPRother
+._.
+in_IN INother
+(_-LRB-
+1_CD
+)_-RRB-
+\_SYM
+[_-LRB-
+cos_CUZ
+A_NN NNother
+=_SYM
+\_SYM
+frac_SYM
+{_-LRB-
+m_NN NNother
+^_SYM
+2_CD
+(_-LRB-
+a_DT
+'_``
+^_SYM
+2_CD
+-_HYPH
+b_NN NNother
+'_''
+^_SYM
+2_CD
+-_HYPH
+c_NN NNother
+'_''
+^_SYM
+2_CD
+)_-RRB-
+)_-RRB-
+}_-RRB-
+{_-LRB-
+-_HYPH
+2mb_NN NNother
+'_''
+._.
+mc_NN NNother
+'_''
+}_-RRB-
+=_SYM
+\_SYM
+frac_SYM
+{_-LRB-
+a_DT
+'_``
+^_SYM
+2_CD
+-_HYPH
+b_NN NNother
+'_''
+^_SYM
+2_CD
+-_HYPH
+c_NN NNother
+'_''
+^_SYM
+2_CD
+}_-RRB-
+{_-LRB-
+-_HYPH
+2b_NN NNother
+'_''
+c_NN NNother
+'_''
+}_-RRB-
+\_SYM
+]_-RRB-
+and_CC
+cos_CUZ
+A_NN NNother
+is_VPRT BEMA
+rational_JJPR JJPRother
+._.
+so_SO
+cos_CUZ
+of_IN INother
+all_QUAN
+angles_NN NNTECH
+are_VPRT BEMA
+rational_JJPR JJPRother
+._.
+Problem_NN NNP
+$_$
+35_CD
+$_$
+Every_QUAN
+unit_NN NNTECH
+square_NN NCOMP
+of_IN INother
+a_DT
+$_$
+100_CD
+\_SYM
+times_NN NNQUANT
+100_CD
+$_$
+is_VPRT
+coloured_PASS PASSAll
+by_IN INother
+one_CD
+of_IN INother
+$_$
+4_CD
+$_$
+colours_NN NNother
+red_JJPR JJDESCAll JJCOLR
+,_,
+green_JJPR JJDESCAll JJCOLR
+,_,
+blue_JJPR JJDESCAll JJCOLR
+or_CC
+yellow_JJPR JJPRother
+so_SO
+that_THSC CUZ
+in_IN INother
+every_QUAN
+line_NN NNother
+and_CC
+column_NN NNABSPROC
+,_,
+there_EX
+are_VPRT
+$_$
+25_CD
+$_$
+squares_NN NNTECH
+of_IN INother
+every_QUAN
+colour.Prove_URL
+that_THRC THRCother
+thre_VPRT
+exists_VPRT EXIST
+$_$
+2_CD
+$_$
+rows_NN NNother
+and_CC
+columns_NN NNABSPROC
+so_SO
+that_THSC CUZ
+their_TPP3P
+$_$
+4_CD
+$_$
+intersection_NN NOMZ
+points_NN NCOMP
+have_VPRT
+$_$
+4_CD
+$_$
+different_JJAT JJREL
+colours_NN NNother
+._.
+I_FPP1S FPPAll
+think_VPRT MENTAL
+there_EX
+is_VPRT
+a_DT
+mistake_NN NNother
+in_IN INother
+the_DT
+sentence_NN NNTECH
+,_,
+instead_CC
+of_IN INother
+every_QUAN
+line_NN NNother
+and_CC
+column_NN NNABSPROC
+,_,
+it_PIT
+should_MDNE
+be_VB BEMA
+in_IN INother
+all_QUAN
+there_EX
+are_VPRT
+$_$
+25_CD
+$_$
+squares_NN NNTECH
+of_IN INother
+each_QUAN
+color_NN NNABSPROC
+._.
+Or_CC
+the_DT
+square_NN NNTECH
+can_MDCA MDPOSSCAll
+be_VB
+$_$
+100_CD
+\_SYM
+times_NN NNQUANT
+100_CD
+$_$
+._.
+Mahi_NN NNP
+is_VPRT
+right.The_URL
+square_NN NNTECH
+is_VPRT
+$_$
+100_CD
+\_SYM
+times_NN NNQUANT
+100_CD
+$_$
+._.
+I_FPP1S FPPAll
+think_VPRT MENTAL
+this_DEMO
+marathon_NN NNother
+should_MDNE
+be_VB
+revived_PASS PASSAll
+._.
+Also_CC
+,_,
+post_VIMP
+a_DT
+solution_NN NNTECH
+to_IN INother
+problem_NN NNother
+35_CD
+,_,
+Asif_NN NNP
+,_,
+if_COND
+you_SPP2
+have_VPRT
+it_PIT
+._.
+Problem_NN NNother
+36_CD
+Find_VB VFCTother
+all_QUAN
+functions_VPRT
+$_$
+f_SYM
+:_:
+\_SYM
+mathbb_NN NNother
+{_-LRB-
+R_NN NNother
+}_-RRB-
+\_SYM
+rightarrow_NN NNother
+\_SYM
+mathbb_NN NNother
+{_-LRB-
+R_NN NNother
+}_-RRB-
+$_$
+such_QUAN
+that_DEMO
+$_$
+\_CD
+forall_NN NNother
+x_NN NNother
+,_,
+y_NN NNother
+\_SYM
+in_IN INother
+\_SYM
+mathbb_NN NNother
+{_-LRB-
+R_NN NNother
+}_-RRB-
+$_$
+,_,
+$_$
+f_SYM
+(_-LRB-
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+-_HYPH
+y_NN NNother
+^_SYM
+{_-LRB-
+2_CD
+}_-RRB-
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+x_NN NNother
+^_SYM
+{_-LRB-
+2_CD
+}_-RRB-
+)_-RRB-
++_SYM
+y_NN NNother
+^_SYM
+{_-LRB-
+2_CD
+}_-RRB-
+f_NN NNother
+(_-LRB-
+y_NN NNother
+)_-RRB-
+-_HYPH
+2f_NN NNother
+(_-LRB-
+xy_NN NNother
+)_-RRB-
+$_$
+._.
+Denote_VB
+the_DT
+main_JJAT JJREL
+equation_NN NNTECH
+by_IN INother
+(_-LRB-
+M_NN NNother
+)_-RRB-
+._.
+Suppose_VB MENTAL
+f_NN NNother
+(_-LRB-
+0_CD
+)_-RRB-
+=_SYM
+c._NN NNother
+First_RB RBother
+we_FPP1P FPPAll
+check_VPRT ACT
+for_IN INother
+constant_JJAT JJATother
+solutions_NN NNTECH
+:_EMO
+(_-LRB-
+M_NN NNother
+)_-RRB-
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+c_NN NNother
+=_SYM
+c_NN NNother
++_SYM
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+c_SYM
+-_:
+2c_NN NNother
+,_,
+taking_VBG ACT
+y_NN NNother
+nonzero_NN NNother
+and_CC
+y_NN NNother
+$_$
+\_CD
+neq_CD
+\_SYM
+pm_NN NNother
+\_SYM
+sqrt_NN NNother
+{_-LRB-
+2_CD
+}_-RRB-
+$_$
+implies_VPRT EXIST
+c_NN NNother
+=_SYM
+0_CD
+._.
+Constant_JJAT JJATother
+f_NN NNother
+=_SYM
+0_CD
+is_VPRT BEMA
+a_DT
+solution_NN NNTECH
+._.
+Now_TIME
+assume_VB MENTAL THATD
+f_NN NNother
+is_VPRT BEMA
+nonconstant_JJPR JJPRother
+._.
+(_-LRB-
+M_NN NNother
+)_-RRB-
+x_NN NNother
+=_SYM
+y_NN NNother
+=_SYM
+0_CD
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+c_NN NNother
+)_-RRB-
+=_SYM
+-_HYPH
+c_NN NNother
+…_,
+._.
+._.
+(_-LRB-
+i_FPP1S FPPAll
+)_-RRB-
+._.
+(_-LRB-
+M_NN NNother
+)_-RRB-
+y_NN NNother
+=_SYM
+0_CD
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+-_HYPH
+2c_NN NNother
+…_,
+._.
+._.
+(_-LRB-
+1_CD
+)_-RRB-
+(_-LRB-
+M_NN NNother
+)_-RRB-
+x_NN NNother
+=_SYM
+0_CD
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+c_NN NNother
+-_HYPH
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+y_NN NNother
+)_-RRB-
+-_HYPH
+c_NN NNother
+…_,
+._.
+(_-LRB-
+2_CD
+)_-RRB-
+We_FPP1P FPPAll
+may_MDMM MDPOSSCAll
+interchange_NN NNother
+y_NN NNother
+by_IN INother
+(_-LRB-
+-_HYPH
+y_NN NNother
+)_-RRB-
+to_IN INother
+conclude_VB MENTAL
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+y_NN NNother
+)_-RRB-
+-_HYPH
+c_NN NNother
+=_SYM
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+-_HYPH
+y_NN NNother
+)_-RRB-
+-_HYPH
+c_NN NNother
+,_,
+so_EMPH
+always_FREQ
+f_NN NNother
+(_-LRB-
+-_HYPH
+y_NN NNother
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+y_NN NNother
+)_-RRB-
+…_,
+._.
+(_-LRB-
+ii_FPUH
+)_-RRB-
+[_-LRB-
+including_VBG EXIST
+when_WHSC WHSCother
+y_NN NNother
+=_SYM
+0_CD
+]_-RRB-
+._.
+We_FPP1P FPPAll
+now_TIME
+introduce_VPRT
+our_FPP1P FPPAll
+first_JJAT JJATother
+lemma_NN NNother
+._.
+Lemma_NN NNP
+1_CD
+:_:
+If_COND
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+c_NN NNother
+,_,
+then_RB RBother
+x_NN NNother
+=_SYM
+0_CD
+._.
+Proof_NN NNother
+:_:
+Assume_VB MENTAL
+there_PLACE
+exists_VPRT EXIST
+nonzero_JJAT JJATother
+z_NN NNother
+:_:
+f_NN NNother
+(_-LRB-
+z_NN NNother
+)_-RRB-
+=_SYM
+c_NN NNother
+._.
+Then_RB RBother
+(_-LRB-
+M_NN NNother
+)_-RRB-
+x_NN NNother
+=_SYM
+z_NN NNother
+$_$
+\_CD
+Rightarrow_NN NNP
+$_NN NNother
+f_NN NNother
+(_-LRB-
+z_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
++_SYM
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+y_NN NNother
+)_-RRB-
+-_HYPH
+2f_NN NNother
+(_-LRB-
+zy_NN NNother
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+c_NN NNother
+-_HYPH
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+$_$
+\_CD
+rightarrow_RB RBother
+$_$
+(_-LRB-
+2_CD
+)_-RRB-
+$_$
+\_CD
+rightarrow_RB RBother
+$_$
+y_RB RBother
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+y_NN NNother
+)_-RRB-
+-_HYPH
+c_NN NNother
+$_$
+\_CD
+Rightarrow_NN NNP
+$_NN NNother
+2f_NN NNother
+(_-LRB-
+zy_NN NNother
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+z_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
++_SYM
+c_NN NNother
+,_,
+constant_JJPR JJPRother
+._.
+But_CC
+zy_NN NNP
+takes_VPRT ACT
+all_QUAN
+values_NN NNABSPROC
+from_IN INother
+R_NN NNother
+,_,
+so_CC
+f_NN NNother
+is_VPRT BEMA
+constant_JJPR JJPRother
+;_:
+contradiction_NN NOMZ
+._.
+Now_TIME
+(_-LRB-
+1_CD
+)_-RRB-
+x_NN NNother
+=_SYM
+c_NN NNother
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+c_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+-_HYPH
+2c_NN NNother
+=_SYM
+f_NN NNother
+(_-LRB-
+f_NN NNother
+(_-LRB-
+c_NN NNother
+)_-RRB-
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+-_HYPH
+c_NN NNother
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+c_NN NNother
+)_-RRB-
+=_SYM
+-_HYPH
+c_NN NNother
+(_-LRB-
+using_VBG ACT
+(_-LRB-
+i_FPP1S FPPAll
+)_-RRB-
+and_CC
+(_-LRB-
+ii_FPUH
+)_-RRB-
+)_-RRB-
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+c_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+c_NN NNother
+._.
+By_IN INother
+lemma_NN NNother
+1_CD
+;_:
+we_FPP1P FPPAll
+deduce_VPRT
+that_THSC THSCother
+c_NN NNother
+=_SYM
+0_CD
+._.
+Now_TIME
+(_-LRB-
+1_CD
+)_-RRB-
+,_,
+(_-LRB-
+2_CD
+)_-RRB-
+turns_VPRT ACT
+to_IN INother
+f_NN NNother
+(_-LRB-
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+…_,
+(_-LRB-
+1_CD
+)_-RRB-
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+y_NN NNother
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+-_HYPH
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+y_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+…_,
+._.
+(_-LRB-
+2_CD
+)_-RRB-
+Also_CC
+lemma_NN NNother
+1_CD
+turns_VPRT ACT
+to_IN INother
+,_,
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+0_CD
+$_$
+\_SYM
+Leftrightarrow_NN NNP
+$_$
+x_SYM
+=_SYM
+0_CD
+._.
+Now_TIME
+our_FPP1P FPPAll
+second_JJAT JJATother
+lemma_NN NNother
+comes_VPRT ACT
+to_IN INother
+hand_NN NNCONC
+._.
+Lemma_NN NNP
+2_CD
+:_:
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+b_NN NNother
+)_-RRB-
+$_$
+\_SYM
+Leftrightarrow_NN NNP
+$_$
+a_DT
+=_SYM
+b_CD
+or_CC
+a_DT
+=_SYM
+-_HYPH
+b._VBN
+Proof_NN NNother
+:_:
+If_COND
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+=_SYM
+0_CD
+,_,
+lemma_NN NNother
+(_-LRB-
+1_CD
+)_-RRB-
+implies_VPRT EXIST
+a_DT
+=_SYM
+b_CD
+=_SYM
+0_CD
+._.
+Assume_VB MENTAL
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+$_$
+\_CD
+neq_CD
+$_$
+0_CD
+._.
+(_-LRB-
+1_CD
+)_-RRB-
+x_NN NNother
+=_SYM
+a_DT
+,_,
+b_NN NNother
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+f_NN NNother
+(_-LRB-
+b_NN NNother
+)_-RRB-
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+b_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+Then_RB RBother
+(_-LRB-
+2_CD
+)_-RRB-
+y_NN NNother
+=_SYM
+a_DT
+,_,
+b_NN NNother
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+a_DT
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+b_NN NNother
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+b_CD
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+b_NN NNother
+)_-RRB-
+=_SYM
+b_CD
+$_$
+^_SYM
+2_CD
+$_$
+f_SYM
+(_-LRB-
+a_DT
+)_-RRB-
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+a_DT
+=_SYM
+b_CD
+or_CC
+a_DT
+=_SYM
+-_HYPH
+b_NN NNother
+;_:
+as_IN INother
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+$_$
+\_CD
+neq_CD
+$_$
+0_CD
+._.
+This_DEMO
+suffices_VPRT
+to_IN INother
+conclude_VB MENTAL
+from_IN INother
+(_-LRB-
+1_CD
+)_-RRB-
+that_DEMO
+,_,
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+or_CC
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+-_HYPH
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+;_EMO
+$_$
+\_CD
+forall_NN NNother
+$_$
+x._CD
+Let_VB CAUSE
+f_NN NNother
+(_-LRB-
+1_CD
+)_-RRB-
+=_SYM
+k_CD
+$_$
+\_CD
+neq_CD
+$_$
+0_CD
+._.
+(_-LRB-
+M_NN NNother
+)_-RRB-
+y_NN NNother
+=_SYM
+1_CD
+$_$
+\_SYM
+Rightarrow_NN NNP
+$_$
+f_SYM
+(_-LRB-
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+-_HYPH
+1_CD
+)_-RRB-
+=_SYM
+f_NN NNother
+(_-LRB-
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+–_SYM
+2f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
++_CC
+k_NN NNother
+…_,
+(_-LRB-
+3_CD
+)_-RRB-
+We_FPP1P FPPAll
+call_VPRT COMM
+some_QUAN
+number_NN NNQUANT
+x_NN NNother
+'_''
+evil_NN NNother
+'_''
+if_COND
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+has_VPRT
+opposite_JJAT JJATother
+sign_NN NNABSPROC
+with_IN INother
+k_CD
+;_:
+where_WHSC WHSCother
+x_NN NNother
+is_VPRT BEMA
+not_XX0
+0_CD
+or_CC
+$_$
+\_CD
+pm_NN NNother
+$_$
+1_CD
+._.
+Our_FPP1P FPPAll
+next_JJAT JJATother
+lemma_NN NNother
+is_VPRT
+stated_PASS PASSAll COMM
+now_TIME
+._.
+Lemma_NN NNP
+3_CD
+:_:
+Either_CC
+there_EX
+are_VPRT
+no_XX0
+evil_JJAT JJATother
+number_NN NNQUANT
+,_,
+or_CC
+else_RB RBother
+there_EX
+are_VPRT
+infinitely_RB RBother
+many_QUAN
+._.
+Proof_NN NNother
+:_:
+Note_VB
+that_THSC THSCother
+if_COND
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+,_,
+(_-LRB-
+2_CD
+)_-RRB-
+implies_VPRT EXIST
+f_NN NNother
+(_-LRB-
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+x_SYM
+$_$
+^_SYM
+4_CD
+$_$
+._.
+If_COND
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+-_HYPH
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+,_,
+(_-LRB-
+2_CD
+)_-RRB-
+implies_VPRT EXIST
+f_NN NNother
+(_-LRB-
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+)_-RRB-
+=_SYM
+-_HYPH
+x_SYM
+$_$
+^_SYM
+4_CD
+$_$
+._.
+Also_CC
+x_SYM
+$_$
+\_CD
+neq_CD
+0_CD
+,_,
+\_SYM
+pm_NN NNother
+1_CD
+$_$
+implies_VPRT EXIST
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+is_VPRT BEMA
+not_XX0
+0_CD
+or_CC
+$_$
+\_CD
+pm_NN NNother
+$_$
+1_CD
+._.
+So_SO
+if_COND
+x_NN NNother
+is_VPRT BEMA
+evil_JJPR JJPRother
+,_,
+so_SO
+is_VPRT
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+._.
+We_FPP1P FPPAll
+can_MDCA MDPOSSCAll SPLIT
+inductively_RB RBother
+say_VB COMM
+that_DEMO
+x_NN NNother
+$_$
+^_SYM
+{_-LRB-
+{_-LRB-
+2_CD
+}_-RRB-
+^_SYM
+{_-LRB-
+n_NN NNother
+}_-RRB-
+}_-RRB-
+$_$
+are_VPRT BEMA
+distinct_JJAT JJATother
+evil_JJAT JJATother
+numbers_NN NNQUANT
+,_,
+for_IN INother
+all_QUAN
+nonnegative_JJAT JJATother
+integers_NN NNother
+n_NN NNother
+;_:
+so_SO
+the_DT
+lemma_NN NNother
+is_VPRT
+proved_PASS PASSAll MENTAL
+._.
+First_RB RBother
+let_VB CAUSE
+k_NN NNother
+=_SYM
+1_CD
+,_,
+but_CC
+there_EX
+exists_VPRT EXIST
+a_DT
+:_:
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+=_SYM
+-_HYPH
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+._.
+Then_RB RBother
+RHS_NN NNP
+of_IN INother
+(_-LRB-
+3_CD
+)_-RRB-
+is_VPRT BEMA
+2_CD
+-_HYPH
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+-_HYPH
+1_CD
+)_-RRB-
+$_$
+^_SYM
+2_CD
+$_$
+,_,
+LHS_NN NNP
+is_VPRT
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
++1_CD
+)_-RRB-
+$_$
+^_SYM
+2_CD
+$_$
+or_CC
+-_HYPH
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
++1_CD
+)_-RRB-
+$_$
+^_SYM
+2_CD
+$_$
+._.
+Both_QUAN
+equality_NN NOMZ
+can_MDCA MDPOSSCAll
+have_VB
+at_IN INother
+most_EMPH
+finitely_RB RBother
+many_QUAN
+solutions_NN NNTECH
+._.
+Lemma_NN NNP
+3_CD
+now_TIME
+implies_VPRT EXIST
+a_DT
+=_SYM
+0_CD
+._.
+So_SO
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+for_IN INother
+all_QUAN
+x_NN NNother
+._.
+Now_TIME
+let_VB CAUSE
+k_NN NNother
+=_SYM
+-_HYPH
+1_CD
+,_,
+but_CC
+there_EX
+exists_VPRT EXIST
+a_DT
+:_:
+f_NN NNother
+(_-LRB-
+a_DT
+)_-RRB-
+=_SYM
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+._.
+Now_TIME
+RHS_NN NNP
+of_IN INother
+(_-LRB-
+3_CD
+)_-RRB-
+is_VPRT
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+-_HYPH
+1_CD
+)_-RRB-
+$_$
+^_SYM
+2_CD
+$_$
+-_HYPH
+2_CD
+,_,
+LHS_NN NNP
+is_VPRT
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+-_HYPH
+1_CD
+)_-RRB-
+$_$
+^_SYM
+2_CD
+$_$
+or_CC
+-_HYPH
+(_-LRB-
+a_DT
+$_$
+^_SYM
+2_CD
+$_$
+-_HYPH
+1_CD
+)_-RRB-
+$_$
+^_SYM
+2_CD
+$_$
+._.
+Here_PLACE
+the_DT
+first_JJAT JJATother
+case_NN NNCONC
+is_VPRT BEMA
+impossible_JJPR JJEPSTother
+._.
+In_IN INother
+the_DT
+second_JJAT JJATother
+case_NN NNCONC
+,_,
+there_EX
+are_VPRT
+finitely_RB RBother
+many_QUAN
+solutions_NN NNTECH
+._.
+So_EMPH
+again_FREQ
+a_DT
+=_SYM
+0_CD
+._.
+So_SO
+f_NN NNother
+(_-LRB-
+x_NN NNother
+)_-RRB-
+=_SYM
+-_HYPH
+x_SYM
+$_$
+^_SYM
+2_CD
+$_$
+for_IN INother
+all_QUAN
+x_NN NNother
+._.
+It_PIT
+is_VPRT BEMA
+easy_JJPR JJPRother
+to_IN ToSTNCAll ToJSTNCAll ToJEASE
+check_VB ACT
+that_THSC THSCother
+these_DEMO
+last_JJAT JJATother
+two_CD
+solutions_NN NNTECH
+are_VPRT
+indeed_RB RSTNCAll RFACT
+solutions_NN NNTECH
+._.
