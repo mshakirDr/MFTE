@@ -11,37 +11,44 @@ import inspect
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
-import stanza
-from stanza.pipeline.core import DownloadMethod
+from stanza.server import CoreNLPClient
 import multiprocessing
 
-def tag_stanford (dir_in: str, dir_out: str) -> None:
+def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
 
     Args:
+        dir_nlp (str): Stanfrod Core NLP path
         dir_in (str): dir with plain text files to be tagged
         dir_out (str): dir to write Stanford Tagger tagged files
     """
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    nlp = stanza.Pipeline('en', processors='tokenize, pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
     if len(files) > 0:
-        for file in files:
-            text = open(file=file, encoding='utf-8', errors='ignore').read()
-            file_name = os.path.basename(file)
-            print("Stanford Tagger tagging:", file)
-            doc = nlp(text)
-            s_list = list()
-            for sentence in doc.sentences:
-                words = []
-                for word in sentence.words:
-                    words.append(word.text + '_' + word.xpos)
-                s_words = " ".join(words)
-                s_list.append(s_words)
-            s = "\n".join(s_list)
-            with open(file=dir_out+file_name, encoding='utf-8', mode='w') as f:
-                f.write(s)
+        with CoreNLPClient(annotators=['tokenize,ssplit,pos'],
+                timeout=30000,
+                memory='6G',
+                classpath= dir_nlp +'*',
+                max_char_length=10000000,
+                logging_level = 'INFO',
+                verbose = 'False', 
+                be_quiet = 'True',) as client:
+            for file in files:
+                text = open(file=file, encoding='utf-8', errors="ignore").read()
+                file_name = os.path.basename(file)
+                print(file)
+                ann = client.annotate(text)
+                s_list = list()
+                for s in ann.sentence:
+                    words = []
+                    for token in s.token:
+                        words.append(token.word + '_' + token.pos)
+                    s_words = " ".join(words)
+                    s_list.append(s_words)
+                s = "\n".join(s_list)
+                with open(file=dir_out+file_name, encoding='utf-8', mode='w') as f:
+                    f.write(s)
     else:
         print("No files to tag.")
 
@@ -2065,12 +2072,12 @@ if __name__ == "__main__":
     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    #nlp_dir = r"/mnt/d/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
     ttr = 400
-    tag_stanford(input_dir, output_stanford)
+    tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_MD(output_stanford, output_MD, extended=True)
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
