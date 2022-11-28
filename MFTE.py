@@ -1063,24 +1063,24 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for j, value in enumerate(words):
 
         if (re.search("\\bI_P|\\bme_|\\bmy_|\\bmyself_|\\bmine_|\\bi_SYM|\\bi_FW", words[j], re.IGNORECASE)):
-            words[j] = re.sub("_\w+", "_FPP1S", words[j])
+            words[j] = re.sub("_\w+", "_PP1S", words[j])
 
 
         if ((re.search("\\bwe_|\\bour_|\\bourselves_|\\bours_|'s_PRP", words[j], re.IGNORECASE)) or
         (re.search("\\bus_P|\\bUs_P", words[j]))):
-            words[j] = re.sub("_\w+", "_FPP1P", words[j])
+            words[j] = re.sub("_\w+", "_PP1P", words[j])
 
         try:
             if (re.search("\\blet_", words[j], re.IGNORECASE) and re.search("'s_|\\bus_", words[j+1], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_VIMP", words[j])
-                words[j+1] = re.sub("_\w+", "_FPP1P", words[j+1])
+                words[j+1] = re.sub("_\w+", "_PP1P", words[j+1])
         except IndexError:
             continue
 
         try:    
             if (re.search("\\blet_", words[j], re.IGNORECASE) and re.search("\\bme_", words[j+1], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_VIMP", words[j])
-                words[j+1] = re.sub("_\w+", "_FPP1S", words[j+1])
+                words[j+1] = re.sub("_\w+", "_PP1S", words[j+1])
         except IndexError:
             continue
 
@@ -1229,18 +1229,18 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         # Tags second person pronouns - ADDED "THOU", "THY", "THEE", "THYSELF" ELF: added nominal possessive pronoun (yours), added ur, ye and y' (for y'all).
         if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_SPP2", words[index])
+            words[index] = re.sub("_\w+", "_PP2", words[index])
 
 
         # Tags third person pronouns 
         # ELF: added themself in singular (cf. https://www.lexico.com/grammar/themselves-or-themself), added nominal possessive pronoun forms (hers, theirs), also added em_PRP for 'em.
         # ELF: Subdivided Biber's category into non-interactant plural and non-plural.
         if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_TPP3P", words[index])
+            words[index] = re.sub("_\w+", "_PP3P", words[index])
 
         # Note that this variable cannot account for singular they except for the reflective form.
         if (re.search("\\bhe_|\\bshe_|\\bher_|\\bhers_|\\bhim_|\\bhis_|\\bhimself_|\\bherself_|\\bthemself_", words[index], re.IGNORECASE)):
-            words[index] = re.sub("_\w+", "_TPP3S", words[index])
+            words[index] = re.sub("_\w+", "_PP3S", words[index])
 
 
         # Tags "can" modals 
@@ -1875,12 +1875,12 @@ def process_sentence_extended (words: list) -> list:
         #     words[j] = re.sub("_(\w+)", "_\\1 JJEpstAtdOther", words[j])
 
         #Shakir: All 1st person pronouns to 1 tag
-        if (re.search("_(FPP1P|FPP1S)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 FPPAll", words[j])
+        if (re.search("_(PP1P|PP1S)\\b", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 PP1", words[j])
 
-        # #Shakir: Non past tense imperatives, present tense, future markers 
-        # if (re.search("(VPRT|VIMP|MDPREDAll|MDNE|MDPOSSCAll|VB)\\b", words[j])):
-        #     words[j] = re.sub("_(\w+)", "_\\1 VNONPAST", words[j])
+        #Shakir: All 3rd person pronouns to 1 tag
+        if (re.search("_(PP3P|PP3S)\\b", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 PP3", words[j])
 
     return words
 
@@ -2007,8 +2007,8 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: note THSCother and WHSCother are THSC and WHSC minus all new above TH and WH verb/adj clauses, "JJPRother" is JJPR without epistemic and attitudinal adjectives
     # Shakir: STNCAll variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCAll", "ToVSTNCother", "ThVSTNCAll", "ThVSTNCother", "ThJSTNCAll"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
-        "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "FPP1S", "FPP1P", "TPP3S", "TPP3P", "SPP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCAll", "ThVSTNCAll", "ThJSTNCAll", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "FPPAll", "VNONPAST", "WHSCother", "THSCother", "THRCother", "MDPOSSCAll", "MDPREDAll", "PASSAll", "WhVSTNCAll", "MDother", "PRPother"]
+        "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3S", "PP3P", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
+            "VLIKother", "ToVSTNCAll", "ThVSTNCAll", "ThJSTNCAll", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1", "PP3", "WHSCother", "THSCother", "THRCother", "MDPOSSCAll", "MDPREDAll", "PASSAll", "WhVSTNCAll", "MDother", "PRPother"]
     FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBTotal.values, axis=0) #divide by total verbs
     # All other features should be normalised per 100 words:
