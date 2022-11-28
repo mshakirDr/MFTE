@@ -78,8 +78,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    nlp = stanza.Pipeline('en', processors={'tokenize': 'default', 
-                                        'pos': "english-bidirectional-distsim-prod1.tagger"}, download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
+    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
     if len(files) > 0:
         for file in files:
             text = open(file=file, encoding='utf-8', errors="ignore").read()
