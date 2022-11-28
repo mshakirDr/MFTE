@@ -64,7 +64,7 @@ def stanza_pre_processing (text: str)-> str:
         text (str): Text after applying preprocessing (mainly regular expression find and replace)
     """
     #Split cannot to 2 words for better tagging with stanza
-    text = re.sub("\bcannot\b", "can not", re.IGNORECASE)
+    text = re.sub("\\bcannot\\b", "can not", text, re.IGNORECASE)
     return text
 
         
