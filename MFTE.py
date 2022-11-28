@@ -54,6 +54,20 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     else:
         print("No files to tag.")
 
+def stanza_pre_processing (text: str)-> str:
+    """Applies preprocessing on text string before tagging it with stanza
+
+    Args:
+        text (str): Text file read from the tag_stanford_stanza function As a string
+
+    Returns:
+        text (str): Text after applying preprocessing (mainly regular expression find and replace)
+    """
+    #Split cannot to 2 words for better tagging with stanza
+    text = re.sub("\bcannot\b", "can not", re.IGNORECASE)
+    return text
+
+        
 def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
 
@@ -71,6 +85,8 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
             text = open(file=file, encoding='utf-8', errors="ignore").read()
             file_name = os.path.basename(file)
             print("Stanza tagger tagging:", file)
+            #Apply preprocessing
+            text = stanza_pre_processing (text)
             doc = nlp(text)
             s_list = list()
             for sentence in doc.sentences:
