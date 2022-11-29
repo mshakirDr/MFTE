@@ -18,7 +18,6 @@ import multiprocessing
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with CoreNLPClient and writes to dir_out
-
     Args:
         dir_nlp (str): Stanfrod Core NLP path
         dir_in (str): dir with plain text files to be tagged
@@ -56,10 +55,8 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
 
 def stanza_pre_processing (text: str)-> str:
     """Applies preprocessing on text string before tagging it with stanza
-
     Args:
         text (str): Text file read from the tag_stanford_stanza function As a string
-
     Returns:
         text (str): Text after applying preprocessing (mainly regular expression find and replace)
     """
@@ -70,7 +67,6 @@ def stanza_pre_processing (text: str)-> str:
         
 def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
-
     Args:
         dir_in (str): dir with plain text files to be tagged
         dir_out (str): dir to write Stanford Tagger tagged files
@@ -78,15 +74,24 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
+    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
-        for file in files:
-            text = open(file=file, encoding='utf-8', errors="ignore").read()
+        print("Stanza tagger reading all files")
+        #batch processing of documents, 1st list of documents
+        documents = [open(file=file, encoding='utf-8', errors="ignore").read() for file in files]
+        print("Stanza tagger pre processing all files")
+        documents = [stanza_pre_processing(text) for text in documents] #Apply preprocessing
+        in_docs = [stanza.Document([], text=d) for d in documents] # Wrap each document with a stanza.Document object
+        print("Stanza tagger tagging all files")
+        out_docs = nlp(in_docs) # Call the neural pipeline on this list of documents
+        for index, doc in enumerate(out_docs):
+            #text = open(file=file, encoding='utf-8', errors="ignore").read()
+            file = files[index]
             file_name = os.path.basename(file)
-            print("Stanza tagger tagging:", file)
+            print("Stanza tagger processed:", file)
             #Apply preprocessing
-            text = stanza_pre_processing (text)
-            doc = nlp(text)
+            #text = stanza_pre_processing (text)
+            #doc = nlp(text)
             s_list = list()
             for sentence in doc.sentences:
                 words = []
@@ -103,11 +108,9 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
         
 def process_sentence (words: list, extended: bool = False) -> list:
     """Retunrs words list tagged
-
     Args:
         words (list): list of words with sentences separated with at least 20 spaces
         extended (bool, optional): extend to add NNP if True. Defaults to False.
-
     Returns:
         words (list): words list after tagging
     """
@@ -190,8 +193,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
         # # ELF: Tagging of emoji
-        if (demoji.findall(x)):
-            words[index] = re.sub("_\w+", "_EMO", words[index])
+        if (demoji.findall(words[index])):
+            words[index] = re.sub("_\S+", "_EMO", words[index])
 
 
         # ELF: Tagging of hashtags
@@ -373,24 +376,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     #--------------------------------------------------
 
-        # Tags predicative adjectives 
-        # ELF: added list of stative verbs other than BE. Also the last two if-statements to account for lists of adjectives separated by commas and Oxford commas before "and" at the end of a list. Removed the bit about not preceding an adverb.
-
-        # if ((re.search("\\b(" + be + ")|\\b(" + v_stative + ")_V", words[j-1], re.IGNORECASE) and re.search("_JJ|\\bok_|\\bokay_", words[j], re.IGNORECASE) and not re.search("_JJ|_NN", words[j+1])) or # I'm hungry
-        #	(re.search("\\b(" + be + ")|\\b(" + v_stative + ")_V", words[j-2], re.IGNORECASE) and re.search("_RB|\\bso_|_EMPH|_XX0", words[j-1], re.IGNORECASE) and re.search("_JJ|\\bok_|\\bokay_", words[j], re.IGNORECASE) and not re.search("_JJ|_NN", words[j+1])) or # I'm so|not hungry
-        #	(re.search("_JJ|ok_|okay_", words[j], re.IGNORECASE) and re.search("_\.", words[j+1])) or # Amazing! Oh nice.
-        #	(re.search("\\b(" + be + ")|\\b(" + v_stative + ")_V", words[j-3], re.IGNORECASE) and re.search("_XX0|_RB|_EMPH", words[j-1]) and re.search("_JJ", words[j]) and not re.search("_JJ|_NN", words[j+1]))) # I'm just not hungry
-        #	{
-        #   words[j] = re.sub("_\w+", "_JPRED", words[j])
-        #
-        #  if ((re.search("_JPRED", words[j-2]) and re.search("\\band_", words[j-1], re.IGNORECASE) and re.search("_JJ", words[j])) or
-        # 	(re.search("_JPRED", words[j-2]) and re.search(",_,", words[j-1]) and re.search("_JJ", words[j])) or
-        #	(re.search("_JPRED", words[j-3]) and re.search(",_,", words[j-2]) and re.search("\\band_", words[j-1]) and re.search("_JJ", words[j]))):
-        #   words[j] = re.sub("_\w+", "_JPRED", words[j])
-        #
-
-        #--------------------------------------------------
-
         # Tags attribute adjectives (JJAT) (see additional loop further down the line for additional JJAT cases that rely on these JJAT tags)
         try:
             if ((re.search("_JJ", words[j]) and re.search("_JJ|_NN|_CD", words[j+1])) or
@@ -488,10 +473,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
         #---------------------------------------------------
 
         # Tags conditional conjunctions
-        # ELF: added "lest" on DS's suggestion. Added "whether" on PU's suggestion. Added "even when" in MFTE python.
+        # ELF: added "lest" on DS's suggestion. Added "whether" on PU's suggestion.
 
-        if ((re.search("\\bif_|\\bunless_|\\blest_|\\botherwise_|\\bwhether_", words[j], re.IGNORECASE) or
-        (re.search("\\beven_", words[j], re.IGNORECASE) and re.search("\\bwhen_", words[j+1], re.IGNORECASE)))):
+        if (re.search("\\bif_|\\bunless_|\\blest_|\\botherwise_|\\bwhether_", words[j], re.IGNORECASE)):
             words[j] = re.sub("_\w+", "_COND", words[j])
 
         try:
@@ -512,7 +496,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if ((re.search("\\bmost_DT", words[j], re.IGNORECASE)) or
             (re.search("\\breal__|\\bdead_|\\bdamn_", words[j], re.IGNORECASE) and re.search("_J", words[j+1])) or
             (re.search("\\bat_|\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j])) or
-            (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_"), words[j+1], re.IGNORECASE)) or
+            (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bfar_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_EMPH", words[j])
@@ -1085,9 +1069,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
         except IndexError:
             continue
 
-
-
-
     #---------------------------------------------------
 
     for j, value in enumerate(words):
@@ -1175,49 +1156,35 @@ def process_sentence (words: list, extended: bool = False) -> list:
         if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bmore_RB|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_AMP", words[index])
 
-
         # Tags downtoners
         # ELF: Added "less" as an adverb (note that "less" as an adjective is tagged as a quantifier further up)
         # ELF: Removed "only" because it fulfils too many different functions.
         if (re.search("\\balmost_|\\bbarely_|\\bhardly_|\\bless_JJ|\\bmerely_|\\bmildly_|\\bnearly_|\\bpartially_|\\bpartly_|\\bpractically_|\\bscarcely_|\\bslightly_|\\bsomewhat_", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_DWNT", words[index])
 
-
         # Corrects EMO tags
         # ELF: Correction of emoticon issues to do with the Stanford tags for brackets including hyphens
         if (re.search("_EMO(.)*-", words[index], re.IGNORECASE)):
             words[index] = re.sub("_EMO(.)*-", "_EMO", words[index])
-
-
 
         # Tags quantifier pronouns 
         # ELF: Added any, removed nowhere (which is now place). "no one" is also tagged for at an earlier stage to avoid collisions with the XX0 variable.
         if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bsomewhere|\\bnoone_|\\bno-one_", words[index], re.IGNORECASE)):      
             words[index] = re.sub("_\w+", "_QUPR", words[index])
 
-
-        # Tags nominalisations à la Biber (1988)
-        # ELF: Not in use in this version of the MFTE due to frequent words skewing results, e.g.: activity, document, element...
-        #if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", words[index], re.IGNORECASE)):
-            # words[index] = re.sub("_\w+", "_NOMZ", words[index])
-        #
-
         # Tags gerunds 
         # ELF: Not currently in use because of doubts about the usefulness of this category (cf. Herbst 2016 in Applied Construction Grammar) + high rate of false positives with Biber's/Nini's operationalisation of the variable.
         #if ((re.search("ing_NN", words[index], re.IGNORECASE) and re.search("\w{10,}", words[index])) or
         # (re.search("ings_NN", words[index], re.IGNORECASE) and re.search("\w{11,}", words[index]))):
             #words[index] = re.sub("_\w+", "_GER", words[index])
-        #
 
         # ELF added: pools together all proper nouns (singular and plural). Not currently in use since no distinction is made between common and proper nouns.
         #if (re.search("_NNPS", words[index])):
             # words[index] = re.sub("_\w+", "_NNP", words[index])
-        #
 
         # Tags predicative adjectives (JJPR) by joining all kinds of JJ (but not JJAT, see earlier loop)
         if (re.search("_JJS|_JJR|_JJ\\b", words[index])):
             words[index] = re.sub("_\w+", "_JJPR", words[index])
-
 
         # Tags total adverbs by joining all kinds of RB (but not those already tagged as HDG, FREQ, AMP, DWNTN, EMPH, ELAB, EXTD, TIME, PLACE...).
         if (re.search("_RBS|_RBR|_WRB", words[index])):
@@ -1228,8 +1195,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             words[index] = re.sub("_\w+", "_VPRT", words[index])
 
 
-        # Tags second person pronouns - ADDED "THOU", "THY", "THEE", "THYSELF" ELF: added nominal possessive pronoun (yours), added ur, ye and y' (for y'all).
-        if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP|\\bu_PRP", words[index], re.IGNORECASE)):
+        # Tags second person pronouns - ADDED "THOU", "THY", "THEE", "THYSELF" ELF: added nominal possessive pronoun (yours), added u, ur, ye and y' (for y'all).
+        if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bu_PRP|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_PP2", words[index])
 
 
@@ -1269,13 +1236,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         # Tags will/shall modals. 
         # ELF: New variable replacing Biber's PRMD.
-        if (re.search("\\bwill_MD|\\b\W+ll_MD|\\bshall_|\\bsha_|\\bwo_MD|\\bll_MD", words[index], re.IGNORECASE)):
+        if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\W+ll_MD", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_MDWS", words[index])
 
 
         # Tags would as a modal. 
         # ELF: New variable replacing PRMD.
-        if (re.search("\\bwould_|'d_MD|\\bd_MD|\\b\Wd_MD", words[index], re.IGNORECASE)):
+        if (re.search("\\bwould_|'d_MD|\\bwo_MD|\\bd_MD|\W+d_MD", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_MDWO", words[index])
 
         #----------------------------------------
@@ -1291,7 +1258,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             words[index] = re.sub("_(\w+)", "_FPUH", words[index])
 
 
-        # ELF: added variable: tags adverbs of frequency (list from COBUILD p. 270). Removed "mainly" from list.
+        # ELF: added variable: tags adverbs of frequency (list from COBUILD p. 270 but removed "mainly").
         if (re.search("\\busually_|\\balways_|\\boften_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\boftens_|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically", words[index], re.IGNORECASE)):
             words[index] = re.sub("_(\w+)", "_FREQ", words[index])
 
@@ -1342,10 +1309,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
 def process_sentence_extended (words: list) -> list:
     """Returns words list tagged with Biber's (2006) additional semantic categories
-
     Args:
         words (list): list of tagged words
-
     Returns:
         words (list): list of tagged words with tags applied
     """
@@ -1887,7 +1852,6 @@ def process_sentence_extended (words: list) -> list:
 
 def run_process_sentence(file: str, extended: bool = True) -> list:
     """Returns list of words after running process_sentence on it
-
     Args:
         file (str): text file path that is to be opened
         extended (bool): If extended semantic categories should be tagged
@@ -1910,7 +1874,6 @@ def run_process_sentence(file: str, extended: bool = True) -> list:
 
 def process_file (file_dir_pair: tuple, extended: bool = True) -> None:
     """Read a given file, tag it through process_sentence and write it
-
     Args:
         file_dir_pair (tuple): first element is the file, second element output_dir
         extended (bool): If extended semantic categories should be tagged
@@ -1925,7 +1888,6 @@ def process_file (file_dir_pair: tuple, extended: bool = True) -> None:
 
 def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> None:
     """Tags Stanford Tagger output files and writes in a directory names MD
-
     Args:
         input_dir (str): dir with Stanford Tagger tagged files
         output_dir (str): dir to write MD tagged files
@@ -1942,7 +1904,6 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
 
 def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
     """Tags Stanford Tagger output files and writes in a directory names MD
-
     Args:
         input_dir (str): dir with Stanford Tagger tagged files
         output_dir (str): dir to write MD tagged files
@@ -1961,11 +1922,9 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
 
 def get_ttr(tokens: list, n: int) -> float:
     """Retuns type token ration based on the first n words as specified in user input number of tokens n
-
     Args:
         tokens (list): list of tokens to count ttr
         n (int): number of tokens to consider
-
     Returns:
         tt_ratio (float): type token ration
     """
@@ -1983,10 +1942,8 @@ def get_ttr(tokens: list, n: int) -> float:
 
 def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     """Returns raw counts df after normalizing per 100 nouns and verbs, and other words
-
     Args:
         df (pd.DataFrame): df of raw counts
-
     Returns:
         pd.DataFrame: new df with normed ounts
     """
@@ -2020,10 +1977,8 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
 
 def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     """Returns raw counts df after normalizing per 100 words
-
     Args:
         df (pd.DataFrame): df of raw counts
-
     Returns:
         pd.DataFrame: new df with normed ounts
     """
@@ -2036,7 +1991,6 @@ def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
 
 def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     """Read files and count tags added by process_sentence
-
     Args:
         input_dir (str): dir where MD tagged files are
         output_dir (str): dir where statistics files to be created
@@ -2103,7 +2057,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/Elanguage/"
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
@@ -2118,10 +2072,9 @@ if __name__ == "__main__":
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
 
-
 # if __name__ == "__main__":
 #     #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     input_dir = r"D:\Downloads\Elanguage\\" 
 #     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
 #     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
 #     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
@@ -2134,4 +2087,3 @@ if __name__ == "__main__":
 #     tag_MD(output_stanford, output_MD, extended=True)
 #     #tag_MD_parallel(output_stanford, output_MD, extended=True)
 #     do_counts(output_MD, output_stats, ttr)
-#   
