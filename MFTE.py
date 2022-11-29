@@ -488,9 +488,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
         #---------------------------------------------------
 
         # Tags conditional conjunctions
-        # ELF: added "lest" on DS's suggestion. Added "whether" on PU's suggestion.
+        # ELF: added "lest" on DS's suggestion. Added "whether" on PU's suggestion. Added "even when" in MFTE python.
 
-        if (re.search("\\bif_|\\bunless_|\\blest_|\\botherwise_|\\bwhether_", words[j], re.IGNORECASE)):
+        if ((re.search("\\bif_|\\bunless_|\\blest_|\\botherwise_|\\bwhether_", words[j], re.IGNORECASE) or
+        (re.search("\\beven_", words[j], re.IGNORECASE) and re.search("\\bwhen_", words[j+1], re.IGNORECASE)))):
             words[j] = re.sub("_\w+", "_COND", words[j])
 
         try:
@@ -511,7 +512,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if ((re.search("\\bmost_DT", words[j], re.IGNORECASE)) or
             (re.search("\\breal__|\\bdead_|\\bdamn_", words[j], re.IGNORECASE) and re.search("_J", words[j+1])) or
             (re.search("\\bat_|\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j])) or
-            (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE)) or
+            (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_"), words[j+1], re.IGNORECASE)) or
             (re.search("\\bfar_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_EMPH", words[j])
@@ -1058,7 +1059,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     # Tags first person pronouns ELF: Added exclusion of occurrences of US (all caps) which usually refer to the United States.
     # ELF: Added 's_PRP to account for abbreviated "us" in "let's" Also added: mine, ours.
-    # ELF: Subdivided Biber's FPP1 into singular (interactant = speaker) and plural (interactant = speaker and others).
+    # ELF: Subdivided Biber's FPP1 into singular and plural.
 
     for j, value in enumerate(words):
 
@@ -1228,7 +1229,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
 
         # Tags second person pronouns - ADDED "THOU", "THY", "THEE", "THYSELF" ELF: added nominal possessive pronoun (yours), added ur, ye and y' (for y'all).
-        if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP", words[index], re.IGNORECASE)):
+        if (re.search("\\byou_|\\byour_|\\byourself_|\\byourselves_|\\bthy_|\\bthee_|\\bthyself_|\\bthou_|\\byours_|\\bur_|\\bye_PRP|\\by'_|\\bthine_|\\bya_PRP|\\bu_PRP", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_PP2", words[index])
 
 
@@ -1245,7 +1246,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         # Tags "can" modals 
         # ELF: added _MD onto all of these. And ca_MD which was missing for can't.
-        if (re.search("\\bcan_MD|\\bca_MD", words[index], re.IGNORECASE)):
+        if (re.search("\\bcan_MD|\\bca_MD|\\bcannot_", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_MDCA", words[index])
 
 
@@ -1268,13 +1269,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         # Tags will/shall modals. 
         # ELF: New variable replacing Biber's PRMD.
-        if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\\bwo_MD", words[index], re.IGNORECASE)):
+        if (re.search("\\bwill_MD|\\b\W+ll_MD|\\bshall_|\\bsha_|\\bwo_MD|\\bll_MD", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_MDWS", words[index])
 
 
         # Tags would as a modal. 
         # ELF: New variable replacing PRMD.
-        if (re.search("\\bwould_|'d_MD", words[index], re.IGNORECASE)):
+        if (re.search("\\bwould_|'d_MD|\\bd_MD|\\b\Wd_MD", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_MDWO", words[index])
 
         #----------------------------------------
@@ -1290,8 +1291,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             words[index] = re.sub("_(\w+)", "_FPUH", words[index])
 
 
-        # ELF: added variable: tags adverbs of frequency (list from COBUILD p. 270).
-        if (re.search("\\busually_|\\balways_|\\bmainly_|\\boften_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\boftens_|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically", words[index], re.IGNORECASE)):
+        # ELF: added variable: tags adverbs of frequency (list from COBUILD p. 270). Removed "mainly" from list.
+        if (re.search("\\busually_|\\balways_|\\boften_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\boftens_|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically", words[index], re.IGNORECASE)):
             words[index] = re.sub("_(\w+)", "_FREQ", words[index])
 
 
@@ -2101,34 +2102,36 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
-#     output_stanford = "MFTE_output/MFTE_Tagged/"
-#     output_MD = "MFTE_output/MD/"
-#     output_stats = "MFTE_output/Statistics/"
-#     ttr = 400
-#     tag_stanford(nlp_dir, input_dir, output_stanford)
-#     tag_MD(output_stanford, output_MD, extended=False)
-#     do_counts(output_MD, output_stats, ttr)
-
-
 if __name__ == "__main__":
-    #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/Elanguage/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
+    output_stanford = "MFTE_output/Stanford_Tagged/"
+    output_MD = "MFTE_output/MFTE_Tagged/"
+    output_stats = "MFTE_output/Statistics/"
     ttr = 400
     #tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_stanford_stanza(input_dir, output_stanford)
     tag_MD(output_stanford, output_MD, extended=True)
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
-  
+
+
+# if __name__ == "__main__":
+#     #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
+#     ttr = 400
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     tag_stanford_stanza(input_dir, output_stanford)
+#     tag_MD(output_stanford, output_MD, extended=True)
+#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     do_counts(output_MD, output_stats, ttr)
+#   
