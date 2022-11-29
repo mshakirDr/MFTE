@@ -80,13 +80,22 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     files = glob.glob(dir_in+"*.txt")
     nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
-        for file in files:
-            text = open(file=file, encoding='utf-8', errors="ignore").read()
+        print("Stanza tagger reading all files")
+        #batch processing of documents, 1st list of documents
+        documents = [open(file=file, encoding='utf-8', errors="ignore").read() for file in files]
+        print("Stanza tagger pre processing all files")
+        documents = [stanza_pre_processing(text) for text in documents] #Apply preprocessing
+        in_docs = [stanza.Document([], text=d) for d in documents] # Wrap each document with a stanza.Document object
+        print("Stanza tagger tagging all files")
+        out_docs = nlp(in_docs) # Call the neural pipeline on this list of documents
+        for index, doc in enumerate(out_docs):
+            #text = open(file=file, encoding='utf-8', errors="ignore").read()
+            file = files[index]
             file_name = os.path.basename(file)
-            print("Stanza tagger tagging:", file)
+            print("Stanza tagger processed:", file)
             #Apply preprocessing
-            text = stanza_pre_processing (text)
-            doc = nlp(text)
+            #text = stanza_pre_processing (text)
+            #doc = nlp(text)
             s_list = list()
             for sentence in doc.sentences:
                 words = []
