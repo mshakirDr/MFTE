@@ -199,8 +199,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
         # # ELF: Tagging of emoji
-        if (demoji.findall(x)):
-            words[index] = re.sub("_\w+", "_EMO", words[index])
+        if (demoji.findall(words[index])):
+            words[index] = re.sub("_\S+", "_EMO", words[index])
 
 
         # ELF: Tagging of hashtags
