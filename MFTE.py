@@ -171,10 +171,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
         if (re.search("WP\\$", words[index])): 
             words[index] = re.sub("WP.", "WPS", words[index]) 
 
-        # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers and foreign words by the Stanford Tagger.
+        # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers, prepositions and foreign words by the Stanford Tagger.
         # These are instead re-tagged as symbols so they don't count as tokens for the TTR and per-word normalisation basis.
         # Removal of all LS (list symbol) tags except those that denote numbers
-        if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS", words[index])): 
+        if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_", words[index])): 
             words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
 
@@ -222,7 +222,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         # BASIC TAG NEEDED FOR MORE COMPLEX TAGS
         # Negation
-        if (re.search("\\bnot_|\\bn't_", words[index], re.IGNORECASE)):
+        if (re.search("\\bnot_|\\bn't_|\\bnt_RB", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_XX0", words[index])
 
     # SLIGHTLY MORE COMPLEX CORRECTIONS OF STANFORD TAGGER OUTPUT
@@ -425,14 +425,14 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         # Tags coordinating conjunctions (CC)
         # ELF: This is a new variable.
-        # ELF: added as well as, as well, in fact, accordingly, thereby, also, by contrast, besides, further_RB, in comparison, instead (not followed by "of").
+        # ELF: added as well (as), as well, in fact, accordingly, thereby, also, by contrast, besides, further_RB, in comparison, instead (not followed by "of").
         try:
             if ((re.search("\\bwhile_IN|\\bwhile_RB|\\bwhilst_|\\bwhereupon_|\\bwhereas_|\\bwhereby_|\\bthereby_|\\balso_|\\bbesides_|\\bfurther_RB|\\binstead_|\\bmoreover_|\\bfurthermore_|\\badditionally_|\\bhowever_|\\binstead_|\\bibid\._|\\bibid_|\\bconversly_", words[j], re.IGNORECASE)) or 
             (re.search("\\binasmuch__|\\bforasmuch_|\\binsofar_|\\binsomuch", words[j], re.IGNORECASE) and re.search("\\bas_", words[j+1], re.IGNORECASE)) or
             (re.search("_\W", words[j-1], re.IGNORECASE) and re.search("\\bhowever_", words[j], re.IGNORECASE)) or
             (re.search("_\W", words[j+1], re.IGNORECASE) and re.search("\\bhowever_", words[j], re.IGNORECASE)) or
             (re.search("\\bor_", words[j-1], re.IGNORECASE) and re.search("\\brather_", words[j], re.IGNORECASE)) or
-            (not re.search("\\bleast_", words[j-1], re.IGNORECASE) and re.search("\\bas_", words[j], re.IGNORECASE) and re.search("\\bwell_", words[j+1], re.IGNORECASE)) or # Excludes "as least as well" but includes "as well as"
+            (not re.search("\\bleast_", words[j-1], re.IGNORECASE) and re.search("\\bas_", words[j], re.IGNORECASE) and re.search("\\bwell_", words[j+1], re.IGNORECASE)) or # Excludes "at least as well" but includes "as well as"
             (re.search("_\W", words[j-1]) and re.search("\\belse_|\\baltogether_|\\brather_", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_CC", words[j])
         except IndexError:
@@ -572,18 +572,18 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
         
         try:
-            if ((not re.search("\\b(" + whw + ")", words[j-4]) and not re.search("\\b(" + whw + ")", words[j-3]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-2], re.IGNORECASE) and re.search("_P|_NN|_DT", words[j-1]) and re.search("\\?_\\.$", words[j])) or  # Are they there? It is him?
-            (not re.search("\\b(" + whw + ")", words[j-5]) and not re.search("\\b(" + whw + ")", words[j-4]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-3], re.IGNORECASE) and re.search("_P|_NN|_XX0", words[j-2]) and re.search("\\?_\\.$", words[j])) or # Can you tell him?
-            (not re.search("\\b(" + whw + ")", words[j-6]) and not re.search("\\b(" + whw + ")", words[j-5]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-4], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-3]) and re.search("\\?_\\.$", words[j])) or # Did her boss know that?
-            (not re.search("\\b(" + whw + ")", words[j-7]) and not re.search("\\b(" + whw + ")", words[j-6]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-5], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-4]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-8]) and not re.search("\\b(" + whw + ")", words[j-7]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-6], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-5]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-9]) and not re.search("\\b(" + whw + ")", words[j-8]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-7], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-6]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-10]) and not re.search("\\b(" + whw + ")", words[j-9]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-8], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-7]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-11]) and not re.search("\\b(" + whw + ")", words[j-10]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-9], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-8]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-12]) and not re.search("\\b(" + whw + ")", words[j-11]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-10], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-9]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-13]) and not re.search("\\b(" + whw + ")", words[j-12]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-11], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-10]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-14]) and not re.search("\\b(" + whw + ")", words[j-13]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-12], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-11]) and re.search("\\?_\\.$", words[j])) or
-            (not re.search("\\b(" + whw + ")", words[j-15]) and not re.search("\\b(" + whw + ")", words[j-14]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-13], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0", words[j-12]) and re.search("\\?_\\.$", words[j]))):
+            if ((not re.search("\\b(" + whw + ")", words[j-4]) and not re.search("\\b(" + whw + ")", words[j-3]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-2], re.IGNORECASE) and re.search("_P|_NN|_DT|_CD", words[j-1]) and re.search("\\?_\\.$", words[j])) or  # Are they there? It is him?
+            (not re.search("\\b(" + whw + ")", words[j-5]) and not re.search("\\b(" + whw + ")", words[j-4]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-3], re.IGNORECASE) and re.search("_P|_NN|_DT|_CD|_XX0", words[j-2]) and re.search("\\?_\\.$", words[j])) or # Can you tell him?
+            (not re.search("\\b(" + whw + ")", words[j-6]) and not re.search("\\b(" + whw + ")", words[j-5]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-4], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-3]) and re.search("\\?_\\.$", words[j])) or # Did her boss know that?
+            (not re.search("\\b(" + whw + ")", words[j-7]) and not re.search("\\b(" + whw + ")", words[j-6]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-5], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-4]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-8]) and not re.search("\\b(" + whw + ")", words[j-7]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-6], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-5]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-9]) and not re.search("\\b(" + whw + ")", words[j-8]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-7], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-6]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-10]) and not re.search("\\b(" + whw + ")", words[j-9]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-8], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-7]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-11]) and not re.search("\\b(" + whw + ")", words[j-10]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-9], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-8]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-12]) and not re.search("\\b(" + whw + ")", words[j-11]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-10], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-9]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-13]) and not re.search("\\b(" + whw + ")", words[j-12]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-11], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-10]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-14]) and not re.search("\\b(" + whw + ")", words[j-13]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-12], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-11]) and re.search("\\?_\\.$", words[j])) or
+            (not re.search("\\b(" + whw + ")", words[j-15]) and not re.search("\\b(" + whw + ")", words[j-14]) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-13], re.IGNORECASE) and re.search("_P|_NN|_DT|_XX0|_CD", words[j-12]) and re.search("\\?_\\.$", words[j]))):
                 words[j] = re.sub("_(\W+)", "_\\1 YNQU", words[j])
         except IndexError:
             continue
@@ -690,13 +690,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
         try:
             # Tags imperatives (in a rather crude way). 
             # ELF: This is a new variable.
-            if ((re.search("_\W|_EMO|_FW|_SYM", words[j-1]) and not re.search("_:|_'|-RRB-", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
+            if ((re.search("_\W|_EMO|_FW|_SYM", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             #(re.search("_\W|_EMO|_FW|_SYM", words[j-2])  and not re.search("_,", words[j-2]) and not re.search("_MD", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|\\b_NNP", words[j+1], re.IGNORECASE)) or # Allows for one intervening token between end of previous sentence and imperative verb, e.g., "Just do it!". This line is not recommended for the Spoken BNC2014 and any texts with not particularly good punctuation.
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-2]) and not re.search("_:|_,|_'|-RRB-", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search("_:|_,|_''|-RRB-", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
-            (re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search("_:|_,|_'", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.      
-            (re.search("\\bwork_", words[j], re.IGNORECASE) and re.search("\\bin_", words[j+1], re.IGNORECASE) and re.search("\\bpairs_", words[j+2], re.IGNORECASE))): # Work in pairs because it occurs 700+ times in the Textbook English Corpus (TEC) and "work" is always incorrectly tagged as a noun there.
+            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-2]) and not re.search(":_|'_|,_|-RRB-", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
+            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
+            #(re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
+            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.      
+            #(re.search("\\bwork_", words[j], re.IGNORECASE) and re.search("\\bin_", words[j+1], re.IGNORECASE) and re.search("\\bpairs_", words[j+2], re.IGNORECASE))): # Work in pairs because it occurs 700+ times in the Textbook English Corpus (TEC) and "work" is always incorrectly tagged as a noun there.
                 words[j] = re.sub("_\w+", "_VIMP", words[j]) 
         except IndexError:
             continue
