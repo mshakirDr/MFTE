@@ -78,7 +78,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
+    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
         for file in files:
             text = open(file=file, encoding='utf-8', errors="ignore").read()
@@ -2118,7 +2118,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
 
 if __name__ == "__main__":
     #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    input_dir = r"D:\Downloads\Elanguage\\" 
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
