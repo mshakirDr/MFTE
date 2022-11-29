@@ -78,24 +78,15 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
     if len(files) > 0:
-        print("Stanza tagger reading all files")
-        #batch processing of documents, 1st list of documents
-        documents = [open(file=file, encoding='utf-8', errors="ignore").read() for file in files]
-        print("Stanza tagger pre processing all files")
-        documents = [stanza_pre_processing(text) for text in documents] #Apply preprocessing
-        in_docs = [stanza.Document([], text=d) for d in documents] # Wrap each document with a stanza.Document object
-        print("Stanza tagger tagging all files")
-        out_docs = nlp(in_docs) # Call the neural pipeline on this list of documents
-        for index, doc in enumerate(out_docs):
-            #text = open(file=file, encoding='utf-8', errors="ignore").read()
-            file = files[index]
+        for file in files:
+            text = open(file=file, encoding='utf-8', errors="ignore").read()
             file_name = os.path.basename(file)
-            print("Stanza tagger processed:", file)
+            print("Stanza tagger tagging:", file)
             #Apply preprocessing
-            #text = stanza_pre_processing (text)
-            #doc = nlp(text)
+            text = stanza_pre_processing (text)
+            doc = nlp(text)
             s_list = list()
             for sentence in doc.sentences:
                 words = []
@@ -199,8 +190,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
         # # ELF: Tagging of emoji
-        if (demoji.findall(words[index])):
-            words[index] = re.sub("_\S+", "_EMO", words[index])
+        if (demoji.findall(x)):
+            words[index] = re.sub("_\w+", "_EMO", words[index])
 
 
         # ELF: Tagging of hashtags
@@ -2111,37 +2102,22 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
-#     output_stanford = "MFTE_output/MFTE_Tagged/"
-#     output_MD = "MFTE_output/MD/"
-#     output_stats = "MFTE_output/Statistics/"
-#     ttr = 400
-#     tag_stanford(nlp_dir, input_dir, output_stanford)
-#     tag_MD(output_stanford, output_MD, extended=False)
-#     do_counts(output_MD, output_stats, ttr)
-
-
 if __name__ == "__main__":
-    #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    input_dir = r"D:\Downloads\Elanguage\\" 
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/Elanguage/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
+    output_stanford = "MFTE_output/Stanford_Tagged/"
+    output_MD = "MFTE_output/MFTE_Tagged/"
+    output_stats = "MFTE_output/Statistics/"
     ttr = 400
     #tag_stanford(nlp_dir, input_dir, output_stanford)
     tag_stanford_stanza(input_dir, output_stanford)
     tag_MD(output_stanford, output_MD, extended=True)
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
-  
+
 
 # if __name__ == "__main__":
 #     #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
