@@ -695,7 +695,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-2]) and not re.search(":_|'_|,_|-RRB-", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
             (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
             #(re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.      
+            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
             #(re.search("\\bwork_", words[j], re.IGNORECASE) and re.search("\\bin_", words[j+1], re.IGNORECASE) and re.search("\\bpairs_", words[j+2], re.IGNORECASE))): # Work in pairs because it occurs 700+ times in the Textbook English Corpus (TEC) and "work" is always incorrectly tagged as a noun there.
                 words[j] = re.sub("_\w+", "_VIMP", words[j]) 
         except IndexError:
@@ -2057,38 +2057,16 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     #output_stanford = os.path.dirname(input_dir.strip("/")) + "/" + os.path.basename(input_dir.strip("/")) + "_MFTE_tagged/"
-#     output_stanford = "MFTE_output/Stanford_Tagged/"
-#     output_MD = "MFTE_output/MFTE_Tagged/"
-#     output_stats = "MFTE_output/Statistics/"
-#     ttr = 400
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
-    # t_0 = timeit.default_timer()
-    # tag_stanford_stanza(input_dir, output_stanford)
-    # t_1 = timeit.default_timer()
-    # elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    # print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-#     tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
-#     do_counts(output_MD, output_stats, ttr)
-
 if __name__ == "__main__":
-    #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    input_dir = r"D:\Downloads\Elanguage\\" 
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
     ttr = 400
     #tag_stanford(nlp_dir, input_dir, output_stanford)
-    # record start time
     t_0 = timeit.default_timer()
     tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
@@ -2097,3 +2075,24 @@ if __name__ == "__main__":
     tag_MD(output_stanford, output_MD, extended=True)
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
+
+# if __name__ == "__main__":
+#     #input_dir = r"/mnt/d/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     input_dir = r"D:\Downloads\Elanguage\\" 
+#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
+#     ttr = 400
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     # record start time
+#     t_0 = timeit.default_timer()
+#     tag_stanford_stanza(input_dir, output_stanford)
+#     t_1 = timeit.default_timer()
+#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+#     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+#     tag_MD(output_stanford, output_MD, extended=True)
+#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     do_counts(output_MD, output_stats, ttr)
