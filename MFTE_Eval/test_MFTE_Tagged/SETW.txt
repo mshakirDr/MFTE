@@ -1,0 +1,1399 @@
+oh_FPUH
+always_FREQ
+put_VB ACT
+it_PIT
+on_RP
+._.
+ha_FPUH
+ha_FPUH
+well_DMA
+I_PP1S PP1
+I_PP1S PP1
+figured_VBD
+it_PIT
+might_MDMM MDPOSSCAll SPLIT
+only_RB RBother
+be_VB BEMA
+another_DT
+minute_NN NNQUANT
+or_CC
+so_SO
+er_FPUH
+I_PP1S PP1
+would_MDWO MDPREDAll
+n't_XX0 CONT
+bother_VB MENTAL
+._.
+well_DMA
+it_PIT
+'s_VPRT CONT BEMA
+another_DT
+five_CD
+minutes_NN NNQUANT
+._.
+because_CUZ
+I_PP1S PP1
+Because_CUZ
+I_PP1S PP1
+have_VPRT
+gotta_HGOT
+fill_VB
+out_RP
+a_DT
+form_NN NNother
+and_CC
+stuff_NN NNother
+which_WHSC WHSCother
+well_DMA
+is_VPRT BEMA
+pointless_JJPR JJPRother
+if_COND
+it_PIT
+'s_VPRT CONT BEMA
+just_RB EMPH
+a_DT
+minute_NN NNQUANT
+._.
+oh_FPUH
+right_RB RBother
+okay_FPUH
+._.
+and_CC
+there_EX
+is_VPRT
+a_DT
+relatively_RB RBother
+mm_FPUH
+well_DMA
+you_PP2
+know_VPRT MENTAL
+there_EX
+is_VPRT
+a_DT
+it's_PP1P PP1
+not_XX0
+an_DT
+insignificant_JJAT JJATother
+amount_NN NNQUANT
+of_IN INother
+admin_NN NNother
+for_IN INother
+each_QUAN
+recording_NN NNother
+so_EMPH
+ah._RB RBother
+right_RB RBother
+._.
+yeah_DMA
+I_PP1S PP1
+'ll_MDWS MDPREDAll CONT
+um_FPUH
+._.
+subject_NN NNABSPROC
+waiting_VBG ACT
+in_IN INother
+petrol_NN NNother
+station_NN NCOMP
+forecourt_NN NNother
+._.
+Yeah_DMA
+location_NN NNPLACE
+ah_FPUH
+but_CC
+um_FPUH
+if_COND
+I_PP1S PP1
+ring_VPRT
+the_DT
+council_NN NNother
+about_IN INother
+the_DT
+address_NN NNABSPROC
+today_TIME
+if_COND
+I_PP1S PP1
+can_MDCA MDPOSSCAll
+if_COND
+not_XX0
+I_PP1S PP1
+'ll_MDWS MDPREDAll CONT
+ring_VB
+them_PP3P PP3
+on_IN INother
+Monday_NN NNP
+should_MDNE
+I_PP1S PP1
+mention_VB COMM
+should_MDNE
+I_PP1S PP1
+say_VB COMM
+could_MDCO MDPOSSCAll
+you_PP2
+also_CC
+put_VB ACT
+me_PP1S PP1
+through_RP
+to_IN INother
+the_DT
+environment_NN NNPLACE
+department_NN NCOMP
+?_. YNQU
+yeah_DMA
+that_DEMO
+would_MDWO MDPREDAll
+do_VB DOAUX
+._.
+I_PP1S PP1
+'d_MDWO MDPREDAll CONT
+like_VB MENTAL
+to_IN ToSTNCAll ToVSTNCAll ToVDSR
+talk_VB COMM
+about_HDG
+some_QUAN
+fly_NN NNother
+-_HYPH
+tipping_VBG
+huh_FPUH
+ha_FPUH
+._.
+yeah_DMA
+that_DEMO
+would_MDWO MDPREDAll
+be_VB BEMA
+worth_JJPR JJPRother
+it_PIT
+because_CUZ
+ultimately_RB RBother
+it_PIT
+'s_VPRT CONT BEMA
+the_DT
+council_NN NNother
+'s_POS
+responsibility_NN NNCOG
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+sort_VB
+it_PIT
+out_RP
+._.
+yeah_DMA
+like_FPUH
+er_FPUH
+er_FPUH
+obviously_RB RSTNCAll RFACT
+it_PIT
+'s_VPRT CONT BEMA
+it_PIT
+'s_VPRT CONT
+er_FPUH
+would_MDWO MDPREDAll
+n't_XX0 CONT
+be_VB BEMA
+his_PP3S PP3
+responsibility_NN NNCOG
+to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+put_VB ACT
+that_DEMO
+bollard_NN NNother
+in_RB RBother
+but_CC
+._.
+well_DMA
+no_DMA
+you_PP2
+could_MDCO MDPOSSCAll
+say_VB COMM
+first_JJAT JJATother
+thing_NN NNother
+we_PP1P PP1
+need_VPRT MENTAL
+would_MDWO MDPREDAll
+be_VB BEMA
+for_IN INother
+you_PP2
+to_IN INother
+put_VB ACT
+a_DT
+bollard_NN NNother
+in_RB RBother
+._.
+yeah_DMA
+._.
+could_MDCO MDPOSSCAll
+n't_XX0 CONT
+we_PP1P PP1
+._.
+if_COND
+they_PP3P PP3
+'re_VPRT CONT
+dragging_PROG
+their_PP3P PP3
+feet_NN NNCONC
+._.
+look_VB
+I_PP1S PP1
+'d_MDWO MDPREDAll CONT
+ring_VB
+the_DT
+site_NN NNother
+office_NN NCOMP
+first_RB RBother
+._.
+right_RB RBother
+okay_FPUH
+I_PP1S PP1
+could_MDCO MDPOSSCAll
+mention_VB COMM
+the_DT
+._.
+oh_FPUH
+my_PP1S PP1
+it_PIT
+'s_VPRT CONT BEMA
+not_XX0
+a_DT
+boy_NN NNHUMAN
+racer_NN NCOMP
+it_PIT
+'s_VPRT CONT BEMA
+just_RB EMPH
+a_DT
+shit_NN EMPH
+driver_NN NNHUMAN
+._.
+ha_FPUH
+ha_FPUH
+it_PIT
+sounds_VPRT EXIST
+like_LIKE
+they_PP3P PP3
+are_VPRT BEMA
+rev_IN INother
+the_DT
+engine_NN NNCONC
+rar_NN NCOMP
+._.
+look_VB
+behind_IN INother
+you_PP2
+love_NN NNother
+look_NN NCOMP
+behind_IN INother
+you_PP2
+you_PP2
+'re_VPRT CONT
+reversing_PROG
+._.
+Has_VPRT
+she_PP3S PP3
+gone_PEAS
+back_RB RBother
+out_RP
+again_FREQ
+?_. YNQU
+she_PP3S PP3
+'s_VPRT CONT
+going_PROG
+out_RP
+the_DT
+no_DMA
+no_XX0
+exit_NN NNother
+jesus_NN NCOMP
+that_THRC THRCother
+'s_VPRT CONT BEMA
+quite_RB RBother
+dangerous_JJAT JJATother
+god_NN NNHUMAN
+huh_FPUH
+._.
+surely_RB RBother
+you_PP2
+can_MDCA MDPOSSCAll
+get_VB
+round_IN INother
+that_DEMO
+side_NN NNABSPROC
+surely_RB RBother
+that_DEMO
+'s_VPRT CONT BEMA
+the_DT
+point_NN NNother
+you_PP2
+think_VPRT MENTAL
+?_. YNQU
+I_PP1S PP1
+have_VPRT
+no_XX0
+idea_NN NSTNCother
+._.
+probably_HDG
+not_XX0
+where_WHSC WHSCother
+there_EX
+are_VPRT
+pumps_NN NNother
+scary_JJPR JJPRother
+._.
+how_WHQU
+much_QUAN
+would_MDWO MDPREDAll
+you_PP2
+like_VB MENTAL
+an_DT
+open_JJAT JJATother
+top_JJAT JJREL
+car_NN NNCONC
+today_TIME
+?_. WQ
+that_DEMO
+would_MDWO MDPREDAll
+be_VB BEMA
+cool_JJPR JJPRother
+I_PP1S PP1
+should_MDNE
+have_VB
+a_DT
+headscarf_NN NNother
+on_RB RBother
+though_CONC
+._.
+yes_DMA
+._.
+or_CC
+I_PP1S PP1
+'d_MDWO MDPREDAll CONT
+end_VB ASPECT
+up_RP
+with_IN INother
+sort_NN NNABSPROC
+of_IN HDG
+like_LIKE
+a_DT
+fright_NN NNother
+wig_NN NCOMP
+._.
+I_PP1S PP1
+think_VPRT MENTAL THATD
+that_DEMO
+'s_VPRT CONT BEMA
+a_DT
+relative_JJAT JJATother
+term_NN NNQUANT
+._.
+hmm_FPUH
+mm_FPUH
+ah._FPUH
+oh_FPUH
+dear_JJPR JJPRother
+yes_DMA
+._.
+it_PIT
+would_MDWO MDPREDAll
+be_VB BEMA
+quite_RB RBother
+cool_JJPR JJPRother
+._.
+as_IN INother
+someone_QUPR
+with_IN INother
+a_DT
+sense_NN NNCOG
+of_IN INother
+humour_FPUH
+comedy_NN NNother
+recently_TIME
+it's_PP1P PP1
+it_PIT
+would_MDWO MDPREDAll SPLIT
+just_RB EMPH
+be_VB BEMA
+nice_JJPR JJEVAL
+if_COND
+with_IN INother
+bearing_VBG MENTAL
+in_IN INother
+mind_NN NNother
+the_DT
+sort_NN NNABSPROC
+of_IN INother
+like_LIKE
+eighty_CD
+percent_NN NNQUANT
+of_IN INother
+the_DT
+price_NN NNother
+of_IN INother
+fuel_NN NNother
+is_VPRT
+actually_DMA
+tax_NN NNother
+._.
+mm._FPUH
+oh_FPUH
+well_DMA
+the_DT
+special_JJAT JJATother
+thing_NN NNother
+is_VPRT BEMA
+you_PP2
+actually_DMA
+pay_VPRT ACT
+VAT_NN NNother
+on_IN INother
+the_DT
+fuel_NN NNother
+duty_NN NCOMP
+._.
+oh_FPUH
+okay_FPUH
+right_RB RBother
+._.
+um_FPUH
+._.
+you_PP2
+pay_VPRT ACT
+tax_NN NNother
+on_IN INother
+the_DT
+tax_NN NNother
+?_. YNQU
+yes_DMA
+._.
+that_DEMO
+makes_VPRT ACT
+sense_NN NNCOG
+ha_FPUH
+in_IN INother
+someone_QUPR
+'s_POS
+world_NN NNother
+._.
+yeah_DMA
+sort_NN NNABSPROC
+of_IN HDG STPR
+._.
+it_PIT
+must_MDNE
+be_VB BEMA
+quite_RB RBother
+disconcerting_JJPR JJPRother
+having_VBG
+that_DEMO
+guy_NN NNHUMAN
+sitting_VBG ACT
+on_IN INother
+his_PP3S PP3
+bike_NN NNother
+watching_VBG ACT
+you_PP2
+fill_VB
+up_RP
+ha_FPUH
+I_PP1S PP1
+'m_VPRT CONT
+watching_PROG ACT
+you_PP2
+._.
+oh_FPUH
+well_DMA
+we_PP1P PP1
+'ll_MDWS MDPREDAll CONT
+watch_VB ACT
+him_PP3S PP3
+fill_VB
+up_RP
+._.
+I_PP1S PP1
+'m_VPRT CONT
+waiting_PROG ACT
+._.
+the_DT
+good_JJAT JJEVAL
+news_NN NSTNCother
+is_VPRT
+he_PP3S PP3
+'ll_MDWS MDPREDAll CONT
+be_VB BEMA
+quick_JJPR JJPRother
+._.
+yes_DMA
+he_PP3S PP3
+will_MDWS MDPREDAll
+be_VB BEMA
+quick_JJPR JJPRother
+presumably_HDG
+the_DT
+petrol_NN NNother
+tank_NN NCOMP
+is_VPRT BEMA
+n't_XX0 CONT
+massive_JJPR JJPRother
+._.
+no_DMA
+erm_FPUH
+unless_COND
+he_PP3S PP3
+'s_VPRT CONT
+gon_GTO MDPREDAll
+na_IN INother
+drink_VB
+it_PIT
+._.
+he_PP3S PP3
+might_MDMM MDPOSSCAll
+do_VB ACT
+he_PP3S PP3
+looks_VPRT
+like_LIKE
+the_DT
+kind_NN NNABSPROC
+of_IN INother
+guy_NN NNHUMAN
+who_WHSC WHSCother
+might_MDMM MDPOSSCAll
+drink_VB
+petrol_NN NNother
+._.
+to_IN INother
+be_VB BEMA
+fair_JJPR JJPRother
+you_PP2
+should_MDNE
+n't_XX0 CONT
+._.
+oh_FPUH
+hang_VB ACT
+on_RB RBother
+is_VPRT
+he_PP3S PP3
+going_PROG
+at_IN INother
+the_DT
+same_JJAT JJREL
+time_NN NNQUANT
+?_. YNQU
+no_DMA
+._.
+no_DMA
+okay_FPUH
+because_CUZ
+he_PP3S PP3
+er_FPUH
+might_MDMM MDPOSSCAll
+be_VB
+able_ABLE
+to_IN INother
+use_VB ACT
+the_DT
+petrol_NN NNother
+while_CC
+the_DT
+other_JJAT JJATother
+guy_NN NNHUMAN
+is_VPRT
+using_PROG ACT
+the_DT
+diesel_NN NNother
+._.
+oh_FPUH
+right_DMA
+._.
+or_CC
+can_MDCA MDPOSSCAll
+you_PP2
+not_XX0
+do_VB ACT
+that_DEMO
+?_. YNQU
+no_DMA
+you_PP2
+can't_MDother
+do_VB ACT
+that_DEMO
+._.
+oh_FPUH
+right_RB RBother
+okay_FPUH
+._.
+to_IN INother
+be_VB BEMA
+fair_JJPR JJPRother
+you_PP2
+should_MDNE
+n't_XX0 CONT
+bike_VB
+in_IN INother
+jeans_NN NNother
+it_PIT
+'s_VPRT CONT BEMA
+quite_RB RBother
+dangerous_JJPR JJPRother
+._.
+why_WHQU
+?_. WQ
+Cos_CUZ
+if_COND
+you_PP2
+come_VPRT ACT
+off_RP
+you_PP2
+'ll_MDWS MDPREDAll CONT
+break_VB
+your_PP2
+legs_NN NNCONC
+._.
+no_DMA
+um_FPUH
+the_DT
+point_NN NNother
+of_IN INother
+leathers_NN NNother
+is_VPRT
+if_COND
+you_PP2
+come_VPRT ACT
+off_RP
+and_CC
+slide_VPRT
+._.
+mm._FPUH
+it_PIT
+takes_VPRT ACT
+leather_NN NNother
+a_DT
+long_JJAT JJDESCAll JJSIZE
+time_NN NNQUANT
+to_IN INother
+burn_VB ACT
+through_RP
+._.
+yeah_DMA
+._.
+see_VB MENTAL
+the_DT
+reinforced_VBN
+patches_NN NNother
+on_IN INother
+the_DT
+elbows_NN NNother
+?_. YNQU
+yeah_DMA
+._.
+that_DEMO
+'s_VPRT CONT BEMA
+cos_CUZ
+it_PIT
+that_DEMO
+'s_VPRT CONT
+what_WHSC WHSCother
+hits_VPRT
+the_DT
+ground_NN NSTNCother
+if_COND
+you_PP2
+cos_CUZ
+if_COND
+you_PP2
+come_VPRT ACT
+off_IN INother
+a_DT
+bike_NN NNother
+at_IN INother
+sixty_CD
+miles_NN NNQUANT
+an_DT
+hour_NN NNQUANT
+._.
+yeah_DMA
+and_CC
+._.
+the_DT
+impact_NN NNABSPROC
+wo_MDWO MDPREDAll
+n't_XX0 CONT
+kill_VB
+you_PP2
+but_CC
+._.
+the_DT
+slide_NN NNCONC
+will_MDWS MDPREDAll
+take_VB ACT
+your_PP2
+skin_NN NNother
+off_RP
+._.
+it_PIT
+will_MDWS MDPREDAll
+well_DMA
+you_PP2
+'ll_MDWS MDPREDAll CONT
+burn_VB ACT
+._.
+right_RB RBother
+._.
+A_DT
+massive_JJAT JJATother
+friction_NN NOMZ
+._.
+and_CC
+yeah_DMA
+it_PIT
+will_MDWS MDPREDAll SPLIT
+just_RB EMPH
+rip_VB
+through_IN INother
+flesh_NN NNother
+._.
+yeah_DMA
+._.
+well_DMA
+the_DT
+point_NN NNother
+of_IN INother
+leathers_NN NNother
+is_VPRT
+that_THSC THSCother
+leather_NN NNother
+is_VPRT BEMA
+very_AMP
+tough_JJAT JJATother
+and_CC
+okay_JJAT JJATother
+tough_JJPR JJPRother
+is_VPRT BEMA
+the_DT
+wrong_JJAT JJATother
+word_NN NNTECH
+._.
+mm_FPUH
+it_PIT
+does_VPRT DOAUX
+n't_XX0 CONT
+wear_VB ACT
+we_PP1P PP1
+did_VBD ACT
+an_DT
+experiment_NN NNABSPROC
+._.
+it_PIT
+'s_VPRT CONT
+got_HGOT
+a._NN NNother
+in_IN INother
+science_NN NNABSPROC
+in_IN INother
+primary_JJAT JJREL
+school_NN NNGRP
+we_PP1P PP1
+had_MDNE
+to_IN INother
+rub_VB
+sandpaper_NN NNother
+for_IN INother
+er_FPUH
+two_CD
+minutes_NN NNQUANT
+on_IN INother
+to_IN INother
+different_JJAT JJREL
+materials_NN NNother
+._.
+yeah_DMA
+._.
+and_CC
+leather_NN NNother
+you_PP2
+can't_MDother
+make_VB ACT
+a_DT
+scratch_NN NNother
+on_IN INother
+you_PP2
+know_VPRT MENTAL
+ha_FPUH
+._.
+er_FPUH
+I_PP1S PP1
+'m_VPRT CONT BEMA
+not_XX0
+sure_JJPR JJEPSTother
+you_PP2
+can_MDCA MDPOSSCAll
+do_VB ACT
+that_DEMO
+love_NN NNother
+._.
+presumably_HDG
+it_PIT
+just_RB EMPH
+wo_MDWO MDPREDAll
+n't_XX0 CONT
+let_VB CAUSE
+her_PP3S PP3
+get_VB
+the_DT
+fuel_NN NNother
+out_RP
+._.
+uh_FPUH
+._.
+some_QUAN
+people_NN NNHUMAN
+are_VPRT
+just_RB EMPH
+really_RB EMPH
+really_RB EMPH
+impatient_JJPR JJPRother
+are_VPRT
+n't_XX0 CONT
+they_PP3P PP3
+?_. QUTAG
+yeah_DMA
+apparently_HDG
+._.
+ooh_FPUH
+he_PP3S PP3
+'s_VPRT CONT
+gon_GTO MDPREDAll
+na_IN INother
+be_VB
+pissed_PASS PASSAll
+off_RP
+if_COND
+it_PIT
+'s_VPRT CONT BEMA
+double_JJPR JJPRother
+his_PP3S PP3
+cost_NN NNother
+cos_CUZ
+of_IN INother
+what_WHSC WHSCother
+she_PP3S PP3
+'s_VPRT CONT
+been_PEAS
+getting_PROG
+out_RP
+look_VB
+surely_RB RBother
+that_DEMO
+can't_JJAT JJATother
+work_NN NNABSPROC
+._.
+I_PP1S PP1
+do_VPRT DOAUX
+n't_XX0 CONT
+see_VB MENTAL
+how_WHSC WhVSTNCAll WhVFCT
+that_DEMO
+'s_VPRT CONT
+working_PROG ACT
+._.
+it_PIT
+'s_VPRT CONT BEMA
+not_XX0
+she_PP3S PP3
+'s_VPRT CONT
+having_PROG
+trouble_NN NNABSPROC
+good_JJPR JJEVAL
+ha_FPUH
+put_VB ACT
+it_PIT
+back_RB RBother
+._.
+you_PP2
+idiot_NN NNother
+._.
+worked_VBD ACT
+it_PIT
+out_RP
+yet_TIME
+?_. YNQU
+Come_VB ACT
+on_IN INother
+come_VB ACT
+on_IN INother
+love_NN NNother
+come_VB ACT
+on_RB RBother
+got_VBD
+it_PIT
+?_. YNQU
+Ooh_FPUH
+She_PP3S PP3
+did_VBD ACT EMPH
+look_VB
+a_DT
+bit_QUAN
+there_PLACE
+ha_FPUH
+ha._FPUH
+wow_FPUH
+._.
+ah_FPUH
+._.
+Jesus_NN NNP
+he_PP3S PP3
+just_RB EMPH
+er_FPUH
+he_PP3S PP3
+just_RB EMPH
+went_VBD
+up_RP
+on_IN INother
+the_DT
+pavement_NN NOMZ
+what_WHQU
+the_DT
+fuck_NN EMPH
+?_. WQ
+presumably_HDG
+he_PP3S PP3
+'s_VPRT CONT
+trying_PROG ACT
+to_IN INother
+park_VB
+._.
+are_VPRT BEMA
+we_PP1P PP1
+about_JJPR JJPRother
+to_IN INother
+be_VB
+ram_NN NNother
+raided_PASS PASSAll
+or_CC
+something_QUPR
+?_. YNQU
+he_PP3S PP3
+'s_VPRT CONT
+making_PROG ACT
+heavy_JJAT JJDESCAll JJSIZE
+weather_NN NNother
+of_IN INother
+it_PIT
+is_VPRT
+n't_XX0 CONT
+he_PP3S PP3
+?_. QUTAG
+oh._FPUH
+ah_FPUH
+right_DMA
+._.
+that_DEMO
+was_VBD
+er_FPUH
+one_CD
+of_IN INother
+the_DT
+more_AMP
+special_JJAT JJATother
+things_NN NNother
+I_PP1S PP1
+'ve_VPRT CONT
+seen_PEAS MENTAL
+yeah_DMA
+well_DMA
+what_WHSC WHSCother
+is_VPRT
+he_PP3S PP3
+is_VPRT BEMA
+truly_RB RBother
+special_JJPR JJPRother
+._.
+look_VB
+put_VB ACT
+it_PIT
+back_RB RBother
+._.
+the_DT
+problem_NN NNother
+is_VPRT
+that_THSC THSCother
+it_PIT
+'s_VPRT CONT BEMA
+a_DT
+._.
+put_VB ACT
+it_PIT
+back_RB RBother
+put_VB ACT
+it_PIT
+back_RB RBother
+go_VB
+on_IN INother
+put_VBD ACT
+it_PIT
+yes_DMA
+there_PLACE
+good_JJPR JJEVAL
+yes_DMA
+._.
+I_PP1S PP1
+think_VPRT MENTAL
+what_WHSC WhVSTNCAll WhVLIK
+'s_VPRT CONT BEMA
+confusing_JJPR JJPRother
+here_PLACE
+is_VPRT
+there_EX
+'s_VPRT CONT
+two_CD
+sets_NN NNABSPROC
+of_IN INother
+pumps_NN NNother
+on_IN INother
+each_QUAN
+thing_NN NNother
+._.
+now_TIME
+now_TIME
+now_TIME
+wait_VB ACT
+wait_VB ACT
+for_IN INother
+it_PIT
+to_IN INother
+zero_CD
+zero_CD
+._.
+oh._FPUH
+zero_CD
+._.
+now_TIME
+if_COND
+you_PP2
+look_VPRT
+cos_CUZ
+there_EX
+is_VPRT
+four_CD
+options_NN NNABSPROC
+there_EX
+are_VPRT
+are_VPRT
+n't_XX0 CONT
+there_PLACE
+._.
+yeah_DMA
+._.
+so_SO
+there_EX
+'s_VPRT CONT
+four_CD
+points_NN NNother
+but_CC
+they_PP3P PP3
+'re_VPRT CONT BEMA
+in_IN INother
+sets_NN NNABSPROC
+of_IN INother
+two_CD
+._.
+yeah_DMA
+._.
+so_SO
+I_PP1S PP1
+think_VPRT MENTAL
+._.
+so_SO
+she_PP3S PP3
+'s_VPRT CONT
+assuming_PROG MENTAL
+that_DEMO
+._.
+I_PP1S PP1
+guess_VPRT MENTAL
+he_PP3S PP3
+looks_VPRT
+quite_RB RBother
+nice_JJPR JJEVAL
+._.
+does_VPRT DOAUX
+n't_XX0 CONT
+he_PP3S PP3
+._.
+sort_NN NNABSPROC
+of_IN HDG
+huggable_JJPR JJPRother
+._.
+and_CC
+that_DEMO
+'s_VPRT CONT BEMA
+great_JJPR JJEVAL
+because_CUZ
+he_PP3S PP3
+did_VBD DOAUX
+n't_XX0 CONT
+need_MDNE
+to_IN INother
+move_VB ACT
+forwards_NN NNother
+to_IN INother
+refuel_VB
+._.
+exactly_RB RBother
+that_DEMO
+was_VBD BEMA
+very_AMP
+clever_JJPR JJPRother
+._.
+so_SO
+it_PIT
+'s_VPRT CONT
+actually_DMA
+quicker_JJPR JJPRother
+yeah_DMA
+._.
+it_PIT
+saved_VBD ACT
+a_DT
+huge_JJAT JJDESCAll JJSIZE
+amount_NN NNQUANT
+of_IN INother
+time_NN NNQUANT
+._.
+yeah_DMA
+it_PIT
+was_VBD BEMA
+good_JJPR JJEVAL
+that_DEMO
+'s_VPRT CONT
+presumably_HDG
+why_WHSC WHSCother
+he_PP3S PP3
+pulled_VBD ACT
+right_RB RBother
+up_RP
+behind_IN INother
+them_PP3P PP3
+so_SO
+that_THSC CUZ
+he'd_MDWO MDPREDAll CONT
+be_VB
+able_ABLE
+to_IN INother
+do_VB ACT
+that_DEMO
+and_CC
+save_VB ACT
+time_NN NNQUANT
+._.
+yeah_DMA
+cos_CUZ
+as_RB RBother
+soon_RB RBother
+as_IN INother
+the_DT
+other_JJAT JJATother
+chap_NN NNother
+paid_VBD ACT
+he_PP3S PP3
+could_MDCO MDPOSSCAll
+er._VB
+mm._RB RBother
+get_VB
+on_IN INother
+with_IN INother
+it_PIT
+._.
+Good_JJAT JJEVAL
+stuff_NN NNother
+._.
+erm_FPUH
+but_CC
+you_PP2
+._.
+bikers_NN NNother
+are_VPRT
+often_FREQ
+quite_RB RBother
+nice_JJPR JJEVAL
+are_VPRT
+n't_XX0 CONT
+they_PP3P PP3
+?_. QUTAG
+yeah_DMA
+tend_VPRT EXIST
+to_IN ToSTNCAll ToVSTNCAll ToVPROB
+be_VB
+unless_COND
+they_PP3P PP3
+'re_VPRT CONT
+like_LIKE
+._.
+yeah_DMA
+scary_JJAT JJATother
+bikers_NN NNother
+._.
+well_DMA
+unless_COND
+they_PP3P PP3
+'re_VPRT CONT BEMA
+sort_NN NNABSPROC
+of_IN HDG
+American_JJAT JJATother
+style_NN NNABSPROC
+Hell_NN NNP
+'s_POS
+Angels_NN NNP
+type_NN NCOMP
+._.
+wild_JJAT JJATother
+Hogs_NN NNother
+did_VBD DOAUX
+you_PP2
+see_VB MENTAL
+the_DT
+advert_NN NNother
+for_IN INother
+that_DEMO
+film_NN NNCONC
+?_. YNQU
+yeah_DMA
+I_PP1S PP1
+love_VPRT MENTAL
+that_DEMO
+._.
+it_PIT
+'s_VPRT CONT BEMA
+a_DT
+bit_QUAN
+embarrassing_JJPR JJPRother
+._.
+erm_FPUH
+er_FPUH
+the_DT
+sex_NN NNABSPROC
+was_VBD BEMA
+n't_XX0 CONT
+it_PIT
+the_DT
+er_FPUH
+erm_FPUH
+er_FPUH
+you_PP2
+know_VPRT MENTAL
+in_IN INother
+films_NN NNCONC
+they_PP3P PP3
+er_FPUH
+they_PP3P PP3
+put_VPRT ACT
+nudity_NN NOMZ
+in_RB RBother
+to_IN INother
+enhance_VB
+the_DT
+artistic_JJAT JJATother
+integrity_NN NOMZ
+of_IN INother
+the_DT
+storyline_NN NNother
+._.
+yeah_DMA
+._.
+er_FPUH
+a_DT
+group_NN NNother
+of_IN INother
+Hell_NN NNP
+'s_POS
+Angels_NN NNP
+at_IN INother
+an_DT
+orgy_NN NNother
+._.
+I_PP1S PP1
+do_VPRT DOAUX
+n't_XX0 CONT
+understand_VB MENTAL
+._.
+it_PIT
+was_VBD BEMA
+just_RB EMPH
+a_DT
+joke_NN NNother
+about_IN INother
+the_DT
+fact_NN NSTNCother
+that_THSC THSCother
+the_DT
+sex_NN NNABSPROC
+is_VPRT BEMA
+the_DT
+only_JJAT JJATother
+integral_JJAT JJATother
+part_NN NNQUANT
+of_IN INother
+the_DT
+story_NN NNother
+._.
+oh_FPUH
+okay_FPUH
+I_PP1S PP1
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+what_WHSC WhVSTNCAll WhVFCT
+this_DEMO
+guy_NN NNHUMAN
+'s_VPRT CONT
+doing_PROG ACT
+._.
+I_PP1S PP1
+dread_VPRT
+to_IN INother
+think_VB MENTAL
+._.
+some_QUAN
+kind_NN NNABSPROC
+of_IN INother
+survey_NN NNABSPROC
+ah_FPUH
+look_VB
+at_IN INother
+his_PP3S PP3
+beard_NN NNother
+he_PP3S PP3
+looks_VPRT
+a_DT
+bit_QUAN
+like_LIKE
+Jack_NN NNP
+._.
+yes_DMA
+._.
+oh_FPUH
+no_DMA
+I_PP1S PP1
+can't_MDother
+imagine_VB MENTAL THATD
+Jack_NN NNP
+riding_VBG
+a_DT
+motorbike_NN NNother
+that_THRC THRCother
+really_RB EMPH
+is_VPRT
+._.
+oh_FPUH
+I_PP1S PP1
+can_MDCA MDPOSSCAll
+see_VB MENTAL
+it_PIT
+possibly_HDG
+._.
+right_RB RBother
+._.
+right_RB RBother
+._.
+shall_MDWS MDPREDAll
+I_PP1S PP1
+get_VB
+out_RP
+and_CC
+?_. YNQU
+yeah_DMA
+sure_DMA
+._.
