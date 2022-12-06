@@ -62,16 +62,16 @@ def stanza_pre_processing (text: str)-> str:
         text (str): Text after applying preprocessing (mainly regular expression find and replace)
     """
     #Split cannot to 2 words for better tagging with stanza
-    text = re.sub("\\bcannot\\b", "can not", text, re.IGNORECASE)
-    text = re.sub("\\bgonna\\b", "gon na", text, re.IGNORECASE)
-    text = re.sub("\\bwanna\\b", "wan na", text, re.IGNORECASE)
-    text = re.sub("\\bdont\\b", "do 'nt", text, re.IGNORECASE)
-    text = re.sub("\\bwont\\b", "wo 'nt", text, re.IGNORECASE)
-    text = re.sub("\\bcant\\b", "ca 'nt", text, re.IGNORECASE)
-    text = re.sub("\\bdidnt\\b", "did 'nt", text, re.IGNORECASE)
-    text = re.sub("\\bthats\\b", "that 's", text, re.IGNORECASE)
-    text = re.sub("\\bwhats\\b", "what 's", text, re.IGNORECASE)
-    text = re.sub("\\bwouldnt\\b", "would 'nt", text, re.IGNORECASE)
+    text = re.sub("\\bcannot\\b", "can not", text, flags=re.IGNORECASE)
+    text = re.sub("\\bgonna\\b", "gon na", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwanna\\b", "wan na", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdont\\b", "do 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwont\\b", "wo 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bcant\\b", "ca 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdidnt\\b", "did 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bthats\\b", "that 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwhats\\b", "what 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwouldnt\\b", "would 'nt", text, flags=re.IGNORECASE)
     return text
 
         
