@@ -1,4 +1,4 @@
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 park_NN NCOMP
 ._.
 yeah_DMA
@@ -6,77 +6,77 @@ there_PLACE
 ._.
 well_FPUH
 maybe_HDG
-we_PP1P PP1
+we_PP1P
 should_MDNE
 go_VB
 ._.
 that_DEMO
 's_VPRT CONT
-where_WHSC WHSCother
-TK_NN NNP
-Maxx_NN NNP
+where_WHSC
+TK_NN
+Maxx_NN
 is_VPRT BEMA
-in_IN INother
+in_IN
 the_DT
 and_CC
 the_DT
-Imax_NN NNP
+Imax_NN
 do_VPRT DOAUX
 you_PP2
-want_VB MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
+want_VB
+to_IN
 go_VB
-to_IN INother
+to_IN
 the_DT
-cinema_NN NNother
+cinema_NN
 ?_. YNQU
 er_FPUH
 well_DMA
-I_PP1S PP1
-'d_MDWO MDPREDall CONT
-like_VB MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
+I_PP1S
+'d_MDWO CONT
+like_VB
+to_IN
 be_VB
-out_RB RBother
-rather_RB RBother
-than_IN INother
+out_RB
+rather_RB
+than_IN
 go_VB
-back_RB RBother
+back_RB
 inside_PLACE
 ._.
 oh_FPUH
-I_PP1S PP1
+I_PP1S
 've_VPRT CONT
 got_HGOT
-to_IN INother
+to_IN
 charge_VB
 that_DEMO
 ._.
-on_IN INother
+on_IN
 a_DT
-day_NN NNQUANT
+day_NN
 like_LIKE
 today_TIME
 ._.
 well_DMA
 actually_DMA
 five_CD
-miles_NN NNQUANT
-sounds_VPRT EXIST
+miles_NN
+sounds_VPRT
 a_DT
 bit_QUAN
 far_PLACE
 ._.
-I_PP1S PP1
-think_VPRT MENTAL THATD
+I_PP1S
+think_VPRT THATD
 that_DEMO
 was_VBD BEMA
 five_CD
-miles_NN NNQUANT
-by_IN INother
-car_NN NNCONC
+miles_NN
+by_IN
+car_NN
 darling_NN NCOMP
-I_PP1S PP1
+I_PP1S
 was_VBD
 looking_PROG
 at_IN STPR
@@ -85,25 +85,25 @@ what_WHQU
 so_SO
 it_PIT
 's_VPRT CONT BEMA
-even_RB RBother
+even_RB
 more_QUAN
-by_IN INother
-walking_VBG ACT
+by_IN
+walking_VBG
 ?_. WQ
 or_CC
 no_DMA
 it_PIT
-would_MDWO MDPREDall
+would_MDWO
 be_VB BEMA
 more_QUAN
-by_IN INother
-car_NN NNCONC
-then_RB RBother
+by_IN
+car_NN
+then_RB
 ._.
 well_DMA
 a_DT
 five_CD
-mile_NN NNQUANT
+mile_NN
 walk_NN NCOMP
 is_VPRT
 n't_XX0 CONT
@@ -121,242 +121,242 @@ probably_HDG
 is_VPRT BEMA
 it_PIT
 like_LIKE
-when_WHSC WHSCother
-we_PP1P PP1
-used_VBD ACT
-to_IN INother
+when_WHSC
+we_PP1P
+used_VBD
+to_IN
 go_VB
-along_IN INother
+along_IN
 the_DT
-canal_NN NNother
-in_IN INother
-IVYBRIDGE_NN NNP
-to_IN INother
-IVYBRIDGE_NN NNP
+canal_NN
+in_IN
+IVYBRIDGE_NN
+to_IN
+IVYBRIDGE_NN
 ._.
 yeah_DMA
 ._.
 erm_FPUH
 where_WHQU
 did_VBD DOAUX
-we_PP1P PP1
+we_PP1P
 go_VB
-to_IN INother
+to_IN
 ?_. WQ
 erm._FPUH
-we_PP1P PP1
-used_VBD ACT
-to_IN INother
+we_PP1P
+used_VBD
+to_IN
 go_VB
-to_IN INother
+to_IN
 ._.
 that_DEMO
-market_NN NNPLACE
+market_NN
 ?_. YNQU
-no._NN NNother
+no._NN
 that_DEMO
-market_NN NNPLACE
+market_NN
 where_WHQU
 was_VBD BEMA
 that_DEMO
-market_NN NNPLACE
+market_NN
 ?_. WQ
 oh._FPUH
 that_DEMO
 was_VBD BEMA
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 ._.
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 no_DMA
 that_DEMO
 's_VPRT CONT BEMA
-really_RB RSTNCall RFACT
+really_RB
 that_DEMO
 's_VPRT CONT
-just_RB RBother
+just_RB
 like_FPUH
 ._.
 two_CD
-miles_NN NNQUANT
+miles_NN
 ._.
 a_DT
-mile_NN NNQUANT
-it's_PP1P PP1
+mile_NN
+it's_PP1P
 ._.
 a_DT
-mile_NN NNQUANT
+mile_NN
 oh_FPUH
 ._.
 that_DEMO
 's_VPRT CONT BEMA
 the_DT
-sort_NN NNABSPROC
-of_IN INother
-thing_NN NNother
-I_PP1S PP1
-wanted_VBD MENTAL
+sort_NN
+of_IN
+thing_NN
+I_PP1S
+wanted_VBD
 ._.
-I_PP1S PP1
+I_PP1S
 had_VBD
 a_DT
-dream_NN NNother
-about_IN INother
-IVYBRIDGE_NN NNP
+dream_NN
+about_IN
+IVYBRIDGE_NN
 road_NN NCOMP
-in_IN INother
-IVYBRIDGE_NN NNP
+in_IN
+IVYBRIDGE_NN
 ._.
 mm_FPUH
-I_PP1S PP1
+I_PP1S
 do_VPRT SPLIT DOAUX
 n't_XX0 CONT
-really_RB RSTNCall RFACT
+really_RB
 dream_VB
-about_IN INother
+about_IN
 that_DEMO
 but_CC
-I_PP1S PP1
+I_PP1S
 dream_VPRT
-about_IN INother
-other_JJAT JJATother
-places_NN NNPLACE
-recurringly_RB RBother
+about_IN
+other_JJAT
+places_NN
+recurringly_RB
 no_DMA
-I_PP1S PP1
+I_PP1S
 yes_DMA
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 and_CC
-places_NN NNPLACE
-I_PP1S PP1
+places_NN
+I_PP1S
 dream_VPRT
-about_IN INother
-that_THSC THSCother
-they_PP3P PP3
+about_IN
+that_THSC
+they_PP3P
 have_VPRT
 n't_XX0 CONT
 been_PEAS
-lived_PASS PASSall EXIST
-in_IN INother
+lived_PASS
+in_IN
 all_QUAN
 these_DEMO
-years_NN NNother
+years_NN
 and_CC
-I_PP1S PP1
-can_MDCA MDPOSSCall SPLIT
-still_RB RBother
+I_PP1S
+can_MDCA SPLIT
+still_RB
 get_VB
-into_IN INother
-them_PP3P PP3
-with_IN INother
+into_IN
+them_PP3P
+with_IN
 a_DT
-key_NN NNCONC
+key_NN
 ._.
 uhu_FPUH
 ._.
 and_CC
-I_PP1S PP1
-still_RB RBother
+I_PP1S
+still_RB
 go_VPRT
-back_RB RBother
+back_RB
 there_PLACE
-how_WHSC WHSCother
-odd_JJPR JJPRother
+how_WHSC
+odd_JJPR
 so_SO
-what_WHSC WHSCother
-would_MDWO MDPREDall
+what_WHSC
+would_MDWO
 you_PP2
-like_VB MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
+like_VB
+to_IN
 do_VB ACT
-Jack_NN NNP
+Jack_NN
 ?_. YNQU
 is_VPRT
 there_EX
 any_QUAN
-of_IN INother
+of_IN
 the_DT
-onion_NN NNother
+onion_NN
 bread_NN NCOMP
-left_VBN ACT
+left_VBN
 ?_. YNQU
 yes_DMA
 a_DT
-little_JJAT JJDESCall JJSIZE
-bit_NN NNother
+little_JJAT
+bit_NN
 ._.
-we_PP1P PP1
-could_MDCO MDPOSSCall
-make_VB ACT
-ourselves_PP1P PP1
-sandwiches_NN NNother
-for_IN INother
+we_PP1P
+could_MDCO
+make_VB
+ourselves_PP1P
+sandwiches_NN
+for_IN
 the_DT
-walk_NN NNother
+walk_NN
 ._.
 that_DEMO
-would_MDWO MDPREDall
+would_MDWO
 be_VB BEMA
-sweet_JJPR JJPRother
-would_MDWO MDPREDall
+sweet_JJPR
+would_MDWO
 n't_XX0 CONT
 it_PIT
-dear_JJPR JJPRother
+dear_JJPR
 ?_. YNQU
 mm_FPUH
 ._.
-I_PP1S PP1
+I_PP1S
 've_VPRT CONT
 drunk_PEAS
 all_QUAN
 the_DT
-beer_NN NNother
-I_PP1S PP1
-bought_VBD ACT
+beer_NN
+I_PP1S
+bought_VBD
 ._.
 well_DMA
 that_DEMO
 's_VPRT CONT BEMA
 not_XX0
 a_DT
-problem_NN NNother
-we_PP1P PP1
-could_MDCO MDPOSSCall
+problem_NN
+we_PP1P
+could_MDCO
 get_VB
 some_QUAN
 more_QUAN
 ._.
 oh_FPUH
-good_JJPR JJEVAL
+good_JJPR
 ._.
 but_CC
 is_VPRT
 there_EX
 somewhere_QUPR
-halfway_RB RBother
-that_THRC THRCother
-would_MDWO MDPREDall
+halfway_RB
+that_THRC
+would_MDWO
 be_VB BEMA
-nice_JJPR JJEVAL
+nice_JJPR
 ?_. YNQU
 oh_FPUH
-what_WHSC WHSCother
-would_MDWO MDPREDall
-happen_VB OCCUR
+what_WHSC
+would_MDWO
+happen_VB
 if_COND
-we_PP1P PP1
-walked_VBD ACT
-to_IN INother
+we_PP1P
+walked_VBD
+to_IN
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 ferry_NN NCOMP
 not_XX0
 the_DT
-Clipper_NN NNP
+Clipper_NN
 the_DT
-ferry_NN NNother
+ferry_NN
 ._.
 well_DMA
-we_PP1P PP1
+we_PP1P
 almost_DWNT
 got_VBD
 there_PLACE
@@ -365,72 +365,72 @@ yesterday_TIME
 ._.
 yeah_DMA
 and_CC
-then_RB RBother
+then_RB
 got_VBD
 the_DT
-ferry_NN NNother
-as_IN INother
+ferry_NN
+as_IN
 a_DT
-passenger_NN NNother
-as_IN INother
+passenger_NN
+as_IN
 a_DT
-foot_NN NNCONC
+foot_NN
 passenger_NN NCOMP
-over_RB RBother
-to_IN INother
+over_RB
+to_IN
 the_DT
-other_JJAT JJATother
-side_NN NNABSPROC
-that_THRC THRCother
-would_MDWO MDPREDall
+other_JJAT
+side_NN
+that_THRC
+would_MDWO
 be_VB BEMA
-fun_JJPR JJPRother
+fun_JJPR
 ._.
 no_DMA
 it_PIT
-would_MDWO MDPREDall
+would_MDWO
 n't_XX0 CONT
 ._.
 it_PIT
 's_VPRT CONT BEMA
-free_JJPR JJPRother
+free_JJPR
 ._.
 north_PLACE
-IVYBRIDGE_NN NNP
-north_NN NNP
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
+north_NN
+IVYBRIDGE_NN
 is_VPRT BEMA
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 n't_XX0 CONT
-know_VB MENTAL
-what_WHSC WhVSTNCall WhVFCT
+know_VB
+what_WHSC
 it_PIT
 is_VPRT
 ._.
 yeah_DMA
 well_DMA
-we_PP1P PP1
+we_PP1P
 do_VPRT DOAUX
 n't_XX0 CONT
-know_VB MENTAL
+know_VB
 yet_CC
 that_DEMO
 's_VPRT CONT BEMA
 the_DT
-thing_NN NNother
+thing_NN
 well_DMA
 is_VPRT
 there_EX
 nothing_QUPR
 there_PLACE
 ?_. YNQU
-we_PP1P PP1
-could_MDCO MDPOSSCall
-walk_VB ACT
+we_PP1P
+could_MDCO
+walk_VB
 er_FPUH
-to_IN INother
-IVYBRIDGE_NN NNP
+to_IN
+IVYBRIDGE_NN
 ._.
 oh_FPUH
 no_DMA
@@ -446,82 +446,82 @@ it_PIT
 ?_. QUTAG
 well_DMA
 if_COND
-we_PP1P PP1
+we_PP1P
 if_COND
-we_PP1P PP1
+we_PP1P
 've_VPRT CONT
 got_HGOT
-onto_IN INother
+onto_IN
 the_DT
-other_JJAT JJATother
-side_NN NNABSPROC
-on_IN INother
+other_JJAT
+side_NN
+on_IN
 the_DT
-ferry_NN NNother
-we_PP1P PP1
-could_MDCO MDPOSSCall
-walk_VB ACT
-to_IN INother
-IVYBRIDGE_NN NNP
+ferry_NN
+we_PP1P
+could_MDCO
+walk_VB
+to_IN
+IVYBRIDGE_NN
 ._.
 well_DMA
-we_PP1P PP1
-could_MDCO MDPOSSCall
-walk_VB ACT
-to_IN INother
+we_PP1P
+could_MDCO
+walk_VB
+to_IN
 that_DEMO
-silly_JJAT JJATother
+silly_JJAT
 erm_FPUH
 er_FPUH
-cable_NN NNother
+cable_NN
 car_NN NCOMP
-thing_NN NNother
+thing_NN
 ._.
 oh_FPUH
 yeah_DMA
-we_PP1P PP1
-could_MDCO MDPOSSCall
+we_PP1P
+could_MDCO
 get_VB
 a_DT
-cable_NN NNother
+cable_NN
 car_NN NCOMP
 ._.
-would_MDWO MDPREDall
+would_MDWO
 you_PP2
 be_VB BEMA
-scared_JJPR JJPRother
+scared_JJPR
 though_CONC
 ?_. YNQU
 erm_FPUH
 no_DMA
 and_CC
-then_RB RBother
-we_PP1P PP1
-could_MDCO MDPOSSCall
+then_RB
+we_PP1P
+could_MDCO
 get_VB
 the_DT
-cable_NN NNother
+cable_NN
 car_NN NCOMP
-back_RB RBother
+back_RB
 yes_DMA
 that_DEMO
 's_VPRT CONT SPLIT
-right_RB RBother
+right_RB
 get_VB
 the_DT
-ferry_NN NNother
-over_RB RBother
+ferry_NN
+over_RB
 ._.
 but_CC
 what_WHQU
 's_VPRT CONT BEMA
-on_IN INother
+on_IN
 the_DT
-other_JJAT JJATother
-side_NN NNABSPROC
-of_IN INother
+other_JJAT
+side_NN
+of_IN
 the_DT
-cable_NN NNother
+cable_NN
 car_NN NCOMP
 ?_. WQ
 is_VPRT BEMA
@@ -534,10 +534,10 @@ like_FPUH
 ._.
 that_DEMO
 's_VPRT CONT BEMA
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 ._.
 no_XX0
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 is_VPRT
 ._.
 no_DMA
@@ -545,10 +545,10 @@ that_DEMO
 is_VPRT
 ._.
 this_DEMO
-side_NN NNABSPROC
-of_IN INother
+side_NN
+of_IN
 the_DT
-river_NN NNPLACE
+river_NN
 darling_NN NCOMP
 ._.
 no_DMA
@@ -558,153 +558,153 @@ no_DMA
 but_CC
 you_PP2
 're_VPRT CONT
-saying_PROG COMM
+saying_PROG
 ._.
-I_PP1S PP1
-think_VPRT MENTAL
+I_PP1S
+think_VPRT
 it_PIT
 ._.
 get_VIMP
 the_DT
-ferry_NN NNother
-over_RB RBother
+ferry_NN
+over_RB
 ._.
-no._NN NNother
+no._NN
 and_CC
-then_RB RBother
+then_RB
 the_DT
 ._.
 oh._FPUH
-cable_NN NNother
+cable_NN
 car_NN NCOMP
-back_RB RBother
+back_RB
 again_FREQ
 ._.
-I_PP1S PP1
+I_PP1S
 was_VBD
 n't_XX0 CONT
 but_CC
 yeah_DMA
-we_PP1P PP1
-could_MDCO MDPOSSCall
+we_PP1P
+could_MDCO
 do_VB ACT
 that_DEMO
 ._.
-give_VIMP ACT
+give_VIMP
 if_COND
 that_DEMO
 was_VBD BEMA
 the_DT
-case_NN NNCONC
+case_NN
 it_PIT
 's_VPRT CONT BEMA
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 stadium_NN NCOMP
 ._.
 but_CC
 the_DT
-other_JJAT JJATother
-side_NN NNABSPROC
-of_IN INother
+other_JJAT
+side_NN
+of_IN
 the_DT
-cable_NN NNother
+cable_NN
 car_NN NCOMP
 is_VPRT
-just_RB RBother
+just_RB
 like_LIKE
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 arena_NN NCOMP
 and_CC
 ._.
 yes_DMA
 ._.
-boring_JJAT JJATother
-things_NN NNother
-IVYBRIDGE_NN NNP
-just_RB RBother
+boring_JJAT
+things_NN
+IVYBRIDGE_NN
+just_RB
 there_PLACE
 ._.
 er_FPUH
 yeah_DMA
 ._.
-we_PP1P PP1
-might_MDMM MDPOSSCall
-come_VB ACT
-across_IN INother
+we_PP1P
+might_MDMM
+come_VB
+across_IN
 something_QUPR
-interesting_JJPR JJPRother
+interesting_JJPR
 ._.
 oh_FPUH
-they_PP3P PP3
-really_RB RSTNCall RFACT
-need_VPRT MENTAL
+they_PP3P
+really_RB
+need_VPRT
 something_QUPR
-in_IN INother
+in_IN
 the_DT
-middle_NN NNPLACE
-of_IN INother
-IVYBRIDGE_NN NNP
+middle_NN
+of_IN
+IVYBRIDGE_NN
 and_CC
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 do_VPRT DOAUX
 n't_XX0 CONT
-they_PP3P PP3
+they_PP3P
 ?_. QUTAG
 mm._FPUH
 that_DEMO
 's_VPRT CONT BEMA
-bound_JJPR JJPRother
-to_IN INother
-happen_VB OCCUR
+bound_JJPR
+to_IN
+happen_VB
 but_CC
 you_PP2
-know_VPRT MENTAL
+know_VPRT
 the_DT
-way_NN NNABSPROC
-they_PP3P PP3
-developed_VBD OCCUR
-IVYBRIDGE_NN NNP
+way_NN
+they_PP3P
+developed_VBD
+IVYBRIDGE_NN
 ?_. YNQU
 that_DEMO
 's_VPRT CONT
-exactly_RB RBother
-what_WHSC WHSCother
-they_PP3P PP3
+exactly_RB
+what_WHSC
+they_PP3P
 need_MDNE
-to_IN INother
+to_IN
 do_VB ACT
 all_QUAN
-they_PP3P PP3
+they_PP3P
 did_VBD ACT
-with_IN INother
-IVYBRIDGE_NN NNP
+with_IN
+IVYBRIDGE_NN
 was_VBD
 create_VB
 a_DT
 bit_QUAN
-of_IN INother
+of_IN
 like_LIKE
-themes_NN NNother
+themes_NN
 ._.
 do_VPRT DOAUX
 you_PP2
-mean_VB COMM
-IVYBRIDGE_NN NNP
+mean_VB
+IVYBRIDGE_NN
 ?_. YNQU
 no_XX0
-IVYBRIDGE_NN NNP
-where_WHSC WHSCother
+IVYBRIDGE_NN
+where_WHSC
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 is_VPRT
 ._.
 yeah_DMA
 so_SO
 that_DEMO
 is_VPRT BEMA
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 ._.
 is_VPRT
 it_PIT
@@ -712,50 +712,50 @@ it_PIT
 well_DMA
 anyway_DMA
 all_QUAN
-they_PP3P PP3
+they_PP3P
 did_VBD DOAUX
 was_VBD
 go_VB
 oh_FPUH
-it's_PP1P PP1
+it's_PP1P
 got_VBD
-history_NN NNother
+history_NN
 so_SO
 built_VBD
 er_FPUH
 a_DT
 few_QUAN
-themed_JJAT JJATother
-type_NN NNABSPROC
+themed_JJAT
+type_NN
 things_NN NCOMP
 ._.
-darling_NN NNother
-could_MDCO MDPOSSCall
+darling_NN
+could_MDCO
 you_PP2
-pass_VB ACT
-me_PP1S PP1
+pass_VB
+me_PP1S
 the_DT
-Ipad_NN NNP
+Ipad_NN
 please_FPUH POLITE
 ?_. YNQU
 and_CC
-I_PP1S PP1
-'ll_MDWS MDPREDall CONT
-find_VB VFCTother
+I_PP1S
+'ll_MDWS CONT
+find_VB
 this_DEMO
 ._.
 oh_FPUH
 it_PIT
 's_VPRT CONT
-plugged_PASS PASSall
+plugged_PASS
 in_RP
 again_FREQ
 ._.
 huh_FPUH
 ?_.
 it_PIT
-keeps_VPRT ASPECT
-on_IN INother
+keeps_VPRT
+on_IN
 erm_FPUH
 yeah_DMA
 well_DMA
@@ -763,115 +763,115 @@ well_DMA
 oh_FPUH
 it_PIT
 's_VPRT CONT BEMA
-down_RB RBother
-to_IN INother
+down_RB
+to_IN
 three_CD
 got_VBD
-to_IN INother
+to_IN
 er_FPUH
-charge_NN NNABSPROC
+charge_NN
 ._.
-I_PP1S PP1
-think_VPRT MENTAL THATD
+I_PP1S
+think_VPRT THATD
 it_PIT
 's_VPRT CONT SPLIT
 probably_HDG
-gon_GTO MDPREDall
-na_IN INother
-happen_VB OCCUR
+gon_GTO
+na_IN
+happen_VB
 anyway_DMA
-I_PP1S PP1
-mean_VPRT COMM
+I_PP1S
+mean_VPRT
 why_WHQU
 do_VPRT DOAUX
 n't_XX0 CONT
-we_PP1P PP1
+we_PP1P
 ?_. WQ
 well_DMA
-we_PP1P PP1
-need_VPRT MENTAL
+we_PP1P
+need_VPRT
 a_DT
-plan_NN NSTNCother
+plan_NN
 do_VPRT DOAUX
 n't_XX0 CONT
-we_PP1P PP1
+we_PP1P
 ?_. QUTAG
 are_VPRT BEMA
-we_PP1P PP1
-gon_GTO MDPREDall
-na_IN INother
+we_PP1P
+gon_GTO
+na_IN
 do_VB ACT
 a_DT
 a_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 walk_NN NCOMP
-of_IN INother
+of_IN
 some_QUAN
-sort_NN NNABSPROC
+sort_NN
 ?_. YNQU
 yes_DMA
 ._.
 okay_FPUH
-which_WHSC WHSCother
-means_VPRT COMM
-that_THSC ThSTNCall ThVSTNCall ThVFCT ThVCOMM
-I_PP1S PP1
-suggest_VPRT COMM THATD
-we_PP1P PP1
+which_WHSC
+means_VPRT
+that_THSC
+I_PP1S
+suggest_VPRT THATD
+we_PP1P
 go_VPRT
 out_RP
-without_IN INother
-coffee_NN NNother
+without_IN
+coffee_NN
 and_CC
 have_VPRT
-coffee_NN NNother
+coffee_NN
 somewhere_QUPR
 unless_COND
 you_PP2
-want_VPRT MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
-bring_VB ACT
+want_VPRT
+to_IN
+bring_VB
 a_DT
-flask_NN NNother
-of_IN INother
-coffee_NN NNother
-then_RB RBother
-we_PP1P PP1
-could_MDCO MDPOSSCall
+flask_NN
+of_IN
+coffee_NN
+then_RB
+we_PP1P
+could_MDCO
 have_VB
 it_PIT
-on_IN INother
-our_PP1P PP1
-way_NN NNABSPROC
-would_MDWO MDPREDall
+on_IN
+our_PP1P
+way_NN
+would_MDWO
 be_VB BEMA
-nice_JJPR JJEVAL
+nice_JJPR
 ._.
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 pub_NN NCOMP
-crawl_NN NNother
+crawl_NN
 is_VPRT BEMA
 a_DT
-common_JJAT JJATother
-Google_NN NNP
+common_JJAT
+Google_NN
 search_NN NCOMP
 ._.
 yes_DMA
 now_TIME
-I_PP1S PP1
-think_VPRT MENTAL THATD
-I_PP1S PP1
-suspect_VPRT MENTAL THATD
-we_PP1P PP1
+I_PP1S
+think_VPRT THATD
+I_PP1S
+suspect_VPRT THATD
+we_PP1P
 are_VPRT SPLIT
-seriously_RB RBother
-lacking_PROG EXIST
-in_IN INother
-pubs_NN NNother
-between_IN INother
-IVYBRIDGE_NN NNP
+seriously_RB
+lacking_PROG
+in_IN
+pubs_NN
+between_IN
+IVYBRIDGE_NN
 and_CC
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 but_CC
 there_EX
 must_MDNE
@@ -880,154 +880,154 @@ one_CD
 somewhere_QUPR
 a_DT
 a_DT
-pub_NN NNother
-to_IN INother
+pub_NN
+to_IN
 aim_VB
-for_IN INother
-to_IN INother
+for_IN
+to_IN
 break_VB
 up_RP
 the_DT
-journey_NN NNother
-I_PP1S PP1
+journey_NN
+I_PP1S
 'm_VPRT CONT
-going_GTO MDPREDall
-to_IN INother
-wear_VB ACT
-my_PP1S PP1
-crappy_JJPR JJPRother
+going_GTO
+to_IN
+wear_VB
+my_PP1S
+crappy_JJPR
 but_CC
-warm_JJAT JJATother
-coat_NN NNother
+warm_JJAT
+coat_NN
 and_CC
-my_PP1S PP1
+my_PP1S
 well_DMA
 not_XX0
-quite_RB RBother
-crappy_JJPR JJPRother
+quite_RB
+crappy_JJPR
 but_CC
-comfortable_JJAT JJATother
-boots_NN NNother
+comfortable_JJAT
+boots_NN
 so_SO
-Doc_NN NNP
-Marten_NN NNP
+Doc_NN
+Marten_NN
 boots_NN NCOMP
 and_CC
-warm_JJAT JJATother
-coat_NN NNother
+warm_JJAT
+coat_NN
 ._.
 oh_FPUH
 there_EX
 are_VPRT
-pubs_NN NNother
+pubs_NN
 ._.
 oh_FPUH
 ._.
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 tavern_NN NCOMP
 must_MDNE
 be_VB SPLIT
 here_PLACE
 's_VPRT CONT BEMA
 the_DT
-IVYBRIDGE_NN NNP
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
+IVYBRIDGE_NN
 you_PP2
 've_VPRT CONT
 got_HGOT
-to_IN INother
-walk_VB ACT
+to_IN
+walk_VB
 all_QUAN
 the_DT
-way_NN NNABSPROC
+way_NN
 up_RP
-to_IN INother
+to_IN
 the_DT
-IVYBRIDGE_NN NNP
-before_IN INother
+IVYBRIDGE_NN
+before_IN
 you_PP2
 get_VPRT
 any_QUAN
-of_IN INother
-them_PP3P PP3
+of_IN
+them_PP3P
 ._.
 well_DMA
 this_DEMO
 is_VPRT BEMA
 the_DT
-thing_NN NNother
+thing_NN
 so_SO
-we_PP1P PP1
+we_PP1P
 've_VPRT CONT
 got_HGOT
-to_IN INother
+to_IN
 do_VB ACT
 about_HDG
 five_CD
-miles_NN NNQUANT
-before_IN INother
-we_PP1P PP1
-find_VPRT VFCTother
+miles_NN
+before_IN
+we_PP1P
+find_VPRT
 anything_QUPR
-what_WHSC WHSCother
-I_PP1S PP1
+what_WHSC
+I_PP1S
 was_VBD
-wondering_PROG MENTAL POLITE
-about_IN INother
+wondering_PROG POLITE
+about_IN
 is_VPRT
 something_QUPR
-that_THRC THRCother
-would_MDWO MDPREDall
+that_THRC
+would_MDWO
 break_VB
 it_PIT
 up_RP
-I_PP1S PP1
-need_VPRT MENTAL
-sunblock_NN NNother
+I_PP1S
+need_VPRT
+sunblock_NN
 as_CC
-well_RB RBother
-on_IN INother
+well_RB
+on_IN
 this_DEMO
 cos_CUZ
 you_PP2
-could_MDCO MDPOSSCall
+could_MDCO
 get_VB
-quite_RB RBother
-sunburnt_JJPR JJPRother
+quite_RB
+sunburnt_JJPR
 ._.
 mm._FPUH
-even_RB RBother
+even_RB
 though_CONC
 it_PIT
 's_VPRT CONT BEMA
-cold_JJPR JJPRother
+cold_JJPR
 ._.
 look_VIMP
 that_DEMO
 looks_VPRT
-nice_JJPR JJEVAL
+nice_JJPR
 does_VPRT DOAUX
 n't_XX0 CONT
 it_PIT
-dear_JJPR JJPRother
+dear_JJPR
 ?_. YNQU
 yes_DMA
 where_WHQU
 's_VPRT CONT BEMA
 the_DT
-microphone_NN NNother
-on_IN INother
+microphone_NN
+on_IN
 this_DEMO
-thing_NN NNother
+thing_NN
 ?_. WQ
 there_EX
 's_VPRT CONT
 nothing_QUPR
-to_IN INother
-suggest_VB COMM
+to_IN
+suggest_VB
 maybe_HDG
 that_DEMO
 's_VPRT CONT BEMA
@@ -1035,47 +1035,47 @@ the_DT
 no_DMA
 do_VPRT DOAUX
 n't_XX0 CONT
-think_VB MENTAL
+think_VB
 yeah_DMA
 maybe_HDG
 that_DEMO
 is_VPRT BEMA
 the_DT
-mic_NN NNother
+mic_NN
 do_VPRT DOAUX
 you_PP2
-think_VB MENTAL THATD
+think_VB THATD
 that_DEMO
 's_VPRT CONT BEMA
 the_DT
-microphone_NN NNother
+microphone_NN
 ?_. YNQU
 probably_HDG
 yes_DMA
 ._.
-in_IN INother
-which_WHSC WHSCother
-case_NN NNCONC
+in_IN
+which_WHSC
+case_NN
 it_PIT
 should_MDNE
 be_VB BEMA
 that_DEMO
-way_NN NNABSPROC
-round_RB RBother
+way_NN
+round_RB
 ._.
 dinnae_FPUH
-ken_NN NNP
+ken_NN
 ._.
 testing_VBG
 one_CD
 two_CD
 three_CD
-testing_NN NNother
+testing_NN
 is_VPRT BEMA
 it_PIT
-louder_JJPR COMPAR
+louder_JJPR
 if_COND
-I_PP1S PP1
+I_PP1S
 have_VPRT
 it_PIT
 there_PLACE
@@ -1083,121 +1083,121 @@ there_PLACE
 or_CC
 well_DMA
 the_DT
-thing_NN NNother
+thing_NN
 is_VPRT
 if_COND
-I_PP1S PP1
+I_PP1S
 have_VPRT
 it_PIT
 like_LIKE
-that_THSC THSCother
-I_PP1S PP1
+that_THSC
+I_PP1S
 'm_VPRT CONT
-covering_PROG ACT
+covering_PROG
 it_PIT
 up_RP
-well_RB RBother
-okay_JJAT JJATother
-technology_NN NNother
+well_RB
+okay_JJAT
+technology_NN
 ay_FPUH
 ?_. YNQU
-I_PP1S PP1
-suggest_VPRT COMM THATD
-we_PP1P PP1
+I_PP1S
+suggest_VPRT THATD
+we_PP1P
 have_VPRT
-coffee_NN NNother
-in_IN INother
+coffee_NN
+in_IN
 the_DT
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
 café_NN NCOMP
-to_IN INother
-start_VB ASPECT
-with_IN INother
+to_IN
+start_VB
+with_IN
 but_CC
 do_VPRT DOAUX
 you_PP2
-want_VB MENTAL
-me_PP1S PP1
-me_PP1S PP1
-to_IN INother
-make_VB ACT
+want_VB
+me_PP1S
+me_PP1S
+to_IN
+make_VB
 a_DT
-flask_NN NNother
+flask_NN
 ?_. YNQU
 oh_FPUH
 no_DMA
 because_CUZ
 you_PP2
-'d_MDWO MDPREDall CONT
-want_VB MENTAL
-black_JJAT JJDESCall JJCOLR
-coffee_NN NNother
+'d_MDWO CONT
+want_VB
+black_JJAT
+coffee_NN
 and_CC
-I_PP1S PP1
-'d_MDWO MDPREDall CONT
-want_VB MENTAL
-white_JJAT JJDESCall JJCOLR
-coffee_NN NNother
+I_PP1S
+'d_MDWO CONT
+want_VB
+white_JJAT
+coffee_NN
 ._.
 a_DT
-flask_NN NNother
+flask_NN
 ?_. YNQU
 yes_DMA
 ._.
-how_WHSC WHSCother
-sweet_JJPR JJPRother
+how_WHSC
+sweet_JJPR
 ._.
 yes_DMA
 when_WHQU
 does_VPRT DOAUX
 it_PIT
 get_VB
-dark_JJPR JJDESCall JJCOLR
+dark_JJPR
 now_TIME
 ?_. WQ
 well_DMA
 it_PIT
 's_VPRT CONT BEMA
-still_RB RBother
-light_JJPR JJPRother
-when_WHSC WHSCother
-I_PP1S PP1
-when_WHSC WHSCother
+still_RB
+light_JJPR
+when_WHSC
+I_PP1S
+when_WHSC
 it_PIT
 's_VPRT CONT BEMA
-dark_JJPR JJDESCall JJCOLR
-when_WHSC WHSCother
-I_PP1S PP1
-leave_VPRT ACT
-my_PP1S PP1
+dark_JJPR
+when_WHSC
+I_PP1S
+leave_VPRT
+my_PP1S
 er_FPUH
 erm_FPUH
-at_IN INother
+at_IN
 six_CD
 ._.
-I_PP1S PP1
-thought_VBD MENTAL THATD
+I_PP1S
+thought_VBD THATD
 it_PIT
 was_VBD BEMA
-quite_RB RBother
-light_JJAT JJATother
+quite_RB
+light_JJAT
 yesterday_TIME
-I_PP1S PP1
-remember_VPRT MENTAL
-thinking_VBG MENTAL
+I_PP1S
+remember_VPRT
+thinking_VBG
 oh_FPUH
 it_PIT
 's_VPRT CONT BEMA
-still_RB RBother
-light_JJPR JJPRother
+still_RB
+light_JJPR
 so_SO
 but_CC
-I_PP1S PP1
+I_PP1S
 can't_MDother
-remember_VB MENTAL
-what_WHSC WhVSTNCall WhVFCT
-time_NN NNQUANT
-that_THRC THRCother
+remember_VB
+what_WHSC
+time_NN
+that_THRC
 was_VBD
 ._.
 six_CD
@@ -1207,107 +1207,107 @@ it_PIT
 's_VPRT CONT BEMA
 already_TIME
 one_CD
-o'clock_NN NNCONC
+o'clock_NN
 we'd_PRPother CONT
 have_MDNE
-to_IN INother
-leave_VB ACT
+to_IN
+leave_VB
 the_DT
-house_NN NNGRP
-posthaste_RB RBother
+house_NN
+posthaste_RB
 so_SO
-I_PP1S PP1
+I_PP1S
 can't_MDother
-see_VB MENTAL
+see_VB
 anything_QUPR
-else_JJPR JJPRother
-that_THRC THRCother
-might_MDMM MDPOSSCall
+else_JJPR
+that_THRC
+might_MDMM
 be_VB BEMA
 a_DT
 oh_FPUH
-could_MDCO MDPOSSCall
+could_MDCO
 that_DEMO
 be_VB BEMA
 a_DT
-microphone_NN NNother
+microphone_NN
 ?_. YNQU
 mm_FPUH
 that_DEMO
-might_MDMM MDPOSSCall
+might_MDMM
 be_VB BEMA
 a_DT
-microphone_NN NNother
-see_VB MENTAL
+microphone_NN
+see_VB
 a_DT
 lot_QUAN
-of_IN INother
+of_IN
 those_DEMO
 are_VPRT
 are_VPRT BEMA
-quite_RB RBother
-old_JJPR JJTIME
+quite_RB
+old_JJPR
 cos_CUZ
-they_PP3P PP3
+they_PP3P
 were_VBD
-written_PASS PASSall COMM
-when_WHSC WHSCother
-they_PP3P PP3
+written_PASS
+when_WHSC
+they_PP3P
 were_VBD
 constructing_PROG
 the_DT
-Thames_NN NNP
+Thames_NN
 path_NN NCOMP
 ._.
 it_PIT
 's_VPRT CONT
 going_PROG
 the_DT
-other_JJAT JJATother
-way_NN NNABSPROC
+other_JJAT
+way_NN
 this_DEMO
-one_NN NNother
+one_NN
 ._.
 where_WHQU
 from_IN STPR
 ?_. WQ
-IVYBRIDGE_NN NNP
-to_IN INother
-IVYBRIDGE_NN NNP
+IVYBRIDGE_NN
+to_IN
+IVYBRIDGE_NN
 ._.
 well_DMA
-we_PP1P PP1
-want_VPRT MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
+we_PP1P
+want_VPRT
+to_IN
 go_VB
-well_RB RBother
-we_PP1P PP1
+well_RB
+we_PP1P
 need_MDNE
-to_IN INother
-find_VB VFCTother
+to_IN
+find_VB
 out_RP
-about_IN INother
+about_IN
 it_PIT
-we_PP1P PP1
+we_PP1P
 've_VPRT CONT
 not_XX0
 done_PEAS ACT
 anything_QUPR
-of_IN INother
+of_IN
 the_DT
-sort_NN NNABSPROC
+sort_NN
 yet_TIME
 and_CC
-we_PP1P PP1
+we_PP1P
 've_VPRT CONT
 been_PEAS BEMA
 here_PLACE
-for_IN INother
+for_IN
 three_CD
-years_NN NNother
+years_NN
 ._.
-we_PP1P PP1
-'ll_MDWS MDPREDall CONT
+we_PP1P
+'ll_MDWS CONT
 do_VB ACT
 it_PIT
 today_TIME

@@ -171,7 +171,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for index, x in enumerate(words):
         #skip if space
         if x != " ":
-            #Shakir @ mentions tagged as nicknames, correct tags like JJ to NN
+            #Shakir @mentions (frequent in e-language) tagged as a new feature category, thus correcting tags such as JJ to NN
             if (re.search(r"^@\S+_", words[index], re.IGNORECASE)):
                 #print(words[index])
                 words[index] = re.sub("_(\w+)", "_NN NNMention", words[index])
@@ -481,7 +481,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
             # Tags phrasal coordination with "and", "or" and "nor". 
-            # ELF: Not currently in use due to relatively low precision and recall (see tagger performance evaluation).
+            # ELF: Not currently in use due to relatively low precision and recall (see perl tagger performance evaluation).
             #if ((re.search("\\band_|\\bor_|&_|\\bnor_", words[j], re.IGNORECASE)) and
             # ((re.search("_RB", words[j-1]) and re.search("_RB", words[j+1])) or
             #(re.search("_J", words[j-1]) and re.search("_J", words[j+1])) or
@@ -1821,7 +1821,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     """
     df_new: pd.DataFrame  = df.copy(deep=True)
     #multiply by 100
-    cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "NTotal", "VBTotal"]]
+    cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
     df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
     # List of features to be normalised per 100 nouns:
     # Shakir: noun semantic classes will be normalized per 100 nouns "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNTECH", "NNABSPROC", "NOMZ", "NSTNCother"
@@ -1830,7 +1830,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCall"
     NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCall", "NOMZ", "NSTNCother", "JJDESCall", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCallother", "NNMention", "NNP"]
     NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
-    df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.NTotal.values, axis=0) #divide by total nouns
+    df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.Ntotal.values, axis=0) #divide by total nouns
     # Features to be normalised per 100 (very crudely defined) finite verbs:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
@@ -1838,12 +1838,12 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3S", "PP3P", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1", "PP3", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "COMPAR", "SUPER"]
+            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1", "PP3", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother"]
     FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
-    df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBTotal.values, axis=0) #divide by total verbs
+    df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBtotal.values, axis=0) #divide by total verbs
     # All other features should be normalised per 100 words:
     other_cols = [col for col in df_new.columns if col not in NNTnorm if col not in FVnorm] #remove nouns and verbs related cols
-    other_cols = [col for col in other_cols if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "NTotal", "VBTotal"]] # exclude total counts and averages
+    other_cols = [col for col in other_cols if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]] # exclude total counts and averages
     df_new.loc[:, other_cols] = df.loc[:, other_cols].div(df.Words.values, axis=0) #divide by total words
     return df_new
 
@@ -1856,7 +1856,7 @@ def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     """
     df_new: pd.DataFrame  = df.copy(deep=True)
     #multiply by 100
-    cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "NTotal", "VBTotal"]]
+    cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
     df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
     df_new.loc[:, cols_without_averages] = df.loc[:, cols_without_averages].div(df.Words.values, axis=0) #divide by total words
     return df_new
@@ -1870,7 +1870,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         df_sorted (pd.DataFrame): sorted df
     """
-    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "AWL", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LDE", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "Ppother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "TTR", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "Words", "XX0", "YNQU", "NTotal", "VBTotal"]]
+    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "AWL", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LDE", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "Ppother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "TTR", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "Words", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
     extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1", "PP3", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
     extended.sort()
@@ -1910,10 +1910,10 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
             # EFL: Counting total nouns for per 100 noun normalisation
             # Shakir: list of words that match the given regex, then take its length as total nouns 
-            NTotal = len([word for word in words if re.search(r"_NN", word)])
+            Ntotal = len([word for word in words if re.search(r"_NN", word)])
             # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
             #Shakir: list of words that match the given regex, then take its length as total verbs
-            VBTotal = len([word for word in words if re.search(r"_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS", word)])
+            VBtotal = len([word for word in words if re.search(r"_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS", word)])
             # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
             # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
             list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX", word) if re.search(r"^\S+_\S+$", word)]
@@ -1932,7 +1932,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             tag_freq = dict(collections.Counter(tags))
             # Shakir: sort tag_freq
             tag_freq = dict(sorted(tag_freq.items()))
-            temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'NTotal': NTotal, 'VBTotal': VBTotal}
+            temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'Ntotal': Ntotal, 'VBtotal': VBtotal}
             #update temp dict with tag freq
             temp_dict.update(tag_freq)
             list_of_dicts.append(temp_dict)
@@ -1952,42 +1952,42 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
-#     ttr = 400
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
-#     t_0 = timeit.default_timer()
-#     tag_stanford_stanza(input_dir, output_stanford)
-#     t_1 = timeit.default_timer()
-#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-#     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-#     tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
-#     do_counts(output_MD, output_stats, ttr)
-
 if __name__ == "__main__":
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    #input_dir = r"D:\Downloads\Elanguage\\" 
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
     ttr = 400
-    # record start time
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
     tag_stanford_stanza(input_dir, output_stanford)
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
     tag_MD(output_stanford, output_MD, extended=True)
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
+
+# if __name__ == "__main__":
+#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #input_dir = r"D:\Downloads\Elanguage\\" 
+#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
+#     ttr = 400
+#     # record start time
+#     t_0 = timeit.default_timer()
+#     tag_stanford_stanza(input_dir, output_stanford)
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     t_1 = timeit.default_timer()
+#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+#     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+#     tag_MD(output_stanford, output_MD, extended=True)
+#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     do_counts(output_MD, output_stats, ttr)

@@ -1,81 +1,81 @@
 Do_VPRT DOAUX
 you_PP2
-know_VB MENTAL
-what_WHSC WhVSTNCall WhVFCT
-I_PP1S PP1
-mean_VPRT COMM
+know_VB
+what_WHSC
+I_PP1S
+mean_VPRT
 ?_. YNQU
 What_WHQU
 do_VPRT DOAUX
 you_PP2
-mean_VB COMM THATD
+mean_VB THATD
 you_PP2
 do_VPRT DOAUX
 n't_XX0 CONT
-know_VB MENTAL
+know_VB
 ?_. WQ
 What_WHQU
 does_VPRT DOAUX
 this_DEMO
-mean_VB COMM
+mean_VB
 anyway_DMA
 ?_. WQ
 What_WHQU
 is_VPRT BEMA
 your_PP2
-idea_NN NSTNCother
-as_RB RBother
+idea_NN
+as_RB
 far_PLACE
-as_IN INother
+as_IN
 this_DEMO
 is_VPRT BEMA
-concerned_JJPR JJATDother
+concerned_JJPR
 ?_. WQ
 How_WHQU
 many_QUAN
-times_NN NNQUANT
+times_NN
 do_VPRT DOAUX
-I_PP1S PP1
+I_PP1S
 have_MDNE
-to_IN INother
-tell_VB COMM
+to_IN
+tell_VB
 you_PP2
 not_XX0
-to_IN INother
-bother_VB MENTAL
+to_IN
+bother_VB
 ?_. WQ
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 'nt_XX0
-know_VB MENTAL
+know_VB
 if_COND
 this_DEMO
-works_VPRT ACT
+works_VPRT
 ._.
 do_VIMP DOAUX
 'nt_XX0
-know_VB MENTAL
+know_VB
 if_COND
 this_DEMO
-works_VPRT ACT
+works_VPRT
 ._.
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 'nt_XX0
-Know_VB MENTAL
+Know_VB
 If_COND
 This_DEMO
-wOrKs_VPRT ACT
+wOrKs_VPRT
 ?_. YNQU
-I_PP1S PP1
-can_MDCA MDPOSSCall
+I_PP1S
+can_MDCA
 not_XX0
-believe_VB MENTAL
+believe_VB
 it_PIT
 ._.
-I_PP1S PP1
-can_MDCA MDPOSSCall
+I_PP1S
+can_MDCA
 not_XX0
-Believe_VB MENTAL
+Believe_VB
 it_PIT
 !_.
