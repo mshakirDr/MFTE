@@ -31,8 +31,8 @@ SL_NNP politics_NNS is_VBZ at_IN a_DT digusting_NN level_NN n_CC u_PRP r_VBP one
 Who_WP cares_VBZ ?_.
 We_PRP are_VBP fed_VBN -_HYPH up_IN of_IN all_PDT these_DT nuisance_NN ._.
 Enough_RB is_VBZ enough_JJ ._.
-Dont_MD waste_VB our_PRP$ money_NN ._.
-Dont_MD tax_VB us_PRP for_IN these_DT jokes_NNS and_CC jokers_NNS
+do_VB 'nt_RB waste_VB our_PRP$ money_NN ._.
+do_VB 'nt_RB tax_VB us_PRP for_IN these_DT jokes_NNS and_CC jokers_NNS
 Now_RB to_TO get_VB control_NN of_IN SLFP_NNP ?_.
 What_WDT a_DT drama_NN ?_.
 Curse_VB the_DT voters_NNS who_WP voted_VBD you_PRP guys_NNS into_IN parliament_NN ._.
@@ -194,7 +194,7 @@ What_WP a_DT lovely_JJ refreshing_JJ article_NN !_.
 Concentrating_VBG on_IN the_DT environment_NN and_CC helpless_JJ animals_NNS instead_RB of_IN uneducated_JJ politicians_NNS and_CC their_PRP$ damaging_VBG drama_NN ._.
 Great_JJ work_NN daily_JJ mirror_NN !_.
 After_IN all_DT ,_, cost_NN of_IN one_CD Bullet_NN Proof_NN car_NN costs_VBZ only_RB Rs._$ 180,000,000_CD /_, =._SYM
-So_RB ,_, Whats_VB the_DT big_JJ deal_NN ??_.
+So_RB ,_, what_WP 's_VBZ the_DT big_JJ deal_NN ??_.
 The_DT EFFECT_NN of_IN rioting_NN is_VBZ a_DT dispicable_JJ and_CC unnecessary_JJ act_NN ._.
 Not_RB condoning_VBG the_DT riots_NNS ,_, but_CC damaged_VBN goods_NNS can_MD be_VB replaced_VBN and_CC re-built_VBN ._.
 The_DT cost_NN of_IN lost_VBN lives_NNS is_VBZ priceless_JJ !_.

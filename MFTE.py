@@ -350,7 +350,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Getting rid of the Stanford Tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
             if ((re.search("_PDT", words[j], re.IGNORECASE)) or 
             (re.search("\\ball_|\\bany_|\\bboth_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|\\bmany_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|\\bwee_", words[j], re.IGNORECASE))or
-
             (re.search("\\bload_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+", words[j+1], re.IGNORECASE)) or
             (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added "a lot (of)" and removed NULL tags
@@ -503,7 +502,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
         try:
             if ((re.search("\\bmost_DT", words[j], re.IGNORECASE)) or
             (re.search("\\breal__|\\bdead_|\\bdamn_", words[j], re.IGNORECASE) and re.search("_J", words[j+1])) or
-            (re.search("\\bat_|\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j])) or
+            #(re.search("\\bat_|\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j])) or
             (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bfar_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
@@ -514,12 +513,12 @@ def process_sentence (words: list, extended: bool = False) -> list:
         try:
             if ((re.search("\\bloads_", words[j], re.IGNORECASE) and not re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\b(" + do + ")", words[j], re.IGNORECASE) and re.search("_VB\\b", words[j+1])) or
-            (re.search("\\bjust_|\\bbest_|\\breally_|\\bmost_JJ|\\bmost_RB|\\bbloody_|\\bfucking_|\\bfuck_|\\bshit_|\\bsuper_", words[j], re.IGNORECASE)) or
+            #(re.search("\\bjust_|\\bbest_|\\breally_|\\bmost_JJ|\\bmost_RB|\\bbloody_|\\bfucking_|\\bfuck_|\\bshit_|\\bsuper_", words[j], re.IGNORECASE)) or
             (re.search("\\bfor_", words[j], re.IGNORECASE) and re.search("\\bsure_", words[j+1], re.IGNORECASE))): 
                 words[j] = re.sub("_(\w+)", "_\\1 EMPH", words[j])
         except IndexError:
             continue
-
+        
         #---------------------------------------------------
 
         # Tags phrasal coordination with "and", "or" and "nor". 
@@ -689,12 +688,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
         try:
             # Tags imperatives (in a rather crude way). 
             # ELF: This is a new variable.
-            if ((re.search("_\W|_EMO|_FW|_SYM", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
+            if ((re.search("_\\.|_EMO|_FW|_SYM| $", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             #(re.search("_\W|_EMO|_FW|_SYM", words[j-2])  and not re.search("_,", words[j-2]) and not re.search("_MD", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|\\b_NNP", words[j+1], re.IGNORECASE)) or # Allows for one intervening token between end of previous sentence and imperative verb, e.g., "Just do it!". This line is not recommended for the Spoken BNC2014 and any texts with not particularly good punctuation.
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-2]) and not re.search(":_|'_|,_|-RRB-", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
+            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
+            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
             #(re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
-            (re.search("_\W|_EMO|_FW|_SYM|_HST", words[j-1]) and not re.search(":_|'_|,_|-RRB-", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
+            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.
+            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
             #(re.search("\\bwork_", words[j], re.IGNORECASE) and re.search("\\bin_", words[j+1], re.IGNORECASE) and re.search("\\bpairs_", words[j+2], re.IGNORECASE))): # Work in pairs because it occurs 700+ times in the Textbook English Corpus (TEC) and "work" is always incorrectly tagged as a noun there.
                 words[j] = re.sub("_\w+", "_VIMP", words[j]) 
         except IndexError:
@@ -1127,8 +1127,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for index, x in enumerate(words):
 
         # Tags amplifiers 
-        # ELF: Added "more" as an adverb (note that "more" as an adjective is tagged as a quantifier further up)
-        if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bmore_RB|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
+        if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
             words[index] = re.sub("_\w+", "_AMP", words[index])
 
         # Tags downtoners
@@ -1374,12 +1373,26 @@ def process_sentence_extended (words: list) -> list:
         if (re.search("\\b(" + jj_att_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])): 
             words[j] = re.sub("_(\w+)", "_\\1 JJATDother", words[j])
 
-
-
         if (re.search("\\b(" + jj_epist_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])):
             words[j] = re.sub("_(\w+)", "_\\1 JJEPSTother", words[j])
 
-    #----------------------------------------------------    
+        #---------------------------------------------------
+
+        # ELF: New features (for extended MFTE python output) 
+        # Tags for comparative and superlative constructions
+        try:
+            if ((re.search("est_J|est_RB|\\bworst_|\\bbest-", words[j], re.IGNORECASE) and not re.search("\\btest|honest_|west_|after_|\\bpest_|\\blest_|\\bguest_", words[j], re.IGNORECASE)) or # E.g., widest, furthest, worst, best-looking
+            (re.search("\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j]) and re.search("_J|_RB", words[j+1]))): # E.g., the most pressing, the cheapest
+                words[j] = re.sub("_(\w+)", "_\\1 SUPER", words[j])
+        except IndexError:
+            continue
+
+        try:
+            if ((re.search("er_J|er_RB|\\bworse_|\\bbetter-", words[j], re.IGNORECASE) and not re.search("never_|rather_|other_|\\bever_|together_|proper_|super_|clever_|\\beager_|queer_|hyper_|\\butter_|\\binner_|bitter_|premier_|sinister_|\\bsober_|order_|over_", words[j], re.IGNORECASE)) or # E.g., wider, further, better-looking.
+            (re.search("\\bless_|\\bmore_", words[j]) and re.search("_J|_RB", words[j+1]))): # E.g., more pressing, less important.
+                words[j] = re.sub("_(\w+)", "_\\1 COMPAR", words[j])
+        except IndexError:
+            continue
     
     #----------------------------------------------------
     #Shakir: to and split infin clauses followed by vb adj nouns.
@@ -1448,12 +1461,12 @@ def process_sentence_extended (words: list) -> list:
         #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
                 
         if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCall", words[j])
 
 
 
         if (re.search(" (ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ToJSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ToJSTNCall", words[j])
 
 
     # ####
@@ -1469,7 +1482,7 @@ def process_sentence_extended (words: list) -> list:
 
 
         if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ToSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ToSTNCall", words[j])
 
 
 
@@ -1744,30 +1757,30 @@ def process_sentence_extended (words: list) -> list:
 
         #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
         if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCall", words[j])
 
         # #Shakir: sums of that clauses for vb other than comm verbs
         # if (re.search(" (ThVATT|ThVFCT|ThVLIK)", words[j])):
         #     words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCother", words[j])
 
         if (re.search(" (ThJATT|ThJFCT|ThJLIK|ThJEVL)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ThJSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ThJSTNCall", words[j])
 
 
         if (re.search(" (ThNNFCT|ThNATT|ThNFCT|ThNLIK)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ThNSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ThNSTNCall", words[j])
 
 
         if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK|ThJATT|ThJFCT|ThJLIK|ThJEVL|ThNNFCT|ThNATT|ThNFCT|ThNLIK)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ThSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 ThSTNCall", words[j])
 
         #Shakir: wh vb stance all
         if (re.search(" (WhVATT|WhVFCT|WhVLIK|WhVCOM)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 WhVSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 WhVSTNCall", words[j])
 
         #Shakir: adverb stance all
         if (re.search(" (RATT|RNONFACT|RFACT|RLIKELY)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 RSTNCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 RSTNCall", words[j])
 
         # #Shakir: adverb stance other than RFACT
         # if (re.search(" (RATT|RNONFACT|RLIKELY)", words[j])):
@@ -1776,27 +1789,27 @@ def process_sentence_extended (words: list) -> list:
 
         #Shakir: all possibility modals Biber 1988
         if (re.search("(MDCA|MDCO|MDMM)", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 MDPOSSCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 MDPOSSCall", words[j])
 
 
         #Shakir: all prediction modals Biber 1988 + Going to
         if (re.search("(MDWS|MDWO|GTO)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 MDPREDAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 MDPREDall", words[j])
 
 
         #Shakir: all passive voice as Le Foll counts PASS and PGET
         if (re.search("(PASS|PGET)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 PASSAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 PASSall", words[j])
 
 
         #Shakir: all stance noun complements (To + Th)
-        if (re.search("(ToNSTNC|ThNSTNCAll)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ToThNSTNCAll", words[j])
+        if (re.search("(ToNSTNC|ThNSTNCall)\\b", words[j])):
+            words[j] = re.sub("_(\w+)", "_\\1 ToThNSTNCall", words[j])
 
 
         #Shakir: consolidate description adjectives
         if (re.search("(JJSIZE|JJCOLR)\\b", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 JJDESCAll", words[j])
+            words[j] = re.sub("_(\w+)", "_\\1 JJDESCall", words[j])
 
         # #Shakir: consolidate stance adjectives
         # if (re.search("(JJEPSTother|JJATDother)\\b", words[j])):
@@ -1883,12 +1896,12 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
         #break
 
 def get_ttr(tokens: list, n: int) -> float:
-    """Retuns type token ration based on the first n words as specified in user input number of tokens n
+    """Retuns type token ratio based on the first n words as specified in user input number of tokens n
     Args:
-        tokens (list): list of tokens to count ttr
-        n (int): number of tokens to consider
+        tokens (list): list of tokens to count TTR
+        n (int): number of tokens to consider (should be at least as long as the shortest text in the corpus!)
     Returns:
-        tt_ratio (float): type token ration
+        tt_ratio (float): Type Token Ratio
     """
     if len(tokens) >= n: #if len tokens greater than or equal to n
         #take first n tokens from tokens list
@@ -1915,20 +1928,20 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
     # List of features to be normalised per 100 nouns:
     # Shakir: noun semantic classes will be normalized per 100 nouns "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNTECH", "NNABSPROC", "NOMZ", "NSTNCother"
-    # Shakir: noun governed that clauses will be normalized per 100 nouns "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "ToNSTNC", "ToThNSTNCAll", "PrepNSTNC". THRCother is THRC minus TH_N clauses
+    # Shakir: noun governed that clauses will be normalized per 100 nouns "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "ToNSTNC", "ToThNSTNCall", "PrepNSTNC". THRCother is THRC minus TH_N clauses
     # Shakir: two sub classes of attributive adjectives "JJEPSTother", "JJATDother", also dependent on nouns. "JJATother" is JJAT minus the prev two classes
-    # Shakir: STNCAll variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCAll"
-    NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCAll", "NOMZ", "NSTNCother", "JJDESCAll", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCAllother", "NNMention", "NNP"]
+    # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCall"
+    NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCall", "NOMZ", "NSTNCother", "JJDESCall", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCallother", "NNMention", "NNP"]
     NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
     df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.NTotal.values, axis=0) #divide by total nouns
     # Features to be normalised per 100 (very crudely defined) finite verbs:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
     # Shakir: note THSCother and WHSCother are THSC and WHSC minus all new above TH and WH verb/adj clauses, "JJPRother" is JJPR without epistemic and attitudinal adjectives
-    # Shakir: STNCAll variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCAll", "ToVSTNCother", "ThVSTNCAll", "ThVSTNCother", "ThJSTNCAll"
+    # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3S", "PP3P", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCAll", "ThVSTNCAll", "ThJSTNCAll", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1", "PP3", "WHSCother", "THSCother", "THRCother", "MDPOSSCAll", "MDPREDAll", "PASSAll", "WhVSTNCAll", "MDother", "PRPother"]
+            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1", "PP3", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "COMPAR", "SUPER"]
     FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBTotal.values, axis=0) #divide by total verbs
     # All other features should be normalised per 100 words:
@@ -1990,7 +2003,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
             lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
             #print(len(tokens), lex_density)
-            ttr = get_ttr(tokens, n_tokens) #Shakir calculate type token ration
+            ttr = get_ttr(tokens, n_tokens) #Shakir calculate type token ratio
             # Shakir: get tags only, remove words and exclude certain (non-meaningful) tags from count
             # ELF: The list of tags for which no counts will be returned can be found here.
             # The following tags are excluded by default because they are "bin" tags designed to remove problematic tokens from other categories: LIKE and SO

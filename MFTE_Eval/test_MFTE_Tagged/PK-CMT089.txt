@@ -7,7 +7,7 @@ great_JJAT JJEVAL
 sorrow_NN NNother
 that_DEMO
 ,_,
-mainly_RB RSTNCAll RNONFACT
+mainly_RB RSTNCall RNONFACT
 through_IN INother
 mistaken_JJAT JJATother
 notions_NN NNCOG
@@ -49,7 +49,7 @@ proclaimed_VBN
 and_CC
 inculcated_VBN
 the_DT
-widest_JJAT JJATother
+widest_JJAT SUPER
 tolerance_NN NNother
 ._.
 For_IN INother
@@ -62,7 +62,7 @@ freedom_NN NNABSPROC
 of_IN INother
 conscience_NN NNother
 is_VPRT
-concerned_PASS PASSAll EXIST
+concerned_PASS PASSall EXIST
 the_DT
 Quran_NN NNP
 says_VPRT COMM
@@ -71,7 +71,7 @@ himself_PP3S PP3
 called_VBD COMM
 Zafrullah_NN NNP
 the_DT
-most_EMPH
+most_RB SUPER
 able_JJAT JJATother
 Muslim_NN NNP
 in_IN INother
@@ -83,16 +83,16 @@ story_NN NNother
 ._.
 Umer_NN NNP
 The_DT
-oddest_JJAT JJATother
+oddest_JJAT SUPER
 part_NN NNQUANT
 is_VPRT
 that_THSC THSCother
 liberals_NN NNother
 who_WHSC WHSCother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 not_XX0
 be_VB
-caught_PASS PASSAll ACT
+caught_PASS PASSall ACT
 dead_JJPR JJPRother
 praising_VBG
 Madoodi_NN NNP
@@ -118,14 +118,14 @@ fundamentalist_JJAT JJATother
 Do_VPRT ACT
 we_PP1P PP1
 still_RB RBother
-hold_VB ACT
+hold_VIMP ACT
 to_IN INother
 the_DT
 myth_NN NNother
 that_THSC THSCother
 successful_JJPR JJPRother
 lawyers_NN NNHUMAN
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 not_XX0
 be_VB BEMA
 religious_JJPR JJPRother
@@ -169,7 +169,7 @@ you_PP2
 as_IN INother
 usual_JJPR JJPRother
 tries_VPRT ACT
-to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+to_IN ToSTNCall ToVSTNCall ToVEFRT
 emphasis_VB
 on_IN INother
 wrong_JJAT JJATother
@@ -189,7 +189,7 @@ our_PP1P PP1
 youngsters_NN NNother
 have_VPRT
 been_PEAS
-made_PASS PASSAll ACT
+made_PASS PASSall ACT
 oblivious_JJPR JJPRother
 of_IN INother
 the_DT
@@ -247,7 +247,7 @@ comments_NN NSTNCother
 but_CC
 I_PP1S PP1
 am_VPRT
-amazed_PASS PASSAll
+amazed_PASS PASSall
 at_IN INother
 your_PP2
 obsession_NN NNother
@@ -268,12 +268,12 @@ BTW_FPUH
 ,_,
 is_VPRT SPLIT
 wrongly_RB RBother
-translated_PASS PASSAll
+translated_PASS PASSall
 into_IN INother
 English_NN NNP
 as_IN INother
 "_``
-Read_VIMP MENTAL
+Read_VB MENTAL
 !_.
 "_''
 ._.
@@ -282,7 +282,7 @@ fact_NN NSTNCother ELAB
 it_PIT
 means_VPRT COMM
 "_``
-Recite_VIMP
+Recite_VB
 !_.
 "_''
 or_CC
@@ -291,7 +291,7 @@ repeat_VB ACT
 what_WHSC WHSCother
 is_VPRT SPLIT
 orally_RB RBother
-communicated_PASS PASSAll
+communicated_PASS PASSall
 to_IN INother
 you_PP2
 ._.
@@ -307,19 +307,19 @@ an_DT
 oral_JJAT JJTOPIC
 message_NN NNTECH
 was_VBD
-required_PASS PASSAll CAUSE
+required_PASS PASSall CAUSE
 to_IN INother
 be_VB
-repeated_PASS PASSAll ACT
+repeated_PASS PASSall ACT
 verbatim_RB RBother
 ;_:
 no_DMA
 written_VBN COMM THATD
 text_NN NNother
 was_VBD
-involved_PASS PASSAll EXIST
+involved_PASS PASSall EXIST
 which_WHSC WHSCother
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 be_VB
 "_``
 read_VBN MENTAL
@@ -363,10 +363,10 @@ anti-minority_NN NOMZ
 laws_NN NCOMP
 like_LIKE
 minorities_NN NOMZ
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 not_XX0
 occupy_VB
-highest_JJAT JJATother
+highest_JJAT SUPER
 posts_NN NNCONC
 like_LIKE
 president_NN NNHUMAN
@@ -411,7 +411,7 @@ distorted_VBN
 Sir_NN NNP
 Zafarullah_NN NNP
 was_VBD
-respected_PASS PASSAll
+respected_PASS PASSall
 in_IN INother
 10_CD
 downing_NN NNother
@@ -422,7 +422,7 @@ you_PP2
 it_PIT
 signifies_VPRT
 a_DT
-deep_JJAT JJDESCAll JJSIZE
+deep_JJAT JJDESCall JJSIZE
 underlying_JJAT JJATother
 conspiracy_NN NNother
 ;_:
@@ -477,10 +477,10 @@ inhuman_JJAT JJATother
 treatment_NN NNABSPROC
 should_MDNE
 be_VB
-condemned_PASS PASSAll
+condemned_PASS PASSall
 in_IN INother
 the_DT
-toughest_JJAT JJATother
+toughest_JJAT SUPER
 possible_JJAT JJEPSTother
 words_NN NNTECH
 ._.
@@ -503,7 +503,7 @@ in_IN INother
 the_DT
 constituent_JJAT JJATother
 assembly_NN NNother
-Forgive_VB MENTAL
+Forgive_VIMP MENTAL
 me_PP1S PP1
 if_COND
 I_PP1S PP1
@@ -529,7 +529,7 @@ how_WHQU
 is_VPRT
 it_PIT
 being_PROG
-portrayed_PASS PASSAll
+portrayed_PASS PASSall
 as_IN INother
 cure_NN NNother
 ,_,
@@ -552,7 +552,7 @@ army_NN NNother
 /_,
 ISI_NN NNP
 is_VPRT
-limited_PASS PASSAll
+limited_PASS PASSall
 to_IN INother
 only_JJAT JJATother
 security_NN NNABSPROC
@@ -562,14 +562,14 @@ forces_NN NNother
 ,_,
 then_RB RBother
 Pakistan_NN NNP
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 become_VB OCCUR
 like_LIKE
 India_NN NNP
 ._.
 Now_TIME
 that_DEMO
-may_MDMM MDPOSSCAll
+may_MDMM MDPOSSCall
 not_XX0
 be_VB BEMA
 good_JJPR JJEVAL
@@ -580,10 +580,10 @@ from_IN INother
 perfect_JJPR JJPRother
 but_CC
 it_PIT
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 a_DT
-big_JJAT JJDESCAll JJSIZE
+big_JJAT JJDESCall JJSIZE
 improvement_NN NOMZ
 over_IN INother
 the_DT
@@ -607,7 +607,7 @@ army_NN NNother
 ISI_NN NNP
 is_VPRT BEMA
 the_DT
-richest_JJAT JJATother
+richest_JJAT SUPER
 organization_NN NNPLACE
 in_IN INother
 Pakistan_NN NNP
@@ -712,8 +712,8 @@ nation_NN NOMZ
 and_CC
 its_PIT
 people_NN NNHUMAN
-will_MDWS MDPREDAll SPLIT
-definitely_RB RSTNCAll RFACT
+will_MDWS MDPREDall SPLIT
+definitely_RB RSTNCall RFACT
 suffer_VB MENTAL
 ._.
 Pakistan_NN NNP
@@ -738,13 +738,13 @@ Religious_JJAT JJATother
 quicksand_NN NNother
 it_PIT
 is_VPRT
-stuck_PASS PASSAll
+stuck_PASS PASSall
 in_RP
 ._.
 Citizens_NN NNHUMAN
 have_VPRT
 been_PEAS
-lied_PASS PASSAll ACT
+lied_PASS PASSall ACT
 to_IN INother
 so_EMPH
 brazenly_RB RBother
@@ -778,7 +778,7 @@ Truth_NN NNABSPROC
 ._.
 I_PP1S PP1
 was_VBD
-surprised_PASS PASSAll
+surprised_PASS PASSall
 by_IN INother
 the_DT
 poll_NN NNother
@@ -799,7 +799,7 @@ over_RB RBother
 66_CD
 %_NN NNother
 believe_VPRT MENTAL
-that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+that_THSC ThSTNCall ThVSTNCall ThVLIK
 RAW_NN NNP
 /_,
 Mossad_NN NNP
@@ -812,7 +812,7 @@ When_WHSC WHSCother
 the_DT
 mind_NN NNother
 is_VPRT
-made_PASS PASSAll ACT
+made_PASS PASSall ACT
 incapable_JJPR JJPRother
 of_IN INother
 thinking_VBG MENTAL
@@ -840,7 +840,7 @@ are_VPRT BEMA
 dead_JJPR JJPRother
 and_CC
 people_NN NNHUMAN
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 do_VB DOAUX
 nothing_QUPR
 but_CC
@@ -848,15 +848,15 @@ feel_VB MENTAL
 sad_JJPR JJPRother
 ._.
 What_WHSC WHSCother
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 not_XX0
 be_VB
-denied_PASS PASSAll COMM
+denied_PASS PASSall COMM
 this_DEMO
 government_NN NNGRP
 is_VPRT BEMA
 its_PIT
-better_JJAT JJATother
+better_JJAT COMPAR
 record_NN NNother
 on_IN INother
 empowering_VBG
@@ -925,7 +925,7 @@ that_DEMO
 post_NN NNCONC
 and_CC
 is_VPRT
-engaged_PASS PASSAll ACT
+engaged_PASS PASSall ACT
 ,_,
 along_IN INother
 with_IN INother
@@ -954,7 +954,7 @@ any_QUAN
 cogent_JJAT JJATother
 arguments_NN NNABSPROC
 that_THRC THRCother
-may_MDMM MDPOSSCAll
+may_MDMM MDPOSSCall
 have_VB
 appeal_NN NNother
 to_IN INother
@@ -1009,9 +1009,9 @@ our_PP1P PP1
 young_JJAT JJTIME
 democracy_NN NNother
 that_THRC THRCother
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 be_VB
-smoothed_PASS PASSAll
+smoothed_PASS PASSall
 out_RP
 with_IN INother
 time_NN NNQUANT
@@ -1047,7 +1047,7 @@ The_DT
 previous_JJAT JJREL
 governments_NN NNGRP
 failed_VBD
-to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+to_IN ToSTNCall ToVSTNCall ToVEFRT
 set_VB
 up_RP
 plants_NN NNCONC
@@ -1058,7 +1058,7 @@ and_CC
 gas_NN NNother
 ._.
 At_IN INother
-least_EMPH
+least_JJPR JJPRother
 the_DT
 present_JJAT JJATother
 government_NN NNGRP
@@ -1076,7 +1076,7 @@ respect_NN NNABSPROC
 efforts_NN NCOMP
 are_VPRT
 being_PROG
-made_PASS PASSAll ACT
+made_PASS PASSall ACT
 to_IN INother
 exploit_VB
 the_DT
@@ -1140,7 +1140,7 @@ still_RB RBother
 alive_JJPR JJPRother
 and_CC
 want_VPRT MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 use_VB ACT
 Iran_NN NNP
 against_IN INother
@@ -1195,9 +1195,9 @@ oh_FPUH
 i_PP1S PP1
 got_VBD
 it_PIT
-may_MDMM MDPOSSCAll
+may_MDMM MDPOSSCall
 be_VB
-destroy_PASS PASSAll
+destroy_PASS PASSall
 it_PIT
 you_PP2
 peoples_NN NNHUMAN
@@ -1230,7 +1230,7 @@ Muslims_NN NNP
 Hindus_NN NNP
 what_WHSC WHSCother
 you_PP2
-gon_GTO MDPREDAll
+gon_GTO MDPREDall
 na_IN INother
 name_VB
 it_PIT
@@ -1284,7 +1284,7 @@ name_NN NNABSPROC
 of_IN INother
 colony_NN NNGRP
 ._.
-read_VB MENTAL
+read_VIMP MENTAL
 the_DT
 Indian_JJAT JJATother
 history_NN NNother
@@ -1323,7 +1323,7 @@ if_COND
 we_PP1P PP1
 ever_FREQ
 decide_VPRT MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 overcome_VB
 our_PP1P PP1
 60_CD
@@ -1419,7 +1419,7 @@ nation_NN NOMZ
 ._.
 maybe_HDG
 they_PP3P PP3
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 meet_VB ACT
 the_DT
 same_JJAT JJREL
@@ -1448,7 +1448,7 @@ Iran_NN NNP
 ._.
 His_PP3S PP3
 single_JJAT JJREL
-biggest_JJAT JJATother
+biggest_JJAT SUPER
 achievement_NN NNABSPROC
 was_VBD BEMA
 the_DT
@@ -1522,7 +1522,7 @@ Fazlullah_NN NNP
 Zahedi_NN NNP
 was_VBD SPLIT
 handsomely_RB RBother
-rewarded_PASS PASSAll
+rewarded_PASS PASSall
 by_IN INother
 who_WHSC WHSCother
 gave_VBD ACT
@@ -1597,7 +1597,7 @@ history_NN NNother
 into_IN INother
 a_DT
 very_AMP
-small_JJAT JJDESCAll JJSIZE
+small_JJAT JJDESCall JJSIZE
 space_NN NNCONC
 ._.
 Mossadegh_NN NNP
@@ -1632,7 +1632,7 @@ Kinzer_NN NNP
 Mossadegh_NN NNP
 was_VBD
 neither_XX0
-exiled_PASS PASSAll
+exiled_PASS PASSall
 nor_XX0
 shot_VBN
 dead_JJPR JJPRother
@@ -1663,7 +1663,7 @@ Persian_JJAT JJATother
 oil_NN NNother
 ,_,
 was_VBD
-removed_PASS PASSAll
+removed_PASS PASSall
 from_IN INother
 power_NN NNABSPROC
 in_IN INother
@@ -1688,7 +1688,7 @@ heard_VBD MENTAL
 that_THSC THSCother
 he_PP3S PP3
 was_VBD
-executed_PASS PASSAll
+executed_PASS PASSall
 by_IN INother
 firing_VBG
 squad_NN NNother
@@ -1713,7 +1713,7 @@ or_CC
 the_DT
 constitution_NN NOMZ
 appears_VPRT EXIST
-to_IN ToSTNCAll ToVSTNCAll ToVPROB
+to_IN ToSTNCall ToVSTNCall ToVPROB
 be_VB
 conflicting_PROG
 ,_,
@@ -1730,11 +1730,11 @@ to_IN INother
 interpret_VB MENTAL
 and_CC
 determine_VB MENTAL
-which_WHSC WhVSTNCAll WhVFCT
+which_WHSC WhVSTNCall WhVFCT
 article_NN NNother
 should_MDNE
 be_VB
-preferred_PASS PASSAll MENTAL
+preferred_PASS PASSall MENTAL
 ..._,
 in_IN INother
 this_DEMO
@@ -1742,13 +1742,13 @@ case_NN NNCONC
 article_NN NCOMP
 248_CD
 is_VPRT
-used_PASS PASSAll ACT
+used_PASS PASSall ACT
 to_IN INother
 provide_VB ACT
 cover_NN NNCONC
 for_IN INother
 the_DT
-black_JJAT JJDESCAll JJCOLR
+black_JJAT JJDESCall JJCOLR
 money_NN NNother
 but_CC
 in_IN INother
@@ -1778,9 +1778,9 @@ citizen_NN NNHUMAN
 ,_,
 no_XX0
 law_NN NNABSPROC
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 be_VB
-made_PASS PASSAll ACT
+made_PASS PASSall ACT
 against_IN INother
 Islamic_JJAT JJATother
 laws_NN NNABSPROC
@@ -1794,7 +1794,7 @@ in_IN INother
 this_DEMO
 scenario_NN NNother
 the_PRPother
-may_MDMM MDPOSSCAll
+may_MDMM MDPOSSCall
 prefer_VB MENTAL
 the_DT
 immunity_NN NOMZ
@@ -1805,11 +1805,11 @@ them_PP3P PP3
 but_CC
 the_DT
 SC_NN NNP
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 decide_VB MENTAL
 whether_WHSC WHSCother
 there_EX
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 be_VB
 immunity_NN NOMZ
 or_CC
@@ -1824,14 +1824,14 @@ in_IN INother
 the_DT
 country_NN NNPLACE
 then_RB RBother
-say_VB COMM
+say_VIMP COMM
 us_PP1P PP1
 ,_,
 he_PP3S PP3
 has_VPRT
 immunity_NN NOMZ
 why_WHSC WHSCother
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 we_PP1P PP1
 start_VB ASPECT
 trial_NN NNABSPROC
@@ -1884,7 +1884,7 @@ not_XX0
 write_VB COMM
 '_''
 '_''
-Write_VB COMM
+Write_VIMP COMM
 or_CC
 not_XX0
 write_VB COMM
@@ -1893,9 +1893,9 @@ not_XX0
 write_VB COMM
 ,_,
 be_VB
-convicted_PASS PASSAll
+convicted_PASS PASSall
 and_CC
-sentenced_PASS PASSAll
+sentenced_PASS PASSall
 ._.
 They_PP3P PP3
 want_VPRT MENTAL
@@ -1909,9 +1909,9 @@ hero_NN NNHUMAN
 or_CC
 martyr_NN NNother
 ,_,
-Save_VB ACT
+Save_VIMP ACT
 passage_NN NNPLACE
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 have_MDNE
 to_IN INother
 adopted_VBN
@@ -1923,7 +1923,7 @@ the_DT
 parliament_NN NOMZ
 only_RB RBother
 ._.
-Put_VB ACT
+Put_VIMP ACT
 the_DT
 matter_NN NNTECH
 before_IN INother
@@ -1933,7 +1933,7 @@ institution_NN NNGRP
 ,_,
 that_DEMO
 is_VPRT BEMA
-better_JJPR JJPRother
+better_JJPR COMPAR
 according_VBG
 to_IN INother
 my_PP1S PP1
@@ -1980,7 +1980,7 @@ State_NN NNP
 is_VPRT
 to_IN INother
 be_VB
-treated_PASS PASSAll
+treated_PASS PASSall
 as_IN INother
 a_DT
 normal_JJAT JJATother
@@ -2029,7 +2029,7 @@ of_IN INother
 late_JJAT JJTIME
 Benazir_NN NNP
 Bhutto_NN NNP
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 take_VB ACT
 a_DT
 guide_NN NNother
@@ -2072,7 +2072,7 @@ come_PEAS ACT
 every_QUAN
 citizen_NN NNHUMAN
 is_VPRT
-compelled_PASS PASSAll
+compelled_PASS PASSall
 to_IN INother
 think_VB MENTAL
 about_IN INother
@@ -2117,7 +2117,7 @@ a_DT
 person_NN NNHUMAN
 with_IN INother
 a_DT
-big_JJAT JJDESCAll JJSIZE
+big_JJAT JJDESCall JJSIZE
 numeration_NN NOMZ
 :PP_NFP
 Judiciary_NN NNother
@@ -2146,7 +2146,7 @@ always_FREQ
 fickle_JJPR JJPRother
 and_CC
 it_PIT
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 be_VB BEMA
 shame_JJPR JJPRother
 if_COND
@@ -2183,7 +2183,7 @@ same_JJAT JJREL
 token_NN NNother
 Mr_NN NNP
 Zardari_NN NNP
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 put_VB ACT
 the_DT
 money_NN NNother
@@ -2204,7 +2204,7 @@ whence_RB RBother
 he_PP3S PP3
 is_VPRT
 no_DMA
-longer_RB RBother
+longer_RB COMPAR
 the_DT
 president_NN NNHUMAN
 ._.
@@ -2271,7 +2271,7 @@ simple_JJPR JJPRother
 ._.
 The_DT
 SC_NN NNP
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 determine_VB MENTAL
 (_-LRB-
 which_WHSC WHSCother
@@ -2298,7 +2298,7 @@ a_DT
 tradition_NN NNABSPROC
 of_IN INother
 any_QUAN
-lower_JJAT JJATother
+lower_JJAT COMPAR
 court_NN NNPLACE
 to_IN INother
 try_VB ACT
@@ -2322,7 +2322,7 @@ and_CC
 all_QUAN
 other_JJAT JJATother
 countries_NN NNPLACE
-can_MDCA MDPOSSCAll SPLIT
+can_MDCA MDPOSSCall SPLIT
 easily_RB RBother
 try_VB ACT
 any_QUAN
@@ -2338,7 +2338,7 @@ of_IN INother
 Pakistan_NN NNP
 if_COND
 a_DT
-lower_JJAT JJATother
+lower_JJAT COMPAR
 Swiss_JJAT JJATother
 court_NN NNPLACE
 should_MDNE
@@ -2351,7 +2351,7 @@ and_CC
 protectors_NN NNother
 of_IN INother
 OBL_NN NNP
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 a_DT
 fair_JJAT JJATother

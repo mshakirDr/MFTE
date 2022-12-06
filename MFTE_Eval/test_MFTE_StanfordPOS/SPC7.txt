@@ -18,7 +18,7 @@ tidying_VBG up_RP between_IN versions_NNS ._.
 cool_JJ ._.
 the_DT good_JJ one_CD good_JJ thing_NN about_IN Windows_NNS ten_CD is_VBZ that_IN that_DT like_JJ ._.
 ten_CD ten_CD twenty_CD -_HYPH nine_CD nine_CD eleven_CD ._.
-he_PRP said_VBD at_IN IVYBRIDGE_NNP they_PRP 're_VBP not_RB really_RB gon_VBG na_TO make_VB any_DT more_JJR versions_NNS of_IN Windows_NNS just_RB gon_VBG na_TO put_VB updates_NNS there_RB so_IN it_PRP 's_VBZ gonna_TO be_VB supported_VBN until_IN twenty_CD twenty_CD -_HYPH four_CD or_CC twenty_CD -_HYPH two_CD or_CC something_NN .._, oh_UH right_RB wan_VBP na_TO grape_VB ?_.
+he_PRP said_VBD at_IN IVYBRIDGE_NNP they_PRP 're_VBP not_RB really_RB gon_VBG na_TO make_VB any_DT more_JJR versions_NNS of_IN Windows_NNS just_RB gon_VBG na_TO put_VB updates_NNS there_RB so_RB it_PRP 's_VBZ gon_VBG na_TO be_VB supported_VBN until_IN twenty_CD twenty_CD -_HYPH four_CD or_CC twenty_CD -_HYPH two_CD or_CC something_NN .._, oh_UH right_RB wan_VBP na_TO grape_VB ?_.
 what_WP ?_.
 wan_VBP na_TO grape_VB ?_.
 oh_UH what_WP what_WP 's_VBZ the_DT official_JJ portion_NN then_RB ?_.
@@ -144,7 +144,7 @@ do_VB what_WP ?_.
 ._. oh_UH dear_JJ ._.
 ow_UH ._.
 he_PRP 's_VBZ calmed_VBN down_RP just_RB er_UH you_PRP know_VBP ?_.
-a_DT bit_NN yeah_UH do_VBP you_PRP wanna_MD play_VB this_DT ?_.
+a_DT bit_NN yeah_UH do_VBP you_PRP wan_VB na_TO play_VB this_DT ?_.
 ah._UH hello_UH hello_UH young_JJ herro_NN ._.
 ow_UH ._.
 that_DT 's_VBZ good_JJ awesome_JJ we_PRP should_MD just_RB worship_VB Jack_NNP and_CC whatever_WP he_PRP says_VBZ just_RB do_VB ._.
@@ -155,4 +155,4 @@ shall_MD we_PRP get_VB the_DT day_NN off_RB to_TO think_VB about_IN it_PRP ?_.
 you_PRP okay_JJ ?_.
 you_PRP 've_VBP taught_VBN us_PRP the_DT process_NN ._.
 mm._UH well_UH you_PRP have_VBP us_PRP told_VBN ._.
-I_PRP know_VBP but_CC he_PRP 's_VBZ gonna_TO be_VB up_RB ._.
+I_PRP know_VBP but_CC he_PRP 's_VBZ gon_VBG na_TO be_VB up_RB ._.

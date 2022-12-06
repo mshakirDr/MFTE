@@ -11,7 +11,7 @@ I_PP1S PP1
 I_PP1S PP1
 figured_VBD
 it_PIT
-might_MDMM MDPOSSCAll SPLIT
+might_MDMM MDPOSSCall SPLIT
 only_RB RBother
 be_VB BEMA
 another_DT
@@ -20,7 +20,7 @@ or_CC
 so_SO
 er_FPUH
 I_PP1S PP1
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 n't_XX0 CONT
 bother_VB MENTAL
 ._.
@@ -50,7 +50,7 @@ pointless_JJPR JJPRother
 if_COND
 it_PIT
 's_VPRT CONT BEMA
-just_RB EMPH
+just_RB RBother
 a_DT
 minute_NN NNQUANT
 ._.
@@ -86,7 +86,7 @@ right_RB RBother
 ._.
 yeah_DMA
 I_PP1S PP1
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 um_FPUH
 ._.
 subject_NN NNABSPROC
@@ -112,11 +112,11 @@ address_NN NNABSPROC
 today_TIME
 if_COND
 I_PP1S PP1
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 if_COND
 not_XX0
 I_PP1S PP1
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 ring_VB
 them_PP3P PP3
 on_IN INother
@@ -127,7 +127,7 @@ mention_VB COMM
 should_MDNE
 I_PP1S PP1
 say_VB COMM
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 you_PP2
 also_CC
 put_VB ACT
@@ -140,13 +140,13 @@ department_NN NCOMP
 ?_. YNQU
 yeah_DMA
 that_DEMO
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 do_VB DOAUX
 ._.
 I_PP1S PP1
-'d_MDWO MDPREDAll CONT
+'d_MDWO MDPREDall CONT
 like_VB MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 talk_VB COMM
 about_HDG
 some_QUAN
@@ -158,7 +158,7 @@ ha_FPUH
 ._.
 yeah_DMA
 that_DEMO
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 worth_JJPR JJPRother
 it_PIT
@@ -170,7 +170,7 @@ the_DT
 council_NN NNother
 's_POS
 responsibility_NN NNCOG
-to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+to_IN ToThNSTNCall PrepNSTNC ToSTNCall ToNSTNC
 sort_VB
 it_PIT
 out_RP
@@ -179,18 +179,18 @@ yeah_DMA
 like_FPUH
 er_FPUH
 er_FPUH
-obviously_RB RSTNCAll RFACT
+obviously_RB RSTNCall RFACT
 it_PIT
 's_VPRT CONT BEMA
 it_PIT
 's_VPRT CONT
 er_FPUH
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 n't_XX0 CONT
 be_VB BEMA
 his_PP3S PP3
 responsibility_NN NNCOG
-to_IN ToThNSTNCAll PrepNSTNC ToSTNCAll ToNSTNC
+to_IN ToThNSTNCall PrepNSTNC ToSTNCall ToNSTNC
 put_VB ACT
 that_DEMO
 bollard_NN NNother
@@ -200,13 +200,13 @@ but_CC
 well_DMA
 no_DMA
 you_PP2
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 say_VB COMM
 first_JJAT JJATother
 thing_NN NNother
 we_PP1P PP1
 need_VPRT MENTAL
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 for_IN INother
 you_PP2
@@ -218,7 +218,7 @@ in_RB RBother
 ._.
 yeah_DMA
 ._.
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 n't_XX0 CONT
 we_PP1P PP1
 ._.
@@ -231,7 +231,7 @@ feet_NN NNCONC
 ._.
 look_VB
 I_PP1S PP1
-'d_MDWO MDPREDAll CONT
+'d_MDWO MDPREDall CONT
 ring_VB
 the_DT
 site_NN NNother
@@ -241,7 +241,7 @@ first_RB RBother
 right_RB RBother
 okay_FPUH
 I_PP1S PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 mention_VB COMM
 the_DT
 ._.
@@ -255,10 +255,10 @@ boy_NN NNHUMAN
 racer_NN NCOMP
 it_PIT
 's_VPRT CONT BEMA
-just_RB EMPH
+just_RB RBother
 a_DT
-shit_NN EMPH
-driver_NN NNHUMAN
+shit_NN NNother
+driver_NN NCOMP
 ._.
 ha_FPUH
 ha_FPUH
@@ -272,7 +272,7 @@ the_DT
 engine_NN NNCONC
 rar_NN NCOMP
 ._.
-look_VB
+look_VIMP
 behind_IN INother
 you_PP2
 love_NN NNother
@@ -308,7 +308,7 @@ huh_FPUH
 ._.
 surely_RB RBother
 you_PP2
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 get_VB
 round_IN INother
 that_DEMO
@@ -336,7 +336,7 @@ scary_JJPR JJPRother
 ._.
 how_WHQU
 much_QUAN
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 you_PP2
 like_VB MENTAL
 an_DT
@@ -346,7 +346,7 @@ car_NN NNCONC
 today_TIME
 ?_. WQ
 that_DEMO
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 cool_JJPR JJPRother
 I_PP1S PP1
@@ -361,7 +361,7 @@ yes_DMA
 ._.
 or_CC
 I_PP1S PP1
-'d_MDWO MDPREDAll CONT
+'d_MDWO MDPREDall CONT
 end_VB ASPECT
 up_RP
 with_IN INother
@@ -388,7 +388,7 @@ dear_JJPR JJPRother
 yes_DMA
 ._.
 it_PIT
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 quite_RB RBother
 cool_JJPR JJPRother
@@ -404,8 +404,8 @@ comedy_NN NNother
 recently_TIME
 it's_PP1P PP1
 it_PIT
-would_MDWO MDPREDAll SPLIT
-just_RB EMPH
+would_MDWO MDPREDall SPLIT
+just_RB RBother
 be_VB BEMA
 nice_JJPR JJEVAL
 if_COND
@@ -497,7 +497,7 @@ you_PP2
 oh_FPUH
 well_DMA
 we_PP1P PP1
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 watch_VB ACT
 him_PP3S PP3
 fill_VB
@@ -512,13 +512,13 @@ good_JJAT JJEVAL
 news_NN NSTNCother
 is_VPRT
 he_PP3S PP3
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 be_VB BEMA
 quick_JJPR JJPRother
 ._.
 yes_DMA
 he_PP3S PP3
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 be_VB BEMA
 quick_JJPR JJPRother
 presumably_HDG
@@ -534,13 +534,13 @@ erm_FPUH
 unless_COND
 he_PP3S PP3
 's_VPRT CONT
-gon_GTO MDPREDAll
+gon_GTO MDPREDall
 na_IN INother
 drink_VB
 it_PIT
 ._.
 he_PP3S PP3
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 do_VB ACT
 he_PP3S PP3
 looks_VPRT
@@ -550,7 +550,7 @@ kind_NN NNABSPROC
 of_IN INother
 guy_NN NNHUMAN
 who_WHSC WHSCother
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 drink_VB
 petrol_NN NNother
 ._.
@@ -579,7 +579,7 @@ okay_FPUH
 because_CUZ
 he_PP3S PP3
 er_FPUH
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 be_VB
 able_ABLE
 to_IN INother
@@ -599,7 +599,7 @@ oh_FPUH
 right_DMA
 ._.
 or_CC
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 you_PP2
 not_XX0
 do_VB ACT
@@ -637,7 +637,7 @@ you_PP2
 come_VPRT ACT
 off_RP
 you_PP2
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 break_VB
 your_PP2
 legs_NN NNCONC
@@ -661,7 +661,7 @@ it_PIT
 takes_VPRT ACT
 leather_NN NNother
 a_DT
-long_JJAT JJDESCAll JJSIZE
+long_JJAT JJDESCall JJSIZE
 time_NN NNQUANT
 to_IN INother
 burn_VB ACT
@@ -669,7 +669,7 @@ through_RP
 ._.
 yeah_DMA
 ._.
-see_VB MENTAL
+see_VIMP MENTAL
 the_DT
 reinforced_VBN
 patches_NN NNother
@@ -709,7 +709,7 @@ and_CC
 ._.
 the_DT
 impact_NN NNABSPROC
-wo_MDWO MDPREDAll
+wo_MDWO MDPREDall
 n't_XX0 CONT
 kill_VB
 you_PP2
@@ -717,17 +717,17 @@ but_CC
 ._.
 the_DT
 slide_NN NNCONC
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 take_VB ACT
 your_PP2
 skin_NN NNother
 off_RP
 ._.
 it_PIT
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 well_DMA
 you_PP2
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 burn_VB ACT
 ._.
 right_RB RBother
@@ -739,8 +739,8 @@ friction_NN NOMZ
 and_CC
 yeah_DMA
 it_PIT
-will_MDWS MDPREDAll SPLIT
-just_RB EMPH
+will_MDWS MDPREDall SPLIT
+just_RB RBother
 rip_VB
 through_IN INother
 flesh_NN NNother
@@ -819,15 +819,15 @@ I_PP1S PP1
 not_XX0
 sure_JJPR JJEPSTother
 you_PP2
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 do_VB ACT
 that_DEMO
 love_NN NNother
 ._.
 presumably_HDG
 it_PIT
-just_RB EMPH
-wo_MDWO MDPREDAll
+just_RB RBother
+wo_MDWO MDPREDall
 n't_XX0 CONT
 let_VB CAUSE
 her_PP3S PP3
@@ -841,9 +841,9 @@ uh_FPUH
 some_QUAN
 people_NN NNHUMAN
 are_VPRT
-just_RB EMPH
-really_RB EMPH
-really_RB EMPH
+just_RB RBother
+really_RB RSTNCall RFACT
+really_RB RSTNCall RFACT
 impatient_JJPR JJPRother
 are_VPRT
 n't_XX0 CONT
@@ -855,10 +855,10 @@ apparently_HDG
 ooh_FPUH
 he_PP3S PP3
 's_VPRT CONT
-gon_GTO MDPREDAll
+gon_GTO MDPREDall
 na_IN INother
 be_VB
-pissed_PASS PASSAll
+pissed_PASS PASSall
 off_RP
 if_COND
 it_PIT
@@ -884,7 +884,7 @@ I_PP1S PP1
 do_VPRT DOAUX
 n't_XX0 CONT
 see_VB MENTAL
-how_WHSC WhVSTNCAll WhVFCT
+how_WHSC WhVSTNCall WhVFCT
 that_DEMO
 's_VPRT CONT
 working_PROG ACT
@@ -910,7 +910,7 @@ it_PIT
 out_RP
 yet_TIME
 ?_. YNQU
-Come_VB ACT
+Come_VIMP ACT
 on_IN INother
 come_VB ACT
 on_IN INother
@@ -935,10 +935,10 @@ ah_FPUH
 ._.
 Jesus_NN NNP
 he_PP3S PP3
-just_RB EMPH
+just_RB RBother
 er_FPUH
 he_PP3S PP3
-just_RB EMPH
+just_RB RBother
 went_VBD
 up_RP
 on_IN INother
@@ -946,7 +946,7 @@ the_DT
 pavement_NN NOMZ
 what_WHQU
 the_DT
-fuck_NN EMPH
+fuck_NN NNother
 ?_. WQ
 presumably_HDG
 he_PP3S PP3
@@ -961,14 +961,14 @@ about_JJPR JJPRother
 to_IN INother
 be_VB
 ram_NN NNother
-raided_PASS PASSAll
+raided_PASS PASSall
 or_CC
 something_QUPR
 ?_. YNQU
 he_PP3S PP3
 's_VPRT CONT
 making_PROG ACT
-heavy_JJAT JJDESCAll JJSIZE
+heavy_JJAT JJDESCall JJSIZE
 weather_NN NNother
 of_IN INother
 it_PIT
@@ -986,7 +986,7 @@ er_FPUH
 one_CD
 of_IN INother
 the_DT
-more_AMP
+more_AMP COMPAR
 special_JJAT JJATother
 things_NN NNother
 I_PP1S PP1
@@ -1001,7 +1001,7 @@ is_VPRT BEMA
 truly_RB RBother
 special_JJPR JJPRother
 ._.
-look_VB
+look_VIMP
 put_VB ACT
 it_PIT
 back_RB RBother
@@ -1014,7 +1014,7 @@ it_PIT
 's_VPRT CONT BEMA
 a_DT
 ._.
-put_VB ACT
+put_VIMP ACT
 it_PIT
 back_RB RBother
 put_VB ACT
@@ -1031,7 +1031,7 @@ yes_DMA
 ._.
 I_PP1S PP1
 think_VPRT MENTAL
-what_WHSC WhVSTNCAll WhVLIK
+what_WHSC WhVSTNCall WhVLIK
 's_VPRT CONT BEMA
 confusing_JJPR JJPRother
 here_PLACE
@@ -1142,13 +1142,13 @@ so_SO
 it_PIT
 's_VPRT CONT
 actually_DMA
-quicker_JJPR JJPRother
+quicker_JJPR COMPAR
 yeah_DMA
 ._.
 it_PIT
 saved_VBD ACT
 a_DT
-huge_JJAT JJDESCAll JJSIZE
+huge_JJAT JJDESCall JJSIZE
 amount_NN NNQUANT
 of_IN INother
 time_NN NNQUANT
@@ -1169,7 +1169,7 @@ behind_IN INother
 them_PP3P PP3
 so_SO
 that_THSC CUZ
-he'd_MDWO MDPREDAll CONT
+he'd_MDWO MDPREDall CONT
 be_VB
 able_ABLE
 to_IN INother
@@ -1189,7 +1189,7 @@ other_JJAT JJATother
 chap_NN NNother
 paid_VBD ACT
 he_PP3S PP3
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 er._VB
 mm._RB RBother
 get_VB
@@ -1215,7 +1215,7 @@ they_PP3P PP3
 ?_. QUTAG
 yeah_DMA
 tend_VPRT EXIST
-to_IN ToSTNCAll ToVSTNCAll ToVPROB
+to_IN ToSTNCall ToVSTNCall ToVPROB
 be_VB
 unless_COND
 they_PP3P PP3
@@ -1311,7 +1311,7 @@ understand_VB MENTAL
 ._.
 it_PIT
 was_VBD BEMA
-just_RB EMPH
+just_RB RBother
 a_DT
 joke_NN NNother
 about_IN INother
@@ -1335,7 +1335,7 @@ I_PP1S PP1
 do_VPRT DOAUX
 n't_XX0 CONT
 know_VB MENTAL
-what_WHSC WhVSTNCAll WhVFCT
+what_WHSC WhVSTNCall WhVFCT
 this_DEMO
 guy_NN NNHUMAN
 's_VPRT CONT
@@ -1374,12 +1374,12 @@ riding_VBG
 a_DT
 motorbike_NN NNother
 that_THRC THRCother
-really_RB EMPH
+really_RB RSTNCall RFACT
 is_VPRT
 ._.
 oh_FPUH
 I_PP1S PP1
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 see_VB MENTAL
 it_PIT
 possibly_HDG
@@ -1388,7 +1388,7 @@ right_RB RBother
 ._.
 right_RB RBother
 ._.
-shall_MDWS MDPREDAll
+shall_MDWS MDPREDall
 I_PP1S PP1
 get_VB
 out_RP

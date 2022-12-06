@@ -4,7 +4,7 @@ What_WP does_VBZ this_DT mean_VB anyway_RB ?_.
 What_WP is_VBZ your_PRP$ idea_NN as_RB far_RB as_IN this_DT is_VBZ concerned_JJ ?_.
 How_WRB many_JJ times_NNS do_VBP I_PRP have_VB to_TO tell_VB you_PRP not_RB to_TO bother_VB ?_.
 I_PRP do_VBP 'nt_RB know_VB if_IN this_DT works_VBZ ._.
-Dont_MD know_VB if_IN this_DT works_VBZ ._.
-I_PRP Dont_MD Know_VB If_IN This_DT wOrKs_VBZ ?_.
+do_VBP 'nt_RB know_VB if_IN this_DT works_VBZ ._.
+I_PRP do_VBP 'nt_RB Know_VB If_IN This_DT wOrKs_VBZ ?_.
 I_PRP can_MD not_RB believe_VB it_PRP ._.
-I_PRP Cannot_MD Believe_VB it_PRP !_.
+I_PRP can_MD not_RB Believe_VB it_PRP !_.

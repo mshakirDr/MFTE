@@ -24,7 +24,7 @@ Imax_NN NNP
 do_VPRT DOAUX
 you_PP2
 want_VB MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 go_VB
 to_IN INother
 the_DT
@@ -33,9 +33,9 @@ cinema_NN NNother
 er_FPUH
 well_DMA
 I_PP1S PP1
-'d_MDWO MDPREDAll CONT
+'d_MDWO MDPREDall CONT
 like_VB MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 be_VB
 out_RB RBother
 rather_RB RBother
@@ -93,7 +93,7 @@ walking_VBG ACT
 or_CC
 no_DMA
 it_PIT
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 more_QUAN
 by_IN INother
@@ -170,10 +170,10 @@ IVYBRIDGE_NN NNP
 no_DMA
 that_DEMO
 's_VPRT CONT BEMA
-really_RB EMPH
+really_RB RSTNCall RFACT
 that_DEMO
 's_VPRT CONT
-just_RB EMPH
+just_RB RBother
 like_FPUH
 ._.
 two_CD
@@ -210,7 +210,7 @@ mm_FPUH
 I_PP1S PP1
 do_VPRT SPLIT DOAUX
 n't_XX0 CONT
-really_RB EMPH
+really_RB RSTNCall RFACT
 dream_VB
 about_IN INother
 that_DEMO
@@ -235,14 +235,14 @@ they_PP3P PP3
 have_VPRT
 n't_XX0 CONT
 been_PEAS
-lived_PASS PASSAll EXIST
+lived_PASS PASSall EXIST
 in_IN INother
 all_QUAN
 these_DEMO
 years_NN NNother
 and_CC
 I_PP1S PP1
-can_MDCA MDPOSSCAll SPLIT
+can_MDCA MDPOSSCall SPLIT
 still_RB RBother
 get_VB
 into_IN INother
@@ -263,10 +263,10 @@ how_WHSC WHSCother
 odd_JJPR JJPRother
 so_SO
 what_WHSC WHSCother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 you_PP2
 like_VB MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 do_VB ACT
 Jack_NN NNP
 ?_. YNQU
@@ -281,11 +281,11 @@ left_VBN ACT
 ?_. YNQU
 yes_DMA
 a_DT
-little_JJAT JJDESCAll JJSIZE
+little_JJAT JJDESCall JJSIZE
 bit_NN NNother
 ._.
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 make_VB ACT
 ourselves_PP1P PP1
 sandwiches_NN NNother
@@ -294,10 +294,10 @@ the_DT
 walk_NN NNother
 ._.
 that_DEMO
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 sweet_JJPR JJPRother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 n't_XX0 CONT
 it_PIT
 dear_JJPR JJPRother
@@ -320,7 +320,7 @@ not_XX0
 a_DT
 problem_NN NNother
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 get_VB
 some_QUAN
 more_QUAN
@@ -334,13 +334,13 @@ there_EX
 somewhere_QUPR
 halfway_RB RBother
 that_THRC THRCother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 nice_JJPR JJEVAL
 ?_. YNQU
 oh_FPUH
 what_WHSC WHSCother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 happen_VB OCCUR
 if_COND
 we_PP1P PP1
@@ -382,13 +382,13 @@ the_DT
 other_JJAT JJATother
 side_NN NNABSPROC
 that_THRC THRCother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 fun_JJPR JJPRother
 ._.
 no_DMA
 it_PIT
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 n't_XX0 CONT
 ._.
 it_PIT
@@ -404,7 +404,7 @@ I_PP1S PP1
 do_VPRT DOAUX
 n't_XX0 CONT
 know_VB MENTAL
-what_WHSC WhVSTNCAll WhVFCT
+what_WHSC WhVSTNCall WhVFCT
 it_PIT
 is_VPRT
 ._.
@@ -426,7 +426,7 @@ nothing_QUPR
 there_PLACE
 ?_. YNQU
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 walk_VB ACT
 er_FPUH
 to_IN INother
@@ -459,14 +459,14 @@ on_IN INother
 the_DT
 ferry_NN NNother
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 walk_VB ACT
 to_IN INother
 IVYBRIDGE_NN NNP
 ._.
 well_DMA
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 walk_VB ACT
 to_IN INother
 that_DEMO
@@ -480,13 +480,13 @@ thing_NN NNother
 oh_FPUH
 yeah_DMA
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 get_VB
 a_DT
 cable_NN NNother
 car_NN NCOMP
 ._.
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 you_PP2
 be_VB BEMA
 scared_JJPR JJPRother
@@ -497,7 +497,7 @@ no_DMA
 and_CC
 then_RB RBother
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 get_VB
 the_DT
 cable_NN NNother
@@ -564,7 +564,7 @@ I_PP1S PP1
 think_VPRT MENTAL
 it_PIT
 ._.
-get_VB
+get_VIMP
 the_DT
 ferry_NN NNother
 over_RB RBother
@@ -586,11 +586,11 @@ n't_XX0 CONT
 but_CC
 yeah_DMA
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 do_VB ACT
 that_DEMO
 ._.
-give_VB ACT
+give_VIMP ACT
 if_COND
 that_DEMO
 was_VBD BEMA
@@ -611,7 +611,7 @@ the_DT
 cable_NN NNother
 car_NN NCOMP
 is_VPRT
-just_RB EMPH
+just_RB RBother
 like_LIKE
 the_DT
 IVYBRIDGE_NN NNP
@@ -623,14 +623,14 @@ yes_DMA
 boring_JJAT JJATother
 things_NN NNother
 IVYBRIDGE_NN NNP
-just_RB EMPH
+just_RB RBother
 there_PLACE
 ._.
 er_FPUH
 yeah_DMA
 ._.
 we_PP1P PP1
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 come_VB ACT
 across_IN INother
 something_QUPR
@@ -638,7 +638,7 @@ interesting_JJPR JJPRother
 ._.
 oh_FPUH
 they_PP3P PP3
-really_RB EMPH
+really_RB RSTNCall RFACT
 need_VPRT MENTAL
 something_QUPR
 in_IN INother
@@ -730,7 +730,7 @@ type_NN NNABSPROC
 things_NN NCOMP
 ._.
 darling_NN NNother
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 you_PP2
 pass_VB ACT
 me_PP1S PP1
@@ -740,14 +740,14 @@ please_FPUH POLITE
 ?_. YNQU
 and_CC
 I_PP1S PP1
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 find_VB VFCTother
 this_DEMO
 ._.
 oh_FPUH
 it_PIT
 's_VPRT CONT
-plugged_PASS PASSAll
+plugged_PASS PASSall
 in_RP
 again_FREQ
 ._.
@@ -776,7 +776,7 @@ think_VPRT MENTAL THATD
 it_PIT
 's_VPRT CONT SPLIT
 probably_HDG
-gon_GTO MDPREDAll
+gon_GTO MDPREDall
 na_IN INother
 happen_VB OCCUR
 anyway_DMA
@@ -798,7 +798,7 @@ we_PP1P PP1
 ?_. QUTAG
 are_VPRT BEMA
 we_PP1P PP1
-gon_GTO MDPREDAll
+gon_GTO MDPREDall
 na_IN INother
 do_VB ACT
 a_DT
@@ -814,7 +814,7 @@ yes_DMA
 okay_FPUH
 which_WHSC WHSCother
 means_VPRT COMM
-that_THSC ThSTNCAll ThVSTNCAll ThVFCT ThVCOMM
+that_THSC ThSTNCall ThVSTNCall ThVFCT ThVCOMM
 I_PP1S PP1
 suggest_VPRT COMM THATD
 we_PP1P PP1
@@ -829,7 +829,7 @@ somewhere_QUPR
 unless_COND
 you_PP2
 want_VPRT MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 bring_VB ACT
 a_DT
 flask_NN NNother
@@ -837,13 +837,13 @@ of_IN INother
 coffee_NN NNother
 then_RB RBother
 we_PP1P PP1
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 have_VB
 it_PIT
 on_IN INother
 our_PP1P PP1
 way_NN NNABSPROC
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 be_VB BEMA
 nice_JJPR JJEVAL
 ._.
@@ -891,7 +891,7 @@ the_DT
 journey_NN NNother
 I_PP1S PP1
 'm_VPRT CONT
-going_GTO MDPREDAll
+going_GTO MDPREDall
 to_IN INother
 wear_VB ACT
 my_PP1S PP1
@@ -980,7 +980,7 @@ about_IN INother
 is_VPRT
 something_QUPR
 that_THRC THRCother
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 break_VB
 it_PIT
 up_RP
@@ -993,7 +993,7 @@ on_IN INother
 this_DEMO
 cos_CUZ
 you_PP2
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 get_VB
 quite_RB RBother
 sunburnt_JJPR JJPRother
@@ -1005,7 +1005,7 @@ it_PIT
 's_VPRT CONT BEMA
 cold_JJPR JJPRother
 ._.
-look_VB
+look_VIMP
 that_DEMO
 looks_VPRT
 nice_JJPR JJEVAL
@@ -1073,7 +1073,7 @@ three_CD
 testing_NN NNother
 is_VPRT BEMA
 it_PIT
-louder_JJPR JJPRother
+louder_JJPR COMPAR
 if_COND
 I_PP1S PP1
 have_VPRT
@@ -1128,15 +1128,15 @@ oh_FPUH
 no_DMA
 because_CUZ
 you_PP2
-'d_MDWO MDPREDAll CONT
+'d_MDWO MDPREDall CONT
 want_VB MENTAL
-black_JJAT JJDESCAll JJCOLR
+black_JJAT JJDESCall JJCOLR
 coffee_NN NNother
 and_CC
 I_PP1S PP1
-'d_MDWO MDPREDAll CONT
+'d_MDWO MDPREDall CONT
 want_VB MENTAL
-white_JJAT JJDESCAll JJCOLR
+white_JJAT JJDESCall JJCOLR
 coffee_NN NNother
 ._.
 a_DT
@@ -1152,7 +1152,7 @@ when_WHQU
 does_VPRT DOAUX
 it_PIT
 get_VB
-dark_JJPR JJDESCAll JJCOLR
+dark_JJPR JJDESCall JJCOLR
 now_TIME
 ?_. WQ
 well_DMA
@@ -1165,7 +1165,7 @@ I_PP1S PP1
 when_WHSC WHSCother
 it_PIT
 's_VPRT CONT BEMA
-dark_JJPR JJDESCAll JJCOLR
+dark_JJPR JJDESCall JJCOLR
 when_WHSC WHSCother
 I_PP1S PP1
 leave_VPRT ACT
@@ -1195,7 +1195,7 @@ but_CC
 I_PP1S PP1
 can't_MDother
 remember_VB MENTAL
-what_WHSC WhVSTNCAll WhVFCT
+what_WHSC WhVSTNCall WhVFCT
 time_NN NNQUANT
 that_THRC THRCother
 was_VBD
@@ -1222,11 +1222,11 @@ see_VB MENTAL
 anything_QUPR
 else_JJPR JJPRother
 that_THRC THRCother
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 be_VB BEMA
 a_DT
 oh_FPUH
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 that_DEMO
 be_VB BEMA
 a_DT
@@ -1234,7 +1234,7 @@ microphone_NN NNother
 ?_. YNQU
 mm_FPUH
 that_DEMO
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 be_VB BEMA
 a_DT
 microphone_NN NNother
@@ -1250,7 +1250,7 @@ old_JJPR JJTIME
 cos_CUZ
 they_PP3P PP3
 were_VBD
-written_PASS PASSAll COMM
+written_PASS PASSall COMM
 when_WHSC WHSCother
 they_PP3P PP3
 were_VBD
@@ -1278,7 +1278,7 @@ IVYBRIDGE_NN NNP
 well_DMA
 we_PP1P PP1
 want_VPRT MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 go_VB
 well_RB RBother
 we_PP1P PP1
@@ -1307,7 +1307,7 @@ three_CD
 years_NN NNother
 ._.
 we_PP1P PP1
-'ll_MDWS MDPREDAll CONT
+'ll_MDWS MDPREDall CONT
 do_VB ACT
 it_PIT
 today_TIME

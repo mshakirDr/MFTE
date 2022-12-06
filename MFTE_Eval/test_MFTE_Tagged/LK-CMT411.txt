@@ -35,7 +35,7 @@ what_WHSC WHSCother
 you_PP2
 personally_RB RBother
 are_VPRT
-going_GTO MDPREDAll
+going_GTO MDPREDall
 to_IN INother
 do_VB ACT
 beneficial_JJPR JJPRother
@@ -60,7 +60,7 @@ Mr_NN NNP
 write_VB COMM
 off_RP
 get_VPRT
-lost_PGET PASSAll ACT
+lost_PGET PASSall ACT
 ._.
 the_DT
 only_JJAT JJATother
@@ -79,7 +79,7 @@ struggle_NN NNother
 to_IN INother
 get_VB
 you_PP2
-released_PGET PASSAll
+released_PGET PASSall
 My_PP1S PP1
 dear_JJPR JJPRother
 you_PP2
@@ -91,8 +91,8 @@ the_DT
 voters_NN NNother
 rejected_VBD
 ._.
-Just_RB EMPH
-do_VB DOAUX
+Just_RB RBother
+do_VIMP DOAUX
 n't_XX0 CONT
 jump_VB
 the_DT
@@ -102,7 +102,7 @@ quiet_JJPR JJPRother
 ,_,
 atleast_RB RBother
 try_VB ACT
-to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+to_IN ToSTNCall ToVSTNCall ToVEFRT
 contest_VB
 and_CC
 win_VB ACT
@@ -133,7 +133,7 @@ HAS_VPRT
 ANY_QUAN
 GAIN_NN NNother
 HE_PP3S PP3
-WILL_MDWS MDPREDAll SPLIT
+WILL_MDWS MDPREDall SPLIT
 EVEN_RB RBother
 JOIN_VB ACT
 TO_IN INother
@@ -218,8 +218,8 @@ similar_JJAT JJREL
 path_NN NNother
 ._.
 Tried_VBD ACT
-best_JJPR EMPH
-to_IN ToSTNCAll ToJSTNCAll ToJEVAL
+best_JJPR SUPER
+to_IN ToSTNCall ToJSTNCall ToJEVAL
 hanging_VBG ACT
 on_RP
 to_IN INother
@@ -257,7 +257,7 @@ now_TIME
 ._.
 you_PP2
 surely_RB RBother
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 have_VB
 a_DT
 place_NN NNPLACE
@@ -268,8 +268,8 @@ yard_NN NNother
 of_IN INother
 SLPP_NN NNP
 First_RB RBother
-try_VB ACT
-to_IN ToSTNCAll ToVSTNCAll ToVEFRT
+try_VIMP ACT
+to_IN ToSTNCall ToVSTNCall ToVEFRT
 get_VB
 hold_NN NNother
 of_IN INother
@@ -297,7 +297,7 @@ able_JJPR JJPRother
 like_LIKE
 trains_NN NNCONC
 able_JJPR JJPRother
-to_IN ToSTNCAll ToJSTNCAll ToJABL
+to_IN ToSTNCall ToJSTNCall ToJABL
 run_VB ACT
 on_IN INother
 any_QUAN
@@ -328,10 +328,10 @@ blah_FPUH
 U_NN NNP
 got_VBD
 nothing_QUPR
-just_RB EMPH
+just_RB RBother
 like_LIKE
 the_DT
-most_EMPH
+most_JJAT JJATother
 politicians_NN NNother
 in_IN INother
 our_PP1P PP1
@@ -343,7 +343,7 @@ you_PP2
 have_VPRT
 is_VPRT
 “_``
-fill_VIMP
+fill_VB
 my_PP1S PP1
 pocket_NN NNother
 ”_''
@@ -384,7 +384,7 @@ cares_VPRT MENTAL
 ?_. WQ
 We_PP1P PP1
 are_VPRT
-fed_PASS PASSAll
+fed_PASS PASSall
 -_HYPH
 up_IN INother
 of_IN INother
@@ -396,12 +396,14 @@ Enough_RB RBother
 is_VPRT BEMA
 enough_JJPR JJPRother
 ._.
-Dont_MDother
+do_VIMP DOAUX
+'nt_XX0
 waste_VB
 our_PP1P PP1
 money_NN NNother
 ._.
-Dont_MDother
+do_VIMP DOAUX
+'nt_XX0
 tax_VB
 us_PP1P PP1
 for_IN INother
@@ -420,7 +422,7 @@ What_WHQU
 a_DT
 drama_NN NNother
 ?_. WQ
-Curse_VB
+Curse_VIMP
 the_DT
 voters_NN NNother
 who_WHSC WHSCother
@@ -474,13 +476,13 @@ to_IN INother
 that_DEMO
 side_NN NNABSPROC
 ._.
-Turn_VB ACT
+Turn_VIMP ACT
 Bell_NN NNP
 the_DT
 other_JJAT JJATother
 way_NN NNABSPROC
 ......._,
-Guess_VIMP MENTAL
+Guess_VB MENTAL
 what_WHQU
 ?_. WQ
 Good_JJPR JJEVAL
@@ -497,7 +499,7 @@ President_NN NNP
 ._.
 All_QUAN
 people_NN NNHUMAN
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 be_VB BEMA
 illiterate_JJPR JJPRother
 ._.
@@ -509,7 +511,7 @@ Central_NN NNP
 Bank_NN NNP
 and_CC
 want_VPRT MENTAL
-to_IN ToSTNCAll ToVSTNCAll ToVDSR
+to_IN ToSTNCall ToVSTNCall ToVDSR
 set_VB
 fiscal_JJAT JJATother
 policies_NN NNABSPROC
@@ -525,7 +527,7 @@ are_VPRT
 pending_PROG
 ._.
 A_DT
-big_JJAT JJDESCAll JJSIZE
+big_JJAT JJDESCall JJSIZE
 humbug_FPUH
 Robbing_VBG
 the_DT
@@ -611,7 +613,7 @@ appear_VPRT EXIST
 ._.
 I_PP1S PP1
 think_VPRT MENTAL
-that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+that_THSC ThSTNCall ThVSTNCall ThVLIK
 he_PP3S PP3
 usually_FREQ
 publishes_VPRT
@@ -654,7 +656,7 @@ of_IN INother
 Sri_NN NNP
 Lanka_NN NNP
 willing_JJPR JJPRother
-to_IN ToSTNCAll ToJSTNCAll ToJABL
+to_IN ToSTNCall ToJSTNCall ToJABL
 be_VB BEMA
 second_JJAT JJATother
 Class_NN NNP
@@ -662,7 +664,7 @@ Citizens_NN NNP
 in_IN INother
 Australia_NN NNP
 ?_. YNQU
-Sort_VB
+Sort_VIMP
 your_PP2
 problems_NN NNother
 rather_RB RBother
@@ -672,7 +674,7 @@ them_PP3P PP3
 onto_IN INother
 others_NN NNother
 ._.
-Will_MDWS MDPREDAll
+Will_MDWS MDPREDall
 the_DT
 opposition_NN NOMZ
 stop_VB ASPECT
@@ -711,7 +713,7 @@ are_VPRT BEMA
 one_CD
 of_IN INother
 the_DT
-greatest_JJAT JJATother
+greatest_JJAT SUPER
 academic_JJAT JJATother
 Sri_NN NNP
 Lanka_NN NNP
@@ -756,7 +758,7 @@ I_PP1S PP1
 saw_VBD MENTAL
 it_PIT
 but_CC
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 n't_XX0 CONT
 correct_VB
 it_PIT
@@ -773,13 +775,13 @@ people_NN NNHUMAN
 in_IN INother
 the_DT
 EC_NN NNP
-could_MDCO MDPOSSCAll
+could_MDCO MDPOSSCall
 n't_XX0 CONT
 work_VB ACT
 together_RB RBother
 what_WHSC WHSCother
 more_AMP
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 we_PP1P PP1
 expect_VB MENTAL
 from_IN INother
@@ -824,9 +826,9 @@ of_IN INother
 one_CD
 candidate_NN NNHUMAN
 ._.
-Get_VB
+Get_VIMP
 ready_JJPR JJPRother
-to_IN ToSTNCAll ToJSTNCAll ToJABL
+to_IN ToSTNCall ToJSTNCall ToJABL
 pack_VB
 up_RP
 20_CD
@@ -842,12 +844,12 @@ murder_NN NNother
 well_DMA
 done_VBN ACT
 ._.
-keep_VB ASPECT
+keep_VIMP ASPECT
 it_PIT
 up_RP
 and_CC
 you_PP2
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 be_VB BEMA
 the_DT
 next_JJAT JJATother
@@ -940,7 +942,7 @@ wish_VPRT MENTAL
 SLFP_NN NNP
 all_QUAN
 the_DT
-Best_JJAT EMPH
+Best_JJAT SUPER
 .._.
 Now_TIME
 the_DT
@@ -954,7 +956,7 @@ Well_DMA
 said_VBN COMM
 Chimpa_NN NNP
 !_.
-Long_JJAT JJDESCAll JJSIZE
+Long_JJAT JJDESCall JJSIZE
 life_NN NNABSPROC
 by_IN INother
 paa_FW
@@ -966,11 +968,11 @@ carried_VBN ACT
 by_IN INother
 the_DT
 hand_NN NNCONC
-Best_JJPR EMPH
+Best_JJPR SUPER
 of_IN INother
 luck_NN NNother
 and_CC
-long_JJAT JJDESCAll JJSIZE
+long_JJAT JJDESCall JJSIZE
 life_NN NNABSPROC
 Prez_NN NNP
 ._.
@@ -993,7 +995,7 @@ happy_JJAT JJATDother
 birthday_NN NNother
 .._,
 proud_JJPR JJPRother
-to_IN ToSTNCAll ToJSTNCAll ToJEFCT
+to_IN ToSTNCall ToJSTNCall ToJEFCT
 have_VB
 a_DT
 president_NN NNHUMAN
@@ -1004,7 +1006,7 @@ WE_PP1P PP1
 hope_VPRT MENTAL THATD
 ur_PP2
 luck_NN NNother
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 continue_VB ASPECT
 as_RB RBother
 long_RB RBother
@@ -1037,7 +1039,7 @@ rigteousness_NN NCOMP
 No_XX0
 amount_NN NNQUANT
 of_IN INother
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 clean_VB ACT
 a_DT
 criminal_NN NNother
@@ -1052,7 +1054,7 @@ he_PP3S PP3
 has_VPRT
 committed_PEAS
 he_PP3S PP3
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 face_VB MENTAL
 justice_NN NNother
 in_IN INother
@@ -1088,7 +1090,7 @@ Wish_VPRT MENTAL
 you_PP2
 all_QUAN
 the_DT
-best_JJAT EMPH
+best_JJAT SUPER
 !_.
 For_IN INother
 all_QUAN
@@ -1103,7 +1105,7 @@ you_PP2
 do_VPRT DOAUX
 ,_,
 god_NN NNHUMAN
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 have_VB
 a_DT
 special_JJAT JJATother
@@ -1113,7 +1115,7 @@ you_PP2
 ......._,
 SOON_TIME
 ._.
-look_VB
+look_VIMP
 at_IN INother
 his_PP3S PP3
 size_NN NNother
@@ -1135,7 +1137,7 @@ his_PP3S PP3
 life_NN NNABSPROC
 ,_,
 he_PP3S PP3
-wo_MDWO MDPREDAll
+wo_MDWO MDPREDall
 'nt_XX0
 live_VB EXIST
 that_RB RBother
@@ -1160,7 +1162,7 @@ very_AMP
 happy_JJAT JJATDother
 birthday_NN NNother
 ..._,
-may_MDMM MDPOSSCAll
+may_MDMM MDPOSSCall
 the_DT
 triple_NN NNother
 gem_NN NCOMP
@@ -1174,7 +1176,7 @@ YOUR_PP2
 EXCELLANCY_NN NNother
 Y_NN NNP
 SIR_NN NNP
-long_JJAT JJDESCAll JJSIZE
+long_JJAT JJDESCall JJSIZE
 life_NN NNABSPROC
 our_PP1P PP1
 brave_JJAT JJATother
@@ -1186,7 +1188,7 @@ India_NN NNP
 we_PP1P PP1
 knew_VBD MENTAL THATD
 you_PP2
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 loose_VB
 ,_,
 the_DT
@@ -1296,7 +1298,7 @@ comment_NN NSTNCother
 ._.
 It_PIT
 seems_VPRT EXIST
-that_THSC ThSTNCAll ThVSTNCAll ThVLIK
+that_THSC ThSTNCall ThVSTNCall ThVLIK
 the_DT
 present_JJAT JJATother
 Government_NN NNGRP
@@ -1340,9 +1342,9 @@ I_PP1S PP1
 think_VPRT MENTAL
 this_DEMO
 road_NN NNPLACE
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 be_VB BEMA
-more_AMP
+more_AMP COMPAR
 useful_JJPR JJPRother
 than_IN INother
 the_DT
@@ -1359,7 +1361,7 @@ excellency_NN NNother
 Great_JJPR JJEVAL
 ._.
 This_DEMO
-really_RB EMPH
+really_RB RSTNCall RFACT
 improves_VPRT
 the_DT
 image_NN NNABSPROC
@@ -1372,7 +1374,7 @@ comment_NN NSTNCother
 ._.
 It_PIT
 was_VBD
-opened_PASS PASSAll ACT
+opened_PASS PASSall ACT
 only_RB RBother
 last_JJAT JJATother
 evening_NN NNother
@@ -1400,7 +1402,7 @@ the_DT
 normal_JJAT JJATother
 road_NN NNPLACE
 ._.
-Check_VB ACT
+Check_VIMP ACT
 the_DT
 South_NN NNP
 Expressway_NN NNP
@@ -1439,7 +1441,7 @@ what_WHQU
 ?_. WQ
 maybe_HDG
 we_PP1P PP1
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 have_MDNE
 to_IN INother
 pay_VB ACT
@@ -1451,14 +1453,14 @@ the_DT
 highway_NN NNother
 ,_,
 which_WHSC WHSCother
-will_MDWS MDPREDAll SPLIT
+will_MDWS MDPREDall SPLIT
 only_RB RBother
 benefit_VB
 very_AMP
 few_QUAN
 people_NN NNHUMAN
 ._.
-Imagine_VB MENTAL
+Imagine_VIMP MENTAL
 paying_VBG ACT
 Rs._$
 300_CD
@@ -1493,15 +1495,15 @@ beat_VB ACT
 Russel_NN NNP
 Peters_NN NNP
 ?_. YNQU
-Will_MDWS MDPREDAll
+Will_MDWS MDPREDall
 we_PP1P PP1
 get_VB
 money_NN NNother
 which_WHSC WHSCother
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 cover_VB ACT
 at_IN INother
-least_EMPH
+least_JJPR JJPRother
 the_DT
 maintenance_NN NNother
 costs_NN NCOMP
@@ -1521,7 +1523,7 @@ the_DT
 government_NN NNGRP
 ._.
 I_PP1S PP1
-would_MDWO MDPREDAll
+would_MDWO MDPREDall
 prefer_VB MENTAL
 if_COND
 the_DT
@@ -1536,7 +1538,7 @@ reduce_VB ACT
 Then_RB RBother
 more_QUAN
 vehicle_NN NNCONC
-might_MDMM MDPOSSCAll
+might_MDMM MDPOSSCall
 use_VB ACT
 the_DT
 road_NN NNPLACE
@@ -1570,7 +1572,7 @@ travelers_NN NNother
 It_PIT
 should_MDNE
 be_VB
-halved_PASS PASSAll
+halved_PASS PASSall
 to_IN INother
 encourage_VB COMM
 more_QUAN
@@ -1609,7 +1611,7 @@ security_NN NCOMP
 what_WHSC WHSCother
 is_VPRT BEMA
 the_DT
-big_JJAT JJDESCAll JJSIZE
+big_JJAT JJDESCall JJSIZE
 happines_NN NNother
 if_COND
 you_PP2
@@ -1628,7 +1630,7 @@ vehiles_NN NNother
 today_TIME
 morning_NN NNQUANT
 ._.
-Will_MDWS MDPREDAll
+Will_MDWS MDPREDall
 it_PIT
 be_VB BEMA
 a_DT
@@ -1642,7 +1644,7 @@ Airport_NN NNP
 and_CC
 Harbour_NN NNP
 ?_. YNQU
-BETTER_JJPR JJPRother
+BETTER_JJPR COMPAR
 YOU_PP2
 OPEN_VPRT ACT
 A_DT
@@ -1714,7 +1716,7 @@ Well_DMA
 done_VBN ACT
 Daily_NN NNP
 Mirror_NN NNP
-Ca_MDCA MDPOSSCAll
+Ca_MDCA MDPOSSCall
 n't_XX0 CONT
 you_PP2
 do_VB ACT
@@ -1735,7 +1737,7 @@ WOW_FPUH
 WONDERFUL_JJAT JJATother
 JOB_NN NNABSPROC
 ._.
-KEEP_VB ASPECT
+KEEP_VIMP ASPECT
 UP_RP
 THE_DT
 GOOD_JJAT JJEVAL
@@ -1804,7 +1806,7 @@ the_DT
 presidential_JJAT JJATother
 election_NN NOMZ
 was_VBD
-fought_PASS PASSAll
+fought_PASS PASSall
 on_IN INother
 the_DT
 platform_NN NNother
@@ -1819,7 +1821,7 @@ PM_NN NNother
 ....._,
 this_DEMO
 was_VBD
-promoted_PASS PASSAll
+promoted_PASS PASSall
 by_IN INother
 all_QUAN
 the_DT
@@ -1858,7 +1860,7 @@ and_CC
 it_PIT
 is_VPRT SPLIT
 legitimately_RB RBother
-given_PASS PASSAll ACT
+given_PASS PASSall ACT
 ..._.
 New_JJAT JJTIME
 man_NN NNHUMAN
@@ -1914,7 +1916,7 @@ do_VPRT SPLIT DOAUX
 n’t_RB RBother
 even_RB RBother
 know_VB MENTAL
-that_THSC ThSTNCAll ThVSTNCAll ThVFCT
+that_THSC ThSTNCall ThVSTNCall ThVFCT
 there_EX
 are_VPRT
 few_QUAN
@@ -1961,7 +1963,7 @@ descent_NN NNother
 is_VPRT SPLIT
 very_AMP
 closely_RB RBother
-associated_PASS PASSAll
+associated_PASS PASSall
 with_IN INother
 the_DT
 new_JJAT JJTIME
@@ -1987,7 +1989,7 @@ Lankan_NN NNP
 ’s_POS
 have_VPRT
 been_PEAS
-banned_PASS PASSAll
+banned_PASS PASSall
 from_IN INother
 entering_VBG
 the_DT
@@ -2014,13 +2016,13 @@ increasing_PROG OCCUR
 What_WHSC WHSCother
 the_DT
 Tamils_NN NNP
-could_MDCO MDPOSSCAll SPLIT
+could_MDCO MDPOSSCall SPLIT
 n’t_RB RBother
 achieve_VB
 by_IN INother
 armed_JJAT JJATother
 conflict_NN NNABSPROC
-may_MDMM MDPOSSCAll
+may_MDMM MDPOSSCall
 come_VB ACT
 about_IN INother
 when_WHSC WHSCother
@@ -2030,9 +2032,9 @@ emasculated_VBN
 despised_VBN
 Sri_NN NNP
 Lanka_NN NNP
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 be_VB
-required_PASS PASSAll CAUSE
+required_PASS PASSall CAUSE
 to_IN INother
 concede_VB VATTother
 ._.
@@ -2041,7 +2043,7 @@ does_VPRT DOAUX
 not_XX0
 seem_VB EXIST
 be_VB
-commited_PASS PASSAll
+commited_PASS PASSall
 ._.
 Or_CC
 any_QUAN
@@ -2053,7 +2055,7 @@ cultural_JJAT JJATother
 activity_NN NNABSPROC
 must_MDNE
 be_VB
-entertained_PASS PASSAll
+entertained_PASS PASSall
 encouraged_VBN COMM
 ._.
 Research_NN NNABSPROC
@@ -2071,10 +2073,10 @@ of_IN INother
 basic_JJPR JJPRother
 human_FPUH
 rights_NN NSTNCother
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 not_XX0
 be_VB
-condoned_PASS PASSAll
+condoned_PASS PASSall
 by_IN INother
 decent_JJAT JJATother
 citizens_NN NNHUMAN
@@ -2133,7 +2135,7 @@ To_IN INother
 make_VB ACT
 the_DT
 matter_NN NNTECH
-easier_JJPR JJPRother
+easier_JJPR COMPAR
 ,_,
 use_VB ACT
 the_DT
@@ -2148,14 +2150,14 @@ throw_VB ACT
 after_IN INother
 use_NN NNABSPROC
 ,_,
-closer_JJPR JJPRother
+closer_JJPR COMPAR
 to_IN INother
 the_DT
 Parliament_NN NNP
 ._.
 This_DEMO
 is_VPRT BEMA
-further_JJAT JJATother
+further_JJAT COMPAR
 evidence_NN NNother
 of_IN INother
 the_DT
@@ -2189,12 +2191,12 @@ the_DT
 indigenous_JJAT JJATother
 peoples_NN NNHUMAN
 are_VPRT
-recognised_PASS PASSAll MENTAL
+recognised_PASS PASSall MENTAL
 ._.
 this_DEMO
 beggar_NN NNother
 country_NN NCOMP
-will_MDWS MDPREDAll
+will_MDWS MDPREDall
 descend_VB
 further_CC
 into_IN INother
@@ -2204,9 +2206,9 @@ failure_NN NSTNCother
 and_CC
 to_IN INother
 be_VB
-rescued_PASS PASSAll
+rescued_PASS PASSall
 be_VB
-absorbed_PASS PASSAll
+absorbed_PASS PASSall
 into_IN INother
 an_DT
 territorially_RB RBother
@@ -2242,7 +2244,7 @@ indigenious_JJAT JJATother
 people_NN NNHUMAN
 must_MDNE
 be_VB
-respected_PASS PASSAll
+respected_PASS PASSall
 by_IN INother
 all_QUAN
 government_NN NNGRP
@@ -2296,11 +2298,12 @@ Rs._$
 =._SYM
 So_SO
 ,_,
-Whats_VB
+what_WHQU
+'s_VPRT CONT BEMA
 the_DT
-big_JJAT JJDESCAll JJSIZE
+big_JJAT JJDESCall JJSIZE
 deal_NN NNABSPROC
-??_. YNQU
+??_. WQ
 The_DT
 EFFECT_NN NNABSPROC
 of_IN INother
@@ -2320,11 +2323,11 @@ riots_NN NNother
 but_CC
 damaged_VBN
 goods_NN NNother
-can_MDCA MDPOSSCAll
+can_MDCA MDPOSSCall
 be_VB
-replaced_PASS PASSAll
+replaced_PASS PASSall
 and_CC
-re-built_PASS PASSAll
+re-built_PASS PASSall
 ._.
 The_DT
 cost_NN NNother
