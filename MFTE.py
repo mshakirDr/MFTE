@@ -1861,6 +1861,27 @@ def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     df_new.loc[:, cols_without_averages] = df.loc[:, cols_without_averages].div(df.Words.values, axis=0) #divide by total words
     return df_new
 
+def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Retuns df columns sorted alphabatically first simple then extended tags
+
+    Args:
+        df (pd.DataFrame): df to be sorted
+
+    Returns:
+        df_sorted (pd.DataFrame): sorted df
+    """
+    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "AWL", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LDE", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "Ppother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "TTR", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "Words", "XX0", "YNQU", "NTotal", "VBTotal"]]
+    simple.sort()
+    extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1", "PP3", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
+    extended.sort()
+    df_simple = df[simple]
+    df_extended = df[extended]
+    df_simple = df_simple.reindex(columns=simple)
+    df_extended = df_extended.reindex(columns=extended)
+    df_sorted = pd.concat([df_simple, df_extended], axis=1)
+    return df_sorted
+
+
 def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     """Read files and count tags added by process_sentence
     Args:
@@ -1919,6 +1940,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         df = pd.DataFrame(list_of_dicts).fillna(0)
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
+        df = sort_df_columns(df) #sort df columns
         df.round(4).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
         get_complex_normed_counts(df).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
