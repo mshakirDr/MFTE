@@ -1871,7 +1871,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
         df_sorted (pd.DataFrame): sorted df
     """
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
-    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "NTotal", "VBTotal"]]
+    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
     extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1", "PP3", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
     extended.sort()
@@ -1910,10 +1910,10 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
             # EFL: Counting total nouns for per 100 noun normalisation
             # Shakir: list of words that match the given regex, then take its length as total nouns 
-            Ntotal = len([word for word in words if re.search(r"_NN", word)])
+            Ntotal = len([word for word in words if re.search(r"_NN\b", word)])
             # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
             #Shakir: list of words that match the given regex, then take its length as total verbs
-            VBtotal = len([word for word in words if re.search(r"_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS", word)])
+            VBtotal = len([word for word in words if re.search(r"(_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS)\b", word)])
             # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
             # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
             list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX", word) if re.search(r"^\S+_\S+$", word)]
@@ -1941,10 +1941,10 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
         df = sort_df_columns(df) #sort df columns
-        df.round(0).drop(columns=['NTotal', 'VBTotal']).to_csv(dir_out+"counts_raw.csv", index=False)
+        df.round().drop(columns=['Ntotal', 'VBtotal']).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
-        get_complex_normed_counts(df).drop(columns=['NTotal', 'VBTotal']).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
-        get_percent_normed_counts(df).drop(columns=['NTotal', 'VBTotal']).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
+        get_complex_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
+        get_percent_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
         print("finished!")
     else:
         print("There are no files to count tags from. Maybe you did not input correct path?")
@@ -1952,42 +1952,42 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
-    ttr = 400
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
-    t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
-    t_1 = timeit.default_timer()
-    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD, extended=True)
-    do_counts(output_MD, output_stats, ttr)
-
 # if __name__ == "__main__":
-#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-#     #input_dir = r"D:\Downloads\Elanguage\\" 
+#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
 #     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
 #     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-#     output_MD = output_stanford + "MD/"
-#     output_stats = output_MD + "Statistics/"
+#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
 #     ttr = 400
-#     # record start time
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_0 = timeit.default_timer()
 #     tag_stanford_stanza(input_dir, output_stanford)
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_1 = timeit.default_timer()
 #     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
 #     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
 #     tag_MD(output_stanford, output_MD, extended=True)
 #     #tag_MD_parallel(output_stanford, output_MD, extended=True)
 #     do_counts(output_MD, output_stats, ttr)
+
+if __name__ == "__main__":
+    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"D:\Downloads\Elanguage\\" 
+    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+    output_MD = output_stanford + "MD/"
+    output_stats = output_MD + "Statistics/"
+    ttr = 400
+    # record start time
+    t_0 = timeit.default_timer()
+    tag_stanford_stanza(input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    t_1 = timeit.default_timer()
+    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD, extended=True)
+    do_counts(output_MD, output_stats, ttr)
