@@ -1870,7 +1870,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         df_sorted (pd.DataFrame): sorted df
     """
-    non_tag = [col for col in df.columns if col in ["Words", "AWL", "TTR", "LDE"]]
+    non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
     simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "NTotal", "VBTotal"]]
     simple.sort()
     extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1", "PP3", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
@@ -1941,10 +1941,10 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
         df = sort_df_columns(df) #sort df columns
-        df.round(4).to_csv(dir_out+"counts_raw.csv", index=False)
+        df.round(4).drop(columns=['NTotal', 'VBTotal']).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
-        get_complex_normed_counts(df).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
-        get_percent_normed_counts(df).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
+        get_complex_normed_counts(df).drop(columns=['NTotal', 'VBTotal']).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
+        get_percent_normed_counts(df).drop(columns=['NTotal', 'VBTotal']).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
         print("finished!")
     else:
         print("There are no files to count tags from. Maybe you did not input correct path?")
