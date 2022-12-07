@@ -1,137 +1,137 @@
 as_CC
-well_RB RBother
+well_RB
 ._.
 yeah_DMA
 cos_CUZ
 that_DEMO
 had_VBD
 something_QUPR
-to_IN INother
+to_IN
 do_VB ACT
-with_IN INother
+with_IN
 it_PIT
-shit_NN NNother
+shit_NN
 bastards_NN NCOMP
 you_PP2
 're_VPRT CONT BEMA
-comfy_JJPR JJPRother
+comfy_JJPR
 are_VPRT
 you_PP2
 ?_. QUTAG
 yeah_DMA
 ._.
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT BEMA
-hungry_JJPR JJPRother
+hungry_JJPR
 actually_DMA
 ._.
 you_PP2
-hungry_JJPR JJPRother
+hungry_JJPR
 ?_. YNQU
 yeah_DMA
 ._.
-he_PP3S PP3
+he_PP3S
 looks_VPRT
 like_LIKE
 a_DT
-right_JJAT JJEPSTother
-dickhead_NN NNother
+right_JJAT
+dickhead_NN
 ._.
 who_WHQU
 does_VPRT DOAUX
 ?_. WQ
 that_DEMO
-guy_NN NNHUMAN
-with_IN INother
+guy_NN
+with_IN
 the_DT
-glasses_NN NNother
+glasses_NN
 ._.
 why_WHQU
 is_VPRT BEMA
 it_PIT
 so_EMPH
-creepy_JJPR JJPRother
+creepy_JJPR
 ?_. WQ
 why_WHQU
 are_VPRT
 there_EX
 so_EMPH
 many_QUAN
-rapists_NN NNother
+rapists_NN
 everywhere_PLACE
 ?_. WQ
 are_VPRT BEMA
 you_PP2
 a_DT
-police_NN NNHUMAN
+police_NN
 officer_NN NCOMP
 ?_. YNQU
 none_QUPR
-of_IN INother
-them_PP3P PP3
+of_IN
+them_PP3P
 are_VPRT
 getting_PROG
-locked_PGET PASSall
+locked_PGET
 up_RP
 though_CONC
 ._.
 but_CC
-guilty_JJPR JJPRother
+guilty_JJPR
 like_FPUH
 ._.
-he_PP3S PP3
-'ll_MDWS MDPREDall CONT
+he_PP3S
+'ll_MDWS CONT
 go_VB
-on_IN INother
+on_IN
 the_DT
-sex_NN NNABSPROC
+sex_NN
 offenders_NN NCOMP
 '_POS
-register_NN NNother
+register_NN
 and_CC
 everything_QUPR
 ._.
-he_PP3S PP3
-'ll_MDWS MDPREDall CONT
+he_PP3S
+'ll_MDWS CONT
 have_MDNE
-to_IN INother
+to_IN
 go_VB
-to_IN INother
-jail_NN NNother
-for_IN INother
+to_IN
+jail_NN
+for_IN
 three_CD
-years_NN NNother
-him_PP3S PP3
+years_NN
+him_PP3S
 ._.
-he_PP3S PP3
+he_PP3S
 's_VPRT CONT BEMA
-without_IN INother
-charge_NN NNABSPROC
+without_IN
+charge_NN
 ._.
-with_IN INother
+with_IN
 an_DT
 eleven_CD
 -_HYPH
-year_NN NNother
+year_NN
 -_HYPH
-old_JJPR JJTIME
+old_JJPR
 disabled_VBN
-girl_NN NNHUMAN
+girl_NN
 ._.
 that_DEMO
 was_VBD BEMA
 that_DEMO
 was_VBD BEMA
 the_DT
-worst_JJAT SUPER
-one_NN NNother
+worst_JJAT
+one_NN
 ._.
 disabled_VBN
-girl_NN NNHUMAN
+girl_NN
 it_PIT
 's_VPRT CONT BEMA
-fucking_RB RBother
-ridiculous_JJPR JJPRother
+fucking_RB
+ridiculous_JJPR
 ._.
 sorry_JJPR POLITE
 ._.
@@ -139,20 +139,20 @@ you_PP2
 are_VPRT
 so_SO
 so_EMPH
-sexy_JJPR JJPRother
+sexy_JJPR
 ._.
-I_PP1S PP1
-know_VPRT MENTAL
-right_RB RBother
+I_PP1S
+know_VPRT
+right_RB
 ?_. YNQU
 which_WHQU
-one_NN NNother
+one_NN
 d'you_PP2
-wan_VPRT MENTAL
-na_IN INother
-watch_VB ACT
+wan_VPRT
+na_IN
+watch_VB
 ?_. WQ
-Jill_NN NNP
+Jill_NN
 ?_. YNQU
 yeah_DMA
 ._.
@@ -160,251 +160,251 @@ what_WHQU
 is_VPRT BEMA
 it_PIT
 ?_. WQ
-Catfish_NN NNother
+Catfish_NN
 ._.
 what_WHQU
 is_VPRT BEMA
-Catfish_NN NNP
+Catfish_NN
 ?_. WQ
-same_JJPR JJREL
-as_IN INother
-Stinton_NN NNP
-really_RB RSTNCall RFACT
+same_JJPR
+as_IN
+Stinton_NN
+really_RB
 but_CC
 not_XX0
-paedophiles_NN NNother
+paedophiles_NN
 .._,
-just_RB RBother
-fake_JJAT JJATother
--o_NN NNother
-weirdos_NN NNother
-who_WHSC WHSCother
-pretend_VPRT MENTAL
-to_IN ToSTNCall ToVSTNCall ToVMNTL
+just_RB
+fake_JJAT
+-o_NN
+weirdos_NN
+who_WHSC
+pretend_VPRT
+to_IN
 be_VB BEMA
 something_QUPR
-else_JJPR JJPRother
-on_IN INother
+else_JJPR
+on_IN
 the_DT
-internet_NN NNTECH
+internet_NN
 ._.
 oh_FPUH
 yeah_DMA
-I_PP1S PP1
-remember_VPRT MENTAL
+I_PP1S
+remember_VPRT
 ._.
 ha_FPUH
 ha_FPUH
-she_PP3S PP3
+she_PP3S
 does_VPRT DOAUX
 not_XX0
 look_VB
 like_LIKE
-that_THSC THSCother
+that_THSC
 it_PIT
 's_VPRT CONT BEMA
-really_RB RSTNCall RFACT
-loud_JJPR JJPRother
+really_RB
+loud_JJPR
 this_DEMO
-programme_NN NNother
+programme_NN
 you_PP2
 've_VPRT CONT
 not_XX0
-met_PEAS ACT
-her_PP3S PP3
-paedophile_NN NNother
+met_PEAS
+her_PP3S
+paedophile_NN
 what_WHQU
 ?_. WQ
-he_PP3S PP3
+he_PP3S
 's_VPRT CONT BEMA
 a_DT
-black_JJAT JJDESCall JJCOLR
-guy_NN NNHUMAN
+black_JJAT
+guy_NN
 all_QUAN
 the_DT
-black_JJAT JJDESCall JJCOLR
-ones_NN NNother
+black_JJAT
+ones_NN
 are_VPRT BEMA
-cheaters_NN NNother
+cheaters_NN
 ._.
 yeah_DMA
 ._.
 it_PIT
 's_VPRT CONT BEMA
-true_JJPR JJEPSTother
-we_PP1P PP1
+true_JJPR
+we_PP1P
 've_VPRT CONT
-watched_PEAS ACT
+watched_PEAS
 five_CD
 and_CC
 two_CD
-of_IN INother
-them_PP3P PP3
+of_IN
+them_PP3P
 are_VPRT BEMA
-black_JJPR JJDESCall JJCOLR
+black_JJPR
 and_CC
 two_CD
-of_IN INother
-them_PP3P PP3
-cheaters_NN NNother
+of_IN
+them_PP3P
+cheaters_NN
 ._.
 yeah_DMA
 that_DEMO
 's_VPRT CONT
-fucked_PASS PASSall
+fucked_PASS
 up_RP
 you_PP2
 do_VPRT SPLIT DOAUX
 n't_XX0 CONT
-just_RB RBother
+just_RB
 jump_VB
-out_IN INother
-of_IN INother
+out_IN
+of_IN
 one_CD
-into_IN INother
+into_IN
 another_DT
-one_NN NNother
+one_NN
 ._.
 ah_FPUH
 this_DEMO
 is_VPRT BEMA
 the_DT
-one_NN NNother
-I_PP1S PP1
-watched_VBD ACT
+one_NN
+I_PP1S
+watched_VBD
 the_DT
-end_NN NNABSPROC
+end_NN
 of_IN STPR
 ._.
 how_WHQU
 has_VPRT
-he_PP3S PP3
+he_PP3S
 how_WHQU
 has_VPRT
-he_PP3S PP3
+he_PP3S
 got_HGOT
 like_LIKE
 three_CD
-kids_NN NNHUMAN
+kids_NN
 and_CC
-known_VBN MENTAL
+known_VBN
 this_DEMO
-girl_NN NNHUMAN
+girl_NN
 three_CD
-years_NN NNother
+years_NN
 ?_. WQ
 yeah_DMA
-I_PP1S PP1
-know_VPRT MENTAL
+I_PP1S
+know_VPRT
 but_CC
-why_WHSC WHSCother
+why_WHSC
 if_COND
-they_PP3P PP3
+they_PP3P
 've_VPRT CONT SPLIT
-only_RB RBother
+only_RB
 been_PEAS BEMA
-together_RB RBother
-for_IN INother
+together_RB
+for_IN
 three_CD
-years_NN NNother
+years_NN
 and_CC
 now_TIME
 have_VPRT
 three_CD
-kids_NN NNHUMAN
+kids_NN
 ?_. YNQU
-they_PP3P PP3
-might_MDMM MDPOSSCall
+they_PP3P
+might_MDMM
 be_VB BEMA
-kids_NN NNHUMAN
-from_IN INother
-his_PP3S PP3
+kids_NN
+from_IN
+his_PP3S
 do_VPRT DOAUX
 n't_XX0 CONT
-know_VB MENTAL
+know_VB
 ._.
-she_PP3S PP3
+she_PP3S
 ai_VPRT
 n't_XX0 CONT
-Jess_NN NNP
+Jess_NN
 ._.
-she_PP3S PP3
+she_PP3S
 ai_VPRT
 n't_XX0 CONT
-Jess_NN NNP
+Jess_NN
 ._.
-I_PP1S PP1
-know_VPRT MENTAL
-what_WHSC WhVSTNCall WhVFCT
-happens_VPRT OCCUR
+I_PP1S
+know_VPRT
+what_WHSC
+happens_VPRT
 ._.
-his_PP3S PP3
-girlfriend_NN NNother
+his_PP3S
+girlfriend_NN
 is_VPRT
-Jess_NN NNP
+Jess_NN
 well_DMA
-that_THRC THRCother
-would_MDWO MDPREDall
+that_THRC
+would_MDWO
 have_VB
 been_PEAS BEMA
 a_DT
-cool_JJAT JJATother
-twist_NN NNother
+cool_JJAT
+twist_NN
 ._.
 yeah_DMA
 that_DEMO
-would_MDWO MDPREDall
+would_MDWO
 have_VB
 been_PEAS BEMA
 a_DT
-cool_JJAT JJATother
-twist_NN NNother
+cool_JJAT
+twist_NN
 ._.
 you_PP2
-fucking_RB RBother
+fucking_RB
 cheating_VBG
-bastard_NN NNother
+bastard_NN
 ._.
 unless_COND
-she_PP3S PP3
+she_PP3S
 ._.
-called_VBN COMM
-Cheaters_NN NNother
+called_VBN
+Cheaters_NN
 ._.
-Cheaters_NN NNother
+Cheaters_NN
 yeah_DMA
 unless_COND
-she_PP3S PP3
+she_PP3S
 did_VBD DOAUX
 n't_XX0 CONT
-know_VB MENTAL THATD
+know_VB THATD
 it_PIT
 was_VBD BEMA
-him_PP3S PP3
+him_PP3S
 either_CC
-at_IN INother
-which_WHSC WHSCother
-point_NN NNother
-she'd_MDWO MDPREDall CONT
+at_IN
+which_WHSC
+point_NN
+she'd_MDWO CONT
 be_VB
 like_FPUH
 oh_FPUH
 so_SO
 this_DEMO
 is_VPRT BEMA
-awkward_JJPR JJPRother
-we_PP1P PP1
+awkward_JJPR
+we_PP1P
 've_VPRT CONT
 actually_DMA
-fallen_PEAS OCCUR
-for_IN INother
+fallen_PEAS
+for_IN
 each_QUAN
-other_JJPR JJPRother
+other_JJPR
 behind_QUPR
 each_QUAN
-other_JJPR JJPRother
+other_JJPR
 's_QUPR
-back_NN NNother
+back_NN
 ._.
 yeah_DMA
 ._.
@@ -412,138 +412,138 @@ yeah_DMA
 .._,
 why_WHQU
 are_VPRT BEMA
-they_PP3P PP3
-involved_PASS PASSall EXIST
+they_PP3P
+involved_PASS
 if_COND
-right_RB RBother
-right_RB RBother
+right_RB
+right_RB
 now_TIME
-they_PP3P PP3
-think_VPRT MENTAL THATD
-Jess_NN NNP
+they_PP3P
+think_VPRT THATD
+Jess_NN
 is_VPRT BEMA
-real_JJPR JJPRother
+real_JJPR
 ?_. WQ
-they_PP3P PP3
+they_PP3P
 no_DMA
-they_PP3P PP3
+they_PP3P
 get_VPRT
-found_PGET PASSall
-whether_WHSC WHSCother
-Jess_NN NNP
+found_PGET
+whether_WHSC
+Jess_NN
 is_VPRT BEMA
-real_JJPR JJPRother
+real_JJPR
 or_CC
 not_XX0
 ._.
 so_SO
-they_PP3P PP3
+they_PP3P
 do_VPRT ACT
 it_PIT
 a_DT
 lot_QUAN
 and_CC
 the_DT
-person_NN NNHUMAN
-ends_VPRT ASPECT
+person_NN
+ends_VPRT
 up_RP
 being_VBG BEMA
-real_JJPR JJPRother
+real_JJPR
 ?_. YNQU
 and_CC
 not_XX0
-real_JJPR JJPRother
+real_JJPR
 ._.
 and_CC
 not_XX0
-real_JJPR JJPRother
+real_JJPR
 ._.
 cos_CUZ
-he_PP3S PP3
-will_MDWS MDPREDall
-end_VB ASPECT
+he_PP3S
+will_MDWS
+end_VB
 up_RP
 breaking_VBG
 up_RP
-with_IN INother
-his_PP3S PP3
-girlfriend_NN NNother
+with_IN
+his_PP3S
+girlfriend_NN
 ruining_VBG
-his_PP3S PP3
-life_NN NNABSPROC
+his_PP3S
+life_NN
 and_CC
 it_PIT
 be_VB BEMA
 some_QUAN
 like_LIKE
-fat_JJAT JJATother
-chick_NN NNother
+fat_JJAT
+chick_NN
 or_CC
 something_QUPR
 no_DMA
 ._.
-fat_JJPR JJPRother
+fat_JJPR
 yeah_DMA
 a_DT
-really_RB RSTNCall RFACT
-fat_JJAT JJATother
-horrible_JJAT JJATother
-chick_NN NNother
+really_RB
+fat_JJAT
+horrible_JJAT
+chick_NN
 what_WHQU
 's_VPRT CONT
-he_PP3S PP3
+he_PP3S
 doing_PROG ACT
-with_IN INother
-his_PP3S PP3
+with_IN
+his_PP3S
 ?_. WQ
 what_WHQU
 is_VPRT BEMA
 that_DEMO
 ?_. WQ
-I_PP1S PP1
+I_PP1S
 've_VPRT CONT SPLIT
-just_RB RBother
-seen_PEAS MENTAL
+just_RB
+seen_PEAS
 it_PIT
 ._.
-I_PP1S PP1
-think_VPRT MENTAL
-that_THSC ThSTNCall ThVSTNCall ThVLIK
-American_JJAT JJATother
-crutches_NN NNother
+I_PP1S
+think_VPRT
+that_THSC
+American_JJAT
+crutches_NN
 are_VPRT BEMA
-fucking_RB RBother
-ridiculous_JJPR JJPRother
-they_PP3P PP3
+fucking_RB
+ridiculous_JJPR
+they_PP3P
 're_VPRT CONT
-allowed_PASS PASSall CAUSE
-to_IN INother
+allowed_PASS
+to_IN
 go_VB
-to_IN INother
+to_IN
 your_PP2
-armpits_NN NNother
+armpits_NN
 ._.
 ah_FPUH
 yeah_DMA
 it_PIT
 's_VPRT CONT BEMA
-stupid_JJPR JJPRother
+stupid_JJPR
 ._.
 do_VIMP ACT
 what_WHQU
-into_IN INother
+into_IN
 your_PP2
-armpits_NN NNother
+armpits_NN
 ?_. WQ
 the_DT
-crutches_NN NNother
+crutches_NN
 ._.
 the_DT
-crutches_NN NNother
+crutches_NN
 go_VPRT
-to_IN INother
+to_IN
 your_PP2
-armpits_NN NNother
+armpits_NN
 ._.
 oh_FPUH
 right_DMA
@@ -552,250 +552,250 @@ yeah_DMA
 if_COND
 you_PP2
 ever_FREQ
-talk_VPRT COMM
-to_IN INother
+talk_VPRT
+to_IN
 anyone_QUPR
 online_PLACE
-behind_IN INother
-my_PP1S PP1
-back_NN NNother
-I_PP1S PP1
-will_MDWS MDPREDall
+behind_IN
+my_PP1S
+back_NN
+I_PP1S
+will_MDWS
 fucking_VBG
 throttle_VB
 you_PP2
 ._.
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 n't_XX0 CONT
 have_VB
-time_NN NNQUANT
-to_IN INother
-talk_VB COMM
-to_IN INother
+time_NN
+to_IN
+talk_VB
+to_IN
 anyone_QUPR
 online_PLACE
 you_PP2
 got_VBD
-me_PP1S PP1
+me_PP1S
 doing_VBG ACT
 all_QUAN
 these_DEMO
-jobs_NN NNABSPROC
-for_IN INother
+jobs_NN
+for_IN
 you_PP2
 all_QUAN
 the_DT
-time_NN NNQUANT
+time_NN
 ._.
 like_FPUH
 what_WHQU
 ?_. WQ
-running_VBG ACT
+running_VBG
 around_PLACE
-after_IN INother
+after_IN
 you_PP2
 press_VPRT
-play_NN NNTECH
+play_NN
 ?_. YNQU
 what_WHQU
-jobs_NN NNABSPROC
+jobs_NN
 ?_. WQ
 press_VIMP
-play_NN NNTECH
+play_NN
 ._.
 what_WHQU
 the_DT
-book_NN NNCONC
+book_NN
 thing_NN NCOMP
 ?_. WQ
-book_NN NNCONC
+book_NN
 thing_NN NCOMP
 yeah_DMA
 that_DEMO
 was_VBD BEMA
 a_DT
-massive_JJAT JJATother
-thing_NN NNother
+massive_JJAT
+thing_NN
 three_CD
-hours_NN NNQUANT
-out_IN INother
-of_IN INother
-my_PP1S PP1
-day_NN NNQUANT
+hours_NN
+out_IN
+of_IN
+my_PP1S
+day_NN
 but_CC
 ._.
 it_PIT
 was_VBD BEMA
 n't_XX0 CONT
 three_CD
-hours_NN NNQUANT
-out_IN INother
-of_IN INother
+hours_NN
+out_IN
+of_IN
 your_PP2
-day_NN NNQUANT
+day_NN
 it_PIT
 was_VBD
 about_HDG
 ten_CD
-minutes_NN NNQUANT
+minutes_NN
 ._.
 ten_CD
-minutes_NN NNQUANT
+minutes_NN
 yeah_DMA
 everything_QUPR
 is_VPRT
 yeah_DMA
-then_RB RBother
-it's_PP1P PP1
+then_RB
+it's_PP1P
 no_XX0
 thanks_CUZ
-to_IN INother
+to_IN
 you_PP2
 while_CC
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT
 driving_PROG
-home_RB RBother
-to_IN INother
+home_RB
+to_IN
 you_PP2
-she_PP3S PP3
+she_PP3S
 's_VPRT CONT BEMA
 not_XX0
-real_JJPR JJPRother
+real_JJPR
 but_CC
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT
-lost_PASS PASSall ACT
-for_IN INother
-her_PP3S PP3
+lost_PASS
+for_IN
+her_PP3S
 ._.
-chocolate_NN NNother
+chocolate_NN
 and_CC
-vanilla_NN NNother
+vanilla_NN
 swirls_NN NCOMP
 .._,
 have_VPRT
 you_PP2
 ever_FREQ
-seen_VBN MENTAL THATD
+seen_VBN THATD
 it_PIT
 be_VB BEMA
-successful_JJPR JJPRother
+successful_JJPR
 ?_. YNQU
 yeah_DMA
 ._.
 what_WHQU
-on_IN INother
+on_IN
 here_PLACE
 ?_. WQ
 yeah_DMA
 ._.
 that_DEMO
 's_VPRT CONT BEMA
-nice_JJPR JJEVAL
+nice_JJPR
 ._.
-just_RB RBother
-take_VIMP ACT
+just_RB
+take_VIMP
 that_DEMO
 away_PLACE
 this_DEMO
 is_VPRT BEMA
 n't_XX0 CONT
-successful_JJPR JJPRother
+successful_JJPR
 because_CUZ
 you_PP2
 've_VPRT CONT
-seen_PEAS MENTAL
+seen_PEAS
 the_DT
-end_NN NNABSPROC
+end_NN
 and_CC
 it_PIT
 's_VPRT CONT
-obviously_RB RSTNCall RFACT
+obviously_RB
 ._.
-I_PP1S PP1
-literally_RB RBother
-only_RB RBother
-saw_VBD MENTAL
+I_PP1S
+literally_RB
+only_RB
+saw_VBD
 the_DT
-last_JJAT JJATother
+last_JJAT
 five_CD
-seconds_NN NNQUANT
-where_WHSC WHSCother
-they_PP3P PP3
+seconds_NN
+where_WHSC
+they_PP3P
 get_VPRT
-in_IN INother
+in_IN
 a_DT
-car_NN NNCONC
+car_NN
 and_CC
 drive_VPRT
 away_PLACE
-they_PP3P PP3
+they_PP3P
 do_VPRT ACT
 that_DEMO
-in_IN INother
+in_IN
 every_QUAN
-episode_NN NNother
+episode_NN
 anyway_DMA
 ._.
-she_PP3S PP3
+she_PP3S
 's_VPRT CONT BEMA
-she_PP3S PP3
+she_PP3S
 is_VPRT BEMA
-fake_JJPR JJPRother
+fake_JJPR
 hi._FPUH
 hey_FPUH
 ._.
 hey_FPUH
 ._.
 more_QUAN
-paedophiles_NN NNother
+paedophiles_NN
 ?_. YNQU
-no._NN NNother
+no._NN
 no_DMA
-we_PP1P PP1
+we_PP1P
 've_VPRT CONT
-moved_PEAS ACT
+moved_PEAS
 on_IN STPR
 ._.
-we_PP1P PP1
-moved_VBD ACT
-on_RB RBother
+we_PP1P
+moved_VBD
+on_RB
 ._.
 are_VPRT BEMA
 you_PP2
 here_PLACE
-to_IN INother
-stay_VB EXIST
+to_IN
+stay_VB
 ?_. YNQU
 no_DMA
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT
 doing_PROG ACT
 one_CD
 more_QUAN
-thing_NN NNother
-of_IN INother
+thing_NN
+of_IN
 washing_VBG
-then_RB RBother
-I_PP1S PP1
+then_RB
+I_PP1S
 'm_VPRT CONT
-going_GTO MDPREDall
-to_IN INother
+going_GTO
+to_IN
 get_VB
 some_QUAN
-food_NN NNCONC
+food_NN
 ._.
 are_VPRT BEMA
 you_PP2
-going_GTO MDPREDall
-to_IN INother
-stay_VB EXIST
+going_GTO
+to_IN
+stay_VB
 ?_. YNQU
 when_WHQU
 ?_. WQ
-after_IN INother
+after_IN
 that_DEMO
 ._.
 yeah_DMA
@@ -804,27 +804,27 @@ oh_FPUH
 yeah_DMA
 ._.
 oh_FPUH
-Jill_NN NNP
-I_PP1S PP1
-can_MDCA MDPOSSCall
-make_VB ACT
-roast_NN NNother
+Jill_NN
+I_PP1S
+can_MDCA
+make_VB
+roast_NN
 potatoes_NN NCOMP
 instead_CC
-of_IN INother
-chips_NN NNother
+of_IN
+chips_NN
 ._.
 are_VPRT
 you_PP2
-working_PROG ACT
+working_PROG
 tonight_TIME
 ?_. YNQU
 er_FPUH
 it_PIT
 depends_VPRT
-how_WHSC WHSCother
+how_WHSC
 much_QUAN
-I_PP1S PP1
+I_PP1S
 've_VPRT CONT
 gotta_HGOT
 do_VB ACT
@@ -835,47 +835,47 @@ okay_FPUH
 ._.
 if_COND
 not_XX0
-I_PP1S PP1
-'ll_MDWS MDPREDall CONT SPLIT
+I_PP1S
+'ll_MDWS CONT SPLIT
 probably_HDG
 do_VB ACT
 some_QUAN
-CDs_NN NNother
+CDs_NN
 ._.
 but_CC
-thank_VPRT COMM POLITE
+thank_VPRT POLITE
 you_PP2
-for_IN INother
-thinking_VBG MENTAL
-of_IN INother
+for_IN
+thinking_VBG
+of_IN
 it_PIT
 ._.
-I_PP1S PP1
+I_PP1S
 can't_MDother
 be_VB
-bothered_PASS PASSall MENTAL
+bothered_PASS
 apparently_HDG
 there_EX
 is_VPRT
 a_DT
-little_JJAT JJDESCall JJSIZE
-thing_NN NNother
+little_JJAT
+thing_NN
 but_CC
-then_RB RBother
-I_PP1S PP1
+then_RB
+I_PP1S
 have_VPRT
 a_DT
-look_NN NNCOG
+look_NN
 ._.
-I_PP1S PP1
+I_PP1S
 've_VPRT CONT
 got_HGOT
 a_DT
-massive_JJAT JJATother
-list_NN NNTECH
-of_IN INother
-things_NN NNother
-to_IN INother
+massive_JJAT
+list_NN
+of_IN
+things_NN
+to_IN
 do_VB ACT
 and_CC
 it_PIT
@@ -883,25 +883,25 @@ it_PIT
 already_TIME
 like_FPUH
 five_CD
-o'clock_NN NNCONC
+o'clock_NN
 four_CD
-o'clock_NN NNCONC
+o'clock_NN
 and_CC
-I_PP1S PP1
-can_MDCA MDPOSSCall
+I_PP1S
+can_MDCA
 not_XX0
 be_VB
-bothered_PASS PASSall MENTAL
+bothered_PASS
 ._.
 it_PIT
 's_VPRT CONT BEMA
 four_CD
-o'clock_NN NNCONC
+o'clock_NN
 four_CD
 ._.
 four_CD
-I_PP1S PP1
-think_VPRT MENTAL THATD
+I_PP1S
+think_VPRT THATD
 you_PP2
 should_MDNE
 do_VB DOAUX
@@ -915,45 +915,45 @@ like_LIKE
 pressing_VBG
 though_CONC
 some_QUAN
-of_IN INother
+of_IN
 it_PIT
 is_VPRT
-stuff_NN NNother
+stuff_NN
 like_LIKE
-buy_VB ACT
+buy_VB
 a_DT
-laundry_NN NNother
+laundry_NN
 bag_NN NCOMP
 ._.
-I_PP1S PP1
-think_VPRT MENTAL THATD
+I_PP1S
+think_VPRT THATD
 you_PP2
 're_VPRT CONT BEMA
 a_DT
 bit_QUAN
 late_TIME
-for_IN INother
+for_IN
 that_DEMO
-on_IN INother
+on_IN
 a_DT
-Sunday_NN NNP
-at_IN INother
+Sunday_NN
+at_IN
 four_CD
-o'clock_NN NNCONC
+o'clock_NN
 ._.
 no_DMA
-I_PP1S PP1
-mean_VPRT COMM
+I_PP1S
+mean_VPRT
 online_PLACE
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT
 not_XX0
 ._.
-when_WHSC WHSCother
+when_WHSC
 everyone_QUPR
 shuts_VPRT
 ._.
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT
 not_XX0
 yeah_DMA
@@ -963,74 +963,74 @@ later_TIME
 ._.
 mm._FPUH
 fucking_VBG
-Enrique_NN NNP
-Iglesias_NN NNP
+Enrique_NN
+Iglesias_NN
 is_VPRT BEMA
 such_EMPH
 a_DT
-pillock_NN NNother
+pillock_NN
 ._.
 why_WHQU
 ?_. WQ
 cos_CUZ
-he_PP3S PP3
-just_RB RBother
+he_PP3S
+just_RB
 is_VPRT
 ._.
 you_PP2
-know_VPRT MENTAL THATD
-I_PP1S PP1
+know_VPRT THATD
+I_PP1S
 was_VBD
 and_CC
-I_PP1S PP1
-stayed_VBD EXIST
-in_IN INother
-bed_NN NNCONC
-for_IN INother
+I_PP1S
+stayed_VBD
+in_IN
+bed_NN
+for_IN
 the_DT
-whole_JJAT JJATother
-time_NN NNQUANT
+whole_JJAT
+time_NN
 ._.
 so_EMPH
-cheesy_JJPR JJPRother
+cheesy_JJPR
 ._.
 it_PIT
 's_VPRT CONT BEMA
 a_DT
-great_JJAT JJEVAL
-story_NN NNother
+great_JJAT
+story_NN
 ._.
-his_PP3S PP3
-old_JJAT JJTIME
-stuff_NN NNother
+his_PP3S
+old_JJAT
+stuff_NN
 's_VPRT CONT BEMA
-better_JJPR COMPAR
-than_IN INother
-his_PP3S PP3
-new_JJAT JJTIME
-stuff_NN NNother
-he_PP3S PP3
+better_JJPR
+than_IN
+his_PP3S
+new_JJAT
+stuff_NN
+he_PP3S
 's_VPRT CONT BEMA
-shit_JJPR JJPRother
+shit_JJPR
 now_TIME
 ._.
-he_PP3S PP3
+he_PP3S
 was_VBD BEMA
 always_FREQ
-shit_JJPR JJPRother
+shit_JJPR
 ._.
-I_PP1S PP1
+I_PP1S
 've_VPRT CONT
 not_XX0
-seen_PEAS MENTAL
+seen_PEAS
 this_DEMO
 this_DEMO
-wand_NN NNother
+wand_NN
 thing_NN NCOMP
 it_PIT
-seems_VPRT EXIST
-really_RB RSTNCall RFACT
-cool_JJPR JJPRother
+seems_VPRT
+really_RB
+cool_JJPR
 ._.
 it_PIT
 does_VPRT ACT EMPH
@@ -1040,54 +1040,54 @@ it_PIT
 ?_. QUTAG
 that_DEMO
 ._.
-they_PP3P PP3
+they_PP3P
 had_VBD
-to_IN INother
-they_PP3P PP3
+to_IN
+they_PP3P
 had_MDNE
-to_IN INother
+to_IN
 get_VB
 the_DT
-right_JJAT JJEPSTother
-matches_NN NNCONC
+right_JJAT
+matches_NN
 ._.
 have_VPRT
 you_PP2
-seen_PEAS MENTAL
+seen_PEAS
 the_DT
-advert_NN NNother
-for_IN INother
+advert_NN
+for_IN
 it_PIT
 ?_. YNQU
 yeah_DMA
-I_PP1S PP1
+I_PP1S
 was_VBD
-telling_PROG COMM
+telling_PROG
 you_PP2
-about_IN INother
+about_IN
 the_DT
 the_DT
-French_JJAT JJATother
-version_NN NNABSPROC
-they_PP3P PP3
+French_JJAT
+version_NN
+they_PP3P
 have_VPRT
-I_PP1S PP1
-used_PEAS ACT
-to_IN INother
-watch_VB ACT
+I_PP1S
+used_PEAS
+to_IN
+watch_VB
 that_DEMO
-at_IN INother
-home_NN NNGRP
+at_IN
+home_NN
 ._.
-I_PP1S PP1
-know_VPRT MENTAL
-durex_NN NNother
+I_PP1S
+know_VPRT
+durex_NN
 so_EMPH
 totally_AMP
-I_PP1S PP1
+I_PP1S
 have_VPRT
-genital_JJAT JJATother
-warts_NN NNother
+genital_JJAT
+warts_NN
 ._.
 not_XX0
 again_FREQ
@@ -1096,242 +1096,242 @@ not_XX0
 again_FREQ
 ._.
 is_VPRT BEMA
-her_PP3S PP3
-last_JJAT JJATother
-name_NN NNABSPROC
-Moses_NN NNP
+her_PP3S
+last_JJAT
+name_NN
+Moses_NN
 ?_. YNQU
 who_WHQU
 ?_. WQ
-Moses_NN NNP
+Moses_NN
 ._.
-Moses_NN NNP
+Moses_NN
 is_VPRT
 ._.
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 n't_XX0 CONT
-know_VB MENTAL
-who_WHSC WhVSTNCall WhVFCT
+know_VB
+who_WHSC
 it_PIT
 is_VPRT
 ._.
 it_PIT
 's_VPRT CONT BEMA
-Moses_NN NNP
+Moses_NN
 ._.
 if_COND
 somebody_QUPR
 had_VBD
 n't_XX0 CONT
-told_PEAS COMM
-me_PP1S PP1
+told_PEAS
+me_PP1S
 the_DT
 ._.
-he_PP3S PP3
+he_PP3S
 is_VPRT BEMA
-proper_JJAT JJATother
-black_JJPR JJDESCall JJCOLR
+proper_JJAT
+black_JJPR
 is_VPRT
 n't_XX0 CONT
-he_PP3S PP3
+he_PP3S
 ?_. QUTAG
-ink_NN NNother
-on_IN INother
-black_JJPR JJDESCall JJCOLR
+ink_NN
+on_IN
+black_JJPR
 ._.
 ._.
-I_PP1S PP1
+I_PP1S
 'm_VPRT CONT BEMA
 a_DT
 hundred_CD
-percent_NN NNQUANT
+percent_NN
 ._.
 mm._FPUH
 one_CD
-photo_NN NNother
-on_IN INother
-her_PP3S PP3
-Facebook_NN NNP
+photo_NN
+on_IN
+her_PP3S
+Facebook_NN
 page_NN NCOMP
 ._.
 the_DT
-same_JJAT JJREL
-photo_NN NNother
+same_JJAT
+photo_NN
 as_CC
-well_RB RBother
+well_RB
 ._.
 two_CD
 hundred_CD
-friends_NN NNHUMAN
+friends_NN
 all_QUAN
-men_NN NNHUMAN
+men_NN
 ._.
-I_PP1S PP1
-love_VPRT MENTAL
-I_PP1S PP1
-think_VPRT MENTAL
-he_PP3S PP3
+I_PP1S
+love_VPRT
+I_PP1S
+think_VPRT
+he_PP3S
 's_VPRT CONT BEMA
 so_EMPH
-hot_JJPR JJPRother
+hot_JJPR
 so_SO
 so_EMPH
-hot_JJPR JJPRother
-except_IN INother
-he_PP3S PP3
+hot_JJPR
+except_IN
+he_PP3S
 's_VPRT CONT BEMA
-too_RB RBother
-skinny_JJPR JJPRother
+too_RB
+skinny_JJPR
 ._.
-him_PP3S PP3
+him_PP3S
 ?_. YNQU
 yeah_DMA
 ._.
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 n't_XX0 CONT
-think_VB MENTAL
-he_PP3S PP3
+think_VB
+he_PP3S
 's_VPRT CONT BEMA
-hot_JJPR JJPRother
+hot_JJPR
 ._.
-I_PP1S PP1
-think_VPRT MENTAL
+I_PP1S
+think_VPRT
 he's_VPRT CONT BEMA
 so_EMPH
-hot_JJPR JJPRother
+hot_JJPR
 so_SO
 so_EMPH
-hot_JJPR JJPRother
-I_PP1S PP1
-think_VPRT MENTAL THATD
+hot_JJPR
+I_PP1S
+think_VPRT THATD
 you_PP2
 're_VPRT CONT BEMA
-hot_JJPR JJPRother
-too_RB RBother
-baby_NN NNHUMAN
+hot_JJPR
+too_RB
+baby_NN
 do_VPRT DOAUX
 n't_XX0 CONT
-worry_VB MENTAL
-just_RB RBother
-in_IN INother
+worry_VB
+just_RB
+in_IN
 a_DT
 very_AMP
-different_JJAT JJREL
-way_NN NNABSPROC
+different_JJAT
+way_NN
 like_LIKE
-normal_JJAT JJATother
-average_JJAT JJREL
-average_JJAT JJREL
-guy_NN NNHUMAN
+normal_JJAT
+average_JJAT
+average_JJAT
+guy_NN
 ._.
-she_PP3S PP3
-used_VBD ACT
-to_IN INother
+she_PP3S
+used_VBD
+to_IN
 be_VB BEMA
 a_DT
-dude_NN NNother
-what_WHSC WHSCother
+dude_NN
+what_WHSC
 a_DT
-twist_NN NNother
-that_THRC THRCother
-would_MDWO MDPREDall
+twist_NN
+that_THRC
+would_MDWO
 be_VB
 ._.
 like_FPUH
 a_DT
 million_CD
-hits_NN NNother
-in_IN INother
-fact_NN NSTNCother ELAB
+hits_NN
+in_IN
+fact_NN ELAB
 why_WHQU
 are_VPRT
-we_PP1P PP1
-watching_PROG ACT
+we_PP1P
+watching_PROG
 this_DEMO
 ?_. WQ
 cos_CUZ
-she_PP3S PP3
+she_PP3S
 's_VPRT CONT
-gon_GTO MDPREDall
-na_IN INother
-tell_VB COMM
-him_PP3S PP3
-in_IN INother
+gon_GTO
+na_IN
+tell_VB
+him_PP3S
+in_IN
 a_DT
-minute_NN NNQUANT
+minute_NN
 anyway_DMA
-may_MDMM MDPOSSCall
+may_MDMM
 as_CC
-well_RB RBother
-just_RB RBother
+well_RB
+just_RB
 fucking_VBG
 ._.
-wait_VIMP ACT
+wait_VIMP
 what_WHQU
-can_MDCA MDPOSSCall
-I_PP1S PP1
-just_RB RBother
+can_MDCA
+I_PP1S
+just_RB
 ?_. WQ
 no_DMA
-that_THSC THSCother
+that_THSC
 he'd_NN CONT
 do_VPRT DOAUX
-he_PP3S PP3
-'ll_MDWS MDPREDall CONT
-repeat_VB ACT
+he_PP3S
+'ll_MDWS CONT
+repeat_VB
 it_PIT
 all_QUAN
-to_IN INother
-him_PP3S PP3
+to_IN
+him_PP3S
 so_SO
-he_PP3S PP3
-'ll_MDWS MDPREDall CONT
-tell_VB COMM
-them_PP3P PP3
-exactly_RB RBother
-what_WHSC WHSCother
-he_PP3S PP3
-found_VBD VFCTother
+he_PP3S
+'ll_MDWS CONT
+tell_VB
+them_PP3P
+exactly_RB
+what_WHSC
+he_PP3S
+found_VBD
 ._.
 yeah_DMA
 so_SO
 like_FPUH
 you_PP2
-watch_VPRT ACT
+watch_VPRT
 it_PIT
-twice_RB RBother
-basically_RB RBother
+twice_RB
+basically_RB
 it_PIT
 's_VPRT CONT BEMA
-really_RB RSTNCall RFACT
-annoying_JJPR JJPRother
+really_RB
+annoying_JJPR
 ._.
-I_PP1S PP1
-just_RB RBother
+I_PP1S
+just_RB
 do_VPRT DOAUX
 n't_XX0 CONT
-like_VB MENTAL
+like_VB
 everyone_QUPR
 can't_PRPother
-just_RB RBother
+just_RB
 do_VPRT ACT EMPH
-like_VB MENTAL
-fake_JJAT JJATother
-search_NN NNother
+like_VB
+fake_JJAT
+search_NN
 you_PP2
 grab_VPRT
 a_DT
-picture_NN NNCONC
+picture_NN
 and_CC
 drag_VPRT
 it_PIT
-into_IN INother
-Google_NN NNP
+into_IN
+Google_NN
 ._.
-I_PP1S PP1
-know_VPRT MENTAL
+I_PP1S
+know_VPRT
 ._.
 no_DMA
 no_DMA
@@ -1339,33 +1339,33 @@ it_PIT
 's_VPRT CONT
 not_XX0
 ._.
-I_PP1S PP1
+I_PP1S
 did_VBD DOAUX
 n't_XX0 CONT
-know_VB MENTAL THATD
+know_VB THATD
 you_PP2
-could_MDCO MDPOSSCall
+could_MDCO
 do_VB ACT
 that_DEMO
 ._.
 you_PP2
-can_MDCA MDPOSSCall
+can_MDCA
 search_VB
-by_IN INother
-image_NN NNABSPROC
+by_IN
+image_NN
 yeah_DMA
 ._.
 oh_FPUH
-he_PP3S PP3
+he_PP3S
 's_VPRT CONT
-shaved_PASS PASSall
+shaved_PASS
 do_VB DOAUX
 n't_XX0 CONT
 shave_VB
 please_FPUH POLITE
 ._.
 is_VPRT
-he_PP3S PP3
+he_PP3S
 shaved_VBN
 ?_. YNQU
 yeah_DMA
@@ -1373,15 +1373,15 @@ yeah_DMA
 ah_FPUH
 yeah_DMA
 ._.
-will_MDWS MDPREDall
+will_MDWS
 you_PP2
 fuck_VB
 off_RP
 ?_. YNQU
 ah._FPUH
 no_XX0
-fucking_JJAT JJATother
-boiler_NN NNother
+fucking_JJAT
+boiler_NN
 why_WHQU
 is_VPRT
 it_PIT
@@ -1392,30 +1392,30 @@ again_FREQ
 it_PIT
 's_VPRT CONT BEMA
 so_EMPH
-irritating_JJPR JJPRother
-he_PP3S PP3
-could_MDCO MDPOSSCall SPLIT
-just_RB RBother
+irritating_JJPR
+he_PP3S
+could_MDCO SPLIT
+just_RB
 be_VB
-lying_PROG ACT
+lying_PROG
 ._.
 mm_FPUH
 ._.
-I_PP1S PP1
-knew_VBD MENTAL THATD
+I_PP1S
+knew_VBD THATD
 that_DEMO
 is_VPRT BEMA
 so_EMPH
-irritating_JJPR JJPRother
+irritating_JJPR
 why_WHQU
 is_VPRT
 it_PIT
-making_PROG ACT
+making_PROG
 it_PIT
 ?_. WQ
-he_PP3S PP3
-wo_MDWO MDPREDall
+he_PP3S
+wo_MDWO
 n't_XX0 CONT
-see_VB MENTAL
-her_PP3S PP3
+see_VB
+her_PP3S
 ._.

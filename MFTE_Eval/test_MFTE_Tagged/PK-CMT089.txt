@@ -1,593 +1,593 @@
 It_PIT
 is_VPRT BEMA
 a_DT
-matter_NN NNTECH
-of_IN INother
-great_JJAT JJEVAL
-sorrow_NN NNother
+matter_NN
+of_IN
+great_JJAT
+sorrow_NN
 that_DEMO
 ,_,
-mainly_RB RSTNCall RNONFACT
-through_IN INother
-mistaken_JJAT JJATother
-notions_NN NNCOG
-of_IN PrepNSTNC
-zeal_NN NNother
+mainly_RB
+through_IN
+mistaken_JJAT
+notions_NN
+of_IN
+zeal_NN
 ,_,
 the_DT
-Muslims_NN NNP
+Muslims_NN
 have_VPRT
-during_IN INother
+during_IN
 the_DT
-period_NN NNQUANT
-of_IN INother
-decline_NN NNother
-earned_VBD ACT
-for_IN INother
-themselves_PP3P PP3
+period_NN
+of_IN
+decline_NN
+earned_VBD
+for_IN
+themselves_PP3P
 an_DT
-unenviable_JJAT JJATother
-reputation_NN NOMZ
-for_IN INother
-intolerance_NN NNother
+unenviable_JJAT
+reputation_NN
+for_IN
+intolerance_NN
 ._.
 But_CC
 that_DEMO
 is_VPRT BEMA
 not_XX0
 the_DT
-fault_NN NNother
-of_IN INother
-Islam_NN NNP
+fault_NN
+of_IN
+Islam_NN
 ._.
-Islam_NN NNP
+Islam_NN
 has_VPRT
-from_IN INother
+from_IN
 the_DT
-beginning_NN NNABSPROC
+beginning_NN
 proclaimed_VBN
 and_CC
 inculcated_VBN
 the_DT
-widest_JJAT SUPER
-tolerance_NN NNother
+widest_JJAT
+tolerance_NN
 ._.
-For_IN INother
+For_IN
 instance_NN ELAB
 ,_,
 so_SO
 far_TIME
-as_IN INother
-freedom_NN NNABSPROC
-of_IN INother
-conscience_NN NNother
+as_IN
+freedom_NN
+of_IN
+conscience_NN
 is_VPRT
-concerned_PASS PASSall EXIST
+concerned_PASS
 the_DT
-Quran_NN NNP
-says_VPRT COMM
-Jinnah_NN NNP
-himself_PP3S PP3
-called_VBD COMM
-Zafrullah_NN NNP
+Quran_NN
+says_VPRT
+Jinnah_NN
+himself_PP3S
+called_VBD
+Zafrullah_NN
 the_DT
-most_RB SUPER
-able_JJAT JJATother
-Muslim_NN NNP
-in_IN INother
-India_NN NNP
+most_RB
+able_JJAT
+Muslim_NN
+in_IN
+India_NN
 ._.
-End_NN NNABSPROC
-of_IN INother
-story_NN NNother
+End_NN
+of_IN
+story_NN
 ._.
-Umer_NN NNP
+Umer_NN
 The_DT
-oddest_JJAT SUPER
-part_NN NNQUANT
+oddest_JJAT
+part_NN
 is_VPRT
-that_THSC THSCother
-liberals_NN NNother
-who_WHSC WHSCother
-would_MDWO MDPREDall
+that_THSC
+liberals_NN
+who_WHSC
+would_MDWO
 not_XX0
 be_VB
-caught_PASS PASSall ACT
-dead_JJPR JJPRother
+caught_PASS
+dead_JJPR
 praising_VBG
-Madoodi_NN NNP
+Madoodi_NN
 or_CC
-Usmani_NN NNP
+Usmani_NN
 ,_,
 do_VPRT SPLIT DOAUX
-n’t_RB RBother
+n’t_RB
 bat_VB
 an_DT
-eyelid_NN NNother
-singing_VBG COMM
-paeans_NN NNother
-to_IN INother
-Zaffarullah_NN NNP
-who_WHSC WHSCother
+eyelid_NN
+singing_VBG
+paeans_NN
+to_IN
+Zaffarullah_NN
+who_WHSC
 was_VBD
-no_RB RBother
-less_RB RBother
+no_RB
+less_RB
 a_DT
-fundamentalist_JJAT JJATother
+fundamentalist_JJAT
 ._.
 Do_VPRT ACT
-we_PP1P PP1
-still_RB RBother
-hold_VIMP ACT
-to_IN INother
+we_PP1P
+still_RB
+hold_VIMP
+to_IN
 the_DT
-myth_NN NNother
-that_THSC THSCother
-successful_JJPR JJPRother
-lawyers_NN NNHUMAN
-can_MDCA MDPOSSCall
+myth_NN
+that_THSC
+successful_JJPR
+lawyers_NN
+can_MDCA
 not_XX0
 be_VB BEMA
-religious_JJPR JJPRother
-fundamentalists_NN NNother
+religious_JJPR
+fundamentalists_NN
 and_CC
-bigoted_JJPR JJPRother
+bigoted_JJPR
 ?_. YNQU
 "_``
-Liaqat_NN NNP
-Ali_NN NNP
-khan_NN NNP
+Liaqat_NN
+Ali_NN
+khan_NN
 ,_,
-Shabir_NN NNP
-Ahmad_NN NNP
-Usmani_NN NNP
+Shabir_NN
+Ahmad_NN
+Usmani_NN
 ,_,
-Madoodi_NN NNP
+Madoodi_NN
 ,_,
-Zafrullah_NN NNP
-khan_NN NNP
+Zafrullah_NN
+khan_NN
 were_VBD BEMA
-on_IN INother
-same_JJAT JJREL
-pitch_NN NNother
+on_IN
+same_JJAT
+pitch_NN
 "_''
 @axxxr_NN NNMention
-riaz_NN NNP
+riaz_NN
 @kxxxxxxxxx_NN NNMention
 :_:
 thanks_NN POLITE
-Ajmal_NN NNP
-Kamal_NN NNP
+Ajmal_NN
+Kamal_NN
 ,_,
-as_IN INother
+as_IN
 you_PP2
-use_VPRT ACT
-my_PP1S PP1
-comments_NN NSTNCother
+use_VPRT
+my_PP1S
+comments_NN
 yet_CC
 you_PP2
-as_IN INother
-usual_JJPR JJPRother
-tries_VPRT ACT
-to_IN ToSTNCall ToVSTNCall ToVEFRT
+as_IN
+usual_JJPR
+tries_VPRT
+to_IN
 emphasis_VB
-on_IN INother
-wrong_JJAT JJATother
-facts_NN NSTNCother
+on_IN
+wrong_JJAT
+facts_NN
 ._.
 you_PP2
-wrote_VBD COMM
-in_IN INother
+wrote_VBD
+in_IN
 your_PP2
-previous_JJAT JJREL
-column_NN NNABSPROC
+previous_JJAT
+column_NN
 "_''
-For_IN INother
+For_IN
 example_NN ELAB
 ,_,
-our_PP1P PP1
-youngsters_NN NNother
+our_PP1P
+youngsters_NN
 have_VPRT
 been_PEAS
-made_PASS PASSall ACT
-oblivious_JJPR JJPRother
-of_IN INother
+made_PASS
+oblivious_JJPR
+of_IN
 the_DT
-existence_NN NNother
-of_IN INother
-Sir_NN NNP
-Zafarullah_NN NNP
-Khan_NN NNP
+existence_NN
+of_IN
+Sir_NN
+Zafarullah_NN
+Khan_NN
 ,_,
 a_DT
-prominent_JJAT JJATother
-lawyer_NN NNHUMAN
-from_IN INother
-Punjab_NN NNP
+prominent_JJAT
+lawyer_NN
+from_IN
+Punjab_NN
 and_CC
 a_DT
-close_JJAT JJATother
-confidant_NN NNother
-of_IN INother
-Mohammad_NN NNP
-Ali_NN NNP
-Jinnah_NN NNP
+close_JJAT
+confidant_NN
+of_IN
+Mohammad_NN
+Ali_NN
+Jinnah_NN
 ,_,
-who_WHSC WHSCother
-made_VBD ACT
-him_PP3S PP3
+who_WHSC
+made_VBD
+him_PP3S
 the_DT
-first_JJAT JJATother
-foreign_JJAT JJATother
-minister_NN NNHUMAN
-of_IN INother
+first_JJAT
+foreign_JJAT
+minister_NN
+of_IN
 the_DT
-country_NN NNPLACE
-he_PP3S PP3
+country_NN
+he_PP3S
 created_VBD
-as_IN INother
+as_IN
 a_DT
 result_NN CUZ
-of_IN PrepNSTNC
-negotiations_NN NOMZ
-with_IN INother
+of_IN
+negotiations_NN
+with_IN
 the_DT
-British_JJAT JJATother
-government_NN NNGRP
+British_JJAT
+government_NN
 ._.
 Why_WHQU
 ?_. WQ
-I_PP1S PP1
+I_PP1S
 do_VPRT DOAUX
 n't_XX0 CONT
-recall_VB MENTAL
-writing_VBG COMM
+recall_VB
+writing_VBG
 these_DEMO
-comments_NN NSTNCother
+comments_NN
 but_CC
-I_PP1S PP1
+I_PP1S
 am_VPRT
-amazed_PASS PASSall
-at_IN INother
+amazed_PASS
+at_IN
 your_PP2
-obsession_NN NNother
+obsession_NN
 ,_,
-even_RB RBother
-petrified_JJPR JJPRother
+even_RB
+petrified_JJPR
 ._.
-Ajmal_NN NNP
+Ajmal_NN
 The_DT
-Arabic_JJAT JJATother
-imperative_JJPR JJPRother
+Arabic_JJAT
+imperative_JJPR
 "_``
-Iqra_NN NNP
+Iqra_NN
 !_.
 "_''
 ,_,
 BTW_FPUH
 ,_,
 is_VPRT SPLIT
-wrongly_RB RBother
-translated_PASS PASSall
-into_IN INother
-English_NN NNP
-as_IN INother
+wrongly_RB
+translated_PASS
+into_IN
+English_NN
+as_IN
 "_``
-Read_VB MENTAL
+Read_VB
 !_.
 "_''
 ._.
-In_IN INother
-fact_NN NSTNCother ELAB
+In_IN
+fact_NN ELAB
 it_PIT
-means_VPRT COMM
+means_VPRT
 "_``
 Recite_VB
 !_.
 "_''
 or_CC
-orally_RB RBother
-repeat_VB ACT
-what_WHSC WHSCother
+orally_RB
+repeat_VB
+what_WHSC
 is_VPRT SPLIT
-orally_RB RBother
-communicated_PASS PASSall
-to_IN INother
+orally_RB
+communicated_PASS
+to_IN
 you_PP2
 ._.
 And_CC
 the_DT
-context_NN NNABSPROC
-testifies_VPRT COMM
-to_IN INother
+context_NN
+testifies_VPRT
+to_IN
 it_PIT
 ,_,
-as_IN INother
+as_IN
 an_DT
-oral_JJAT JJTOPIC
-message_NN NNTECH
+oral_JJAT
+message_NN
 was_VBD
-required_PASS PASSall CAUSE
-to_IN INother
+required_PASS
+to_IN
 be_VB
-repeated_PASS PASSall ACT
-verbatim_RB RBother
+repeated_PASS
+verbatim_RB
 ;_:
 no_DMA
-written_VBN COMM THATD
-text_NN NNother
+written_VBN THATD
+text_NN
 was_VBD
-involved_PASS PASSall EXIST
-which_WHSC WHSCother
-could_MDCO MDPOSSCall
+involved_PASS
+which_WHSC
+could_MDCO
 be_VB
 "_``
-read_VBN MENTAL
+read_VBN
 "_''
 ._.
-Umer_NN NNP
+Umer_NN
 This_DEMO
 "_``
-kaalchakra_NN NNother
+kaalchakra_NN
 "_''
 is_VPRT BEMA
 a_DT
-special_JJAT JJATother
-case_NN NNCONC
+special_JJAT
+case_NN
 ,_,
-his_PP3S PP3
-comments_NN NSTNCother
+his_PP3S
+comments_NN
 have_VPRT
 no_XX0
-factual_JJAT JJATother
-backing_NN NNother
+factual_JJAT
+backing_NN
 but_CC
-rather_RB RBother
+rather_RB
 the_DT
-views_NN NNCOG
-of_IN PrepNSTNC
+views_NN
+of_IN
 a_DT
-biased_JJAT JJATother
+biased_JJAT
 and_CC
-bitter_JJAT JJATother
-man_NN NNHUMAN
+bitter_JJAT
+man_NN
 ._.
 @kxxxxxxxxx_NN NNMention
 ,_,
 the_DT
-treatment_NN NNABSPROC
-of_IN INother
+treatment_NN
+of_IN
 and_CC
-other_JJAT JJATother
-anti-minority_NN NOMZ
+other_JJAT
+anti-minority_NN
 laws_NN NCOMP
 like_LIKE
-minorities_NN NOMZ
-can_MDCA MDPOSSCall
+minorities_NN
+can_MDCA
 not_XX0
 occupy_VB
-highest_JJAT SUPER
-posts_NN NNCONC
+highest_JJAT
+posts_NN
 like_LIKE
-president_NN NNHUMAN
+president_NN
 or_CC
-prime_JJPR JJPRother
+prime_JJPR
 -_HYPH
-minister_NN NNHUMAN
+minister_NN
 ,_,
-reflect_VB EXIST
+reflect_VB
 the_DT
-nature_NN NNABSPROC
+nature_NN
 and_CC
-character_NN NNother
-of_IN INother
+character_NN
+of_IN
 the_DT
-state_NN NNABSPROC
+state_NN
 more_QUAN
-than_IN INother
+than_IN
 a_DT
 million_CD
-page_NN NNCONC
+page_NN
 defence_NN NCOMP
-of_IN INother
+of_IN
 those_DEMO
-indefensible_JJAT JJATother
-atrocities_NN NOMZ
+indefensible_JJAT
+atrocities_NN
 ._.
 @kxxxxxxxxx_NN NNMention
 :_:
-even_RB RBother
-when_WHSC WHSCother
+even_RB
+when_WHSC
 you_PP2
 get_VPRT
 your_PP2
-facts_NN NSTNCother
-right_RB RBother
+facts_NN
+right_RB
 your_PP2
-inference_NN NNother
-remains_VPRT EXIST
+inference_NN
+remains_VPRT
 distorted_VBN
 ._.
-Sir_NN NNP
-Zafarullah_NN NNP
+Sir_NN
+Zafarullah_NN
 was_VBD
-respected_PASS PASSall
-in_IN INother
+respected_PASS
+in_IN
 10_CD
-downing_NN NNother
+downing_NN
 street_NN NCOMP
 ;_,
-to_IN INother
+to_IN
 you_PP2
 it_PIT
 signifies_VPRT
 a_DT
-deep_JJAT JJDESCall JJSIZE
-underlying_JJAT JJATother
-conspiracy_NN NNother
+deep_JJAT
+underlying_JJAT
+conspiracy_NN
 ;_:
-to_IN INother
+to_IN
 someone_QUPR
-else_JJPR JJPRother
+else_JJPR
 it_PIT
 is_VPRT BEMA
 a_DT
-proof_NN NNother
-of_IN INother
-his_PP3S PP3
-stature_NN NNother
-as_IN INother
+proof_NN
+of_IN
+his_PP3S
+stature_NN
+as_IN
 a_DT
-statesman_NN NNother
+statesman_NN
 ._.
-Excellent_JJAT JJATother
-article_NN NNother
+Excellent_JJAT
+article_NN
 ._.
 "_``
-we_PP1P PP1
+we_PP1P
 are_VPRT BEMA
-in_IN INother
-majority_NN NOMZ
+in_IN
+majority_NN
 therefore_RB CUZ
 you_PP2
 are_VPRT BEMA
-non_JJAT JJATother
-Muslims_NN NNP
+non_JJAT
+Muslims_NN
 "_''
 .very_AMP
-ably_RB RBother
+ably_RB
 highlighted_VBN
 ._.
-Babloo_NN NNP
-Mr_NN NNP
-Kamal_NN NNP
-Pasha_NN NNP
-Pakistan_NN NNP
-states_VPRT COMM
-treatment_NN NNABSPROC
-of_IN INother
+Babloo_NN
+Mr_NN
+Kamal_NN
+Pasha_NN
+Pakistan_NN
+states_VPRT
+treatment_NN
+of_IN
 is_VPRT BEMA
-diabolic_JJPR JJPRother
+diabolic_JJPR
 ._.
 Any_QUAN
-defence_NN NNother
-of_IN INother
-such_JJAT JJATother
-inhuman_JJAT JJATother
-treatment_NN NNABSPROC
+defence_NN
+of_IN
+such_JJAT
+inhuman_JJAT
+treatment_NN
 should_MDNE
 be_VB
-condemned_PASS PASSall
-in_IN INother
+condemned_PASS
+in_IN
 the_DT
-toughest_JJAT SUPER
-possible_JJAT JJEPSTother
-words_NN NNTECH
+toughest_JJAT
+possible_JJAT
+words_NN
 ._.
 it_PIT
 is_VPRT BEMA
 a_DT
-fact_NN NNCOG
-of_IN PrepNSTNC
-history_NN NNother
-that_THRC THRCother
-he_PP3S PP3
-spoke_VBD COMM
-in_IN INother
-favour_NN NNother
-of_IN INother
+fact_NN
+of_IN
+history_NN
+that_THRC
+he_PP3S
+spoke_VBD
+in_IN
+favour_NN
+of_IN
 the_DT
-Objectives_NN NNABSPROC
+Objectives_NN
 Resolution_NN NCOMP
-in_IN INother
+in_IN
 the_DT
-constituent_JJAT JJATother
-assembly_NN NNother
-Forgive_VIMP MENTAL
-me_PP1S PP1
+constituent_JJAT
+assembly_NN
+Forgive_VIMP
+me_PP1S
 if_COND
-I_PP1S PP1
-sound_VPRT EXIST
-foolish_JJPR JJPRother
+I_PP1S
+sound_VPRT
+foolish_JJPR
 ,_,
 but_CC
-I_PP1S PP1
+I_PP1S
 did_VBD DOAUX
 not_XX0
 get_VB
-what_WHSC WHSCother
+what_WHSC
 this_DEMO
-article_NN NNother
-said_VBD COMM
+article_NN
+said_VBD
 ._.
-what_WHSC WHSCother
+what_WHSC
 is_VPRT BEMA
 the_DT
-misdiagnosis_NN NNother
+misdiagnosis_NN
 and_CC
 how_WHQU
 is_VPRT
 it_PIT
 being_PROG
-portrayed_PASS PASSall
-as_IN INother
-cure_NN NNother
+portrayed_PASS
+as_IN
+cure_NN
 ,_,
 and_CC
 what_WHQU
 is_VPRT BEMA
 the_DT
-solution_NN NNTECH
+solution_NN
 ?_. WQ
 ,_,
 again_FREQ
 ._.
-Babloo_NN NNP
-MarkH_NN NNP
+Babloo_NN
+MarkH_NN
 If_COND
 the_DT
-role_NN NNABSPROC
-of_IN INother
-army_NN NNother
+role_NN
+of_IN
+army_NN
 /_,
-ISI_NN NNP
+ISI_NN
 is_VPRT
-limited_PASS PASSall
-to_IN INother
-only_JJAT JJATother
-security_NN NNABSPROC
-from_IN INother
-external_JJAT JJREL
-forces_NN NNother
+limited_PASS
+to_IN
+only_JJAT
+security_NN
+from_IN
+external_JJAT
+forces_NN
 ,_,
-then_RB RBother
-Pakistan_NN NNP
-can_MDCA MDPOSSCall
-become_VB OCCUR
+then_RB
+Pakistan_NN
+can_MDCA
+become_VB
 like_LIKE
-India_NN NNP
+India_NN
 ._.
 Now_TIME
 that_DEMO
-may_MDMM MDPOSSCall
+may_MDMM
 not_XX0
 be_VB BEMA
-good_JJPR JJEVAL
-enough_RB RBother
+good_JJPR
+enough_RB
 and_CC
 far_PLACE
-from_IN INother
-perfect_JJPR JJPRother
+from_IN
+perfect_JJPR
 but_CC
 it_PIT
-would_MDWO MDPREDall
+would_MDWO
 be_VB BEMA
 a_DT
-big_JJAT JJDESCall JJSIZE
-improvement_NN NOMZ
-over_IN INother
+big_JJAT
+improvement_NN
+over_IN
 the_DT
-state_NN NNABSPROC
+state_NN
 you_PP2
 have_VPRT
 now_TIME
@@ -596,1079 +596,1081 @@ However_CC
 ,_,
 that_DEMO
 's_VPRT CONT BEMA
-easy_JJPR JJPRother
-said_VBN COMM
-than_IN INother
+easy_JJPR
+said_VBN
+than_IN
 done_VBN ACT
-as_IN INother
+as_IN
 the_DT
-army_NN NNother
+army_NN
 /_,
-ISI_NN NNP
+ISI_NN
 is_VPRT BEMA
 the_DT
-richest_JJAT SUPER
-organization_NN NNPLACE
-in_IN INother
-Pakistan_NN NNP
+richest_JJAT
+organization_NN
+in_IN
+Pakistan_NN
 and_CC
-carries_VPRT ACT
+carries_VPRT
 the_DT
-gun_NN NNCONC
+gun_NN
 ._.
 @axxxxxxx_NN NNMention
 -_,
 Very_AMP
-well_RB RBother
-said_VBN COMM
-about_IN INother
-Pak_NN NNP
-economic_JJAT JJATother
-mindset_NN NNother
-in_IN INother
+well_RB
+said_VBN
+about_IN
+Pak_NN
+economic_JJAT
+mindset_NN
+in_IN
 the_DT
-first_JJAT JJATother
-para_NN NNother
+first_JJAT
+para_NN
 "_``
-national_JJAT JJATother
-economy_NN NNABSPROC
-reads_VPRT MENTAL
+national_JJAT
+economy_NN
+reads_VPRT
 like_LIKE
-calamity_NN NOMZ
+calamity_NN
 "_''
 ._.
 The_DT
-sad_JJAT JJATother
-aspect_NN NNABSPROC
-of_IN INother
+sad_JJAT
+aspect_NN
+of_IN
 the_DT
-whole_JJAT JJATother
-situation_NN NNABSPROC
+whole_JJAT
+situation_NN
 is_VPRT
-that_THSC THSCother
-we_PP1P PP1
+that_THSC
+we_PP1P
 have_VPRT
 "_``
-UPS_NN NNother
+UPS_NN
 '_''
-for_IN INother
-cricket_NN NNother
+for_IN
+cricket_NN
 and_CC
 "_``
-IPS_NN NNother
+IPS_NN
 "_''
-for_IN INother
-industry_NN NNother
+for_IN
+industry_NN
 ._.
 Whither_WDT
-Pak_NN NNP
+Pak_NN
 economy_NN NCOMP
 ,_,
 the_DT
-bread_NN NNother
+bread_NN
 earner_NN NCOMP
-for_IN INother
+for_IN
 180_CD
 million_CD
 ?_. YNQU
 BTW.UPS_URL
 is_VPRT
 (_-LRB-
-uninterrupted_JJAT JJATother
-POWER_NN NNABSPROC
+uninterrupted_JJAT
+POWER_NN
 supply_NN NCOMP
 )_-RRB-
 and_CC
-IPS_NN NNother
+IPS_NN
 is_VPRT
 (_-LRB-
-intermittent_JJAT JJATother
-POWER_NN NNABSPROC
+intermittent_JJAT
+POWER_NN
 supply_NN NCOMP
 )_-RRB-
-with_IN INother
+with_IN
 prolonged_VBN
 and_CC
-abrupt_JJAT JJATother
-shut_NN NNother
+abrupt_JJAT
+shut_NN
 -_HYPH
-downs_NN NNother
+downs_NN
 ,_,
-When_WHSC WHSCother
+When_WHSC
 the_DT
-diet_NN NNother
-of_IN INother
-hate_NN NNother
-starts_VPRT ASPECT
+diet_NN
+of_IN
+hate_NN
+starts_VPRT
 very_AMP
 early_TIME
-in_IN INother
-life_NN NNABSPROC
+in_IN
+life_NN
 the_DT
-health_NN NNABSPROC
-of_IN INother
+health_NN
+of_IN
 a_DT
-nation_NN NOMZ
+nation_NN
 and_CC
 its_PIT
-people_NN NNHUMAN
-will_MDWS MDPREDall SPLIT
-definitely_RB RSTNCall RFACT
-suffer_VB MENTAL
+people_NN
+will_MDWS SPLIT
+definitely_RB
+suffer_VB
 ._.
-Pakistan_NN NNP
+Sadly_RB
+Pakistan_NN
 does_VPRT DOAUX
 not_XX0
 have_VB
 a_DT
-Gandhi_NN NNP
+Gandhi_NN
 or_CC
-Khan_NN NNP
-Abdul_NN NNP
-Gaffar_NN NNP
-Khan_NN NNP
-to_IN INother
+Khan_NN
+Abdul_NN
+Gaffar_NN
+Khan_NN
+to_IN
 extricate_VB
 it_PIT
-from_IN INother
+from_IN
 the_DT
-Political_JJAT JJTOPIC
+Political_JJAT
 and_CC
-Religious_JJAT JJATother
-quicksand_NN NNother
+Religious_JJAT
+quicksand_NN
 it_PIT
 is_VPRT
-stuck_PASS PASSall
+stuck_PASS
 in_RP
 ._.
-Citizens_NN NNHUMAN
+Citizens_NN
 have_VPRT
 been_PEAS
-lied_PASS PASSall ACT
-to_IN INother
+lied_PASS
+to_IN
 so_EMPH
-brazenly_RB RBother
+brazenly_RB
 -_,
-by_IN INother
-their_PP3P PP3
-family_NN NNHUMAN
+by_IN
+their_PP3P
+family_NN
 ,_,
-by_IN INother
-their_PP3P PP3
-Government_NN NNGRP
+by_IN
+their_PP3P
+Government_NN
 ,_,
-by_IN INother
+by_IN
 the_DT
 's_POS
 and_CC
-by_IN INother
-their_PP3P PP3
-Military_NN NNother
-that_THSC THSCother
-TRUTH_NN NNABSPROC
+by_IN
+their_PP3P
+Military_NN
+that_THSC
+TRUTH_NN
 looks_VPRT
 like_LIKE
-fiction_NN NOMZ
+fiction_NN
 and_CC
-FICTION_NN NOMZ
+FICTION_NN
 is_VPRT BEMA
-mistaken_JJPR JJPRother
-for_IN INother
-Truth_NN NNABSPROC
+mistaken_JJPR
+for_IN
+Truth_NN
 ._.
-I_PP1S PP1
+I_PP1S
 was_VBD
-surprised_PASS PASSall
-by_IN INother
+surprised_PASS
+by_IN
 the_DT
-poll_NN NNother
+poll_NN
 conducted_VBN
-of_IN INother
+of_IN
 educated_VBN
-readers_NN NNHUMAN
-by_IN INother
-ET_NN NNP
-on_IN INother
+readers_NN
+by_IN
+ET_NN
+on_IN
 the_DT
-missing_VBG MENTAL
-persons_NN NNother
+missing_VBG
+persons_NN
 case_NN NCOMP
 -_,
-that_THRC THRCother
-over_RB RBother
+that_THRC
+over_RB
 66_CD
-%_NN NNother
-believe_VPRT MENTAL
-that_THSC ThSTNCall ThVSTNCall ThVLIK
-RAW_NN NNP
+%_NN
+believe_VPRT
+that_THSC
+RAW_NN
 /_,
-Mossad_NN NNP
+Mossad_NN
 have_VPRT
-made_PEAS ACT
-citizens_NN NNHUMAN
-disappear_VB OCCUR
+made_PEAS
+citizens_NN
+disappear_VB
 ._.
-When_WHSC WHSCother
+When_WHSC
 the_DT
-mind_NN NNother
+mind_NN
 is_VPRT
-made_PASS PASSall ACT
-incapable_JJPR JJPRother
-of_IN INother
-thinking_VBG MENTAL
+made_PASS
+incapable_JJPR
+of_IN
+thinking_VBG
 ,_,
-reasoning_NN NNother
+reasoning_NN
 or_CC
-Logic_NN NNother
-we_PP1P PP1
-need_VPRT MENTAL
+Logic_NN
+we_PP1P
+need_VPRT
 not_XX0
-wonder_VB MENTAL
-as_IN INother
-to_IN INother
-what_WHSC WHSCother
-lies_VPRT ACT
+wonder_VB
+as_IN
+to_IN
+what_WHSC
+lies_VPRT
 ahead_PLACE
-for_IN INother
+for_IN
 the_DT
-people_NN NNHUMAN
+people_NN
 and_CC
-country_NN NNPLACE
+country_NN
 ._.
-Emotions_NN NNCOG
+Emotions_NN
 are_VPRT BEMA
-dead_JJPR JJPRother
+dead_JJPR
 and_CC
-people_NN NNHUMAN
-can_MDCA MDPOSSCall
+people_NN
+can_MDCA
 do_VB DOAUX
 nothing_QUPR
 but_CC
-feel_VB MENTAL
-sad_JJPR JJPRother
+feel_VB
+sad_JJPR
 ._.
-What_WHSC WHSCother
-can_MDCA MDPOSSCall
+What_WHSC
+can_MDCA
 not_XX0
 be_VB
-denied_PASS PASSall COMM
+denied_PASS
 this_DEMO
-government_NN NNGRP
+government_NN
 is_VPRT BEMA
 its_PIT
-better_JJAT COMPAR
-record_NN NNother
-on_IN INother
+better_JJAT
+record_NN
+on_IN
 empowering_VBG
-women_NN NNHUMAN
+women_NN
 ,_,
-reforms_NN NNother
-in_IN INother
+reforms_NN
+in_IN
 the_DT
-tribal_JJAT JJATother
-areas_NN NNPLACE
+tribal_JJAT
+areas_NN
 ,_,
-surrender_NN NNother
-of_IN INother
-objectionable_JJAT JJATother
-presidential_JJAT JJATother
-powers_NN NNABSPROC
+surrender_NN
+of_IN
+objectionable_JJAT
+presidential_JJAT
+powers_NN
 inherited_VBN
-from_IN INother
-past_JJAT JJATother
-dictatorial_JJAT JJATother
+from_IN
+past_JJAT
+dictatorial_JJAT
 and_CC
-autocratic_JJAT JJATother
-dispensations_NN NOMZ
-to_IN INother
-parliament_NN NOMZ
-through_IN INother
+autocratic_JJAT
+dispensations_NN
+to_IN
+parliament_NN
+through_IN
 the_DT
 18th_CD
-Amendment_NN NOMZ
+Amendment_NN
 ,_,
 and_CC
 setting_VBG
 a_DT
-good_JJAT JJEVAL
-precedent_NN NNother
-of_IN INother
+good_JJAT
+precedent_NN
+of_IN
 appointing_VBG
 the_DT
-Leader_NN NNP
-of_IN INother
+Leader_NN
+of_IN
 the_DT
-Opposition_NN NNP
-in_IN INother
+Opposition_NN
+in_IN
 the_DT
-National_NN NNP
-Assembly_NN NNP
-as_IN INother
-head_NN NNCONC
-of_IN INother
+National_NN
+Assembly_NN
+as_IN
+head_NN
+of_IN
 the_DT
-Public_NN NNP
-Accounts_NN NNP
-Committee_NN NNP
+Public_NN
+Accounts_NN
+Committee_NN
 ._.
 It_PIT
 is_VPRT BEMA
 another_DT
-matter_NN NNTECH
-that_THSC THSCother
+matter_NN
+that_THSC
 that_DEMO
-worthy_JJAT JJATother
+worthy_JJAT
 has_VPRT
 resigned_PEAS
-from_IN INother
+from_IN
 that_DEMO
-post_NN NNCONC
+post_NN
 and_CC
 is_VPRT
-engaged_PASS PASSall ACT
+engaged_PASS
 ,_,
-along_IN INother
-with_IN INother
-his_PP3S PP3
-PML_NN NNP
+along_IN
+with_IN
+his_PP3S
+PML_NN
 -_HYPH
-N_NN NNP
-colleagues_NN NNHUMAN
+N_NN
+colleagues_NN
 ,_,
-in_IN INother
+in_IN
 frothing_VBG
-at_IN INother
+at_IN
 the_DT
-mouth_NN NNCONC
-at_IN INother
+mouth_NN
+at_IN
 the_DT
-president_NN NNHUMAN
+president_NN
 and_CC
-government_NN NNGRP
-without_IN INother
+government_NN
+without_IN
 being_VBG
 able_ABLE
-to_IN INother
-produce_VB ACT
+to_IN
+produce_VB
 any_QUAN
-cogent_JJAT JJATother
-arguments_NN NNABSPROC
-that_THRC THRCother
-may_MDMM MDPOSSCall
+cogent_JJAT
+arguments_NN
+that_THRC
+may_MDMM
 have_VB
-appeal_NN NNother
-to_IN INother
+appeal_NN
+to_IN
 the_DT
-electorate_NN NNother
+electorate_NN
 ._.
 The_DT
-opposition_NN NOMZ
+opposition_NN
 ’s_POS
-behaviour_NN NNother
-in_IN INother
-parliament_NN NOMZ
-during_IN INother
+behaviour_NN
+in_IN
+parliament_NN
+during_IN
 the_DT
-presidential_JJAT JJATother
-address_NN NNABSPROC
+presidential_JJAT
+address_NN
 was_VBD BEMA
-deplorable_JJPR JJPRother
+deplorable_JJPR
 ,_,
-violative_JJPR JJPRother
-of_IN INother
-parliamentary_JJAT JJATother
-norms_NN NNother
+violative_JJPR
+of_IN
+parliamentary_JJAT
+norms_NN
 ,_,
-which_WHSC WHSCother
-include_VPRT EXIST
-respect_NN NNABSPROC
-from_IN INother
-parliament_NN NOMZ
-to_IN INother
+which_WHSC
+include_VPRT
+respect_NN
+from_IN
+parliament_NN
+to_IN
 the_DT
-office_NN NNPLACE
-of_IN INother
+office_NN
+of_IN
 the_DT
-president_NN NNHUMAN
+president_NN
 ,_,
 and_CC
 disrespecting_VBG
 the_DT
-dignity_NN NOMZ
-of_IN INother
+dignity_NN
+of_IN
 the_DT
-house_NN NNGRP
+house_NN
 ._.
+Hopefully_RB
 these_DEMO
 are_VPRT BEMA
 the_DT
-rough_JJAT JJATother
-edges_NN NNCONC
-of_IN INother
-our_PP1P PP1
-young_JJAT JJTIME
-democracy_NN NNother
-that_THRC THRCother
-will_MDWS MDPREDall
+rough_JJAT
+edges_NN
+of_IN
+our_PP1P
+young_JJAT
+democracy_NN
+that_THRC
+will_MDWS
 be_VB
-smoothed_PASS PASSall
+smoothed_PASS
 out_RP
-with_IN INother
-time_NN NNQUANT
+with_IN
+time_NN
 and_CC
-maturity_NN NOMZ
+maturity_NN
 ._.
 The_DT
-problems_NN NNother
-of_IN INother
-energy_NN NNQUANT
+problems_NN
+of_IN
+energy_NN
 shortages_NN NCOMP
 ,_,
-corruption_NN NOMZ
+corruption_NN
 and_CC
-poor_JJAT JJEVAL
-performance_NN NNABSPROC
-of_IN INother
-state_NN NNABSPROC
+poor_JJAT
+performance_NN
+of_IN
+state_NN
 run_NN NCOMP
-utilities_NN NOMZ
+utilities_NN
 were_VBD
 there_PLACE
-even_RB RBother
-before_IN INother
-Zardari_NN NNP
-took_VBD ACT
+even_RB
+before_IN
+Zardari_NN
+took_VBD
 the_DT
-reins_NN NNother
-of_IN INother
-power_NN NNABSPROC
+reins_NN
+of_IN
+power_NN
 ._.
 The_DT
-previous_JJAT JJREL
-governments_NN NNGRP
+previous_JJAT
+governments_NN
 failed_VBD
-to_IN ToSTNCall ToVSTNCall ToVEFRT
+to_IN
 set_VB
 up_RP
-plants_NN NNCONC
-to_IN INother
-produce_VB ACT
-electricity_NN NOMZ
+plants_NN
+to_IN
+produce_VB
+electricity_NN
 and_CC
-gas_NN NNother
+gas_NN
 ._.
-At_IN INother
-least_JJPR JJPRother
+At_IN
+least_JJPR
 the_DT
-present_JJAT JJATother
-government_NN NNGRP
+present_JJAT
+government_NN
 is_VPRT
-taking_PROG ACT
-steps_NN NNCONC
-to_IN INother
+taking_PROG
+steps_NN
+to_IN
 overcome_VB
-energy_NN NNQUANT
+energy_NN
 shortages_NN NCOMP
 and_CC
-in_IN INother
+in_IN
 this_DEMO
-respect_NN NNABSPROC
+respect_NN
 efforts_NN NCOMP
 are_VPRT
 being_PROG
-made_PASS PASSall ACT
-to_IN INother
+made_PASS
+to_IN
 exploit_VB
 the_DT
-Thar_NN NNP
+Thar_NN
 -_HYPH
-coal_NN NNother
+coal_NN
 reserves_NN NCOMP
-to_IN INother
-produce_VB ACT
-electricity_NN NOMZ
+to_IN
+produce_VB
+electricity_NN
 and_CC
 the_DT
-talks_NN NNABSPROC
-with_IN INother
-Iran_NN NNP
-on_IN INother
+talks_NN
+with_IN
+Iran_NN
+on_IN
 laying_VBG
 the_DT
-Iran_NN NNP
-Pakistan_NN NNP
-Gas_NN NNP
+Iran_NN
+Pakistan_NN
+Gas_NN
 pipeline_NN NCOMP
 is_VPRT
 also_CC
-in_IN INother
+in_IN
 an_DT
-advance_JJAT JJATother
-stage_NN NNABSPROC
+advance_JJAT
+stage_NN
 ._.
-Seeing_VBG MENTAL
+Seeing_VBG
 the_DT
-gravity_NN NOMZ
-of_IN INother
+gravity_NN
+of_IN
 the_DT
-problems_NN NNother
+problems_NN
 the_DT
-performance_NN NNABSPROC
-of_IN INother
+performance_NN
+of_IN
 the_DT
-Zardari_NN NNP
+Zardari_NN
 government_NN NCOMP
 is_VPRT
 not_XX0
-that_RB RBother
-bad_JJPR JJEVAL
-after_IN INother
+that_RB
+bad_JJPR
+after_IN
 all_QUAN
 ._.
 The_DT
-chief_JJAT JJREL
-architect_NN NNother
-of_IN INother
+chief_JJAT
+architect_NN
+of_IN
 this_DEMO
 is_VPRT
-Zbigniew_NN NNP
-Brzezinski_NN NNP
+Zbigniew_NN
+Brzezinski_NN
 ._.
-He_PP3S PP3
+He_PP3S
 is_VPRT BEMA
-still_RB RBother
-alive_JJPR JJPRother
+still_RB
+alive_JJPR
 and_CC
-want_VPRT MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
-use_VB ACT
-Iran_NN NNP
-against_IN INother
-Russia_NN NNP
+want_VPRT
+to_IN
+use_VB
+Iran_NN
+against_IN
+Russia_NN
 and_CC
-Real_NN NNP
-Taliban_NN NNP
-against_IN INother
-Pakistan_NN NNP
+Real_NN
+Taliban_NN
+against_IN
+Pakistan_NN
 ._.
 That_DEMO
 is_VPRT
-why_WHSC WHSCother
+why_WHSC
 you_PP2
-see_VPRT MENTAL
-US_NN NNP
+see_VPRT
+US_NN
 intelligence_NN NCOMP
-apparatus_NN NNother
-defending_VBG ACT
-Iran_NN NNP
+apparatus_NN
+defending_VBG
+Iran_NN
 and_CC
 there_EX
 is_VPRT
-peace_NN NNother
-with_IN INother
-Taliban_NN NNP
+peace_NN
+with_IN
+Taliban_NN
 ._.
-@_IN INother
-Axi_NN NNP
-Wazir_NN NNP
+@_IN
+Axi_NN
+Wazir_NN
 :_:
-Khomeini_NN NNP
+Khomeini_NN
 destroyed_VBD
-Iran_NN NNP
+Iran_NN
 ._.
 @A_NN NNMention
-Suhail_NN NNP
-Hitler_NN NNP
+Suhail_NN
+Hitler_NN
 did_VBD DOAUX
 not_XX0
 do_VB ACT
 any_QUAN
-thing_NN NNother
-to_IN INother
-us_PP1P PP1
-then_RB RBother
-why_WHSC WHSCother
-he_PP3S PP3
-bad_RB RBother
-for_IN INother
+thing_NN
+to_IN
+us_PP1P
+then_RB
+why_WHSC
+he_PP3S
+bad_RB
+for_IN
 oh_FPUH
-i_PP1S PP1
+i_PP1S
 got_VBD
 it_PIT
-may_MDMM MDPOSSCall
+may_MDMM
 be_VB
-destroy_PASS PASSall
+destroy_PASS
 it_PIT
 you_PP2
-peoples_NN NNHUMAN
+peoples_NN
 beloved_VBN
-Raj._NN NNP
-ha-_NN NNP
+Raj._NN
+ha-_NN
 ha_FPUH
 -_HYPH
 ha-ha_FPUH
 @A_NN NNMention
-suhail_NN NNP
+suhail_NN
 1857_CD
-to_IN INother
+to_IN
 1867_CD
-war_NN NNABSPROC
-of_IN INother
-freedom_NN NNABSPROC
-in_IN INother
-India_NN NNP
-against_IN INother
-B_NN NNP
+war_NN
+of_IN
+freedom_NN
+in_IN
+India_NN
+against_IN
+B_NN
 ,_,
-Raj_NN NNP
-caused_VBD CAUSE
+Raj_NN
+caused_VBD
 hundred_CD
-of_IN INother
+of_IN
 thousand_CD
-dead_JJAT JJATother
-Muslims_NN NNP
-Hindus_NN NNP
-what_WHSC WHSCother
+dead_JJAT
+Muslims_NN
+Hindus_NN
+what_WHSC
 you_PP2
-gon_GTO MDPREDall
-na_IN INother
+gon_GTO
+na_IN
 name_VB
 it_PIT
 ._.
 @A_NN NNMention
 ,_,
-Suhai_NN NNP
+Suhai_NN
 ,_,
 If_COND
-yiu_NN NNP
-wan_VBD MENTAL
-na_IN INother
-say_VB COMM THATD
-Hitler_NN NNP
+yiu_NN
+wan_VBD
+na_IN
+say_VB THATD
+Hitler_NN
 was_VBD BEMA
 not_XX0
 so_EMPH
-great_JJPR JJEVAL
-then_RB RBother
+great_JJPR
+then_RB
 that_DEMO
-list_NN NNTECH
-include_VPRT EXIST
+list_NN
+include_VPRT
 u_PP2
-too_RB RBother
-means_VPRT COMM
-Mughals_NN NNP
+too_RB
+means_VPRT
+Mughals_NN
 and_CC
-British_NN NNP
+British_NN
 and_CC
-French_JJPR JJPRother
+French_JJPR
 and_CC
 so_SO
-called_VBN COMM
-Alexander_NN NNP
+called_VBN
+Alexander_NN
 the_DT
-Greek_NN NNP
+Greek_NN
 and_CC
 so_EMPH
-on_RB RBother
+on_RB
 ........_,
-by_IN INother
+by_IN
 the_DT
-way_NN NNABSPROC
+way_NN
 all_QUAN
-occupation_NN NOMZ
-ends_VPRT ASPECT
-directly_RB RBother
-in_IN INother
+occupation_NN
+ends_VPRT
+directly_RB
+in_IN
 the_DT
-name_NN NNABSPROC
-of_IN INother
-colony_NN NNGRP
+name_NN
+of_IN
+colony_NN
 ._.
-read_VIMP MENTAL
+read_VIMP
 the_DT
-Indian_JJAT JJATother
-history_NN NNother
-from_IN INother
-last_JJAT JJATother
-Mughals_NN NNP
+Indian_JJAT
+history_NN
+from_IN
+last_JJAT
+Mughals_NN
 ..._.
-Mosadegh_NN NNP
+Mosadegh_NN
 and_CC
-Shariati_NN NNP
+Shariati_NN
 ,_,
-Khomeini_NN NNP
+Khomeini_NN
 all_QUAN
 three_CD
-of_IN INother
-them_PP3P PP3
-Teachers_NN NNHUMAN
-by_IN INother
-profession_NN NNother
+of_IN
+them_PP3P
+Teachers_NN
+by_IN
+profession_NN
 and_CC
-Great_JJAT JJEVAL
-Iranians_NN NNP
+Great_JJAT
+Iranians_NN
 ,_,
 No_XX0
-Doubt_NN NSTNCother
+Doubt_NN
 ...._,
-They_PP3P PP3
+They_PP3P
 are_VPRT BEMA
 a_DT
 guiding_VBG
-light_NN NNTECH
-for_IN INother
-us_PP1P PP1
-Pakistanis_NN NNP
+light_NN
+for_IN
+us_PP1P
+Pakistanis_NN
 if_COND
-we_PP1P PP1
+we_PP1P
 ever_FREQ
-decide_VPRT MENTAL
-to_IN ToSTNCall ToVSTNCall ToVDSR
+decide_VPRT
+to_IN
 overcome_VB
-our_PP1P PP1
+our_PP1P
 60_CD
-year_NN NNother
-of_IN INother
-Gharabzadegi_NN NNP
+year_NN
+of_IN
+Gharabzadegi_NN
 .._.
 @_NFP
-Axxxn_NN NNP
+Axxxn_NN
 @A_NN NNMention
-Suhail_NN NNP
+Suhail_NN
 :_:
 @_NFP
-Axi_NN NNP
-Tanoli_NN NNP
+Axi_NN
+Tanoli_NN
 :_:
-Hitler_NN NNP
+Hitler_NN
 the_DT
-great_JJAT JJEVAL
+great_JJAT
 ???_. YNQU
 A_DT
-diabolical_JJAT JJATother
+diabolical_JJAT
 ,_,
-egomaniac_NN NNother
-who_WHSC WHSCother
-caused_VBD CAUSE
-untold_JJAT JJATother
-suffering_NN NNother
-to_IN INother
+egomaniac_NN
+who_WHSC
+caused_VBD
+untold_JJAT
+suffering_NN
+to_IN
 the_DT
-world_NN NNother
+world_NN
 and_CC
-solely_RB RBother
-responsible_JJPR JJPRother
-for_IN INother
+solely_RB
+responsible_JJPR
+for_IN
 the_DT
-death_NN NNABSPROC
-of_IN INother
-millions_NN NNother
-of_IN INother
+death_NN
+of_IN
+millions_NN
+of_IN
 human_FPUH
-beings_NN NNother
+beings_NN
 is_VPRT
 '_``
-great_JJPR JJEVAL
+great_JJPR
 '_''
-in_IN INother
+in_IN
 your_PP2
-books_NN NNCONC
+books_NN
 ?_. YNQU
-Speechless_JJPR JJPRother
+Speechless_JJPR
 lots_QUAN
-of_IN INother
-similarities_NN NOMZ
-between_IN INother
+of_IN
+similarities_NN
+between_IN
 the_DT
 installed_VBN
 "_``
-democratic_JJPR JJPRother
+democratic_JJPR
 "_''
-puppet_NN NNother
-of_IN INother
-Pakistan_NN NNP
-with_IN INother
-their_PP3P PP3
-English_NN NNP
-speaking_VBG COMM
+puppet_NN
+of_IN
+Pakistan_NN
+with_IN
+their_PP3P
+English_NN
+speaking_VBG
 "_``
-liberal_JJPR JJPRother
+liberal_JJPR
 "_''
-propagandists_NN NNother
+propagandists_NN
 and_CC
 the_DT
-shah_NN NNP
+shah_NN
 and_CC
-his_PP3S PP3
-minions_NN NNother
+his_PP3S
+minions_NN
 ._.
 completely_AMP
-out_IN INother
-of_IN INother
-touch_NN NNother
-with_IN INother
-reality_NN NNABSPROC
+out_IN
+of_IN
+touch_NN
+with_IN
+reality_NN
 and_CC
 the_DT
-rest_NN NNABSPROC
-of_IN INother
+rest_NN
+of_IN
 "_``
-their_PP3P PP3
+their_PP3P
 "_''
-nation_NN NOMZ
+nation_NN
 ._.
 maybe_HDG
-they_PP3P PP3
-'ll_MDWS MDPREDall CONT
-meet_VB ACT
+they_PP3P
+'ll_MDWS CONT
+meet_VB
 the_DT
-same_JJAT JJREL
-fate_NN NNother
+same_JJAT
+fate_NN
 ;_,
-permanent_JJAT JJATother
-exile_NN NNother
+permanent_JJAT
+exile_NN
 ._.
-Queen_NN NNP
+Queen_NN
 did_VBD ACT
 not_XX0
-learned_VBN MENTAL
-from_IN INother
-Hitler_NN NNP
+learned_VBN
+from_IN
+Hitler_NN
 the_DT
-great_JJAT JJEVAL
+great_JJAT
 ._.
-Mossadegh_NN NNP
+Mossadegh_NN
 was_VBD BEMA
 a_DT
-true_JJAT JJEPSTother
-nationalist_JJAT JJATother
-leader_NN NNHUMAN
-of_IN INother
-Iran_NN NNP
+true_JJAT
+nationalist_JJAT
+leader_NN
+of_IN
+Iran_NN
 ._.
-His_PP3S PP3
-single_JJAT JJREL
-biggest_JJAT SUPER
-achievement_NN NNABSPROC
+His_PP3S
+single_JJAT
+biggest_JJAT
+achievement_NN
 was_VBD BEMA
 the_DT
-nationalisation_NN NOMZ
-of_IN INother
-Iranian_JJAT JJATother
-oil_NN NNother
+nationalisation_NN
+of_IN
+Iranian_JJAT
+oil_NN
 ._.
-Savak_NN NNP
+Savak_NN
 had_VBD
 very_AMP
-close_JJAT JJATother
-links_NN NNABSPROC
-with_IN INother
-CIA_NN NNP
+close_JJAT
+links_NN
+with_IN
+CIA_NN
 and_CC
 the_DT
 two_CD
-agencies_NN NNother
+agencies_NN
 were_VBD
 looking_PROG
-after_IN INother
+after_IN
 and_CC
 safeguarding_VBG
 the_DT
 pro-west_PLACE
-monarchism_NN NNother
+monarchism_NN
 interests_NN NCOMP
 ._.
-After_IN INother
-Mossadegh_NN NNP
-came_VBD ACT
-into_IN INother
-power_NN NNABSPROC
+After_IN
+Mossadegh_NN
+came_VBD
+into_IN
+power_NN
 ,_,
 the_DT
-shah_NN NNP
-of_IN INother
-Iran_NN NNP
+shah_NN
+of_IN
+Iran_NN
 fled_VBD
-to_IN INother
-Iraq_NN NNP
+to_IN
+Iraq_NN
 ._.
-General_NN NNP
-Fazlullah_NN NNP
-Zahedi_NN NNP
-with_IN INother
+General_NN
+Fazlullah_NN
+Zahedi_NN
+with_IN
 the_DT
-help_NN NNABSPROC
-of_IN INother
-CIA_NN NNP
+help_NN
+of_IN
+CIA_NN
 staged_VBD
 a_DT
-counter_NN NNCONC
+counter_NN
 -_HYPH
-coup_NN NNother
+coup_NN
 ,_,
 arrested_VBD
-Mossadegh_NN NNP
+Mossadegh_NN
 and_CC
-brought_VBD ACT
+brought_VBD
 back_RP
-shah_NN NNP
-from_IN INother
-exile_NN NNother
-in_IN INother
-Iraq_NN NNP
+shah_NN
+from_IN
+exile_NN
+in_IN
+Iraq_NN
 ._.
-General_NN NNP
-Fazlullah_NN NNP
-Zahedi_NN NNP
+General_NN
+Fazlullah_NN
+Zahedi_NN
 was_VBD SPLIT
-handsomely_RB RBother
-rewarded_PASS PASSall
-by_IN INother
-who_WHSC WHSCother
-gave_VBD ACT
-his_PP3S PP3
-daughter_NN NNHUMAN
-in_IN INother
-marriage_NN NNABSPROC
-to_IN INother
-general_NN NNother
-Fazlullah_NN NNP
-Zahedi_NN NNP
+handsomely_RB
+rewarded_PASS
+by_IN
+who_WHSC
+gave_VBD
+his_PP3S
+daughter_NN
+in_IN
+marriage_NN
+to_IN
+general_NN
+Fazlullah_NN
+Zahedi_NN
 's_POS
-son_NN NNHUMAN
+son_NN
 ,_,
-Ardsher_NN NNP
-Zahedi_NN NNP
-who_WHSC WHSCother
+Ardsher_NN
+Zahedi_NN
+who_WHSC
 once_TIME
-became_VBD OCCUR
-Iran_NN NNP
+became_VBD
+Iran_NN
 's_POS
-foreign_JJAT JJATother
-minister_NN NNHUMAN
+foreign_JJAT
+minister_NN
 ._.
 (_-LRB-
 if_COND
-my_PP1S PP1
-memory_NN NNCOG
+my_PP1S
+memory_NN
 does_VPRT DOAUX
 n't_XX0 CONT
 betray_VB
-me_PP1S PP1
+me_PP1S
 ,_,
-Ardsher_NN NNP
-Zahedi_NN NNP
+Ardsher_NN
+Zahedi_NN
 also_CC
 served_VBD
-as_IN INother
-his_PP3S PP3
-country_NN NNPLACE
+as_IN
+his_PP3S
+country_NN
 's_POS
-ambassador_NN NNother
-to_IN INother
-Pakistan_NN NNP
-in_IN INother
-late_JJAT JJTIME
-fifties_NN NNother
+ambassador_NN
+to_IN
+Pakistan_NN
+in_IN
+late_JJAT
+fifties_NN
 or_CC
-early_JJAT JJTIME
-sixties_NN NNother
+early_JJAT
+sixties_NN
 )_-RRB-
 ._.
 why_WHQU
-we_PP1P PP1
-still_RB RBother
-playing_VBG ACT
-in_IN INother
+we_PP1P
+still_RB
+playing_VBG
+in_IN
 the_DT
-hand_NN NNCONC
-of_IN INother
+hand_NN
+of_IN
 those_DEMO
 ????_. WQ
-Nice_JJPR JJEVAL
+Nice_JJPR
 ._.
 You_PP2
 've_VPRT CONT
 squeezed_PEAS
 a_DT
 lot_QUAN
-of_IN INother
-history_NN NNother
-into_IN INother
+of_IN
+history_NN
+into_IN
 a_DT
 very_AMP
-small_JJAT JJDESCall JJSIZE
-space_NN NNCONC
+small_JJAT
+space_NN
 ._.
-Mossadegh_NN NNP
-deserves_VPRT EXIST
+Mossadegh_NN
+deserves_VPRT
 much_QUAN
 more_QUAN
-recognition_NN NNCOG
-that_THSC THSCother
-what_WHSC WHSCother
-he_PP3S PP3
+recognition_NN
+that_THSC
+what_WHSC
+he_PP3S
 presently_TIME
 has_VPRT
 ._.
 Another_DT
-relevant_JJAT JJATother
-book_NN NNCONC
-on_IN INother
+relevant_JJAT
+book_NN
+on_IN
 this_DEMO
-topic_NN NNABSPROC
+topic_NN
 is_VPRT
 '_``
 All_QUAN
 the_DT
-Shah_NN NNP
+Shah_NN
 's_POS
-men_NN NNHUMAN
+men_NN
 '_''
-by_IN INother
-Stephen_NN NNP
-Kinzer_NN NNP
+by_IN
+Stephen_NN
+Kinzer_NN
 ._.
-Mossadegh_NN NNP
+Mossadegh_NN
 was_VBD
 neither_XX0
-exiled_PASS PASSall
+exiled_PASS
 nor_XX0
 shot_VBN
-dead_JJPR JJPRother
-by_IN INother
+dead_JJPR
+by_IN
 a_DT
-firing_NN NNother
+firing_NN
 squad_NN NCOMP
 but_CC
-he_PP3S PP3
-spent_VBD ACT
+he_PP3S
+spent_VBD
 the_DT
-rest_NN NNABSPROC
-of_IN INother
-his_PP3S PP3
-life_NN NNABSPROC
-under_IN INother
-house_NN NNGRP
+rest_NN
+of_IN
+his_PP3S
+life_NN
+under_IN
+house_NN
 arrest_NN NCOMP
 ._.
 "_``
-Finally_RB RBother
-Mossadegh_NN NNP
-took_VBD ACT
+Finally_RB
+Mossadegh_NN
+took_VBD
 over_RP
 ,_,
 nationalised_VBN
-Persian_JJAT JJATother
-oil_NN NNother
+Persian_JJAT
+oil_NN
 ,_,
 was_VBD
-removed_PASS PASSall
-from_IN INother
-power_NN NNABSPROC
-in_IN INother
+removed_PASS
+from_IN
+power_NN
+in_IN
 a_DT
-CIA_NN NNP
+CIA_NN
 plot_NN NCOMP
 ,_,
 incarcerated_VBN
@@ -1678,685 +1680,685 @@ exiled_VBN
 "_''
 That_DEMO
 's_VPRT CONT BEMA
-news_NN NNother
-to_IN PrepNSTNC
-me_PP1S PP1
+news_NN
+to_IN
+me_PP1S
 ._.
-I_PP1S PP1
+I_PP1S
 always_FREQ
-heard_VBD MENTAL
-that_THSC THSCother
-he_PP3S PP3
+heard_VBD
+that_THSC
+he_PP3S
 was_VBD
-executed_PASS PASSall
-by_IN INother
+executed_PASS
+by_IN
 firing_VBG
-squad_NN NNother
+squad_NN
 ._.
 according_VBG
-to_IN INother
+to_IN
 the_DT
-constitution_NN NOMZ
-of_IN INother
-Pakistan_NN NNP
+constitution_NN
+of_IN
+Pakistan_NN
 ,_,
-whenever_WHSC WHSCother
+whenever_WHSC
 an_DT
-occasion_NN NNother
-arises_VPRT OCCUR
-where_WHSC WHSCother
+occasion_NN
+arises_VPRT
+where_WHSC
 two_CD
 or_CC
 more_QUAN
-articles_NN NNother
+articles_NN
 or_CC
 the_DT
-constitution_NN NOMZ
-appears_VPRT EXIST
-to_IN ToSTNCall ToVSTNCall ToVPROB
+constitution_NN
+appears_VPRT
+to_IN
 be_VB
 conflicting_PROG
 ,_,
 the_DT
-Supreme_NN NNP
-Court_NN NNP
-of_IN INother
-Pakistan_NN NNP
+Supreme_NN
+Court_NN
+of_IN
+Pakistan_NN
 is_VPRT BEMA
 the_DT
-sole_JJAT JJATother
-authority_NN NNABSPROC
-to_IN INother
-interpret_VB MENTAL
+sole_JJAT
+authority_NN
+to_IN
+interpret_VB
 and_CC
-determine_VB MENTAL
-which_WHSC WhVSTNCall WhVFCT
-article_NN NNother
+determine_VB
+which_WHSC
+article_NN
 should_MDNE
 be_VB
-preferred_PASS PASSall MENTAL
+preferred_PASS
 ..._,
-in_IN INother
+in_IN
 this_DEMO
-case_NN NNCONC
+case_NN
 article_NN NCOMP
 248_CD
 is_VPRT
-used_PASS PASSall ACT
-to_IN INother
-provide_VB ACT
-cover_NN NNCONC
-for_IN INother
+used_PASS
+to_IN
+provide_VB
+cover_NN
+for_IN
 the_DT
-black_JJAT JJDESCall JJCOLR
-money_NN NNother
+black_JJAT
+money_NN
 but_CC
-in_IN INother
-our_PP1P PP1
-constitution_NN NOMZ
+in_IN
+our_PP1P
+constitution_NN
 there_EX
 are_VPRT
 a_DT
 few_QUAN
-other_JJAT JJATother
-articles_NN NNother
+other_JJAT
+articles_NN
 (_-LRB-
-article_NN NNother
+article_NN
 8_CD
 ,_,
 25_CD
 ,_,
 227_CD
 )_-RRB-
-which_WHSC WHSCother
-says_VPRT COMM
-equal_JJAT JJATother
-rights_NN NNABSPROC
-for_IN PrepNSTNC
+which_WHSC
+says_VPRT
+equal_JJAT
+rights_NN
+for_IN
 every_QUAN
-citizen_NN NNHUMAN
+citizen_NN
 ,_,
 no_XX0
-law_NN NNABSPROC
-can_MDCA MDPOSSCall
+law_NN
+can_MDCA
 be_VB
-made_PASS PASSall ACT
-against_IN INother
-Islamic_JJAT JJATother
-laws_NN NNABSPROC
+made_PASS
+against_IN
+Islamic_JJAT
+laws_NN
 and_CC
 everybody_QUPR
 is_VPRT BEMA
-accountable_JJPR JJPRother
+accountable_JJPR
 ..._,
 so_SO
-in_IN INother
+in_IN
 this_DEMO
-scenario_NN NNother
+scenario_NN
 the_PRPother
-may_MDMM MDPOSSCall
-prefer_VB MENTAL
+may_MDMM
+prefer_VB
 the_DT
-immunity_NN NOMZ
-as_IN INother
+immunity_NN
+as_IN
 this_DEMO
-suit_VB EXIST
-them_PP3P PP3
+suit_VB
+them_PP3P
 but_CC
 the_DT
-SC_NN NNP
-will_MDWS MDPREDall
-decide_VB MENTAL
-whether_WHSC WHSCother
+SC_NN
+will_MDWS
+decide_VB
+whether_WHSC
 there_EX
-can_MDCA MDPOSSCall
+can_MDCA
 be_VB
-immunity_NN NOMZ
+immunity_NN
 or_CC
 not_XX0
 ..._.
-First_RB RBother
-they_PP3P PP3
+First_RB
+they_PP3P
 should_MDNE
-start_VB ASPECT
-trial_NN NNABSPROC
-in_IN INother
+start_VB
+trial_NN
+in_IN
 the_DT
-country_NN NNPLACE
-then_RB RBother
-say_VIMP COMM
-us_PP1P PP1
+country_NN
+then_RB
+say_VIMP
+us_PP1P
 ,_,
-he_PP3S PP3
+he_PP3S
 has_VPRT
-immunity_NN NOMZ
-why_WHSC WHSCother
-can_MDCA MDPOSSCall
-we_PP1P PP1
-start_VB ASPECT
-trial_NN NNABSPROC
-in_RB RBother
-Switzerland_NN NNP
+immunity_NN
+why_WHSC
+can_MDCA
+we_PP1P
+start_VB
+trial_NN
+in_RB
+Switzerland_NN
 ._.
-Swiss_JJAT JJATother
-authority_NN NNABSPROC
+Swiss_JJAT
+authority_NN
 has_VPRT
 the_DT
-stance_NN NNother
-as_IN INother
+stance_NN
+as_IN
 above_PLACE
-mentioned_VBN COMM
+mentioned_VBN
 ._.
-She_PP3S PP3
+She_PP3S
 is_VPRT BEMA
 a_DT
-senior_JJAT JJATother
-lawyer_NN NNHUMAN
+senior_JJAT
+lawyer_NN
 ,_,
 and_CC
 has_VPRT
 been_PEAS BEMA
-president_NN NNHUMAN
-of_IN INother
+president_NN
+of_IN
 the_DT
-Supreme_NN NNP
-Court_NN NNP
-Bar_NN NNP
-Association_NN NNP
+Supreme_NN
+Court_NN
+Bar_NN
+Association_NN
 ,_,
-when_WHSC WHSCother
-asked_VBD COMM
-her_PP3S PP3
+when_WHSC
+asked_VBD
+her_PP3S
 ,_,
-to_IN INother
-write_VB COMM
+to_IN
+write_VB
 or_CC
 not_XX0
-write_VB COMM
+write_VB
 ,_,
-she_PP3S PP3
-says_VPRT COMM
+she_PP3S
+says_VPRT
 ,_,
 '_``
 '_``
 should_MDNE
 not_XX0
-write_VB COMM
+write_VB
 '_''
 '_''
-Write_VIMP COMM
+Write_VIMP
 or_CC
 not_XX0
-write_VB COMM
+write_VB
 ,_,
 not_XX0
-write_VB COMM
+write_VB
 ,_,
 be_VB
-convicted_PASS PASSall
+convicted_PASS
 and_CC
-sentenced_PASS PASSall
+sentenced_PASS
 ._.
-They_PP3P PP3
-want_VPRT MENTAL
+They_PP3P
+want_VPRT
 a_DT
-new_JJAT JJTIME
-crisis_NN NNother
+new_JJAT
+crisis_NN
 ,_,
-they_PP3P PP3
-become_VPRT OCCUR
-hero_NN NNHUMAN
+they_PP3P
+become_VPRT
+hero_NN
 or_CC
-martyr_NN NNother
+martyr_NN
 ,_,
-Save_VIMP ACT
-passage_NN NNPLACE
-would_MDWO MDPREDall
+Save_VIMP
+passage_NN
+would_MDWO
 have_MDNE
-to_IN INother
+to_IN
 adopted_VBN
 ,_,
-which_WHSC WHSCother
+which_WHSC
 leads_VPRT
-to_IN INother
+to_IN
 the_DT
-parliament_NN NOMZ
-only_RB RBother
+parliament_NN
+only_RB
 ._.
-Put_VIMP ACT
+Put_VIMP
 the_DT
-matter_NN NNTECH
-before_IN INother
+matter_NN
+before_IN
 the_DT
 elected_VBN
-institution_NN NNGRP
+institution_NN
 ,_,
 that_DEMO
 is_VPRT BEMA
-better_JJPR COMPAR
+better_JJPR
 according_VBG
-to_IN INother
-my_PP1S PP1
-personal_JJAT JJATother
-opinion_NN NSTNCother
+to_IN
+my_PP1S
+personal_JJAT
+opinion_NN
 ._.
 The_DT
-central_JJAT JJATother
-question_NN NNABSPROC
+central_JJAT
+question_NN
 is_VPRT BEMA
-of_IN INother
-immunity_NN NOMZ
-of_IN INother
+of_IN
+immunity_NN
+of_IN
 the_DT
-head_NN NNCONC
-of_IN INother
-State_NN NNP
-in_IN INother
+head_NN
+of_IN
+State_NN
+in_IN
 an_DT
-Islamic_NN NNP
-Republic_NN NNP
-as_IN INother
+Islamic_NN
+Republic_NN
+as_IN
 spelt_VBN
 out_RP
-in_IN INother
+in_IN
 the_DT
-Constitution_NN NOMZ
+Constitution_NN
 ._.
 The_DT
-Constitution_NN NOMZ
-gives_VPRT ACT
-him_PP3S PP3
-immunity_NN NOMZ
+Constitution_NN
+gives_VPRT
+him_PP3S
+immunity_NN
 whereas_CONC
-under_IN INother
-Islamic_JJAT JJATother
-code_NN NNABSPROC
-of_IN INother
-justice_NN NNother
+under_IN
+Islamic_JJAT
+code_NN
+of_IN
+justice_NN
 the_DT
-head_NN NNCONC
-to_IN INother
-State_NN NNP
+head_NN
+to_IN
+State_NN
 is_VPRT
-to_IN INother
+to_IN
 be_VB
-treated_PASS PASSall
-as_IN INother
+treated_PASS
+as_IN
 a_DT
-normal_JJAT JJATother
-person_NN NNHUMAN
+normal_JJAT
+person_NN
 if_COND
 charged_VBN
-with_IN INother
+with_IN
 a_DT
-crime_NN NNABSPROC
+crime_NN
 ._.
 So_EMPH
 now_TIME
-we_PP1P PP1
+we_PP1P
 have_VPRT
 an_DT
-issue_NN NNABSPROC
-of_IN INother
-interpretation_NN NOMZ
-of_IN INother
+issue_NN
+of_IN
+interpretation_NN
+of_IN
 the_DT
-Constitution_NN NOMZ
+Constitution_NN
 and_CC
 the_DT
-Supreme_NN NNP
-Court_NN NNP
+Supreme_NN
+Court_NN
 should_MDNE
 be_VB BEMA
 the_DT
-body_NN NNCONC
-to_IN INother
+body_NN
+to_IN
 do_VB ACT
 this_DEMO
 and_CC
-recommend_VB COMM
-change_NN NNABSPROC
+recommend_VB
+change_NN
 if_COND
-needed_VBN MENTAL
+needed_VBN
 ._.
 The_DT
-PM_NN NNother
+PM_NN
 being_VBG BEMA
 a_DT
-loud_JJAT JJATother
-advocate_NN NNother
-of_IN INother
-late_JJAT JJTIME
-Benazir_NN NNP
-Bhutto_NN NNP
-could_MDCO MDPOSSCall
-take_VB ACT
+loud_JJAT
+advocate_NN
+of_IN
+late_JJAT
+Benazir_NN
+Bhutto_NN
+could_MDCO
+take_VB
 a_DT
-guide_NN NNother
-from_IN INother
-her_PP3S PP3
-book_NN NNCONC
+guide_NN
+from_IN
+her_PP3S
+book_NN
 '_``
-Reconciliation_NN NOMZ
+Reconciliation_NN
 '_''
-page_NN NNCONC
+page_NN
 72_CD
-on_IN INother
+on_IN
 this_DEMO
 very_AMP
-subject_NN NNABSPROC
+subject_NN
 ,_,
-where_WHSC WHSCother
-she_PP3S PP3
-clearly_RB RBother
-states_VPRT COMM
-her_PP3S PP3
-views_NN NSTNCother
+where_WHSC
+she_PP3S
+clearly_RB
+states_VPRT
+her_PP3S
+views_NN
 ._.
-Judiciary_NN NNother
+Judiciary_NN
 is_VPRT BEMA
 a_DT
-balance_NN NNABSPROC
+balance_NN
 wheel_NN NCOMP
-of_IN INother
-whole_JJAT JJATother
-system_NN NNABSPROC
+of_IN
+whole_JJAT
+system_NN
 ,_,
 but_CC
 now_TIME
 the_DT
-time_NN NNQUANT
+time_NN
 has_VPRT
-come_PEAS ACT
+come_PEAS
 ,_,
 every_QUAN
-citizen_NN NNHUMAN
+citizen_NN
 is_VPRT
-compelled_PASS PASSall
-to_IN INother
-think_VB MENTAL
-about_IN INother
-future_NN NNQUANT
-of_IN INother
+compelled_PASS
+to_IN
+think_VB
+about_IN
+future_NN
+of_IN
 the_DT
-state_NN NNABSPROC
+state_NN
 ,_,
-which_WHSC WHSCother
+which_WHSC
 secured_VBD
 after_TIME
-long_RB RBother
-standing_VBG EXIST
-tireless_JJAT JJATother
-struggles_NN NNother
+long_RB
+standing_VBG
+tireless_JJAT
+struggles_NN
 ._.
-I_PP1S PP1
-saw_VBD MENTAL
-his_PP3S PP3
-writing_NN NNother
-when_WHSC WHSCother
-he_PP3S PP3
-wrote_VBD COMM
-in_IN INother
+I_PP1S
+saw_VBD
+his_PP3S
+writing_NN
+when_WHSC
+he_PP3S
+wrote_VBD
+in_IN
 the_DT
-court_NN NNPLACE
+court_NN
 ._.
-He_PP3S PP3
+He_PP3S
 was_VBD BEMA
 so_EMPH
-bad_JJPR JJEVAL
-in_IN INother
-writing_VBG COMM
-he_PP3S PP3
+bad_JJPR
+in_IN
+writing_VBG
+he_PP3S
 must_MDNE
 not_XX0
-write_VB COMM
-himself_PP3S PP3
+write_VB
+himself_PP3S
 ,_,
 hire_VB
 a_DT
-person_NN NNHUMAN
-with_IN INother
+person_NN
+with_IN
 a_DT
-big_JJAT JJDESCall JJSIZE
-numeration_NN NOMZ
+big_JJAT
+numeration_NN
 :PP_NFP
-Judiciary_NN NNother
+Judiciary_NN
 needs_MDNE
-to_IN INother
+to_IN
 stick_VB
-to_IN INother
-laws_NN NNABSPROC
+to_IN
+laws_NN
 and_CC
-conventions_NN NOMZ
+conventions_NN
 and_CC
 never_FREQ
 pursue_VB
-what_WHSC WHSCother
-seems_VPRT EXIST
+what_WHSC
+seems_VPRT
 an_DT
-agenda_NN NNother
-of_IN INother
+agenda_NN
+of_IN
 the_DT
-establishment_NN NOMZ
+establishment_NN
 ._.
 The_DT
-establishment_NN NOMZ
+establishment_NN
 is_VPRT BEMA
 always_FREQ
-fickle_JJPR JJPRother
+fickle_JJPR
 and_CC
 it_PIT
-will_MDWS MDPREDall
+will_MDWS
 be_VB BEMA
-shame_JJPR JJPRother
+shame_JJPR
 if_COND
 these_DEMO
-cases_NN NNCONC
+cases_NN
 ,_,
-unresolved_JJPR JJPRother
-make_VPRT ACT
+unresolved_JJPR
+make_VPRT
 the_DT
-courts_NN NNPLACE
+courts_NN
 look_VB
-foolish_JJPR JJPRother
+foolish_JJPR
 and_CC
-inconsequential_JJPR JJPRother
+inconsequential_JJPR
 ._.
-To_IN INother
+To_IN
 the_DT
-CJ_NN NNother
+CJ_NN
 ----_SYM
-Keep_VIMP ASPECT
+Keep_VIMP
 up_RP
 your_PP2
-good_JJAT JJEVAL
-work_NN NNABSPROC
+good_JJAT
+work_NN
 but_CC
 be_VB BEMA
-wary_JJPR JJPRother
-of_IN INother
-snakes_NN NNother
+wary_JJPR
+of_IN
+snakes_NN
 ._.
-By_IN INother
+By_IN
 the_DT
-same_JJAT JJREL
-token_NN NNother
-Mr_NN NNP
-Zardari_NN NNP
-could_MDCO MDPOSSCall
-put_VB ACT
+same_JJAT
+token_NN
+Mr_NN
+Zardari_NN
+could_MDCO
+put_VB
 the_DT
-money_NN NNother
-in_IN INother
+money_NN
+in_IN
 a_DT
 '_``
-Trust_NN NNother
-Account_NN NNP
+Trust_NN
+Account_NN
 '_''
 and_CC
 contest_VB
 the_DT
-ownership_NN NNother
-of_IN INother
+ownership_NN
+of_IN
 the_DT
-money_NN NNother
-whence_RB RBother
-he_PP3S PP3
+money_NN
+whence_RB
+he_PP3S
 is_VPRT
 no_DMA
-longer_RB COMPAR
+longer_RB
 the_DT
-president_NN NNHUMAN
+president_NN
 ._.
 The_DT
-PCO_NN NNP
-SC_NN NNP
+PCO_NN
+SC_NN
 judges_NN NCOMP
 are_VPRT
-playing_PROG ACT
-good_JJAT JJEVAL
-cop_NN NNother
+playing_PROG
+good_JJAT
+cop_NN
 and_CC
-bad_JJAT JJEVAL
-cop_NN NNother
+bad_JJAT
+cop_NN
 ._.
-They_PP3P PP3
+They_PP3P
 are_VPRT
 not_XX0
 doing_PROG ACT
 anything_QUPR
-unconstitutional_JJPR JJPRother
+unconstitutional_JJPR
 (_-LRB-
 like_LIKE
-trying_VBG ACT
+trying_VBG
 the_DT
-president_NN NNHUMAN
-themselves_PP3P PP3
+president_NN
+themselves_PP3P
 )_-RRB-
-at_IN INother
+at_IN
 the_DT
-same_JJAT JJREL
-time_NN NNQUANT
-they_PP3P PP3
-want_VPRT MENTAL
+same_JJAT
+time_NN
+they_PP3P
+want_VPRT
 the_DT
-coalition_NN NOMZ
-Govt_NN NNP
+coalition_NN
+Govt_NN
 ._.
-to_IN INother
-try_VB ACT
-him_PP3S PP3
-in_IN INother
+to_IN
+try_VB
+him_PP3S
+in_IN
 a_DT
-foreign_JJAT JJATother
-court_NN NNPLACE
+foreign_JJAT
+court_NN
 ._.
 This_DEMO
-way_NN NNABSPROC
-they_PP3P PP3
+way_NN
+they_PP3P
 achieve_VPRT
-their_PP3P PP3
-goal_NN NNABSPROC
-without_IN INother
-trying_VBG ACT
-him_PP3S PP3
-in_IN INother
+their_PP3P
+goal_NN
+without_IN
+trying_VBG
+him_PP3S
+in_IN
 a_DT
-court_NN NNPLACE
+court_NN
 ._.
 Otherwise_COND
 it_PIT
 is_VPRT BEMA
-simple_JJPR JJPRother
+simple_JJPR
 ._.
 The_DT
-SC_NN NNP
-can_MDCA MDPOSSCall
-determine_VB MENTAL
+SC_NN
+can_MDCA
+determine_VB
 (_-LRB-
-which_WHSC WHSCother
-they_PP3P PP3
+which_WHSC
+they_PP3P
 have_VPRT
-without_IN INother
+without_IN
 a_DT
-trial_NN NNABSPROC
+trial_NN
 )_-RRB-
-Zardari_NN NNP
+Zardari_NN
 has_VPRT
 committed_PEAS
-crime_NN NNABSPROC
+crime_NN
 and_CC
-ask_VPRT COMM
+ask_VPRT
 the_DT
-Swiss_NN NNP
-to_IN INother
+Swiss_NN
+to_IN
 cooperate_VB
 ._.
 Not_XX0
-start_VB ASPECT
+start_VB
 a_DT
-tradition_NN NNABSPROC
-of_IN INother
+tradition_NN
+of_IN
 any_QUAN
-lower_JJAT COMPAR
-court_NN NNPLACE
-to_IN INother
-try_VB ACT
+lower_JJAT
+court_NN
+to_IN
+try_VB
 a_DT
-sitting_NN NNother
+sitting_NN
 head_NN NCOMP
-of_IN INother
-Pakistan_NN NNP
+of_IN
+Pakistan_NN
 ._.
 If_COND
 this_DEMO
-happens_VPRT OCCUR
-then_RB RBother
-India_NN NNP
+happens_VPRT
+then_RB
+India_NN
 ,_,
-US_NN NNP
+US_NN
 ,_,
-B._NN NNP
-Desh_NN NNP
+B._NN
+Desh_NN
 and_CC
 all_QUAN
-other_JJAT JJATother
-countries_NN NNPLACE
-can_MDCA MDPOSSCall SPLIT
-easily_RB RBother
-try_VB ACT
+other_JJAT
+countries_NN
+can_MDCA SPLIT
+easily_RB
+try_VB
 any_QUAN
-Pakistani_JJAT JJATother
-official_NN NNHUMAN
-at_IN INother
-will_NN NNother
+Pakistani_JJAT
+official_NN
+at_IN
+will_NN
 ._.
 According_VBG
-to_IN INother
-SC_NN NNP
-of_IN INother
-Pakistan_NN NNP
+to_IN
+SC_NN
+of_IN
+Pakistan_NN
 if_COND
 a_DT
-lower_JJAT COMPAR
-Swiss_JJAT JJATother
-court_NN NNPLACE
+lower_JJAT
+Swiss_JJAT
+court_NN
 should_MDNE
-try_VB ACT
-President_NN NNP
-then_RB RBother
+try_VB
+President_NN
+then_RB
 all_QUAN
-officers_NN NNHUMAN
+officers_NN
 and_CC
-protectors_NN NNother
-of_IN INother
-OBL_NN NNP
-would_MDWO MDPREDall
+protectors_NN
+of_IN
+OBL_NN
+would_MDWO
 be_VB BEMA
 a_DT
-fair_JJAT JJATother
-game_NN NNCONC
-for_IN INother
-foreign_JJAT JJATother
-courts_NN NNPLACE
+fair_JJAT
+game_NN
+for_IN
+foreign_JJAT
+courts_NN
 ._.
