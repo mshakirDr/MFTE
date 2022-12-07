@@ -1941,7 +1941,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
         df = sort_df_columns(df) #sort df columns
-        df.round(4).drop(columns=['NTotal', 'VBTotal']).to_csv(dir_out+"counts_raw.csv", index=False)
+        df.round(0).drop(columns=['NTotal', 'VBTotal']).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
         get_complex_normed_counts(df).drop(columns=['NTotal', 'VBTotal']).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
         get_percent_normed_counts(df).drop(columns=['NTotal', 'VBTotal']).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
