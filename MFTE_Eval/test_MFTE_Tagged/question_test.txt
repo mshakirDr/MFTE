@@ -1,0 +1,48 @@
+How_WHQU
+are_VPRT BEMA
+you_PP2
+?_. WQ
+I_PP1S PP1all
+'m_VPRT CONT
+well_RB RBother
+,_,
+are_VPRT
+you_PP2
+?_. QUTAG
+Is_VPRT BEMA
+n't_XX0 CONT
+it_PIT
+strange_JJPR JJPRother
+that_THSC ThSTNCall ThJSTNCall ThJEVL
+this_DEMO
+text_NN NNother
+is_VPRT BEMA
+so_EMPH
+full_JJPR JJPRother
+of_IN INother
+questions_NN NNABSPROC
+?_. YNQU
+Do_VPRT DOAUX
+you_PP2
+reckon_VB MENTAL
+?_. YNQU
+Not_XX0
+so_EMPH
+much_QUAN
+._.
+Why_WHSC WHSCother
+you_PP2
+may_MDMM MDPOSSCall
+ask_VB COMM
+._.
+Wo_MDWO MDPREDall
+n't_XX0 CONT
+you_PP2
+?_. QUTAG
+Should_MDNE
+I_PP1S PP1all
+ask_VB COMM
+?_. YNQU
+Why_WHQU
+not_XX0
+?_. WQ

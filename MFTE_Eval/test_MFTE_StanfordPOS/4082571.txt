@@ -1,0 +1,150 @@
+##4082571_NNP
+You_PRP 're_VBP listening_VBG to_IN SCIENCE_NNP FRIDAY_NNP ,_, from_IN NPR_NNP ._.
+I_PRP 'm_VBP Ira_NNP Flatow_NNP ._.
+When_WRB you_PRP turn_VBP on_IN a_DT light_NN or_CC you_PRP power_VBP up_RP your_PRP$ radio_NN ,_, where_WRB does_VBZ the_DT electricity_NN come_VB from_IN ?_.
+Well_UH ,_, there_EX 's_VBZ a_DT good_JJ chance_NN it_PRP 's_VBZ not_RB coming_VBG from_IN whatever_WDT power_NN plant_NN that_WDT 's_VBZ actually_RB closest_JJS to_IN your_PRP$ electric_JJ outlet_NN ,_, but_CC probably_RB produced_VBN somewhere_RB else_RB and_CC distributed_VBN over_IN a_DT complicated_JJ network_NN to_TO get_VB to_IN you_PRP -_, the_DT famous_JJ electric_JJ grid_NN ,_, even_RB though_IN there_EX are_VBP really_RB many_JJ loosely_RB interconnected_VBN grids_NNS ._.
+And_CC the_DT only_JJ time_NN you_PRP really_RB hear_VBP about_IN the_DT grid_NN is_VBZ -_, what_WP ?_.
+What_WP ?_.
+Summertime_NN ,_, when_WRB it_PRP fails_VBZ ?_.
+There_EX 's_VBZ a_DT brownout_NN ,_, a_DT blackout_NN ,_, or_CC now_RB we_PRP talk_VBP about_IN security_NN concerns_NNS to_IN the_DT grid_NN ._.
+And_CC ,_, of_IN course_NN ,_, the_DT grid_NN is_VBZ not_RB getting_VBG any_RB younger_JJR ,_, and_CC we_PRP 're_VBP placing_VBG more_JJR demands_NNS on_IN the_DT grid_NN as_IN we_PRP need_VBP more_JJR electricity_NN for_IN things_NNS we_PRP never_RB had_VBD before_RB ._.
+You_PRP can_MD name_VB them_PRP :_: computers_NNS ,_, air_NN conditioners_NNS ,_, even_RB the_DT coming_VBG generations_NNS of_IN plug_NN -_HYPH in_IN cars_NNS ._.
+They_PRP 're_VBP all_RB going_VBG to_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN in_IN the_DT journal_NN IEEE_NNP Spectrum_NNP says_VBZ that_IN our_PRP$ national_JJ power_NN grid_NN has_VBZ been_VBN getting_VBG less_RBR reliable_JJ over_IN the_DT years_NNS ,_, even_RB as_IN we_PRP 're_VBP going_VBG to_TO have_VB to_TO depend_VB more_JJR on_IN it_PRP ._.
+And_CC next_JJ week_NN ,_, a_DT major_JJ conference_NN on_IN smart_JJ grid_NN technology_NN kicks_VBZ off_RP to_TO talk_VB about_IN engineering_VBG a_DT new_JJ smart_JJ grid_NN that_WDT perhaps_RB may_MD even_RB heal_VB itself_PRP ._.
+It_PRP can_MD heal_VB itself_PRP before_IN it_PRP even_RB breaks_VBZ down_RP ._.
+Joining_VBG me_PRP now_RB to_TO talk_VB more_JJR about_IN it_PRP is_VBZ S._NNP Massoud_NNP Amin_NNP ._.
+He_PRP is_VBZ the_DT director_NN of_IN the_DT Technological_NNP Leadership_NNP Institute_NNP at_IN the_DT University_NNP of_IN Minnesota_NNP in_IN Minneapolis_NNP ._.
+He_PRP holds_VBZ the_DT Honeywell_NNP /_, H.W_NNP ._.
+Sweatt_NNP Chair_NNP in_IN Technological_NNP Leadership_NNP and_CC professor_NN in_IN the_DT Department_NNP of_IN Electrical_NNP and_CC Computer_NNP Engineering_NNP there_RB ._.
+Welcome_UH to_IN SCIENCE_NNP FRIDAY_NNP ._.
+Professor_NNP S._NNP MASSOUD_NNP AMIN_NNP (_-LRB- Department_NNP of_IN Electrical_NNP and_CC Computer_NNP Engineering_NNP ,_, University_NNP of_IN Minnesota_NNP )_-RRB- :_:
+Thank_VBP you_PRP ,_, Mr._NNP Flatow_NNP ._. @!_''
+FLATOW_NN :_: Please_UH ,_, do_VB n't_RB ..._, @(_`` Soundbite_NN -_HYPH of_IN -_HYPH laugh_VB )_-RRB- @!FLATOW_NN :_: ..._, get_VB so_RB formal_JJ ._.
+What_WP do_VBP you_PRP mean_VB when_WRB you_PRP say_VBP that_IN the_DT system_NN is_VBZ getting_VBG less_RBR reliable_JJ ?_.
+How_WRB do_VBP you_PRP put_VB that_DT into_IN numbers_NNS ?_. @!_''
+Prof-AMIN_NNP :_: When_WRB @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_NNP are_VBP two_CD parts_NNS ._.
+One_PRP is_VBZ the_DT diminished_VBN shock_NN absorbers_NNS in_IN the_DT system_NN ,_, in_IN the_DT high_JJ -_HYPH voltage_NN grid_NN ,_, as_RB well_RB as_IN the_DT innovation_NN that_WDT goes_VBZ into_IN it_PRP ._.
+So_RB when_WRB we_PRP look_VBP at_IN the_DT infrastructure_NN ,_, the_DT depreciation_NN amortization_NN curve_NN had_VBD crossed_VBN over_IN investment_NN in_IN the_DT infrastructure_NN in_IN 1995_CD ._.
+So_RB we_PRP are_VBP overharvesting_VBG the_DT existing_VBG assets_NNS ,_, the_DT existing_VBG infrastructure_NN ._.
+And_CC my_PRP$ hat_NN is_VBZ off_RB to_IN the_DT grid_NN operators_NNS across_IN the_DT nation_NN and_CC across_IN North_NNP America_NNP that_WDT keep_VBP the_DT lights_NNS on_RP while_IN operating_VBG a_DT system_NN that_WDT has_VBZ less_JJR and_CC less_JJR shock_NN absorbers_NNS ._.
+@!_NNP
+FLATOW_NN :_:
+If_IN the_DT shock_NN absorbers_NNS ,_, if_IN they_PRP were_VBD on_IN your_PRP$ car_NN ,_, you_PRP 'd_MD know_VB about_IN it_PRP ._.
+But_CC if_IN -_, I_PRP guess_VBP ,_, you_PRP know_VBP about_IN it_PRP on_IN the_DT grid_NN because_IN we_PRP 're_VBP seeing_VBG more_JJR brownouts_NNS and_CC blackouts_NNS than_IN we_PRP used_VBD to_IN ?_. @!_''
+Prof-AMIN_NNP :_: Yes_UH ,_, Ira_NNP ._.
+In_IN -_HYPH on_IN average_NN ,_, actually_RB ,_, when_WRB we_PRP remove_VBP all_PDT the_DT natural_JJ -_HYPH caused_VBN ice_NN storms_NNS ,_, hurricanes_NNS ,_, weather_NN disasters_NNS from_IN the_DT outages_NNS ,_, the_DT most_RBS reliable_JJ part_NN of_IN our_PRP$ grid_NN is_VBZ -_, I_PRP 'm_VBP very_RB fortunate_JJ I_PRP live_VBP in_IN Minneapolis_NNP -_, is_VBZ the_DT @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN per_IN customer_NNP ,_, per_IN year_NN ._.
+The_DT worst_JJS part_NN ,_, the_DT most_RBS vulnerable_JJ part_NN -_, because_IN of_IN aging_VBG infrastructure_NN -_, is_VBZ New_NNP York_NNP and_CC PGN_NNP ,_, that_WDT gets_VBZ about_RB 240_CD minutes_NNS of_IN outages_NNS per_IN customer_NN ,_, per_IN year_NN ._.
+And_CC on_IN any_DT given_VBN day_NN ,_, there_EX are_VBP about_RB half_PDT a_DT million_CD of_IN our_PRP$ citizens_NNS without_IN electricity_NN for_IN two_CD or_CC more_JJR hours_NNS per_IN day_NN ._.
+This_DT is_VBZ in_IN contrast_NN to_IN ,_, for_IN example_NN ,_, Japan_NNP ,_, that_DT in_IN Japan_NNP ,_, using_VBG the_DT same_JJ metric_NN of_IN removing_VBG natural_JJ -_HYPH caused_VBN disturbances_NNS on_IN outages_NNS ,_, extreme_JJ events_NNS ,_, customers_NNS experience_VBP four_CD minutes_NNS of_IN outage_NN per_IN customer_NN ,_, per_IN year_NN ._.
+@!_NNP
+FLATOW_NN :_:
+So_RB what_WP are_VBP they_PRP doing_VBG better_JJR than_IN us_PRP ?_. @!_''
+Prof-AMIN_NNP :_:
+We_PRP take_VBP our_PRP$ infrastructure_NN for_IN granted_VBN ._.
+To_TO share_VB with_IN you_PRP a_DT little_JJ bit_NN on_IN the_DT investment_NN -_, I_PRP 'm_VBP not_RB even_RB talking_VBG making_VBG it_PRP smarter_JJR ._.
+I_PRP 'm_VBP talking_VBG about_IN just_RB investment_NN in_IN keeping_VBG it_PRP strong_JJ and_CC robust_JJ -_, a_DT nation_NN such_JJ as_IN -_HYPH emerging_VBG economies_NNS such_JJ as_IN New_NNP Zealand_NNP ,_, but_CC established_VBN economies_NNS like_IN England_NNP ,_, Denmark_NNP ,_, Spain_NNP ,_, Netherlands_NNP ,_, Norway_NNP ,_, Poland_NNP ,_, they_PRP invest_VBP between_IN $_$ 12_CD million_CD per_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN kV_NNP and_CC higher_JJR ,_, and_CC this_DT is_VBZ normal_JJ ,_, as_IN put_VBN on_IN the_DT same_JJ level_NN playing_VBG field_NN ._.
+To_TO give_VB an_DT example_NN ,_, England_NNP spent_VBD 16_CD -_HYPH and_CC -_HYPH a-_NN half_NN -_HYPH million_CD dollars_NNS per_IN gigawatt_NN ,_, per_IN year_NN on_IN their_PRP$ high_JJ -_HYPH voltage_NN transmission_NN ._.
+All_DT nations_NNS that_WDT had_VBD either_CC partially_RB deregulated_VBN or_CC fully_RB deregulated_VBN their_PRP$ system_NN ,_, they_PRP spend_VBP upwards_RB of_IN -_, at_IN least_JJS Finland_NNP spends_VBZ about_RB seven_CD million_CD ._.
+It_PRP 's_VBZ the_DT lowest_JJS one_NN ._.
+We_PRP are_VBP below_IN that_DT ._.
+@!_NNP
+FLATOW_NN :_:
+We_PRP 're_VBP below_IN that_DT ?_.
+@!_NNP
+Prof-AMIN_NNP :_:
+We_PRP spend_VBP 4.6_CD million_CD per_IN -_SYM million_CD dollars_NNS per_IN gigawatt_NN ,_, per_IN year_NN on_IN our_PRP$ super_JJ high_JJ -_HYPH voltage_NN ,_, 230_CD kV_NN and_CC higher_JJR ._.
+In_IN addition_NN ,_, they_PRP have_VBP a_DT number_NN of_IN transmission_NN -_HYPH owning_NN entities_NNS in_IN -_, and_CC those_DT nations_NNS ,_, all_DT of_IN them_PRP have_VBP one_CD -_HYPH New_NNP Zealand_NNP ,_, England_NNP ,_, Spain_NNP ,_, Netherlands_NNP ,_, Norway_NNP ,_, Poland_NNP ,_, Finland_NNP ._.
+Denmark_NNP has_VBZ two_CD ._.
+We_PRP have_VBP over_RB 450_CD ._.
+And_CC by_IN saying_VBG that_IN ,_, whenever_WRB I_PRP present_VBP this_DT ,_, our_PRP$ colleagues_NNS ask_VBP ,_, so_RB should_MD we_PRP nationalize_VB the_DT grid_NN ?_.
+I_PRP said_VBD no_UH ,_, that_DT is_VBZ not_RB our_PRP$ way_NN of_IN life_NN in_IN America_NNP ._.
+Instead_RB ,_, we_PRP should_MD @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN of_IN infrastructure_NNP is_VBZ privately_RB owned_VBN ._.
+We_PRP need_VBP to_TO build_VB incentives_NNS for_IN the_DT different_JJ stakeholders_NNS to_TO upgrade_VB the_DT system_NN ,_, to_TO look_VB at_IN it_PRP as_IN a_DT system_NN ,_, as_IN almost_RB -_HYPH at_IN least_JJS major_JJ interconnections_NNS ._.
+And_CC hopefully_RB ,_, as_IN they_PRP plan_VBP for_IN the_DT rest_NN of_IN this_DT century_NN ,_, as_IN a_DT continental_JJ scale_NN system_NN ,_, to_TO bring_VB again_RB -_, to_TO be_VB able_JJ to_TO bring_VB where_WRB (_-LRB- ph_NN )_-RRB- energy_NN sources_NNS are_VBP and_CC use_VB the_DT most_RBS efficient_JJ carrier_NN of_IN energy_NN ,_, which_WDT is_VBZ electrons_NNS ,_, to_TO bring_VB those_DT resources_NNS to_IN where_WRB the_DT demand_NN for_IN electricity_NN ,_, demand_NN for_IN energies_NNS ._.
+@!_NNP
+FLATOW_NN :_:
+Are_VBP you_PRP saying_VBG we_PRP do_VBP n't_RB need_VB a_DT smart_JJ grid_NN then_RB or_CC ..._, @!_.
+Prof-AMIN_NNP :_: No_UH ._.
+Smart_JJ grid_NN would_MD make_VB -_, is_VBZ an_DT overlay_NN ._.
+So_RB allow_VB me_PRP to_TO briefly_RB say_VB what_WDT smart_JJ grid_NN is_VBZ ._.
+Smart_JJ grid_NN is_VBZ the_DT overlay_NN ,_, is_VBZ the_DT sensor_NN network_NN ,_, communication_NN overlay_NN and_CC control_NN devices_NNS on_IN top_NN of_IN that_DT system_NN ._.
+So_RB there_EX is_VBZ a_DT part_NN -_, would_MD you_PRP please_UH -_: to_TO use_VB an_DT analogy_NN ._.
+Think_VB about_IN skeleton_NN ._.
+@!_NNP
+FLATOW_NN :_: Right_RB ._. @!_''
+Prof-AMIN_NNP :_:
+Think_VB about_IN the_DT musculature_NN ._.
+And_CC think_VB about_IN the_DT @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN grid_NNP is_VBZ the_DT enhancement_NN to_IN the_DT sensors_NNS ,_, communication_NN ,_, controls_NNS and_CC devices_NNS and_CC systems_NNS that_WDT operate_VBP as_IN an_DT overlay_NN in_IN parallel_JJ on_IN top_NN of_IN this_DT hardwired_VBN system_NN to_TO enhance_VB reliability_NN ,_, minimize_VB cost_NN ,_, reduce_VB cost_NN ,_, improve_VB security_NN and_CC resilience_NN ,_, robustness_NN of_IN the_DT system_NN ._.
+@!_NNP
+FLATOW_NN :_:
+It_PRP 's_VBZ almost_RB like_UH electronic_JJ or_CC an_DT autopilot_NN ,_, I_PRP imagine_VBP ,_, on_IN airplane_NN ._.
+You_PRP 're_VBP not_RB changing_VBG the_DT wings_NNS and_CC things_NNS ,_, but_CC you_PRP 're_VBP putting_VBG a_DT smarter_JJR way_NN to_TO control_VB the_DT flight_NN ,_, because_IN ,_, as_IN you_PRP say_VBP ,_, those_DT folks_NNS on_IN the_DT levers_NNS just_RB ca_MD n't_RB keep_VB up_RP anymore_RB ,_, pushing_VBG those_DT levers_NNS in_IN those_DT power_NN plants_NNS and_CC switching_VBG stations_NNS around_IN the_DT country_NN ._.
+@!_NNP
+Prof_NNP -AMIN_NNP :_: I_PRP (_-LRB- unintelligible_JJ )_-RRB- actually_RB ,_, the_DT genesis_NN of_IN this_DT ,_, when_WRB I_PRP had_VBD the_DT privilege_NN leading_VBG R&amp_NNP ;_, D_NNP ,_, beginning_VBG about_RB 13_CD years_NNS ago_RB at_IN the_DT Electric_NNP Power_NNP Research_NNP Institute_NNP in_IN Palo_NNP Alto_NNP ,_, as_IN the_DT head_NN of_IN mathematics_NN and_CC information_NN sciences_NNS there_RB ,_, that_DT 's_VBZ what_WP I_PRP did_VBD ._.
+I_PRP used_VBD what_WP I_PRP have_VBP learned_VBN ,_, working_VBG for_IN my_PRP$ McDonnell_NNP Douglas_NNP ,_, Boeing_NNP Phantom_NNP Work_NNP ,_, and_CC NASA_NNP Ames_NNP ,_, @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN the_DT perfect_JJ example_NN is_VBZ an_DT F_NNP -_HYPH 15_CD pilot_NN -_, that_IN an_DT Israeli_JJ pilot_NN ,_, Captain_NNP Zivi_NNP ,_, had_VBD landed_VBN in_IN 1983_CD with_IN a_DT missing_JJ wing_NN ._.
+So_RB this_DT is_VBZ enhanced_VBN avionics_NNS that_WDT are_VBP situational_JJ awareness_NN ,_, fastest_JJS situational_JJ awareness_NN ,_, to_TO enable_VB better_JJR control_NN ,_, better_JJR ..._, @!_''
+FLATOW_NN :_: Mm-hmm_NNP ._. @!_NNP
+Prof-AMIN_NN :_: ..._, security_NN and_CC resilience_NN to_IN unforeseen_JJ events_NNS ._.
+@!_NNP
+FLATOW_NN :_:
+Do_VBP we_PRP need_VB to_TO engineer_VB anything_NN new_JJ or_CC do_VB -_, you_PRP know_VBP ,_, what_WDT kind_NN of_IN engineering_NN applications_NNS are_VBP required_VBN ?_.
+Or_CC do_VBP we_PRP have_VB what_WP we_PRP need_VBP and_CC it_PRP 's_VBZ just_RB not_RB been_VBN put_VBN into_IN play_NN ?_. @!_''
+Prof-AMIN_NNP :_:
+There_EX are_VBP both_DT ,_, a_DT lot_NN of_IN it_PRP ._.
+Actually_RB ,_, many_JJ colleagues_NNS or_CC many_JJ listeners_NNS probably_RB are_VBP familiar_JJ with_IN the_DT smart_JJ meter_NN ._.
+They_PRP think_VBP if_IN I_PRP have_VBP a_DT smart_JJ meter_NN ,_, I_PRP have_VBP a_DT smart_JJ grid_NN ._.
+But_CC if_IN you_PRP step_VBP a_DT little_JJ bit_NN out_RP ,_, get_VB a_DT bird_NN 's_POS eye_NN view_NN ,_, you_PRP 're_VBP actually_RB talking_VBG about_IN end_NN to_IN end_NN ,_, from_IN fuel_NN source_NN to_IN the_DT end_NN use_NN ,_, from_IN fuel_NN source_NN to_IN the_DT -_, to_IN your_PRP$ device_NN at_IN home_NN ,_, at_IN work_NN ._.
+That_DT is_VBZ @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN measurement_NNP node_NN ,_, on_IN the_DT customer_NN citizens_NNS interface_NN to_IN the_DT utility_NN ._.
+So_RB many_JJ of_IN the_DT communication_NN ,_, whether_IN the_DT backbone_NN for_IN the_DT communication_NN is_VBZ fiber_NN optic_NN or_CC microwave_NN or_CC local_JJ even_RB -_, there_EX is_VBZ Wi-Fi_NNP ,_, WiMAX_NNP security_NN built_VBN -_HYPH in_IN -_, there_EX has_VBZ to_TO be_VB ,_, security_NN ..._, @!_.
+FLATOW_NN :_: Right_RB ._. @!_''
+Prof-AMIN_NNP :_: ..._, has_VBZ to_TO be_VB a_DT critical_JJ part_NN of_IN this_DT so_IN that_IN it_PRP enhances_VBZ security_NN ._.
+It_PRP should_MD be_VB built_VBN -_HYPH in_RP as_IN a_DT design_NN criteria_NN ,_, not_RB sprinkled_VBN on_RP as_IN a_DT condiment_NN or_CC glued_VBN on_RP as_IN a_DT afterthought_NN ._.
+@!_NNP
+FLATOW_NN :_: But_CC how_WRB do_VBP you_PRP get_VB this_DT done_VBN ?_.
+I_PRP mean_VBP ,_, it_PRP -_, this_DT is_VBZ going_VBG to_TO cost_VB a_DT lot_NN of_IN money_NN ._.
+And_CC we_PRP hear_VBP about_IN the_DT budgetary_JJ problems_NNS we_PRP 're_VBP having_VBG here_RB ._.
+@!_NNP
+Prof-AMIN_NNP :_: Its_PRP$ bill_NN (_-LRB- ph_NN )_-RRB- -_, I_PRP will_MD share_VB with_IN you_PRP the_DT numbers_NNS ._.
+Currently_RB ,_, our_PRP$ outages_NNS in_IN the_DT United_NNP States_NNPS costs_VBZ our_PRP$ economy_NN anywhere_RB ,_, depending_VBG on_IN the_DT year_NN ,_, anywhere_RB from_IN $_$ 80_CD billion_CD a_DT year_NN to_IN over_RB $_$ 180_CD billion_CD a_DT year_NN ,_, outages_NNS ,_, power_NN quality_NN disruptions_NNS ._.
+The_DT more_RBR digital_JJ devices_NNS we_PRP are_VBP using_VBG ,_, the_DT more_JJR demand_NN you_PRP 're_VBP @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN the_DT cost_NN of_IN doing_VBG the_DT smart_JJ grid_NN ?_.
+First_RB ,_, the_DT cost_NN of_IN strengthening_VBG the_DT backbone_NN of_IN the_DT grid_NN would_MD costs_VBZ us_PRP -_, and_CC Department_NNP of_IN Energy_NNP (_-LRB- unintelligible_JJ )_-RRB- have_VBP done_VBN the_DT studies_NNS as_IN part_NN of_IN transmission_NN study_NN -_, would_MD costs_VBZ us_PRP about_RB $_$ 82_CD billion_CD to_TO make_VB it_PRP stronger_JJR ,_, if_IN you_PRP will_MD ..._, @!_NFP
+FLATOW_NN :_:
+That_DT 's_VBZ one_CD year_NN 's_VBZ worth_JJ of_IN waste_NN ..._, @!_NFP
+Prof-AMIN_NNP :_: Exactly_RB ._.
+@!_NNP
+FLATOW_NN :_: Yeah_UH ._. @!_''
+Prof-AMIN_NNP :_:
+And_CC this_DT could_MD be_VB spread_VBN over_RB 10_CD years_NNS ._.
+But_CC it_PRP needs_VBZ that_DT kind_NN of_IN commitment_NN ,_, the_DT 10_CD -_HYPH year_NN commitment_NN ,_, eight_CD billion_CD a_DT year_NN ,_, to_TO retrofit_VB and_CC expand_VB this_DT among_IN different_JJ stakeholders_NNS ._.
+So_RB that_DT 's_VBZ stronger_JJR ._.
+Smarter_JJR ,_, to_TO make_VB the_DT overlay_NN ._.
+Put_VB the_DT overlay_NN of_IN sensors_NNS ,_, communication_NN and_CC control_NN devices_NNS would_MD cost_VB us_PRP between_RB 165_CD billion_CD to_IN $_$ 170_CD billion_CD over_RB 10_CD to_IN 20_CD years_NNS ,_, depending_VBG on_IN what_WDT time_NN horizon_NN we_PRP put_VBD in_RP ._.
+And_CC the_DT benefits_NNS of_IN that_DT ,_, it_PRP would_MD reduce_VB outages_NNS by_IN $_$ 49_CD billion_CD a_DT year_NN ._.
+It_PRP would_MD increase_VB efficiency_NN of_IN the_DT grid_NN by_IN over_RB 4.5_CD percent_NN as_IN according_VBG to_IN Pacific_NNP Northeast_NNP National_NNP Labs_NNP @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN efficiency_NNP -_HYPH improved_VBN efficiency_NN ._.
+In_IN addition_NN ,_, it_PRP would_MD reduce_VB emissions_NNS 12_CD to_IN 18_CD percent_NN ._.
+@!_NNP
+FLATOW_NN :_: Wow_UH ._.
+So_RB who_WP do_VBP you_PRP have_VB to_TO convince_VB ..._. @!_.
+Prof-AMIN_NNP :_:
+You_PRP know_VBP ,_, it_PRP is_VBZ a_DT clarity_NN using_VBG science_NN ,_, using_VBG evidence_NN ,_, using_VBG engineering_NN ,_, to_TO assess_VB these_DT and_CC put_VB all_DT -_, everything_NN on_IN the_DT canvas_NN ,_, everything_NN ,_, what_WP works_VBZ ,_, what_WP does_VBZ n't_RB work_VB ._.
+@!_NNP
+FLATOW_NN :_: Mm-hmm_NNP ._.
+So_RB it_PRP 's_VBZ up_IN to_IN someone_NN to_TO take_VB an_DT objective_JJ ,_, critical_JJ look_NN at_IN this_DT and_CC say_VB ,_, you_PRP know_VBP ,_, this_DT makes_VBZ sense_NN ._.
+We_PRP should_MD -_, it_PRP 's_VBZ worth_JJ spending_VBG the_DT money_NN on_IN ,_, is_VBZ what_WP you_PRP 're_VBP saying_VBG ._. @!_''
+Prof-AMIN_NNP :_:
+That_DT 's_VBZ precisely_RB what_WP I_PRP 've_VBP had_VBN the_DT privilege_NN of_IN doing_VBG for_IN the_DT last_JJ 14_CD years_NNS in_IN this_DT area_NN ._.
+And_CC the_DT conclusions_NNS that_WDT I_PRP shared_VBD with_IN you_PRP is_VBZ a_DT widespread_JJ assessment_NN from_IN every_DT department_NN of_IN energy_NN ,_, national_JJ labs_NNS ,_, even_RB (_-LRB- unintelligible_JJ )_-RRB- group_NN that_WDT looked_VBD at_IN the_DT entire_JJ end_NN -_HYPH to_IN -_HYPH end_NN system_NN modernization_NN ,_, complete_JJ revamp_NN of_IN the_DT entire_JJ system_NN ._.
+The_DT current_JJ system_NN in_IN America_NNP ,_, if_IN you_PRP do_VBP n't_RB think_VB of_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN North_NNP American_NNP ._.
+The_DT U.S._NNP portion_NN is_VBZ valued_VBN ,_, the_DT whole_JJ infrastructure_NN ,_, at_IN about_RB $_$ 1_CD trillion_CD ._.
+And_CC this_DT $_$ 1_CD trillion_CD system_NN underpins_VBZ our_PRP$ $_$ 14_CD trillion_CD economy_NN ._.
+@!_NNP
+FLATOW_NN :_: All_DT right_RB ._.
+Well_UH -_, and_CC you_PRP 're_VBP going_VBG to_TO be_VB having_VBG a_DT conference_NN ._.
+The_DT IEEE_NNP is_VBZ having_VBG a_DT conference_NN out_RB next_JJ week_NN and_CC we_PRP wish_VBP you_PRP good_JJ luck_NN ._. @!_NFP
+Prof-AMIN_NNP :_:
+Thank_VBP you_PRP very_RB much_RB and_CC welcome_VB your_PRP$ participation_NN and_CC your_PRP$ leadership_NN in_IN this_DT area_NN ._.
+@!_NNP
+FLATOW_NN :_:
+Thanks_NN for_IN joining_VBG us_PRP ._.
+Have_VB a_DT good_JJ weekend_NN ._. @!_NFP
+Prof-AMIN_NNP :_: Thank_VBP you_PRP ._. '_''

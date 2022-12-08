@@ -1,0 +1,7 @@
+Test_VIMP
+pure_JJAT JJATother
+content_NN NNABSPROC
+words_NN NCOMP
+:_:
+extraordinary_JJPR JJPRother
+!_.

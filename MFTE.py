@@ -172,7 +172,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
         #skip if space
         if x != " ":
             #Shakir @mentions (frequent in e-language) tagged as a new feature category, thus correcting tags such as JJ to NN
-            if (re.search(r"^@\S+_", words[index], re.IGNORECASE)):
+            if (re.search(r"^@\S\S+_", words[index], re.IGNORECASE)):
                 #print(words[index])
                 words[index] = re.sub("_(\w+)", "_NN NNMention", words[index])
 
@@ -203,6 +203,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if (re.search("\\binit_", words[index])): 
                 words[index] = re.sub("_\w+", "_PIT", words[index]) 	
 
+            # ELF: Correction of the pre- affix frequently tagged as a noun by the POS tagger (stanza)
+            if (re.search("\\bpre_", words[index])): 
+                words[index] = re.sub("_\w+", "_AFX", words[index]) 
 
             # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
@@ -212,7 +215,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
 
             # ELF: Tagging of hashtags
-            if (re.search("#\w{3,}", words[index])):
+            if (re.search("#\w{3,}|\w{3,}_GW", words[index])):
                 words[index] = re.sub("_\w+", "_HST", words[index])
 
 
@@ -251,34 +254,35 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # Original list: https://repository.upenn.edu/pwpl/vol18/iss2/14/
         # Plus crowdsourced other emoticons from colleagues on Twitter ;-)
 
-        # For emoticons parsed as one token by the Stanford Tagger:
+        # For emoticons parsed as one token by the POS tagger:
+        # Extended the regex to include strings including more than one non-alphanumeric character tagged as NFP by the POS tagger.
         # The following were removed because they occur fairly frequently in academic writing ;-RRB-_ and -RRB-:_
-            if (re.search("\\b(:-RRB-_|:d_|:-LRB-_|:p_|:--RRB-_|:-RSB-_|\\bd:_|:'-LRB-_|:--LRB-_|:-d_|:-LSB-_|-LSB-:_|:-p_|:\/_|:P_|:D_|\\b=-RRB-_|\\b=-LRB-_|:-D_|:-RRB--RRB-_|:O_|:]_|:-LRB--LRB-_|:o_|:-O_|:-o_|;--RRB-_|;-\*|‘:--RRB--LRB-_|:-B_|\\b8--RRB-_|=\|_|:-\|_|\\b<3_|\\bOo_|\\b<\/3_|:P_|;P_|\\bOrz_|\\borz_|\\bXD_|\\bxD_|\\bUwU_)", words[j])):
-                words[j] = re.sub("_\w+", "_EMO", words[j])
+            if (re.search(":-RRB-_|:d_|:-LRB-_|:p_|:--RRB-_|:-RSB-_|\\bd:_|:'-LRB-_|:--LRB-_|:-d_|:-LSB-_|-LSB-:_|:-p_|:\/_|:P_|:D_|=-RRB-_|=-LRB-_|:-D_|:-RRB--RRB-_|:O_|:]_|:-LRB--LRB-_|:o_|:-O_|:-o_|;--RRB-_|;-\*|':--RRB--LRB-_|:-B_|8--RRB-_|=\|_|:-\|_|<3_|<\/3_|:P_|;P_|\\bOrz_|\\borz_|\\bXD_|\\bxD_|\\bUwU_|;-\)_|;-\*_|:-\(_|:-\)|;-\(_|:-\(\(_|:-\)\)_|:--\(_|:--\)_|\(ツ|\\b8-\)_|\S\S+_NFP", words[j]) and not re.search("@!_|\.\.\.", words[j])):
+                words[j] = re.sub("_\S+", "_EMO", words[j])
 
 
-            # For emoticons where each character is parsed as an individual token.
+            # For emoticons where each character is parsed as an individual token. N.B.: No longer needed with stanza POS tagging
             # The aim here is to only have one EMO tag per emoticon and, if there are any letters in the emoticon, for the EMO tag to be placed on the letter to overwrite any erroneous NN, FW or LS tags from the Stanford Tagger:
             
-            if ((re.search(":_\W+|;_\W+|=_", words[j]) and re.search("\/_\W+|\\b\\_\W+", words[j+1])) or
+            # if ((re.search(":_\W+|;_\W+|=_", words[j]) and re.search("\/_\W+|\\_\W+", words[j+1])) or
             #(re.search(":_|;_|=_", words[j]) and re.search("-LRB-|-RRB-|-RSB-|-LSB-", words[j+1])) or # This line can be used to improve recall when tagging internet registers with lots of emoticons but is not recommended for a broad range of registers since it will cause a serious drop in precision in registers with a lot of punctuation, e.g., academic English.
-            (re.search("\\bd_|\\bp_", words[j], re.IGNORECASE) and re.search("\\b:_", words[j+1])) or
-            (re.search(":_\W+|;_\W+|\\b8_", words[j]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j+1]) and re.search("-LRB-|-RRB-|\\b\_|\\b\/_|\*_", words[j+2]))):
-                words[j] = re.sub("_\w+", "_EMO", words[j])
-                words[j] = re.sub("_(\W+)", "_EMO", words[j])
+            # (re.search("\\bd_|\\bp_", words[j], re.IGNORECASE) and re.search(":_", words[j+1])) or
+            # (re.search(":_\W+|;_\W+|\\b8_", words[j-2]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j-1]) and re.search("-LRB-|-RRB-|\\b\_|\\b\/_|\*_", words[j]))):
+            #     words[j] = re.sub("_\w+", "_EMO", words[j])
+            #     words[j] = re.sub("_(\W+)", "_EMO", words[j])
 
 
             # For other emoticons where each character is parsed as an individual token and the letters occur in +1 position.
-            if ((re.search("<_", words[j]) and re.search("\\b3_", words[j+1])) or
+            # if ((re.search("\\b<_", words[j]) and re.search("\\b3_", words[j+1])) or
             #(re.search(":_|;_|=_", words[j]) and re.search("\\bd_|\\bp_|\\bo_|\\b3_", words[j+1], re.IGNORECASE)) or # # These two lines may be used to improve recall when tagging internet registers with lots of emoticons but is not recommended for a broad range of registers since it will cause a serious drop in precision in registers with a lot of punctuation, e.g., academic English.
             #(re.search("-LRB-|-RRB-|-RSB-|-LSB-", words[j]) and re.search(":_|;_", words[j+1])) or 
-            (re.search(">_", words[j-1]) and re.search(":_", words[j]) and re.search("-LRB-|-RRB-|\\bD_", words[j+1])) or
-            (re.search("\^_", words[j]) and re.search("\^_", words[j+1])) or
-            (re.search(":_\W+", words[j]) and re.search("\\bo_|\\b-_", words[j+1], re.IGNORECASE) and re.search("-LRB-|-RRB-", words[j+2])) or
-            (re.search("<_", words[j-1]) and re.search("\/_", words[j]) and re.search("\\b3_", words[j+1])) or
-            (re.search(":_\W+|\\b8_|;_\W+|=_", words[j-1]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j]) and re.search("\\bd_|\\bp_|\\bo_|\\bb_|\\b\|_|\\b\/_", words[j+1], re.IGNORECASE) and not re.search("-RRB-", words[j+2]))):
-                words[j+1] = re.sub("_\w+", "_EMO", words[j+1])
-                words[j+1] = re.sub("_(\W+)", "_EMO", words[j+1])
+            # (re.search(">_", words[j-1]) and re.search(":_", words[j]) and re.search("-LRB-|-RRB-|\\bD_", words[j+1])) or
+            # (re.search("\^_", words[j]) and re.search("\^+_", words[j+1])) or
+            # (re.search(":_\W+", words[j]) and re.search("\\bo_|\\b-_", words[j+1], re.IGNORECASE) and re.search("-LRB-|-RRB-", words[j+2])) or
+            # (re.search("<_", words[j-1]) and re.search("\/_", words[j]) and re.search("\\b3_", words[j+1])) or
+            # (re.search(":_\W+|\\b8_|;_\W+|=_", words[j-1]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j]) and re.search("\\bd_|\\bp_|\\bo_|\\bb_|\\b\|_|\\b\/_", words[j+1], re.IGNORECASE) and not re.search("-RRB-", words[j+2]))):
+            #     words[j+1] = re.sub("_\w+", "_EMO", words[j+1])
+            #     words[j+1] = re.sub("_(\W+)", "_EMO", words[j+1])
 
 
             # Correct double punctuation such as ?! and !? (often tagged by the Stanford Tagger as a noun or foreign word) 
@@ -620,13 +624,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
             # Tags imperatives (in a rather crude way). 
             # ELF: This is a new variable.
-            if ((re.search("_\\.|_EMO|_FW|_SYM| $", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
+            if ((re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM| $", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             #(re.search("_\W|_EMO|_FW|_SYM", words[j-2])  and not re.search("_,", words[j-2]) and not re.search("_MD", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|\\b_NNP", words[j+1], re.IGNORECASE)) or # Allows for one intervening token between end of previous sentence and imperative verb, e.g., "Just do it!". This line is not recommended for the Spoken BNC2014 and any texts with not particularly good punctuation.
-            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
-            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
             #(re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
-            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.
-            (re.search("_\\.|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
             #(re.search("\\bwork_", words[j], re.IGNORECASE) and re.search("\\bin_", words[j+1], re.IGNORECASE) and re.search("\\bpairs_", words[j+2], re.IGNORECASE))): # Work in pairs because it occurs 700+ times in the Textbook English Corpus (TEC) and "work" is always incorrectly tagged as a noun there.
                 words[j] = re.sub("_\w+", "_VIMP", words[j]) 
             
@@ -1072,12 +1076,16 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags third person reference 
             # ELF: added themself in singular (cf. https://www.lexico.com/grammar/themselves-or-themself), added nominal possessive pronoun forms (hers, theirs), also added em_PRP for 'em.
             # ELF: Subdivided Biber's category into non-interactant plural and non-plural.
-            if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP", words[index], re.IGNORECASE)):
-                words[index] = re.sub("_\w+", "_PP3P", words[index])
+            if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP|\\bthemself_", words[index], re.IGNORECASE)):
+                words[index] = re.sub("_\w+", "_PP3t", words[index])
 
             # Note that this variable cannot account for singular they except for the reflective form.
-            if (re.search("\\bhe_|\\bshe_|\\bher_|\\bhers_|\\bhim_|\\bhis_|\\bhimself_|\\bherself_|\\bthemself_", words[index], re.IGNORECASE)):
-                words[index] = re.sub("_\w+", "_PP3S", words[index])
+            if (re.search("\\bshe_|\\bher_|\\bhers_|\\bherself_", words[index], re.IGNORECASE)):
+                words[index] = re.sub("_\w+", "_PP3f", words[index])
+
+            # Note that this variable cannot account for singular they except for the reflective form.
+            if (re.search("\\bhe_|\\bhim_|\\bhis_|\\bhimself_", words[index], re.IGNORECASE)):
+                words[index] = re.sub("_\w+", "_PP3m", words[index])
 
             # Tags "can" modals 
             # ELF: added _MD onto all of these. And ca_MD which was missing for can't.
@@ -1714,11 +1722,11 @@ def process_sentence_extended (words: list) -> list:
 
             #Shakir: All 1st person references to 1 tag
             if (re.search("_(PP1P|PP1S)\\b", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 PP1", words[j])
+                words[j] = re.sub("_(\w+)", "_\\1 PP1all", words[j])
 
             #Shakir: All 3rd person references to 1 tag
-            if (re.search("_(PP3P|PP3S)\\b", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 PP3", words[j])
+            if (re.search("_(PP3t|PP3f|PP3m)\\b", words[j])):
+                words[j] = re.sub("_(\w+)", "_\\1 PP3all", words[j])
 
     return words
 
@@ -1837,8 +1845,8 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: note THSCother and WHSCother are THSC and WHSC minus all new above TH and WH verb/adj clauses, "JJPRother" is JJPR without epistemic and attitudinal adjectives
     # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
-        "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3S", "PP3P", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1", "PP3", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother"]
+        "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
+            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother"]
     FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBtotal.values, axis=0) #divide by total verbs
     # All other features should be normalised per 100 words:
@@ -1871,9 +1879,9 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
         df_sorted (pd.DataFrame): sorted df
     """
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
-    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3P", "PP3S", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
+    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1", "PP3", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
+    extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
@@ -1889,7 +1897,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         output_dir (str): dir where statistics files to be created
         ttr (int): number of tokens to consider as given by the user
     """
-    features_to_be_removed_from_final_table = ['NFP', 'HYPH', 'ADD', 'AFX', 'VB', 'LIKE', 'SO', 'PPother']
+    features_to_be_removed_from_final_table = ['NFP', 'GW', 'HYPH', 'ADD', 'AFX', 'VB', 'LIKE', 'SO', 'PPother']
     Path(dir_out).mkdir(parents=True, exist_ok=True)
     function_words_re = "(a|about|above|after|again|ago|ai|all|almost|along|already|also|although|always|am|among|an|and|another|any|anybody|anything|anywhere|are|are|around|as|at|back|be|been|before|being|below|beneath|beside|between|beyond|billion|billionth|both|but|by|can|can|could|cos|cuz|did|do|does|doing|done|down|during|each|eight|eighteen|eighteenth|eighth|eightieth|eighty|either|eleven|eleventh|else|enough|even|ever|every|everybody|everyone|everything|everywhere|except|far|few|fewer|fifteen|fifteenth|fifth|fiftieth|fifty|first|five|for|fortieth|forty|four|fourteen|fourteenth|fourth|from|get|gets|getting|got|had|has|have|having|he|hence|her|here|hers|herself|him|himself|his|hither|how|however|hundred|hundredth|i|if|in|into|is|it|its|itself|just|last|less|many|may|me|might|million|millionth|mine|more|most|much|must|my|myself|near|near|nearby|nearly|neither|never|next|nine|nineteen|nineteenth|ninetieth|ninety|ninth|no|nobody|none|noone|nor|not|nothing|now|nowhere|of|off|often|on|once|one|only|or|other|others|ought|our|ours|ourselves|out|over|quite|rather|round|second|seven|seventeen|seventeenth|seventh|seventieth|seventy|shall|sha|she|should|since|six|sixteen|sixteenth|sixth|sixtieth|sixty|so|some|somebody|someone|something|sometimes|somewhere|soon|still|such|ten|tenth|than|that|that|the|their|theirs|them|themselves|then|thence|there|therefore|these|they|third|thirteen|thirteenth|thirtieth|thirty|this|thither|those|though|thousand|thousandth|three|thrice|through|thus|till|to|today|tomorrow|too|towards|twelfth|twelve|twentieth|twenty|twice|two|under|underneath|unless|until|up|us|very|was|we|were|what|when|whence|where|whereas|which|while|whither|who|whom|whose|why|will|with|within|without|wo|would|yes|yesterday|yet|you|your|yours|yourself|yourselves|'re|'ve|n't|'ll|'twas|'em|y'|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|1|2|3|4|5|6|7|8|9|0)"
     files = glob.glob(dir_in+"*.txt")
@@ -1916,7 +1924,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             VBtotal = len([word for word in words if re.search(r"(_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS)\b", word)])
             # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
             # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
-            list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX", word) if re.search(r"^\S+_\S+$", word)]
+            list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX|_NFP", word) if re.search(r"^\S+_\S+$", word)]
             #Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
             average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
             lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
@@ -1926,7 +1934,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             # ELF: The list of tags for which no counts will be returned can be found here.
             # The following tags are excluded by default because they are "bin" tags designed to remove problematic tokens from other categories: LIKE and SO
             # Note: if interested in counts of punctuation marks, "|_\W+" should be deleted in this line.
-            # Note 2: _WQ are removed because they are duplicates of WHQU (WHQU are tagged onto the WH-words whereas QUWU onto the question marks themselves).
+            # Note: _WQ are removed because they are duplicates of WHQU (WHQU are tagged onto the WH-words whereas QUWU onto the question marks themselves).
             tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b|_WQ|_LIKE|_SO", word)]
             # Shakir: get a dictionary of tags and frequency of each tag using collections.Counter on tags list
             tag_freq = dict(collections.Counter(tags))
@@ -1952,26 +1960,26 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/BNC2014test/"
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
-#     ttr = 400
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
-#     t_0 = timeit.default_timer()
-#     tag_stanford_stanza(input_dir, output_stanford)
-#     t_1 = timeit.default_timer()
-#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-#     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-#     tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
-#     do_counts(output_MD, output_stats, ttr)
-
 if __name__ == "__main__":
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
+    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
+    ttr = 400
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    t_0 = timeit.default_timer()
+    tag_stanford_stanza(input_dir, output_stanford)
+    t_1 = timeit.default_timer()
+    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD, extended=True)
+    do_counts(output_MD, output_stats, ttr)
+
+# if __name__ == "__main__":
     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
     #input_dir = r"D:\Downloads\Elanguage\\" 
     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation

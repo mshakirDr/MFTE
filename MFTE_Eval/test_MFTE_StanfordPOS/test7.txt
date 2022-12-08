@@ -1,0 +1,2 @@
+This_DT is_VBZ a_DT short_JJ test_NN -_HYPH file_NN ._.
+No_DT repeated_VBN words_NNS ._.

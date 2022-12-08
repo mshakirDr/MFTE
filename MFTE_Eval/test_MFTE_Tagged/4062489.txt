@@ -1,0 +1,1426 @@
+##4062489_HST
+This_DEMO
+weekend_NN NNQUANT
+'s_POS
+deadly_JJAT JJATother
+shootings_NN NNother
+in_IN INother
+Oakland_NN NNP
+and_CC
+the_DT
+previous_JJAT JJREL
+shooting_NN NNother
+of_IN INother
+Oscar_NN NNP
+Grant_NN NNP
+left_VBD ACT
+many_QUAN
+of_IN INother
+us_PP1P PP1all
+to_IN INother
+question_VB COMM
+the_DT
+state_NN NNABSPROC
+of_IN INother
+our_PP1P PP1all
+city_NN NNPLACE
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Our_PP1P PP1all
+community_NN NNGRP
+needs_MDNE
+to_IN INother
+look_VB
+inward_RB RBother
+._.
+Kids_NN NNHUMAN
+need_MDNE
+to_IN INother
+stay_VB EXIST
+in_IN INother
+school_NN NNGRP
+;_:
+a_DT
+ninth_JJAT JJATother
+-_HYPH
+grade_NN NNABSPROC
+education_NN NCOMP
+is_VPRT BEMA
+sorely_RB RBother
+inadequate_JJPR JJPRother
+to_IN INother
+survive_VB
+today_TIME
+._.
+We_PP1P PP1all
+must_MDNE
+address_VB COMM
+the_DT
+issue_NN NNABSPROC
+of_IN INother
+mutual_JJAT JJATother
+respect_NN NNABSPROC
+between_IN INother
+police_NN NNHUMAN
+and_CC
+the_DT
+community_NN NNGRP
+,_,
+and_CC
+we_PP1P PP1all
+must_MDNE
+look_VB
+at_IN INother
+our_PP1P PP1all
+values_NN NNABSPROC
+._.
+Not_XX0
+until_IN INother
+we_PP1P PP1all
+value_VPRT
+education_NN NNABSPROC
+over_IN INother
+entertainers_NN NNother
+,_,
+life_NN NNABSPROC
+over_IN INother
+Lexus_NN NNP
+and_CC
+respect_NN NNABSPROC
+over_IN INother
+reproach_NN NNother
+will_MDWS MDPREDall
+we_PP1P PP1all
+see_VB MENTAL
+an_DT
+end_NN NNABSPROC
+to_IN INother
+these_DEMO
+types_NN NNABSPROC
+of_IN INother
+tragedies_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+WENDY_NN NNP
+WINTER_NN NNP
+Oakland_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+It_PIT
+'s_VPRT CONT BEMA
+long_JJAT JJDESCall JJSIZE
+past_JJAT JJATother
+time_NN NNQUANT
+for_IN INother
+responsible_JJAT JJATother
+citizens_NN NNHUMAN
+to_IN INother
+channel_VB
+the_DT
+grief_NN NNother
+and_CC
+outrage_NN NNother
+over_IN INother
+another_DT
+tragic_JJAT JJATother
+trail_NN NNother
+of_IN INother
+multiple_JJAT JJATother
+murders_NN NNother
+perpetrated_VBN
+by_IN INother
+a_DT
+violent_JJAT JJATother
+criminal_JJAT JJATother
+let_NN NNother
+free_JJPR JJPRother
+on_IN INother
+parole_NN NNother
+to_IN INother
+run_VB ACT
+amok_JJPR JJPRother
+,_,
+spreading_VBG
+death_NN NNABSPROC
+,_,
+destruction_NN NOMZ
+and_CC
+mayhem_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+PETER_NN NNP
+TAUSSIG_NN NNP
+Berkeley_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Four_CD
+Oakland_NN NNP
+police_NN NCOMP
+officers_NN NNHUMAN
+are_VPRT BEMA
+dead_JJPR JJPRother
+._.
+They_PP3t PP3all
+were_VBD
+just_RB RBother
+men_NN NNHUMAN
+doing_VBG ACT
+their_PP3t PP3all
+jobs_NN NNABSPROC
+-_,
+trying_VBG ACT
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+help_VB CAUSE
+make_VB ACT
+Oakland_NN NNP
+a_DT
+better_JJAT COMPAR
+,_,
+safer_JJAT COMPAR
+place_NN NNPLACE
+to_IN INother
+live_VB EXIST
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+But_CC
+in_IN INother
+his_PP3m PP3all
+reckless_JJPR JJPRother
+,_,
+self_NN NNother
+-_HYPH
+centered_VBN
+and_CC
+hateful_JJAT JJATother
+mind_NN NNother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+these_DEMO
+men_NN NNHUMAN
+._.
+It_PIT
+was_VBD BEMA
+n't_XX0 CONT
+an_DT
+accident_NN NNother
+;_,
+he_PP3m PP3all
+had_VBD
+n't_XX0 CONT
+meant_PEAS COMM
+to_IN INother
+pull_VB ACT
+his_PP3m PP3all
+toothbrush_NN NNother
+and_CC
+mistakenly_RB RBother
+grabbed_VBD
+his_PP3m PP3all
+gun_NN NNCONC
+._.
+He_PP3m PP3all
+intentionally_RB RBother
+killed_VBD
+these_DEMO
+men_NN NNHUMAN
+to_IN INother
+avoid_VB
+going_VBG
+back_RB RBother
+to_IN INother
+prison_NN NNPLACE
+for_IN INother
+violating_VBG
+his_PP3m PP3all
+parole_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+So_SO
+where_WHQU
+'s_VPRT CONT BEMA
+the_DT
+outrage_NN NNother
+,_,
+Oakland_NN NNP
+?_. WQ
+Is_VPRT BEMA
+the_DT
+"_``
+community_NN NNGRP
+"_''
+going_GTO MDPREDall
+to_IN INother
+riot_VB
+in_IN INother
+the_DT
+streets_NN NNother
+,_,
+break_VB
+windows_NN NNCONC
+and_CC
+burn_VB ACT
+cars_NN NNCONC
+over_IN INother
+this_DEMO
+?_. YNQU
+No_DMA
+._.
+They_PP3t PP3all
+only_RB RBother
+do_VPRT ACT
+that_DEMO
+when_WHSC WHSCother
+it_PIT
+suits_VPRT EXIST
+them_PP3t PP3all
+._.
+Besides_CC
+,_,
+they_PP3t PP3all
+were_VBD
+just_RB RBother
+cops_NN NNother
+,_,
+right_DMA
+?_.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+MIKE_NN NNP
+PARDEE_NN NNP
+Oakland_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Is_VPRT
+there_EX
+anyone_QUPR
+too_RB RBother
+dim_JJPR JJPRother
+to_IN INother
+see_VB MENTAL
+how_WHQU
+assault_NN NNother
+weapons_NN NCOMP
+made_VBD ACT
+this_DEMO
+weekend_NN NNQUANT
+'s_POS
+Oakland_NN NNP
+police_NN NCOMP
+officers_NN NNHUMAN
+deaths_NN NCOMP
+more_RB COMPAR
+efficient_JJPR JJPRother
+?_. WQ
+<_-LRB-
+p_NN NNother
+>_-RRB-
+This_DEMO
+is_VPRT BEMA
+no_XX0
+different_JJPR JJREL
+than_IN INother
+Mexican_JJAT JJATother
+police_NN NNHUMAN
+suffering_VBG MENTAL
+grievously_RB RBother
+from_IN INother
+being_VBG
+outgunned_PASS PASSall
+by_IN INother
+drug_NN NNCONC
+gangs_NN NCOMP
+,_,
+who_WHSC WHSCother
+use_VPRT ACT
+assault_NN NNother
+weapons_NN NCOMP
+purchased_VBN
+and_CC
+imported_VBN
+from_IN INother
+American_JJAT JJATother
+gun_NN NNCONC
+shows_NN NCOMP
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Pro-gun_JJAT JJATother
+ideologues_NN NNother
+casually_RB RBother
+continue_VPRT ASPECT
+to_IN INother
+ignore_VB MENTAL
+this_DEMO
+reality_NN NNABSPROC
+,_,
+but_CC
+again_FREQ
+this_DEMO
+week_NN NNQUANT
+they_PP3t PP3all
+have_VPRT
+yet_TIME
+more_QUAN
+police_NN NNHUMAN
+blood_NN NCOMP
+on_IN INother
+their_PP3t PP3all
+hands_NN NNCONC
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+We_PP1P PP1all
+should_MDNE
+all_QUAN
+join_VB ACT
+America_NN NNP
+'s_POS
+police_NN NNHUMAN
+officers_NN NCOMP
+in_IN INother
+condemning_VBG
+the_DT
+gun-show_JJAT JJATother
+and_CC
+assault_NN NNother
+-_HYPH
+weapons_NN NNother
+loopholes_NN NCOMP
+,_,
+and_CC
+helping_VBG CAUSE
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+reverse_VB
+Alice_NN NNP
+-_HYPH
+in_IN INother
+-_HYPH
+Wonderland_NN NNP
+policies_NN NCOMP
+that_THRC THRCother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+MURPHY_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Mountain_NN NNPLACE
+View_NN NSTNCother NCOMP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Want_VPRT MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+know_VB MENTAL
+who_WHQU
+is_VPRT BEMA
+responsible_JJPR JJPRother
+for_IN INother
+the_DT
+endlessly_RB RBother
+repeated_VBN ACT
+tragedies_NN NNother
+?_. WQ
+We_PP1P PP1all
+are_VPRT
+..._,
+you_PP2
+and_CC
+me_PP1S PP1all
+and_CC
+everyone_QUPR
+else_JJPR JJPRother
+,_,
+excepting_VBG
+only_RB RBother
+anyone_QUPR
+who_WHSC WHSCother
+knows_VPRT MENTAL
+and_CC
+calls_VPRT COMM
+to_IN INother
+account_VB
+those_DEMO
+who_WHSC WHSCother
+exercise_VPRT ACT
+authority_NN NNABSPROC
+to_IN INother
+parole_VB
+convicted_VBN
+criminals_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+The_DT
+fact_NN NSTNCother
+is_VPRT
+that_THSC THSCother
+those_DEMO
+authorities_NN NNABSPROC
+are_VPRT BEMA
+anonymous_JJPR JJPRother
+._.
+Few_QUAN
+of_IN INother
+us_PP1P PP1all
+ever_FREQ
+question_VPRT COMM
+the_DT
+system_NN NNABSPROC
+that_THRC THRCother
+permits_VPRT CAUSE
+the_DT
+parole_NN NNother
+system_NN NCOMP
+to_IN INother
+function_VB
+in_IN INother
+obscurity_NN NOMZ
+._.
+The_DT
+media_NN NNother
+ignores_VPRT MENTAL
+the_DT
+issue_NN NNABSPROC
+and_CC
+thus_CUZ
+facilitates_VPRT
+the_DT
+in_IN INother
+camera_NN NNCONC
+nature_NN NCOMP
+of_IN INother
+what_WHSC WHSCother
+obviously_RB RSTNCall RFACT
+is_VPRT BEMA
+a_DT
+dangerously_RB RBother
+malfunctioning_NN NNother
+system_NN NCOMP
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+We_PP1P PP1all
+should_MDNE
+insist_VB COMM
+on_IN INother
+the_DT
+parole_NN NNother
+authorities_NN NCOMP
+identities_NN NNABSPROC
+being_VBG
+made_PASS PASSall ACT
+known_VBN MENTAL
+to_IN INother
+the_DT
+public_NN NNother
+and_CC
+whenever_WHSC WHSCother
+a_DT
+paroled_VBN
+violent_JJAT JJATother
+criminal_NN NNother
+harms_VPRT
+someone_QUPR
+again_FREQ
+,_,
+the_DT
+authorities_NN NNABSPROC
+should_MDNE
+be_VB
+required_PASS PASSall CAUSE
+to_IN SPLIT
+publicly_RB RBother
+explain_VB COMM
+why_WHSC WhVSTNCall WhVCOM
+the_DT
+repeat_JJAT JJATother
+offender_NN NNother
+was_VBD
+freed_PASS PASSall
+before_IN INother
+serving_VBG
+his_PP3m PP3all
+full_JJAT JJATother
+sentence_NN NNTECH
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+PETER_NN NNP
+TAUSSIG_NN NNP
+Berkeley_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+How_WHSC WHSCother
+long_RB RBother
+did_VBD DOAUX
+it_PIT
+take_VB ACT
+the_DT
+parolee_NN NNother
+who_WHSC WHSCother
+murdered_VBD
+four_CD
+Oakland_NN NNP
+police_NN NCOMP
+officers_NN NNHUMAN
+to_IN INother
+arm_VB
+himself_PP3m PP3all
+after_IN INother
+he_PP3m PP3all
+was_VBD
+released_PASS PASSall
+?_. YNQU
+Hours_NN NNQUANT
+,_,
+days_NN NNQUANT
+,_,
+weeks_NN NNQUANT
+?_. YNQU
+<_-LRB-
+p_NN NNother
+>_-RRB-
+This_DEMO
+next_JJAT JJATother
+week_NN NNQUANT
+we_PP1P PP1all
+are_VPRT
+going_GTO MDPREDall
+to_IN INother
+see_VB MENTAL
+hand_NN NNCONC
+-_HYPH
+wringing_NN NNother
+,_,
+crocodile_NN NNother
+tears_NN NCOMP
+,_,
+meetings_NN NNABSPROC
+and_CC
+lowering_NN NNother
+of_IN INother
+flags_NN NNother
+to_IN INother
+half_QUAN
+-_HYPH
+staff_NN NNother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+articles_NN NNother
+,_,
+letters_NN NNTECH
+and_CC
+editorials_NN NNother
+full_JJPR JJPRother
+of_IN INother
+impotent_JJAT JJATother
+outrage_NN NNother
+and_CC
+silly_JJAT JJATother
+accusations_NN NOMZ
+Attorney_NN NNP
+General_NN NNP
+Jerry_NN NNP
+Brown_NN NNP
+has_VPRT SPLIT
+already_TIME
+blamed_PEAS MENTAL
+the_DT
+corrections_NN NOMZ
+department_NN NCOMP
+for_IN INother
+releasing_VBG
+the_DT
+killer_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Let_VB CAUSE
+Gov_NN NNP
+._.
+Arnold_NN NNP
+Schwarzenegger_NN NNP
+and_CC
+our_PP1P PP1all
+legislators_NN NNother
+do_VPRT DOAUX
+something_QUPR
+besides_CC
+spray_VB
+us_PP1P PP1all
+with_IN INother
+words_NN NNTECH
+._.
+Let_VIMP CAUSE
+them_PP3t PP3all
+attend_VB
+the_DT
+funerals_NN NNother
+of_IN INother
+every_QUAN
+one_CD
+of_IN INother
+their_PP3t PP3all
+constituents_NN NNother
+murdered_VBN
+by_IN INother
+a_DT
+handgun_NN NNother
+or_CC
+other_JJAT JJATother
+illegal_JJAT JJATother
+weapon_NN NNother
+._.
+Let_VIMP CAUSE
+our_PP1P PP1all
+politicians_NN NNother
+return_VB
+to_IN INother
+their_PP3t PP3all
+districts_NN NNPLACE
+for_IN INother
+every_QUAN
+funeral_NN NNother
+,_,
+every_QUAN
+day_NN NNQUANT
+,_,
+every_QUAN
+time_NN NNQUANT
+someone_QUPR
+is_VPRT
+gunned_PASS PASSall
+down_RP
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Let_VIMP CAUSE
+our_PP1P PP1all
+legislators_NN NNother
+see_VB MENTAL
+up_RP
+close_VB
+the_DT
+deadly_JJAT JJATother
+results_NN NNABSPROC
+of_IN PrepNSTNC
+their_PP3t PP3all
+bipartisan_JJAT JJATother
+refusal_NN NNother
+to_IN INother
+enact_VB
+an_DT
+effective_JJAT JJATother
+gun_NN NNCONC
+control_NN NCOMP
+law_NN NNABSPROC
+to_IN INother
+protect_VB
+us_PP1P PP1all
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+TOM_NN NNP
+PECK_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+San_NN NNP
+Francisco_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Saturday_NN NNP
+'s_POS
+shooting_NN NNother
+of_IN INother
+four_CD
+Oakland_NN NNP
+police_NN NCOMP
+officers_NN NNHUMAN
+was_VBD
+n't_XX0 CONT
+just_RB RBother
+a_DT
+tragedy_NN NNother
+,_,
+it_PIT
+was_VBD BEMA
+an_DT
+inevitability_NN NOMZ
+._.
+There_EX
+are_VPRT
+really_RB RSTNCall RFACT
+only_RB RBother
+two_CD
+questions_NN NNABSPROC
+that_THRC THRCother
+need_MDNE
+to_IN INother
+be_VB
+asked_PASS PASSall COMM
+:_:
+How_WHQU
+did_VBD DOAUX
+a_DT
+convinced_VBN COMM
+felon_NN NNother
+get_VB
+hold_NN NNother
+of_IN INother
+multiple_JJAT JJATother
+guns_NN NNCONC
+?_. WQ
+How_WHSC WHSCother
+quickly_RB RBother
+will_MDWS MDPREDall
+the_DT
+Second_JJAT JJATother
+Amendment_NN NOMZ
+flag_NN NCOMP
+wavers_NN NNother
+chalk_VB
+this_DEMO
+incident_NN NNother
+up_RP
+to_IN INother
+inner-city_JJAT JJATother
+lifestyle_NN NNother
+,_,
+instead_CC
+of_IN INother
+looking_VBG
+at_IN INother
+the_DT
+free_JJAT JJATother
+flow_NN NNABSPROC
+of_IN INother
+guns_NN NNCONC
+in_IN INother
+this_DEMO
+country_NN NNPLACE
+?_. YNQU
+There_EX
+may_MDMM MDPOSSCall
+be_VB
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+not_XX0
+the_DT
+right_JJAT JJEPSTother
+laws_NN NNABSPROC
+or_CC
+not_XX0
+enough_JJAT JJATother
+enforcement_NN NOMZ
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+And_CC
+speaking_VBG COMM
+of_IN INother
+enforcement_NN NOMZ
+,_,
+good_JJAT JJEVAL
+luck_NN NNother
+to_IN INother
+Oakland_NN NNP
+'s_POS
+efforts_NN NNother
+to_IN INother
+recruit_VB
+new_JJAT JJTIME
+officers_NN NNHUMAN
+to_IN INother
+its_PIT
+force_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+DAVID_NN NNP
+SCHWARTZ_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Oakland_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+A_DT
+veteran_JJAT JJATother
+journalist_NN NNother
+friend_NN NCOMP
+at_IN INother
+The_DT
+Chronicle_NN NNP
+numbly_RB RBother
+replied_VBD COMM
+to_IN INother
+my_PP1S PP1all
+"_``
+How_WHQU
+are_VPRT BEMA
+you_PP2
+?_. WQ
+"_''
+with_IN INother
+a_DT
+sense_NN NNCOG
+of_IN INother
+fear_NN NNother
+,_,
+drowning_VBG
+in_IN INother
+the_DT
+emotional_JJAT JJATother
+swirl_NN NNother
+of_IN INother
+her_PP3f PP3all
+career_NN NNABSPROC
+possibly_HDG
+down_IN INother
+the_DT
+drain_NN NNCONC
+of_IN INother
+despair_NN NNother
+as_IN INother
+The_DT
+Chronicle_NN NNP
+moves_VPRT ACT
+more_RB COMPAR
+precariously_RB RBother
+toward_IN INother
+a_DT
+possible_JJAT JJEPSTother
+shutdown_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+I_PP1S PP1all
+purchase_VPRT
+a_DT
+Chronicle_NN NNP
+every_QUAN
+day_NN NNQUANT
+from_IN INother
+the_DT
+rack_NN NNother
+for_IN INother
+my_PP1S PP1all
+commute_NN NNother
+,_,
+to_IN INother
+support_VB
+the_DT
+paper_NN NNCONC
+and_CC
+friends_NN NNHUMAN
+employed_VBN
+there_PLACE
+._.
+She_PP3f PP3all
+replied_VBD COMM THATD
+the_DT
+problem_NN NNother
+is_VPRT BEMA
+n't_XX0 CONT
+with_IN INother
+people_NN NNHUMAN
+not_XX0
+buying_VBG ACT
+the_DT
+paper_NN NNCONC
+,_,
+it_PIT
+'s_VPRT CONT BEMA
+the_DT
+businesses_NN NOMZ
+who_WHSC WHSCother
+are_VPRT
+n't_XX0 CONT
+advertising_PROG
+that_THRC THRCother
+affects_VPRT CAUSE
+the_DT
+paper_NN NNCONC
+'s_POS
+survival_NN NNother
+._.
+I_PP1S PP1all
+mentioned_VBD COMM THATD
+I_PP1S PP1all
+shop_VPRT
+businesses_NN NOMZ
+who_WHSC WHSCother
+advertise_VPRT
+things_NN NNother
+I_PP1S PP1all
+want_VPRT MENTAL
+,_,
+and_CC
+recently_TIME
+discovered_VBD MENTAL
+an_DT
+Alameda_NN NNP
+shoe_NN NCOMP
+store_NN NNPLACE
+which_WHSC WHSCother
+advertised_VBD
+exactly_RB RBother
+the_DT
+shoes_NN NNother
+I_PP1S PP1all
+needed_VBD MENTAL
+in_IN INother
+their_PP3t PP3all
+Chronicle_NN NNP
+ad_NN NCOMP
+;_:
+I_PP1S PP1all
+'ve_VPRT CONT SPLIT
+also_CC
+found_PEAS
+several_QUAN
+experienced_VBN MENTAL
+home_NN NNGRP
+renovation_NN NCOMP
+companies_NN NNGRP
+advertising_VBG
+in_IN INother
+The_DT
+Chronicle_NN NNP
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Tell_VIMP COMM
+advertisers_NN NNother
+when_WHSC WHSCother
+you_PP2
+shop_VPRT
+them_PP3t PP3all
+that_THSC THSCother
+you_PP2
+saw_VBD MENTAL
+their_PP3t PP3all
+Chronicle_NN NNother
+ad_NN NCOMP
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+people_NN NNP
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+about_IN INother
+your_PP2
+business_NN NOMZ
+,_,
+how_WHSC WHSCother
+will_MDWS MDPREDall
+they_PP3t PP3all
+find_VB VFCTother
+you_PP2
+?_. YNQU
+It_PIT
+is_VPRT BEMA
+these_DEMO
+advertisers_NN NNother
+,_,
+and_CC
+those_DEMO
+of_IN INother
+us_PP1P PP1all
+who_WHSC WHSCother
+shop_VPRT
+them_PP3t PP3all
+,_,
+who_WHSC WHSCother
+are_VPRT
+helping_PROG CAUSE
+to_IN INother
+save_VB ACT
+the_DT
+careers_NN NNABSPROC
+of_IN INother
+dedicated_VBN
+,_,
+experienced_VBN MENTAL
+journalists_NN NNother
+,_,
+not_XX0
+just_RB RBother
+those_DEMO
+of_IN INother
+us_PP1P PP1all
+who_WHSC WHSCother
+are_VPRT
+buying_PROG ACT
+or_CC
+subscribing_VBG
+to_IN INother
+the_DT
+paper_NN NNCONC
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+K.C._NN NNP
+FROGGE_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+Oakland_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+As_IN INother
+a_DT
+recently_TIME
+laid_VBN
+-_HYPH
+off_RP
+person_NN NNHUMAN
+,_,
+I_PP1S PP1all
+can_MDCA MDPOSSCall
+not_XX0
+afford_VB
+the_DT
+$_$
+16_CD
+increase_NN NNother
+for_IN INother
+eight_CD
+weeks_NN NNQUANT
+._.
+I_PP1S PP1all
+love_VPRT MENTAL
+this_DEMO
+paper_NN NNCONC
+and_CC
+have_VPRT
+for_IN INother
+29_CD
+years_NN NNother
+,_,
+but_CC
+feel_VPRT MENTAL
+that_THSC ThSTNCall ThVSTNCall ThVATT
+going_VBG
+from_IN INother
+$_$
+38_CD
+to_IN INother
+$_$
+46_CD
+last_JJAT JJATother
+summer_NN NNQUANT
+,_,
+to_IN INother
+$_$
+62_CD
+in_IN INother
+2009_CD
+is_VPRT
+just_RB RBother
+too_RB RBother
+much_QUAN
+!_.
+Please_FPUH POLITE
+figure_VB
+out_RP
+another_DT
+way_NN NNABSPROC
+to_IN INother
+save_VB ACT
+this_DEMO
+paper_NN NNCONC
+._.
+Do_VIMP DOAUX
+n't_XX0 CONT
+chase_VB
+away_RP
+your_PP2
+loyal_JJAT JJATother
+subscribers_NN NNother
+who_WHSC WHSCother
+ca_MDCA MDPOSSCall
+n't_XX0 CONT
+afford_VB
+these_DEMO
+increases_NN NNother
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+LINDA_NN NNP
+FEDAK_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+San_NN NNP
+Leandro_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+We_PP1P PP1all
+absolutely_AMP
+must_MDNE
+have_VB
+The_DT
+Chronicle_NN NNP
+to_IN INother
+provide_VB ACT
+us_PP1P PP1all
+with_IN INother
+vital_JJAT JJATother
+news_NN NNother
+of_IN PrepNSTNC
+the_DT
+Bay_NN NNP
+Area_NN NNP
+as_IN INother
+reported_VBN COMM
+by_IN INother
+journalists_NN NNother
+who_WHSC WHSCother
+know_VPRT MENTAL
+this_DEMO
+region_NN NNPLACE
+._.
+Make_VIMP ACT
+it_PIT
+a_DT
+regional_JJAT JJATother
+newspaper_NN NNCONC
+with_IN INother
+coverage_NN NNother
+from_IN INother
+the_DT
+Peninsula_NN NNP
+to_IN INother
+the_DT
+East_NN NNP
+Bay_NN NNP
+to_IN INother
+the_DT
+North_NN NNP
+Bay_NN NNP
+._.
+Our_PP1P PP1all
+local_JJAT JJATother
+suburban_NN NNother
+newspapers_NN NCOMP
+ca_MDCA MDPOSSCall
+n't_XX0 CONT
+do_VB ACT
+the_DT
+job_NN NNABSPROC
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+news_NN NSTNCother NNP
+that_THRC ToThNSTNCall ThSTNCall ThNSTNCall ThNNFCT
+has_VPRT
+a_DT
+direct_JJAT JJREL
+impact_NN NNABSPROC
+on_IN INother
+our_PP1P PP1all
+region_NN NNPLACE
+._.
+For_IN INother
+other_JJAT JJATother
+national_JJAT JJATother
+and_CC
+international_JJAT JJATother
+news_NN NSTNCother
+,_,
+The_DT
+Chronicle_NN NNP
+can_MDCA MDPOSSCall
+and_CC
+should_MDNE
+rely_VB
+on_IN INother
+the_DT
+wire_NN NNCONC
+services_NN NCOMP
+._.
+Thus_CUZ
+,_,
+other_JJPR JJPRother
+than_IN INother
+Sacramento_NN NNP
+and_CC
+Washington_NN NNP
+,_,
+DC_NN NNP
+bureaus_NN NCOMP
+,_,
+The_DT
+Chronicle_NN NNP
+could_MDCO MDPOSSCall
+cut_VB
+costs_NN NNother
+by_IN INother
+relying_VBG
+on_IN INother
+the_DT
+wire_NN NNCONC
+services_NN NCOMP
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+As_IN INother
+for_IN INother
+raising_VBG
+income_NN NNother
+,_,
+let_VB CAUSE
+The_DT
+Chronicle_NN NNP
+promote_VB
+classified_VBN
+advertisements_NN NOMZ
+on_IN INother
+its_PIT
+Web_NN NNTECH
+site_NN NCOMP
+._.
+Until_IN INother
+I_PP1S PP1all
+checked_VBD ACT
+,_,
+I_PP1S PP1all
+did_VBD DOAUX
+not_XX0
+know_VB MENTAL
+that_THSC ThSTNCall ThVSTNCall ThVFCT
+the_DT
+SF_NN NNP
+Gate_NN NNP
+Web_NN NNP
+site_NN NCOMP
+had_VBD
+classified_PEAS
+advertising_NN NNother
+._.
+So_SO
+,_,
+why_WHQU
+does_VPRT DOAUX
+n't_XX0 CONT
+The_DT
+Chronicle_NN NNP
+promote_VB
+those_DEMO
+classified_VBN
+advertisements_NN NOMZ
+as_IN INother
+a_DT
+major_JJAT JJATother
+source_NN NNABSPROC
+of_IN INother
+income_NN NNother
+?_. WQ
+<_-LRB-
+p_NN NNother
+>_-RRB-
+So_SO
+for_IN INother
+this_DEMO
+vital_JJAT JJATother
+newspaper_NN NNCONC
+to_IN INother
+survive_VB
+._.
+<_-LRB-
+p_NN NNother
+>_-RRB-
+WES_NN NNP
+STARRATT_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-
+San_NN NNP
+Rafael_NN NNP
+<_-LRB-
+p_NN NNother
+>_-RRB-

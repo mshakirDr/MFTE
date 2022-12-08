@@ -1,0 +1,14 @@
+This_DEMO
+is_VPRT BEMA
+a_DT
+short_JJAT JJDESCall JJSIZE
+test_NN NNABSPROC
+file_NN NCOMP
+._.
+This_DEMO
+is_VPRT BEMA
+a_DT
+short_JJAT JJDESCall JJSIZE
+test_NN NNABSPROC
+file_NN NCOMP
+._.

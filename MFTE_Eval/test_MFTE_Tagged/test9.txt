@@ -1,0 +1,3 @@
+copernit_FPUH
+copernit_NN NNother
+copernit_NN NCOMP

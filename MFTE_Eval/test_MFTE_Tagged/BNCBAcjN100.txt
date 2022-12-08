@@ -1,0 +1,6517 @@
+Paediatric_JJAT JJATother
+acute_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+with_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+rearrangement_NN NOMZ
+:_:
+a_DT
+review_NN NNother
+of_IN INother
+the_DT
+biological_JJAT JJATother
+and_CC
+clinical_JJAT JJATother
+management_NN NNABSPROC
+aspects_NN NCOMP
+The_DT
+presence_NN NNABSPROC
+of_IN INother
+chromosomal_JJAT JJATother
+abnormalities_NN NOMZ
+is_VPRT BEMA
+one_CD
+of_IN INother
+the_DT
+most_RB SUPER
+important_JJAT JJATother
+criteria_NN NNABSPROC
+for_IN INother
+leukaemia_NN NNother
+diagnosis_NN NCOMP
+and_CC
+management_NN NNABSPROC
+._.
+Infant_NN NNHUMAN
+leukaemia_NN NCOMP
+is_VPRT BEMA
+a_DT
+rare_JJAT JJATother
+disease_NN NNother
+that_THRC THRCother
+affects_VPRT CAUSE
+children_NN NNHUMAN
+in_IN INother
+their_PP3t PP3all
+first_JJAT JJATother
+year_NN NNother
+of_IN INother
+life_NN NNABSPROC
+._.
+It_PIT
+has_VPRT
+been_PEAS
+estimated_PASS PASSall
+that_THSC THSCother
+approximately_RB RBother
+one_CD
+third_NN NNother
+of_IN INother
+infants_NN NNHUMAN
+with_IN INother
+acute_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+harbour_NN NNother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+rearrangement_NN NOMZ
+in_IN INother
+their_PP3t PP3all
+leukaemic_JJAT JJATother
+blasts_NN NNother
+._.
+However_CC
+,_,
+the_DT
+WHO_WHSC WHSCother
+classification_NN NOMZ
+of_IN INother
+acute_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+does_VPRT SPLIT DOAUX
+not_XX0
+yet_TIME
+include_VB EXIST
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+as_IN INother
+a_DT
+separate_JJAT JJATother
+entity_NN NOMZ
+among_IN INother
+the_DT
+different_JJAT JJREL
+genetic_JJAT JJATother
+subtypes_NN NNother
+,_,
+although_CONC
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+this_DEMO
+chromosomal_JJAT JJATother
+abnormality_NN NOMZ
+has_VPRT
+been_PEAS
+associated_PASS PASSall
+with_IN INother
+an_DT
+extremely_AMP
+poor_JJAT JJEVAL
+clinical_JJAT JJATother
+outcome_NN NNother
+._.
+Currently_TIME
+,_,
+there_EX
+is_VPRT
+no_XX0
+consensus_NN NNother
+treatment_NN NCOMP
+for_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+leukaemia_NN NNother
+patients_NN NCOMP
+._.
+However_CC
+,_,
+with_IN INother
+the_DT
+inferior_JJAT JJATother
+outcome_NN NNother
+with_IN INother
+the_DT
+standard_JJAT JJREL
+induction_NN NOMZ
+therapy_NN NCOMP
+,_,
+stem_NN NNCONC
+cell_NN NCOMP
+transplantation_NN NOMZ
+may_MDMM MDPOSSCall
+offer_VB COMM
+a_DT
+better_JJAT COMPAR
+chance_NN NNother
+for_IN INother
+disease_NN NNother
+control_NN NCOMP
+._.
+A_DT
+better_JJAT COMPAR
+insight_NN NNother
+into_IN INother
+the_DT
+chromosome_NN NNTECH
+biology_NN NCOMP
+of_IN INother
+this_DEMO
+entity_NN NOMZ
+might_MDMM MDPOSSCall
+shed_VB
+some_QUAN
+light_NN NNTECH
+into_IN INother
+the_DT
+pathogenic_JJAT JJATother
+mechanisms_NN NNABSPROC
+arising_VBG OCCUR
+from_IN INother
+this_DEMO
+chromosomal_JJAT JJATother
+translocation_NN NOMZ
+,_,
+that_THRC THRCother
+at_IN INother
+present_NN NNother
+are_VPRT SPLIT
+not_XX0
+fully_AMP
+understood_PASS PASSall MENTAL
+._.
+Further_JJAT COMPAR
+work_NN NNABSPROC
+is_VPRT
+needed_PASS PASSall MENTAL
+to_IN INother
+improve_VB
+our_PP1P PP1all
+understanding_NN NNCOG
+of_IN INother
+the_DT
+molecular_NN NNother
+and_CC
+genetic_JJAT JJATother
+basis_NN NNother
+of_IN INother
+this_DEMO
+disorder_NN NNABSPROC
+._.
+This_DEMO
+will_MDWS MDPREDall SPLIT
+open_VB ACT
+some_QUAN
+grounds_NN NNPLACE
+for_IN PrepNSTNC
+possible_JJPR JJEPSTother
+tailored_VBN
+treatment_NN NNABSPROC
+for_IN INother
+this_DEMO
+subset_NN NNother
+of_IN INother
+very_AMP
+young_JJAT JJTIME
+patients_NN NNHUMAN
+with_IN INother
+inferior_JJAT JJATother
+disease_NN NNother
+outcome_NN NCOMP
+._.
+This_DEMO
+review_NN NNother
+aims_VPRT
+at_IN INother
+highlighting_VBG
+the_DT
+cytogenetic_JJAT JJATother
+features_NN NNABSPROC
+that_THRC THRCother
+characterise_VPRT
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_VPRT
+for_IN INother
+a_DT
+better_JJAT COMPAR
+detection_NN NOMZ
+of_IN INother
+the_DT
+abnormality_NN NOMZ
+in_IN INother
+the_DT
+diagnostic_JJAT JJATother
+setting_NN NNABSPROC
+._.
+We_PP1P PP1all
+also_CC
+review_VB
+treatment_NN NNABSPROC
+and_CC
+clinical_JJAT JJATother
+outcome_NN NNother
+in_IN INother
+the_DT
+cases_NN NNCONC
+reported_VBN COMM
+to_IN INother
+date_NN NNQUANT
+._.
+Keywords_NN NNother
+:_:
+Acute_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+,_,
+Paediatric_JJAT JJATother
+leukaemia_NN NNother
+,_,
+t(_SYM
+7;12_CD
+)_-RRB-
+translocation_NN NOMZ
+,_,
+Chromosomal_JJAT JJATother
+abnormalities_NN NOMZ
+,_,
+HLXB9_NN NNother
+gene_NN NCOMP
+,_,
+Clinical_JJAT JJATother
+outcome_NN NNother
+Introduction_NN NNP
+Leukaemia_NN NNP
+is_VPRT BEMA
+the_DT
+most_RB SUPER
+common_JJAT JJATother
+type_NN NNABSPROC
+of_IN INother
+cancer_NN NNother
+in_IN INother
+childhood_NN NNother
+(_-LRB-
+Fig._NN NNP
+1_CD
+)_-RRB-
+._.
+Among_IN INother
+acute_JJAT JJATother
+leukaemias_NN NNother
+,_,
+one_CD
+in_IN INother
+five_CD
+is_VPRT
+represented_PASS PASSall EXIST
+by_IN INother
+acute_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+(_-LRB-
+AML_NN NNP
+)_-RRB-
+,_,
+whereas_CONC
+four_CD
+fifths_NN NNother
+are_VPRT BEMA
+acute_JJAT JJATother
+lymphoblastic_JJAT JJATother
+leukaemia_NN NNother
+(_-LRB-
+ALL_QUAN
+)_-RRB-
+._.
+Cancer_NN NNP
+statistics_NN NCOMP
+from_IN INother
+the_DT
+National_NN NNP
+Registry_NN NNP
+of_IN INother
+Childhood_NN NNP
+Tumours_NN NNP
+show_VPRT ACT
+a_DT
+peak_NN NNCONC
+at_IN INother
+age_NN NNQUANT
+2_CD
+-_SYM
+3_CD
+years_NN NNother
+for_IN INother
+the_DT
+insurgence_NN NNother
+of_IN INother
+ALL_QUAN
+,_,
+whereas_CONC
+AML_NN NNP
+is_VPRT BEMA
+more_RB COMPAR
+common_JJPR JJPRother
+within_IN INother
+the_DT
+first_JJAT JJATother
+year_NN NNother
+of_IN INother
+life_NN NNABSPROC
+and_CC
+after_IN INother
+age_NN NNQUANT
+10_CD
+,_,
+with_IN INother
+an_DT
+incidence_NN NNother
+of_IN INother
+16_CD
+cases_NN NNCONC
+per_IN INother
+million_CD
+in_IN INother
+the_DT
+United_NN NNP
+Kingdom_NN NNP
+._.
+The_DT
+incidence_NN NNother
+of_IN INother
+AML_NN NNP
+decreases_VPRT
+in_IN INother
+children_NN NNHUMAN
+older_JJPR COMPAR
+than_IN INother
+2_CD
+years_NN NNother
+of_IN INother
+age_NN NNQUANT
+,_,
+but_CC
+rises_VPRT OCCUR
+in_IN INother
+adolescence_NN NNother
+when_WHSC WHSCother
+it_PIT
+stays_VPRT EXIST
+stable_JJPR JJPRother
+until_IN INother
+adulthood_NN NNother
+,_,
+reaching_VBG ACT
+its_PIT
+peak_NN NNCONC
+in_IN INother
+older_JJAT COMPAR
+individuals_NN NNHUMAN
+[_-LRB-
+1_CD
+]_-RRB-
+._.
+Similar_JJAT JJREL
+statistics_NN NNother
+have_VPRT
+been_PEAS
+encountered_PASS PASSall ACT
+in_IN INother
+the_DT
+populations_NN NOMZ
+of_IN INother
+the_DT
+United_NN NNP
+States_NN NNP
+[_-LRB-
+2_CD
+,_,
+3_CD
+]_-RRB-
+._.
+In_IN INother
+the_DT
+past_JJAT JJATother
+three_CD
+decades_NN NNother
+,_,
+there_EX
+has_VPRT
+been_PEAS
+a_DT
+considerable_JJAT JJATother
+improvement_NN NOMZ
+in_IN INother
+the_DT
+cure_NN NNother
+of_IN INother
+childhood_NN NNother
+leukaemia_NN NCOMP
+,_,
+reaching_VBG ACT
+a_DT
+long_JJAT JJDESCall JJSIZE
+term_NN NNQUANT
+survival_NN NCOMP
+rate_NN NNQUANT
+of_IN INother
+more_QUAN
+than_IN INother
+90_CD
+%_NN NNother
+in_IN INother
+ALL_QUAN
+and_CC
+approximately_RB RBother
+70_CD
+%_NN NNother
+in_IN INother
+AML_NN NNP
+[_-LRB-
+3_CD
+,_,
+4_CD
+]_-RRB-
+._.
+However_CC
+,_,
+certain_JJAT JJEPSTother
+categories_NN NNother
+of_IN INother
+childhood_NN NNother
+leukaemia_NN NCOMP
+are_VPRT SPLIT
+still_RB RBother
+considered_PASS PASSall MENTAL
+high_JJAT JJATother
+risk_NN NNABSPROC
+,_,
+and_CC
+this_DEMO
+level_NN NNABSPROC
+of_IN INother
+risk_NN NNABSPROC
+is_VPRT
+dictated_PASS PASSall
+by_IN INother
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+cytogenetic_JJAT JJATother
+and_CC
+molecular_JJAT JJATother
+genetic_JJAT JJATother
+markers_NN NNCONC
+._.
+The_DT
+amended_VBN
+world_NN NNother
+health_NN NCOMP
+organization_NN NNPLACE
+(_-LRB-
+WHO_WHSC WHSCother
+)_-RRB-
+leukaemia_NN NNother
+classification_NN NCOMP
+includes_VPRT EXIST
+the_DT
+most_RB SUPER
+relevant_JJAT JJATother
+chromosomal_JJAT JJATother
+rearrangements_NN NOMZ
+to_IN INother
+allow_VB CAUSE
+proper_JJAT JJATother
+risk_NN NNABSPROC
+stratification_NN NCOMP
+of_IN INother
+leukaemia_NN NNother
+patients_NN NCOMP
+[_-LRB-
+5_CD
+]_-RRB-
+._.
+To_IN INother
+date_NN NNQUANT
+,_,
+the_DT
+t(_-LRB-
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+rearrangement_NN NOMZ
+found_VBN VFCTother
+in_IN INother
+infant_NN NNHUMAN
+AML_NN NNP
+has_VPRT
+not_XX0
+been_PEAS
+incorporated_PASS PASSall
+in_IN INother
+the_DT
+WHO_WHSC WHSCother
+classification_NN NOMZ
+,_,
+although_CONC
+it_PIT
+has_VPRT
+been_PEAS
+le_NN NNother
+distributed_PASS PASSall
+under_IN INother
+the_DT
+terms_NN NNQUANT
+of_IN INother
+the_DT
+Creative_NN NNP
+Commons_NN NNP
+Attribution_NN NNP
+License_NN NNP
+which_WHSC WHSCother
+permits_VPRT CAUSE
+unrestricted_JJAT JJATother
+use_NN NNABSPROC
+,_,
+distribution_NN NNABSPROC
+,_,
+and_CC
+reproduction_NN NOMZ
+in_IN INother
+any_QUAN
+medium_NN NNother
+,_,
+associated_VBN
+with_IN INother
+poor_JJAT JJEVAL
+clinical_JJAT JJATother
+outcome_NN NNother
+[_-LRB-
+3_CD
+,_,
+6_CD
+]_-RRB-
+._.
+Fig._NN NNP
+1_CD
+Main_JJAT JJREL
+types_NN NNABSPROC
+of_IN INother
+childhood_NN NNother
+cancers_NN NCOMP
+._.
+The_DT
+ideogram_NN NNother
+shows_VPRT ACT
+the_DT
+different_JJAT JJREL
+proportions_NN NOMZ
+of_IN INother
+cancers_NN NNother
+affecting_VBG CAUSE
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+._.
+Acute_JJAT JJATother
+leukaemia_NN NNother
+is_VPRT BEMA
+the_DT
+most_RB SUPER
+commonly_RB RBother
+reported_VBN COMM
+cancer_NN NNother
+in_IN INother
+children_NN NNHUMAN
+,_,
+with_IN INother
+ALL_QUAN
+affecting_VBG CAUSE
+approximately_RB RBother
+80_CD
+%_NN NNother
+of_IN INother
+patients_NN NNHUMAN
+and_CC
+AML_NN NNother
+diagnosed_VBN
+in_IN INother
+15_CD
+-_SYM
+20_CD
+%_NN NNother
+of_IN INother
+patients_NN NNHUMAN
+._.
+Forms_NN NNother
+of_IN INother
+chronic_JJAT JJATother
+leukaemia_NN NNother
+and_CC
+myelodysplastic_NN NNother
+syndromes_NN NCOMP
+are_VPRT BEMA
+very_AMP
+rare_JJPR JJPRother
+in_IN INother
+children_NN NNHUMAN
+and_CC
+their_PP3t PP3all
+incidence_NN NNother
+has_VPRT
+been_PEAS
+omitted_PASS PASSall
+from_IN INother
+this_DEMO
+graph_NN NNTECH
+(_-LRB-
+based_VBN
+on_IN INother
+cancers_NN NNother
+statistics_NN NCOMP
+collected_VBN
+from_IN INother
+the_DT
+National_NN NNP
+Registry_NN NNP
+of_IN INother
+Childhood_NN NNP
+Tumours_NN NNP
+,_,
+years_NN NNother
+2009_CD
+-_SYM
+2011_CD
+,_,
+accessed_VBN
+through_IN INother
+the_DT
+Cancer_NN NNP
+Research_NN NNP
+UK_NN NNP
+website_NN NCOMP
+)_-RRB-
+This_DEMO
+cytogenetic_JJAT JJATother
+entity_NN NOMZ
+has_VPRT
+not_XX0
+been_PEAS
+associated_PASS PASSall
+with_IN INother
+a_DT
+particular_JJAT JJREL
+morphologic_JJPR JJPRother
+or_CC
+immunophenotypic_JJAT JJATother
+subtype_NN NNother
+[_-LRB-
+6_CD
+,_,
+7_CD
+]_-RRB-
+,_,
+but_CC
+has_VPRT
+been_PEAS
+found_PASS PASSall
+in_IN INother
+a_DT
+range_NN NNother
+of_IN INother
+AML_NN NNother
+types_NN NCOMP
+as_CC
+well_RB RBother
+as_IN INother
+a_DT
+case_NN NNCONC
+of_IN INother
+myelodysplastic_JJAT JJATother
+syndrome_NN NNother
+[_-LRB-
+8_CD
+]_-RRB-
+._.
+The_DT
+scope_NN NNother
+of_IN INother
+this_DEMO
+review_NN NNother
+is_VPRT
+to_IN INother
+give_VB ACT
+the_DT
+reader_NN NNHUMAN
+a_DT
+comprehensive_JJAT JJATother
+understanding_NN NNCOG
+of_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+at_IN INother
+the_DT
+chromosomal_JJAT JJATother
+level_NN NNABSPROC
+and_CC
+the_DT
+available_JJAT JJATother
+methods_NN NNABSPROC
+for_IN INother
+the_DT
+detection_NN NOMZ
+of_IN INother
+this_DEMO
+cytogenetic_JJAT JJATother
+marker_NN NNCONC
+for_IN INother
+an_DT
+improved_VBN
+diagnosis_NN NNother
+and_CC
+a_DT
+better_JJAT COMPAR
+estimate_NN NNother
+of_IN INother
+the_DT
+real_JJAT JJATother
+incidence_NN NNother
+of_IN INother
+this_DEMO
+type_NN NNABSPROC
+of_IN INother
+leukaemia_NN NNother
+._.
+We_PP1P PP1all
+also_CC
+review_VB
+the_DT
+clinical_JJAT JJATother
+outcome_NN NNother
+and_CC
+the_DT
+therapeutic_JJAT JJATother
+approaches_NN NNABSPROC
+that_THRC THRCother
+have_VPRT
+been_PEAS
+adopted_PASS PASSall
+in_IN INother
+the_DT
+cases_NN NNCONC
+reported_VBN COMM
+to_IN INother
+date_NN NNQUANT
+._.
+Review_VIMP
+The_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+:_:
+chromosomal_JJAT JJATother
+appearance_NN NNother
+and_CC
+cytogenetic_JJAT JJATother
+features_NN NNABSPROC
+The_DT
+t(_-LRB-
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+typically_RB RSTNCall RNONFACT
+involves_VPRT EXIST
+the_DT
+long_JJAT JJDESCall JJSIZE
+arm_NN NNCONC
+of_IN INother
+chromosome_NN NNTECH
+7_CD
+at_IN INother
+band_NN NNCONC
+q36_NN NCOMP
+and_CC
+the_DT
+short_JJAT JJDESCall JJSIZE
+arm_NN NNCONC
+of_IN INother
+chromosome_NN NNTECH
+12_CD
+at_IN INother
+band_NN NNCONC
+p13_NN NCOMP
+(_-LRB-
+Fig._NN NNP
+2_CD
+)_-RRB-
+._.
+These_DEMO
+chromosomal_JJAT JJATother
+regions_NN NNPLACE
+reside_VPRT
+towards_IN INother
+the_DT
+end_NN NNABSPROC
+of_IN INother
+the_DT
+chromosomes_NN NNTECH
+,_,
+near_PLACE
+the_DT
+telomeres_NN NNother
+and_CC
+involve_VPRT EXIST
+fragments_NN NOMZ
+of_IN INother
+similar_JJAT JJREL
+sizes_NN NNother
+._.
+The_DT
+banding_NN NNother
+patterns_NN NCOMP
+of_IN INother
+these_DEMO
+subtelomeric_JJAT JJATother
+regions_NN NNPLACE
+are_VPRT
+typically_RB RSTNCall RNONFACT
+fairly_RB RBother
+homogeneous_JJPR JJPRother
+and_CC
+not_XX0
+distinctive_JJPR JJPRother
+of_IN INother
+a_DT
+specific_JJAT JJATother
+chromosome_NN NNTECH
+._.
+For_IN INother
+these_DEMO
+reasons_NN NSTNCother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+is_VPRT BEMA
+a_DT
+difficult_JJAT JJATother
+cytogenetic_JJAT JJATother
+entity_NN NOMZ
+to_IN INother
+detect_VB MENTAL
+microscopically_RB RBother
+,_,
+using_VBG ACT
+conventional_JJAT JJATother
+methods_NN NNABSPROC
+of_IN INother
+chromosome_NN NNTECH
+banding_NN NCOMP
+._.
+Nevertheless_CONC
+,_,
+early_JJAT JJTIME
+reports_NN NSTNCother
+demonstrate_VPRT VFCTother
+identification_NN NOMZ
+of_IN INother
+t(_SYM
+7;12_CD
+)_-RRB-
+based_VBN
+on_IN INother
+banding_NN NNother
+analysis_NN NCOMP
+only_RB RBother
+[_-LRB-
+9_CD
+-_SYM
+11_CD
+]_-RRB-
+._.
+Furthermore_CC
+,_,
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+has_VPRT
+been_PEAS
+found_PASS PASSall
+associated_VBN
+with_IN INother
+deletions_NN NOMZ
+of_IN INother
+the_DT
+long_JJAT JJDESCall JJSIZE
+arm_NN NNCONC
+of_IN INother
+chromosome_NN NNTECH
+7_CD
+,_,
+therefore_RB CUZ
+the_DT
+der_NN NNP
+(_-LRB-
+7_CD
+)_-RRB-
+in_IN INother
+these_DEMO
+cases_NN NNCONC
+might_MDMM MDPOSSCall
+be_VB
+misinterpreted_PASS PASSall
+as_IN INother
+a_DT
+del_NN NNP
+(_-LRB-
+7q_NN NNP
+)_-RRB-
+._.
+Fluorescence_NN NNother
+in_IN INother
+situ_FW
+hybridisation_NN NOMZ
+in_IN INother
+one_CD
+del_NN NNP
+(_-LRB-
+7_CD
+)_-RRB-
+(_-LRB-
+q22_NN NNother
+)_-RRB-
+case_NN NNCONC
+,_,
+helped_VBD CAUSE
+revising_VBG
+this_DEMO
+abnormality_NN NOMZ
+as_IN INother
+a_DT
+der_NN NNP
+(_-LRB-
+7_CD
+)_-RRB-
+del_NN NNP
+(_-LRB-
+7_CD
+)_-RRB-
+(_-LRB-
+q22q36_NN NNP
+)_-RRB-
+t(_-LRB-
+7;12_CD
+)_-RRB-
+(_-LRB-
+q22;p13_NN NNother
+)_-RRB-
+[_-LRB-
+7_CD
+,_,
+8_CD
+,_,
+12_CD
+]_-RRB-
+._.
+Translocation_NN NOMZ
+breakpoints_NN NCOMP
+In_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+,_,
+the_DT
+breakpoints_NN NNother
+on_IN INother
+chromosome_NN NNTECH
+12_CD
+are_VPRT BEMA
+consistently_RB RBother
+at_IN INother
+the_DT
+5_CD
+′_NN NNother
+end_NN NNABSPROC
+of_IN INother
+ETV6_NN NNP
+,_,
+between_IN INother
+exons_NN NNother
+1_CD
+and_CC
+3_CD
+,_,
+whereas_CONC
+the_DT
+breakpoints_NN NNother
+on_IN INother
+chromosome_NN NNTECH
+7_CD
+are_VPRT BEMA
+quite_RB RBother
+heterogeneous_JJPR JJPRother
+affecting_VBG CAUSE
+band_NN NNCONC
+q36_NN NCOMP
+in_IN INother
+regions_NN NNPLACE
+proximal_JJPR JJPRother
+to_IN INother
+the_DT
+Homeobox_NN NNP
+HB9_NN NNP
+(_-LRB-
+HLXB9_NN NNP
+)_-RRB-
+gene_NN NNTECH
+[_-LRB-
+6_CD
+,_,
+12_CD
+,_,
+13_CD
+]_-RRB-
+,_,
+also_CC
+known_VBN MENTAL
+as_IN INother
+MNX1_NN NNP
+(_-LRB-
+motor_NN NNCONC
+neuron_NN NCOMP
+and_CC
+pancreas_NN NNother
+homeobox_NN NCOMP
+1_CD
+)_-RRB-
+._.
+There_EX
+have_VPRT
+been_PEAS
+descriptions_NN NNABSPROC
+of_IN INother
+breakpoints_NN NNother
+in_IN INother
+7q31_CD
+[_-LRB-
+10_CD
+]_-RRB-
+,_,
+7q32_CD
+[_-LRB-
+14_CD
+,_,
+15_CD
+]_-RRB-
+,_,
+and_CC
+7q35_CD
+-_SYM
+36_CD
+[_-LRB-
+8_CD
+]_-RRB-
+._.
+However_CC
+,_,
+some_QUAN
+of_IN INother
+these_DEMO
+findings_NN NNother
+were_VBD
+not_XX0
+validated_PASS PASSall
+using_VBG ACT
+fluorescence_NN NNother
+in_IN INother
+situ_FW
+hybridisation_NN NOMZ
+(_-LRB-
+FISH_NN NNP
+)_-RRB-
+._.
+Informative_JJAT JJATother
+FISH_NN NNCONC
+probes_NN NCOMP
+spanning_VBG
+7_CD
+q_NN NNother
+would_MDWO MDPREDall
+have_VB
+been_PEAS BEMA
+helpful_JJPR JJPRother
+towards_IN INother
+achieving_VBG
+a_DT
+more_RB COMPAR
+accurate_JJAT JJATother
+definition_NN NNABSPROC
+of_IN INother
+the_DT
+breakpoints_NN NNother
+in_IN INother
+these_DEMO
+cases_NN NNCONC
+._.
+Cryptic_JJAT JJATother
+and_CC
+complex_JJAT JJATother
+rearrangements_NN NOMZ
+To_IN INother
+date_NN NNQUANT
+,_,
+three_CD
+cases_NN NNCONC
+of_IN INother
+complex_JJAT JJATother
+rearrangements_NN NOMZ
+harbouring_VBG
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+have_VPRT
+been_PEAS
+reported_PASS PASSall COMM
+[_-LRB-
+16_CD
+,_,
+17_CD
+]_-RRB-
+._.
+These_DEMO
+three_CD
+way_NN NNABSPROC
+translocations_NN NCOMP
+were_VBD
+characterised_PASS PASSall
+by_IN INother
+FISH_NN NNP
+and_CC
+described_VBN COMM
+as_IN INother
+(_-LRB-
+i_CD
+)_-RRB-
+t(_-LRB-
+5;7;12_CD
+)_-RRB-
+(_-LRB-
+q31;q36;p13_NN NNother
+)_-RRB-
+[_-LRB-
+16_CD
+]_-RRB-
+;_:
+(_-LRB-
+ii_FPUH
+)_-RRB-
+t(_-LRB-
+1;7;12_CD
+)(_NN NNother
+q25;q36;p13_NN NNother
+)_-RRB-
+[_-LRB-
+16_CD
+]_-RRB-
+and_CC
+(_-LRB-
+iii_FPUH
+)_-RRB-
+t(_-LRB-
+7;12;16_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+;_:
+q12_NN NNother
+)_-RRB-
+[_-LRB-
+17_CD
+]_-RRB-
+respectively_RB RBother
+._.
+Due_IN INother
+to_IN INother
+the_DT
+breakpoints_NN NNother
+affecting_VBG CAUSE
+the_DT
+terminal_JJAT JJATother
+regions_NN NNPLACE
+of_IN INother
+both_QUAN
+chromosomes_NN NNTECH
+7_CD
+and_CC
+12_CD
+,_,
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+is_VPRT
+considered_PASS PASSall MENTAL
+a_DT
+cryptic_JJAT JJATother
+rearrangement_NN NOMZ
+._.
+The_DT
+use_NN NNABSPROC
+of_IN INother
+appropriate_JJAT JJATother
+FISH_NN NNCONC
+probes_NN NCOMP
+would_MDWO MDPREDall SPLIT
+surely_RB RBother
+improve_VB
+the_DT
+detection_NN NOMZ
+of_IN INother
+this_DEMO
+abnormality_NN NOMZ
+and_CC
+might_MDMM MDPOSSCall
+uncover_VB
+a_DT
+higher_JJAT COMPAR
+proportion_NN NOMZ
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+translocations_NN NOMZ
+masked_VBN
+by_IN INother
+more_RB COMPAR
+complex_JJAT JJATother
+rearrangements_NN NOMZ
+,_,
+as_IN INother
+in_IN INother
+the_DT
+cases_NN NNCONC
+of_IN INother
+the_DT
+three_CD
+way_NN NNABSPROC
+translocations_NN NCOMP
+previously_TIME
+described_VBN COMM
+._.
+Additional_JJAT JJREL
+abnormalities_NN NOMZ
+Interestingly_RB RBother
+,_,
+the_DT
+majority_NN NOMZ
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+cases_NN NNCONC
+have_VPRT
+been_PEAS
+reported_PASS PASSall COMM
+in_IN INother
+association_NN NOMZ
+with_IN INother
+specific_JJAT JJATother
+aneusomies_NN NNother
+._.
+A_DT
+recent_JJAT JJTIME
+review_NN NNother
+of_IN INother
+the_DT
+literature_NN NNother
+reported_VBD COMM
+that_THSC ThSTNCall ThVSTNCall ThVCOMM
+only_RB RBother
+2_CD
+out_IN INother
+of_IN INother
+44_CD
+cases_NN NNCONC
+harboured_VBD
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+as_IN INother
+a_DT
+sole_JJAT JJATother
+abnormality_NN NOMZ
+[_-LRB-
+17_CD
+]_-RRB-
+._.
+In_IN INother
+particular_JJPR ELAB
+,_,
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+one_CD
+or_CC
+more_RB COMPAR
+additional_JJAT JJREL
+copies_NN NNCONC
+of_IN INother
+chromosomes_NN NNTECH
+8_CD
+,_,
+19_CD
+and_CC
+/_SYM
+or_CC
+22_CD
+have_VPRT
+been_PEAS SPLIT
+recurrently_RB RBother
+described_PASS PASSall COMM
+[_-LRB-
+6_CD
+,_,
+7_CD
+,_,
+15_CD
+]_-RRB-
+._.
+Fig._NN NNP
+2_CD
+Schematic_JJAT JJATother
+representation_NN NOMZ
+of_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+and_CC
+fusion_NN NNother
+transcript_NN NCOMP
+formation_NN NNABSPROC
+._.
+a_DT
+Representation_NN NOMZ
+of_IN INother
+the_DT
+7q36_CD
+and_CC
+12p13_CD
+regions_NN NNPLACE
+spanning_VBG
+1_CD
+Mb_NN NNother
+around_IN INother
+the_DT
+genes_NN NNTECH
+of_IN INother
+interests_NN NNABSPROC
+._.
+The_DT
+breakpoints_NN NNother
+are_VPRT BEMA
+proximal_JJPR JJPRother
+to_IN INother
+the_DT
+HLXB9_NN NNP
+gene_NN NCOMP
+on_IN INother
+chromosome_NN NNTECH
+7_CD
+and_CC
+at_IN INother
+the_DT
+5_CD
+′_NN NNother
+end_NN NNABSPROC
+of_IN INother
+the_DT
+ETV6_NN NNP
+gene_NN NCOMP
+on_IN INother
+chromosome_NN NNTECH
+12_CD
+._.
+HLXB9_NN NNP
+is_VPRT BEMA
+a_DT
+small_JJAT JJDESCall JJSIZE
+gene_NN NNTECH
+composed_VBN
+of_IN INother
+three_CD
+exons_NN NNother
+._.
+ETV6_NN NNP
+is_VPRT BEMA
+a_DT
+larger_JJAT COMPAR
+gene_NN NNTECH
+composed_VBN
+of_IN INother
+eight_CD
+exons_NN NNother
+._.
+In_IN INother
+both_QUAN
+cases_NN NNCONC
+the_DT
+direction_NN NNABSPROC
+of_IN INother
+transcription_NN NOMZ
+is_VPRT BEMA
+from_IN INother
+the_DT
+telomeric_NN NNother
+to_IN INother
+the_DT
+centromeric_JJAT JJATother
+end_NN NNABSPROC
+._.
+b_NN NNP
+The_DT
+gene_NN NNTECH
+location_NN NCOMP
+and_CC
+direction_NN NNABSPROC
+of_IN INother
+transcription_NN NOMZ
+of_IN INother
+both_QUAN
+HLXB9_NN NNP
+and_CC
+ETV6_NN NNP
+are_VPRT
+shown_PASS PASSall ACT
+on_IN INother
+the_DT
+ideograms_NN NNother
+of_IN INother
+chromosomes_NN NNTECH
+7_CD
+and_CC
+12_CD
+._.
+For_IN INother
+each_QUAN
+gene_NN NNTECH
+all_QUAN
+the_DT
+exons_NN NNother
+are_VPRT
+indicated_PASS PASSall EXIST
+._.
+c_NN NNP
+Derivative_JJAT JJATother
+chromosomes_NN NNTECH
+7_CD
+and_CC
+12_CD
+:_:
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+harbours_VPRT
+the_DT
+whole_JJAT JJATother
+HLXB9_NN NNother
+gene_NN NCOMP
+and_CC
+the_DT
+3′_JJAT JJATother
+portion_NN NNQUANT
+of_IN INother
+ETV6_NN NNP
+including_VBG EXIST
+exons_NN NNother
+3_CD
+-_SYM
+8_CD
+._.
+If_COND
+a_DT
+fusion_NN NNother
+transcript_NN NCOMP
+arose_VBD OCCUR
+from_IN INother
+this_DEMO
+translocation_NN NOMZ
+,_,
+splicing_NN NNother
+of_IN INother
+HLXB9_NN NNother
+exons_NN NCOMP
+2_CD
+and_CC
+3_CD
+as_CC
+well_RB RBother
+as_IN INother
+any_QUAN
+genomic_JJAT JJATother
+material_NN NNother
+from_IN INother
+chromosome_NN NNTECH
+7_CD
+downstream_PLACE
+to_IN INother
+HLXB9_NN NNother
+that_THRC THRCother
+was_VBD
+translocated_PASS PASSall
+on_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+should_MDNE
+take_VB ACT
+place_NN NNPLACE
+The_DT
+presence_NN NNABSPROC
+of_IN INother
+these_DEMO
+additional_JJAT JJREL
+abnormalities_NN NOMZ
+has_VPRT
+been_PEAS
+reported_PASS PASSall COMM
+in_IN INother
+samples_NN NNTECH
+at_IN INother
+diagnosis_NN NNother
+and_CC
+/_,
+or_CC
+at_IN INother
+relapse_NN NNother
+,_,
+indicating_VBG EXIST
+that_THSC THSCother
+the_DT
+acquired_VBN ACT
+aneusomies_NN NNother
+might_MDMM MDPOSSCall
+be_VB BEMA
+sign_NN NNABSPROC
+of_IN INother
+clonal_JJAT JJATother
+evolution_NN NNABSPROC
+and_CC
+important_JJPR JJPRother
+for_IN INother
+the_DT
+establishment_NN NOMZ
+and_CC
+the_DT
+survival_NN NNother
+of_IN INother
+the_DT
+leukaemic_JJAT JJATother
+clone_NN NNother
+._.
+Molecular_NN NNother
+mechanisms_NN NCOMP
+Is_VPRT
+there_EX
+a_DT
+fusion_NN NNother
+gene_NN NCOMP
+?_. YNQU
+A_DT
+well_DMA
+-_HYPH
+established_VBN
+driver_NN NNHUMAN
+of_IN INother
+haematological_JJAT JJATother
+malignancy_NN NNother
+when_WHSC WHSCother
+a_DT
+chromosomal_JJAT JJATother
+translocation_NN NOMZ
+is_VPRT BEMA
+present_JJPR JJPRother
+,_,
+is_VPRT BEMA
+the_DT
+formation_NN NNABSPROC
+of_IN INother
+an_DT
+oncogenic_JJAT JJATother
+fusion_NN NNother
+gene_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+BCRABL_NN NNP
+resulting_VBG
+from_IN INother
+the_DT
+t(_NN NNother
+9;22_CD
+)_-RRB-
+(_-LRB-
+q34_NN NNother
+;_:
+q11_NN NNother
+)_-RRB-
+in_IN INother
+chronic_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+or_CC
+ETV6_NN NNP
+-_HYPH
+RUNX1_NN NNP
+in_IN INother
+t(_SYM
+12;21_CD
+)_-RRB-
+(_-LRB-
+p13;q22_NN NNother
+)_-RRB-
+positive_JJPR JJEPSTother
+ALL_QUAN
+[_-LRB-
+18_CD
+]_-RRB-
+._.
+As_IN INother
+a_DT
+consequence_NN CUZ
+of_IN INother
+these_DEMO
+gene_NN NNTECH
+fusions_NN NCOMP
+,_,
+a_DT
+fusion_NN NNother
+transcript_NN NCOMP
+is_VPRT
+produced_PASS PASSall ACT
+with_IN INother
+subsequent_JJAT JJATother
+generation_NN NNABSPROC
+of_IN INother
+a_DT
+chimeric_JJAT JJATother
+protein_NN NNother
+whose_WHSC WHSCother
+altered_VBN
+properties_NN NNPLACE
+have_VPRT
+an_DT
+impact_NN NNABSPROC
+on_IN INother
+the_DT
+onset_NN NNother
+of_IN INother
+the_DT
+disease_NN NNother
+._.
+Reverse_JJAT JJATother
+transcriptasepolymerase_NN NNother
+chain_NN NCOMP
+reaction_NN NNABSPROC
+(_-LRB-
+RT_NN NNP
+-_HYPH
+PCR_NN NNP
+)_-RRB-
+to_IN INother
+identify_VB MENTAL
+the_DT
+fusion_NN NNother
+transcript_NN NCOMP
+in_IN INother
+t(_SYM
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+showed_VBD ACT
+a_DT
+fusion_NN NNother
+of_IN INother
+exon_NN NNother
+1_CD
+of_IN INother
+the_DT
+HLXB9_NN NNP
+gene_NN NCOMP
+to_IN INother
+either_CC
+exons_NN NNother
+2_CD
+or_CC
+3_CD
+of_IN INother
+the_DT
+ETV6_NN NNP
+gene_NN NCOMP
+resulting_VBG
+in_IN INother
+two_CD
+different_JJAT JJREL
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+fusion_NN NCOMP
+transcripts_NN NNCONC
+:_:
+an_DT
+out_IN INother
+of_IN INother
+frame_NN NNCONC
+longer_JJAT COMPAR
+variant_NN NNother
+(_-LRB-
+exon_NN NNother
+1_CD
+of_IN INother
+HLXB9_NN NNP
+to_IN INother
+exon_NN NNP
+Tosi_NN NNP
+et_NN NNP
+al_NN NNP
+._.
+Biomarker_NN NNP
+Research_NN NNP
+(_-LRB-
+2015_CD
+)_-RRB-
+3:21_CD
+Page_NN NNCONC
+4_CD
+of_IN INother
+11_CD
+2_CD
+of_IN INother
+ETV6_NN NNP
+)_-RRB-
+or_CC
+an_DT
+in_IN INother
+-_HYPH
+frame_NN NNCONC
+shorter_JJAT COMPAR
+variant_NN NNother
+(_-LRB-
+exon_NN NNother
+1_CD
+of_IN INother
+HLXB9_NN NNP
+to_IN INother
+exon_NN NNother
+3_CD
+of_IN INother
+ETV6_NN NNP
+)_-RRB-
+,_,
+both_QUAN
+fusion_NN NNother
+transcripts_NN NCOMP
+contain_VPRT EXIST
+the_DT
+first_JJAT JJATother
+exon_NN NNother
+of_IN INother
+the_DT
+HLXB9_NN NNother
+gene_NN NCOMP
+as_CC
+well_RB RBother
+as_IN INother
+the_DT
+ETS_NN NNother
+domain_NN NCOMP
+(_-LRB-
+DNA_NN NNTECH
+and_CC
+protein_NN NNother
+binding_NN NCOMP
+domain_NN NNother
+)_-RRB-
+and_CC
+the_DT
+pointed_VBN
+N_NN NNother
+terminal_JJAT JJATother
+domain_NN NNother
+(_-LRB-
+PNT_NN NNP
+)_-RRB-
+(_-LRB-
+protein_NN NNother
+-_HYPH
+protein_NN NNother
+binding_NN NCOMP
+domain_NN NNother
+)_-RRB-
+of_IN INother
+the_DT
+ETV6_NN NNP
+gene_NN NCOMP
+[_-LRB-
+6_CD
+,_,
+19_CD
+-_SYM
+21_CD
+]_-RRB-
+._.
+However_CC
+,_,
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+an_DT
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+has_VPRT
+been_PEAS
+shown_PASS PASSall ACT
+only_RB RBother
+in_IN INother
+approximately_RB RBother
+50_CD
+-_SYM
+60_CD
+%_NN NNother
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+reported_VBN COMM
+to_IN INother
+date_NN NNQUANT
+(_-LRB-
+Table_NN NNP
+1_CD
+)_-RRB-
+,_,
+whereas_CONC
+the_DT
+reciprocal_JJAT JJATother
+ETV6_NN NNP
+-_HYPH
+HLXB9_NN NNP
+transcript_NN NCOMP
+has_VPRT SPLIT
+never_FREQ
+been_PEAS
+observed_PASS PASSall MENTAL
+._.
+This_DEMO
+is_VPRT BEMA
+understandable_JJPR JJPRother
+when_WHSC WHSCother
+looking_VBG
+at_IN INother
+the_DT
+details_NN NNABSPROC
+of_IN INother
+the_DT
+translocation_NN NOMZ
+breakpoints_NN NCOMP
+at_IN INother
+the_DT
+chromosomal_JJAT JJATother
+/_,
+genomic_JJAT JJATother
+level_NN NNABSPROC
+._.
+Although_CONC
+the_DT
+breakpoints_NN NNother
+on_IN INother
+chromosome_NN NNTECH
+12_CD
+are_VPRT SPLIT
+well_RB RBother
+defined_PASS PASSall EXIST
+and_CC
+disrupt_VB
+the_DT
+ETV6_NN NNP
+gene_NN NCOMP
+in_IN INother
+a_DT
+precise_JJAT JJATother
+location_NN NNPLACE
+at_IN INother
+its_PIT
+5_CD
+′_NN NNother
+end_NN NNABSPROC
+,_,
+on_IN INother
+chromosome_NN NNTECH
+7_CD
+the_DT
+breakpoints_NN NNother
+are_VPRT
+scattered_PASS PASSall
+in_IN INother
+different_JJAT JJREL
+regions_NN NNPLACE
+proximal_JJPR JJPRother
+to_IN INother
+the_DT
+HLXB9_NN NNP
+gene_NN NCOMP
+._.
+This_DEMO
+implies_VPRT EXIST
+that_THSC THSCother
+the_DT
+whole_JJAT JJATother
+HLXB9_NN NNother
+gene_NN NCOMP
+is_VPRT
+transferred_PASS PASSall
+onto_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+,_,
+but_CC
+there_EX
+is_VPRT
+no_XX0
+disruption_NN NOMZ
+of_IN INother
+the_DT
+gene_NN NNTECH
+itself_PIT
+._.
+Moreover_CC
+,_,
+between_IN INother
+HLXB9_NN NNP
+and_CC
+ETV6_NN NNP
+on_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+there_EX
+should_MDNE
+be_VB
+genomic_JJAT JJATother
+material_NN NNother
+of_IN INother
+variable_JJAT JJATother
+extent_NN NNother
+from_IN INother
+7_CD
+q_NN NNother
+,_,
+depending_VBG
+on_IN INother
+the_DT
+location_NN NNPLACE
+of_IN INother
+the_DT
+7_CD
+q_NN NNother
+breakpoint_NN NNother
+(_-LRB-
+Fig._NN NNother
+2_CD
+)_-RRB-
+._.
+This_DEMO
+means_VPRT COMM
+that_THSC ThSTNCall ThVSTNCall ThVFCT ThVCOMM
+an_DT
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+would_MDWO MDPREDall
+be_VB
+generated_PASS PASSall
+due_IN INother
+to_IN INother
+some_QUAN
+form_NN NNother
+of_IN INother
+long_JJAT JJDESCall JJSIZE
+range_NN NNother
+splicing_NN NCOMP
+._.
+Depending_VBG
+on_IN INother
+how_WHSC WHSCother
+efficient_JJPR JJPRother
+this_DEMO
+mechanism_NN NNABSPROC
+is_VPRT
+,_,
+the_DT
+fusion_NN NNother
+transcript_NN NCOMP
+might_MDMM MDPOSSCall
+fail_VB
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+be_VB BEMA
+present_JJPR JJPRother
+in_IN INother
+all_QUAN
+t(_-LRB-
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+._.
+,_,
+there_EX
+has_VPRT
+been_PEAS
+no_XX0
+report_NN NNother
+on_IN PrepNSTNC
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+a_DT
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+protein_NN NCOMP
+to_IN INother
+date_NN NNQUANT
+,_,
+therefore_RB CUZ
+the_DT
+production_NN NNABSPROC
+of_IN INother
+a_DT
+chimeric_JJAT JJATother
+protein_NN NNother
+as_IN INother
+an_DT
+oncogenic_JJAT JJATother
+trigger_NN NNother
+for_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+is_VPRT BEMA
+debatable_JJPR JJPRother
+._.
+HLXB9_VIMP
+over_IN INother
+-_HYPH
+expression_NN NNABSPROC
+As_IN INother
+a_DT
+fusion_NN NNother
+transcript_NN NCOMP
+is_VPRT
+detected_PASS PASSall MENTAL
+in_IN INother
+only_RB RBother
+approximately_RB RBother
+fifty_CD
+per_NN NNQUANT
+cent_NN NCOMP
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+AML_NN NNother
+patients_NN NCOMP
+,_,
+it_PIT
+is_VPRT BEMA
+debatable_JJPR JJPRother
+that_THSC THSCother
+the_DT
+formation_NN NNABSPROC
+of_IN INother
+the_DT
+fusion_NN NNother
+gene_NN NCOMP
+is_VPRT BEMA
+the_DT
+only_JJAT JJATother
+contributor_NN NNother
+to_IN INother
+leukaemogenesis_NN NNother
+in_IN INother
+these_DEMO
+cases_NN NNCONC
+._.
+What_WHSC WHSCother
+all_QUAN
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+have_VPRT
+in_IN INother
+common_JJPR JJPRother
+is_VPRT BEMA
+the_DT
+over_JJAT JJATother
+-_HYPH
+expression_NN NNABSPROC
+of_IN INother
+the_DT
+Table_NN NNP
+1_CD
+Proportion_NN NOMZ
+of_IN INother
+patients_NN NNHUMAN
+showing_VBG ACT
+an_DT
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+No._NN NNother
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+considered_VBN MENTAL
+No._NN NNother
+of_IN INother
+patients_NN NNHUMAN
+with_IN INother
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+Percentage_NN NNQUANT
+of_IN INother
+patients_NN NNHUMAN
+with_IN INother
+HLXB9_NN NNP
+-_HYPH
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+Reference_NN NNother
+2_CD
+2_CD
+100_CD
+[_-LRB-
+21_CD
+]_-RRB-
+7_CD
+4_CD
+57_CD
+[_-LRB-
+6_CD
+]_-RRB-
+2_CD
+1_CD
+50_CD
+[_-LRB-
+13_CD
+]_-RRB-
+1_CD
+1_CD
+100_CD
+[_-LRB-
+19_CD
+]_-RRB-
+7_CD
+4_CD
+57_CD
+[_-LRB-
+20_CD
+]_-RRB-
+6_CD
+6_CD
+100_CD
+[_-LRB-
+50_CD
+]_-RRB-
+Notes_NN NNCONC
+:_:
+The_DT
+majority_NN NOMZ
+of_IN INother
+patients_NN NNHUMAN
+considered_VBN MENTAL
+in_IN INother
+this_DEMO
+table_NN NNCONC
+were_VBD
+reported_PASS PASSall COMM
+as_IN INother
+having_VBG
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+in_IN INother
+the_DT
+karyotype_NN NNother
+of_IN INother
+their_PP3t PP3all
+leukaemic_JJAT JJATother
+cells_NN NNTECH
+._.
+However_CC
+,_,
+in_IN INother
+4_CD
+cases_NN NNCONC
+[_-LRB-
+13_CD
+,_,
+50_CD
+,_,
+56_CD
+]_-RRB-
+the_DT
+fusion_NN NNother
+transcript_NN NCOMP
+was_VBD
+described_PASS PASSall COMM
+in_IN INother
+patients_NN NNHUMAN
+with_IN INother
+abnormalities_NN NOMZ
+of_IN INother
+7q_NN NNother
+and_CC
+or_CC
+12_CD
+p_NN NNother
+,_,
+implying_VBG EXIST
+that_THSC THSCother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+might_MDMM MDPOSSCall
+have_VB
+been_PEAS BEMA
+present_JJPR JJPRother
+,_,
+but_CC
+underestimated_VBN
+in_IN INother
+these_DEMO
+cases_NN NNCONC
+HLXB9_IN INother
+gene_NN NNTECH
+,_,
+suggesting_VBG COMM
+that_THSC ThSTNCall ThVSTNCall ThVCOMM
+this_DEMO
+,_,
+rather_CC
+than_IN INother
+the_DT
+formation_NN NNABSPROC
+of_IN INother
+a_DT
+fusion_NN NNother
+gene_NN NCOMP
+,_,
+might_MDMM MDPOSSCall
+be_VB BEMA
+the_DT
+driver_NN NNHUMAN
+of_IN INother
+leukaemogenesis_NN NNother
+in_IN INother
+these_DEMO
+patients_NN NNHUMAN
+._.
+Expression_NN NNABSPROC
+of_IN INother
+other_JJAT JJATother
+genes_NN NNTECH
+mapping_VBG
+at_IN INother
+7q36_CD
+near_PLACE
+the_DT
+breakpoint_NN NNother
+has_VPRT SPLIT
+also_CC
+been_PEAS
+evaluated_PASS PASSall
+and_CC
+quantified_PASS PASSall
+in_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+._.
+However_CC
+,_,
+this_DEMO
+analysis_NN NNCOG
+showed_VBD ACT
+that_DEMO
+expression_NN NNABSPROC
+of_IN INother
+NOM1_NN NNP
+,_,
+LMBR1_NN NNP
+and_CC
+RNF32_NN NNP
+in_IN INother
+7q36_CD
+as_CC
+well_RB RBother
+as_IN INother
+ETV6_NN NNP
+on_IN INother
+12p13_CD
+was_VBD BEMA
+not_XX0
+different_JJPR JJREL
+from_IN INother
+that_DEMO
+observed_VBN MENTAL
+in_IN INother
+AML_NN NNP
+patients_NN NCOMP
+without_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+and_CC
+in_IN INother
+normal_JJAT JJATother
+bone_NN NNCONC
+marrow_NN NCOMP
+[_-LRB-
+6_CD
+]_-RRB-
+._.
+The_DT
+expression_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNother
+in_IN INother
+healthy_JJAT JJATother
+progenitor_NN NNother
+blood_NN NCOMP
+cells_NN NNTECH
+in_IN INother
+the_DT
+bone_NN NNCONC
+marrow_NN NCOMP
+has_VPRT
+been_PEAS
+investigated_PASS PASSall
+by_IN INother
+several_QUAN
+groups_NN NNother
+._.
+Early_JJAT JJTIME
+expression_NN NNABSPROC
+studies_NN NCOMP
+performed_VBD
+in_IN INother
+1991_CD
+showed_VBD ACT
+that_THSC ThSTNCall ThVSTNCall ThVFCT
+bone_NN NNCONC
+marrow_NN NCOMP
+enriched_VBN
+for_IN INother
+CD34_NN NNother
+-_HYPH
+positive_JJAT JJEPSTother
+cells_NN NNTECH
+highly_AMP
+expressed_VBD COMM
+HLXB9_NN NNP
+,_,
+whereas_CONC
+unfractionated_JJAT JJATother
+bone_NN NNCONC
+marrow_NN NCOMP
+cells_NN NNTECH
+expressed_VBD COMM
+HLXB9_NN NNother
+in_IN INother
+low_JJAT JJATother
+levels_NN NNABSPROC
+,_,
+and_CC
+bone_NN NNCONC
+marrow_NN NCOMP
+cells_NN NNTECH
+depleted_VBN
+of_IN INother
+CD34_NN NNother
+-_HYPH
+positive_JJAT JJEPSTother
+cells_NN NNTECH
+did_VBD DOAUX
+not_XX0
+show_VB ACT
+detectable_JJAT JJATother
+levels_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNother
+[_-LRB-
+22_CD
+]_-RRB-
+._.
+Later_TIME
+on_RB RBother
+,_,
+the_DT
+same_JJAT JJREL
+authors_NN NNHUMAN
+reported_VBD COMM
+increased_VBN OCCUR
+levels_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNother
+expression_NN NCOMP
+in_IN INother
+acute_JJAT JJATother
+leukaemias_NN NNother
+that_THRC THRCother
+were_VBD
+not_XX0
+seen_PASS PASSall MENTAL
+in_IN INother
+the_DT
+leukaemia_NN NNother
+patients_NN NCOMP
+at_IN INother
+remission_NN NNother
+._.
+These_DEMO
+studies_NN NNABSPROC
+suggested_VBD COMM
+a_DT
+link_NN NNABSPROC
+between_IN INother
+HLXB9_NN NNP
+over_IN INother
+-_HYPH
+expression_NN NNABSPROC
+and_CC
+leukaemogenesis_NN NNother
+[_-LRB-
+23_CD
+]_-RRB-
+._.
+Other_JJAT JJATother
+authors_NN NNHUMAN
+reported_VBD COMM
+a_DT
+relatively_RB RBother
+low_JJAT JJATother
+HLXB9_NN NNother
+expression_NN NCOMP
+in_IN INother
+normal_JJAT JJATother
+bone_NN NNCONC
+marrow_NN NCOMP
+by_IN INother
+real_JJAT JJATother
+time_NN NNQUANT
+quantitative_JJAT JJATother
+PCR_NN NNP
+(_-LRB-
+RT_NN NNP
+-_HYPH
+Q_NN NNP
+-_HYPH
+PCR_NN NNP
+)_-RRB-
+and_CC
+did_VBD DOAUX
+not_XX0
+observe_VB MENTAL
+HLXB9_NN NNother
+expression_NN NCOMP
+in_IN INother
+healthy_JJAT JJATother
+CD34_NN NNother
+-_HYPH
+positive_JJAT JJEPSTother
+bone_NN NNCONC
+marrow_NN NCOMP
+cells_NN NNTECH
+,_,
+but_CC
+described_VBD COMM
+increased_VBN OCCUR
+levels_NN NNABSPROC
+in_IN INother
+the_DT
+bone_NN NNCONC
+marrow_NN NCOMP
+of_IN INother
+leukaemia_NN NNother
+patients_NN NCOMP
+with_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+[_-LRB-
+6_CD
+,_,
+24_CD
+]_-RRB-
+._.
+Observations_NN NNCOG
+from_IN PrepNSTNC
+our_PP1P PP1all
+group_NN NNother
+and_CC
+by_IN INother
+others_NN NNother
+confirmed_VBN MENTAL
+elevated_VBN
+HLXB9_NN NNP
+expression_NN NCOMP
+in_IN INother
+t(_SYM
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+as_CC
+well_RB RBother
+as_IN INother
+in_IN INother
+some_QUAN
+patients_NN NNHUMAN
+with_IN INother
+acute_JJAT JJATother
+myeloid_NN NNother
+leukaemia_NN NCOMP
+with_IN INother
+chromosomal_JJAT JJATother
+abnormalities_NN NOMZ
+other_JJPR JJPRother
+than_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+[_-LRB-
+20_CD
+,_,
+25_CD
+]_-RRB-
+._.
+HLXB9_NN NNother
+expression_NN NCOMP
+has_VPRT
+been_PEAS
+associated_PASS PASSall
+with_IN INother
+hypo_NN NNother
+-_HYPH
+methylation_NN NOMZ
+of_IN INother
+its_PIT
+promoter_NN NNother
+in_IN INother
+a_DT
+series_NN NNABSPROC
+of_IN INother
+paediatric_JJAT JJATother
+AMLs_NN NNother
+._.
+However_CC
+,_,
+in_IN INother
+the_DT
+same_JJAT JJREL
+study_NN NNABSPROC
+it_PIT
+was_VBD
+found_PASS PASSall
+that_THSC THSCother
+in_IN INother
+childhood_NN NNother
+ALL_QUAN
+the_DT
+HLXB9_NN NNP
+promoter_NN NCOMP
+was_VBD BEMA
+hyper_JJPR JJPRother
+-_HYPH
+methylated_VBN
+leading_VBG
+to_IN INother
+down_IN INother
+-_HYPH
+regulation_NN NNABSPROC
+of_IN INother
+this_DEMO
+gene_NN NNTECH
+._.
+The_DT
+authors_NN NNHUMAN
+suggest_VPRT COMM
+that_THSC ThSTNCall ThVSTNCall ThVCOMM
+HLXB9_NN NNP
+might_MDMM MDPOSSCall
+act_VB
+as_IN INother
+an_DT
+oncogene_NN NNother
+in_IN INother
+AML_NN NNP
+,_,
+whereas_CONC
+it_PIT
+would_MDWO MDPREDall
+act_VB
+as_IN INother
+a_DT
+tumour_NN NNother
+suppressor_NN NCOMP
+gene_NN NNTECH
+in_IN INother
+ALL_QUAN
+[_-LRB-
+26_CD
+]_-RRB-
+._.
+Over_IN INother
+-_HYPH
+expression_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNP
+has_VPRT
+been_PEAS SPLIT
+also_CC
+reported_PASS PASSall COMM
+in_IN INother
+lymphoma_NN NNother
+[_-LRB-
+27_CD
+,_,
+28_CD
+]_-RRB-
+and_CC
+cancer_NN NNother
+types_NN NCOMP
+other_JJPR JJPRother
+than_IN INother
+haematological_JJAT JJATother
+malignancies_NN NNother
+,_,
+such_JJPR JJPRother
+as_IN ELAB
+breast_NN NNother
+cancer_NN NCOMP
+[_-LRB-
+29_CD
+]_-RRB-
+,_,
+testicular_JJAT JJATother
+cancer_NN NNother
+[_-LRB-
+30_CD
+,_,
+31_CD
+]_-RRB-
+and_CC
+hepatocarcinoma_NN NNother
+[_-LRB-
+32_CD
+]_-RRB-
+._.
+These_DEMO
+studies_NN NNABSPROC
+support_VPRT
+the_DT
+idea_NN NSTNCother
+that_THSC THSCother
+HLXB9_JJAT JJATother
+involvement_NN NOMZ
+might_MDMM MDPOSSCall
+be_VB BEMA
+pivotal_JJPR JJPRother
+in_IN INother
+other_JJAT JJATother
+tumours_NN NNother
+as_CC
+well_RB RBother
+as_IN INother
+leukaemia_NN NNother
+._.
+Limited_JJAT JJATother
+studies_NN NNABSPROC
+have_VPRT
+been_PEAS
+carried_PASS PASSall ACT
+out_RP
+on_IN INother
+the_DT
+HLXB9_NN NNP
+expression_NN NCOMP
+at_IN INother
+the_DT
+protein_NN NNother
+level_NN NCOMP
+,_,
+whose_WHSC WHSCother
+presence_NN NNABSPROC
+has_VPRT
+been_PEAS
+demonstrated_PASS PASSall
+in_IN INother
+bone_NN NNCONC
+marrow_NN NCOMP
+smear_NN NNother
+of_IN INother
+leukaemia_NN NNother
+patients_NN NCOMP
+with_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+by_IN INother
+immunohistochemistry_NN NNother
+[_-LRB-
+16_CD
+]_-RRB-
+._.
+Further_JJAT COMPAR
+studies_NN NNABSPROC
+on_IN INother
+leukaemia_NN NNother
+as_CC
+well_RB RBother
+as_IN INother
+other_JJAT JJATother
+cancer_NN NNother
+types_NN NCOMP
+are_VPRT
+needed_PASS PASSall MENTAL
+in_IN INother
+order_NN NNABSPROC
+to_IN INother
+clarify_VB
+whether_WHSC WHSCother
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+elevated_VBN
+HLXB9_NN NNother
+transcript_NN NCOMP
+corresponds_VPRT
+to_IN INother
+proportionate_JJAT JJATother
+levels_NN NNABSPROC
+of_IN INother
+the_DT
+corresponding_VBG
+protein_NN NNother
+,_,
+or_CC
+whether_WHSC WHSCother
+translation_NN NOMZ
+is_VPRT
+regulated_PASS PASSall
+by_IN INother
+RNA_NN NNP
+interference_NN NCOMP
+pathways_NN NNother
+[_-LRB-
+31_CD
+]_-RRB-
+._.
+HLXB9_NN NNP
+over_IN INother
+-_HYPH
+expression_NN NNABSPROC
+and_CC
+genome_NN NNother
+organisation_NN NCOMP
+An_DT
+increasing_VBG OCCUR
+number_NN NNQUANT
+of_IN INother
+studies_NN NNABSPROC
+currently_TIME
+focus_VPRT
+on_IN INother
+gene_NN NNTECH
+expression_NN NCOMP
+in_IN INother
+the_DT
+context_NN NNABSPROC
+of_IN INother
+the_DT
+three_CD
+dimensional_JJPR JJPRother
+(_-LRB-
+3D_NN NNother
+)_-RRB-
+genome_NN NNother
+organisation_NN NCOMP
+in_IN INother
+the_DT
+interphase_NN NNother
+nucleus_NN NCOMP
+[_-LRB-
+33_CD
+]_-RRB-
+._.
+Gene_NN NNP
+positioning_NN NCOMP
+within_IN INother
+the_DT
+different_JJAT JJREL
+areas_NN NNPLACE
+of_IN INother
+the_DT
+cell_NN NNTECH
+nucleus_NN NCOMP
+has_VPRT
+been_PEAS
+associated_PASS PASSall
+with_IN INother
+different_JJAT JJREL
+levels_NN NNABSPROC
+of_IN INother
+gene_NN NNTECH
+activity_NN NCOMP
+,_,
+with_IN INother
+the_DT
+general_JJAT JJREL
+assumption_NN NSTNCother
+that_THSC THSCother
+transcriptionally_RB RBother
+active_JJAT JJATother
+genes_NN NNTECH
+are_VPRT
+localised_PASS PASSall
+in_IN INother
+the_DT
+nuclear_JJAT JJATother
+interior_NN NNPLACE
+,_,
+whereas_CONC
+less_RB COMPAR
+active_JJAT JJATother
+genes_NN NNTECH
+tend_VPRT EXIST
+to_IN ToSTNCall ToVSTNCall ToVPROB
+be_VB
+positioned_PASS PASSall
+towards_IN INother
+the_DT
+periphery_NN NNother
+of_IN INother
+the_DT
+nucleus_NN NNTECH
+[_-LRB-
+34_CD
+-_SYM
+37_CD
+]_-RRB-
+._.
+It_PIT
+has_VPRT SPLIT
+also_CC
+been_PEAS
+shown_PASS PASSall ACT
+that_THSC THSCother
+gene_NN NNTECH
+positioning_NN NCOMP
+in_IN INother
+the_DT
+nucleus_NN NNTECH
+is_VPRT
+not_XX0
+fixed_PASS PASSall ACT
+,_,
+but_CC
+may_MDMM MDPOSSCall
+change_VB OCCUR
+according_VBG
+to_IN INother
+different_JJAT JJREL
+stages_NN NNABSPROC
+of_IN INother
+development_NN NNABSPROC
+[_-LRB-
+38_CD
+,_,
+39_CD
+]_-RRB-
+and_CC
+in_IN INother
+pathologies_NN NNother
+[_-LRB-
+40_CD
+]_-RRB-
+._.
+It_PIT
+has_VPRT
+been_PEAS
+demonstrated_PASS PASSall
+that_THSC THSCother
+the_DT
+chromosome_NN NNTECH
+3D_NN NCOMP
+structure_NN NNABSPROC
+within_IN INother
+the_DT
+interphase_NN NNother
+nucleus_NN NCOMP
+has_VPRT
+an_DT
+influence_NN NNABSPROC
+on_IN INother
+the_DT
+transcriptional_JJAT JJATother
+activities_NN NNABSPROC
+of_IN INother
+specific_JJAT JJATother
+Fig._NN NNP
+3_CD
+Simplified_VBN
+model_NN NNABSPROC
+of_IN INother
+radial_JJAT JJATother
+chromosome_NN NNTECH
+and_CC
+gene_NN NNTECH
+organisation_NN NCOMP
+in_IN INother
+th_NN NNP
+gene_NN NCOMP
+dense_JJAT JJATother
+and_CC
+gene_JJAT JJATother
+poor_JJAT JJEVAL
+bands_NN NNCONC
+are_VPRT
+arranged_PASS PASSall ACT
+in_IN INother
+a_DT
+zig_NN NNother
+-_HYPH
+zag_NN NNother
+manner_NN NCOMP
+,_,
+with_IN INother
+the_DT
+compact_JJAT JJATother
+,_,
+generally_FREQ
+not_XX0
+-_HYPH
+transcribed_VBN
+,_,
+chromatin_NN NNother
+organisation_NN NCOMP
+._.
+The_DT
+gene_NN NNTECH
+dense_JJPR JJPRother
+r_VPRT
+open_JJAT JJATother
+chromatin_NN NNother
+structure_NN NCOMP
+,_,
+that_THRC THRCother
+favour_VPRT
+gene_NN NNTECH
+transcription_NN NCOMP
+._.
+The_DT
+interaction_NN NOMZ
+of_IN INother
+ci_NN NNother
+regulatory_JJAT JJATother
+factors_NN NNABSPROC
+consents_VPRT
+gene_NN NNTECH
+activation_NN NCOMP
+._.
+Upper_JJAT COMPAR
+right_NN NSTNCother
+:_:
+a_DT
+chromosomal_JJAT JJATother
+transl_NN NNother
+nucleus_NN NCOMP
+could_MDCO MDPOSSCall
+determine_VB MENTAL
+an_DT
+ectopic_JJAT JJATother
+activation_NN NOMZ
+of_IN INother
+translocated_VBN
+genes_NN NNTECH
+,_,
+on_IN INother
+Bottom_JJAT JJATother
+panel_NN NNother
+:_:
+Schematic_JJAT JJATother
+representation_NN NOMZ
+of_IN INother
+the_DT
+distribution_NN NNABSPROC
+of_IN INother
+FISH_NN NNCONC
+signals_NN NCOMP
+rela_NN NNother
+of_IN INother
+HLXB9_NN NNother
+occupy_VPRT
+a_DT
+peripheral_JJAT JJATother
+positioning_NN NNother
+,_,
+whereas_CONC
+both_QUAN
+copies_NN NNCONC
+of_IN INother
+ETV6_NN NNP
+are_VPRT
+lo_FW
+HLXB9_NN NNother
+gene_NN NCOMP
+translocated_VBN
+on_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+is_VPRT
+repositioned_PASS PASSall
+towards_IN INother
+the_DT
+nuclear_NN NNother
+in_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+7_CD
+)_-RRB-
+is_VPRT
+repositioned_PASS PASSall
+towards_IN INother
+the_DT
+nuclear_JJAT JJATother
+periphery_NN NNother
+genes_NN NCOMP
+due_IN INother
+to_IN INother
+a_DT
+position_NN NNABSPROC
+effect_NN NCOMP
+mechanism_NN NNABSPROC
+._.
+For_IN INother
+instance_NN ELAB
+,_,
+gene_NN NNTECH
+expression_NN NCOMP
+at_IN INother
+a_DT
+specific_JJAT JJATother
+locus_NN NNother
+can_MDCA MDPOSSCall
+be_VB
+controlled_PASS PASSall ACT
+in_IN INother
+cis_NN NNother
+by_IN INother
+enhancer_NN NNother
+elements_NN NCOMP
+localised_VBN
+at_IN INother
+a_DT
+distance_NN NNother
+from_IN INother
+it_PIT
+,_,
+via_IN INother
+formation_NN NNABSPROC
+of_IN INother
+active_JJAT JJATother
+chromatin_NN NNother
+hubs_NN NCOMP
+(_-LRB-
+ACH_NN NNP
+)_-RRB-
+[_-LRB-
+41_CD
+-_SYM
+43_CD
+]_-RRB-
+._.
+Several_QUAN
+studies_NN NNABSPROC
+have_VPRT
+been_PEAS
+conducted_PASS PASSall
+to_IN INother
+observe_VB MENTAL
+the_DT
+behaviour_NN NNother
+of_IN INother
+cancer_NN NNother
+loci_NN NCOMP
+in_IN INother
+the_DT
+interphase_NN NNother
+nuclei_NN NCOMP
+using_VBG ACT
+different_JJAT JJREL
+cellular_JJAT JJATother
+models_NN NNABSPROC
+and_CC
+some_QUAN
+authors_NN NNHUMAN
+proposed_VBD COMM
+that_THSC ThSTNCall ThVSTNCall ThVCOMM
+the_DT
+altered_VBN
+nuclear_JJAT JJATother
+topography_NN NNother
+of_IN INother
+genes_NN NNTECH
+could_MDCO MDPOSSCall
+be_VB
+used_PASS PASSall ACT
+as_IN INother
+diagnostic_JJAT JJATother
+tool_NN NNCONC
+in_IN INother
+oncology_NN NNother
+[_-LRB-
+44_CD
+,_,
+45_CD
+]_-RRB-
+._.
+Studies_NN NNABSPROC
+on_IN INother
+cancer_NN NNother
+fusion_NN NCOMP
+genes_NN NNTECH
+have_VPRT
+shown_PEAS ACT
+nuclear_JJAT JJATother
+repositioning_NN NNother
+of_IN INother
+chromosomes_NN NNTECH
+and_CC
+genes_NN NNTECH
+after_IN INother
+a_DT
+translocation_NN NOMZ
+event_NN NCOMP
+[_-LRB-
+46_CD
+-_SYM
+48_CD
+]_-RRB-
+and_CC
+this_DEMO
+repositioning_NN NNother
+has_VPRT
+been_PEAS
+shown_PASS PASSall ACT
+to_IN INother
+have_VB
+an_DT
+impact_NN NNABSPROC
+on_IN INother
+expression_NN NNABSPROC
+profiling_NN NCOMP
+[_-LRB-
+49_CD
+]_-RRB-
+._.
+We_PP1P PP1all
+have_VPRT
+observed_PEAS MENTAL
+the_DT
+behaviour_NN NNother
+of_IN INother
+7q_CD
+and_CC
+12_CD
+p_NN NNother
+loci_NN NNother
+in_IN INother
+the_DT
+interphase_NN NNother
+nuclei_NN NCOMP
+of_IN INother
+leukaemia_NN NNother
+cells_NN NCOMP
+carrying_VBG ACT
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+in_IN INother
+a_DT
+number_NN NNQUANT
+of_IN INother
+patients_NN NNHUMAN
+and_CC
+shown_VBN ACT
+that_THSC ThSTNCall ThVSTNCall ThVFCT
+the_DT
+e_NN NNother
+cell_NN NNTECH
+nuclei_NN NCOMP
+._.
+Upper_JJPR COMPAR
+left_VBN ACT
+:_:
+In_IN INother
+the_DT
+cell_NN NNTECH
+nucleus_NN NCOMP
+,_,
+chromosomes_NN NNTECH
+composed_VBN
+of_IN INother
+gene_NN NNTECH
+poor_JJAT JJEVAL
+regions_NN NNPLACE
+(_-LRB-
+blue_JJAT JJDESCall JJCOLR
+segments_NN NOMZ
+)_-RRB-
+close_VPRT
+to_IN INother
+the_DT
+nuclear_JJAT JJATother
+envelope_NN NNCONC
+,_,
+in_IN INother
+a_DT
+egions_NN NNother
+(_-LRB-
+red_JJAT JJDESCall JJCOLR
+segments_NN NOMZ
+)_-RRB-
+are_VPRT
+located_PASS PASSall
+in_IN INother
+a_DT
+more_RB COMPAR
+internal_JJAT JJREL
+position_NN NNABSPROC
+,_,
+with_IN INother
+an_DT
+s_NN NNother
+-_HYPH
+acting_NN NNother
+or_CC
+trans_JJPR JJPRother
+-_HYPH
+acting_NN NNother
+sequences_NN NCOMP
+,_,
+as_CC
+well_RB RBother
+as_IN INother
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+specific_JJAT JJATother
+ocation_NN NOMZ
+that_THRC THRCother
+involves_VPRT EXIST
+regions_NN NNPLACE
+normally_FREQ
+positioned_VBN
+in_IN INother
+different_JJAT JJREL
+areas_NN NNPLACE
+of_IN INother
+the_DT
+the_DT
+basis_NN NNother
+of_IN INother
+the_DT
+new_JJAT JJTIME
+nuclear_JJAT JJATother
+environment_NN NNPLACE
+where_WHSC WHSCother
+they_PP3t PP3all
+are_VPRT
+repositioned_PASS PASSall
+._.
+tive_VIMP
+to_IN INother
+the_DT
+regions_NN NNPLACE
+involved_VBN EXIST
+in_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+._.
+Left_VBN ACT
+:_:
+Both_QUAN
+copies_NN NNCONC
+calised_VBN
+towards_IN INother
+the_DT
+interior_NN NNPLACE
+in_IN INother
+the_DT
+nucleus_NN NNTECH
+of_IN INother
+normal_JJAT JJATother
+cells_NN NNTECH
+._.
+Right_JJPR JJEPSTother
+:_:
+The_DT
+terior_NN NNother
+,_,
+whereas_CONC
+the_DT
+remaining_VBG EXIST
+portion_NN NNQUANT
+of_IN INother
+the_DT
+ETV6_NN NNP
+gene_NN NCOMP
+translocated_VBD
+on_IN INother
+Tosi_NN NNP
+et_NN NNP
+al_NN NNP
+._.
+Biomarker_NN NNP
+Research_NN NNP
+(_-LRB-
+2015_CD
+)_-RRB-
+3:21_CD
+Page_NN NNCONC
+6_CD
+of_IN INother
+11_CD
+translocation_NN NOMZ
+leads_VPRT
+to_IN INother
+repositioning_NN NNother
+of_IN INother
+the_DT
+loci_NN NNother
+of_IN INother
+interest_NN NNABSPROC
+(_-LRB-
+Fig._NN NNP
+3_CD
+)_-RRB-
+[_-LRB-
+20_CD
+]_-RRB-
+._.
+What_WHQU
+does_VPRT DOAUX
+this_DEMO
+imply_VB EXIST
+in_IN INother
+terms_NN NNQUANT
+of_IN INother
+gene_NN NNTECH
+transcription_NN NCOMP
+?_. WQ
+We_PP1P PP1all
+have_VPRT
+shown_PEAS ACT
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNother
+transcripts_NN NCOMP
+in_IN INother
+the_DT
+same_JJAT JJREL
+samples_NN NNTECH
+with_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+by_IN INother
+RT_NN NNP
+-_HYPH
+PCR_NN NNP
+,_,
+however_CC
+,_,
+we_PP1P PP1all
+did_VBD DOAUX
+not_XX0
+investigate_VB
+the_DT
+origin_NN NNABSPROC
+of_IN INother
+the_DT
+transcript_NN NNCONC
+._.
+We_PP1P PP1all
+assume_VPRT MENTAL
+that_THSC ThSTNCall ThVSTNCall ThVLIK
+the_DT
+nascent_JJAT JJATother
+transcript_NN NNCONC
+would_MDWO MDPREDall
+originate_VB
+from_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+,_,
+due_IN INother
+to_IN INother
+the_DT
+juxtaposition_NN NOMZ
+of_IN INother
+the_DT
+HLXB9_NN NNP
+gene_NN NCOMP
+to_IN INother
+the_DT
+downstream_PLACE
+region_NN NNPLACE
+of_IN INother
+ETV6_NN NNP
+._.
+This_DEMO
+would_MDWO MDPREDall
+facilitate_VB
+new_JJAT JJTIME
+interactions_NN NOMZ
+between_IN INother
+active_JJAT JJATother
+cis_JJAT JJATother
+elements_NN NNTECH
+and_CC
+the_DT
+HLXB9_NN NNP
+promoter_NN NCOMP
+,_,
+leading_VBG
+to_IN INother
+the_DT
+formation_NN NNABSPROC
+of_IN INother
+active_JJAT JJATother
+chromatin_NN NNother
+hubs_NN NCOMP
+and_CC
+repositioning_NN NNother
+of_IN INother
+the_DT
+chromatin_NN NNother
+in_IN INother
+the_DT
+cell_NN NNTECH
+nucleus_NN NCOMP
+._.
+Alternatively_RB RBother
+,_,
+active_JJAT JJATother
+trans_JJAT JJATother
+sequences_NN NNother
+from_IN INother
+different_JJAT JJREL
+chromosomes_NN NNTECH
+could_MDCO MDPOSSCall
+activate_VB
+HLXB9_NN NNother
+by_IN INother
+a_DT
+bridge_NN NNother
+formation_NN NCOMP
+in_IN INother
+the_DT
+new_JJAT JJTIME
+nuclear_JJAT JJATother
+environment_NN NNPLACE
+._.
+Gene_NN NNP
+expression_NN NCOMP
+signature_NN NNother
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+and_CC
+HLXB9_NN NNother
+targets_NN NCOMP
+The_DT
+first_JJAT JJATother
+study_NN NNABSPROC
+to_IN INother
+investigate_VB
+expression_NN NNABSPROC
+profiling_NN NCOMP
+of_IN INother
+t(_SYM
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+was_VBD
+conducted_PASS PASSall
+by_IN INother
+Wildenhain_NN NNP
+et_NN NNP
+al_NN NNP
+._.
+[_-LRB-
+50_CD
+]_-RRB-
+,_,
+who_WHSC WHSCother
+compared_VBD MENTAL
+leukaemic_JJAT JJATother
+blasts_NN NNother
+of_IN INother
+patients_NN NNHUMAN
+positive_JJPR JJEPSTother
+for_IN INother
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+the_DT
+HLXB9_NN NNP
+/_SYM
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+with_IN INother
+those_DEMO
+with_IN INother
+MLL_NN NNP
+rearrangements_NN NCOMP
+._.
+It_PIT
+has_MDNE
+to_IN INother
+be_VB
+said_PASS PASSall COMM
+that_THSC THSCother
+these_DEMO
+represent_VPRT EXIST
+the_DT
+two_CD
+most_RB RBother
+common_JJAT JJATother
+chromosomal_JJAT JJATother
+rearrangements_NN NOMZ
+found_VBN VFCTother
+in_IN INother
+very_AMP
+young_JJAT JJTIME
+AML_NN NNother
+patients_NN NCOMP
+,_,
+including_VBG EXIST
+infants_NN NNHUMAN
+and_CC
+mainly_RB RSTNCall RNONFACT
+children_NN NNHUMAN
+younger_JJPR COMPAR
+than_IN INother
+2_CD
+years_NN NNother
+of_IN INother
+age_NN NNQUANT
+._.
+The_DT
+authors_NN NNHUMAN
+found_VBD
+that_THSC ThSTNCall ThVSTNCall ThVFCT
+genes_NN NNTECH
+expressed_VBN COMM
+in_IN INother
+the_DT
+MLL_NN NNP
+group_NN NCOMP
+of_IN INother
+patients_NN NNHUMAN
+,_,
+were_VBD
+significantly_RB RBother
+down_RB RBother
+-_HYPH
+regulated_VBN
+in_IN INother
+the_DT
+HLXB9_NN NNother
+/_,
+ETV6_NN NNP
+positive_JJAT JJEPSTother
+patients_NN NNHUMAN
+._.
+These_DEMO
+included_VBD EXIST
+HOX_NN NNother
+genes_NN NCOMP
+and_CC
+genes_NN NNTECH
+characteristic_JJPR JJPRother
+for_IN INother
+the_DT
+MLL_NN NNP
+-_HYPH
+induced_VBN
+transformation_NN NOMZ
+process_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+MEIS1_NN NNP
+,_,
+HOXA9_NN NNP
+and_CC
+C_NN NNP
+-_HYPH
+MYB_NN NNP
+._.
+On_IN INother
+the_DT
+other_JJAT JJATother
+hand_NN CC
+,_,
+together_RB RBother
+with_IN INother
+over_IN INother
+-_HYPH
+expression_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNP
+,_,
+the_DT
+HLXB9_NN NNP
+/_SYM
+ETV6_NN NNP
+positive_JJAT JJEPSTother
+patients_NN NNHUMAN
+showed_VBD ACT
+up_RP
+-_HYPH
+regulation_NN NNABSPROC
+of_IN INother
+genes_NN NNTECH
+implicated_VBN
+in_IN INother
+cell_NN NNTECH
+-_HYPH
+cell_NN NNTECH
+interactions_NN NCOMP
+and_CC
+cell_NN NNTECH
+adhesion_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+EDIL3_NN NNP
+,_,
+CNTNAP5_NN NNP
+,_,
+ANGPT1_NN NNP
+,_,
+DSG2_NN NNP
+,_,
+ITGA9_NN NNP
+,_,
+ITGAV_NN NNP
+,_,
+KDR_NN NNP
+and_CC
+SIGLEC6_NN NNP
+._.
+These_DEMO
+are_VPRT
+known_PASS PASSall MENTAL
+to_IN INother
+be_VB
+implicated_PASS PASSall
+in_IN INother
+the_DT
+maintenance_NN NNother
+of_IN INother
+quiescent_JJAT JJATother
+haematopoietic_JJAT JJATother
+stem_NN NNCONC
+cells_NN NCOMP
+(_-LRB-
+HSC_NN NNP
+)_-RRB-
+and_CC
+homeostasis_NN NNother
+of_IN INother
+the_DT
+HSC_NN NNother
+niche_NN NCOMP
+._.
+Overall_RB RBother
+,_,
+this_DEMO
+study_NN NNABSPROC
+implies_VPRT EXIST
+that_THSC THSCother
+the_DT
+mechanisms_NN NNABSPROC
+of_IN INother
+leukaemogenesis_NN NNother
+in_IN INother
+these_DEMO
+two_CD
+types_NN NNABSPROC
+of_IN INother
+childhood_NN NNother
+leukaemia_NN NCOMP
+are_VPRT
+fundamentally_RB RBother
+very_AMP
+different_JJPR JJREL
+._.
+Evidence_NN NNother
+would_MDWO MDPREDall
+suggest_VB COMM
+that_THSC ThSTNCall ThVSTNCall ThVCOMM
+the_DT
+HLXB9_NN NNother
+/_,
+ETV6_NN NNP
+positive_JJAT JJEPSTother
+leukaemias_NN NNother
+might_MDMM MDPOSSCall
+be_VB
+initiated_PASS PASSall
+through_IN INother
+an_DT
+alterations_NN NOMZ
+of_IN INother
+interactions_NN NOMZ
+between_IN INother
+the_DT
+HSC_NN NNother
+and_CC
+the_DT
+HSC_NN NNother
+niche_NN NCOMP
+._.
+Balgobind_NN NNP
+et_FW
+al._FW
+[_-LRB-
+51_CD
+]_-RRB-
+used_VBD ACT
+expression_NN NNABSPROC
+microarrays_NN NCOMP
+to_IN INother
+examine_VB MENTAL
+a_DT
+large_JJAT JJDESCall JJSIZE
+cohort_NN NNother
+of_IN INother
+samples_NN NNTECH
+from_IN INother
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+with_IN INother
+AML_NN NNP
+including_VBG EXIST
+seven_CD
+samples_NN NNTECH
+from_IN INother
+patients_NN NNHUMAN
+with_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+._.
+The_DT
+authors_NN NNHUMAN
+built_VBD
+a_DT
+classifier_NN NNother
+based_VBN
+on_IN INother
+59_CD
+genes_NN NNTECH
+that_THRC THRCother
+enabled_VBD CAUSE
+them_PP3t PP3all
+to_IN INother
+identify_VB MENTAL
+very_AMP
+specific_JJAT JJATother
+expression_NN NNABSPROC
+profiling_NN NCOMP
+signatures_NN NNother
+predictive_JJPR JJPRother
+of_IN INother
+cytogenetic_JJAT JJATother
+and_CC
+molecular_JJAT JJATother
+subtypes_NN NNother
+._.
+This_DEMO
+classification_NN NOMZ
+tool_NN NCOMP
+,_,
+based_VBN
+on_IN INother
+the_DT
+genetic_JJAT JJATother
+heterogeneity_NN NOMZ
+of_IN INother
+paediatric_JJAT JJATother
+AML_NN NNother
+,_,
+is_VPRT BEMA
+of_IN INother
+great_JJAT JJEVAL
+diagnostic_JJAT JJATother
+potential_NN NNABSPROC
+although_CONC
+its_PIT
+feasibility_NN NOMZ
+and_CC
+implementation_NN NOMZ
+in_IN INother
+the_DT
+diagnostic_JJAT JJATother
+setting_NN NNABSPROC
+will_MDWS MDPREDall
+have_MDNE
+to_IN INother
+be_VB SPLIT
+further_CC
+explored_PASS PASSall ACT
+._.
+The_DT
+significance_NN NNother
+and_CC
+the_DT
+impact_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNother
+up_IN INother
+-_HYPH
+regulation_NN NNABSPROC
+in_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+merits_VPRT
+further_JJAT COMPAR
+studies_NN NNABSPROC
+._.
+These_DEMO
+would_MDWO MDPREDall
+shed_VB
+some_QUAN
+light_NN NNTECH
+on_IN INother
+the_DT
+pathways_NN NNother
+triggered_VBN
+by_IN INother
+this_DEMO
+chromosomal_JJAT JJATother
+rearrangement_NN NOMZ
+._.
+The_DT
+only_JJAT JJATother
+report_NN NNother
+to_IN PrepNSTNC
+date_NN NNQUANT
+to_IN INother
+explore_VB ACT
+possible_JJAT JJEPSTother
+targets_NN NNCONC
+for_IN INother
+HB9_NN NNP
+(_-LRB-
+the_DT
+transcription_NN NOMZ
+factor_NN NCOMP
+coded_VBN
+by_IN INother
+the_DT
+HLXB9_NN NNP
+gene_NN NCOMP
+)_-RRB-
+in_IN INother
+haematopoietic_JJAT JJATother
+cells_NN NNTECH
+was_VBD
+performed_PASS PASSall
+on_IN INother
+the_DT
+HL_NN NNP
+-_HYPH
+60_CD
+myeloid_NN NNother
+cell_NN NCOMP
+line_NN NNother
+using_VBG ACT
+ChiPon_NN NNP
+-_HYPH
+chip_NN NNother
+and_CC
+expression_NN NNABSPROC
+profiling_NN NCOMP
+analyses_NN NNCOG
+[_-LRB-
+24_CD
+]_-RRB-
+._.
+This_DEMO
+study_NN NNABSPROC
+describes_VPRT COMM
+binding_NN NNother
+of_IN INother
+HB9_NN NNP
+to_IN INother
+the_DT
+prostaglandin_JJAT JJATother
+E_NN NNP
+receptor_NN NNother
+2_CD
+(_-LRB-
+PGTER2_NN NNP
+)_-RRB-
+promoter_NN NNother
+resulting_VBG
+in_IN INother
+downregulation_NN NOMZ
+of_IN INother
+PGTER2_NN NNother
+and_CC
+consequent_JJAT JJATother
+reduction_NN NOMZ
+of_IN INother
+intracellular_JJAT JJATother
+cAMP_NN NNother
+level_NN NCOMP
+._.
+This_DEMO
+down_IN INother
+-_HYPH
+regulatory_JJAT JJATother
+effect_NN NNABSPROC
+on_IN INother
+PGTER2_NN NNP
+expression_NN NCOMP
+was_VBD SPLIT
+also_CC
+observed_PASS PASSall MENTAL
+in_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+._.
+Together_RB RBother
+with_IN INother
+repression_NN NNother
+of_IN INother
+PGTER2_NN NNP
+,_,
+Wildenhain_NN NNP
+et_FW
+al._FW
+[_-LRB-
+24_CD
+]_-RRB-
+,_,
+found_VBD
+that_THSC ThSTNCall ThVSTNCall ThVFCT
+HLXB9_NN NNP
+expression_NN NCOMP
+in_IN INother
+the_DT
+HL60_NN NNP
+cell_NN NCOMP
+line_NN NNother
+had_VBD
+mostly_RB RBother
+a_DT
+down_IN INother
+-_HYPH
+regulatory_JJAT JJATother
+effect_NN NNABSPROC
+on_IN INother
+other_JJAT JJATother
+genes_NN NNTECH
+,_,
+particularly_RB RBother
+ZYX_NN NNP
+and_CC
+ETS1_NN NNP
+._.
+Physiologically_RB RBother
+,_,
+expression_NN NNABSPROC
+of_IN INother
+PGTER2_NN NNP
+modulates_VPRT
+differentiation_NN NOMZ
+of_IN INother
+osteoclasts_NN NNother
+._.
+Upregulation_NN NNP
+of_IN INother
+PTGER2_NN NNP
+has_VPRT
+been_PEAS
+shown_PASS PASSall ACT
+in_IN INother
+immature_JJAT JJATother
+myeloid_NN NNother
+precursors_NN NCOMP
+._.
+PTGER2_NN NNP
+becomes_VPRT OCCUR
+subsequently_TIME
+down_RB RBother
+-_HYPH
+regulated_VBN
+after_IN INother
+the_DT
+cells_NN NNTECH
+have_VPRT
+differentiated_PEAS
+into_IN INother
+osteoclasts_NN NNother
+[_-LRB-
+52_CD
+]_-RRB-
+._.
+Further_JJAT COMPAR
+work_NN NNABSPROC
+is_VPRT
+needed_PASS PASSall MENTAL
+to_IN INother
+clarify_VB
+the_DT
+implications_NN NOMZ
+of_IN PrepNSTNC
+PTGER2_NN NNother
+down_IN INother
+-_HYPH
+regulation_NN NNABSPROC
+on_IN INother
+the_DT
+bone_NN NNCONC
+marrow_NN NCOMP
+niche_NN NNother
+and_CC
+on_IN INother
+the_DT
+differentiation_NN NOMZ
+of_IN INother
+immature_JJAT JJATother
+pre_NN NNother
+-_HYPH
+leukaemic_JJAT JJATother
+cells_NN NNTECH
+._.
+Diagnostic_JJAT JJATother
+tools_NN NNCONC
+Chromosome_NN NNP
+banding_VBG
+The_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+rearrangement_NN NOMZ
+affects_VPRT CAUSE
+the_DT
+subtelomeric_JJAT JJATother
+regions_NN NNPLACE
+of_IN INother
+chromosomes_NN NNTECH
+7_CD
+and_CC
+12_CD
+respectively_RB RBother
+._.
+Due_IN INother
+to_IN INother
+the_DT
+small_JJAT JJDESCall JJSIZE
+size_NN NNother
+of_IN INother
+the_DT
+genomic_JJAT JJATother
+fragments_NN NOMZ
+translocated_VBN
+,_,
+this_DEMO
+rearrangement_NN NOMZ
+is_VPRT BEMA
+difficult_JJPR JJPRother
+to_IN ToSTNCall ToJSTNCall ToJEASE
+detect_VB MENTAL
+using_VBG ACT
+the_DT
+conventional_JJAT JJATother
+methods_NN NNABSPROC
+of_IN INother
+chromosome_NN NNTECH
+banding_NN NCOMP
+._.
+Fluorescence_NN NNother
+in_IN INother
+situ_FW
+hybridisation_NN NOMZ
+Fluorescence_NN NNP
+in_IN INother
+situ_FW
+hybridisation_NN NOMZ
+(_-LRB-
+FISH_NN NNP
+)_-RRB-
+has_VPRT
+been_PEAS BEMA
+fundamental_JJPR JJPRother
+for_IN INother
+the_DT
+identification_NN NOMZ
+of_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+as_IN INother
+a_DT
+nonrandom_JJAT JJATother
+rearrangement_NN NOMZ
+[_-LRB-
+7_CD
+]_-RRB-
+._.
+Initially_TIME
+,_,
+probes_NN NNother
+covering_VBG ACT
+the_DT
+entire_JJAT JJREL
+ETV6_NN NNP
+gene_NN NCOMP
+in_IN INother
+conjunction_NN NOMZ
+with_IN INother
+7q36_CD
+probes_NN NNother
+have_VPRT
+been_PEAS
+used_PASS PASSall ACT
+for_IN INother
+the_DT
+screening_NN NNother
+of_IN INother
+a_DT
+relatively_RB RBother
+large_JJAT JJDESCall JJSIZE
+number_NN NNQUANT
+of_IN INother
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+._.
+This_DEMO
+screening_NN NNother
+enabled_VBD CAUSE
+us_PP1P PP1all
+to_IN INother
+estimate_VB
+the_DT
+incidence_NN NNother
+of_IN INother
+this_DEMO
+translocation_NN NOMZ
+of_IN INother
+approximately_RB RBother
+one_CD
+third_NN NNother
+of_IN INother
+patients_NN NNHUMAN
+with_IN INother
+infant_NN NNHUMAN
+leukaemia_NN NCOMP
+[_-LRB-
+7_CD
+]_-RRB-
+._.
+It_PIT
+has_MDNE
+to_IN INother
+be_VB
+noted_PASS PASSall
+that_THSC THSCother
+the_DT
+breakpoints_NN NNother
+on_IN INother
+7q36_CD
+in_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+patients_NN NNHUMAN
+were_VBD
+found_PASS PASSall
+to_IN INother
+be_VB BEMA
+heterogeneous_JJPR JJPRother
+and_CC
+generally_FREQ
+proximal_JJPR JJPRother
+to_IN INother
+HLXB9_NN NNother
+without_IN INother
+disrupting_VBG
+the_DT
+gene_NN NNTECH
+itself_PIT
+[_-LRB-
+12_CD
+]_-RRB-
+._.
+A_DT
+three_CD
+colour_NN NNother
+FISH_NN NCOMP
+assay_NN NNother
+with_IN INother
+probes_NN NNother
+flanking_VBG
+the_DT
+HLXB9_NN NNP
+gene_NN NCOMP
+was_VBD
+developed_PASS PASSall OCCUR
+specifically_RB RBother
+for_IN INother
+the_DT
+detection_NN NOMZ
+of_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+(_-LRB-
+Fig._NN NNP
+4_CD
+)_-RRB-
+._.
+This_DEMO
+assay_NN NNother
+enabled_VBD CAUSE
+us_PP1P PP1all
+to_IN SPLIT
+successfully_RB RBother
+identify_VB MENTAL
+cryptic_JJPR JJPRother
+and_CC
+more_RB COMPAR
+complex_JJPR JJPRother
+t(_-LRB-
+7;12_CD
+)_-RRB-
+rearrangements_NN NOMZ
+[_-LRB-
+17_CD
+]_-RRB-
+._.
+Commercially_RB RBother
+available_JJAT JJATother
+FISH_NN NNCONC
+probes_NN NCOMP
+for_IN INother
+the_DT
+detection_NN NOMZ
+of_IN INother
+the_DT
+t(_$
+12;21_CD
+)_-RRB-
+translocation_NN NOMZ
+are_VPRT
+also_CC
+suitable_JJPR JJPRother
+for_IN INother
+the_DT
+detection_NN NOMZ
+of_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+,_,
+where_WHSC WHSCother
+a_DT
+split_VBN
+ETV6_NN NNP
+signal_NN NCOMP
+is_VPRT
+found_PASS PASSall
+on_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+7_CD
+)_-RRB-
+and_CC
+on_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+._.
+Fig._NN NNP
+4_CD
+Fluorescence_NN NNother
+in_IN INother
+situ_NN NNother
+hybridisation_NN NCOMP
+(_-LRB-
+FISH_NN NNP
+)_-RRB-
+performed_VBD
+on_IN INother
+metaphase_NN NNother
+chromosomes_NN NCOMP
+harbouring_VBG
+the_DT
+t(_NN NNother
+7;12_CD
+)(_NN NNother
+q36;p13_NN NNother
+)_-RRB-
+._.
+a_DT
+FISH_NN NNCONC
+using_VBG ACT
+a_DT
+three_CD
+colour_NN NNother
+approach_NN NCOMP
+enables_VPRT CAUSE
+the_DT
+detection_NN NOMZ
+of_IN INother
+both_QUAN
+normal_JJAT JJATother
+chromosomes_NN NNTECH
+7_CD
+(_-LRB-
+harbouring_VBG
+only_RB RBother
+blue_JJAT JJDESCall JJCOLR
+hybridisation_NN NOMZ
+signals_NN NCOMP
+)_-RRB-
+and_CC
+12_CD
+(_-LRB-
+harbouring_VBG
+green_JJAT JJDESCall JJCOLR
+and_CC
+orange_JJAT JJATother
+fluorescent_JJAT JJATother
+signals_NN NNABSPROC
+)_-RRB-
+and_CC
+their_PP3t PP3all
+derivatives_NN NNother
+(_-LRB-
+green_JJAT JJDESCall JJCOLR
+signals_NN NNABSPROC
+on_IN INother
+the_DT
+der_NN NNother
+(_-LRB-
+7_CD
+)_-RRB-
+and_CC
+blue_JJAT JJDESCall JJCOLR
+and_CC
+orange_JJAT JJATother
+signals_NN NNABSPROC
+on_IN INother
+the_DT
+der_NN NNP
+(_-LRB-
+12_CD
+)_-RRB-
+)_-RRB-
+._.
+The_DT
+DAPI_NN NNP
+counterstaining_NN NCOMP
+of_IN INother
+the_DT
+chromosomes_NN NNTECH
+has_VPRT
+been_PEAS
+converted_PASS PASSall
+into_IN INother
+grey_JJAT JJDESCall JJCOLR
+scale_NN NNother
+to_IN INother
+simulate_VB
+a_DT
+G_NN NNother
+-_HYPH
+banding_NN NNother
+pattern_NN NCOMP
+(_-LRB-
+figure_NN NNother
+taken_VBN ACT
+from_IN INother
+Naiel_NN NNP
+et_FW
+al._FW
+,_,
+2013_CD
+[_-LRB-
+17_CD
+]_-RRB-
+)_-RRB-
+._.
+b_NN NNP
+Schematic_JJAT JJATother
+representation_NN NOMZ
+showing_VBG ACT
+localisation_NN NOMZ
+and_CC
+colour_NN NNother
+-_HYPH
+code_NN NNABSPROC
+of_IN INother
+the_DT
+FISH_NN NNCONC
+probes_NN NCOMP
+relative_RB RBother
+to_IN INother
+the_DT
+three_CD
+colour_NN NNother
+probe_NN NCOMP
+set_NN NNABSPROC
+used_VBN ACT
+._.
+c_NN NNP
+FISH_NN NNP
+using_VBG ACT
+a_DT
+two_CD
+colour_NN NNother
+approach_NN NCOMP
+enables_VPRT CAUSE
+the_DT
+detection_NN NOMZ
+of_IN INother
+both_QUAN
+normal_JJAT JJATother
+chromosomes_NN NNTECH
+7_CD
+(_-LRB-
+harbouring_VBG
+only_RB RBother
+orange_JJAT JJATother
+hybridisation_NN NOMZ
+signals_NN NCOMP
+)_-RRB-
+and_CC
+12_CD
+(_-LRB-
+harbouring_VBG
+only_RB RBother
+green_JJAT JJDESCall JJCOLR
+fluorescent_JJAT JJATother
+signals_NN NNABSPROC
+)_-RRB-
+and_CC
+their_PP3t PP3all
+derivatives_NN NNother
+carrying_VBG ACT
+orange_JJAT JJATother
+and_CC
+green_JJAT JJDESCall JJCOLR
+fusion_NN NNother
+signals_NN NCOMP
+._.
+d_NN NNP
+Schematic_JJAT JJATother
+representation_NN NOMZ
+showing_VBG ACT
+localisation_NN NOMZ
+and_CC
+colour_NN NNother
+-_HYPH
+code_NN NNABSPROC
+of_IN INother
+the_DT
+FISH_NN NNCONC
+probes_NN NCOMP
+relative_RB RBother
+to_IN INother
+the_DT
+two_CD
+colour_NN NNother
+probe_NN NCOMP
+set_NN NNABSPROC
+used_VBN ACT
+._.
+It_PIT
+should_MDNE
+be_VB
+noted_PASS PASSall
+that_THSC THSCother
+the_DT
+two_CD
+colour_NN NNother
+set_NN NCOMP
+does_VPRT DOAUX
+not_XX0
+allow_VB CAUSE
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+discriminate_VB
+between_IN INother
+the_DT
+two_CD
+derivatives_NN NNother
+based_VBN
+on_IN INother
+colour_NN NNother
+pattern_NN NCOMP
+only_RB RBother
+._.
+The_DT
+size_NN NNother
+and_CC
+morphology_NN NNother
+of_IN INother
+chromosomes_NN NNTECH
+7_CD
+and_CC
+12_CD
+compared_VBN MENTAL
+to_IN INother
+their_PP3t PP3all
+respective_JJAT JJATother
+derivatives_NN NNother
+are_VPRT BEMA
+very_AMP
+similar_JJPR JJREL
+,_,
+making_VBG ACT
+the_DT
+identification_NN NOMZ
+of_IN INother
+the_DT
+rearrangement_NN NOMZ
+difficult_JJPR JJPRother
+without_IN INother
+the_DT
+aid_NN NNABSPROC
+of_IN INother
+FISH_NN NNCONC
+._.
+Both_QUAN
+probe_NN NNother
+sets_NN NCOMP
+have_VPRT
+been_PEAS
+provided_PASS PASSall ACT
+by_IN INother
+MetaSystems_NN NNP
+Gmbh_NN NNP
+,_,
+Altlussheim_NN NNP
+,_,
+Germany_NN NNP
+Dual_NN NNP
+colour_NN NCOMP
+whole_JJPR JJPRother
+or_CC
+partial_JJAT JJATother
+chromosome_NN NNTECH
+painting_NN NCOMP
+may_MDMM MDPOSSCall SPLIT
+also_CC
+reveal_VB EXIST
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+._.
+However_CC
+,_,
+visualisation_NN NOMZ
+of_IN INother
+the_DT
+rearrangement_NN NOMZ
+on_IN INother
+one_CD
+or_CC
+both_QUAN
+derivatives_NN NNother
+might_MDMM MDPOSSCall
+be_VB
+impaired_PASS PASSall
+due_IN INother
+to_IN INother
+the_DT
+small_JJAT JJDESCall JJSIZE
+size_NN NNother
+of_IN INother
+the_DT
+translocated_VBN
+fragments_NN NOMZ
+._.
+Reverse_JJAT JJATother
+transcription_NN NOMZ
+polymerase_NN NCOMP
+chain_NN NNCONC
+reaction_NN NCOMP
+Specific_JJAT JJATother
+primers_NN NNother
+have_VPRT
+been_PEAS
+designed_PASS PASSall
+for_IN INother
+the_DT
+detection_NN NOMZ
+of_IN INother
+the_DT
+HLXB9_NN NNP
+/_SYM
+ETV6_NN NNP
+fusion_NN NCOMP
+at_IN INother
+the_DT
+cDNA_NN NNother
+level_NN NCOMP
+by_IN INother
+reverse_NN NNother
+transcription_NN NCOMP
+polymerase_NN NNother
+chain_NN NCOMP
+reaction_NN NNABSPROC
+(_-LRB-
+RT_NN NNP
+-_HYPH
+PCR_NN NNP
+)_-RRB-
+[_-LRB-
+21_CD
+]_-RRB-
+._.
+However_CC
+,_,
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+a_DT
+fusion_NN NNother
+transcript_NN NCOMP
+by_IN INother
+RT_NN NNP
+-_HYPH
+PCR_NN NNP
+has_VPRT
+been_PEAS
+identified_PASS PASSall MENTAL
+only_RB RBother
+in_IN INother
+approximately_RB RBother
+50_CD
+%_NN NNother
+of_IN INother
+t(_SYM
+7,12_CD
+)_-RRB-
+leukaemia_NN NNother
+patients_NN NCOMP
+(_-LRB-
+Table_NN NNP
+1_CD
+)_-RRB-
+._.
+For_IN INother
+this_DEMO
+reason_NN NSTNCother
+RT_NN NNP
+-_HYPH
+PCR_NN NNP
+does_VPRT DOAUX
+not_XX0
+represent_VB EXIST
+a_DT
+reliable_JJAT JJATother
+method_NN NNABSPROC
+for_IN INother
+the_DT
+detection_NN NOMZ
+of_IN INother
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangements_NN NOMZ
+at_IN INother
+diagnosis_NN NNother
+._.
+However_CC
+,_,
+in_IN INother
+those_DEMO
+patients_NN NNHUMAN
+positive_JJPR JJEPSTother
+for_IN INother
+the_DT
+HLXB9_NN NNP
+/_SYM
+ETV6_NN NNP
+fusion_NN NCOMP
+transcript_NN NNCONC
+,_,
+RT_NN NNP
+-_HYPH
+PCR_NN NNP
+would_MDWO MDPREDall
+prove_VB MENTAL
+useful_JJPR JJPRother
+for_IN INother
+the_DT
+monitoring_NN NNother
+of_IN INother
+minimal_JJAT JJATother
+residual_JJAT JJATother
+disease_NN NNother
+[_-LRB-
+53_CD
+]_-RRB-
+._.
+Expression_NN NNABSPROC
+profiling_NN NCOMP
+Studies_NN NNP
+based_VBN
+on_IN INother
+expression_NN NNABSPROC
+microarrays_NN NCOMP
+have_VPRT
+shown_PEAS ACT
+that_THSC THSCother
+the_DT
+leukaemic_JJAT JJATother
+cells_NN NNTECH
+of_IN INother
+patients_NN NNHUMAN
+carrying_VBG ACT
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+have_VPRT
+a_DT
+distinctive_JJAT JJATother
+expression_NN NNABSPROC
+pattern_NN NCOMP
+that_THRC THRCother
+allows_VPRT CAUSE
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+discriminate_VB
+Table_NN NNCONC
+2_CD
+Summary_NN NNother
+of_IN INother
+reports_NN NNother
+of_IN PrepNSTNC
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+with_IN INother
+treatments_NN NNABSPROC
+and_CC
+clinical_JJAT JJATother
+outcome_NN NNother
+Reference_NN NCOMP
+Study_NN NNABSPROC
+group_NN NCOMP
+No._NN NNother
+of_IN INother
+patients_NN NNHUMAN
+CNS_NN NNP
+status_NN NCOMP
+Treatment_NN NNABSPROC
+/_,
+Course_NN NNother
+/_,
+Outcome_NN NNother
+[_-LRB-
+15_CD
+]_-RRB-
+DCLSG_NN NNP
+/_,
+POG_NN NNP
+10_CD
+5_CD
+Treatment_NN NNP
+N/S_NN NNP
+6_CD
+died_VBD OCCUR
+of_IN INother
+leukemia_NN NNother
+1_CD
+died_VBD OCCUR
+of_IN INother
+leukemia_NN NNother
+and_CC
+infection_NN NOMZ
+1_CD
+died_VBD OCCUR
+of_IN INother
+infection_NN NOMZ
+1_CD
+died_VBD OCCUR
+of_IN INother
+treatment_NN NNABSPROC
+related_JJAT JJATother
+toxicity_NN NOMZ
+1_CD
+alive_JJPR JJPRother
+,_,
+22_CD
+months_NN NNQUANT
+after_IN INother
+BMT_NN NNP
+in_IN INother
+CR1_NN NNP
+[_-LRB-
+13_CD
+]_-RRB-
+CCG_NN NNP
+2_CD
+2_CD
+1_CD
+relapsed_VBN
+in_IN INother
+bone_NN NNCONC
+marrow_NN NCOMP
+with_IN INother
+bilateral_JJAT JJATother
+chloromas_NN NNother
+on_IN INother
+the_DT
+hips_NN NNother
+._.
+Treated_VBN
+with_IN INother
+radiation_NN NOMZ
+and_CC
+BMT_NN NNP
+,_,
+but_CC
+later_TIME
+died_VBD OCCUR
+due_IN INother
+to_IN INother
+disease_NN NNother
+1_CD
+relapsed_VBN
+twice_RB RBother
+,_,
+treated_VBN
+with_IN INother
+BMT_NN NNP
+,_,
+alive_JJPR JJPRother
+after_IN INother
+2_CD
+years_NN NNother
+[_-LRB-
+6_CD
+]_-RRB-
+DCOG_NN NNP
+6_CD
+N/S_NN NNP
+Treatment_NN NNP
+N/S_NN NNP
+Median_NN NNP
+EFS_NN NNP
+:_:
+9_CD
+months_NN NNQUANT
+3_CD
+-_HYPH
+year_NN NNother
+EFS_NN NCOMP
+:_:
+0_CD
+%_NN NNother
+3_CD
+-_HYPH
+year_NN NNother
+OS_NN NCOMP
+:_:
+0_CD
+%_NN NNother
+[_-LRB-
+19_CD
+]_-RRB-
+Japan_NN NNP
+1_CD
+N/S_NN NNP
+Alive_JJPR JJPRother
+after_IN INother
+5_CD
+years_NN NNother
+,_,
+treated_VBN
+with_IN INother
+chemotherapy_NN NNother
+only_RB RBother
+[_-LRB-
+16_CD
+]_-RRB-
+Korea_NN NNP
+3_CD
+N/S_NN NNP
+1_CD
+received_VBD ACT
+cord_NN NNother
+blood_NN NCOMP
+transplantation_NN NOMZ
+at_IN INother
+11_CD
+months_NN NNQUANT
+,_,
+relapsed_VBD
+4_CD
+months_NN NNQUANT
+later_TIME
+,_,
+then_RB RBother
+died_VBD OCCUR
+at_IN INother
+16_CD
+months_NN NNQUANT
+1_CD
+died_VBD OCCUR
+during_IN INother
+induction_NN NOMZ
+chemotherapy_NN NCOMP
+from_IN INother
+multiple_JJAT JJATother
+organ_NN NNother
+failure_NN NSTNCother NCOMP
+1_CD
+achieved_VBD
+remission_NN NNother
+,_,
+but_CC
+relapsed_VBD
+at_IN INother
+10_CD
+months_NN NNQUANT
+,_,
+and_CC
+died_VBD OCCUR
+at_IN INother
+16_CD
+months_NN NNQUANT
+[_-LRB-
+56_CD
+]_-RRB-
+COG_NN NNother
+8_CD
+N/S_NN NNP
+Treatment_NN NCOMP
+N/S_NN NNother
+3_CD
+-_HYPH
+year_NN NNother
+EFS_NN NCOMP
+:_:
+14_CD
+%_NN NNother
+3_CD
+-_HYPH
+year_NN NNother
+OS_NN NCOMP
+:_:
+28_CD
+%_NN NNother
+2_CD
+of_IN INother
+7_CD
+evaluable_JJAT JJATother
+patients_NN NNHUMAN
+are_VPRT BEMA
+alive_JJPR JJPRother
+(_-LRB-
+1_CD
+after_IN INother
+chemotherapy_NN NNother
+,_,
+1_CD
+after_IN INother
+BMT_NN NNP
+)_-RRB-
+(_-LRB-
+personal_JJAT JJATother
+communication_NN NOMZ
+)_-RRB-
+Notes_NN NNCONC
+:_:
+DCLSG_NN NNP
+Dutch_NN NNP
+Childhood_NN NNP
+Leukemia_NN NNP
+Study_NN NNP
+Group_NN NNP
+;_:
+POG_NN NNP
+Pediatric_NN NNP
+Oncology_NN NNP
+Group_NN NNP
+;_:
+CCG_NN NNP
+Children_NN NNP
+'s_POS
+Cancer_NN NNP
+Group_NN NNP
+;_:
+COG_NN NNP
+Children_NN NNP
+Oncology_NN NNP
+Group_NN NNP
+;_:
+DCOG_NN NNP
+Dutch_NN NNP
+Childhood_NN NNP
+Oncology_NN NNP
+Group_NN NNP
+;_:
+N/S_NN NNP
+not_XX0
+specified_VBN COMM
+;_:
+BMT_NN NNP
+bone_NN NCOMP
+marrow_NN NNother
+transplantation_NN NCOMP
+;_:
+CR1_NN NNP
+first_JJAT JJATother
+complete_JJAT JJREL
+remission_NN NNother
+;_:
+EFS_NN NNP
+event_NN NCOMP
+-_HYPH
+free_JJAT JJATother
+survival_NN NNother
+;_:
+OS_NN NNP
+overall_JJAT JJATother
+survival_NN NNother
+Tosi_NN NNP
+et_FW
+al_NN NNP
+._.
+Biomarker_NN NNP
+Research_NN NNP
+(_-LRB-
+2015_CD
+)_-RRB-
+3:21_CD
+Page_NN NNCONC
+8_CD
+of_IN INother
+11_CD
+this_DEMO
+specific_JJAT JJATother
+cytogenetic_JJAT JJATother
+subgroup_NN NNother
+from_IN INother
+other_JJPR JJPRother
+[_-LRB-
+51_CD
+]_-RRB-
+._.
+Microarray_NN NNother
+based_VBN
+technologies_NN NNother
+combined_VBN ACT
+with_IN INother
+appropriate_JJAT JJATother
+classifiers_NN NNother
+constitute_VPRT EXIST
+potentially_RB RBother
+a_DT
+very_AMP
+powerful_JJAT JJATother
+diagnostic_JJAT JJATother
+approach_NN NNABSPROC
+,_,
+although_CONC
+in_IN INother
+a_DT
+routine_JJAT JJATother
+diagnostic_JJAT JJATother
+laboratory_NN NNGRP
+the_DT
+availability_NN NOMZ
+of_IN INother
+specialised_VBN
+equipment_NN NNCONC
+and_CC
+costs_NN NNother
+involved_VBN EXIST
+might_MDMM MDPOSSCall
+impact_VB
+on_IN INother
+the_DT
+choice_NN NNABSPROC
+of_IN INother
+method_NN NNABSPROC
+._.
+Incidence_NN NNother
+A_DT
+literature_NN NNother
+search_NN NCOMP
+has_VPRT
+shown_PEAS ACT
+that_THSC THSCother
+at_IN INother
+least_JJAT JJATother
+47_CD
+leukaemia_NN NNother
+patients_NN NCOMP
+with_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+have_VPRT
+been_PEAS
+reported_PASS PASSall COMM
+to_IN INother
+date_NN NNQUANT
+,_,
+based_VBN
+on_IN INother
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+the_DT
+chromosomal_JJAT JJATother
+translocation_NN NOMZ
+and_CC
+/_SYM
+or_CC
+the_DT
+fusion_NN NNother
+transcript_NN NCOMP
+[_-LRB-
+17_CD
+]_-RRB-
+._.
+To_IN INother
+date_NN NNQUANT
+,_,
+there_EX
+are_VPRT
+a_DT
+very_AMP
+limited_JJAT JJATother
+number_NN NNQUANT
+of_IN INother
+studies_NN NNABSPROC
+to_IN INother
+address_VB COMM
+the_DT
+incidence_NN NNother
+of_IN INother
+this_DEMO
+translocation_NN NOMZ
+,_,
+with_IN INother
+a_DT
+quite_RB RBother
+comprehensive_JJAT JJATother
+investigation_NN NOMZ
+considering_VBG MENTAL
+a_DT
+total_NN NNother
+of_IN INother
+345_CD
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+[_-LRB-
+6_CD
+]_-RRB-
+._.
+In_IN INother
+this_DEMO
+study_NN NNABSPROC
+,_,
+patients_NN NNHUMAN
+were_VBD
+subdivided_PASS PASSall
+in_IN INother
+289_CD
+ALL_QUAN
+,_,
+of_IN INother
+which_WHSC WHSCother
+99_CD
+were_VBD BEMA
+infants_NN NNHUMAN
+,_,
+and_CC
+59_CD
+AML_NN NNother
+,_,
+of_IN INother
+which_WHSC WHSCother
+18_CD
+were_VBD BEMA
+infants_NN NNHUMAN
+._.
+It_PIT
+emerged_VBD OCCUR
+that_THSC THSCother
+5_CD
+out_IN INother
+of_IN INother
+18_CD
+infant_NN NNHUMAN
+AMLs_NN NNP
+(_-LRB-
+age_NN NNQUANT
+0_CD
+-_SYM
+12_CD
+months_NN NNQUANT
+)_-RRB-
+harboured_VBD
+the_DT
+t(_$
+7;12_CD
+)_-RRB-
+rearrangement_NN NOMZ
+,_,
+making_VBG ACT
+the_DT
+incidence_NN NNother
+of_IN INother
+this_DEMO
+rearrangement_NN NOMZ
+near_PLACE
+one_CD
+third_NN NNother
+of_IN INother
+infant_NN NNHUMAN
+AML_NN NCOMP
+._.
+In_IN INother
+addition_NN CC
+to_IN INother
+the_DT
+above_NN NNother
+,_,
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+was_VBD SPLIT
+also_CC
+found_PASS PASSall
+in_IN INother
+one_CD
+infant_NN NNHUMAN
+with_IN INother
+ALL_QUAN
+and_CC
+one_CD
+18_CD
+month_NN NNQUANT
+old_JJAT JJTIME
+child_NN NNHUMAN
+with_IN INother
+AML_NN NNP
+._.
+A_DT
+previous_JJAT JJREL
+study_NN NNABSPROC
+was_VBD
+conducted_PASS PASSall
+on_IN INother
+a_DT
+more_RB RBother
+selected_VBN
+series_NN NNABSPROC
+of_IN INother
+leukaemia_NN NNother
+patients_NN NCOMP
+,_,
+chosen_VBN MENTAL
+on_IN INother
+the_DT
+basis_NN NNother
+of_IN INother
+age_NN NNQUANT
+<_-LRB-
+20_CD
+months_NN NNQUANT
+and_CC
+the_DT
+presence_NN NNABSPROC
+of_IN INother
+additional_JJAT JJREL
+copies_NN NNCONC
+of_IN INother
+chromosomes_NN NNTECH
+8_CD
+and_CC
+/_,
+or_CC
+19_CD
+,_,
+as_CC
+well_RB RBother
+as_IN INother
+abnormalities_NN NOMZ
+of_IN INother
+7q_NN NNother
+and_CC
+/_,
+or_CC
+12_CD
+p_NN NNother
+[_-LRB-
+7_CD
+]_-RRB-
+._.
+This_DEMO
+study_NN NNABSPROC
+showed_VBD ACT
+that_THSC ThSTNCall ThVSTNCall ThVFCT
+10_CD
+out_IN INother
+of_IN INother
+23_CD
+patients_NN NNHUMAN
+harboured_VBD
+a_DT
+translocation_NN NOMZ
+between_IN INother
+7q_CD
+and_CC
+12_CD
+p_NN NNother
+._.
+However_CC
+,_,
+in_IN INother
+only_RB RBother
+7_CD
+cases_NN NNCONC
+ETV6_NN NNP
+was_VBD
+involved_PASS PASSall EXIST
+in_IN INother
+the_DT
+translocation_NN NOMZ
+and_CC
+of_IN INother
+these_DEMO
+,_,
+6_CD
+cases_NN NNCONC
+had_VBD
+breakpoint_NN NNother
+in_IN INother
+7q36_CD
+and_CC
+one_CD
+in_IN INother
+7q22_CD
+._.
+Later_TIME
+studies_NN NNABSPROC
+confirmed_VBD MENTAL
+that_THSC THSCother
+the_DT
+incidence_NN NNother
+of_IN INother
+t(_NN NNP
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+was_VBD BEMA
+low_JJPR JJPRother
+when_WHSC WHSCother
+considering_VBG MENTAL
+AML_NN NNP
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+enrolled_VBN
+for_IN INother
+clinical_JJAT JJATother
+trials_NN NNABSPROC
+._.
+These_DEMO
+studies_NN NNABSPROC
+reported_VBD COMM
+four_CD
+t(_SYM
+7;12_CD
+)_-RRB-
+cases_NN NNCONC
+out_IN INother
+of_IN INother
+729_CD
+enrolled_VBN
+in_IN INother
+the_DT
+UK_NN NNP
+MRC_NN NNP
+AML10_NN NNP
+and_CC
+AML_NN NNP
+12_CD
+;_:
+one_CD
+case_NN NNCONC
+out_IN INother
+of_IN INother
+454_CD
+in_IN INother
+AML_NN NNP
+-_HYPH
+BFM_NN NNP
+98_CD
+and_CC
+8_CD
+cases_NN NNCONC
+out_IN INother
+of_IN INother
+981_CD
+enrolled_VBN
+in_IN INother
+the_DT
+COG_NN NNP
+trial_NN NCOMP
+AAML0531_NN NNP
+[_-LRB-
+54_CD
+-_SYM
+56_CD
+]_-RRB-
+._.
+Prognostic_JJAT JJATother
+significance_NN NNother
+and_CC
+treatment_NN NNABSPROC
+options_NN NCOMP
+Prognostic_JJAT JJATother
+significance_NN NNother
+and_CC
+clinical_JJAT JJATother
+outcome_NN NNother
+Cytogenetic_JJAT JJATother
+and_CC
+molecular_JJAT JJATother
+markers_NN NNCONC
+are_VPRT BEMA
+important_JJAT JJATother
+factors_NN NNABSPROC
+to_IN INother
+be_VB
+taken_PASS PASSall ACT
+in_IN INother
+consideration_NN NNCOG
+when_WHSC WHSCother
+stratifying_VBG
+patients_NN NNHUMAN
+into_IN INother
+high_JJAT JJATother
+risk_NN NNABSPROC
+/_,
+low_JJAT JJATother
+risk_NN NNABSPROC
+categories_NN NCOMP
+and_CC
+are_VPRT BEMA
+of_IN INother
+guidance_NN NNother
+for_IN INother
+making_VBG ACT
+treatment_NN NNABSPROC
+choices_NN NCOMP
+._.
+The_DT
+WHO_WHSC WHSCother
+system_NN NNABSPROC
+for_IN INother
+the_DT
+classification_NN NOMZ
+of_IN INother
+myeloid_NN NNother
+neoplasms_NN NCOMP
+and_CC
+acute_JJAT JJATother
+leukemia_NN NNother
+has_VPRT
+been_PEAS
+amended_PASS PASSall
+to_IN INother
+include_VB EXIST
+such_JJAT JJATother
+information_NN NNABSPROC
+[_-LRB-
+5_CD
+]_-RRB-
+._.
+At_IN INother
+present_JJPR JJPRother
+,_,
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+is_VPRT
+not_XX0
+included_PASS PASSall EXIST
+in_IN INother
+the_DT
+WHO_WHSC WHSCother
+classification_NN NOMZ
+,_,
+although_CONC
+it_PIT
+is_VPRT
+recommended_PASS PASSall COMM
+that_THSC THSCother
+it_PIT
+be_VB
+considered_PASS PASSall MENTAL
+as_IN INother
+a_DT
+separate_JJAT JJATother
+entity_NN NOMZ
+when_WHSC WHSCother
+assessing_VBG MENTAL
+infant_NN NNHUMAN
+leukaemia_NN NCOMP
+[_-LRB-
+3_CD
+]_-RRB-
+._.
+Review_NN NNother
+of_IN INother
+published_VBN
+data_NN NNTECH
+on_IN INother
+the_DT
+clinical_JJAT JJATother
+outcome_NN NNother
+of_IN INother
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+AMLs_NN NNP
+reveals_VPRT EXIST
+inferior_JJAT JJATother
+outcome_NN NNother
+with_IN INother
+3_CD
+years_NN NNother
+probabilities_NN NCOMP
+of_IN INother
+event_NN NNother
+free_JJAT JJATother
+survival_NN NNother
+(_-LRB-
+EFS_NN NNP
+)_-RRB-
+of_IN INother
+0_CD
+-_SYM
+14_CD
+%_NN NNother
+and_CC
+overall_JJAT JJATother
+survival_NN NNother
+(_-LRB-
+OS_NN NNP
+)_-RRB-
+of_IN INother
+0_CD
+-_SYM
+28_CD
+%_NN NNother
+(_-LRB-
+Table_NN NNP
+2_CD
+)_-RRB-
+[_-LRB-
+6_CD
+,_,
+13_CD
+,_,
+14_CD
+,_,
+16_CD
+,_,
+56_CD
+]_-RRB-
+._.
+However_CC
+,_,
+one_CD
+report_NN NNother
+of_IN PrepNSTNC
+a_DT
+paediatric_JJAT JJATother
+patient_NN NNHUMAN
+with_IN INother
+acute_JJAT JJATother
+megakaryocytic_JJAT JJATother
+leukaemia_NN NNother
+and_CC
+t(_SYM
+7;12_CD
+)_-RRB-
+described_VBD COMM
+achievement_NN NNABSPROC
+of_IN INother
+complete_JJAT JJREL
+remission_NN NNother
+with_IN INother
+chemotherapy_NN NNother
+alone_RB RBother
+for_IN INother
+60_CD
+months_NN NNQUANT
+at_IN INother
+time_NN NNQUANT
+of_IN INother
+publication_NN NOMZ
+[_-LRB-
+19_CD
+]_-RRB-
+._.
+Papers_NN NNCONC
+from_IN INother
+different_JJAT JJREL
+clinical_JJAT JJATother
+trial_NN NNABSPROC
+groups_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+the_DT
+Children_NN NNP
+'s_POS
+Oncology_NN NNP
+Group_NN NNP
+(_-LRB-
+COG_NN NNP
+)_-RRB-
+[_-LRB-
+56_CD
+]_-RRB-
+,_,
+UK_NN NNP
+MRC_NN NNP
+AML_NN NNP
+10_CD
+and_CC
+12_CD
+[_-LRB-
+53_CD
+]_-RRB-
+and_CC
+the_DT
+Berlin_NN NNP
+-_HYPH
+Frankfurt_NN NNP
+-_HYPH
+Munich_NN NNP
+(_-LRB-
+BFM_NN NNP
+)_-RRB-
+[_-LRB-
+55_CD
+]_-RRB-
+included_VBD EXIST
+the_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+in_IN INother
+the_DT
+group_NN NNother
+of_IN INother
+patients_NN NNHUMAN
+with_IN INother
+12_CD
+p_NN NNother
+abnormalities_NN NOMZ
+and_CC
+confirmed_VBD MENTAL
+their_PP3t PP3all
+association_NN NOMZ
+with_IN INother
+poor_JJAT JJEVAL
+prognosis_NN NNother
+._.
+It_PIT
+was_VBD SPLIT
+also_CC
+stressed_PASS PASSall
+the_DT
+need_NN NNCOG
+to_IN INother
+Tosi_NN NNP
+et_NN NNP
+al_NN NNP
+._.
+Biomarker_NN NNP
+Research_NN NNP
+(_-LRB-
+2015_CD
+)_-RRB-
+3:21_CD
+Page_NN NNCONC
+9_CD
+of_IN INother
+11_CD
+consider_VPRT MENTAL
+these_DEMO
+patients_NN NNHUMAN
+as_IN INother
+a_DT
+high_JJAT JJATother
+risk_NN NNABSPROC
+group_NN NCOMP
+based_VBN
+on_IN INother
+the_DT
+cytogenetic_JJAT JJATother
+classification_NN NOMZ
+of_IN INother
+AML_NN NNother
+._.
+Standard_JJAT JJREL
+treatment_NN NNABSPROC
+Standard_NN NNP
+treatment_NN NCOMP
+for_IN INother
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+with_IN INother
+AML_NN NNP
+includes_VPRT EXIST
+induction_NN NOMZ
+chemotherapy_NN NCOMP
+(_-LRB-
+remission_NN NNother
+induction_NN NCOMP
+)_-RRB-
+with_IN INother
+an_DT
+anthracycline_NN NNother
+based_VBN
+regimen_NN NNother
+which_WHSC WHSCother
+also_CC
+contains_VPRT EXIST
+cytarabine_NN NNother
+._.
+The_DT
+choice_NN NNABSPROC
+of_IN INother
+the_DT
+anthracycline_NN NNother
+drug_NN NCOMP
+used_VBN ACT
+,_,
+as_CC
+well_RB RBother
+as_IN INother
+the_DT
+total_JJAT JJATother
+doses_NN NNother
+of_IN INother
+chemotherapy_NN NNother
+differ_VPRT
+between_IN INother
+different_JJAT JJREL
+centres_NN NNTECH
+and_CC
+collaborative_JJAT JJATother
+study_NN NNABSPROC
+groups_NN NCOMP
+._.
+Most_JJAT JJATother
+children_NN NNHUMAN
+achieve_VPRT
+complete_JJAT JJREL
+remission_NN NNother
+with_IN INother
+rates_NN NNQUANT
+of_IN INother
+80_CD
+-_SYM
+90_CD
+%_NN NNother
+after_IN INother
+2_CD
+induction_NN NOMZ
+courses_NN NCOMP
+and_CC
+the_DT
+toxic_JJAT JJATother
+death_NN NNABSPROC
+rate_NN NCOMP
+is_VPRT BEMA
+in_IN INother
+the_DT
+region_NN NNPLACE
+of_IN INother
+5_CD
+%_NN NNother
+,_,
+with_IN INother
+the_DT
+failures_NN NSTNCother
+being_VBG BEMA
+due_IN INother
+to_IN INother
+resistant_JJAT JJATother
+disease_NN NNother
+[_-LRB-
+4_CD
+]_-RRB-
+._.
+Consolidation_NN NOMZ
+or_CC
+Intensification_NN NOMZ
+chemotherapy_NN NCOMP
+(_-LRB-
+post_NN NNCONC
+-_HYPH
+remission_NN NNother
+therapy_NN NCOMP
+)_-RRB-
+is_VPRT BEMA
+essential_JJPR JJPRother
+for_IN INother
+cure_NN NNother
+._.
+It_PIT
+includes_VPRT EXIST
+the_DT
+administration_NN NNABSPROC
+of_IN INother
+high_JJAT JJATother
+dose_NN NNother
+cytarabine_NN NCOMP
+possibly_HDG
+in_IN INother
+combination_NN NNABSPROC
+with_IN INother
+other_JJAT JJATother
+drugs_NN NNCONC
+._.
+Doses_NN NNother
+,_,
+duration_NN NOMZ
+,_,
+number_NN NNQUANT
+of_IN INother
+drugs_NN NNCONC
+as_CC
+well_RB RBother
+as_IN INother
+scheduling_NN NNother
+differ_VPRT
+between_IN INother
+collaborative_JJAT JJATother
+groups_NN NNother
+._.
+Currently_TIME
+,_,
+treatment_NN NNABSPROC
+related_JJAT JJATother
+death_NN NNABSPROC
+rates_NN NCOMP
+in_IN INother
+AML_NN NNP
+paediatric_JJAT JJATother
+patients_NN NNHUMAN
+,_,
+with_IN INother
+the_DT
+improvement_NN NOMZ
+of_IN INother
+supportive_JJAT JJATother
+care_NN NNABSPROC
+and_CC
+the_DT
+administration_NN NNABSPROC
+of_IN INother
+treatment_NN NNABSPROC
+in_IN INother
+experienced_VBN MENTAL
+units_NN NNTECH
+,_,
+are_VPRT BEMA
+now_TIME
+less_QUAN
+than_IN INother
+10_CD
+%_NN NNother
+[_-LRB-
+4_CD
+]_-RRB-
+._.
+Stem_NN NNCONC
+cell_NN NCOMP
+transplantation_NN NOMZ
+Haematopoietic_JJAT JJATother
+stem_NN NNCONC
+cell_NN NCOMP
+transplantation_NN NOMZ
+(_-LRB-
+HSCT_NN NNother
+)_-RRB-
+is_VPRT
+considered_PASS PASSall MENTAL
+an_DT
+effective_JJAT JJATother
+therapy_NN NNother
+for_IN INother
+treatment_NN NNABSPROC
+of_IN INother
+high_JJAT JJATother
+risk_NN NNABSPROC
+leukaemia_NN NCOMP
+._.
+However_CC
+,_,
+the_DT
+high_JJAT JJATother
+toxicity_NN NOMZ
+which_WHSC WHSCother
+includes_VPRT EXIST
+a_DT
+mortality_NN NOMZ
+rate_NN NCOMP
+reaching_VBG ACT
+up_RP
+to_IN INother
+20_CD
+%_NN NNother
+in_IN INother
+some_QUAN
+series_NN NNABSPROC
+,_,
+makes_VPRT ACT
+it_PIT
+not_XX0
+a_DT
+standard_JJAT JJREL
+therapy_NN NNother
+in_IN INother
+the_DT
+first_JJAT JJATother
+line_NN NNother
+treatment_NN NCOMP
+of_IN INother
+AML_NN NNother
+patients_NN NCOMP
+with_IN INother
+favourable_JJAT JJATother
+cytogenetics_NN NNother
+,_,
+where_WHSC WHSCother
+a_DT
+high_JJAT JJATother
+cure_NN NNother
+rate_NN NCOMP
+is_VPRT
+achieved_PASS PASSall
+with_IN INother
+chemotherapy_NN NNother
+alone_RB RBother
+._.
+For_IN INother
+patients_NN NNHUMAN
+with_IN INother
+unfavourable_JJAT JJATother
+cytogenetics_NN NNother
+,_,
+although_CONC
+the_DT
+benefit_NN NNABSPROC
+of_IN INother
+HSCT_NN NNP
+is_VPRT BEMA
+still_RB RBother
+to_IN INother
+be_VB SPLIT
+fully_AMP
+explored_PASS PASSall ACT
+,_,
+HSCT_NN NNP
+is_VPRT
+considered_PASS PASSall MENTAL
+by_IN INother
+many_QUAN
+groups_NN NNother
+as_IN INother
+the_DT
+standard_NN NNABSPROC
+of_IN INother
+care_NN NNABSPROC
+[_-LRB-
+57_CD
+,_,
+58_CD
+]_-RRB-
+._.
+When_WHSC WHSCother
+patients_NN NNHUMAN
+relapse_VPRT
+,_,
+the_DT
+most_RB SUPER
+important_JJAT JJATother
+prognostic_JJAT JJATother
+factors_NN NNABSPROC
+that_THRC THRCother
+will_MDWS MDPREDall
+determine_VB MENTAL
+the_DT
+outcome_NN NNother
+of_IN INother
+the_DT
+salvage_NN NNother
+therapy_NN NCOMP
+are_VPRT BEMA
+the_DT
+length_NN NNQUANT
+of_IN INother
+first_JJAT JJATother
+remission_NN NNother
+and_CC
+cytogenetics_NN NNother
+._.
+In_IN INother
+the_DT
+United_NN NNP
+Kingdom_NN NNP
+,_,
+HSCT_NN NNP
+is_VPRT SPLIT
+generally_FREQ
+used_PASS PASSall ACT
+as_IN INother
+consolidation_NN NOMZ
+therapy_NN NCOMP
+as_IN INother
+part_NN NNQUANT
+of_IN INother
+salvage_NN NNother
+treatment_NN NCOMP
+with_IN INother
+a_DT
+survival_NN NNother
+rate_NN NCOMP
+of_IN INother
+around_HDG
+40_CD
+%_NN NNother
+achieved_VBN
+irrespective_JJPR JJPRother
+of_IN INother
+the_DT
+source_NN NNABSPROC
+of_IN INother
+stem_NN NNCONC
+cells_NN NCOMP
+._.
+However_CC
+,_,
+it_PIT
+is_VPRT BEMA
+important_JJPR JJPRother
+to_IN SPLIT
+better_RB COMPAR
+understand_VB MENTAL
+molecular_NN NNother
+markers_NN NCOMP
+and_CC
+cytogenetics_NN NNother
+of_IN INother
+the_DT
+disease_NN NNother
+to_IN INother
+identify_VB MENTAL
+patients_NN NNHUMAN
+who_WHSC WHSCother
+would_MDWO MDPREDall SPLIT
+most_RB RBother
+likely_RB RBother
+benefit_VB
+from_IN INother
+this_DEMO
+modality_NN NOMZ
+of_IN INother
+treatment_NN NNABSPROC
+[_-LRB-
+59_CD
+]_-RRB-
+._.
+To_IN INother
+date_NN NNQUANT
+,_,
+although_CONC
+there_EX
+are_VPRT
+no_DMA
+published_VBN
+guidelines_NN NNother
+about_IN INother
+the_DT
+management_NN NNABSPROC
+of_IN INother
+this_DEMO
+group_NN NNother
+,_,
+there_EX
+is_VPRT
+increasing_PROG OCCUR
+interest_NN NNABSPROC
+among_IN INother
+paediatric_JJAT JJATother
+haematologists_NN NNother
+/_,
+study_NN NNABSPROC
+groups_NN NCOMP
+to_IN INother
+consider_VB MENTAL
+intensification_NN NOMZ
+of_IN INother
+therapy_NN NNother
+with_IN INother
+allogeneic_JJAT JJATother
+stem_NN NNCONC
+cell_NN NCOMP
+transplantation_NN NOMZ
+in_IN INother
+first_JJAT JJATother
+complete_JJAT JJREL
+remission_NN NNother
+[_-LRB-
+13_CD
+,_,
+15_CD
+,_,
+16_CD
+,_,
+56_CD
+]_-RRB-
+._.
+Further_JJAT COMPAR
+study_NN NNABSPROC
+of_IN INother
+this_DEMO
+important_JJAT JJATother
+subgroup_NN NNother
+of_IN INother
+infant_NN NNHUMAN
+AML_NN NCOMP
+as_CC
+well_RB RBother
+as_IN INother
+the_DT
+incorporation_NN NOMZ
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+in_IN INother
+future_JJAT JJATother
+risk_NN NNABSPROC
+stratification_NN NCOMP
+schemas_NN NNother
+are_VPRT
+needed_PASS PASSall MENTAL
+to_IN SPLIT
+better_RB COMPAR
+understand_VB MENTAL
+the_DT
+best_JJAT SUPER
+treatment_NN NNABSPROC
+approach_NN NCOMP
+._.
+Conclusions_NN NSTNCother
+The_DT
+t(_NN NNother
+7;12_CD
+)_-RRB-
+(_-LRB-
+q36;p13_NN NNother
+)_-RRB-
+is_VPRT BEMA
+a_DT
+rare_JJAT JJATother
+cytogenetic_JJAT JJATother
+abnormality_NN NOMZ
+in_IN INother
+paediatric_JJAT JJATother
+AML_NN NNother
+and_CC
+difficult_JJPR JJPRother
+to_IN ToSTNCall ToJSTNCall ToJEASE
+identify_VB MENTAL
+using_VBG ACT
+conventional_JJAT JJATother
+karyotyping_NN NNother
+._.
+The_DT
+use_NN NNABSPROC
+of_IN INother
+FISH_NN NNCONC
+with_IN INother
+appropriate_JJAT JJATother
+probe_NN NNother
+sets_NN NCOMP
+would_MDWO MDPREDall
+enable_VB CAUSE
+diagnostic_JJAT JJATother
+laboratories_NN NNGRP
+to_IN INother
+identify_VB MENTAL
+this_DEMO
+cytogenetic_JJAT JJATother
+entity_NN NOMZ
+confidently_RB RBother
+and_CC
+to_IN INother
+give_VB ACT
+a_DT
+better_JJAT COMPAR
+estimate_NN NNother
+of_IN INother
+its_PIT
+occurrence_NN NNother
+._.
+The_DT
+incidence_NN NNother
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+is_VPRT BEMA
+low_JJPR JJPRother
+in_IN INother
+overall_JJAT JJATother
+paediatric_JJAT JJATother
+AML_NN NNother
+,_,
+but_CC
+significant_JJPR JJPRother
+in_IN INother
+infant_NN NNHUMAN
+leukaemia_NN NCOMP
+._.
+There_EX
+are_VPRT
+no_DMA
+published_VBN
+management_NN NNABSPROC
+guidelines_NN NCOMP
+for_IN INother
+those_DEMO
+patients_NN NNHUMAN
+,_,
+but_CC
+it_PIT
+is_VPRT SPLIT
+now_TIME
+acknowledged_PASS PASSall COMM
+as_IN INother
+a_DT
+high_JJAT JJATother
+risk_NN NNABSPROC
+group_NN NCOMP
+with_IN INother
+poor_JJAT JJEVAL
+prognosis_NN NNother
+and_CC
+accordingly_RB RBother
+many_QUAN
+are_VPRT
+being_PROG
+treated_PASS PASSall
+with_IN INother
+HSCT_NN NNP
+in_IN INother
+first_JJAT JJATother
+complete_JJAT JJREL
+remission_NN NNother
+._.
+Better_JJAT COMPAR
+understanding_NN NNCOG
+of_IN INother
+the_DT
+genetic_JJAT JJATother
+mechanisms_NN NNABSPROC
+at_IN INother
+the_DT
+basis_NN NNother
+of_IN INother
+t(_$
+7;12_CD
+)_-RRB-
+leukaemias_NN NNother
+and_CC
+the_DT
+role_NN NNABSPROC
+of_IN INother
+HLXB9_NN NNother
+in_IN INother
+the_DT
+establishment_NN NOMZ
+of_IN INother
+this_DEMO
+malignancies_NN NNother
+would_MDWO MDPREDall
+provide_VB ACT
+grounds_NN NNPLACE
+for_IN PrepNSTNC
+possible_JJPR JJEPSTother
+tailored_VBN
+therapy_NN NNother
+._.

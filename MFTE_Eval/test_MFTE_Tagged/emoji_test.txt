@@ -1,0 +1,62 @@
+Here_PLACE
+'s_VPRT CONT BEMA
+a_DT
+:-)_EMO
+emoji_NN NNother
+test_NN NCOMP
+._.
+I_PP1S PP1all
+ca_MDCA MDPOSSCall
+n't_XX0 CONT
+say_VB COMM THATD
+I_PP1S PP1all
+like_VPRT MENTAL
+it_PIT
+much_QUAN
+3_CD
+>_,
+3_CD
+>_-RRB-
+but_CC
+it_PIT
+'s_VPRT CONT
+probably_HDG
+good_JJPR JJEVAL
+hahaha_FPUH
+😃💁_EMO
+People_NN NNHUMAN
+•_SYM
+🐻🌻_EMO
+Animals_NN NNHUMAN
+•_SYM
+🍔🍹_EMO
+Food_NN NNCONC
+•_SYM
+🎷⚽️_EMO
+Activities_NN NNABSPROC
+•_SYM
+🚘🌇_EMO
+Travel_NN NNP
+•_SYM
+💡🎉_EMO
+Objects_NN NNP
+•_SYM
+💖🔣_EMO
+Symbols_NN NNABSPROC
+•_SYM
+🎌🏳️‍_EMO
+🌈_EMO
+Flags_NN NNP
+._.
+;-)_EMO
+)_-RRB-
+)_-RRB-
+8_CD
+"_''
+"_``
+8_CD
+"_''
+8_CD
+:_:
+:8_CD
+:"_EMO

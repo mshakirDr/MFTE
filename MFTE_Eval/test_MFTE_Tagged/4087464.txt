@@ -1,0 +1,1859 @@
+One_CD
+Atlanta_NN NNP
+-_HYPH
+based_VBN
+company_NN NNGRP
+sells_VPRT ACT
+roast_NN NNother
+beef_NN NCOMP
+sandwiches_NN NNother
+and_CC
+the_DT
+Frosty_NN NNP
+._.
+Another_DT
+makes_VPRT ACT
+folding_VBG
+cartons_NN NNother
+for_IN INother
+fast_JJAT JJATother
+food_NN NNCONC
+._.
+That_DEMO
+'s_VPRT CONT
+where_WHSC WHSCother
+the_DT
+similarities_NN NOMZ
+end_VPRT ASPECT
+for_IN INother
+Wendy_NN NNP
+'s_POS
+/_,
+Arby_NN NNP
+'s_POS
+Group_NN NNP
+and_CC
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+Co_NN NNP
+._.
+Both_QUAN
+made_VBD ACT
+big_JJAT JJDESCall JJSIZE
+mergers_NN NNother
+and_CC
+acquisitions_NN NOMZ
+news_NN NCOMP
+over_IN PrepNSTNC
+the_DT
+past_JJAT JJATother
+week_NN NNQUANT
+and_CC
+a_DT
+half_QUAN
+,_,
+for_IN INother
+different_JJAT JJREL
+reasons_NN NSTNCother
+._.
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+,_,
+built_VBN
+on_IN INother
+a_DT
+string_NN NNCONC
+of_IN INother
+business_NN NOMZ
+consolidations_NN NCOMP
+over_IN INother
+the_DT
+past_JJAT JJATother
+113_CD
+years_NN NNother
+,_,
+just_RB RBother
+proposed_VBD COMM
+its_PIT
+largest_JJPR SUPER
+yet_TIME
+:_:
+a_DT
+$_$
+3.5_CD
+billion_CD
+takeover_NN NNother
+of_IN INother
+Smurfit_NN NNP
+-_HYPH
+Stone_NN NNP
+,_,
+a_DT
+larger_JJAT COMPAR
+producer_NN NNother
+of_IN INother
+containerboard_NN NNother
+,_,
+the_DT
+stuff_NN NNother
+that_THRC THRCother
+makes_VPRT ACT
+moving_VBG ACT
+boxes_NN NNCONC
+._.
+If_COND
+approved_VBN MENTAL
+,_,
+the_DT
+deal_NN NNABSPROC
+will_MDWS MDPREDall
+triple_VB
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+'s_POS
+size_NN NNother
+._.
+Ten_CD
+miles_NN NNQUANT
+to_IN INother
+the_DT
+west_PLACE
+,_,
+leaders_NN NNHUMAN
+of_IN INother
+Wendy_NN NNP
+'s_POS
+/_,
+Arby_NN NNP
+'s_POS
+have_VPRT
+encountered_PEAS ACT
+the_DT
+flip_NN NNother
+side_NN NCOMP
+of_IN INother
+a_DT
+merger_NN NNother
+._.
+They_PP3t PP3all
+want_VPRT MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+break_VB
+up_RP
+the_DT
+company_NN NNGRP
+less_QUAN
+than_IN INother
+three_CD
+years_NN NNother
+after_IN INother
+pulling_VBG ACT
+the_DT
+two_CD
+brands_NN NNother
+together_RB RBother
+._.
+The_DT
+divergent_JJAT JJATother
+paths_NN NNother
+underscore_VPRT
+the_DT
+difficulty_NN NNother
+of_IN INother
+crafting_VBG
+a_DT
+successful_JJAT JJATother
+merger_NN NNother
+or_CC
+takeover_NN NNother
+._.
+Such_JJAT JJATother
+deals_NN NNABSPROC
+create_VPRT
+some_QUAN
+of_IN INother
+the_DT
+diciest_JJAT SUPER
+issues_NN NNABSPROC
+in_IN INother
+American_JJAT JJATother
+business_NN NOMZ
+:_:
+cultural_JJAT JJATother
+clashes_NN NNother
+,_,
+loss_NN NNother
+of_IN INother
+talented_JJAT JJATother
+employees_NN NNHUMAN
+and_CC
+financial_JJAT JJATother
+benefits_NN NNABSPROC
+that_THRC THRCother
+prove_VPRT MENTAL
+elusive_JJPR JJPRother
+._.
+Tread_VIMP
+carefully_RB RBother
+in_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+know_NN NNP
+how_WHQU
+75_CD
+percent_NN NNQUANT
+of_IN INother
+all_QUAN
+people_NN NNHUMAN
+consider_VPRT MENTAL
+themselves_PP3t PP3all
+above_IN INother
+-_HYPH
+average_JJAT JJREL
+drivers_NN NNHUMAN
+?_. WQ
+Well_DMA
+,_,
+75_CD
+percent_NN NNQUANT
+of_IN INother
+executives_NN NNHUMAN
+probably_HDG
+think_VPRT MENTAL THATD
+they_PP3t PP3all
+'re_VPRT CONT BEMA
+above_IN INother
+-_HYPH
+average_JJAT JJREL
+deal_NN NNABSPROC
+-_HYPH
+makers_NN NNHUMAN
+,_,
+"_''
+said_VBD COMM
+Marc_NN NNP
+C._NN NNP
+D'Annunzio_NN NNP
+,_,
+a_DT
+member_NN NNHUMAN
+of_IN INother
+the_DT
+Siavage_NN NNP
+Law_NN NNP
+Group_NN NNP
+in_IN INother
+Atlanta_NN NNP
+._.
+"_''
+Which_WHSC WHSCother
+is_VPRT BEMA
+impossible_JJPR JJEPSTother
+._.
+"_``
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+traces_VPRT
+its_PIT
+roots_NN NNCONC
+back_RB RBother
+to_IN INother
+Rock_NN NNP
+City_NN NNP
+Box_NN NNP
+Co._NN NNP
+,_,
+which_WHSC WHSCother
+was_VBD
+founded_PASS PASSall
+in_IN INother
+Nashville_NN NNP
+in_IN INother
+1898_CD
+._.
+Thirty_CD
+-_HYPH
+eight_CD
+years_NN NNother
+later_TIME
+,_,
+a_DT
+Baltimore_NN NNP
+businessman_NN NCOMP
+named_VBD
+Arthur_NN NNP
+Newth_NN NNP
+Morris_NN NNP
+started_VBD ASPECT
+the_DT
+Southern_NN NNP
+Box_NN NNP
+Co._NN NNP
+,_,
+which_WHSC WHSCother
+bought_VBD ACT
+Rock_NN NNP
+City_NN NNP
+in_IN INother
+1944_CD
+,_,
+in_IN INother
+the_DT
+midst_NN NNother
+of_IN INother
+World_NN NNP
+War_NN NNP
+II_FPUH
+._.
+In_IN INother
+1973_CD
+,_,
+Morris_NN NNP
+company_NN NCOMP
+merged_VBD
+with_IN INother
+a_DT
+56_CD
+-_HYPH
+year_NN NNother
+-_HYPH
+old_JJAT JJTIME
+Chattanooga_NN NNP
+firm_NN NCOMP
+called_VBN COMM
+Tennessee_NN NNP
+Paper_NN NNP
+Mills_NN NNP
+to_IN INother
+form_VB ACT
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+Co._NN NNP
+From_IN INother
+its_PIT
+headquarters_NN NNother
+in_IN INother
+Norcross_NN NNP
+,_,
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+operates_VPRT
+in_IN INother
+quiet_JJPR JJPRother
+._.
+That_DEMO
+'s_VPRT CONT BEMA
+the_DT
+low_JJAT JJATother
+-_HYPH
+profile_NN NNABSPROC
+nature_NN NCOMP
+of_IN INother
+the_DT
+packaging_NN NNother
+business_NN NCOMP
+,_,
+chief_JJAT JJREL
+executive_NN NNHUMAN
+Jim_NN NNP
+Rubright_NN NNP
+said_VBD COMM
+._.
+"_''
+All_QUAN
+of_IN INother
+our_PP1P PP1all
+customers_NN NNHUMAN
+have_VPRT
+a_DT
+brand_NN NNother
+identity_NN NCOMP
+or_CC
+a_DT
+product_NN NNother
+identity_NN NCOMP
+,_,
+but_CC
+ours_PP1P PP1all
+does_VPRT ACT
+n't_XX0 CONT
+,_,
+"_''
+he_PP3m PP3all
+said_VBD COMM
+._.
+"_''
+The_DT
+general_JJAT JJREL
+public_NN NNother
+does_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+the_DT
+hundreds_NN NNother
+of_IN INother
+times_NN NNQUANT
+they_PP3t PP3all
+touch_VPRT
+our_PP1P PP1all
+products_NN NNother
+,_,
+and_CC
+they_PP3t PP3all
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB MENTAL
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+That_DEMO
+dark_JJAT JJDESCall JJCOLR
+-_HYPH
+horse_NN NNother
+approach_NN NCOMP
+might_MDMM MDPOSSCall
+be_VB BEMA
+harder_JJPR COMPAR
+to_IN INother
+pull_VB ACT
+off_RP
+now_TIME
+._.
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+,_,
+adept_JJPR JJPRother
+at_IN INother
+churning_VBG
+out_RP
+and_CC
+managing_VBG
+cash_NN NNother
+and_CC
+paying_VBG ACT
+off_RP
+debt_NN NNABSPROC
+quickly_RB RBother
+,_,
+is_VPRT
+"_``
+an_DT
+emerging_VBG OCCUR
+industry_NN NNother
+thoroughbred_NN NCOMP
+,_,
+"_''
+Deutsche_NN NNP
+Bank_NN NNP
+analyst_NN NCOMP
+Mark_NN NNP
+Wilde_NN NNP
+said_VBD COMM
+._.
+It_PIT
+is_VPRT BEMA
+risky_JJPR JJPRother
+for_IN INother
+a_DT
+company_NN NNGRP
+such_JJPR JJPRother
+as_IN ELAB
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+--_,
+-_,
+which_WHSC WHSCother
+has_VPRT
+less_QUAN
+experience_NN NNCOG
+in_IN INother
+producing_VBG ACT
+containerboard_NN NNother
+than_IN INother
+does_VPRT ACT
+Smurfit_NN NNP
+-_HYPH
+Stone_NN NNP
+--_,
+-_,
+to_IN INother
+buy_VB ACT
+an_DT
+industry_NN NNother
+leader_NN NCOMP
+in_IN INother
+that_DEMO
+segment_NN NOMZ
+,_,
+said_VBD COMM
+Mark_NN NNP
+Connelly_NN NNP
+,_,
+an_DT
+analyst_NN NNother
+with_IN INother
+Credit_NN NNother
+Agricole_NN NNP
+Securities_NN NNP
+._.
+But_CC
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+got_VBD
+a_DT
+good_JJAT JJEVAL
+enough_JJAT JJATother
+deal_NN NNABSPROC
+to_IN INother
+protect_VB
+itself_PIT
+even_RB RBother
+if_COND
+prices_NN NNother
+for_IN INother
+its_PIT
+products_NN NNother
+fall_VPRT OCCUR
+,_,
+Connelly_NN NNP
+wrote_VBD COMM
+._.
+Rubright_NN NNP
+insists_VPRT COMM THATD
+his_PP3m PP3all
+company_NN NNGRP
+is_VPRT
+not_XX0
+looking_PROG
+for_IN INother
+"_``
+fixer_NN NNother
+-_HYPH
+upper_JJPR COMPAR
+"_''
+assets_NN NNother
+._.
+He_PP3m PP3all
+likes_VPRT MENTAL
+the_DT
+fact_NN NSTNCother
+that_THSC THSCother
+Smurfit_NN NNP
+-_HYPH
+Stone_NN NNP
+invested_VBD
+$_$
+550_CD
+million_CD
+in_IN INother
+its_PIT
+facilities_NN NNABSPROC
+recently_TIME
+,_,
+but_CC
+added_VBD ACT
+that_THSC THSCother
+those_DEMO
+plants_NN NNCONC
+could_MDCO MDPOSSCall
+be_VB
+made_PASS PASSall ACT
+more_RB COMPAR
+efficient_JJPR JJPRother
+._.
+"_''
+We_PP1P PP1all
+want_VPRT MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+be_VB BEMA
+the_DT
+most_RB RBother
+respected_VBN
+company_NN NNGRP
+in_IN INother
+the_DT
+industry_NN NNother
+,_,
+"_''
+he_PP3m PP3all
+said_VBD COMM
+._.
+"_''
+We_PP1P PP1all
+'re_VPRT CONT SPLIT
+always_FREQ
+looking_PROG
+for_IN INother
+very_AMP
+good_JJAT JJEVAL
+companies_NN NNGRP
+._.
+"_``
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+has_VPRT
+completed_PEAS ASPECT
+about_RB RBother
+a_DT
+dozen_CD
+acquisitions_NN NOMZ
+stretching_VBG
+back_RB RBother
+to_IN INother
+1973_CD
+,_,
+including_VBG EXIST
+Gulf_NN NNP
+States_NN NNP
+Paper_NN NNP
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_NN NNP
+Those_DEMO
+deals_NN NNABSPROC
+helped_VBD CAUSE
+put_VB ACT
+it_PIT
+in_IN INother
+the_DT
+big_JJAT JJDESCall JJSIZE
+leagues_NN NNother
+._.
+Its_PIT
+latest_JJPR SUPER
+will_MDWS MDPREDall
+be_VB BEMA
+the_DT
+boldest_JJAT SUPER
+yet_TIME
+._.
+In_IN INother
+recent_JJAT JJTIME
+years_NN NNother
+,_,
+Smurfit_NN NNP
+-_HYPH
+Stone_NN NNP
+has_VPRT
+been_PEAS
+dogged_PASS PASSall
+by_IN INother
+a_DT
+reputation_NN NOMZ
+as_IN INother
+the_DT
+packaging_NN NNother
+sector_NN NCOMP
+'s_POS
+most_RB RBother
+troubled_VBN
+company_NN NNGRP
+._.
+Smurfit_NN NNP
+-_HYPH
+Stone_NN NNP
+emerged_VBD OCCUR
+from_IN INother
+Chapter_NN NNP
+11_CD
+bankruptcy_NN NNother
+in_IN INother
+2010_CD
+and_CC
+had_VBD
+no_XX0
+permanent_JJAT JJATother
+executive_JJPR JJPRother
+-_HYPH
+level_NN NNABSPROC
+leadership_NN NCOMP
+at_IN INother
+the_DT
+time_NN NNQUANT
+of_IN INother
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+'s_POS
+takeover_NN NNother
+bid_NN NCOMP
+._.
+The_DT
+state_NN NNABSPROC
+of_IN INother
+limbo_NN NNother
+hurt_VBD
+morale_NN NNother
+,_,
+as_IN INother
+speculation_NN NOMZ
+swirled_VBD
+that_THSC THSCother
+the_DT
+company_NN NNGRP
+'s_POS
+board_NN NNCONC
+was_VBD
+looking_PROG
+for_IN INother
+takeover_NN NNother
+bids_NN NCOMP
+._.
+Rubright_NN NNP
+said_VBD COMM
+he_PP3m PP3all
+is_VPRT
+encouraged_PASS PASSall COMM
+that_THSC THSCother
+a_DT
+number_NN NNQUANT
+of_IN INother
+Smurfit_NN NNP
+-_HYPH
+Stone_NN NNP
+'s_POS
+leaders_NN NNHUMAN
+plan_VPRT MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+stay_VB EXIST
+with_IN INother
+the_DT
+combined_VBN ACT
+company_NN NNGRP
+and_CC
+help_VB CAUSE
+run_VB ACT
+the_DT
+industrial_JJAT JJTOPIC
+operations_NN NNABSPROC
+._.
+"_''
+These_DEMO
+are_VPRT BEMA
+very_AMP
+strong_JJAT JJATother
+people_NN NNHUMAN
+that_THRC THRCother
+we_PP1P PP1all
+know_VPRT MENTAL
+,_,
+and_CC
+we_PP1P PP1all
+'ve_VPRT CONT
+spoken_PEAS COMM
+with_IN INother
+,_,
+and_CC
+we_PP1P PP1all
+'re_VPRT CONT
+counting_PROG MENTAL
+on_IN INother
+them_PP3t PP3all
+to_IN INother
+stay_VB EXIST
+with_IN INother
+us_PP1P PP1all
+,_,
+"_''
+he_PP3m PP3all
+said_VBD COMM
+._.
+"_''
+We_PP1P PP1all
+think_VPRT MENTAL THATD
+it_PIT
+'s_VPRT CONT BEMA
+very_AMP
+important_JJPR JJPRother
+._.
+"_''
+Wendy_NN NNP
+'s_POS
+/_,
+Arby_NN NNP
+'s_POS
+faces_VPRT MENTAL
+the_DT
+mirror_NN NNother
+-_HYPH
+image_NN NNABSPROC
+task_NN NCOMP
+:_:
+how_WHSC WHSCother
+to_IN INother
+untangle_VB
+two_CD
+big_JJAT JJDESCall JJSIZE
+brands_NN NNother
+._.
+The_DT
+company_NN NNGRP
+has_VPRT
+more_QUAN
+than_IN INother
+10,000_CD
+restaurants_NN NNPLACE
+,_,
+making_VBG ACT
+it_PIT
+one_CD
+of_IN INother
+the_DT
+country_NN NNPLACE
+'s_POS
+largest_JJAT SUPER
+fast_JJPR JJPRother
+-_HYPH
+food_NN NNCONC
+chains_NN NCOMP
+and_CC
+one_CD
+of_IN INother
+Atlanta_NN NNP
+'s_POS
+most_RB RBother
+recognizable_JJAT JJATother
+brands_NN NNother
+._.
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+Arby_NN NNP
+'s_POS
+logo_NN NNother
+,_,
+visible_JJPR JJPRother
+for_IN INother
+blocks_NN NNCONC
+around_PLACE
+._.
+That_DEMO
+sign_NN NNABSPROC
+notwithstanding_CONC
+,_,
+the_DT
+company_NN NNGRP
+now_TIME
+wants_VPRT MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+focus_VB
+on_IN INother
+Wendy_NN NNP
+'s_POS
+._.
+The_DT
+brand_NN NNother
+dates_VPRT
+back_RB RBother
+to_IN INother
+Columbus_NN NNP
+,_,
+Ohio_NN NNP
+,_,
+where_WHSC WHSCother
+Dave_NN NNP
+Thomas_NN NNP
+opened_VBD ACT
+his_PP3m PP3all
+first_JJPR JJPRother
+"_``
+Wendy_NN NNP
+'s_POS
+Old_NN NNP
+Fashioned_NN NNP
+Hamburgers_NN NNP
+"_''
+in_IN INother
+1969_CD
+._.
+The_DT
+parent_NN NNHUMAN
+company_NN NCOMP
+is_VPRT
+spending_PROG ACT
+millions_NN NNother
+to_IN INother
+rehab_VB
+Wendy_NN NNP
+'s_POS
+menu_NN NNother
+and_CC
+stores_NN NNPLACE
+,_,
+and_CC
+plans_VPRT MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+open_VB ACT
+new_JJAT JJTIME
+restaurants_NN NNPLACE
+in_IN INother
+Argentina_NN NNP
+._.
+But_CC
+it_PIT
+will_MDWS MDPREDall
+do_VB ACT
+so_SO
+without_IN INother
+Arby_NN NNP
+'s_POS
+._.
+Analysts_NN NNother
+say_VPRT COMM
+$_$
+600_CD
+million_CD
+or_CC
+more_QUAN
+might_MDMM MDPOSSCall
+be_VB
+sought_PASS PASSall
+for_IN INother
+the_DT
+brand_NN NNother
+._.
+What_WHQU
+went_VBD
+wrong_JJPR JJPRother
+?_. WQ
+Blair_NN NNP
+Chancey_NN NNP
+,_,
+editor_NN NNother
+of_IN INother
+QSR_NN NNP
+,_,
+said_VBD COMM
+the_DT
+rise_NN NNother
+of_IN INother
+Panera_NN NNP
+and_CC
+similar_JJAT JJREL
+sandwich_NN NNother
+establishments_NN NCOMP
+stole_VBD
+some_QUAN
+of_IN INother
+the_DT
+thunder_NN NNother
+at_IN INother
+Arby_NN NNP
+'s_POS
+._.
+Meal_NN NNother
+prices_NN NCOMP
+in_IN INother
+the_DT
+$_$
+7_CD
+range_NN NNother
+became_VBD OCCUR
+increasingly_RB RBother
+difficult_JJPR JJPRother
+to_IN ToSTNCall ToJSTNCall ToJEASE
+pull_VB ACT
+off_RP
+as_IN INother
+Americans_NN NNP
+cut_VBD
+their_PP3t PP3all
+meal_NN NNother
+budgets_NN NCOMP
+._.
+Vicki_NN NNP
+Bryan_NN NNP
+,_,
+a_DT
+bond_NN NNABSPROC
+analyst_NN NCOMP
+at_IN INother
+Gim_NN NNP
+me_PP1S PP1all
+Credit_NN NNother
+,_,
+said_VBD COMM
+the_DT
+brand_NN NNother
+'s_POS
+marketing_NN NNABSPROC
+does_VPRT DOAUX
+n't_XX0 CONT
+target_VB
+an_DT
+identifiable_JJAT JJATother
+niche_NN NNother
+._.
+"_''
+They_PP3t PP3all
+had_VBD
+a_DT
+lot_QUAN
+of_IN INother
+competition_NN NNABSPROC
+coming_VBG ACT
+from_IN INother
+a_DT
+lot_QUAN
+of_IN INother
+different_JJAT JJREL
+angles_NN NNTECH
+,_,
+"_''
+Chancey_NN NNP
+said_VBD COMM
+._.
+The_DT
+parent_NN NNHUMAN
+company_NN NCOMP
+'s_VPRT CONT BEMA
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+years_NN NNother
+._.
+Nelson_NN NNP
+Peltz_NN NNP
+,_,
+Wendy's_NN NNP
+/_,
+Arby_NN NNP
+'s_POS
+chairman_NN NNother
+and_CC
+architect_NN NNother
+of_IN INother
+the_DT
+deal_NN NNABSPROC
+in_IN INother
+which_WHSC WHSCother
+the_DT
+smaller_JJAT COMPAR
+Arby_NN NNP
+'s_POS
+operation_NN NNABSPROC
+merged_VBD
+with_IN INother
+Wendy_NN NNP
+'s_POS
+,_,
+grew_VBD OCCUR
+impatient_JJPR JJPRother
+and_CC
+publicly_RB RBother
+put_VBD ACT
+Arby_NN NNP
+'s_POS
+up_RP
+for_IN INother
+sale_NN NNother
+on_IN INother
+Jan._NN NNP
+20_CD
+._.
+"_``
+So_SO
+ends_VPRT ASPECT
+more_QUAN
+than_IN INother
+a_DT
+decade_NN NNother
+of_IN INother
+recycled_VBN
+strategies_NN NNABSPROC
+and_CC
+numerous_JJAT JJATother
+management_NN NNABSPROC
+changes_NN NCOMP
+that_THRC THRCother
+failed_VBD
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+jump_VB
+-_HYPH
+start_VB ASPECT
+the_DT
+struggling_VBG
+brand_NN NNother
+,_,
+"_''
+Bryan_NN NNP
+wrote_VBD COMM
+._.
+In_IN INother
+ironic_JJAT JJATother
+timing_NN NNother
+,_,
+Arby_NN NNP
+'s_VPRT CONT SPLIT
+recently_TIME
+posted_PASS PASSall
+better_JJAT COMPAR
+results_NN NSTNCother
+._.
+Sales_NN NNother
+grew_VBD OCCUR
+in_IN INother
+the_DT
+fourth_JJAT JJATother
+quarter_NN NNQUANT
+at_IN INother
+restaurants_NN NNPLACE
+that_THRC THRCother
+were_VBD BEMA
+open_JJPR JJPRother
+at_IN INother
+least_JJPR JJPRother
+a_DT
+year_NN NNother
+._.
+It_PIT
+was_VBD BEMA
+the_DT
+first_JJAT JJATother
+time_NN NNQUANT
+since_IN INother
+the_DT
+merger_NN NNother
+that_THSC THSCother
+the_DT
+Wendy_NN NNP
+'s_POS
+and_CC
+Arby_NN NNP
+'s_POS
+brands_NN NNother
+both_QUAN
+accomplished_VBD
+that_DEMO
+feat_NN NNother
+._.
+Those_DEMO
+results_NN NSTNCother
+will_MDWS MDPREDall SPLIT
+probably_HDG
+improve_VB
+the_DT
+prospects_NN NNother
+of_IN INother
+an_DT
+Arby_NN NNP
+'s_POS
+sale_NN NNother
+,_,
+said_VBD COMM
+analyst_NN NNother
+Sara_NN NNP
+Senatore_NN NNP
+._.
+But_CC
+profit_NN NNABSPROC
+margins_NN NCOMP
+have_VPRT
+narrowed_PEAS
+,_,
+and_CC
+that_DEMO
+is_VPRT BEMA
+worrisome_JJPR JJPRother
+._.
+"_''
+Maybe_HDG
+it_PIT
+'s_VPRT CONT BEMA
+better_JJPR COMPAR
+to_IN ToSTNCall ToJSTNCall ToJEVAL
+acknowledge_VB COMM
+your_PP2
+mistake_NN NNother
+"_''
+and_CC
+break_VB
+up_RP
+the_DT
+company_NN NNGRP
+,_,
+Chicago_NN NNP
+analyst_NN NCOMP
+R.J._NN NNP
+Hottovy_NN NNP
+said_VBD COMM
+._.
+"_``
+Peltz_NN NNP
+has_VPRT SPLIT
+never_FREQ
+been_PEAS BEMA
+shy_JJPR JJPRother
+about_IN INother
+doing_VBG ACT
+a_DT
+deal_NN NNABSPROC
+._.
+"_''
+Business_NN NOMZ
+school_NN NCOMP
+libraries_NN NNPLACE
+are_VPRT
+littered_PASS PASSall
+with_IN INother
+major_JJAT JJATother
+deals_NN NNABSPROC
+that_THRC THRCother
+failed_VBD
+in_IN INother
+spectacular_JJAT JJATother
+fashion_NN NNother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+local_JJAT JJATother
+corporate_JJPR JJPRother
+and_CC
+securities_NN NNABSPROC
+attorney_NN NCOMP
+Sandy_NN NNP
+Smith_NN NNP
+called_VBD COMM
+"_``
+the_DT
+agony_NN NNother
+of_IN INother
+victory_NN NNother
+,_,
+"_''
+split_VBD
+apart_RB RBother
+after_IN INother
+the_DT
+old_JJAT JJTIME
+and_CC
+new_JJAT JJTIME
+media_NN NNother
+wings_NN NCOMP
+failed_VBD
+to_IN ToSTNCall ToVSTNCall ToVEFRT
+work_VB ACT
+together_RB RBother
+._.
+Among_IN INother
+some_QUAN
+loyal_JJAT JJATother
+Chicago_NN NNP
+shoppers_NN NCOMP
+,_,
+Macy_NN NNP
+'s_VPRT CONT SPLIT
+never_FREQ
+recovered_PASS PASSall
+from_IN INother
+the_DT
+backlash_NN NNother
+after_IN INother
+it_PIT
+bought_VBD ACT
+Marshall_NN NNP
+Field_NN NNP
+'s_POS
+and_CC
+replaced_VBD
+the_DT
+retailer_NN NNother
+'s_POS
+green_JJAT JJDESCall JJCOLR
+and_CC
+white_JJAT JJDESCall JJCOLR
+logo_NN NNother
+with_IN INother
+the_DT
+red_JJAT JJDESCall JJCOLR
+Macy_NN NNP
+'s_POS
+star_NN NNTECH
+._.
+German_JJAT JJATother
+automaker_NN NNother
+Daimler_NN NNP
+might_MDMM MDPOSSCall
+have_VB
+made_PEAS ACT
+better_JJAT COMPAR
+cup_NN NNother
+-_HYPH
+holders_NN NNother
+than_IN INother
+Chrysler_NN NNP
+,_,
+but_CC
+when_WHSC WHSCother
+it_PIT
+came_VBD ACT
+to_IN INother
+decision_NN NSTNCother
+-_HYPH
+making_VBG ACT
+,_,
+"_``
+They_PP3t PP3all
+were_VBD
+n't_XX0 CONT
+very_AMP
+good_JJPR JJEVAL
+,_,
+"_''
+said_VBD COMM
+Usha_NN NNP
+C._NN NNP
+V._NN NNP
+Haley_NN NNP
+,_,
+professor_NN NNHUMAN
+of_IN INother
+international_JJAT JJATother
+business_NN NOMZ
+at_IN INother
+Massey_NN NNP
+University_NN NNP
+in_IN INother
+New_NN NNP
+Zealand_NN NNP
+._.
+American_JJAT JJATother
+executives_NN NNHUMAN
+felt_VBD MENTAL THATD
+their_PP3t PP3all
+German_JJAT JJATother
+counterparts_NN NNother
+cut_VBD
+them_PP3t PP3all
+out_RP
+._.
+Daimler_NN NNP
+Chrysler_NN NNP
+no_DMA
+longer_RB COMPAR
+exists_VPRT EXIST
+._.
+The_DT
+takeover_NN NNother
+of_IN INother
+Anheuser_NN NNP
+-_HYPH
+Busch_NN NNP
+by_IN INother
+cost-_NN NNP
+cutting_VBG
+Belgian_JJAT JJATother
+brewer_NN NNother
+InBev_NN NNP
+precipitated_VBD
+what_WHSC WHSCother
+once_TIME
+seemed_VBD EXIST
+impossible_JJPR JJEPSTother
+:_:
+a_DT
+grassroots_NN NNother
+boycott_NN NCOMP
+campaign_NN NNother
+in_IN INother
+Anheuser_NN NNP
+-_HYPH
+Busch_NN NNP
+'s_POS
+hometown_NN NNother
+of_IN INother
+St._NN NNP
+Louis_NN NNP
+._.
+Bankers_NN NNother
+,_,
+lawyers_NN NNHUMAN
+,_,
+consultants_NN NNother
+and_CC
+executives_NN NNHUMAN
+often_FREQ
+fail_VPRT
+to_IN ToSTNCall ToVSTNCall ToVEFRT SPLIT
+adequately_RB RBother
+plan_VB MENTAL
+the_DT
+post_NN NNCONC
+-_HYPH
+merger_NN NNother
+integration_NN NCOMP
+,_,
+Haley_NN NNP
+said_VBD COMM
+._.
+They_PP3t PP3all
+are_VPRT BEMA
+skilled_JJPR JJPRother
+at_IN INother
+accounting_VBG
+for_IN INother
+physical_JJAT JJATother
+and_CC
+financial_JJAT JJATother
+assets_NN NNother
+,_,
+but_CC
+often_FREQ
+not_XX0
+as_RB RBother
+good_JJPR JJEVAL
+at_IN INother
+the_DT
+soft_JJAT JJATother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+bean_NN NNP
+counters_NN NCOMP
+,_,
+"_''
+she_PP3f PP3all
+said_VBD COMM
+,_,
+"_``
+but_CC
+they_PP3t PP3all
+are_VPRT
+counting_PROG MENTAL
+the_DT
+wrong_JJAT JJATother
+beans_NN NNother
+._.
+"_''
+In_IN INother
+any_QUAN
+case_NN ELAB
+,_,
+buyers_NN NNHUMAN
+are_VPRT SPLIT
+more_RB RBother
+disciplined_PASS PASSall
+than_IN INother
+they_PP3t PP3all
+used_VBD ACT
+to_IN INother
+be_VB
+,_,
+industry_NN NNother
+experts_NN NCOMP
+say_VPRT COMM
+._.
+Back_RB RBother
+in_IN INother
+the_DT
+go_NN NNother
+-_HYPH
+go_NN NNother
+days_NN NCOMP
+of_IN INother
+the_DT
+late_JJAT JJTIME
+1990s_NN NNother
+,_,
+executives_NN NNHUMAN
+at_IN INother
+acquiring_VBG ACT
+companies_NN NNGRP
+might_MDMM MDPOSSCall
+spend_VB ACT
+only_RB RBother
+12_CD
+hours_NN NNQUANT
+in_IN INother
+windowless_JJPR JJPRother
+"_``
+data_NN NNTECH
+rooms_NN NCOMP
+"_''
+with_IN INother
+their_PP3t PP3all
+lawyers_NN NNHUMAN
+and_CC
+accountants_NN NNHUMAN
+,_,
+poring_VBG
+over_IN INother
+a_DT
+seller_NN NNother
+'s_POS
+books_NN NNCONC
+._.
+The_DT
+timeline_NN NNother
+was_VBD
+compressed_PASS PASSall
+;_:
+the_DT
+pressure_NN NNABSPROC
+to_IN INother
+buy_VB ACT
+,_,
+intense_JJPR JJPRother
+._.
+But_CC
+less_RB COMPAR
+generous_JJAT JJATother
+credit_NN NNother
+markets_NN NCOMP
+forced_VBD CAUSE
+potential_JJAT JJATother
+buyers_NN NNHUMAN
+to_IN INother
+slow_VB
+down_RP
+and_CC
+put_VB ACT
+more_QUAN
+time_NN NNQUANT
+into_IN INother
+due_JJAT JJATother
+diligence_NN NNother
+._.
+By_IN INother
+their_PP3t PP3all
+own_JJAT JJATother
+choice_NN NNABSPROC
+or_CC
+not_XX0
+,_,
+buyers_NN NNHUMAN
+now_TIME
+have_VPRT
+more_QUAN
+time_NN NNQUANT
+to_IN INother
+poke_VB
+and_CC
+prod_VB
+._.
+That_DEMO
+is_VPRT
+showing_PROG ACT
+up_RP
+in_IN INother
+the_DT
+results_NN NSTNCother
+._.
+Corporate_JJAT JJATother
+deal_NN NNABSPROC
+-_HYPH
+makers_NN NNHUMAN
+outperformed_VBD
+their_PP3t PP3all
+non-acquisitive_JJAT JJATother
+peers_NN NNHUMAN
+on_IN INother
+a_DT
+global_JJAT JJATother
+basis_NN NNother
+in_IN INother
+the_DT
+fourth_JJAT JJATother
+quarter_NN NNQUANT
+of_IN INother
+2010_CD
+,_,
+according_VBG
+to_IN INother
+Towers_NN NNP
+Watson_NN NNP
+,_,
+a_DT
+global_JJAT JJATother
+professional_JJAT JJATother
+services_NN NNABSPROC
+firm_NN NCOMP
+._.
+Companies_NN NNGRP
+completing_VBG ASPECT
+two_CD
+or_CC
+more_QUAN
+deals_NN NNABSPROC
+over_IN INother
+the_DT
+past_JJAT JJATother
+30_CD
+months_NN NNQUANT
+fared_VBD
+even_RB RBother
+better_JJPR COMPAR
+._.
+"_``
+Practice_NN NNABSPROC
+makes_VPRT ACT
+perfect_JJPR JJPRother
+:_:
+you_PP2
+learn_VPRT MENTAL
+how_WHSC WhVSTNCall WhVFCT
+to_IN INother
+add_VB ACT
+value_NN NNABSPROC
+,_,
+"_''
+said_VBD COMM
+David_NN NNP
+Hinkel_NN NNP
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+@_IN INother
+person_NN NNHUMAN
+'s_POS
+damaged_VBN
+brand_NN NNother
+is_VPRT BEMA
+another_DT
+person_NN NNHUMAN
+'s_POS
+opportunity_NN NSTNCother
+._.
+"_''
+How_WHSC WHSCother
+we_PP1P PP1all
+got_VBD
+the_DT
+story_NN NNother
+Reporter_NN NNP
+Jeremiah_NN NNP
+McWilliams_NN NNP
+talked_VBD COMM
+to_IN INother
+professors_NN NNHUMAN
+,_,
+analysts_NN NNother
+,_,
+consultants_NN NNother
+,_,
+authors_NN NNHUMAN
+and_CC
+executives_NN NNHUMAN
+at_IN INother
+a_DT
+range_NN NNother
+of_IN INother
+companies_NN NNGRP
+._.
+His_PP3m PP3all
+reporting_NN NNother
+covered_VBD ACT
+the_DT
+restaurant_NN NNPLACE
+,_,
+paper_NN NNCONC
+,_,
+beer_NN NNother
+and_CC
+soft_JJAT JJATother
+drinks_NN NNCONC
+industries_NN NCOMP
+,_,
+among_IN INother
+others_NN NNother
+._.
+He_PP3m PP3all
+read_VBD MENTAL
+research_NN NNABSPROC
+from_IN INother
+Wall_NN NNP
+Street_NN NNP
+analysts_NN NCOMP
+and_CC
+transcripts_NN NNCONC
+of_IN INother
+earnings_NN NNother
+calls_NN NCOMP
+._.
+For_IN INother
+good_JJAT JJEVAL
+measure_NN NNQUANT
+,_,
+he_PP3m PP3all
+sampled_VBD
+fare_NN NNother
+from_IN INother
+Wendy_NN NNP
+'s_POS
+and_CC
+Arby's_NN NNP
+._.
+A_DT
+tale_NN NNother
+of_IN INother
+two_CD
+Atlanta_NN NNP
+companies_NN NCOMP
+Rock_NN NNP
+-_HYPH
+Tenn_NN NNP
+Co._NN NNP
+Profile_NN NNP
+:_:
+One_CD
+of_IN INother
+North_NN NNP
+America_NN NNP
+'s_POS
+biggest_JJAT SUPER
+manufacturers_NN NNHUMAN
+of_IN INother
+paperboard_NN NNother
+,_,
+containerboard_NN NNother
+and_CC
+consumer_NN NNHUMAN
+and_CC
+corrugated_VBN
+packaging_NN NNother
+._.
+2010_CD
+sales_NN NNother
+:_:
+$_$
+3_CD
+billion_CD
+Employees_NN NNHUMAN
+:_:
+10,400_CD
+(_-LRB-
+400_CD
+in_IN INother
+Atlanta_NN NNP
+headquarters_NN NCOMP
+)_-RRB-
+Locations_NN NNPLACE
+:_:
+United_NN NNP
+States_NN NNP
+,_,
+Canada_NN NNP
+,_,
+Mexico_NN NNP
+,_,
+Chile_NN NNP
+and_CC
+Argentina_NN NNP
+Wendy's_NN NNP
+/_,
+Arby_NN NNP
+'s_POS
+Group_NN NNP
+Profile_NN NNP
+:_:
+The_DT
+third_RB RBother
+-_HYPH
+largest_JJAT SUPER
+fast_JJAT JJATother
+food_NN NNCONC
+company_NN NCOMP
+in_IN INother
+U.S._NN NNP
+,_,
+with_IN INother
+more_QUAN
+than_IN INother
+10,000_CD
+restaurants_NN NNPLACE
+._.
+As_IN INother
+of_IN INother
+Oct._NN NNP
+3_CD
+,_,
+2010_CD
+,_,
+Wendy_NN NNP
+'s_POS
+had_VBD
+6,554_CD
+restaurants_NN NNPLACE
+and_CC
+Arby_NN NNP
+'s_POS
+had_VBD
+3,662_CD
+._.
+2010_CD
+sales_NN NNother
+:_:
+$_$
+3.4_CD
+billion_CD
+Employees_NN NNHUMAN
+:_:
+67,500_CD
+,_,
+including_VBG EXIST
