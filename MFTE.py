@@ -1979,23 +1979,23 @@ if __name__ == "__main__":
     #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
 
-# if __name__ == "__main__":
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    #input_dir = r"D:\Downloads\Elanguage\\" 
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
-    ttr = 400
-    # record start time
-    t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
-    t_1 = timeit.default_timer()
-    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD, extended=True)
-    do_counts(output_MD, output_stats, ttr)
+# # if __name__ == "__main__":
+#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #input_dir = r"D:\Downloads\Elanguage\\" 
+#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
+#     ttr = 400
+#     # record start time
+#     t_0 = timeit.default_timer()
+#     tag_stanford_stanza(input_dir, output_stanford)
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     t_1 = timeit.default_timer()
+#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+#     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+#     tag_MD(output_stanford, output_MD, extended=True)
+#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     do_counts(output_MD, output_stats, ttr)
