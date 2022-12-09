@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import collections
 import demoji
+import emoji
 import sys
 import os
 import inspect 
@@ -74,6 +75,8 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bwouldnt\\b", "would 'nt", text, flags=re.IGNORECASE)
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
+    #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
+    text = ''.join((' '+c+' ') if c in emoji.UNICODE_EMOJI['en'] else c for c in text)
     return text
 
         
@@ -210,6 +213,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
             # # ELF: Tagging of emoji
+            #Shakir replaced with demoji module in Python
             if (demoji.findall(words[index])):
                 words[index] = re.sub("_\S+", "_EMO", words[index])
 
@@ -1852,7 +1856,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # All other features should be normalised per 100 words:
     other_cols = [col for col in df_new.columns if col not in NNTnorm if col not in FVnorm] #remove nouns and verbs related cols
     other_cols = [col for col in other_cols if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]] # exclude total counts and averages
-    df_new.loc[:, other_cols] = df.loc[:, other_cols].div(df.Words.values, axis=0) #divide by total words
+    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].div(df.Words.values, axis=0) #divide by total words
     return df_new
 
 def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
@@ -1866,7 +1870,7 @@ def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     #multiply by 100
     cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
     df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
-    df_new.loc[:, cols_without_averages] = df.loc[:, cols_without_averages].div(df.Words.values, axis=0) #divide by total words
+    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].div(df.Words.values, axis=0) #divide by total words
     return df_new
 
 def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -1948,7 +1952,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         df = pd.DataFrame(list_of_dicts).fillna(0)
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
-        df = sort_df_columns(df) #sort df columns
+        df = sort_df_columns(df).sort_values(by=['Filename']) #sort df columns
         df.round().drop(columns=['Ntotal', 'VBtotal']).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
         get_complex_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
@@ -1960,42 +1964,42 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
-    ttr = 400
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
-    t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
-    t_1 = timeit.default_timer()
-    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD, extended=True)
-    do_counts(output_MD, output_stats, ttr)
-
-# # if __name__ == "__main__":
-#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-#     #input_dir = r"D:\Downloads\Elanguage\\" 
+# if __name__ == "__main__":
+#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
 #     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
 #     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-#     output_MD = output_stanford + "MD/"
-#     output_stats = output_MD + "Statistics/"
+#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
 #     ttr = 400
-#     # record start time
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_0 = timeit.default_timer()
 #     tag_stanford_stanza(input_dir, output_stanford)
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_1 = timeit.default_timer()
 #     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
 #     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
 #     tag_MD(output_stanford, output_MD, extended=True)
 #     #tag_MD_parallel(output_stanford, output_MD, extended=True)
 #     do_counts(output_MD, output_stats, ttr)
+
+if __name__ == "__main__":
+    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"D:\Downloads\Elanguage\\" 
+    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+    output_MD = output_stanford + "MD/"
+    output_stats = output_MD + "Statistics/"
+    ttr = 400
+    # record start time
+    t_0 = timeit.default_timer()
+    tag_stanford_stanza(input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    t_1 = timeit.default_timer()
+    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD, extended=True)
+    do_counts(output_MD, output_stats, ttr)
