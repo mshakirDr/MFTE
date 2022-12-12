@@ -202,7 +202,7 @@ on_IN INother
 itself_PIT
 ._.
 The_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 personal_JJAT JJATother
 unity_NN NOMZ
@@ -721,7 +721,7 @@ the_DT
 body_NN NNCONC
 adopts_VPRT
 "_``
-pre_NN NNother
+pre_AFX
 -_HYPH
 established_VBN
 circuits_NN NNABSPROC
@@ -6723,7 +6723,7 @@ the_DT
 backdrop_NN NNother
 of_IN INother
 a_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 personal_JJAT JJATother
 milieu_NN NNother
@@ -6805,7 +6805,7 @@ given_VBN ACT
 ,_,
 general_JJPR JJREL
 and_CC
-pre_NN NNother
+pre_AFX
 -_HYPH
 personal_JJAT JJATother
 existence_NN NNother
@@ -11081,7 +11081,7 @@ descriptions_NN NNABSPROC
 Understood_VBN MENTAL
 as_IN INother
 a_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 perceptual_JJAT JJATother
 and_CC
@@ -11487,7 +11487,7 @@ below_PLACE
 perception_NN NNCOG
 ._.
 As_IN INother
-pre_NN NNother
+pre_AFX
 -_HYPH
 perceptual_JJPR JJPRother
 it_PIT
@@ -13541,7 +13541,7 @@ the_DT
 body_NN NNCONC
 unconsciously_RB RBother
 or_CC
-pre_NN NNother
+pre_AFX
 -_HYPH
 personally_RB RBother
 ._.
@@ -13583,7 +13583,7 @@ First_RB RBother
 there_EX
 is_VPRT
 the_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 communicative_JJAT JJATother
 stage_NN NNABSPROC
@@ -19314,7 +19314,7 @@ to_IN INother
 an_DT
 originary_JJAT JJATother
 ,_,
-pre_NN NNother
+pre_AFX
 -_HYPH
 phenomenological_JJAT JJATother
 encounter_NN NNother
@@ -19519,7 +19519,7 @@ be_VB
 made_PASS PASSall ACT
 that_THSC THSCother
 the_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 personality_NN NOMZ
 of_IN INother
@@ -20472,7 +20472,7 @@ is_VPRT BEMA
 basic_JJPR JJPRother
 to_IN INother
 the_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 personal_JJAT JJATother
 identity_NN NNABSPROC
@@ -20723,7 +20723,7 @@ remains_VPRT EXIST
 bound_VBN
 to_IN INother
 a_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 personal_JJAT JJATother
 field_NN NNPLACE
@@ -21038,7 +21038,7 @@ a_DT
 truly_RB RBother
 anonymous_JJPR JJPRother
 and_CC
-pre_NN NNother
+pre_AFX
 -_HYPH
 perceptual_JJAT JJATother
 form_NN NNother
@@ -21173,12 +21173,12 @@ non_FW
 -_HYPH
 thetic_FW
 ,_,
-pre_NN NNother
+pre_AFX
 -_HYPH
 objective_JJPR JJPRother
 ,_,
 and_CC
-pre_NN NNother
+pre_AFX
 -_HYPH
 conscious_JJAT JJATother
 experience_NN NNCOG
@@ -32307,11 +32307,11 @@ sensibility_NN NCOMP
 is_VPRT
 given_PASS PASSall ACT
 a_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 reflective_JJPR JJPRother
 and_CC
-pre_NN NNother
+pre_AFX
 -_HYPH
 representational_JJAT JJATother
 role_NN NNABSPROC
@@ -33602,7 +33602,7 @@ than_IN INother
 social_JJAT JJTOPIC
 inequality_NN NOMZ
 :_:
-work_VB ACT
+work_VIMP ACT
 tears_NN NNother
 pure_JJPR JJPRother
 being_VBG
@@ -38403,7 +38403,7 @@ condition_NN NNABSPROC
 TI_NN NNother
 128/101_CD
 ;_:
-see_VB MENTAL
+see_VIMP MENTAL
 also_CC
 ,_,
 TO_IN INother
@@ -47951,7 +47951,7 @@ to_IN INother
 take_VB ACT
 on_IN INother
 a_DT
-pre_NN NNother
+pre_AFX
 -_HYPH
 programmed_VBN
 form_NN NNother

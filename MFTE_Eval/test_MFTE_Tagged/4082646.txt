@@ -9585,7 +9585,7 @@ it_PIT
 @!_NN NNP
 SHEEN_NN NNother
 :_:
-Check_VB ACT
+Check_VIMP ACT
 it_PIT
 ._.
 It_PIT

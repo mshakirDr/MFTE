@@ -632,7 +632,7 @@ listed_VBN
 below_PLACE
 ._.
 -_NFP
-Connect_VB
+Connect_VIMP
 to_IN INother
 the_DT
 Internet_NN NNP
@@ -645,7 +645,7 @@ Web_NN NNTECH
 Server_NN NCOMP
 ._.
 -_NFP
-Generate_VB
+Generate_VIMP
 a_DT
 self_NN NNother
 -_HYPH
@@ -680,7 +680,7 @@ certificate_NN NNother
 document_NN NCOMP
 ._.
 -_NFP
-Bind_VB
+Bind_VIMP
 the_DT
 self_NN NNother
 -_HYPH
@@ -691,7 +691,7 @@ port_NN NNother
 443_CD
 ._.
 -_NFP
-Launch_VB
+Launch_VIMP
 a_DT
 web_NN NNTECH
 browser_NN NCOMP
@@ -725,7 +725,7 @@ Adaptor_NN NCOMP
 URL_NN NNother
 ._.
 -_NFP
-Run_VB ACT
+Run_VIMP ACT
 the_DT
 federation_NN NOMZ
 process_NN NCOMP
@@ -739,7 +739,7 @@ for_IN INother
 ArcGIS_NN NNP
 ._.
 -_NFP
-Validate_VB
+Validate_VIMP
 the_DT
 federation_NN NOMZ
 through_IN INother
@@ -759,7 +759,7 @@ Web_NN NCOMP
 Server_NN NNHUMAN
 ._.
 -_NFP
-Reset_VB
+Reset_VIMP
 the_DT
 certificate_NN NNother
 binding_VBG
@@ -777,7 +777,7 @@ signed_VBN COMM
 certificate_NN NNother
 ._.
 -_NFP
-Verify_VB
+Verify_VIMP
 the_DT
 federation_NN NOMZ
 by_IN INother
@@ -1502,7 +1502,7 @@ key_NN NCOMP
 ._.
 Mouse_NN NNother
 :_:
-Click_VB
+Click_VIMP
 once_TIME
 anywhere_PLACE
 on_IN INother
@@ -1998,7 +1998,7 @@ Spacebar_VB
 ._.
 Mouse_NN NNother
 :_:
-Click_VB
+Click_VIMP
 once_TIME
 anywhere_PLACE
 on_IN INother
@@ -2340,7 +2340,7 @@ key_NN NCOMP
 ._.
 Mouse_NN NNother
 :_:
-Click_VB
+Click_VIMP
 once_TIME
 anywhere_PLACE
 on_IN INother

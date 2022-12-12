@@ -37,7 +37,7 @@ O_IN INother
 ‘:-)_EMO
 (_-LRB-
 :-B_EMO
-8-)_SYM
+8-)_EMO
 =|_EMO
 :-|_EMO
 <_-LRB-

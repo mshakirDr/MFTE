@@ -322,7 +322,7 @@ maintained_VBN
 ._.
 Keywords_NN NNother
 :_:
-Affect_VB CAUSE
+Affect_VIMP CAUSE
 ,_,
 Physical_JJAT JJATother
 activity_NN NNABSPROC

@@ -4199,8 +4199,8 @@ on_IN INother
 the_DT
 differentiation_NN NOMZ
 of_IN INother
-immature_JJAT JJATother
-pre_NN NNother
+immature_JJPR JJPRother
+pre_AFX
 -_HYPH
 leukaemic_JJAT JJATother
 cells_NN NNTECH
