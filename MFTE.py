@@ -76,7 +76,7 @@ def stanza_pre_processing (text: str)-> str:
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
     #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
-    text = ''.join((' '+c+' ') if c in emoji.UNICODE_EMOJI['en'] else c for c in text)
+    text = ''.join((' '+c+' ') if c in emoji.EMOJI_DATA else c for c in text)
     return text
 
         
