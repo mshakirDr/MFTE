@@ -1729,7 +1729,7 @@ slogan_NN NNother
 '_``
 AIDS_NN NNABSPROC
 :_:
-Do_VB DOAUX
+Do_VIMP DOAUX
 n't_XX0 CONT
 die_VB OCCUR
 of_IN INother
@@ -2189,7 +2189,7 @@ Schatzki_NN NNP
 :_:
 129_CD
 ;_:
-see_VB MENTAL
+see_VIMP MENTAL
 also_CC
 Warde_NN NNP
 ,_,
@@ -7579,7 +7579,7 @@ our_PP1P PP1all
 research_NN NNABSPROC
 built_VBD
 ;_:
-see_VB MENTAL
+see_VIMP MENTAL
 below_PLACE
 )_-RRB-
 shows_VPRT ACT

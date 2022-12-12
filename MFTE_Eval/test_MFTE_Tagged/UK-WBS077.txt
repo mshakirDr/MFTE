@@ -337,7 +337,7 @@ the_DT
 game_NN NNCONC
 and_CC
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Gaming_NN NNother
@@ -406,7 +406,7 @@ inclusion_NN NNother
 we_PP1P PP1all
 ’ll_MDWS MDPREDall
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Casinos_NN NNother
@@ -471,7 +471,7 @@ the_DT
 box_NN NNCONC
 and_CC
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 The_DT
@@ -540,7 +540,7 @@ there_EX
 ’s_VPRT
 always_FREQ
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 The_DT
@@ -606,7 +606,7 @@ get_VB
 some_QUAN
 money_NN NNother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 The_DT
@@ -674,7 +674,7 @@ game_NN NCOMP
 that_THRC THRCother
 can_MDCA MDPOSSCall
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 The_DT
@@ -738,7 +738,7 @@ hand_NN NNCONC
 after_IN INother
 hand_NN NNCONC
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Online_PLACE
@@ -875,7 +875,7 @@ players_NN NNHUMAN
 must_MDNE
 lineup_VB
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Online_PLACE
@@ -940,7 +940,7 @@ quickly_RB RBother
 You_PP2
 might_MDMM MDPOSSCall
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Today_TIME
@@ -999,7 +999,7 @@ poker_NN NNother
 game_NN NCOMP
 genres_NN NNother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Have_VPRT
@@ -1071,7 +1071,7 @@ quick_JJAT JJATother
 explanation_NN NNABSPROC
 ._.
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Putting_VBG ACT
@@ -1136,7 +1136,7 @@ in_IN INother
 determining_VBG MENTAL
 what_WHSC WhVSTNCall WhVFCT
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Texas_NN NNP
@@ -1200,7 +1200,7 @@ stack_NN NNother
 or_CC
 perhaps_HDG
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Short_JJPR JJDESCall JJSIZE
@@ -1262,7 +1262,7 @@ the_DT
 number_NN NNQUANT
 of_IN INother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Texas_NN NNP
@@ -1326,7 +1326,7 @@ poker_NN NNother
 strategy_NN NCOMP
 when_WHSC WHSCother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Professional_JJAT JJATother
@@ -1389,7 +1389,7 @@ of_IN INother
 people_NN NNHUMAN
 turning_VBG ACT
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 How_WHSC WHSCother
@@ -1455,7 +1455,7 @@ understanding_VBG VFCTother
 pot_NN NNCONC
 size_NN NCOMP
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Poker_NN NNother
@@ -1523,7 +1523,7 @@ from_IN INother
 the_DT
 other_JJAT JJATother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Playing_VBG ACT
@@ -1586,7 +1586,7 @@ pair_NN NNother
 of_IN INother
 aces_NN NNother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 NetEnt_NN NNP
@@ -1647,7 +1647,7 @@ reported_VBN COMM
 previously_TIME
 ._.
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Mega_NN NNP
@@ -1721,7 +1721,7 @@ casino_NN NCOMP
 ._.
 Mega_NN NNother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Major_JJAT JJATother
@@ -1786,7 +1786,7 @@ speed_NN NNother
 Major_JJAT JJATother
 Millions_NN NNother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Mega_NN NNP
@@ -1854,7 +1854,7 @@ There_EX
 will_MDWS MDPREDall
 be_VB
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 2020_CD
@@ -1946,7 +1946,7 @@ row_NN NNother
 slots_NN NCOMP
 title_NN NNother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Durian_NN NNP
@@ -2011,7 +2011,7 @@ game_NN NCOMP
 that_THRC THRCother
 ticks_VPRT
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Turn_VIMP ACT
@@ -2077,7 +2077,7 @@ game_NN NNCONC
 mechanics_NN NCOMP
 ._.
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Berryburst_NN NNP
@@ -2144,7 +2144,7 @@ players_NN NNHUMAN
 to_IN INother
 see_VB MENTAL
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 MAX_NN NNP
@@ -2208,7 +2208,7 @@ are_VPRT
 released_PASS PASSall
 in_IN INother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Asgardian_NN NNP
@@ -2290,7 +2290,7 @@ surroundings_NN NNother
 where_WHSC WHSCother
 only_RB RBother
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Booming_VBG
@@ -2358,7 +2358,7 @@ release_NN NNother
 of_IN INother
 a_DT
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Slotmillions_NN NNP
@@ -2427,7 +2427,7 @@ player_NN NNHUMAN
 who_WHSC WHSCother
 wishes_VPRT MENTAL
 …_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 More_QUAN
 »_''
 Slot_NN NNother

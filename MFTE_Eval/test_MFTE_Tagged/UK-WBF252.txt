@@ -2386,7 +2386,7 @@ screen_NN NNCONC
 after_IN INother
 this_DEMO
 ;_:
-scroll_VB
+scroll_VIMP
 past_IN INother
 the_DT
 image_NN NNABSPROC

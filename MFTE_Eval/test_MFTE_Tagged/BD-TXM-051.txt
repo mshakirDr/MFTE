@@ -219,7 +219,7 @@ AM_NN NNother
 $_$
 A_CD
 :_:
-Pay_VB ACT
+Pay_VIMP ACT
 the_DT
 pending_VBG
 bill_NN NNTECH
@@ -273,7 +273,7 @@ PM_NN NNother
 $_$
 K_CD
 :_:
-Need_VB MENTAL
+Need_VIMP MENTAL
 the_DT
 excel_NN NNother
 sheet_NN NCOMP
@@ -2501,7 +2501,7 @@ PM_NN NNother
 $_$
 E1_CD
 :_:
-ode_VB
+ode_VIMP
 An_DT
 Imitation_NN NOMZ
 of_IN INother
@@ -2914,7 +2914,7 @@ PM_NN NNother
 $_$
 B_CD
 :_:
-Talk_VB COMM
+Talk_VIMP COMM
 to_IN INother
 me_PP1S PP1all
 3/4/21_CD
@@ -3591,7 +3591,7 @@ PM_NN NNother
 $_$
 B_CD
 :_:
-Tell_VB COMM
+Tell_VIMP COMM
 him_PP3m PP3all
 to_IN INother
 use_VB ACT
@@ -3809,7 +3809,7 @@ PM_NN NNother
 $_$
 B_CD
 :_:
-Give_VB ACT
+Give_VIMP ACT
 your_PP2
 attendence_NN NNother
 here_PLACE
@@ -4146,7 +4146,7 @@ PM_NN NNother
 $_$
 B_CD
 :_:
-Read_VB MENTAL
+Read_VIMP MENTAL
 it_PIT
 for_IN INother
 tomorrow_TIME
@@ -4789,7 +4789,7 @@ PM_NN NNother
 $_$
 B_CD
 :_:
-Try_VB ACT
+Try_VIMP ACT
 to_IN ToSTNCall ToVSTNCall ToVEFRT
 join_VB ACT
 3/29/21_CD
