@@ -1736,8 +1736,8 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: two sub classes of attributive adjectives "JJEPSTother", "JJATDother", also dependent on nouns. "JJATother" is JJAT minus the prev two classes
     # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCall"
     NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCall", "NOMZ", "NSTNCother", "JJDESCall", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCallother", "NNMention", "NNP"]
-    NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
-    df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.Ntotal.values, axis=0) #divide by total nouns (noun-based normalisation)
+    NNTnorm = [nn for nn in NNTnorm if nn in df_new.columns] #make sure every feature exists in df column
+    df_new.loc[:, NNTnorm] = df_new.loc[:, NNTnorm].div(df_new.Ntotal.values, axis=0) #divide by total nouns (noun-based normalisation)
     # Features to be normalised per 100 (very crudely defined) finite verbs:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
@@ -1746,13 +1746,13 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
             "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother"]
-    FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
-    df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBtotal.values, axis=0) #divide by total verbs (finite verb phrase-based normalisation)
+    FVnorm = [vb for vb in FVnorm if vb in df_new.columns] #make sure every feature exists in df column
+    df_new.loc[:, FVnorm] = df_new.loc[:, FVnorm].div(df_new.VBtotal.values, axis=0)#.fillna(0) #divide by total verbs (finite verb phrase-based normalisation)
     # All other features should be normalised per 100 words:
     other_cols = [col for col in df_new.columns if col not in NNTnorm if col not in FVnorm] #remove nouns and verbs related cols
     other_cols = [col for col in other_cols if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]] # exclude total counts and averages
-    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].div(df.Words.values, axis=0) #divide by total words (word-based normalisation)
-    return df_new
+    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].div(df_new.Words.values, axis=0) #divide by total words (word-based normalisation)
+    return df_new.fillna(0)
 
 def get_wordbased_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     """Returns raw counts df after normalizing per 100 words
@@ -1859,42 +1859,42 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/test_files/"
-    # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
-    ttr = 400
-    # tag_stanford(nlp_dir, input_dir, output_stanford)
-    t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
-    t_1 = timeit.default_timer()
-    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    # tag_MD_parallel(output_stanford, output_MD, extended=True)
-    do_counts(output_MD, output_stats, ttr)
-
 # if __name__ == "__main__":
-#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-#     #input_dir = r"D:\Downloads\Elanguage\\" 
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-#     output_MD = output_stanford + "MD/"
-#     output_stats = output_MD + "Statistics/"
+#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/test_files/"
+#     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
 #     ttr = 400
-#     # record start time
+#     # tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_0 = timeit.default_timer()
 #     tag_stanford_stanza(input_dir, output_stanford)
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_1 = timeit.default_timer()
 #     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
 #     print("Time spent on tagging process (micro seconds):", elapsed_time)
 #     tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     # tag_MD_parallel(output_stanford, output_MD, extended=True)
 #     do_counts(output_MD, output_stats, ttr)
+
+if __name__ == "__main__":
+    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+    #input_dir = r"D:\Downloads\Elanguage\\" 
+    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+    output_MD = output_stanford + "MD/"
+    output_stats = output_MD + "Statistics/"
+    ttr = 400
+    # record start time
+    t_0 = timeit.default_timer()
+    tag_stanford_stanza(input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    t_1 = timeit.default_timer()
+    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+    print("Time spent on tagging process (micro seconds):", elapsed_time)
+    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD, extended=True)
+    do_counts(output_MD, output_stats, ttr)
