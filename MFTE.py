@@ -170,18 +170,17 @@ def process_sentence (words: list, extended: bool = False) -> list:
     function_words = "(a|about|above|after|again|ago|ai|all|almost|along|already|also|although|always|am|among|an|and|another|any|anybody|anything|anywhere|are|are|around|as|at|back|be|been|before|being|below|beneath|beside|between|beyond|billion|billionth|both|but|by|can|can|could|cos|cuz|did|do|does|doing|done|down|during|each|eight|eighteen|eighteenth|eighth|eightieth|eighty|either|eleven|eleventh|else|enough|even|ever|every|everybody|everyone|everything|everywhere|except|far|few|fewer|fifteen|fifteenth|fifth|fiftieth|fifty|first|five|for|fortieth|forty|four|fourteen|fourteenth|fourth|from|get|gets|getting|got|had|has|have|having|he|hence|her|here|hers|herself|him|himself|his|hither|how|however|hundred|hundredth|i|if|in|into|is|it|its|itself|just|last|less|many|may|me|might|million|millionth|mine|more|most|much|must|my|myself|near|near|nearby|nearly|neither|never|next|nine|nineteen|nineteenth|ninetieth|ninety|ninth|no|nobody|none|noone|nor|not|nothing|now|nowhere|of|off|often|on|once|one|only|or|other|others|ought|our|ours|ourselves|out|over|quite|rather|round|second|seven|seventeen|seventeenth|seventh|seventieth|seventy|shall|sha|she|should|since|six|sixteen|sixteenth|sixth|sixtieth|sixty|so|some|somebody|someone|something|sometimes|somewhere|soon|still|such|ten|tenth|than|that|that|the|their|theirs|them|themselves|then|thence|there|therefore|these|they|third|thirteen|thirteenth|thirtieth|thirty|this|thither|those|though|thousand|thousandth|three|thrice|through|thus|till|to|today|tomorrow|too|towards|twelfth|twelve|twentieth|twenty|twice|two|under|underneath|unless|until|up|us|very|was|we|were|what|when|whence|where|whereas|which|while|whither|who|whom|whose|why|will|with|within|without|wo|would|yes|yesterday|yet|you|your|yours|yourself|yourselves|'re|'ve|n't|'ll|'twas|'em|y'|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|1|2|3|4|5|6|7|8|9|0)"
 
 
-    # QUICK CORRECTIONS OF STANFORD TAGGER OUTPUT
+    # QUICK CORRECTIONS OF STANFORD POS TAGGER OUTPUT
     for index, x in enumerate(words):
         #skip if space
         if x != " ":
-            #Shakir @mentions (frequent in e-language) tagged as a new feature category, thus correcting tags such as JJ to NN
+            # Shakir: new feature in MFTE python @mentions
+            # Frequent in e-language and now tagged as a new feature category, thus correcting tags such as JJ to NN
             if (re.search(r"^@\S\S+_", words[index], re.IGNORECASE)):
-                #print(words[index])
                 words[index] = re.sub("_(\w+)", "_NN NNMention", words[index])
 
             # Changes the two tags that have a problematic "$" symbol in the Stanford tagset
-            if (re.search("PRP\\$", words[index])): 
-                
+            if (re.search("PRP\\$", words[index])):                 
                 words[index] = re.sub("PRP.", "PRPS", words[index])
                 
             if (re.search("WP\\$", words[index])): 
@@ -193,13 +192,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_", words[index])): 
                 words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
-
             # ELF: Correction of cardinal numbers without spaces and list numbers as numbers rather than LS
             # Removal of the LS (list symbol) tags that denote numbers
             if (re.search("\\b[0-9]+th_|\\b[0-9]+nd_|\\b[0-9]+rd_|[0-9]+_LS", words[index])): 
                 words[index] = re.sub("_\w+", "_CD", words[index]) 
                 
-
             # ELF: Correct "innit" and "init" (frequently tagged as a noun by the Stanford Tagger) to pronoun "it" (these are later on also counted as question tags if they are followed by a question mark)
             if (re.search("\\binnit_", words[index])): 
                 words[index] = re.sub("_\w+", "_PIT", words[index]) 
@@ -212,33 +209,24 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
-            # # ELF: Tagging of emoji
-            #Shakir replaced with demoji module in Python
+            # ELF: New feature for emoji
+            # Shakir replaced Elen's regex solution with the demoji module in the Python version of the MFTE
             if (demoji.findall(words[index])):
                 words[index] = re.sub("_\S+", "_EMO", words[index])
 
-
-            # ELF: Tagging of hashtags
+            # ELF: New feature for hashtags
             if (re.search("#\w{3,}|\w{3,}_GW", words[index])):
                 words[index] = re.sub("_\w+", "_HST", words[index])
 
-
-            # ELF: Tagging of web links
-            # Note that the aim of this regex is *not* to extract all *valid* URLs but rather all strings that were intended to be a URL or a URL-like string!
+            # ELF: New feature for web links
+            # Note that the aim of this regex is *not* to extract all *valid* URLs but rather all strings that were intended to be/look like a URL or a URL-like string!
             # Inspired by: https://mathiasbynens.be/demo/url-regex
+            # Designed to favour higher precision over recall.
 
-            #https://www.youtube.com/watch?feature=player_NN&v=ithlg2geqyk_NNS
-            #http://instagram.com/p/pbw_NN/_NN
-            #http://www.guydenning.org/writing/art_NN.htm_NN
-            #http://smarturl.it/poppy-single-itunes_FW
-
-
-            #if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([-\.\+_=&\/]{1}\w+)+\w+", words[index], re.IGNORECASE)) or
             if ((re.search("\\b(https?:\/\/www\.|https?:\/\/)?\w+([\-\.\+=&\?]{1}\w+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?", words[index], re.IGNORECASE)) or
                 (re.search("<link\/?>", words[index])) or
                 (re.search("\\b\w+\.(com|net|co\.uk|au|us|gov|org)\\b", words[index]))):
                 words[index] = re.sub("_[\w+\-\.\+=&\/\?]+", "_URL", words[index])
-
 
             # BASIC TAG NEEDED FOR MORE COMPLEX TAGS
             # Negation
@@ -247,9 +235,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     # SLIGHTLY MORE COMPLEX CORRECTIONS OF STANFORD TAGGER OUTPUT
 
-    # CORRECTION OF "TO" AS PREPOSITION 
-    # ELF: Added "to" followed by a punctuation mark, e.g. "What are you up to?"
-
     for j, value in enumerate(words):
         
         if value != " ":
@@ -257,6 +242,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # Adding the most frequent emoticons to the emoji list
         # Original list: https://repository.upenn.edu/pwpl/vol18/iss2/14/
         # Plus crowdsourced other emoticons from colleagues on Twitter ;-)
+        # The regex for this feature aim to favour higher precision over recall in order not to "find" emoticons where they are mostly likely none: e.g., in academic articles with formula.
 
         # For emoticons parsed as one token by the POS tagger:
         # Extended the regex to include strings including more than one non-alphanumeric character tagged as NFP by the POS tagger.
@@ -264,8 +250,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if (re.search(":-RRB-_|:d_|:-LRB-_|:p_|:--RRB-_|:-RSB-_|\\bd:_|:'-LRB-_|:--LRB-_|:-d_|:-LSB-_|-LSB-:_|:-p_|:\/_|:P_|:D_|=-RRB-_|=-LRB-_|:-D_|:-RRB--RRB-_|:O_|:]_|:-LRB--LRB-_|:o_|:-O_|:-o_|;--RRB-_|;-\*|':--RRB--LRB-_|:-B_|8--RRB-_|=\|_|:-\|_|<3_|<\/3_|:P_|;P_|\\bOrz_|\\borz_|\\bXD_|\\bxD_|\\bUwU_|;-\)_|;-\*_|:-\(_|:-\)|;-\(_|:-\(\(_|:-\)\)_|:--\(_|:--\)_|\(ツ|\\b8-\)_|\S\S+_NFP", words[j]) and not re.search("@!_|\.\.\.", words[j])):
                 words[j] = re.sub("_\S+", "_EMO", words[j])
 
-
-            # For emoticons where each character is parsed as an individual token. N.B.: No longer needed with stanza POS tagging
+            # For emoticons where each character is parsed as an individual token. 
+            # N.B.: No longer needed with stanza POS tagging (was necessary with previously used POS tagger)
             # The aim here is to only have one EMO tag per emoticon and, if there are any letters in the emoticon, for the EMO tag to be placed on the letter to overwrite any erroneous NN, FW or LS tags from the Stanford Tagger:
             
             # if ((re.search(":_\W+|;_\W+|=_", words[j]) and re.search("\/_\W+|\\_\W+", words[j+1])) or
@@ -274,7 +260,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # (re.search(":_\W+|;_\W+|\\b8_", words[j-2]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j-1]) and re.search("-LRB-|-RRB-|\\b\_|\\b\/_|\*_", words[j]))):
             #     words[j] = re.sub("_\w+", "_EMO", words[j])
             #     words[j] = re.sub("_(\W+)", "_EMO", words[j])
-
 
             # For other emoticons where each character is parsed as an individual token and the letters occur in +1 position.
             # if ((re.search("\\b<_", words[j]) and re.search("\\b3_", words[j+1])) or
@@ -288,60 +273,55 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #     words[j+1] = re.sub("_\w+", "_EMO", words[j+1])
             #     words[j+1] = re.sub("_(\W+)", "_EMO", words[j+1])
 
-
             # Correct double punctuation such as ?! and !? (often tagged by the Stanford Tagger as a noun or foreign word) 
             if (re.search("[\?\!]{2,15}", words[j])):
                 words[j] = re.sub("_(\W+)", "_.", words[j])
                 words[j] = re.sub("_(\w+)", "_.", words[j])
 
+            # CORRECTION OF "TO" AS PREPOSITION 
+            # ELF: Added "to" followed by a punctuation mark, e.g. "What are you up to?"
             if (re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_IN|_CD|_DT|_JJ|_WPS|_NN|_NNP|_PDT|_PRP|_WDT|(\\b(" + wp + "))|_WRB|_\W", words[j+1], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_IN", words[j])
 
-                # ELF: correcting "I dunno"
+            # ELF: Correction of: "I dunno"
             if (re.search("\\bdu_", words[j], re.IGNORECASE) and re.search("\\bn_", words[j+1]) and re.search("\\bno_", words[j+2])): 
                     words[j] = re.sub("_\w+", "_VPRT", words[j])
                     words[j+1] = re.sub("_\w+", "_XX0", words[j+1])
                     words[j+2] = re.sub("_\w+", "_VB", words[j+2])
 
+            # ELF: Correction of "have" in inverted questions in the present perfect:
             if (re.search("\\bhave_VB", words[j], re.IGNORECASE) and re.search("_PRP", words[j+1]) and re.search("_VBN|_VBD", words[j+2])):
                 words[j] = re.sub("_\w+", "_VPRT", words[j])
 
             # ELF: Correction of falsely tagged "'s" following "there". 
-
             if (re.search("\\bthere_EX", words[j-1], re.IGNORECASE) and re.search("_POS", words[j])):
                 words[j] = re.sub("_\w+", "_VPRT", words[j])
 
             # ELF: Correction of most problematic spoken language particles
-            # ELF: DMA is a new variable. It is important for it to be high up because lots of DMA's are marked as nouns by the Stanford Tagger which messes up other variables further down the line otherwise. More complex DMAs are further down.
+            # ELF: DMA is a new variable. It is important for it to be high up because lots of DMA's are marked as nouns by the Stanford Tagger which messes up other variables further down the line otherwise. 
+            # More complex DMAs are tagged further down.
             if (re.search("\\bactually_|\\banyway|\\bdamn_|\\bgoodness_|\\bgosh_|\\byeah_|\\byep_|\\byes_|\\bnope_|\\bright_UH|\\bwhatever_|\\bdamn_RB|\\blol_|\\bIMO_|\\bomg_|\\bwtf_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_DMA", words[j])
 
-
             # ELF: FPUH is a new variable.
-            # ELF: tags interjections and filled pauses.
-            
+            # Aims to tags interjections and filled pauses.
             if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_|\\bhum+", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_(\w+)", "_FPUH", words[j])
-            
             # Also added "hm+" on Peter's suggestion but made sure that this was case sensitive to avoid mistagging Her Majesty ;-)
             if (re.search("\\bhm+|\\bHm+", words[j])):
                 words[j] = re.sub("_(\w+)", "_FPUH", words[j])
 
-            #--------------------------------------------------
-
-            # ELF: Added a new variable for "so" as tagged as a preposition (IN) or adverb (RB) by the Stanford Tagger because it most often does not seem to be a preposition/conjunct (but rather a filler, amplifier, etc.) and should therefore not be added to the preposition count.
+            # ELF: Added a new "bin" variable for "so" as tagged as a preposition (IN) or adverb (RB) by the Stanford Tagger 
+            # because it most often does not seem to be a preposition/conjunct (but rather a filler, amplifier, etc.) and should therefore not be added to the preposition count.
 
             if (re.search("\\bso_IN|\\bso_RB", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_SO", words[j])
 
-
             # Tags quantifiers 
-            # ELF: Note that his variable is used to identify several other features. 
+            # ELF: Note that this variable is used to identify several other features. 
             # ELF: added "any", "lots", "loada" and "a lot of" and gave it its own loop because it is now more complex and must be completed before the next set of for-loops. Also added "most" except when later overwritten as an EMPH.
             # ELF: Added "more" and "less" when tagged by the Stanford Tagger as adjectives (JJ.*). As adverbs (RB), they are tagged as amplifiers (AMP) and downtoners (DWT) respectively.
             # ELF: Also added "load(s) of" and "heaps of" on DS's recommendation
-
-
 
             # ELF: Getting rid of the Stanford Tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
             if ((re.search("_PDT", words[j], re.IGNORECASE)) or 
@@ -350,19 +330,18 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+", words[j+1], re.IGNORECASE)) or
             (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added "a lot (of)" and removed NULL tags
                 words[j] = re.sub("_\w+", "_QUAN", words[j])
-    
-                
+                   
     #---------------------------------------------------
     # COMPLEX TAGS
     for j, value in enumerate(words):
 
         if value != " ":
-        #---------------------------------------------------
 
-        # ELF: New variable. Tags the remaining pragmatic and discourse markers 
+        # ELF: DMA is a new variable in the MFTE. 
+        #  Here, we tag the remaining pragmatic and discourse markers (see above for simple ones) 
         # The starting point was Stenström's (1994:59) list of "interactional signals and discourse markers" (cited in Aijmer 2002: 2) 
         # --> but it does not include "now" (since it's already a time adverbial), "please" (included in politeness), "quite" or "sort of" (hedges). 
-        # I also added: "nope", "I guess", "mind you", "whatever" and "damn" (if not a verb and not already tagged as an emphatic).
+        # Also added: "nope", "I guess", "mind you", "whatever" and "damn" (if not a verb and not already tagged as an emphatic).
 
             if ((re.search("\\bno_", words[j], re.IGNORECASE) and not re.search("_V", words[j]) and not re.search("_J|_NN|\\bless_", words[j+1])) or # This avoid a conflict with the synthetic negation variable and leaves the "no" in "I dunno" as a present tense verb form and "no" from "no one".
             (re.search("_\W|FPUH_", words[j-1]) and re.search("\\bright_|\\bokay_|\\bok_", words[j], re.IGNORECASE)) or # Right and okay immediately proceeded by a punctuation mark or a filler word
@@ -385,7 +364,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #----------------------------------------------------    
             
             # Manually add okay as a predicative adjective (JJPR) because "okay" and "ok" are often tagged as foreign words by the Stanford Tagger. All other predicative adjectives are tagged at the very end.
-
 
             if (re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE) and re.search("\\bok_|okay_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_JJPR", words[j])
@@ -411,8 +389,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             if (re.search("\\beg_|\\be\.g\._|etc\.?_|\\bi\.e\._|\\bcf\.?_|\\blikewise_|\\bnamely_|\\bviz\.?_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_ELAB", words[j])
-
-
 
             #---------------------------------------------------
 
@@ -488,8 +464,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
             
             #---------------------------------------------------
 
+            # Feature from the MAT/Biber Tagger.
             # Tags phrasal coordination with "and", "or" and "nor". 
-            # ELF: Not currently in use due to relatively low precision and recall (see perl tagger performance evaluation).
+            # ELF: Not currently in use due to low precision and recall (see perl tagger performance evaluation).
             #if ((re.search("\\band_|\\bor_|&_|\\bnor_", words[j], re.IGNORECASE)) and
             # ((re.search("_RB", words[j-1]) and re.search("_RB", words[j+1])) or
             #(re.search("_J", words[j-1]) and re.search("_J", words[j+1])) or
@@ -497,11 +474,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #(re.search("_CD", words[j-1]) and re.search("_CD", words[j+1])) or
             #(re.search("_NN", words[j-1]) and re.search("_NN|whatever_|_DT", words[j+1])))):
             #   words[j] = re.sub("_\w+", "_PHC", words[j])
-            #
 
             #---------------------------------------------------
 
-            # Tags auxiliary DO ELF: I added this variable and removed Nini's old pro-verb DO variable. Later on, all DO verbs not tagged as DOAUX here are tagged as ACT.
+            # Tags auxiliary DO ELF: I added this variable which replaces the MAT's/Biber tagger's "pro-verb" DO variable. 
+            # Later on, all DO verbs not tagged as DOAUX are tagged as ACT.
             if (re.search("\\bdo_V|\\bdoes_V|\\bdid_V", words[j], re.IGNORECASE) and not re.search("to_TO", words[j-1])): # This excludes DO + VB\\b which have already been tagged as emphatics (DO_EMPH) and "to do" constructions
                 if ((re.search("_VB\\b", words[j+2])) or # did you hurt yourself? Didn't look? 
                 (re.search("_VB\\b", words[j+3])) or # didn't it hurt?
@@ -514,7 +491,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 
         #---------------------------------------------------
 
-        # ELF: tags question tags. New variable
+        # ELF: Regex for question tags. New variable in MFTE.
 
             if ((not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and re.search("_MD|\\bdid_|\\bhad_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # couldn't he?
             (not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-3], re.IGNORECASE) and re.search("_MD|\\bdid_|\\bhad_|\\bdo_", words[j-2], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_|\\byou_", words[j-1]) and re.search("\\?_\\.", words[j])) or # did they?
@@ -535,7 +512,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------    
             # Tags yes/no inverted questions (YNQU)
             # ELF: New variable and new operationalistion for python version with tags added to the question marks as opposed to the verbs
-            # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
+            # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. 
+            # Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
             
             if ((not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-3], re.IGNORECASE) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-2], re.IGNORECASE) and re.search("_P|_NN|_DT|_CD", words[j-1]) and re.search("\\?_\\.$", words[j])) or  # Are they there? It is him?
             (not re.search("\\b(" + whw + ")", words[j-6], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and re.search("\\b(" + be + ")|\\b(" + have + ")|\\b(" + do + ")|_MD", words[j-3], re.IGNORECASE) and re.search("_P|_NN|_DT|_CD", words[j-2]) and re.search("\\?_\\.$", words[j])) or # Can you tell him?
@@ -577,15 +555,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
             # ELF: Added the new variable GOING TO, which allows for one intervening word between TO and the infinitive
-            # Shakir: Added case insensitive flag for going and gon
+            # Shakir: Added case insensitive flags for "going" and "gon"
             
             if ((re.search("\\bgoing_VBG", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1]) and re.search("\_VB", words[j+2])) or
             (re.search("\\bgoing_VBG", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1]) and re.search("\_VB", words[j+3])) or
             (re.search("\\bgon_VBG", words[j], re.IGNORECASE) and re.search("\\bna_", words[j+1]) and re.search("\_VB", words[j+2])) or
             (re.search("\\bgon_VBG", words[j], re.IGNORECASE) and re.search("\\bna_", words[j+1]) and re.search("\_VB", words[j+3]))):
                 words[j] = re.sub("_\w+", "_GTO", words[j])
-
-            #----------------------------------------------------
 
             #----------------------------------------------------
 
@@ -601,10 +577,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\beach_", words[j-1], re.IGNORECASE) and re.search("\\bother_", words[j]))):
                 words[j+1] = re.sub("_(\w+)", "_QUPR", words[j+1])
 
-                #---------------------------------------------------
+            #---------------------------------------------------
 
-                # Tags split infinitives
-                # ELF: merged this variable with split auxiliaries due to very low counts. Also removed "_AMPLIF|_DOWNTON" from these lists which Nini had but which made no sense because AMP and DWNT are a) tagged with shorter acronyms and b) this happens in future loops so RB does the job here. However, RB does not suffice for "n't" and not so I added _XX0 to the regex.
+            # Tags split infinitives
+            # ELF: merged this variable with split auxiliaries due to very low counts. Also removed "_AMPLIF|_DOWNTON" from these lists which Nini had but which made no sense because AMP and DWNT are a) tagged with shorter acronyms and b) this happens in future loops so RB does the job here. However, RB does not suffice for "n't" and not so I added _XX0 to the regex.
             if ((re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|_XX0", words[j+1], re.IGNORECASE) and re.search("_V", words[j+2])) or
             (re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|_XX0", words[j+1], re.IGNORECASE) and re.search("_RB|_XX0", words[j+2]) and re.search("_V", words[j+3])) or
 
@@ -615,19 +591,19 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             #---------------------------------------------------
 
-            # ELF: Attempted to add an alternative stranded "prepositions/particles" - This is currently not in use because it's too inaccurate.
+            # ELF: Attempted to add an alternative stranded "prepositions/particles"
+            # This is currently not in use because it's too inaccurate.
             #if (re.search("\\b(" + particles + ")_IN|\\b(" + particles + ")_RP|\\b(" + particles + ")_RB|to_TO", words[j], re.IGNORECASE) and re.search("_\W", words[j+1])):
             # words[j] = re.sub("_(\w+)", "_\\1 [STPR]", words[j])
-            #
 
             # Tags stranded prepositions
-            # ELF: changed completely since Nini's regex relied on PIN which is no longer a variable in use in the MFTE. 
+            # ELF: completely changed Nini's regex because it relied on PIN which is no longer a variable in use in the MFTE. 
             if (re.search("\\b(" + preposition + ")|\\bto_TO", words[j], re.IGNORECASE) and not re.search("_R", words[j]) and re.search("_\.", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 STPR", words[j])
 
             #---------------------------------------------------
             # Tags imperatives (in a rather crude way). 
-            # ELF: This is a new variable.
+            # ELF: This is a new variable in the MFTE.
             if ((re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM| $", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             #(re.search("_\W|_EMO|_FW|_SYM", words[j-2])  and not re.search("_,", words[j-2]) and not re.search("_MD", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|\\b_NNP", words[j+1], re.IGNORECASE)) or # Allows for one intervening token between end of previous sentence and imperative verb, e.g., "Just do it!". This line is not recommended for the Spoken BNC2014 and any texts with not particularly good punctuation.
             (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
@@ -646,20 +622,22 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
             # Tags 'that' adjective complements. 
-            # ELF: added the _IN tag onto the "that" to improve accuracy but currently not in use because it still proves too errorprone.
+            # ELF: added the _IN tag onto the "that" to improve accuracy but currently not in use because it still proves too error-prone.
             #if (re.search("_J", words[j-1]) and re.search("\\bthat_IN", words[j], re.IGNORECASE)):
             # words[j] = re.sub("_\w+", "_THAC", words[j])
-            #
 
             # ELF: tags other adjective complements. It's important that WHQU comes afterwards.
-            # ELF: also currently not in use because of the high percentage of taggin errors.
+            # ELF: also currently not in use because of the high percentage of tagging errors.
             #if (re.search("_J", words[j-1]) and re.search("\\bwho_|\\bwhat_WP|\\bwhere_|\\bwhy_|\\bhow_|\\bwhich_", words[j], re.IGNORECASE)):
             # words[j] = re.sub("_\w+", "_WHAC", words[j])
-            #
 
             #---------------------------------------------------
 
-            # ELF: Removed Biber's complex and, without manual adjustments, highly unreliable variables WHSUB, WHOBJ, THSUB, THVC, and TOBJ and replaced them with much simpler variables. It should be noted, however, that these variables rely much more on the Stanford Tagger which is far from perfect depending on the type of texts to be tagged. Thorough manual checks are highly recommended before using the counts of these variables!
+            # ELF: Removed Biber's more detailed and, without manual adjustments, highly unreliable variables WHSUB, WHOBJ, THSUB, THVC, and TOBJ
+            # Replaced them with much simpler variables (see Shakir's extended tagset for more finer-grained features). 
+            # It should be noted, however, that these variables rely much more on the Stanford Tagger which is far from perfect depending on the type of texts to be tagged. 
+            # Thorough manual checks are therefore still highly recommended before using the counts of these variables!
+            
             # That-subordinate clauses other than relatives according to the Stanford Tagger  
             if (re.search("\\bthat_IN", words[j], re.IGNORECASE) and not re.search("_\W", words[j+1])):
                 words[j] = re.sub("_\w+", "_THSC", words[j])
@@ -669,7 +647,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_\w+", "_THRC", words[j])
 
             # Subordinate clauses with WH-words. 
-            # ELF: New variable.
+            # ELF: New variable in the MFTE.
             if (re.search("\\b(" + wp + ")|\\b(" + who + ")", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_WHSC", words[j])
 
@@ -692,7 +670,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_\w+", "_QUAN HDG", words[j])
                 words[j-2] = re.sub("\w+", "_QUAN", words[j-2])
 
-
             #---------------------------------------------------
 
             # Tags politeness markers
@@ -704,7 +681,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\bI_|\\bwe_", words[j-2], re.IGNORECASE) and re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE) and re.search("\\bwonder_V|\\bwondering_", words[j], re.IGNORECASE)) or
             (re.search("\\byou_|_XX0", words[j-1], re.IGNORECASE) and re.search("\\bmind_V", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_(\w+)", "_\\1 POLITE", words[j])
-
 
             # Tags HAVE GOT constructions
             # ELF: New variable. Added a tag for "have got" constructions, overriding the PEAS and PASS constructions.
@@ -735,7 +711,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
         
         if value != " ":
       
-        
             #---------------------------------------------------    
 
             # Tags WH questions
@@ -793,11 +768,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("_JJAT", words[j-3]) and re.search(",_,", words[j-2]) and re.search("\\band_", words[j-1]) and re.search("_JJ", words[j]))):
                 words[j] = re.sub("_\w+", "_JJAT", words[j])
 
-                #---------------------------------------------------
+            #---------------------------------------------------
 
-                # Tags perfect aspects # ELF: Changed things around to tag PEAS onto the past participle (and thus replace the VBD/VBN tags) rather than as an add-on to the verb have, as Biber/Nini did. 
-                # I tried to avoid as many errors as possible with 's being either BE (= passive) or HAS (= perfect aspect) but this is not perfect. Note that "'s got" and "'s used to" are already tagged separately. 
-                # Also note that lemmatisation would not have helped much here because spot checks with Sketch Engine's lemmatiser show that lemmatisers do a terrible job at this, too!
+            # Tags perfect aspects 
+            # ELF: Changed things around as compared to the MAT to tag PEAS onto the past participle (and thus replace the VBD/VBN tags) rather than as an add-on to the verb have, as Biber/Nini did. 
+            # I tried to avoid as many errors as possible with 's being either BE (= passive) or HAS (= perfect aspect) but this is not perfect. 
+            # Note that "'s got" and "'s used to" are already tagged separately. 
+            # It's also worth noting that lemmatisation would likely not help much here either because spot checks with Sketch Engine's lemmatiser show that lemmatisers do a terrible job at this, too!
             if ((re.search("ed_VBD|_VBN", words[j]) and re.search("\\b(" + have + ")", words[j-1], re.IGNORECASE)) or # have eaten
             (re.search("ed_VBD|_VBN", words[j]) and re.search("_RB|_XX0|_EMPH|_PRP|_DMA|_CC", words[j-1]) and re.search("\\b(" + have + ")", words[j-2], re.IGNORECASE)) or # have not eaten
             (re.search("\\bbeen_PASS|\\bhad_PASS|\\bdone_PASS|\\b(" + v_stative + ")_PASS", words[j], re.IGNORECASE) and re.search("\\bs_VBZ", words[j-1], re.IGNORECASE)) or # This ensures that 's + past participle combinations which are unlikely to be passives are overwritten here as PEAS
@@ -827,10 +804,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j-1] = re.sub("_\w+", "_CC", words[j-1]) # OR _PHC if this variable is used! (see problems described in tagger performance evaluation)
                 words[j] = re.sub("_\w+", "_PASS", words[j])
 
-                # ELF: Added a "used to" variable, overriding the PEAS and PASS constructions. Not currently in use due to very low precision (see tagger performance evaluation).
-                #if (re.search("\\bused_", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1])):
-                # words[j] = re.sub("_\w+", "_USEDTO", words[j])
-                #
+            # ELF: Added a "used to" variable, overriding the PEAS and PASS constructions. 
+            # Not currently in use due to very low precision (see tagger performance evaluation).
+            #if (re.search("\\bused_", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1])):
+            # words[j] = re.sub("_\w+", "_USEDTO", words[j])
+            #
 
             # ELF: tags "able to" constructions. New variable
             if ((re.search("\\b(" + be + ")", words[j-1]) and re.search("\\bable_JJ|\\bunable_JJ", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1])) or
@@ -839,9 +817,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         #---------------------------------------------------
 
-    # ELF: added tag for progressive aspects (initially modelled on Nini's algorithm for the perfect aspect). 
+    # ELF: added tag for the progressive aspect
     # Note that it's important that this tag has its own loop because it relies on GTO (going to + inf. constructions) having previously been tagged. 
-    # Note that this script overrides the _VBG Stanford tagger tag so that the VBG count are now all -ing constructions *except* progressives and GOING-to constructions.
+    # Note that this script overrides the _VBG Stanford tagger tag so that the VBG count now includes all (non-finite) -ing constructions *except* progressives and GOING-to constructions.
 
     for j, value in enumerate(words):
 
@@ -858,16 +836,20 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             #---------------------------------------------------
 
-            # ELF: Added two new variables for "like" as a preposition (IN) and adjective (JJ) because it most often does not seem to be a preposition (but rather a filler, part of the quotative phrase BE+like, etc.) and should therefore not be added to the preposition count unless it is followed by a noun or adjective.
-            # ELF: QLIKE is currently in use due to relatively low precision and recall (see tagger performance evaluation).
-
+            # ELF: Added a new variable for quotative uses of like (BE + like)
+            # ELF: However, QLIKE is currently not in use due to relatively low precision and recall (see MFTE perl performance evaluation).
+            
             #if (re.search("\\b(" + be + ")", words[j-1]) and re.search("\\blike_IN|\\blike_JJ", words[j], re.IGNORECASE) and not re.search("_NN|_J|_DT|_\.|_,|_IN", words[j+1])):
-
             #words[j] = re.sub("_\w+", "_QLIKE", words[j])
-            #
 
-            if (re.search("\\blike_IN|\\blike_JJ|\\blike_JJ", words[j], re.IGNORECASE)):
+            #---------------------------------------------------
 
+            # ELF: Added a "bin" variable for "like" 
+            # Because attempts to disambiguate between like as a preposition (IN) and adjective (JJ) largely failed. 
+            # In conversation, like also frequently acts as a filler or interjection or as part of the quotative phrase BE+like. 
+            # Recall and precision were too low (see MFTE perl evaluation) 
+            
+            if (re.search("\\blike_IN|\\blike_JJ|\\blike_UH", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_LIKE", words[j])
 
     #---------------------------------------------------
@@ -901,11 +883,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_\w+", "_DEMO", words[j])
 
     #---------------------------------------------------
-    # Tags subordinator-that deletion 
-    # ELF: Added words+2 in the first pattern to remove "Why would I know that?", 
-    # replaced the long MD/do/have/be/V regex that had a lot of redundancies by just MD/V. 
+    # Tags subordinator "that" omission 
+    # ELF: Added words+2 in the first pattern to remove "Why would I know that?". 
+    # Replaced the long MD/do/have/be/V regex that had a lot of redundancies by just MD/V. 
     # In the second pattern, replaced all PRPS by just subject position ones to remove phrases like "He didn't hear me thank God". 
-    # Originally also added the pronoun "it" which Nini had presumably forgotten. Then simply used the PRP tag for all personal pronouns.
+    # Originally also added the pronoun "it" which Nini had presumably forgotten? Then simply used the PRP tag for all personal pronouns.
 
     for j, value in enumerate(words):
 
@@ -923,7 +905,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     #---------------------------------------------------
 
-    # Tags pronoun it ELF: excluded IT (all caps) from the list since it usually refers to information technology
+    # Tags pronoun "it" 
+    # ELF: excluded IT (all caps) from the list since it usually refers to information technology
 
     for j, value in enumerate(words):  
 
@@ -934,9 +917,12 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         #---------------------------------------------------
 
-    # Tags first person references ELF: Added exclusion of occurrences of US (all caps) which usually refer to the United States.
-    # ELF: Added 's_PRP to account for abbreviated "us" in "let's" Also added: mine, ours.
-    # ELF: Subdivided Biber's FPP1 into singular and plural.
+    # Tags first person references 
+    # ELF: Added exclusion of occurrences of US (all caps) which usually refer to the United States.
+    # ELF: Added 's_PRP to account for abbreviated "us" in "let's" 
+    # Also added: mine and ours.
+
+    # ELF: Later subdivided Biber's FPP1 into singular and plural.
 
     for j, value in enumerate(words):
 
@@ -965,7 +951,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
         if value != " ":
 
         # Tags concessive conjunctions 
-        # Nini had already added "THO" to Biber's list.
+        # Note that Nini had already added "THO" to Biber's list.
         # ELF added: despite, albeit, yet, except that, in spite of, granted that, granted + punctuation, no matter + WH-words, regardless of + WH-word. 
         # Also added: nevertheless, nonetheless and notwithstanding and whereas, which Biber had as "other adverbial subordinators" (OSUB, a category ELF removed).
             if ((re.search("\\balthough_|\\btho_|\\bdespite|\\balbeit_|nevertheless_|nonetheless_|notwithstanding_|\\bwhereas_", words[j], re.IGNORECASE)) or
@@ -1002,9 +988,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_\w+", "_TIME", words[j])
 
             #---------------------------------------------------
-
-        # Tags pro-verb do ELF: This is an entirely new way to operationalise the variable. Instead of identifying the pro-verb DO, I actually identify DO as an auxiliary early (DOAUX) and here I take other forms of DO as a verb as pro-verbs. This is much more reliable than Nini's method which, among other problems, tagged all question tags as the pro-verb DO. 
-        # ELF: Following discussing with PU on the true definition of pro-verbs, removed this variable altogether and adding all non-auxiliary DOs to the activity verb list.
 
     for j, value in enumerate(words):
         #print("do loop arrived:")
@@ -1079,15 +1062,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags third person reference 
             # ELF: added themself in singular (cf. https://www.lexico.com/grammar/themselves-or-themself), added nominal possessive pronoun forms (hers, theirs), also added em_PRP for 'em.
-            # ELF: Subdivided Biber's category into non-interactant plural and non-plural.
+            # ELF: Subdivided Biber's category into "they" references (PP3t), "she" references (PP3f) and "he" references (PP3m).
             if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP|\\bthemself_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_PP3t", words[index])
 
-            # Note that this variable cannot account for singular they except for the reflective form.
             if (re.search("\\bshe_|\\bher_|\\bhers_|\\bherself_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_PP3f", words[index])
 
-            # Note that this variable cannot account for singular they except for the reflective form.
             if (re.search("\\bhe_|\\bhim_|\\bhis_|\\bhimself_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_PP3m", words[index])
 
@@ -1149,11 +1130,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         if value != " ":
 
-            #Shakir: Added space to prevent tag overlaps
+            # Shakir: Added space to prevent tag overlaps
             if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])):
                 words[j+1] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
 
-            #Shakir: if extended is True keep proper noun distinction
+            # Shakir: if extended is True keep proper noun distinction
             if extended:
 
                 if (re.search("_NNP|_NNPS", words[j])):
@@ -1165,15 +1146,15 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 
                 words[j] = re.sub("_\w+", "_NN", words[j])
 
-            #Shakir: fixed it tagged as PRP 
+            # Shakir: fixed it tagged as PRP 
             if (re.search("(It|its?|itself)_PRP\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_PIT", words[j])
 
-            #Shakir: additional variable to catch any remaining MD tags
+            # Shakir: additional variable to catch any remaining MD tags
             if (re.search("_MD\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_MDother", words[j])
             
-            #Shakir: additional variable to catch any remaining PRPS and PRP tags
+            # Shakir: additional variable to catch any remaining PRPS and PRP tags
             if (re.search("_(PRPS|PRP)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_PPother", words[j])        
 
@@ -1192,7 +1173,7 @@ def process_sentence_extended (words: list) -> list:
     
     # Activity verbs 
     # ELF: removed GET and GO due to high polysemy and corrected the "evercise" typo found in Biber 2006.
-    vb_act =	"(buy|buys|buying|bought|make|makes|making|made|give|gives|giving|gave|given|take|takes|taking|took|taken|come|comes|coming|came|use|uses|using|used|leave|leaves|leaving|left|show|shows|showing|showed|shown|try|tries|trying|tried|work|works|wrought|worked|working|move|moves|moving|moved|follow|follows|following|followed|put|puts|putting|pay|pays|paying|paid|bring|brings|bringing|brought|meet|meets|met|play|plays|playing|played|run|runs|running|ran|hold|holds|holding|held|turn|turns|turning|turned|send|sends|sending|sent|sit|sits|sitting|sat|wait|waits|waiting|waited|walk|walks|walking|walked|carry|carries|carrying|carried|lose|loses|losing|lost|eat|eats|ate|eaten|eating|watch|watches|watching|watched|reach|reaches|reaching|reached|add|adds|adding|added|produce|produces|producing|produced|provide|provides|providing|provided|pick|picks|picking|picked|wear|wears|wearing|wore|worn|open|opens|opening|opened|win|wins|winning|won|catch|catches|catching|caught|pass|passes|passing|passed|shake|shakes|shaking|shook|shaken|smile|smiles|smiling|smiled|stare|stares|staring|stared|sell|sells|selling|sold|spend|spends|spending|spent|apply|applies|applying|applied|form|forms|forming|formed|obtain|obtains|obtaining|obtained|arrange|arranges|arranging|arranged|beat|beats|beating|beaten|check|checks|checking|checked|cover|covers|covering|covered|divide|divides|dividing|divided|earn|earns|earning|earned|extend|extends|extending|extended|fix|fixes|fixing|fixed|hang|hangs|hanging|hanged|hung|join|joins|joining|joined|lie|lies|lying|lay|lain|lied|obtain|obtains|obtaining|obtained|pull|pulls|pulling|pulled|repeat|repeats|repeating|repeated|receive|receives|receiving|received|save|saves|saving|saved|share|shares|sharing|shared|smile|smiles|smiling|smiled|throw|throws|throwing|threw|thrown|visit|visits|visiting|visited|accompany|accompanies|accompanying|accompanied|acquire|acquires|acquiring|acquired|advance|advances|advancing|advanced|behave|behaves|behaving|behaved|borrow|borrows|borrowing|borrowed|burn|burns|burning|burned|burnt|clean|cleaner|cleanest|cleans|cleaning|cleaned|climb|climbs|climbing|climbed|combine|combines|combining|combined|control|controls|controlling|controlled|defend|defends|defending|defended|deliver|delivers|delivering|delivered|dig|digs|digging|dug|encounter|encounters|encountering|encountered|engage|engages|engaging|engaged|exercise|exercised|exercising|exercises|expand|expands|expanding|expanded|explore|explores|exploring|explored|reduce|reduces|reducing|reduced)"
+    vb_act = "(buy|buys|buying|bought|make|makes|making|made|give|gives|giving|gave|given|take|takes|taking|took|taken|come|comes|coming|came|use|uses|using|used|leave|leaves|leaving|left|show|shows|showing|showed|shown|try|tries|trying|tried|work|works|wrought|worked|working|move|moves|moving|moved|follow|follows|following|followed|put|puts|putting|pay|pays|paying|paid|bring|brings|bringing|brought|meet|meets|met|play|plays|playing|played|run|runs|running|ran|hold|holds|holding|held|turn|turns|turning|turned|send|sends|sending|sent|sit|sits|sitting|sat|wait|waits|waiting|waited|walk|walks|walking|walked|carry|carries|carrying|carried|lose|loses|losing|lost|eat|eats|ate|eaten|eating|watch|watches|watching|watched|reach|reaches|reaching|reached|add|adds|adding|added|produce|produces|producing|produced|provide|provides|providing|provided|pick|picks|picking|picked|wear|wears|wearing|wore|worn|open|opens|opening|opened|win|wins|winning|won|catch|catches|catching|caught|pass|passes|passing|passed|shake|shakes|shaking|shook|shaken|smile|smiles|smiling|smiled|stare|stares|staring|stared|sell|sells|selling|sold|spend|spends|spending|spent|apply|applies|applying|applied|form|forms|forming|formed|obtain|obtains|obtaining|obtained|arrange|arranges|arranging|arranged|beat|beats|beating|beaten|check|checks|checking|checked|cover|covers|covering|covered|divide|divides|dividing|divided|earn|earns|earning|earned|extend|extends|extending|extended|fix|fixes|fixing|fixed|hang|hangs|hanging|hanged|hung|join|joins|joining|joined|lie|lies|lying|lay|lain|lied|obtain|obtains|obtaining|obtained|pull|pulls|pulling|pulled|repeat|repeats|repeating|repeated|receive|receives|receiving|received|save|saves|saving|saved|share|shares|sharing|shared|smile|smiles|smiling|smiled|throw|throws|throwing|threw|thrown|visit|visits|visiting|visited|accompany|accompanies|accompanying|accompanied|acquire|acquires|acquiring|acquired|advance|advances|advancing|advanced|behave|behaves|behaving|behaved|borrow|borrows|borrowing|borrowed|burn|burns|burning|burned|burnt|clean|cleaner|cleanest|cleans|cleaning|cleaned|climb|climbs|climbing|climbed|combine|combines|combining|combined|control|controls|controlling|controlled|defend|defends|defending|defended|deliver|delivers|delivering|delivered|dig|digs|digging|dug|encounter|encounters|encountering|encountered|engage|engages|engaging|engaged|exercise|exercised|exercising|exercises|expand|expands|expanding|expanded|explore|explores|exploring|explored|reduce|reduces|reducing|reduced)"
 
     # Communication verbs 
     # ELF: corrected a typo for "descibe" and added its other forms, removed "spake" as a form of SPEAK, removed some adjective forms like "fitter, fittest", etc.
@@ -1215,7 +1196,7 @@ def process_sentence_extended (words: list) -> list:
     # Aspectual verbs
     vb_aspect =	"(start|starts|starting|started|keep|keeps|keeping|kept|stop|stops|stopping|stopped|begin|begins|beginning|began|begun|complete|completes|completing|completed|end|ends|ending|ended|finish|finishes|finishing|finished|cease|ceases|ceasing|ceased|continue|continues|continuing|continued)"
 
-    #Shakir: noun, adj, adv semantic categories from Biber 2006
+    # Shakir: noun, adj, adv semantic categories from Biber 2006
     nn_human = "(family|families|guy|guys|individual|individuals|kid|kids|man|men|manager|managers|member|members|parent|parents|teacher|teachers|child|children|people|peoples|person|people|student|students|woman|women|animal|animals|applicant|applicants|author|authors|baby|babies|boy|boys|client|clients|consumer|consumers|critic|critics|customer|customers|doctor|doctors|employee|employees|employer|employers|father|fathers|female|females|friend|friends|girl|girls|god|gods|historian|historians|husband|husbands|American|Americans|Indian|Indians|instructor|instructors|king|kings|leader|leaders|male|males|mother|mothers|owner|owners|president|presidents|professor|professors|researcher|researchers|scholar|scholars|speaker|speakers|species|supplier|suppliers|undergraduate|undergraduates|user|users|wife|wives|worker|workers|writer|writers|accountant|accountants|adult|adults|adviser|advisers|agent|agents|aide|aides|ancestor|ancestors|anthropologist|anthropologists|archaeologist|archaeologists|artist|artists|artiste|artistes|assistant|assistants|associate|associates|attorney|attorneys|audience|audiences|auditor|auditors|bachelor|bachelors|bird|birds|boss|bosses|brother|brothers|buddha|buddhas|buyer|buyers|candidate|candidates|cat|cats|citizen|citizens|colleague|colleagues|collector|collectors|competitor|competitors|counselor|counselors|daughter|daughters|deer|defendant|defendants|designer|designers|developer|developers|director|directors|driver|drivers|economist|economists|engineer|engineers|executive|executives|expert|experts|farmer|farmers|feminist|feminists|freshman|freshmen|ecologist|ecologists|hero|heroes|host|hosts|hunter|hunters|immigrant|immigrants|infant|infants|investor|investors|jew|jews|judge|judges|lady|ladies|lawyer|lawyers|learner|learners|listener|listeners|maker|makers|manufacturer|manufacturers|miller|millers|minister|ministers|mom|moms|monitor|monitors|monkey|monkeys|neighbor|neighbors|neighbour|neighbours|observer|observers|officer|officers|official|officials|participant|participants|partner|partners|patient|patients|personnel|personnels|peer|peers|physician|physicians|plaintiff|plaintiffs|player|players|poet|poets|police|polices|processor|processors|professional|professionals|provider|providers|psychologist|psychologists|resident|residents|respondent|respondents|schizophrenic|schizophrenics|scientist|scientists|secretary|secretaries|server|servers|shareholder|shareholders|sikh|sikhs|sister|sisters|slave|slaves|son|sons|spouse|spouses|supervisor|supervisors|theorist|theorists|tourist|tourists|victim|victims|faculty|faculties|dean|deans|engineer|engineers|reader|readers|couple|couples|graduate|graduates)"
     nn_cog = "(analysis|analyses|decision|decisions|experience|experiences|assessment|assessments|calculation|calculations|conclusion|conclusions|consequence|consequences|consideration|considerations|evaluation|evaluations|examination|examinations|expectation|expectations|observation|observations|recognition|recognitions|relation|relations|understanding|understandings|hypothesis|hypotheses|ability|abilities|assumption|assumptions|attention|attentions|attitude|attitudes|belief|beliefs|concentration|concentrations|concern|concerns|consciousness|consciousnesses|concept|concepts|fact|facts|idea|ideas|knowledge|knowledges|look|looks|need|needs|reason|reasons|sense|senses|view|views|theory|theories|desire|desires|emotion|emotions|feeling|feelings|judgement|judgements|memory|memories|notion|notions|opinion|opinions|perception|perceptions|perspective|perspectives|possibility|possibilities|probability|probabilities|responsibility|responsibilities|thought|thoughts)"
     nn_concrete = "(tank|tanks|stick|sticks|target|targets|strata|stratas|telephone|telephones|string|strings|telescope|telescopes|sugar|sugars|ticket|tickets|syllabus|syllabuses|tip|tips|salt|salts|tissue|tissues|screen|screens|tooth|teeth|sculpture|sculptures|sphere|spheres|seawater|seawaters|spot|spots|ship|ships|steam|steams|silica|silicas|steel|steels|slide|slides|stem|stems|snow|snows|sodium|mud|muds|solid|solids|mushroom|mushrooms|gift|gifts|muscle|muscles|glacier|glaciers|tube|tubes|gun|guns|nail|nails|handbook|handbooks|newspaper|newspapers|handout|handouts|node|nodes|instrument|instruments|notice|notices|knot|knots|novel|novels|lava|lavas|page|pages|food|foods|transcript|transcripts|leg|legs|eye|eyes|lemon|lemons|brain|brains|magazine|magazines|device|devices|magnet|magnets|oak|oaks|manual|manuals|package|packages|marker|markers|peak|peaks|match|matches|pen|pens|metal|metals|pencil|pencils|block|blocks|pie|pies|board|boards|pipe|pipes|heart|hearts|load|loads|paper|papers|transistor|transistors|modem|modems|book|books|mole|moles|case|cases|motor|motors|computer|computers|mound|mounds|dollar|dollars|mouth|mouths|hand|hands|movie|movies|flower|flowers|object|objects|foot|feet|table|tables|frame|frames|water|waters|vessel|vessels|arm|arms|visa|visas|bar|bars|grain|grains|bed|beds|hair|hairs|body|bodies|head|heads|box|boxes|ice|ices|car|cars|item|items|card|cards|journal|journals|chain|chains|key|keys|chair|chairs|window|windows|vehicle|vehicles|leaf|leaves|copy|copies|machine|machines|document|documents|mail|mails|door|doors|map|maps|dot|dots|phone|phones|drug|drugs|picture|pictures|truck|trucks|piece|pieces|tape|tapes|note|notes|liquid|liquids|wire|wires|equipment|equipments|wood|woods|fiber|fibers|plant|plants|fig|figs|resistor|resistors|film|films|sand|sands|file|files|score|scores|seat|seats|belt|belts|sediment|sediments|boat|boats|seed|seeds|bone|bones|soil|soils|bubble|bubbles|bud|buds|water|waters|bulb|bulbs|portrait|portraits|bulletin|bulletins|step|steps|shell|shells|stone|stones|cake|cakes|tree|trees|camera|cameras|video|videos|face|faces|wall|walls|acid|acids|alcohol|alcohols|cap|caps|aluminium|aluminiums|clay|clays|artifact|artifacts|clock|clocks|rain|rains|clothing|clothings|asteroid|asteroids|club|clubs|automobile|automobiles|comet|comets|award|awards|sheet|sheets|bag|bags|branch|branches|ball|balls|copper|coppers|banana|bananas|counter|counters|band|bands|cover|covers|wheel|wheels|crop|crops|drop|drops|crystal|crystals|basin|basins|cylinder|cylinders|bell|bells|desk|desks|dinner|dinners|pole|poles|button|buttons|pot|pots|disk|disks|pottery|potteries|drain|drains|radio|radios|drink|drinks|reactor|reactors|drawing|drawings|retina|retinas|dust|dusts|ridge|ridges|edge|edges|ring|rings|engine|engines|ripple|ripples|plate|plates|game|games|cent|cents|post|posts|envelope|envelopes|rock|rocks|filter|filters|root|roots|finger|fingers|slope|slopes|fish|fish|space|spaces|fruit|fruits|statue|statues|furniture|furnitures|textbook|textbooks|gap|gaps|tool|tools|gate|gates|train|trains|gel|gels|deposit|deposits|chart|charts|mixture|mixtures)"
@@ -1241,7 +1222,7 @@ def process_sentence_extended (words: list) -> list:
     likely_vb_other = "(assumes|assumed|assuming|assume|believe|believing|believes|believed|doubting|doubted|doubts|doubt|gathers|gathering|gathered|gather|guessed|guess|guessing|guesses|hypothesi(z|s)ing|hypothesi(z|s)ed|hypothesi(z|s)e|hypothesi(z|s)es|imagine|imagining|imagines|imagined|predict|predicted|predicting|predicts|presupposing|presupposes|presuppose|presupposed|presumes|presuming|presumed|presume|reckon|reckoning|reckoned|reckons|seemed|seems|seem|seeming|speculated|speculate|speculating|speculates|suppose|supposes|supposing|supposed|suspected|suspect|suspects|suspecting|think|thinks|thinking|thought)"
     att_vb_other = "(agreeing|agreed|agree|agrees|anticipates|anticipated|anticipate|anticipating|complain|complained|complaining|complains|conceded|concede|concedes|conceding|ensure|expecting|expect|expects|expected|fears|feared|fear|fearing|feel|feels|feeling|felt|forgetting|forgets|forgotten|forgot|forget|hoped|hope|hopes|hoping|minding|minded|minds|mind|preferred|prefer|preferring|prefers|pretending|pretend|pretended|pretends|requiring|required|requires|require|wishes|wished|wish|wishing|worry|worrying|worries|worried)"
 
-    #Shakir: vocabulary lists for that, wh and to clauses governed by semantic classes of verbs, nouns, adjectives
+    # Shakir: vocabulary lists for that, wh and to clauses governed by semantic classes of verbs, nouns, adjectives
     th_vb_comm = "(say|says|saying|said|tell|tells|telling|told|call|calls|calling|called|ask|asks|asking|asked|write|writes|writing|wrote|written|talk|talks|talking|talked|speak|speaks|spoke|spoken|speaking|thank|thanks|thanking|thanked|describe|describing|describes|described|claim|claims|claiming|claimed|offer|offers|offering|offered|admit|admits|admitting|admitted|announce|announces|announcing|announced|answer|answers|answering|answered|argue|argues|arguing|argued|deny|denies|denying|denied|discuss|discusses|discussing|discussed|encourage|encourages|encouraging|encouraged|explain|explains|explaining|explained|express|expresses|expressing|expressed|insist|insists|insisting|insisted|mention|mentions|mentioning|mentioned|offer|offers|offering|offered|propose|proposes|proposing|proposed|quote|quotes|quoting|quoted|reply|replies|replying|replied|shout|shouts|shouting|shouted|sign|signs|signing|signed|sing|sings|singing|sang|sung|state|states|stating|stated|teach|teaches|teaching|taught|warn|warns|warning|warned|accuse|accuses|accusing|accused|acknowledge|acknowledges|acknowledging|acknowledged|address|addresses|addressing|addressed|advise|advises|advising|advised|appeal|appeals|appealing|appealed|assure|assures|assuring|assured|challenge|challenges|challenging|challenged|complain|complains|complaining|complained|consult|consults|consulting|consulted|convince|convinces|convincing|convinced|declare|declares|declaring|declared|demand|demands|demanding|demanded|emphasize|emphasizes|emphasizing|emphasized|emphasise|emphasises|emphasising|emphasised|excuse|excuses|excusing|excused|inform|informs|informing|informed|invite|invites|inviting|invited|persuade|persuades|persuading|persuaded|phone|phones|phoning|phoned|pray|prays|praying|prayed|promise|promises|promising|promised|question|questions|questioning|questioned|recommend|recommends|recommending|recommended|remark|remarks|remarking|remarked|respond|responds|responding|responded|specify|specifies|specifying|specified|swear|swears|swearing|swore|sworn|threaten|threatens|threatening|threatened|urge|urges|urging|urged|welcome|welcomes|welcoming|welcomed|whisper|whispers|whispering|whispered|suggest|suggests|suggesting|suggested|plead|pleads|pleaded|pleading|agree|agrees|agreed|agreeing|assert|asserts|asserting|asserted|beg|begs|begging|begged|confide|confides|confiding|confided|command|commands|commanding|commanded|disagree|disagreeing|disagrees|disagreed|object|objects|objected|objects|pledge|pledges|pledging|pledged|report|reports|reported|reporting|testify|testifies|testified|testifying|vow|vows|vowing|vowed|mean|means|meaning|meant)"
     th_vb_att = "(agreeing|agreed|agree|agrees|anticipates|anticipated|anticipate|anticipating|complain|complained|complaining|complains|conceded|concede|concedes|conceding|ensure|expecting|expect|expects|expected|fears|feared|fear|fearing|feel|feels|feeling|felt|forgetting|forgets|forgotten|forgot|forget|hoped|hope|hopes|hoping|minding|minded|minds|mind|preferred|prefer|preferring|prefers|pretending|pretend|pretended|pretends|requiring|required|requires|require|wishes|wished|wish|wishing|worry|worrying|worries|worried)"
     th_vb_fact = "(concluding|conclude|concluded|concludes|demonstrates|demonstrating|demonstrated|demonstrate|determining|determines|determine|determined|discovered|discovers|discover|discovering|finds|finding|found|find|knows|known|knowing|know|knew|learn|learns|learning|learnt|means|meaning|meant|mean|notifies|notices|notice|noticed|notify|notifying|noticing|notified|observed|observes|observing|observe|proven|prove|proving|proved|proves|reali(z|s)ed|reali(z|s)es|reali(z|s)e|reali(z|s)ing|recogni(z|s)es|recogni(z|s)e|recogni(z|s)ed|recogni(z|s)ing|remembered|remember|remembers|remembering|sees|seen|saw|seeing|see|showing|shows|shown|showed|show|understand|understands|understanding|understood)"
@@ -1271,17 +1252,15 @@ def process_sentence_extended (words: list) -> list:
     to_nn_stance_all = "(agreement|agreements|decision|decisions|desire|desires|failure|failures|inclination|inclinations|intention|intentions|obligation|obligations|opportunity|opportunities|plan|plans|promise|promises|proposal|proposals|reluctance|reluctances|responsibility|responsibilities|right|rights|tendency|tendencies|threat|threats|wish|wishes|willingness|willingnesses)"
     nn_stance_pp = "(assertion|assertions|conclusion|conclusions|conviction|convictions|discovery|discoveries|doubt|doubts|fact|facts|knowledge|knowledges|observation|observations|principle|principles|realization|realizations|result|results|statement|statements|assumption|assumptions|belief|beliefs|claim|claims|contention|contentions|feeling|feelings|hypothesis|hypotheses|idea|ideas|implication|implications|impression|impressions|notion|notions|opinion|opinions|possibility|possibilities|presumption|presumptions|suggestion|suggestions|grounds|ground|hope|hopes|reason|reasons|view|views|thought|thoughts|comment|comments|news|news|proposal|proposals|proposition|propositions|remark|remarks|report|reports|requirement|requirements|agreement|agreements|decision|decisions|desire|desires|failure|failures|inclination|inclinations|intention|intentions|obligation|obligations|opportunity|opportunities|plan|plans|promise|promises|reluctance|reluctances|responsibility|responsibilities|right|rights|tendency|tendencies|threat|threats|wish|wishes|willingness|willingnesses)"
 
-    
-         
     #---------------------------------------------------
     # COMPLEX TAGS
     for j, value in enumerate(words):
         #skip if space
         if value != " ":        
-            #---------------------------------------------------
             #----------------------------------------------------
-            #Shakir: Add two sub classes of attributive and predicative adjectives. The predicative counterparts should not have a TO or THSC afterwards
-            ####
+            # Shakir: Add two sub classes of attributive and predicative adjectives. 
+            # The predicative counterparts should not have a TO or THSC afterwards
+
             if (re.search("\\b(" + jj_att_other + ")_(JJAT|JJPR)", words[j], re.IGNORECASE) and not re.search("to_|_THSC", words[j+1])): 
                 words[j] = re.sub("_(\w+)", "_\\1 JJATDother", words[j])
 
@@ -1292,16 +1271,19 @@ def process_sentence_extended (words: list) -> list:
 
             # ELF: New features (for extended MFTE python output) 
             # Tags for comparative and superlative constructions
-            if ((re.search("est_J|est_RB|\\bworst_|\\bbest-", words[j], re.IGNORECASE) and not re.search("\\btest|honest_|west_|after_|\\bpest_|\\blest_|\\bguest_", words[j], re.IGNORECASE)) or # E.g., widest, furthest, worst, best-looking
+
+            # Superlatives
+            if ((re.search("est_J|est_RB|\\bworst_|\\bbest-", words[j], re.IGNORECASE) and not re.search("\\btest|honest_|west_|\\bpest_|\\blest_|\\bguest_", words[j], re.IGNORECASE)) or # E.g., widest, furthest, worst, best-looking
             (re.search("\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j]) and re.search("_J|_RB", words[j+1]))): # E.g., the most pressing, the cheapest
                 words[j] = re.sub("_(\w+)", "_\\1 SUPER", words[j])
 
-            if ((re.search("er_J|er_RB|\\bworse_|\\bbetter-", words[j], re.IGNORECASE) and not re.search("never_|rather_|other_|\\bever_|together_|proper_|super_|clever_|\\beager_|queer_|hyper_|\\butter_|\\binner_|bitter_|premier_|sinister_|\\bsober_|order_|over_", words[j], re.IGNORECASE)) or # E.g., wider, further, better-looking.
+            # Comparatives
+            if ((re.search("er_J|er_RB|\\bworse_|\\bbetter-", words[j], re.IGNORECASE) and not re.search("\\bafter_|never_|rather_|other_|\\bever_|together_|proper_|super_|clever_|\\beager_|queer_|hyper_|\\butter_|\\binner_|bitter_|premier_|sinister_|\\bsober_|order_|over_", words[j], re.IGNORECASE)) or # E.g., wider, further, better-looking.
             (re.search("\\bless_|\\bmore_", words[j]) and re.search("_J|_RB", words[j+1]))): # E.g., more pressing, less important.
                 words[j] = re.sub("_(\w+)", "_\\1 COMPAR", words[j])
         
         #----------------------------------------------------
-        #Shakir: to and split infin clauses followed by vb adj nouns.
+        # Shakir: TO and split infinitive clauses followed by vb, adj and nouns.
 
             if ((re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
@@ -1309,14 +1291,11 @@ def process_sentence_extended (words: list) -> list:
             (re.search("\\b(" + to_vb_desire + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
                 words[j] = re.sub("_(\w+)", "_\\1 ToVDSR", words[j])
 
-
             if ((re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
             (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_effort + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
                 words[j] = re.sub("_(\w+)", "_\\1 ToVEFRT", words[j])
-
-
 
             if ((re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
@@ -1324,15 +1303,11 @@ def process_sentence_extended (words: list) -> list:
             (re.search("\\b(" + to_vb_prob + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
                 words[j] = re.sub("_(\w+)", "_\\1 ToVPROB", words[j])
 
-
-
             if ((re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
             (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_speech + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
                 words[j] = re.sub("_(\w+)", "_\\1 ToVSPCH", words[j])
-
-
 
             if ((re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])) or
             (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+2])) or
@@ -1340,110 +1315,71 @@ def process_sentence_extended (words: list) -> list:
             (re.search("\\b(" + to_vb_mental + ")_V", words[j-1], re.IGNORECASE) and re.search("\\bna_TO", words[j]) and re.search("\_V", words[j+2]))):
                 words[j] = re.sub("_(\w+)", "_\\1 ToVMNTL", words[j])
 
-
             if (re.search("\\b(" + to_jj_certain + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToJCRTN", words[j])
-
 
             if (re.search("\\b(" + to_jj_able + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToJABL", words[j])
 
-
-
             if (re.search("\\b(" + to_jj_affect + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToJEFCT", words[j])
-
-
 
             if (re.search("\\b(" + to_jj_ease + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToJEASE", words[j])
 
-
-
             if (re.search("\\b(" + to_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToJEVAL", words[j])
 
-
-            #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
+            # Shakir: sums of that-clauses for vb, jj, nn and all to be used if original are too low freq
                     
             if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCall", words[j])
 
-
-
             if (re.search(" (ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToJSTNCall", words[j])
 
-
-        # ####
-        # #Shakir: all to vb stance excep verbs of desive which are frequent mainly due to want to constructions
+        # # Shakir: all to vb stance excep verbs of desive which are frequent mainly due to want to constructions
         # if (re.search(" (ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
         #     words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCother", words[j])
-        
-
 
             if (re.search("\\b(" + to_nn_stance_all + ")_N", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToNSTNC", words[j])
 
-
-
             if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToSTNCall", words[j])
-
-
 
             #---------------------------------------------------
             # Shakir: That complement clauses as tagged previously by THSC
             if (re.search("\\b(" + th_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVCOMM", words[j])
 
-
-
             if (re.search("\\b(" + th_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVATT", words[j])
-
-
 
             if (re.search("\\b(" + th_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVFCT", words[j])
 
-
-
             if (re.search("\\b(" + th_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVLIK", words[j])
-
-
 
             if (re.search("\\b(" + th_jj_att + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJATT", words[j])
 
-
-
             if (re.search("\\b(" + th_jj_fact + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJFCT", words[j])
-
-
 
             if (re.search("\\b(" + th_jj_likely + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJLIK", words[j])
 
-
-
             if (re.search("\\b(" + th_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJEVL", words[j])
 
-
-
-            #Shakir: that relative clauses related to attitude
+            # Shakir: that relative clauses related to attitude
             if (re.search("\\b(" + th_nn_nonfact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNNFCT", words[j])
 
-
-
             if (re.search("\\b(" + th_nn_att + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNATT", words[j])
-
-
 
             if (re.search("\\b(" + th_nn_fact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNFCT", words[j])
@@ -1451,66 +1387,51 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("\\b(" + th_nn_likely + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNLIK", words[j])
 
-
-
-            #Shakir: wh sub clauses after verb classes
+            # Shakir: wh sub clauses after verb classes
             if (re.search("\\b(" + wh_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVATT", words[j])
-
-
 
             if (re.search("\\b(" + wh_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVFCT", words[j])
 
-
-
             if (re.search("\\b(" + wh_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVLIK", words[j])
-
-
 
             if (re.search("\\b(" + wh_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVCOM", words[j])
 
-
-            #Shakir: preposition after stance nouns
+            # Shakir: preposition after stance nouns
             if (re.search("\\b(" + nn_stance_pp + ")_N", words[j-1], re.IGNORECASE) and re.search("_IN", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PrepNSTNC", words[j])
 
-            #Shakir: stance nouns without prep
+            # Shakir: stance nouns without prep
             if (re.search("\\b(" + nn_stance_pp + ")_N", words[j], re.IGNORECASE) and not re.search("_IN", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 NSTNCother", words[j])
 
-
-    #--------------------------------------------------- 
-    # Shakir: Nouns semantic classes
+    #-------------------------------------------------- 
+    # Shakir: Nouns semantic classes (from Biber 2006)
     for index, x in enumerate(words):
         
         if x != " ":
             #--------------------------------------------------------------  
-            #Shakir: noun and adverb semantic categories from Biber 2006, if there is no additional tag added previously (hence the space check)
+            # Shakir: noun and adverb semantic categories from Biber 2006, if there is no additional tag added previously (hence the space check)
             if (re.search("\\b(" + nn_human + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNHUMAN", words[index])
             
             if (re.search("\\b(" + nn_cog + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNCOG", words[index])
 
-
             if (re.search("\\b(" + nn_concrete + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNCONC", words[index])
-
 
             if (re.search("\\b(" + nn_place + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNPLACE", words[index])
 
-
             if (re.search("\\b(" + nn_quant + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNQUANT", words[index])
 
-
             if (re.search("\\b(" + nn_group + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNGRP", words[index])
-
 
             if (re.search("\\b(" + nn_technical + ")_N", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 NNTECH", words[index])
@@ -1521,27 +1442,22 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("\\b(" + jj_size + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 JJSIZE", words[index])
 
-
             if (re.search("\\b(" + jj_time + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 JJTIME", words[index])
-
 
             if (re.search("\\b(" + jj_color + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 JJCOLR", words[index])
 
-
             if (re.search("\\b(" + jj_eval + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 JJEVAL", words[index])
-
 
             if (re.search("\\b(" + jj_relation + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 JJREL", words[index])
 
-
             if (re.search("\\b(" + jj_topic + ")_J", words[index], re.IGNORECASE) and not re.search(" ", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 JJTOPIC", words[index])
 
-                # ELF: tags activity verbs. 
+            # ELF: tags activity verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or_PASS.
             if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_\\1 ACT", words[index])
@@ -1551,30 +1467,25 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("\\b(" + vb_comm + ")_V|\\b(" + vb_comm + ")_P", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_\\1 COMM", words[index])
 
-
             # ELF: tags mental verbs (including the "no" in "I dunno" and "wa" in wanna). 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
             if (re.search("\\b(" + vb_mental + ")_V|\\b(" + vb_mental + ")_P|\\bno_VB", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_\\1 MENTAL", words[index])
-                
-
+        
             # ELF: tags causative verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
             if (re.search("\\b(" + vb_cause + ")_V|\\b(" + vb_cause + ")_P", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_\\1 CAUSE", words[index])
-
 
             # ELF: tags occur verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
             if (re.search("\\b(" + vb_occur + ")_V|\\b(" + vb_occur + ")_P", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_\\1 OCCUR", words[index])
 
-
             # ELF: tags existential verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
             if (re.search("\\b(" + vb_exist + ")_V|\\b(" + vb_exist + ")_P", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_\\1 EXIST", words[index])
-
 
             # ELF: tags aspectual verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or PASS.
@@ -1583,25 +1494,23 @@ def process_sentence_extended (words: list) -> list:
 
             #--------------------------------------------------------------  
 
-    #Shakir: additional semantic categories
+    # Shakir: additional semantic categories
     for j, value in enumerate(words):
         #skip if space
         if value != " ":        
             #---------------------------------------------------
 
-            #Shakir: Nini's (2014) implementation for nominalisations with a length check of more than 5 characters, and no space means no other extra tag added
+            # Shakir: Nini's (2014) implementation for nominalisations with a length check more more than 5 characters, and no space means no other extra tag added
             if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", words[j], re.IGNORECASE) and re.search("[a-z]{5,}", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 NOMZ", words[j])
 
-            #Shakir: Semantic classes of adverbs
+            # Shakir: Semantic classes of adverbs
             if ((re.search("\\b(" + advl_att + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
             (re.search("\\b(even)_R", words[j], re.IGNORECASE) and re.search("\\b(worse)_", words[j+1], re.IGNORECASE) and not re.search(" ", words[j]))):
                 words[j] = re.sub("_(\w+)", "_\\1 RATT", words[index])
 
-
             if (re.search("\\b(" + advl_nonfact + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 RNONFACT", words[j])
-
 
             if ((re.search("\\b(" + advl_fact + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
             (re.search("\\b(of)_", words[j-1], re.IGNORECASE) and re.search("\\b(course)_", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
@@ -1613,45 +1522,38 @@ def process_sentence_extended (words: list) -> list:
             (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(most)_", words[j], re.IGNORECASE) and re.search("\\b(cases)_", words[j+1], re.IGNORECASE))):
                 words[j] = re.sub("_(\w+)", "_\\1 RLIKELY", words[j])
 
-            #Shakir: Add new variable to avoid overlap in the above two sub classes and JJAT/JJPR
+            # Shakir: Added new variable to avoid overlap in the above two sub classes and JJAT/JJPR
             if (re.search("_JJAT$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 JJATother", words[j])
 
             if (re.search("_JJPR$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 JJPRother", words[j])
 
-
-            #Shakir: Add new variable to avoid overlap in THSC and all above TH_J and TH_V clauses
+            # Shakir: Added new variable to avoid overlap in THSC and all above TH_J and TH_V clauses
             if (re.search("_THSC$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 THSCother", words[j])
 
-
-            #Shakir: Add new variable to avoid overlap in THRC and all above TH_N clauses
+            # Shakir: Added new variable to avoid overlap in THRC and all above TH_N clauses
             if (re.search("_THRC$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 THRCother", words[j])
 
-
-            #Shakir: Add new variable to avoid overlap in WHSC and WH_V clauses
+            # Shakir: Added new variable to avoid overlap in WHSC and WH_V clauses
             if (re.search("_WHSC$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WHSCother", words[j])
 
-
-            #Shakir: Add new variable to avoid overlap in NN and N semantic/other sub classes
+            # Shakir: Added new variable to avoid overlap in NN and N semantic/other sub classes
             if (re.search("_NN$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 NNother", words[j])
 
-
-            #Shakir: Add new variable to avoid overlap in RB and R semantic sub classes
+            # Shakir: Added new variable to avoid overlap in RB and R semantic sub classes
             if (re.search("_RB$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 RBother", words[j])
 
-
-            #Shakir: Add new variable to avoid overlap in IN and PrepNNStance
+            # Shakir: Added new variable to avoid overlap in IN and PrepNNStance
             if (re.search("_IN$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 INother", words[j])
 
-
-            #Shakir: verbs in contexts other than _WHSC, _THSC or to_ . Additionally not assigned to another tag.
+            # Shakir: verbs in contexts other than _WHSC, _THSC or to_ . Additionally not assigned to another tag.
             if (re.search("\\b(" + comm_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 VCOMMother", words[j])
         
@@ -1664,71 +1566,64 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("\\b(" + likely_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 VLIKother", words[j])
 
-            #Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
+            # Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
             if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCall", words[j])
 
-            # #Shakir: sums of that clauses for vb other than comm verbs
+            # # Shakir: sums of that clauses for vb other than comm verbs
             # if (re.search(" (ThVATT|ThVFCT|ThVLIK)", words[j])):
             #     words[j] = re.sub("_(\w+)", "_\\1 ThVSTNCother", words[j])
 
             if (re.search(" (ThJATT|ThJFCT|ThJLIK|ThJEVL)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJSTNCall", words[j])
 
-
             if (re.search(" (ThNNFCT|ThNATT|ThNFCT|ThNLIK)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNSTNCall", words[j])
-
 
             if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK|ThJATT|ThJFCT|ThJLIK|ThJEVL|ThNNFCT|ThNATT|ThNFCT|ThNLIK)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThSTNCall", words[j])
 
-            #Shakir: wh vb stance all
+            # Shakir: wh vb stance all
             if (re.search(" (WhVATT|WhVFCT|WhVLIK|WhVCOM)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVSTNCall", words[j])
 
-            #Shakir: adverb stance all
+            # Shakir: adverb stance all
             if (re.search(" (RATT|RNONFACT|RFACT|RLIKELY)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 RSTNCall", words[j])
 
-            # #Shakir: adverb stance other than RFACT
+            # # Shakir: adverb stance other than RFACT
             # if (re.search(" (RATT|RNONFACT|RLIKELY)", words[j])):
             #     words[j] = re.sub("_(\w+)", "_\\1 RSTNCother", words[j])
 
-
-            #Shakir: all possibility modals Biber 1988
+            # Shakir: all possibility modals as in Biber 1988
             if (re.search("(MDCA|MDCO|MDMM)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 MDPOSSCall", words[j])
 
-
-            #Shakir: all prediction modals Biber 1988 + Going to
+            # Shakir: all prediction modals as in Biber 1988 + "Going to + infinitive"
             if (re.search("(MDWS|MDWO|GTO)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 MDPREDall", words[j])
 
-
-            #Shakir: all passive voice as Le Foll counts PASS and PGET
+            # Shakir: all passive voice (sum of PASS and PGET)
             if (re.search("(PASS|PGET)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PASSall", words[j])
 
-
-            #Shakir: all stance noun complements (To + Th)
+            # Shakir: all stance noun complements (To + Th)
             if (re.search("(ToNSTNC|ThNSTNCall)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToThNSTNCall", words[j])
 
-
-            #Shakir: consolidate description adjectives
+            # Shakir: consolidate description adjectives
             if (re.search("(JJSIZE|JJCOLR)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 JJDESCall", words[j])
 
-            # #Shakir: consolidate stance adjectives
+            # # Shakir: consolidate stance adjectives
             # if (re.search("(JJEPSTother|JJATDother)\\b", words[j])):
             #     words[j] = re.sub("_(\w+)", "_\\1 JJEpstAtdOther", words[j])
 
-            #Shakir: All 1st person references to 1 tag
+            # Shakir: All 1st person references in one tag (equivalent of FPP1 in Biber 1988)
             if (re.search("_(PP1P|PP1S)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PP1all", words[j])
 
-            #Shakir: All 3rd person references to 1 tag
+            # Shakir: All 3rd person references to 1 tag (equivalent of TPP3 in Biber 1988)
             if (re.search("_(PP3t|PP3f|PP3m)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PP3all", words[j])
 
@@ -1743,16 +1638,16 @@ def run_process_sentence(file: str, extended: bool = True) -> list:
         words_tagged (list): list of words after MD tagging
     """
     text = open(file=file, encoding='utf-8', errors='ignore').read()
-    sentences = re.split("[\r\n]+", text) #split on new line or carriage return to get sentences
-    sentences = [re.split(' ', s) for s in sentences] #split ind. sentences on space (now it is a list of lists)
+    sentences = re.split("[\r\n]+", text) # split on new line or carriage return to get sentences
+    sentences = [re.split(' ', s) for s in sentences] # split ind. sentences on space (now it is a list of lists)
     sentences_with_buffer_spaces = ([' '] * 20)
     for sentence in sentences:
-        #add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
+        # add a buffer of 20 empty strings to avoid IndexError which will break the loop and cause below if conditions not to be applied in process_sentence
         sentences_with_buffer_spaces = sentences_with_buffer_spaces + sentence + ([' '] * 20)
     words_tagged = process_sentence(sentences_with_buffer_spaces, extended)
     if extended:
         words_tagged = process_sentence_extended(words_tagged)
-    words_tagged = [word for word in words_tagged if word != " "] #remove white space elements added prior to process_sentence
+    words_tagged = [word for word in words_tagged if word != " "] # remove white space elements added prior to process_sentence
     return words_tagged
 
 
@@ -1777,7 +1672,7 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
         output_dir (str): dir to write MD tagged files
         extended (bool): If extended semantic categories should be tagged
     """
-    #check if dir exists, otherwise make one
+    # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
     file_with_dir = [(file, output_dir) for file in files]
@@ -1793,7 +1688,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
         output_dir (str): dir to write MD tagged files
         extended (bool): If extended semantic categories should be tagged
     """
-    #check if dir exists, otherwise make one
+    # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
     for file in files:
@@ -1802,7 +1697,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
         words_tagged = run_process_sentence(file, extended)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
-        #break
+        # break
 
 def get_ttr(tokens: list, n: int) -> float:
     """Retuns type token ratio based on the first n words as specified in user input number of tokens n
@@ -1812,14 +1707,14 @@ def get_ttr(tokens: list, n: int) -> float:
     Returns:
         tt_ratio (float): Type Token Ratio
     """
-    if len(tokens) >= n: #if len tokens greater than or equal to n
-        #take first n tokens from tokens list
+    if len(tokens) >= n: # if len tokens greater than or equal to n
+        # take first n tokens from tokens list
         temp_tokens = tokens[:n]
-        #Shakir use tokens list passed from below, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
+        # Shakir: use tokens list passed from below, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
         n_types = len(set([word.split('_')[0].lower() for word in temp_tokens]))
         tt_ratio = n_types/n
-    else: #otherwise use the whole tokens
-        #Shakir use tokens list passed from below, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
+    else: # otherwise use the whole tokens
+        # Shakir: use tokens list passed from below, split word_TAG, keep word, convert to lower case, make a list, convert to set (i.e. unique values only), find length
         n_types = len(set([word.split('_')[0].lower() for word in tokens]))
         tt_ratio = n_types/len(tokens)
     return tt_ratio
@@ -1832,7 +1727,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
         pd.DataFrame: new df with normed ounts
     """
     df_new: pd.DataFrame  = df.copy(deep=True)
-    #multiply by 100
+    # multiply by 100
     cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
     df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
     # List of features to be normalised per 100 nouns:
@@ -1842,7 +1737,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ThNSTNCall"
     NNTnorm = ["DT", "JJAT", "POS", "NCOMP", "QUAN", "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNABSPROC", "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "JJEPSTother", "JJATDother", "ToNSTNC", "PrepNSTNC", "JJATother", "ThNSTNCall", "NOMZ", "NSTNCother", "JJDESCall", "JJEpstAtdOther", "JJSIZE", "JJTIME", "JJCOLR", "JJEVAL", "JJREL", "JJTOPIC", "JJSTNCallother", "NNMention", "NNP"]
     NNTnorm = [nn for nn in NNTnorm if nn in df.columns] #make sure every feature exists in df column
-    df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.Ntotal.values, axis=0) #divide by total nouns
+    df_new.loc[:, NNTnorm] = df.loc[:, NNTnorm].div(df.Ntotal.values, axis=0) #divide by total nouns (noun-based normalisation)
     # Features to be normalised per 100 (very crudely defined) finite verbs:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
@@ -1852,14 +1747,14 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
             "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother"]
     FVnorm = [vb for vb in FVnorm if vb in df.columns] #make sure every feature exists in df column
-    df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBtotal.values, axis=0) #divide by total verbs
+    df_new.loc[:, FVnorm] = df.loc[:, FVnorm].div(df.VBtotal.values, axis=0) #divide by total verbs (finite verb phrase-based normalisation)
     # All other features should be normalised per 100 words:
     other_cols = [col for col in df_new.columns if col not in NNTnorm if col not in FVnorm] #remove nouns and verbs related cols
     other_cols = [col for col in other_cols if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]] # exclude total counts and averages
-    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].div(df.Words.values, axis=0) #divide by total words
+    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].div(df.Words.values, axis=0) #divide by total words (word-based normalisation)
     return df_new
 
-def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
+def get_wordbased_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     """Returns raw counts df after normalizing per 100 words
     Args:
         df (pd.DataFrame): df of raw counts
@@ -1867,10 +1762,10 @@ def get_percent_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
         pd.DataFrame: new df with normed ounts
     """
     df_new: pd.DataFrame  = df.copy(deep=True)
-    #multiply by 100
+    # multiply by 100
     cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
-    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
-    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].div(df.Words.values, axis=0) #divide by total words
+    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) # multiply by 100
+    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].div(df.Words.values, axis=0) # divide by total number of words
     return df_new
 
 def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -1885,7 +1780,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
     simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
+    extended = [col for col in df.columns if col in ["COMPAR", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
@@ -1924,16 +1819,16 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             # Shakir: list of words that match the given regex, then take its length as total nouns 
             Ntotal = len([word for word in words if re.search(r"_NN\b", word)])
             # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
-            #Shakir: list of words that match the given regex, then take its length as total verbs
+            # Shakir: list of words that match the given regex, then take its length as total verbs
             VBtotal = len([word for word in words if re.search(r"(_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS)\b", word)])
             # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
             # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
             list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX|_NFP", word) if re.search(r"^\S+_\S+$", word)]
-            #Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
+            # Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
             average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
             lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
             #print(len(tokens), lex_density)
-            ttr = get_ttr(tokens, n_tokens) #Shakir calculate type token ratio
+            ttr = get_ttr(tokens, n_tokens) # Shakir calculate type token ratio
             # Shakir: get tags only, remove words and exclude certain (non-meaningful) tags from count
             # ELF: The list of tags for which no counts will be returned can be found here.
             # The following tags are excluded by default because they are "bin" tags designed to remove problematic tokens from other categories: LIKE and SO
@@ -1945,7 +1840,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             # Shakir: sort tag_freq
             tag_freq = dict(sorted(tag_freq.items()))
             temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'Ntotal': Ntotal, 'VBtotal': VBtotal}
-            #update temp dict with tag freq
+            # update temp dict with tag freq
             temp_dict.update(tag_freq)
             list_of_dicts.append(temp_dict)
         print("writing statistics..")
@@ -1955,51 +1850,51 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         df = sort_df_columns(df).sort_values(by=['Filename']) #sort df columns
         df.round().drop(columns=['Ntotal', 'VBtotal']).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
-        get_complex_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_complex_normed.csv", index=False)
-        get_percent_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_percent_normed.csv", index=False)
+        get_complex_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_mixed_normed.csv", index=False)
+        get_wordbased_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_word-based_normed.csv", index=False)
         print("finished!")
     else:
-        print("There are no files to count tags from. Maybe you did not input correct path?")
+        print("It appears there are no files to count tags from. Maybe you did not input the correct path?")
     # with open(file=dir_out+"tokens.txt", mode='w', encoding='utf-8') as f:
     #     f.write("\n".join(tags))
     #     break    
 
+if __name__ == "__main__":
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/test_files/"
+    # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
+    ttr = 400
+    # tag_stanford(nlp_dir, input_dir, output_stanford)
+    t_0 = timeit.default_timer()
+    tag_stanford_stanza(input_dir, output_stanford)
+    t_1 = timeit.default_timer()
+    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+    print("Time spent on tagging process (micro seconds):", elapsed_time)
+    tag_MD(output_stanford, output_MD, extended=True)
+    # tag_MD_parallel(output_stanford, output_MD, extended=True)
+    do_counts(output_MD, output_stats, ttr)
+
 # if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/test/"
+#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #input_dir = r"D:\Downloads\Elanguage\\" 
 #     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
 #     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
+#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
 #     ttr = 400
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     # record start time
 #     t_0 = timeit.default_timer()
 #     tag_stanford_stanza(input_dir, output_stanford)
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_1 = timeit.default_timer()
 #     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-#     print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
+#     print("Time spent on tagging process (micro seconds):", elapsed_time)
 #     tag_MD(output_stanford, output_MD, extended=True)
 #     #tag_MD_parallel(output_stanford, output_MD, extended=True)
 #     do_counts(output_MD, output_stats, ttr)
-
-if __name__ == "__main__":
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    #input_dir = r"D:\Downloads\Elanguage\\" 
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
-    ttr = 400
-    # record start time
-    t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
-    t_1 = timeit.default_timer()
-    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    print("Time spent on grammatical tagging (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD, extended=True)
-    do_counts(output_MD, output_stats, ttr)
