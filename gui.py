@@ -33,9 +33,6 @@ def button_function():
 def checkbox_event():
     print("checkbox toggled, current value:", check_var.get())
 
-customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
-
 app = tkinter.Tk()  # create CTk window like you do with the Tk window
 app.geometry("600x250")
 app.title("MFTE")
