@@ -98,6 +98,7 @@ def button_function() -> None:
     """Select corpus directory and apply MFTE tagging on the files in it
     """
     from tkinter import filedialog
+    #reconfigure the button for a second run
     button.configure(command=threading.Thread(target=button_function).start)
     folder_selected = filedialog.askdirectory(title="Select corpus files directory")
     if folder_selected != "":
