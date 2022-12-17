@@ -62,8 +62,12 @@ def call_MFTE(folder_selected: str) -> None:
     # t_1 = timeit.default_timer()
     # elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     # print("Time spent on tagging process (micro seconds):", elapsed_time)
-    # tag_MD(output_stanford, output_MD, extended=check_button_state)
-    # # tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    #parallel MD tag
+    # if check_button_state2:
+    #     tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    # #otherwise simple MD
+    # else:
+    #     tag_MD(output_stanford, output_MD, extended=check_button_state)
     # do_counts(output_MD, output_stats, ttr)
 
     input_dir = folder_selected + "/"
