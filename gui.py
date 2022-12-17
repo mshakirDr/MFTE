@@ -31,15 +31,18 @@ class Console(tkinter.Text):
         sys.stdout = self.old_stdout
 
 check_button_state = True
+check_button_state2 = False
 ttr_value = 400
 
-def button_function() -> None:
-    """Select corpus directory and apply MFTE tagging on the files in it
+
+def call_MFTE(folder_selected: str) -> None:
+    """Call MFTE functions after directory selection
+
+    Args:
+        folder_selected (str): dir path returned by filedialog
     """
-    global check_button_state, ttr_value
-    from tkinter import filedialog
-    folder_selected = filedialog.askdirectory(title="Select corpus files directory")
-    print("selected directory:", folder_selected)
+        
+    global check_button_state, ttr_value, check_button_state2
     ###############################################
     # #input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/test_files/"
     # input_dir = folder_selected + "/"
@@ -59,16 +62,16 @@ def button_function() -> None:
     # t_1 = timeit.default_timer()
     # elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     # print("Time spent on tagging process (micro seconds):", elapsed_time)
-    # tag_MD(output_stanford, output_MD, extended=check_button_state)
-    # # tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    #parallel MD tag
+    # if check_button_state2:
+    #     tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    # #otherwise simple MD
+    # else:
+    #     tag_MD(output_stanford, output_MD, extended=check_button_state)
     # do_counts(output_MD, output_stats, ttr)
 
     input_dir = folder_selected + "/"
-    #input_dir = r"D:\Downloads\Elanguage\\" 
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
     output_MD = output_stanford + "MD/"
     output_stats = output_MD + "Statistics/"
     if isinstance(ttr_value, int):
@@ -82,14 +85,37 @@ def button_function() -> None:
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=check_button_state)
-    #tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    #parallel MD tag
+    if check_button_state2:
+        tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    #otherwise simple MD
+    else:
+        tag_MD(output_stanford, output_MD, extended=check_button_state)
+    #
     do_counts(output_MD, output_stats, ttr)
+
+def button_function() -> None:
+    """Select corpus directory and apply MFTE tagging on the files in it
+    """
+    from tkinter import filedialog
+    button.configure(command=threading.Thread(target=button_function).start)
+    folder_selected = filedialog.askdirectory(title="Select corpus files directory")
+    if folder_selected != "":
+        print("selected directory:", folder_selected)
+        call_MFTE(folder_selected)
+    else:
+        print("Sorry no directory was selected...")
+    
 
 #update extended tag boolean
 def checkbox_event():
     print("Tag extended:", check_var.get())
     check_button_state = check_var.get()
+
+#update parallel MD tag boolean
+def checkbox_event2():
+    print("Parellel MD tag:", check_var2.get())
+    check_button_state2 = check_var2.get()
 
 #update ttr value
 def entrybox_event(*args):
@@ -98,7 +124,7 @@ def entrybox_event(*args):
 
 if __name__ == "__main__":
     app = tkinter.Tk()  # create CTk window like you do with the Tk window
-    app.geometry("600x250")
+    app.geometry("600x350")
     app.title("MFTE")
     # this removes the maximize button
     app.resizable(0,0)
@@ -110,13 +136,20 @@ if __name__ == "__main__":
     ttr_entry = tkinter.Entry(master=app, textvariable=v, validatecommand=entrybox_event).place(x=450, y=20)
     check_var = tkinter.BooleanVar(app, True)
     checkbox = tkinter.Checkbutton(master=app, text="Extended tags", command=checkbox_event,
-                                        variable=check_var, onvalue=True, offvalue=False).place(x=250, y=20)
+                                        variable=check_var, onvalue=True, offvalue=False)
+    checkbox.place(x=250, y=20)
+    checkbox.select()
+    check_var2 = tkinter.BooleanVar(app, False)
+    checkbox2 = tkinter.Checkbutton(master=app, text="Parallel MD tagging", command=checkbox_event2,
+                                        variable=check_var2, onvalue=True, offvalue=False)
+    checkbox2.place(x=10, y=50)
+    checkbox2.deselect()
     #get True or False for extended
     check_button_state = check_var.get()
     #get ttr value
     ttr_value = v.get()
-    frame = tkinter.Frame(app, width=580, height=170)
+    frame = tkinter.Frame(app, width=580, height=250)
     frame.pack()
-    frame.place(x=10, y=70)
-    console = Console(master=frame, height=10).place(x=0, y=0)
+    frame.place(x=10, y=90)
+    console = Console(master=frame, height=15).place(x=0, y=0)
     app.mainloop()
