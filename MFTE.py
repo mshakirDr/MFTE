@@ -66,13 +66,13 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bcannot\\b", "can not", text, flags=re.IGNORECASE)
     text = re.sub("\\bgonna\\b", "gon na", text, flags=re.IGNORECASE)
     text = re.sub("\\bwanna\\b", "wan na", text, flags=re.IGNORECASE)
-    text = re.sub("\\bdont\\b", "do 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwont\\b", "wo 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bcant\\b", "ca 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bdidnt\\b", "did 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bthats\\b", "that 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwhats\\b", "what 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwouldnt\\b", "would 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdon(')?t\\b", "do 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwon(')?t\\b", "wo 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bcan(')?t\\b", "ca 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdidn(')?t\\b", "did 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bthat(')?s\\b", "that 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwhat(')?s\\b", "what 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwould(')?nt\\b", "would 'nt", text, flags=re.IGNORECASE)
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
     #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
@@ -1843,7 +1843,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             # update temp dict with tag freq
             temp_dict.update(tag_freq)
             list_of_dicts.append(temp_dict)
-        print("writing statistics..")
+        print("writing statistics...")
         df = pd.DataFrame(list_of_dicts).fillna(0)
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
@@ -1859,42 +1859,42 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
+if __name__ == "__main__":
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/BNC2014/"
+    # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+    # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
+    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
+    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
+    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
+    ttr = 400
+    # tag_stanford(nlp_dir, input_dir, output_stanford)
+    t_0 = timeit.default_timer()
+    tag_stanford_stanza(input_dir, output_stanford)
+    t_1 = timeit.default_timer()
+    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+    print("Time spent on tagging process (micro seconds):", elapsed_time)
+    tag_MD(output_stanford, output_MD, extended=False)
+    # tag_MD_parallel(output_stanford, output_MD, extended=True)
+    do_counts(output_MD, output_stats, ttr)
+
 # if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/test_files/"
-#     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-#     output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-#     output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
+#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
+#     #input_dir = r"D:\Downloads\Elanguage\\" 
+#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
+#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
+#     output_MD = output_stanford + "MD/"
+#     output_stats = output_MD + "Statistics/"
 #     ttr = 400
-#     # tag_stanford(nlp_dir, input_dir, output_stanford)
+#     # record start time
 #     t_0 = timeit.default_timer()
 #     tag_stanford_stanza(input_dir, output_stanford)
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
 #     t_1 = timeit.default_timer()
 #     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
 #     print("Time spent on tagging process (micro seconds):", elapsed_time)
 #     tag_MD(output_stanford, output_MD, extended=True)
-#     # tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
 #     do_counts(output_MD, output_stats, ttr)
-
-if __name__ == "__main__":
-    input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-    #input_dir = r"D:\Downloads\Elanguage\\" 
-    #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
-    ttr = 400
-    # record start time
-    t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
-    t_1 = timeit.default_timer()
-    elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD, extended=True)
-    do_counts(output_MD, output_stats, ttr)
