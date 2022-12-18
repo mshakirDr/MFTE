@@ -94,9 +94,10 @@ def call_MFTE(folder_selected: str) -> None:
     # do_counts(output_MD, output_stats, ttr)
 
     input_dir = folder_selected + "/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-    output_MD = output_stanford + "MD/"
-    output_stats = output_MD + "Statistics/"
+    output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+    output_stanford = output_main + "StanfordPOS_Tagged/"
+    output_MD = output_main + "MFTE_Tagged/"
+    output_stats = output_main + "Statistics/"
     if isinstance(ttr_value, int):
         ttr = ttr_value
     else:

@@ -1863,10 +1863,10 @@ if __name__ == "__main__":
     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/BNC2014/"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-    output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-    output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-    output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
+    output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+    output_stanford = output_main + "StanfordPOS_Tagged/"
+    output_MD = output_main + "MFTE_Tagged/"
+    output_stats = output_main + "Statistics/"
     ttr = 400
     # tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
@@ -1884,9 +1884,10 @@ if __name__ == "__main__":
 #     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
 #     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
 #     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-#     output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged_test/"
-#     output_MD = output_stanford + "MD/"
-#     output_stats = output_MD + "Statistics/"
+    # output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+    # output_stanford = output_main + "StanfordPOS_Tagged/"
+    # output_MD = output_main + "MFTE_Tagged/"
+    # output_stats = output_main + "Statistics/"
 #     ttr = 400
 #     # record start time
 #     t_0 = timeit.default_timer()
