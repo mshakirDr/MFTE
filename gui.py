@@ -1,4 +1,6 @@
 import tkinter
+from tkinter import tix
+from tkinter.tix import Balloon
 import sys
 from MFTE import tag_MD, tag_MD_parallel, tag_stanford, tag_stanford_stanza, do_counts
 import os
@@ -29,6 +31,27 @@ class Console(tkinter.Text):
     
     def reset(self, event):
         sys.stdout = self.old_stdout
+
+#https://stackoverflow.com/a/65524559/6165671
+class ToolTip:
+    def __init__(self,widget,text=None):
+
+        def on_enter(event):
+            self.tooltip=tkinter.Toplevel()
+            self.tooltip.overrideredirect(True)
+            self.tooltip.geometry(f'+{event.x_root+15}+{event.y_root+10}')
+
+            self.label=tkinter.Label(self.tooltip,text=self.text)
+            self.label.pack()
+
+        def on_leave(event):
+            self.tooltip.destroy()
+
+        self.widget=widget
+        self.text=text
+
+        self.widget.bind('<Enter>',on_enter)
+        self.widget.bind('<Leave>',on_leave)
 
 check_button_state = True
 check_button_state2 = False
@@ -124,31 +147,43 @@ def entrybox_event(*args):
     print("ttr:", ttr_value)
 
 if __name__ == "__main__":
-    app = tkinter.Tk()  # create CTk window like you do with the Tk window
+    #maind window
+    app = tix.Tk()  # create CTk window like you do with the Tk window
     app.geometry("600x350")
     app.title("MFTE")
     # this removes the maximize button
     app.resizable(0,0)
+    #button
     button = tkinter.Button(master=app, text="Select corpus directory", command=threading.Thread(target=button_function).start)
     button.place(x=10, y=20)
+    ToolTip(button, text="Please select the directory where your corpus text files are located.")
+    #TTR label and text box
     ttr_lable = tkinter.Label(app, text = "TTR").place(x = 400, y = 20)
     v = tkinter.StringVar(app, value='400')
     v.trace_add('write', entrybox_event)
-    ttr_entry = tkinter.Entry(master=app, textvariable=v, validatecommand=entrybox_event).place(x=450, y=20)
+    ttr_entry = tkinter.Entry(master=app, textvariable=v, validatecommand=entrybox_event)
+    ttr_entry.place(x=450, y=20)
+    ToolTip(ttr_entry, text="Number of words that will be used for type token ratio calculation.")
+    #check box for extended tags
     check_var = tkinter.BooleanVar(app, True)
     checkbox = tkinter.Checkbutton(master=app, text="Extended tags", command=checkbox_event,
                                         variable=check_var, onvalue=True, offvalue=False)
     checkbox.place(x=250, y=20)
     checkbox.select()
+    ToolTip(checkbox, text="Check this box if you want to get extended semantic tags based on Biber (2006).")
+    #check box for MD parallel tagging
     check_var2 = tkinter.BooleanVar(app, False)
     checkbox2 = tkinter.Checkbutton(master=app, text="Parallel MD tagging", command=checkbox_event2,
                                         variable=check_var2, onvalue=True, offvalue=False)
     checkbox2.place(x=10, y=50)
     checkbox2.deselect()
+    ToolTip(checkbox2, text="Check this box if you have a large number of files.\nMD tagger part will run using multiple cores of your CPU to make the tagging process faster.")
+    #update to global variables
     #get True or False for extended
     check_button_state = check_var.get()
     #get ttr value
     ttr_value = v.get()
+    #console output related code
     frame = tkinter.Frame(app, width=580, height=250)
     frame.pack()
     frame.place(x=10, y=90)
