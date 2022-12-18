@@ -89,6 +89,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
+    #nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
         print("Stanza tagger reading all files")
