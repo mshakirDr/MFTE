@@ -66,13 +66,24 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bcannot\\b", "can not", text, flags=re.IGNORECASE)
     text = re.sub("\\bgonna\\b", "gon na", text, flags=re.IGNORECASE)
     text = re.sub("\\bwanna\\b", "wan na", text, flags=re.IGNORECASE)
-    text = re.sub("\\bdon(')?t\\b", "do 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwon(')?t\\b", "wo 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bcan(')?t\\b", "ca 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bdidn(')?t\\b", "did 'nt", text, flags=re.IGNORECASE)
-    text = re.sub("\\bthat(')?s\\b", "that 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwhat(')?s\\b", "what 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwould(')?nt\\b", "would 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdon('|’)?t\\b", "do 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwon('|’)?t\\b", "wo 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bcan('|’)?t\\b", "ca 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdidn('|’)?t\\b", "did 'nt", text, flags=re.IGNORECASE)
+    text = re.sub("\\bthat('|’)?s\\b", "that 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwhat('|’)?s\\b", "what 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bit('|’)s\\b", "it 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)m\\b", "I 'm", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)s\\b", "he 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)s\\b", "she 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)ve\\b", "I 've", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)d\\b", "he 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)d\\b", "she 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)?ll\\b", "I 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)?ll\\b", "he 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)?ll\\b", "she 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bit('|’)d\\b", "it 'd", text, flags=re.IGNORECASE)
+
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
     #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
@@ -190,7 +201,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers, prepositions and foreign words by the Stanford Tagger.
             # These are instead re-tagged as symbols so they don't count as tokens for the TTR and per-word normalisation basis.
             # Removal of all LS (list symbol) tags except those that denote numbers
-            if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_", words[index])): 
+            if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_|\\b%_", words[index])): 
                 words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
             # ELF: Correction of cardinal numbers without spaces and list numbers as numbers rather than LS
@@ -231,7 +242,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # BASIC TAG NEEDED FOR MORE COMPLEX TAGS
             # Negation
-            if (re.search("\\bnot_|\\bn't_|\\bnt_RB", words[index], re.IGNORECASE)):
+            if (re.search("\\bnot_|\\bn't_|\\bn’t_|\\bnt_RB", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_XX0", words[index])
 
     # SLIGHTLY MORE COMPLEX CORRECTIONS OF STANFORD TAGGER OUTPUT
@@ -321,7 +332,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags quantifiers 
             # ELF: Note that this variable is used to identify several other features. 
             # ELF: added "any", "lots", "loada" and "a lot of" and gave it its own loop because it is now more complex and must be completed before the next set of for-loops. Also added "most" except when later overwritten as an EMPH.
-            # ELF: Added "more" and "less" when tagged by the Stanford Tagger as adjectives (JJ.*). As adverbs (RB), they are tagged as amplifiers (AMP) and downtoners (DWT) respectively.
+            # ELF: Added "more" and "less" when tagged by the Stanford Tagger as adjectives (JJ.*).
             # ELF: Also added "load(s) of" and "heaps of" on DS's recommendation
 
             # ELF: Getting rid of the Stanford Tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
@@ -329,7 +340,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\ball_|\\bany_|\\bboth_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|\\bmany_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|\\bwee_", words[j], re.IGNORECASE))or
             (re.search("\\bload_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+", words[j+1], re.IGNORECASE)) or
-            (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added "a lot (of)" and removed NULL tags
+            (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
+            (re.search("\\ba_", words[j-2], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added this line to account for "a little bit", "a whole lot", etc.
                 words[j] = re.sub("_\w+", "_QUAN", words[j])
                    
     #---------------------------------------------------
@@ -382,6 +394,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\bto_", words[j-3], re.IGNORECASE) and re.search("\\bthe_", words[j-2]) and re.search("\\bextent_", words[j-1]) and re.search("\\bthat_", words[j])) or
             (re.search("\\bin_", words[j-1], re.IGNORECASE) and re.search("\\bparticular_|\\bconclusion_|\\bsum_|\\bsummary_|\\bfact_|\\bbrief_", words[j], re.IGNORECASE)) or
             (re.search("\\bto_", words[j-1], re.IGNORECASE) and re.search("\\bsummarise_|\\bsummarize_", words[j], re.IGNORECASE) and re.search(",_", words[j])) or
+            (re.search("\\bin_", words[j-1], re.IGNORECASE) and re.search("\\bshort_", words[j], re.IGNORECASE) and re.search(",_", words[j])) or
             (re.search("\\bfor_", words[j-1], re.IGNORECASE) and re.search("\\bexample_|\\binstance_", words[j], re.IGNORECASE)) or
             (re.search("\\bsimilarly_|\\baccordingly_", words[j], re.IGNORECASE) and re.search(",_", words[j+1])) or
             (re.search("\\bin_", words[j-2], re.IGNORECASE) and re.search("\\bany_", words[j-1], re.IGNORECASE) and re.search("\\bevent_|\\bcase_", words[j], re.IGNORECASE)) or
@@ -450,8 +463,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Added a differentiation between "most" as as QUAN ("most of") and EMPH.
             # Improved the accuracy of DO + verb by specifying a base form (_VB) so as to avoid: "Did they do_EMPH stuffed_VBN crust?".
             if ((re.search("\\bmost_DT", words[j], re.IGNORECASE)) or
-            (re.search("\\breal__|\\bdead_|\\bdamn_", words[j], re.IGNORECASE) and re.search("_J", words[j+1])) or
-            #(re.search("\\bat_|\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j])) or
+            (re.search("\\breal__|\\bdead_|\\bdamn_|\\bfuck|\\bshit|\\bsuper_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1])) or
+            (re.search("\\bjust_|\\breally_|\\bbloody_|\\bpretty_", words[j], re.IGNORECASE) and re.search("_J|_RB|_VBN|_VBG", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bfar_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
@@ -459,7 +472,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             if ((re.search("\\bloads_", words[j], re.IGNORECASE) and not re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\b(" + do + ")", words[j], re.IGNORECASE) and re.search("_VB\\b", words[j+1])) or
-            #(re.search("\\bjust_|\\bbest_|\\breally_|\\bmost_JJ|\\bmost_RB|\\bbloody_|\\bfucking_|\\bfuck_|\\bshit_|\\bsuper_", words[j], re.IGNORECASE)) or
             (re.search("\\bfor_", words[j], re.IGNORECASE) and re.search("\\bsure_", words[j+1], re.IGNORECASE))): 
                 words[j] = re.sub("_(\w+)", "_\\1 EMPH", words[j])
             
@@ -585,7 +597,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if ((re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|_XX0", words[j+1], re.IGNORECASE) and re.search("_V", words[j+2])) or
             (re.search("\\bto_", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|_XX0", words[j+1], re.IGNORECASE) and re.search("_RB|_XX0", words[j+2]) and re.search("_V", words[j+3])) or
 
-            # Tags split auxiliaries - ELF: merged this variable with split infinitives due to very low counts. ELF: changed all forms of DO to auxiliary DOs only 
+            # Tags split auxiliaries - ELF: merged this variable with split infinitives due to very low counts. 
+            # ELF: Also changed all forms of DO to auxiliary DOs only 
             (re.search("_MD|DOAUX|(\\b(" + have + "))|(\\b(" + be + "))", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_", words[j+1], re.IGNORECASE) and re.search("_V", words[j+2])) or
             (re.search("_MD|DOAUX|(\\b(" + have + "))|(\\b(" + be + "))", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|_XX0", words[j+1], re.IGNORECASE) and re.search("_RB|_XX0", words[j+2]) and re.search("_V", words[j+3]))):
                 words[j] = re.sub("_(\w+)", "_\\1 SPLIT", words[j])
@@ -882,6 +895,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             if (re.search("\\bthat_DT|\\bthis_DT|\\bthese_DT|\\bthose_DT|\\bthat_IN|\\bthat_WDT", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_DEMO", words[j])
+            
+            if (re.search(" BEMA", words[j-1]) and re.search("_J", words[j], re.IGNORECASE)):
+                words[j] = re.sub("_\w+", "_JJPR", words[j])
 
     #---------------------------------------------------
     # Tags subordinator "that" omission 
@@ -982,7 +998,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
             # Tags time adverbials 
             # ELF: Added already, so far, thus far, yet (if not already tagged as CONC above) and ago. Restricted after and before to adverb forms only.
-            if ((re.search("\\bago_|\\bafter_RB|\\bafterwards_|\\bagain_|\\balready_|\\bbefore_RB|\\bbeforehand_|\\bbriefly_|\\bcurrently_|\\bearlier_|\\bearly_RB|\\beventually_|\\bformerly_|\\bimmediately_|\\binitially_|\\binstantly_|\\bforeever_|\\blate_RB|\\blately_|\\blater_|\\bmomentarily_|\\bnow_|\\bnowadays_|\\bonce_|\\boriginally_|\\bpresently_|\\bpreviously_|\\brecently_|\\bshortly_|\\bsimultaneously_|\\bsooner_|\\bsubsequently_|\\bsuddenly|\\btoday_|\\bto-day_|\\btomorrow_|\\bto-morrow_|\\btonight_|\\bto-night_|\\byesterday_|\\byet_RB|\\bam_RB|\\bpm_RB", words[j], re.IGNORECASE)) or
+            if ((re.search("\\bago_|\\bafter_RB|\\bafterwards_|\\bagain_|\\balready_|\\bbefore_RB|\\bbeforehand_|\\bbriefly_|\\bcurrently_|\\bearlier_RB|\\bearly_RB|\\beventually_|\\bformerly_|\\bimmediately_|\\binitially_|\\binstantly_|\\bforeever_|\\blate_RB|\\blately_|\\blater_RB|\\bmomentarily_|\\bnow_|\\bnowadays_|\\bonce_|\\boriginally_|\\bpresently_|\\bpreviously_|\\brecently_|\\bshortly_|\\bsimultaneously_|\\bsooner_|\\bsubsequently_|\\bsuddenly|\\btoday_|\\bto-day_|\\btomorrow_|\\bto-morrow_|\\btonight_|\\bto-night_|\\byesterday_|\\byet_RB|\\bam_RB|\\bam_NN|\\bpm_NN|\\bpm_RB", words[j], re.IGNORECASE)) or
             (re.search("\\bsoon_", words[j], re.IGNORECASE) and not re.search("\\bas_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bprior_", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE) and re.search("\\bfar_", words[j], re.IGNORECASE) and not re.search("_J|_RB", words[j+1], re.IGNORECASE))):
@@ -991,8 +1007,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
     for j, value in enumerate(words):
-        #print("do loop arrived:")
-        #print(value)
         if (re.search("\\b(" + do + ")", words[j], re.IGNORECASE) and not re.search(" DOAUX", words[j])):
             words[j] = re.sub("_(\w+)", "_\\1 ACT", words[j])
             #print(words[j])
@@ -1016,7 +1030,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
         if x != " ":
 
         # Tags amplifiers 
-            if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
+            if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bespecially_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_AMP", words[index])
 
             # Tags downtoners
@@ -1032,7 +1046,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags quantifier references 
             # ELF: Added any, removed nowhere (which is now place). "no one" is also tagged for at an earlier stage to avoid collisions with the XX0 variable.
-            if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bsomewhere|\\bnoone_|\\bno-one_", words[index], re.IGNORECASE)):      
+            if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bsomewhere|\\bnoone_|\\bno-one_|\\bothers_", words[index], re.IGNORECASE)):      
                 words[index] = re.sub("_\w+", "_QUPR", words[index])
 
             # Tags gerunds 
@@ -1275,7 +1289,7 @@ def process_sentence_extended (words: list) -> list:
 
             # Superlatives
             if ((re.search("est_J|est_RB|\\bworst_|\\bbest-", words[j], re.IGNORECASE) and not re.search("\\btest|honest_|west_|\\bpest_|\\blest_|\\bguest_", words[j], re.IGNORECASE)) or # E.g., widest, furthest, worst, best-looking
-            (re.search("\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j]) and re.search("_J|_RB", words[j+1]))): # E.g., the most pressing, the cheapest
+            (re.search("\\bthe_", words[j-1], re.IGNORECASE) and re.search("\\bleast_|\\bmost_", words[j]) and re.search("_J|_RB|_NN", words[j+1]))): # E.g., the most pressing, the cheapest
                 words[j] = re.sub("_(\w+)", "_\\1 SUPER", words[j])
 
             # Comparatives
