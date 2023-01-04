@@ -337,8 +337,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # ELF: Getting rid of the Stanford Tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
             if ((re.search("_PDT", words[j], re.IGNORECASE)) or 
-            (re.search("\\ball_|\\bany_|\\bboth_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|\\bmany_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|\\bwee_", words[j], re.IGNORECASE))or
-            (re.search("\\bload_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
+            (re.search("\\ball_|\\bany_|\\bboth_|\\bdozens_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|hundreds_|\\bmany_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|thousands_|\\bwee_", words[j], re.IGNORECASE))or
+            (re.search("\\bload_|\\bcouple_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+", words[j+1], re.IGNORECASE)) or
             (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
             (re.search("\\ba_", words[j-2], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added this line to account for "a little bit", "a whole lot", etc.
@@ -463,8 +463,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Added a differentiation between "most" as as QUAN ("most of") and EMPH.
             # Improved the accuracy of DO + verb by specifying a base form (_VB) so as to avoid: "Did they do_EMPH stuffed_VBN crust?".
             if ((re.search("\\bmost_DT", words[j], re.IGNORECASE)) or
-            (re.search("\\breal__|\\bdead_|\\bdamn_|\\bfuck|\\bshit|\\bsuper_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1])) or
-            (re.search("\\bjust_|\\breally_|\\bbloody_|\\bpretty_", words[j], re.IGNORECASE) and re.search("_J|_RB|_VBN|_VBG", words[j+1], re.IGNORECASE)) or
+            (re.search("\\breal_|\\bdead_|\\bdamn_|\\bfuck|\\bshit|\\bsuper_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1])) or
+            (re.search("\\bjust_|\\breally_|\\bbloody_|\\bpretty_|\\bmore_", words[j], re.IGNORECASE) and re.search("_J|_RB|_V", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bfar_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
@@ -618,12 +618,12 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
             # Tags imperatives (in a rather crude way). 
             # ELF: This is a new variable in the MFTE.
-            if ((re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM| $", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
+            if ((re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             #(re.search("_\W|_EMO|_FW|_SYM", words[j-2])  and not re.search("_,", words[j-2]) and not re.search("_MD", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|\\b_NNP", words[j+1], re.IGNORECASE)) or # Allows for one intervening token between end of previous sentence and imperative verb, e.g., "Just do it!". This line is not recommended for the Spoken BNC2014 and any texts with not particularly good punctuation.
             (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
-            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
             #(re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
-            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.
             (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
             #(re.search("\\bwork_", words[j], re.IGNORECASE) and re.search("\\bin_", words[j+1], re.IGNORECASE) and re.search("\\bpairs_", words[j+2], re.IGNORECASE))): # Work in pairs because it occurs 700+ times in the Textbook English Corpus (TEC) and "work" is always incorrectly tagged as a noun there.
                 words[j] = re.sub("_\w+", "_VIMP", words[j]) 
@@ -929,7 +929,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         if value != " ":
             if ((re.search("\\bits_|\\bitself_", words[j], re.IGNORECASE)) or
-            (re.search("\\bit_|\\bIt_", words[j]))):
+            (re.search("\\bit_|\\bIt_|\\bIT_P", words[j]))):
                 words[j] = re.sub("_\w+", "_PIT", words[j])
 
         #---------------------------------------------------
@@ -1030,7 +1030,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
         if x != " ":
 
         # Tags amplifiers 
-            if (re.search("\\babsolutely_|\\baltogether_|\\bcompletely_|\\benormously_|\\bentirely_|\\bespecially_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
+            if (re.search("\\babsolutely_|\\baltogether_|\\bdefinitely_|\\bcompletely_|\\benormously_|\\bentirely_|\\bespecially_|\\bextremely_|\\bfully_|\\bgreatly_|\\bhighly_|\\bintensely_|\\bperfectly_|\\bstrongly_|\\bthoroughly_|\\btotally_|\\butterly_|\\bvery_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_AMP", words[index])
 
             # Tags downtoners
@@ -1078,7 +1078,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags third person reference 
             # ELF: added themself in singular (cf. https://www.lexico.com/grammar/themselves-or-themself), added nominal possessive pronoun forms (hers, theirs), also added em_PRP for 'em.
             # ELF: Subdivided Biber's category into "they" references (PP3t), "she" references (PP3f) and "he" references (PP3m).
-            if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|em_PRP|\\bthemself_", words[index], re.IGNORECASE)):
+            if (re.search("\\bthey_|\\bthem_|\\btheir_|\\bthemselves_|\\btheirs_|\W+em_PRP|\\bthemself_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_PP3t", words[index])
 
             if (re.search("\\bshe_|\\bher_|\\bhers_|\\bherself_", words[index], re.IGNORECASE)):
@@ -1875,7 +1875,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/BNC2014/"
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
