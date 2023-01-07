@@ -1,6 +1,4 @@
 import tkinter
-from tkinter import tix
-from tkinter.tix import Balloon
 import sys
 from MFTE import tag_MD, tag_MD_parallel, tag_stanford, tag_stanford_stanza, do_counts
 import os
@@ -150,7 +148,7 @@ def entrybox_event(*args):
 
 if __name__ == "__main__":
     #maind window
-    app = tix.Tk()  # create CTk window like you do with the Tk window
+    app = tkinter.Tk()
     app.geometry("600x350")
     app.title("MFTE")
     # this removes the maximize button
