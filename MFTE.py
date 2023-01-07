@@ -1844,7 +1844,6 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             words = re.split(r" +", text)
             #check if file is not empty
             if re.search(r"\w+", text):
-                print(len(words))
                 # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
                 # Shakir: list of words that match the given regex, then take its length as function words
                 n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
