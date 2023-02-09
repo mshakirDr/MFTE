@@ -1,6 +1,4 @@
 import tkinter
-from tkinter import tix
-from tkinter.tix import Balloon
 import sys
 from MFTE import tag_MD, tag_MD_parallel, tag_stanford, tag_stanford_stanza, do_counts
 import os
@@ -98,8 +96,8 @@ def call_MFTE(folder_selected: str) -> None:
     output_stanford = output_main + "StanfordPOS_Tagged/"
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
-    if isinstance(ttr_value, int):
-        ttr = ttr_value
+    if isinstance(v.get(), int):
+        ttr = v.get()
     else:
         ttr = 400
     # record start time
@@ -110,11 +108,12 @@ def call_MFTE(folder_selected: str) -> None:
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     #parallel MD tag
-    if check_button_state2:
-        tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
+    if check_var2.get() == True:
+        print("Parallel tagging is set to True, output won't be shown here.")
+        tag_MD_parallel(output_stanford, output_MD, extended=check_var.get())
     #otherwise simple MD
     else:
-        tag_MD(output_stanford, output_MD, extended=check_button_state)
+        tag_MD(output_stanford, output_MD, extended=check_var.get())
     #
     do_counts(output_MD, output_stats, ttr)
 
@@ -149,7 +148,7 @@ def entrybox_event(*args):
 
 if __name__ == "__main__":
     #maind window
-    app = tix.Tk()  # create CTk window like you do with the Tk window
+    app = tkinter.Tk()
     app.geometry("600x350")
     app.title("MFTE")
     # this removes the maximize button

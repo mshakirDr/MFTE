@@ -18,6 +18,8 @@ from stanza.pipeline.core import DownloadMethod
 import multiprocessing
 import timeit
 
+
+
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with CoreNLPClient and writes to dir_out
     Args:
@@ -96,7 +98,41 @@ def stanza_pre_processing (text: str)-> str:
     text = ''.join((' '+c+' ') if c in emoji.EMOJI_DATA else c for c in text)
     return text
 
-        
+def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str) -> None:
+    """Gets files list chunk from tag_stanford_stanza and tags with stanza nlp client and writes to dir oupt
+
+    Args:
+        files (list): list of files which needs tobe tagged
+        nlp: Stanza nlp client
+        dir_out (str): Output directory
+    """
+    print("Stanza tagger reading all files")
+    #batch processing of documents, 1st list of documents
+    documents = [open(file=file, encoding='utf-8', errors="ignore").read() for file in files]
+    print("Stanza tagger pre processing all files")
+    documents = [stanza_pre_processing(text) for text in documents] #Apply preprocessing
+    in_docs = [stanza.Document([], text=d) for d in documents] # Wrap each document with a stanza.Document object
+    print("Stanza tagger tagging all files")
+    out_docs = nlp(in_docs) # Call the neural pipeline on this list of documents
+    for index, doc in enumerate(out_docs):
+        #text = open(file=file, encoding='utf-8', errors="ignore").read()
+        file = files[index]
+        file_name = os.path.basename(file)
+        print("Stanza tagger processed:", file)
+        #Apply preprocessing
+        #text = stanza_pre_processing (text)
+        #doc = nlp(text)
+        s_list = list()
+        for sentence in doc.sentences:
+            words = []
+            for word in sentence.words:
+                words.append(word.text + '_' + word.xpos)
+            s_words = " ".join(words)
+            s_list.append(s_words)
+        s = "\n".join(s_list)
+        with open(file=dir_out+file_name, encoding='utf-8', mode='w') as f:
+            f.write(s)
+
 def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
     Args:
@@ -109,32 +145,15 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     #nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
-        print("Stanza tagger reading all files")
-        #batch processing of documents, 1st list of documents
-        documents = [open(file=file, encoding='utf-8', errors="ignore").read() for file in files]
-        print("Stanza tagger pre processing all files")
-        documents = [stanza_pre_processing(text) for text in documents] #Apply preprocessing
-        in_docs = [stanza.Document([], text=d) for d in documents] # Wrap each document with a stanza.Document object
-        print("Stanza tagger tagging all files")
-        out_docs = nlp(in_docs) # Call the neural pipeline on this list of documents
-        for index, doc in enumerate(out_docs):
-            #text = open(file=file, encoding='utf-8', errors="ignore").read()
-            file = files[index]
-            file_name = os.path.basename(file)
-            print("Stanza tagger processed:", file)
-            #Apply preprocessing
-            #text = stanza_pre_processing (text)
-            #doc = nlp(text)
-            s_list = list()
-            for sentence in doc.sentences:
-                words = []
-                for word in sentence.words:
-                    words.append(word.text + '_' + word.xpos)
-                s_words = " ".join(words)
-                s_list.append(s_words)
-            s = "\n".join(s_list)
-            with open(file=dir_out+file_name, encoding='utf-8', mode='w') as f:
-                f.write(s)
+        if len(files) < 1000:
+            process_files_list_chunk_for_stanza(files, nlp, dir_out)
+        else:
+            n = 1000
+            files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
+            for index, files_chunk in enumerate(files_list_of_lists):
+                print("The corpus contains more than 1000 files which will be divided to chunks of 1000 files. \
+                    Processing file chunk number", index+1, "of", len(files_list_of_lists))
+                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out)
     else:
         print("No files to tag.")
 
@@ -1833,41 +1852,43 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
             text = open(file=file, encoding='utf-8', errors='ignore').read()
             text = re.sub(r"\n", r" ", text) #converts end of line in space
             words = re.split(r" +", text)
-            # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
-            # Shakir: list of words that match the given regex, then take its length as function words
-            n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
-            #print(n_functionwords)
-            # EFL: Counting function words for lexical density
-            # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
-            tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
-            # EFL: Counting total nouns for per 100 noun normalisation
-            # Shakir: list of words that match the given regex, then take its length as total nouns 
-            Ntotal = len([word for word in words if re.search(r"_NN\b", word)])
-            # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
-            # Shakir: list of words that match the given regex, then take its length as total verbs
-            VBtotal = len([word for word in words if re.search(r"(_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS)\b", word)])
-            # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
-            # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
-            list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|(-RRB-_-RRB-)|(-LRB-_-LRB-)|.+_SYM|_POS|_FPUH|_HYPH|_AFX|_NFP", word) if re.search(r"^\S+_\S+$", word)]
-            # Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
-            average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
-            lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
-            #print(len(tokens), lex_density)
-            ttr = get_ttr(tokens, n_tokens) # Shakir calculate type token ratio
-            # Shakir: get tags only, remove words and exclude certain (non-meaningful) tags from count
-            # ELF: The list of tags for which no counts will be returned can be found here.
-            # The following tags are excluded by default because they are "bin" tags designed to remove problematic tokens from other categories: LIKE and SO
-            # Note: if interested in counts of punctuation marks, "|_\W+" should be deleted in this line.
-            # Note: _WQ are removed because they are duplicates of WHQU (WHQU are tagged onto the WH-words whereas QUWU onto the question marks themselves).
-            tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b|_WQ|_LIKE|_SO", word)]
-            # Shakir: get a dictionary of tags and frequency of each tag using collections.Counter on tags list
-            tag_freq = dict(collections.Counter(tags))
-            # Shakir: sort tag_freq
-            tag_freq = dict(sorted(tag_freq.items()))
-            temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'Ntotal': Ntotal, 'VBtotal': VBtotal}
-            # update temp dict with tag freq
-            temp_dict.update(tag_freq)
-            list_of_dicts.append(temp_dict)
+            #check if file is not empty
+            if re.search(r"\w+", text):
+                # ELF: Corrected an error in the MAT which did NOT ignore punctuation in token count (although comments said it did). Also decided to remove possessive s's, symbols, filled pauses and interjections (FPUH) from this count.
+                # Shakir: list of words that match the given regex, then take its length as function words
+                n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
+                #print(n_functionwords)
+                # EFL: Counting function words for lexical density
+                # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
+                tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|_-LRB-|_-RRB-|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
+                # EFL: Counting total nouns for per 100 noun normalisation
+                # Shakir: list of words that match the given regex, then take its length as total nouns 
+                Ntotal = len([word for word in words if re.search(r"_NN\b", word)])
+                # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
+                # Shakir: list of words that match the given regex, then take its length as total verbs
+                VBtotal = len([word for word in words if re.search(r"(_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS)\b", word)])
+                # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
+                # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
+                list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|_-LRB-|_-RRB-|.+_SYM|_POS|_FPUH|_HYPH|_AFX|_NFP", word) if re.search(r"^\S+_\S+$", word)]
+                # Shakir: total length of characters / length of the list which represents the length of each word, i.e. tokens just as above
+                average_wl = sum(list_of_wordlengths) / len(list_of_wordlengths) # average word length
+                lex_density = (len(tokens) - n_functionwords) / len(tokens) # ELF: lexical density
+                #print(len(tokens), lex_density)
+                ttr = get_ttr(tokens, n_tokens) # Shakir calculate type token ratio
+                # Shakir: get tags only, remove words and exclude certain (non-meaningful) tags from count
+                # ELF: The list of tags for which no counts will be returned can be found here.
+                # The following tags are excluded by default because they are "bin" tags designed to remove problematic tokens from other categories: LIKE and SO
+                # Note: if interested in counts of punctuation marks, "|_\W+" should be deleted in this line.
+                # Note: _WQ are removed because they are duplicates of WHQU (WHQU are tagged onto the WH-words whereas QUWU onto the question marks themselves).
+                tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b|_WQ|_LIKE|_SO", word)]
+                # Shakir: get a dictionary of tags and frequency of each tag using collections.Counter on tags list
+                tag_freq = dict(collections.Counter(tags))
+                # Shakir: sort tag_freq
+                tag_freq = dict(sorted(tag_freq.items()))
+                temp_dict = {'Filename': file_name, 'Words': len(tokens), 'AWL': average_wl, 'TTR': ttr, 'LDE': lex_density, 'Ntotal': Ntotal, 'VBtotal': VBtotal}
+                # update temp dict with tag freq
+                temp_dict.update(tag_freq)
+                list_of_dicts.append(temp_dict)
         print("writing statistics...")
         df = pd.DataFrame(list_of_dicts).fillna(0)
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
@@ -1884,6 +1905,25 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
+# if __name__ == "__main__":
+#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/BNC2014/"
+#     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+#     output_stanford = output_main + "StanfordPOS_Tagged/"
+#     output_MD = output_main + "MFTE_Tagged/"
+#     output_stats = output_main + "Statistics/"
+#     ttr = 400
+#     # tag_stanford(nlp_dir, input_dir, output_stanford)
+#     t_0 = timeit.default_timer()
+#     tag_stanford_stanza(input_dir, output_stanford)
+#     t_1 = timeit.default_timer()
+#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+#     print("Time spent on tagging process (micro seconds):", elapsed_time)
+#     tag_MD(output_stanford, output_MD, extended=False)
+#     # tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     do_counts(output_MD, output_stats, ttr)
+
 if __name__ == "__main__":
     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
@@ -1893,34 +1933,13 @@ if __name__ == "__main__":
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = 400
-    # tag_stanford(nlp_dir, input_dir, output_stanford)
+    # record start time
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
+    #tag_stanford_stanza(input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=False)
-    # tag_MD_parallel(output_stanford, output_MD, extended=True)
+    #tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
-
-# if __name__ == "__main__":
-#     input_dir = r"D:/PostDoc/Writeup/ResearchPaper2/Analysis/MDAnalysis/test_files/" 
-#     #input_dir = r"D:\Downloads\Elanguage\\" 
-#     #download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     #direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     nlp_dir = r"D:/Corpus Related/MultiFeatureTaggerEnglish/CoreNLP/"
-    # output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-    # output_stanford = output_main + "StanfordPOS_Tagged/"
-    # output_MD = output_main + "MFTE_Tagged/"
-    # output_stats = output_main + "Statistics/"
-#     ttr = 400
-#     # record start time
-#     t_0 = timeit.default_timer()
-#     tag_stanford_stanza(input_dir, output_stanford)
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
-#     t_1 = timeit.default_timer()
-#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-#     print("Time spent on tagging process (micro seconds):", elapsed_time)
-#     tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
-#     do_counts(output_MD, output_stats, ttr)
