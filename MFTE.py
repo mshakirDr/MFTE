@@ -1255,7 +1255,7 @@ def process_sentence_extended (words: list) -> list:
     advl_likely = "(apparently|evidently|perhaps|possibly|predictably|probably|roughly|maybe)"
     jj_size = "(big|deep|heavy|huge|long|large|little|short|small|thin|wide|narrow)"
     jj_time = "(annual|daily|early|late|new|old|recent|young|weekly|monthly)"
-    jj_color = "(black|white|dark|bright|blue|browm|green|gr[ae]y|red)"
+    jj_color = "(black|white|dark|bright|blue|brown|green|gr[ae]y|red)"
     jj_eval = "(bad|beautiful|best|fine|good|great|lovely|nice|poor)"
     jj_relation = "(additional|average|chief|complete|different|direct|entire|external|final|following|general|initial|internal|left|main|maximum|necessary|original|particular|previous|primary|public|similar|single|standard|top|various|same)"
     jj_topic = "(chemical|commercial|environmental|human|industrial|legal|medical|mental|official|oral|phonetic|political|sexual|social|ventral|visual)"
@@ -1905,25 +1905,6 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/BNC2014/"
-#     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-#     output_stanford = output_main + "StanfordPOS_Tagged/"
-#     output_MD = output_main + "MFTE_Tagged/"
-#     output_stats = output_main + "Statistics/"
-#     ttr = 400
-#     # tag_stanford(nlp_dir, input_dir, output_stanford)
-#     t_0 = timeit.default_timer()
-#     tag_stanford_stanza(input_dir, output_stanford)
-#     t_1 = timeit.default_timer()
-#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-#     print("Time spent on tagging process (micro seconds):", elapsed_time)
-#     tag_MD(output_stanford, output_MD, extended=False)
-#     # tag_MD_parallel(output_stanford, output_MD, extended=True)
-#     do_counts(output_MD, output_stats, ttr)
-
 if __name__ == "__main__":
     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
@@ -1933,13 +1914,32 @@ if __name__ == "__main__":
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = 400
-    # record start time
+    # tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
-    #tag_stanford_stanza(input_dir, output_stanford)
-    #tag_stanford(nlp_dir, input_dir, output_stanford)
+    tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    #tag_MD(output_stanford, output_MD, extended=True)
-    #tag_MD_parallel(output_stanford, output_MD, extended=True)
+    tag_MD(output_stanford, output_MD, extended=False)
+    # tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
+
+# if __name__ == "__main__":
+#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
+#     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+#     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+#     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+#     output_stanford = output_main + "StanfordPOS_Tagged/"
+#     output_MD = output_main + "MFTE_Tagged/"
+#     output_stats = output_main + "Statistics/"
+#     ttr = 400
+#     # record start time
+#     t_0 = timeit.default_timer()
+#     #tag_stanford_stanza(input_dir, output_stanford)
+#     #tag_stanford(nlp_dir, input_dir, output_stanford)
+#     t_1 = timeit.default_timer()
+#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+#     print("Time spent on tagging process (micro seconds):", elapsed_time)
+#     #tag_MD(output_stanford, output_MD, extended=True)
+#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
+#     do_counts(output_MD, output_stats, ttr)
