@@ -1255,7 +1255,7 @@ def process_sentence_extended (words: list) -> list:
     advl_likely = "(apparently|evidently|perhaps|possibly|predictably|probably|roughly|maybe)"
     jj_size = "(big|deep|heavy|huge|long|large|little|short|small|thin|wide|narrow)"
     jj_time = "(annual|daily|early|late|new|old|recent|young|weekly|monthly)"
-    jj_color = "(black|white|dark|bright|blue|brown|green|gr[ae]y|red)"
+    jj_color = "(black|white|dark|bright|blue|brown|green|gr[ae]y|red|orange|yellow|purple|pink)"
     jj_eval = "(bad|beautiful|best|fine|good|great|lovely|nice|poor)"
     jj_relation = "(additional|average|chief|complete|different|direct|entire|external|final|following|general|initial|internal|left|main|maximum|necessary|original|particular|previous|primary|public|similar|single|standard|top|various|same)"
     jj_topic = "(chemical|commercial|environmental|human|industrial|legal|medical|mental|official|oral|phonetic|political|sexual|social|ventral|visual)"
