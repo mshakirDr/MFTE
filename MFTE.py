@@ -1544,7 +1544,7 @@ def process_sentence_extended (words: list) -> list:
         if value != " ":        
             #---------------------------------------------------
 
-            # Shakir: Nini's (2014) implementation for nominalisations with a length check more more than 5 characters, and no space means no other extra tag added
+            # Shakir: Nini's (2014) implementation for nominalisations with a length check more than 5 characters, and no space means no other extra tag added
             if (re.search("tions?_NN|ments?_NN|ness_NN|nesses_NN|ity_NN|ities_NN", words[j], re.IGNORECASE) and re.search("[a-z]{5,}", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 NOMZ", words[j])
 
