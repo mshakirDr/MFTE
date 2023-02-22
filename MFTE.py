@@ -697,7 +697,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags hedges 
             # ELF: added "kinda" and "sorta" and corrected the "sort of" and "kind of" lines in Nini's original script which had the word-2 part negated.
             # Also added apparently, conceivably, perhaps, possibly, presumably, probably, roughly and somewhat.
-            if ((re.search("\\bmaybe_|apparently_|conceivably_|perhaps_|\\bpossibly_|presumably_|\\bprobably_|\\broughly_|somewhat_", words[j], re.IGNORECASE)) or
+            if ((re.search("\\bmaybe_|apparently_|conceivably_|perhaps_|\\bpossibly_|presumably_|\\bprobably_|\\broughly_|somewhat_|\\bpredictably_", words[j], re.IGNORECASE)) or
             (re.search("\\baround_|\\babout_", words[j], re.IGNORECASE) and re.search("_CD|_QUAN|_$|_SYM", words[j+1], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_HDG", words[j])
 
@@ -712,6 +712,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_\w+", "_QUAN HDG", words[j])
                 words[j-2] = re.sub("\w+", "_QUAN", words[j-2])
 
+            #Shakir: multiword likelihood adverbs to HDG
+            if (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(most)_", words[j], re.IGNORECASE) and re.search("\\b(cases|instances)_", words[j+1], re.IGNORECASE)):
+                words[j] = re.sub("_(\w+)", "_\\1 HDG", words[j])
             #---------------------------------------------------
 
             # Tags politeness markers
@@ -1562,14 +1565,6 @@ def process_sentence_extended (words: list) -> list:
             (re.search("\\b(without|no)_", words[j-1], re.IGNORECASE) and re.search("\\b(doubt)_", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_(\w+)", "_\\1 RFACT", words[j])
 
-            #Shakir: ELF's hedges overlap with Biber's likelihood adverbs, HDG will be replaced with RLIKELY in single word adverbs
-            if ((re.search("\\b(" + advl_likely + ")_(R|HDG)", words[j], re.IGNORECASE) and not re.search(" ", words[j]))):
-                words[j] = re.sub("_(\w+)", "_RLIKELY", words[j])
-            
-            #multiword likelihood adverbs
-            if (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(most)_", words[j], re.IGNORECASE) and re.search("\\b(cases|instances)_", words[j+1], re.IGNORECASE)):
-                words[j] = re.sub("_(\w+)", "_\\1 RLIKELY", words[j])
-
             # Shakir: Added new variable to avoid overlap in the above two sub classes and JJAT/JJPR
             if (re.search("_JJAT$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 JJATother", words[j])
@@ -1601,18 +1596,19 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("_IN$", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 INother", words[j])
 
-            # Shakir: verbs in contexts other than _WHSC, _THSC or to_ . Additionally not assigned to another tag.
-            if (re.search("\\b(" + comm_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VCOMMother", words[j])
+            # Shakir: commented due to overlap with MENTAL and COMM verbs. They are counted with that and to phrases so no need to add any additional category
+            # # Shakir: verbs in contexts other than _WHSC, _THSC or to_ . Additionally not assigned to another tag.
+            # if (re.search("\\b(" + comm_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            #     words[j] = re.sub("_(\w+)", "_\\1 VCOMMother", words[j])
         
-            if (re.search("\\b(" + att_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VATTother", words[j])
+            # if (re.search("\\b(" + att_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            #     words[j] = re.sub("_(\w+)", "_\\1 VATTother", words[j])
         
-            if (re.search("\\b(" + fact_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VFCTother", words[j])
+            # if (re.search("\\b(" + fact_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            #     words[j] = re.sub("_(\w+)", "_\\1 VFCTother", words[j])
         
-            if (re.search("\\b(" + likely_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 VLIKother", words[j])
+            # if (re.search("\\b(" + likely_vb_other + ")_V", words[j], re.IGNORECASE) and not re.search("_WHSC|_THSC|to_", words[j+1]) and not re.search(" ", words[j])):
+            #     words[j] = re.sub("_(\w+)", "_\\1 VLIKother", words[j])
 
             # Shakir: sums of that clauses for vb, jj, nn and all to be used if original are too low freq
             if (re.search(" (ThVCOMM|ThVATT|ThVFCT|ThVLIK)", words[j])):
