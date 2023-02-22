@@ -226,7 +226,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers, prepositions and foreign words by the Stanford Tagger.
             # These are instead re-tagged as symbols so they don't count as tokens for the TTR and per-word normalisation basis.
             # Removal of all LS (list symbol) tags except those that denote numbers
-            if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_|\\b%_", words[index])): 
+            if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_|\\b%_|#_NN", words[index])): 
                 words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
             # ELF: Correction of cardinal numbers without spaces and list numbers as numbers rather than LS
@@ -252,7 +252,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[index] = re.sub("_\S+", "_EMO", words[index])
 
             # ELF: New feature for hashtags
-            if (re.search("#\w{3,}|\w{3,}_GW", words[index])):
+            if (re.search("#[a-zA-Z0-9]{3,}_", words[index])):
                 words[index] = re.sub("_\w+", "_HST", words[index])
 
             # ELF: New feature for web links
@@ -1920,7 +1920,7 @@ if __name__ == "__main__":
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=False)
+    tag_MD(output_stanford, output_MD, extended=True)
     # tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
 
