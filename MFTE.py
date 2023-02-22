@@ -1655,9 +1655,9 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("(ToNSTNC|ThNSTNCall)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToThNSTNCall", words[j])
 
-            # Shakir: consolidate description adjectives
-            if (re.search("(JJSIZE|JJCOLR)\\b", words[j])):
-                words[j] = re.sub("_(\w+)", "_\\1 JJDESCall", words[j])
+            # # Shakir: consolidate description adjectives
+            # if (re.search("(JJSIZE|JJCOLR)\\b", words[j])):
+            #     words[j] = re.sub("_(\w+)", "_\\1 JJDESCall", words[j])
 
             # # Shakir: consolidate stance adjectives
             # if (re.search("(JJEPSTother|JJATDother)\\b", words[j])):
