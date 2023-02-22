@@ -1557,13 +1557,17 @@ def process_sentence_extended (words: list) -> list:
                 words[j] = re.sub("_(\w+)", "_\\1 RNONFACT", words[j])
 
             if ((re.search("\\b(" + advl_fact + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
-            (re.search("\\b(of)_", words[j-1], re.IGNORECASE) and re.search("\\b(course)_", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
-            (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(fact)_", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
-            (re.search("\\b(without|no)_", words[j-1], re.IGNORECASE) and re.search("\\b(doubt)_", words[j], re.IGNORECASE) and not re.search(" ", words[j]))):
+            (re.search("\\b(of)_", words[j-1], re.IGNORECASE) and re.search("\\b(course)_", words[j], re.IGNORECASE)) or
+            (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(fact)_", words[j], re.IGNORECASE)) or
+            (re.search("\\b(without|no)_", words[j-1], re.IGNORECASE) and re.search("\\b(doubt)_", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_(\w+)", "_\\1 RFACT", words[j])
 
-            if ((re.search("\\b(" + advl_likely + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
-            (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(most)_", words[j], re.IGNORECASE) and re.search("\\b(cases)_", words[j+1], re.IGNORECASE))):
+            #Shakir: ELF's hedges overlap with Biber's likelihood adverbs, HDG will be replaced with RLIKELY in single word adverbs
+            if ((re.search("\\b(" + advl_likely + ")_(R|HDG)", words[j], re.IGNORECASE) and not re.search(" ", words[j]))):
+                words[j] = re.sub("_(\w+)", "_RLIKELY", words[j])
+            
+            #multiword likelihood adverbs
+            if (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(most)_", words[j], re.IGNORECASE) and re.search("\\b(cases|instances)_", words[j+1], re.IGNORECASE)):
                 words[j] = re.sub("_(\w+)", "_\\1 RLIKELY", words[j])
 
             # Shakir: Added new variable to avoid overlap in the above two sub classes and JJAT/JJPR
