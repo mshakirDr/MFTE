@@ -1451,10 +1451,6 @@ def process_sentence_extended (words: list) -> list:
             if (re.search("\\b(" + nn_stance_pp + ")_N", words[j-1], re.IGNORECASE) and re.search("_IN", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PrepNSTNC", words[j])
 
-            # Shakir: stance nouns without prep
-            if (re.search("\\b(" + nn_stance_pp + ")_N", words[j], re.IGNORECASE) and not re.search("_IN", words[j+1])):
-                words[j] = re.sub("_(\w+)", "_\\1 NSTNCother", words[j])
-
     #-------------------------------------------------- 
     # Shakir: Nouns semantic classes (from Biber 2006)
     for index, x in enumerate(words):
@@ -1552,9 +1548,9 @@ def process_sentence_extended (words: list) -> list:
                 words[j] = re.sub("_(\w+)", "_\\1 NOMZ", words[j])
 
             # Shakir: Semantic classes of adverbs
-            if ((re.search("\\b(" + advl_att + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
+            if ((re.search("\\b" + advl_att + "_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])) or
             (re.search("\\b(even)_R", words[j], re.IGNORECASE) and re.search("\\b(worse)_", words[j+1], re.IGNORECASE) and not re.search(" ", words[j]))):
-                words[j] = re.sub("_(\w+)", "_\\1 RATT", words[index])
+                words[j] = re.sub("_(\w+)", "_\\1 RATT", words[j])
 
             if (re.search("\\b(" + advl_nonfact + ")_R", words[j], re.IGNORECASE) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 RNONFACT", words[j])
@@ -1564,6 +1560,11 @@ def process_sentence_extended (words: list) -> list:
             (re.search("\\b(in)_", words[j-1], re.IGNORECASE) and re.search("\\b(fact)_", words[j], re.IGNORECASE)) or
             (re.search("\\b(without|no)_", words[j-1], re.IGNORECASE) and re.search("\\b(doubt)_", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_(\w+)", "_\\1 RFACT", words[j])
+
+            # Shakir: stance nouns without prep
+            # check for no doubt and without doubt which are already tagged as factive adverb phrases 
+            if (re.search("\\b(" + nn_stance_pp + ")_N", words[j], re.IGNORECASE) and not re.search("_IN", words[j+1]) and not re.search(" RFACT\\b", words[j])):
+                words[j] = re.sub("_(\w+)", "_\\1 NSTNCother", words[j])
 
             # Shakir: Added new variable to avoid overlap in the above two sub classes and JJAT/JJPR
             if (re.search("_JJAT$", words[j])):
@@ -1906,7 +1907,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
+    input_dir = r"D:\Corpus Related\Corpora\Pakistani English Historical\corpus\\"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
@@ -1916,12 +1917,12 @@ if __name__ == "__main__":
     ttr = 400
     # tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
+    #tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
-    # tag_MD_parallel(output_stanford, output_MD, extended=True)
+    #tag_MD(output_stanford, output_MD, extended=True)
+    tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
 
 # if __name__ == "__main__":

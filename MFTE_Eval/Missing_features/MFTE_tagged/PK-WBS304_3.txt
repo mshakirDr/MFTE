@@ -1,0 +1,1710 @@
+Public_JJAT JJREL
+interest_NN NNABSPROC
+journalism_NN NCOMP
+is_VPRT BEMA
+one_CD
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+biggest_JJAT SUPER
+coronavirus_NN NNother
+victims_NN NCOMP
+https://arab.news/v4x9s_URL
+COVID_NN NNP
+-19_CD
+is_VPRT
+leaving_PROG ACT
+a_DT
+trail_NN NNother
+of_IN INother
+devastation_NN NOMZ
+in_IN INother
+its_PIT
+wake_NN NNother
+in_IN INother
+Pakistan_NN NNP
+,_,
+a_DT
+state_NN NNABSPROC
+already_TIME
+plagued_VBN
+with_IN INother
+serious_JJAT JJATother
+political_JJPR JJTOPIC
+,_,
+social_JJAT JJTOPIC
+and_CC
+economic_JJAT JJATother
+issues_NN NNABSPROC
+even_RB RBother
+before_IN INother
+the_DT
+pandemic_NN NNother
+struck_VBD
+._.
+In_IN INother
+terms_NN NNQUANT
+of_IN INother
+scale_NN NNother
+and_CC
+far_PLACE
+-_HYPH
+reaching_VBG ACT
+implications_NN NOMZ
+on_IN PrepNSTNC
+the_DT
+citizenry_NN NNother
+and_CC
+polity_NN NOMZ
+however_CC
+,_,
+the_DT
+media_NN NNother
+sector_NN NCOMP
+is_VPRT BEMA
+already_TIME
+one_CD
+of_IN INother
+its_PIT
+biggest_JJAT SUPER
+victims_NN NNHUMAN
+._.
+The_DT
+pandemic_NN NNother
+is_VPRT
+accelerating_PROG
+the_DT
+deterioration_NN NOMZ
+and_CC
+increasing_VBG OCCUR
+irrelevance_NN NNother
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+conventional_JJAT JJATother
+print_NN NNother
+and_CC
+broadcast_VBN
+media_NN NNother
+as_IN INother
+it_PIT
+battles_VPRT
+a_DT
+shrinking_VBG
+media_NN NNother
+economy_NN NCOMP
+resulting_VBG
+in_IN INother
+a_DT
+virtual_JJAT JJATother
+end_NN NNABSPROC
+to_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+journalism_NN NCOMP
+._.
+In_IN INother
+the_DT
+backdrop_NN NNother
+of_IN INother
+a_DT
+demonstrated_VBN
+state_NN NNABSPROC
+interest_NN NCOMP
+in_IN INother
+restricting_VBG
+open_JJAT JJATother
+discourse_NN NNother
+,_,
+it_PIT
+is_VPRT BEMA
+difficult_JJPR JJPRother
+to_IN ToSTNCall ToJSTNCall ToJEASE
+see_VB MENTAL THATD
+media_NN NNother
+surviving_VBG
+the_DT
+plague_NN NNother
+intact_JJPR JJPRother
+._.
+Pakistani_JJAT JJATother
+media_NN NNother
+operates_VPRT
+in_IN INother
+a_DT
+difficult_JJAT JJATother
+environment_NN NNPLACE
+as_IN INother
+a_DT
+routine_NN NNother
+._.
+Even_RB RBother
+before_IN INother
+the_DT
+plague_NN NNother
+,_,
+the_DT
+national_JJAT JJATother
+economy_NN NNABSPROC
+was_VBD BEMA
+tanking_PROG
+,_,
+media_NN NNother
+revenues_NN NCOMP
+were_VBD BEMA
+dwindling_PROG
+,_,
+and_CC
+various_JJAT JJREL
+media_NN NNother
+houses_NN NCOMP
+had_VBD
+laid_PEAS
+off_RP
+over_RB RBother
+3,000_CD
+journalists_NN NNother
+over_IN INother
+2019_CD
+-_SYM
+20_CD
+._.
+Hafeez_NN NNP
+Shaikh_NN NNP
+,_,
+the_DT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+'s_POS
+advisor_NN NNother
+on_IN INother
+finance_NN NNother
+,_,
+agrees_VPRT MENTAL COMM
+with_IN INother
+projections_NN NOMZ
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+key_JJAT JJATother
+lenders_NN NNother
+that_THSC THSCother
+economic_JJAT JJATother
+growth_NN NNother
+will_MDWS MDPREDall
+be_VB BEMA
+negative_JJPR JJPRother
+this_DEMO
+year_NN NNother
+._.
+There_EX
+is_VPRT
+no_XX0
+money_NN NNother
+for_IN INother
+media_NN NNother
+subsidies_NN NCOMP
+._.
+The_DT
+pandemic_NN NNother
+has_VPRT
+made_PEAS ACT
+the_DT
+situation_NN NNABSPROC
+worse_JJPR COMPAR
+._.
+With_IN INother
+businesses_NN NOMZ
+closed_VBN
+,_,
+even_RB RBother
+small_JJPR JJSIZE
+-_HYPH
+scale_NN NNother
+advertisements_NN NCOMP
+,_,
+including_VBG EXIST
+lifelines_NN NNother
+from_IN INother
+the_DT
+government_NN NNGRP
+,_,
+have_VPRT
+dried_PEAS
+up_RP
+,_,
+adversely_RB RBother
+affecting_VBG CAUSE
+the_DT
+routine_JJAT JJATother
+operations_NN NNABSPROC
+of_IN INother
+the_DT
+media_NN NNother
+industry_NN NCOMP
+that_THRC THRCother
+employs_VPRT
+about_HDG
+250,000_CD
+people_NN NNHUMAN
+._.
+Production_NN NNABSPROC
+pressures_NN NCOMP
+and_CC
+health_NN NNABSPROC
+issues_NN NCOMP
+are_VPRT
+putting_PROG ACT
+the_DT
+lives_NN NNABSPROC
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+20,000_CD
+journalists_NN NNother
+and_CC
+other_JJAT JJATother
+media_NN NNother
+workers_NN NCOMP
+at_IN INother
+risk_NN NNABSPROC
+._.
+Over_RB RBother
+60_CD
+journalists_NN NNother
+in_IN INother
+the_DT
+country_NN NNPLACE
+'s_POS
+five_CD
+federal_JJAT JJATother
+and_CC
+provincial_JJAT JJATother
+capitals_NN NNABSPROC
+alone_RB RBother
+have_VPRT
+tested_PEAS
+positive_JJPR JJEPSTother
+for_IN INother
+coronavirus_NN NNother
+so_SO
+far_TIME
+._.
+At_IN INother
+least_JJAT JJATother
+one_CD
+Islamabad_NN NNP
+-_HYPH
+based_VBN
+journalist_NN NNother
+has_VPRT
+died_PEAS OCCUR
+of_IN INother
+the_DT
+disease_NN NNother
+._.
+This_DEMO
+is_VPRT BEMA
+the_DT
+tip_NN NNCONC
+of_IN INother
+the_DT
+proverbial_JJAT JJATother
+iceberg_NN NNother
+._.
+While_CC
+most_QUAN
+media_NN NNother
+houses_NN NCOMP
+embraced_VBD
+necessary_JJAT JJREL
+social_JJAT JJTOPIC
+distancing_NN NNother
+and_CC
+enhanced_VBN
+hygiene_NN NNother
+practices_NN NCOMP
+quickly_RB RBother
+,_,
+a_DT
+large_JJAT JJSIZE
+part_NN NNQUANT
+of_IN INother
+the_DT
+media_NN NNother
+staff_NN NCOMP
+were_VBD SPLIT
+initially_TIME
+asked_PASS PASSall COMM
+to_IN INother
+work_VB ACT
+from_IN INother
+home_NN NNGRP
+but_CC
+feared_VBD MENTAL
+being_VBG
+rendered_PASS PASSall
+redundant_JJPR JJPRother
+and_CC
+preferred_VBN MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+risk_VB
+themselves_PP3t PP3all
+in_IN INother
+the_DT
+workplace_NN NNother
+and_CC
+the_DT
+field_NN NNPLACE
+._.
+The_DT
+pandemic_NN NNother
+is_VPRT
+accelerating_PROG
+the_DT
+deterioration_NN NOMZ
+and_CC
+increasing_VBG OCCUR
+irrelevance_NN NNother
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+conventional_JJAT JJATother
+print_NN NNother
+and_CC
+broadcast_VBN
+media_NN NNother
+as_IN INother
+it_PIT
+battles_VPRT
+a_DT
+shrinking_VBG
+media_NN NNother
+economy_NN NCOMP
+resulting_VBG
+in_IN INother
+a_DT
+virtual_JJAT JJATother
+end_NN NNABSPROC
+to_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+journalism_NN NCOMP
+._.
+In_IN INother
+the_DT
+backdrop_NN NNother
+of_IN INother
+a_DT
+demonstrated_VBN
+state_NN NNABSPROC
+interest_NN NCOMP
+in_IN INother
+restricting_VBG
+open_JJAT JJATother
+discourse_NN NNother
+,_,
+it_PIT
+is_VPRT BEMA
+difficult_JJPR JJPRother
+to_IN ToSTNCall ToJSTNCall ToJEASE
+see_VB MENTAL THATD
+media_NN NNother
+surviving_VBG
+the_DT
+plague_NN NNother
+intact_JJPR JJPRother
+._.
+Pakistani_JJAT JJATother
+media_NN NNother
+operates_VPRT
+in_IN INother
+a_DT
+difficult_JJAT JJATother
+environment_NN NNPLACE
+as_IN INother
+a_DT
+routine_NN NNother
+._.
+Even_RB RBother
+before_IN INother
+the_DT
+plague_NN NNother
+,_,
+the_DT
+national_JJAT JJATother
+economy_NN NNABSPROC
+was_VBD BEMA
+tanking_PROG
+,_,
+media_NN NNother
+revenues_NN NCOMP
+were_VBD BEMA
+dwindling_PROG
+,_,
+and_CC
+various_JJAT JJREL
+media_NN NNother
+houses_NN NCOMP
+had_VBD
+laid_PEAS
+off_RP
+over_RB RBother
+3,000_CD
+journalists_NN NNother
+over_IN INother
+2019_CD
+-_SYM
+20_CD
+._.
+Hafeez_NN NNP
+Shaikh_NN NNP
+,_,
+the_DT
+prime_JJAT JJATother
+minister_NN NNHUMAN
+'s_POS
+advisor_NN NNother
+on_IN INother
+finance_NN NNother
+,_,
+agrees_VPRT MENTAL COMM
+with_IN INother
+projections_NN NOMZ
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+key_JJAT JJATother
+lenders_NN NNother
+that_THSC THSCother
+economic_JJAT JJATother
+growth_NN NNother
+will_MDWS MDPREDall
+be_VB BEMA
+negative_JJPR JJPRother
+this_DEMO
+year_NN NNother
+._.
+There_EX
+is_VPRT
+no_XX0
+money_NN NNother
+for_IN INother
+media_NN NNother
+subsidies_NN NCOMP
+._.
+The_DT
+pandemic_NN NNother
+has_VPRT
+made_PEAS ACT
+the_DT
+situation_NN NNABSPROC
+worse_JJPR COMPAR
+._.
+With_IN INother
+businesses_NN NOMZ
+closed_VBN
+,_,
+even_RB RBother
+small_JJPR JJSIZE
+-_HYPH
+scale_NN NNother
+advertisements_NN NCOMP
+,_,
+including_VBG EXIST
+lifelines_NN NNother
+from_IN INother
+the_DT
+government_NN NNGRP
+,_,
+have_VPRT
+dried_PEAS
+up_RP
+,_,
+adversely_RB RBother
+affecting_VBG CAUSE
+the_DT
+routine_JJAT JJATother
+operations_NN NNABSPROC
+of_IN INother
+the_DT
+media_NN NNother
+industry_NN NCOMP
+that_THRC THRCother
+employs_VPRT
+about_HDG
+250,000_CD
+people_NN NNHUMAN
+._.
+Production_NN NNABSPROC
+pressures_NN NCOMP
+and_CC
+health_NN NNABSPROC
+issues_NN NCOMP
+are_VPRT
+putting_PROG ACT
+the_DT
+lives_NN NNABSPROC
+of_IN INother
+Pakistan_NN NNP
+'s_POS
+20,000_CD
+journalists_NN NNother
+and_CC
+other_JJAT JJATother
+media_NN NNother
+workers_NN NCOMP
+at_IN INother
+risk_NN NNABSPROC
+._.
+Over_RB RBother
+60_CD
+journalists_NN NNother
+in_IN INother
+the_DT
+country_NN NNPLACE
+'s_POS
+five_CD
+federal_JJAT JJATother
+and_CC
+provincial_JJAT JJATother
+capitals_NN NNABSPROC
+alone_RB RBother
+have_VPRT
+tested_PEAS
+positive_JJPR JJEPSTother
+for_IN INother
+coronavirus_NN NNother
+so_SO
+far_TIME
+._.
+At_IN INother
+least_JJAT JJATother
+one_CD
+Islamabad_NN NNP
+-_HYPH
+based_VBN
+journalist_NN NNother
+has_VPRT
+died_PEAS OCCUR
+of_IN INother
+the_DT
+disease_NN NNother
+._.
+This_DEMO
+is_VPRT BEMA
+the_DT
+tip_NN NNCONC
+of_IN INother
+the_DT
+proverbial_JJAT JJATother
+iceberg_NN NNother
+._.
+While_CC
+most_QUAN
+media_NN NNother
+houses_NN NCOMP
+embraced_VBD
+necessary_JJAT JJREL
+social_JJAT JJTOPIC
+distancing_NN NNother
+and_CC
+enhanced_VBN
+hygiene_NN NNother
+practices_NN NCOMP
+quickly_RB RBother
+,_,
+a_DT
+large_JJAT JJSIZE
+part_NN NNQUANT
+of_IN INother
+the_DT
+media_NN NNother
+staff_NN NCOMP
+were_VBD SPLIT
+initially_TIME
+asked_PASS PASSall COMM
+to_IN INother
+work_VB ACT
+from_IN INother
+home_NN NNGRP
+but_CC
+feared_VBD MENTAL
+being_VBG
+rendered_PASS PASSall
+redundant_JJPR JJPRother
+and_CC
+preferred_VBN MENTAL
+to_IN ToSTNCall ToVSTNCall ToVDSR
+risk_VB
+themselves_PP3t PP3all
+in_IN INother
+the_DT
+workplace_NN NNother
+and_CC
+the_DT
+field_NN NNPLACE
+._.
+A_DT
+new_JJAT JJTIME
+media_NN NNother
+future_NN NCOMP
+is_VPRT
+shaping_PROG
+up_RP
+with_IN INother
+news_NN NSTNCother
+that_THRC ToThNSTNCall ThSTNCall ThNSTNCall ThNNFCT
+matters_VPRT EXIST
+shifting_VBG
+online_PLACE
+and_CC
+as_IN INother
+audiences_NN NNHUMAN
+and_CC
+relative_JJAT JJATother
+freedom_NN NNABSPROC
+of_IN INother
+expression_NN NNABSPROC
+becomes_VPRT OCCUR
+digital_JJPR JJPRother
+._.
+This_DEMO
+has_VPRT
+happened_PEAS OCCUR
+because_CUZ
+mainstream_JJAT JJATother
+media_NN NNother
+has_VPRT
+stopped_PEAS ASPECT
+being_VBG BEMA
+the_DT
+guardian_NN NNother
+of_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+and_CC
+resorted_VBN
+to_IN INother
+being_VBG BEMA
+a_DT
+spokesperson_NN NNother
+for_IN INother
+government_NN NNGRP
+priorities_NN NCOMP
+._.
+Adnan_NN NNP
+Rehmat_NN NNP
+Because_CUZ
+thousands_QUAN
+of_IN INother
+journalists_NN NNother
+have_VPRT
+lost_PEAS ACT
+their_PP3t PP3all
+jobs_NN NNABSPROC
+,_,
+handed_VBN
+steep_JJAT JJATother
+pay_NN NNother
+cuts_NN NCOMP
+or_CC
+fear_NN NNother
+losing_VBG ACT
+piling_VBG
+arrears_NN NNother
+in_IN INother
+salaries_NN NNother
+,_,
+journalists_NN NNother
+are_VPRT
+either_CC
+not_XX0
+getting_PROG
+themselves_PP3t PP3all
+tested_PGET PASSall
+or_CC
+not_XX0
+acknowledging_VBG COMM
+privately_RB RBother
+done_VBN ACT
+tests_NN NNABSPROC
+(_-LRB-
+the_DT
+tests_NN NNABSPROC
+are_VPRT BEMA
+not_XX0
+mandatory_JJPR JJPRother
+by_IN INother
+their_PP3t PP3all
+employers_NN NNHUMAN
+)_-RRB-
+._.
+Additionally_CC
+,_,
+the_DT
+media_NN NNother
+is_VPRT BEMA
+in_IN INother
+downsizing_VBG
+mode_NN NNother
+._.
+Most_QUAN
+newspapers_NN NNCONC
+have_VPRT
+reduced_PEAS ACT
+the_DT
+number_NN NNQUANT
+of_IN INother
+their_PP3t PP3all
+pages_NN NNCONC
+._.
+At_IN INother
+least_JJAT JJATother
+one_CD
+TV_NN NNother
+channel_NN NCOMP
+and_CC
+some_QUAN
+bureau_NN NNother
+offices_NN NCOMP
+have_VPRT
+closed_PEAS
+._.
+For_IN INother
+mainstream_JJAT JJATother
+media_NN NNother
+,_,
+COVID_NN NNP
+-_HYPH
+19_CD
+has_VPRT
+meant_PEAS COMM
+less_QUAN
+content_NN NNABSPROC
+,_,
+and_CC
+often_FREQ
+content_NN NNABSPROC
+that_THRC THRCother
+is_VPRT
+not_XX0
+necessarily_RB RBother
+useful_JJPR JJPRother
+for_IN INother
+consumers_NN NNHUMAN
+in_IN INother
+a_DT
+time_NN NNQUANT
+of_IN INother
+enhanced_VBN
+need_NN NNCOG
+for_IN INother
+reliable_JJAT JJATother
+information_NN NNABSPROC
+._.
+This_DEMO
+includes_VPRT EXIST
+clerics_NN NNother
+populating_VBG
+prime_JJAT JJATother
+time_NN NNQUANT
+TV_NN NCOMP
+talk_NN NNABSPROC
+shows_NN NCOMP
+and_CC
+news_NN NSTNCother
+bulletins_NN NCOMP
+being_VBG BEMA
+thin_JJPR JJSIZE
+on_IN INother
+"_``
+news_NN NSTNCother
+you_PP2
+can_MDCA MDPOSSCall
+use_VB ACT
+"_''
+formats_NN NNABSPROC
+,_,
+especially_AMP
+since_IN INother
+the_DT
+government_NN NNGRP
+is_VPRT BEMA
+aggressive_JJPR JJPRother
+against_IN INother
+criticism_NN NNABSPROC
+of_IN INother
+its_PIT
+controversial_JJAT JJATother
+COVID_NN NNother
+-_HYPH
+19_CD
+response_NN NNother
+performance_NN NCOMP
+._.
+Field_NN NNPLACE
+reporting_NN NCOMP
+has_VPRT
+all_QUAN
+but_CC
+disappeared_VBN OCCUR
+and_CC
+mostly_RB RBother
+statements_NN NNTECH
+from_IN PrepNSTNC
+government_NN NNGRP
+functionaries_NN NCOMP
+substitute_VBN
+for_IN INother
+journalism_NN NNother
+now_TIME
+._.
+The_DT
+overall_JJAT JJATother
+impact_NN NNABSPROC
+has_VPRT
+been_PEAS BEMA
+a_DT
+quantitative_JJAT JJATother
+and_CC
+qualitative_JJAT JJATother
+diminishing_NN NNother
+of_IN INother
+professional_JJAT JJATother
+journalistic_JJAT JJATother
+output_NN NNABSPROC
+supplementing_VBG
+the_DT
+pre-coronavirus_JJAT JJATother
+trend_NN NNother
+of_IN INother
+closing_VBG
+spaces_NN NNCONC
+for_IN INother
+dissent_NN NNother
+and_CC
+criticism_NN NNABSPROC
+._.
+This_DEMO
+means_VPRT COMM
+media_NN NNother
+that_THRC THRCother
+is_VPRT BEMA
+increasingly_RB RBother
+irrelevant_JJPR JJPRother
+as_IN INother
+investigative_JJAT JJATother
+journalism_NN NNother
+and_CC
+diversity_NN NNABSPROC
+and_CC
+pluralisms_NN NNother
+of_IN INother
+voices_NN NNother
+and_CC
+views_NN NSTNCother
+goes_VPRT
+missing_VBG MENTAL
+._.
+And_CC
+yet_CC
+amid_IN INother
+the_DT
+gloom_NN NNother
+a_DT
+silver_JJAT COMPAR
+lining_NN NNother
+sparkles_NN NCOMP
+._.
+A_DT
+new_JJAT JJTIME
+media_NN NNother
+future_NN NCOMP
+is_VPRT
+shaping_PROG
+up_RP
+with_IN INother
+news_NN NSTNCother
+that_THRC ToThNSTNCall ThSTNCall ThNSTNCall ThNNFCT
+matters_VPRT EXIST
+shifting_VBG
+online_PLACE
+and_CC
+as_IN INother
+audiences_NN NNHUMAN
+and_CC
+relative_JJAT JJATother
+freedom_NN NNABSPROC
+of_IN INother
+expression_NN NNABSPROC
+becomes_VPRT OCCUR
+digital_JJPR JJPRother
+._.
+This_DEMO
+has_VPRT
+happened_PEAS OCCUR
+because_CUZ
+mainstream_JJAT JJATother
+media_NN NNother
+has_VPRT
+stopped_PEAS ASPECT
+being_VBG BEMA
+the_DT
+guardian_NN NNother
+of_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+and_CC
+resorted_VBN
+to_IN INother
+being_VBG BEMA
+a_DT
+spokesperson_NN NNother
+for_IN INother
+government_NN NNGRP
+priorities_NN NCOMP
+._.
+How_WHSC WHSCother
+is_VPRT BEMA
+the_DT
+digital_JJAT JJATother
+media_NN NNother
+landscape_NN NCOMP
+looking_VBG
+and_CC
+will_MDWS MDPREDall
+online_PLACE
+journalism_NN NNother
+finally_RB RBother
+become_VB OCCUR
+bigger_JJPR COMPAR
+than_IN INother
+conventional_JJAT JJATother
+media_NN NNother
+in_IN INother
+Pakistan_NN NNP
+?_. YNQU
+It_PIT
+is_VPRT SPLIT
+certainly_RB RSTNCall RFACT
+headed_PASS PASSall
+in_IN INother
+that_DEMO
+direction_NN NNABSPROC
+by_IN INother
+converting_VBG
+what_WHSC WHSCother
+is_VPRT BEMA
+a_DT
+media_NN NNother
+production_NN NCOMP
+and_CC
+operation_NN NNABSPROC
+crisis_NN NCOMP
+into_IN INother
+an_DT
+opportunity_NN NSTNCother
+._.
+Critical_JJAT JJATother
+public_JJPR JJREL
+-_HYPH
+interest_NN NNABSPROC
+COVID_NN NCOMP
+-_HYPH
+19_CD
+coverage_NN NNother
+is_VPRT SPLIT
+now_TIME
+natively_RB RBother
+found_PASS PASSall
+on_IN INother
+both_QUAN
+online_PLACE
+-_HYPH
+only_DWNT
+media_NN NNother
+platforms_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+Sujag_NN NNP
+,_,
+Humsub_FPUH
+,_,
+NayaDaur_NN NNP
+and_CC
+The_DT
+Current_NN NNP
+as_CC
+well_RB RBother
+as_IN INother
+the_DT
+digital_JJAT JJATother
+operations_NN NNABSPROC
+of_IN INother
+mainstream_JJAT JJATother
+media_NN NNother
+groups_NN NCOMP
+like_LIKE
+Dawn_NN NNP
+and_CC
+Jang_NN NNP
+that_THRC THRCother
+offer_VPRT COMM
+better_JJAT COMPAR
+content_NN NNABSPROC
+than_IN INother
+their_PP3t PP3all
+offline_PLACE
+print_NN NNother
+and_CC
+TV_NN NNother
+operations_NN NCOMP
+._.
+Traffic_NN NNother
+for_IN INother
+these_DEMO
+digital_JJAT JJATother
+media_NN NNother
+platforms_NN NCOMP
+has_VPRT
+increased_PEAS OCCUR
+manifold_NN NNother
+._.
+While_CC
+market_NN NNPLACE
+Darwinism_NN NNP
+was_VBD SPLIT
+already_TIME
+pushing_PROG
+mainstream_JJAT JJATother
+Pakistani_JJAT JJATother
+media_NN NNother
+online_PLACE
+,_,
+COVID_NN NNP
+-_HYPH
+19_CD
+has_VPRT
+catalysed_PEAS
+this_DEMO
+process_NN NNABSPROC
+of_IN INother
+media_NN NNother
+digitalization_NN NCOMP
+._.
+This_DEMO
+should_MDNE
+not_XX0
+be_VB BEMA
+resisted_PASS PASSall
+,_,
+but_CC
+supported_VBN
+through_IN INother
+a_DT
+combination_NN NNABSPROC
+of_IN INother
+industry_NN NNother
+and_CC
+policy_NN NNABSPROC
+actions_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+cheaper_JJAT COMPAR
+internet_NN NNTECH
+access_NN NCOMP
+,_,
+a_DT
+looser_JJAT COMPAR
+online_PLACE
+regulatory_JJAT JJATother
+framework_NN NNother
+,_,
+protection_NN NOMZ
+of_IN INother
+digital_JJAT JJATother
+rights_NN NSTNCother
+,_,
+urgent_JJAT JJATother
+investment_NN NOMZ
+in_IN INother
+capacity_NN NOMZ
+building_NN NCOMP
+of_IN INother
+conventional_JJAT JJATother
+journalists_NN NNother
+to_IN INother
+become_VB OCCUR
+digital_JJAT JJATother
+professionals_NN NNHUMAN
+and_CC
+digital_JJAT JJATother
+platforms_NN NNother
+coming_VBG ACT
+together_RB RBother
+to_IN INother
+prioritize_VB
+professionalism_NN NNother
+and_CC
+public_JJPR JJREL
+-_HYPH
+interest_NN NNABSPROC
+journalism_NN NCOMP
+._.
+Without_IN INother
+staying_VBG EXIST
+focused_VBN
+on_IN INother
+its_PIT
+principal_JJAT JJATother
+mandate_NN NNother
+of_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+journalism_NN NCOMP
+,_,
+media_NN NNother
+in_IN INother
+Pakistan_NN NNP
+will_MDWS MDPREDall SPLIT
+simply_RB RBother
+die_VB OCCUR
+out_RP
+as_IN INother
+COVID_NN NNP
+-_HYPH
+19_CD
+has_VPRT
+made_PEAS ACT
+clear_JJPR JJEPSTother
+for_IN INother
+conventional_JJAT JJATother
+media_NN NNother
+._.
+Public_JJAT JJREL
+interest_NN NNABSPROC
+digital_JJAT JJATother
+media_NN NNother
+can_MDCA MDPOSSCall SPLIT
+instead_CC
+be_VB BEMA
+the_DT
+phoenix_NN NNP
+that_THRC THRCother
+resurrects_VPRT
+professional_JJAT JJATother
+journalism_NN NNother
+in_IN INother
+Pakistan_NN NNP
+._.
+Adnan_NN NNP
+Rehmat_NN NNP
+is_VPRT BEMA
+a_DT
+Pakistan_NN NNP
+-_HYPH
+based_VBN
+journalist_NN NNother
+,_,
+researcher_NN NNHUMAN
+and_CC
+analyst_NN NNother
+with_IN INother
+interests_NN NNABSPROC
+in_IN INother
+politics_NN NNother
+,_,
+media_NN NNother
+,_,
+development_NN NNABSPROC
+and_CC
+science_NN NNABSPROC
+._.
+Twitter_NN NNP
+:_:
+@adnanrehmat1_NN NNMention
+Additionally_CC
+,_,
+the_DT
+media_NN NNother
+is_VPRT BEMA
+in_IN INother
+downsizing_VBG
+mode_NN NNother
+._.
+Most_QUAN
+newspapers_NN NNCONC
+have_VPRT
+reduced_PEAS ACT
+the_DT
+number_NN NNQUANT
+of_IN INother
+their_PP3t PP3all
+pages_NN NNCONC
+._.
+At_IN INother
+least_JJAT JJATother
+one_CD
+TV_NN NNother
+channel_NN NCOMP
+and_CC
+some_QUAN
+bureau_NN NNother
+offices_NN NCOMP
+have_VPRT
+closed_PEAS
+._.
+For_IN INother
+mainstream_JJAT JJATother
+media_NN NNother
+,_,
+COVID_NN NNP
+-_HYPH
+19_CD
+has_VPRT
+meant_PEAS COMM
+less_QUAN
+content_NN NNABSPROC
+,_,
+and_CC
+often_FREQ
+content_NN NNABSPROC
+that_THRC THRCother
+is_VPRT
+not_XX0
+necessarily_RB RBother
+useful_JJPR JJPRother
+for_IN INother
+consumers_NN NNHUMAN
+in_IN INother
+a_DT
+time_NN NNQUANT
+of_IN INother
+enhanced_VBN
+need_NN NNCOG
+for_IN INother
+reliable_JJAT JJATother
+information_NN NNABSPROC
+._.
+This_DEMO
+includes_VPRT EXIST
+clerics_NN NNother
+populating_VBG
+prime_JJAT JJATother
+time_NN NNQUANT
+TV_NN NCOMP
+talk_NN NNABSPROC
+shows_NN NCOMP
+and_CC
+news_NN NSTNCother
+bulletins_NN NCOMP
+being_VBG BEMA
+thin_JJPR JJSIZE
+on_IN INother
+"_``
+news_NN NSTNCother
+you_PP2
+can_MDCA MDPOSSCall
+use_VB ACT
+"_''
+formats_NN NNABSPROC
+,_,
+especially_AMP
+since_IN INother
+the_DT
+government_NN NNGRP
+is_VPRT BEMA
+aggressive_JJPR JJPRother
+against_IN INother
+criticism_NN NNABSPROC
+of_IN INother
+its_PIT
+controversial_JJAT JJATother
+COVID_NN NNother
+-_HYPH
+19_CD
+response_NN NNother
+performance_NN NCOMP
+._.
+Field_NN NNPLACE
+reporting_NN NCOMP
+has_VPRT
+all_QUAN
+but_CC
+disappeared_VBN OCCUR
+and_CC
+mostly_RB RBother
+statements_NN NNTECH
+from_IN PrepNSTNC
+government_NN NNGRP
+functionaries_NN NCOMP
+substitute_VBN
+for_IN INother
+journalism_NN NNother
+now_TIME
+._.
+The_DT
+overall_JJAT JJATother
+impact_NN NNABSPROC
+has_VPRT
+been_PEAS BEMA
+a_DT
+quantitative_JJAT JJATother
+and_CC
+qualitative_JJAT JJATother
+diminishing_NN NNother
+of_IN INother
+professional_JJAT JJATother
+journalistic_JJAT JJATother
+output_NN NNABSPROC
+supplementing_VBG
+the_DT
+pre-coronavirus_JJAT JJATother
+trend_NN NNother
+of_IN INother
+closing_VBG
+spaces_NN NNCONC
+for_IN INother
+dissent_NN NNother
+and_CC
+criticism_NN NNABSPROC
+._.
+This_DEMO
+means_VPRT COMM
+media_NN NNother
+that_THRC THRCother
+is_VPRT BEMA
+increasingly_RB RBother
+irrelevant_JJPR JJPRother
+as_IN INother
+investigative_JJAT JJATother
+journalism_NN NNother
+and_CC
+diversity_NN NNABSPROC
+and_CC
+pluralisms_NN NNother
+of_IN INother
+voices_NN NNother
+and_CC
+views_NN NSTNCother
+goes_VPRT
+missing_VBG MENTAL
+._.
+And_CC
+yet_CC
+amid_IN INother
+the_DT
+gloom_NN NNother
+a_DT
+silver_JJAT COMPAR
+lining_NN NNother
+sparkles_NN NCOMP
+._.
+A_DT
+new_JJAT JJTIME
+media_NN NNother
+future_NN NCOMP
+is_VPRT
+shaping_PROG
+up_RP
+with_IN INother
+news_NN NSTNCother
+that_THRC ToThNSTNCall ThSTNCall ThNSTNCall ThNNFCT
+matters_VPRT EXIST
+shifting_VBG
+online_PLACE
+and_CC
+as_IN INother
+audiences_NN NNHUMAN
+and_CC
+relative_JJAT JJATother
+freedom_NN NNABSPROC
+of_IN INother
+expression_NN NNABSPROC
+becomes_VPRT OCCUR
+digital_JJPR JJPRother
+._.
+This_DEMO
+has_VPRT
+happened_PEAS OCCUR
+because_CUZ
+mainstream_JJAT JJATother
+media_NN NNother
+has_VPRT
+stopped_PEAS ASPECT
+being_VBG BEMA
+the_DT
+guardian_NN NNother
+of_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+and_CC
+resorted_VBN
+to_IN INother
+being_VBG BEMA
+a_DT
+spokesperson_NN NNother
+for_IN INother
+government_NN NNGRP
+priorities_NN NCOMP
+._.
+How_WHSC WHSCother
+is_VPRT BEMA
+the_DT
+digital_JJAT JJATother
+media_NN NNother
+landscape_NN NCOMP
+looking_VBG
+and_CC
+will_MDWS MDPREDall
+online_PLACE
+journalism_NN NNother
+finally_RB RBother
+become_VB OCCUR
+bigger_JJPR COMPAR
+than_IN INother
+conventional_JJAT JJATother
+media_NN NNother
+in_IN INother
+Pakistan_NN NNP
+?_. YNQU
+It_PIT
+is_VPRT SPLIT
+certainly_RB RSTNCall RFACT
+headed_PASS PASSall
+in_IN INother
+that_DEMO
+direction_NN NNABSPROC
+by_IN INother
+converting_VBG
+what_WHSC WHSCother
+is_VPRT BEMA
+a_DT
+media_NN NNother
+production_NN NCOMP
+and_CC
+operation_NN NNABSPROC
+crisis_NN NCOMP
+into_IN INother
+an_DT
+opportunity_NN NSTNCother
+._.
+Critical_JJAT JJATother
+public_JJPR JJREL
+-_HYPH
+interest_NN NNABSPROC
+COVID_NN NCOMP
+-_HYPH
+19_CD
+coverage_NN NNother
+is_VPRT SPLIT
+now_TIME
+natively_RB RBother
+found_PASS PASSall
+on_IN INother
+both_QUAN
+online_PLACE
+-_HYPH
+only_DWNT
+media_NN NNother
+platforms_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+Sujag_NN NNP
+,_,
+Humsub_FPUH
+,_,
+NayaDaur_NN NNP
+and_CC
+The_DT
+Current_NN NNP
+as_CC
+well_RB RBother
+as_IN INother
+the_DT
+digital_JJAT JJATother
+operations_NN NNABSPROC
+of_IN INother
+mainstream_JJAT JJATother
+media_NN NNother
+groups_NN NCOMP
+like_LIKE
+Dawn_NN NNP
+and_CC
+Jang_NN NNP
+that_THRC THRCother
+offer_VPRT COMM
+better_JJAT COMPAR
+content_NN NNABSPROC
+than_IN INother
+their_PP3t PP3all
+offline_PLACE
+print_NN NNother
+and_CC
+TV_NN NNother
+operations_NN NCOMP
+._.
+Traffic_NN NNother
+for_IN INother
+these_DEMO
+digital_JJAT JJATother
+media_NN NNother
+platforms_NN NCOMP
+has_VPRT
+increased_PEAS OCCUR
+manifold_NN NNother
+._.
+While_CC
+market_NN NNPLACE
+Darwinism_NN NNP
+was_VBD SPLIT
+already_TIME
+pushing_PROG
+mainstream_JJAT JJATother
+Pakistani_JJAT JJATother
+media_NN NNother
+online_PLACE
+,_,
+COVID_NN NNP
+-_HYPH
+19_CD
+has_VPRT
+catalysed_PEAS
+this_DEMO
+process_NN NNABSPROC
+of_IN INother
+media_NN NNother
+digitalization_NN NCOMP
+._.
+This_DEMO
+should_MDNE
+not_XX0
+be_VB BEMA
+resisted_PASS PASSall
+,_,
+but_CC
+supported_VBN
+through_IN INother
+a_DT
+combination_NN NNABSPROC
+of_IN INother
+industry_NN NNother
+and_CC
+policy_NN NNABSPROC
+actions_NN NCOMP
+such_JJPR JJPRother
+as_IN ELAB
+cheaper_JJAT COMPAR
+internet_NN NNTECH
+access_NN NCOMP
+,_,
+a_DT
+looser_JJAT COMPAR
+online_PLACE
+regulatory_JJAT JJATother
+framework_NN NNother
+,_,
+protection_NN NOMZ
+of_IN INother
+digital_JJAT JJATother
+rights_NN NSTNCother
+,_,
+urgent_JJAT JJATother
+investment_NN NOMZ
+in_IN INother
+capacity_NN NOMZ
+building_NN NCOMP
+of_IN INother
+conventional_JJAT JJATother
+journalists_NN NNother
+to_IN INother
+become_VB OCCUR
+digital_JJAT JJATother
+professionals_NN NNHUMAN
+and_CC
+digital_JJAT JJATother
+platforms_NN NNother
+coming_VBG ACT
+together_RB RBother
+to_IN INother
+prioritize_VB
+professionalism_NN NNother
+and_CC
+public_JJPR JJREL
+-_HYPH
+interest_NN NNABSPROC
+journalism_NN NCOMP
+._.
+Without_IN INother
+staying_VBG EXIST
+focused_VBN
+on_IN INother
+its_PIT
+principal_JJAT JJATother
+mandate_NN NNother
+of_IN INother
+public_JJAT JJREL
+interest_NN NNABSPROC
+journalism_NN NCOMP
+,_,
+media_NN NNother
+in_IN INother
+Pakistan_NN NNP
+will_MDWS MDPREDall SPLIT
+simply_RB RBother
+die_VB OCCUR
+out_RP
+as_IN INother
+COVID_NN NNP
+-_HYPH
+19_CD
+has_VPRT
+made_PEAS ACT
+clear_JJPR JJEPSTother
+for_IN INother
+conventional_JJAT JJATother
+media_NN NNother
+._.
+Public_JJAT JJREL
+interest_NN NNABSPROC
+digital_JJAT JJATother
+media_NN NNother
+can_MDCA MDPOSSCall SPLIT
+instead_CC
+be_VB BEMA
+the_DT
+phoenix_NN NNP
+that_THRC THRCother
+resurrects_VPRT
+professional_JJAT JJATother
+journalism_NN NNother
+in_IN INother
+Pakistan_NN NNP
+._.
+Adnan_NN NNP
+Rehmat_NN NNP
+is_VPRT BEMA
+a_DT
+Pakistan_NN NNP
+-_HYPH
+based_VBN
+journalist_NN NNother
+,_,
+researcher_NN NNHUMAN
+and_CC
+analyst_NN NNother
+with_IN INother
+interests_NN NNABSPROC
+in_IN INother
+politics_NN NNother
+,_,
+media_NN NNother
+,_,
+development_NN NNABSPROC
+and_CC
+science_NN NNABSPROC
+._.
+Twitter_NN NNP
+:_:
+@adnanrehmat1_NN NNMention
