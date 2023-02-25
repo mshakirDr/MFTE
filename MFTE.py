@@ -1563,7 +1563,7 @@ def process_sentence_extended (words: list) -> list:
 
             # Shakir: stance nouns without prep
             # check for no doubt and without doubt which are already tagged as factive adverb phrases 
-            if (re.search("\\b(" + nn_stance_pp + ")_N", words[j], re.IGNORECASE) and not re.search("_IN", words[j+1]) and not re.search(" RFACT\\b", words[j])):
+            if (re.search("\\b(" + nn_stance_pp + ")_N", words[j], re.IGNORECASE) and not re.search("_IN", words[j+1]) and not re.search(" (RFACT|HDG)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 NSTNCother", words[j])
 
             # Shakir: Added new variable to avoid overlap in the above two sub classes and JJAT/JJPR
