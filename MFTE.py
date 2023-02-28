@@ -1723,7 +1723,9 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
     cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
-	    pool.map(process_file, file_with_dir, extended)
+        pool.map(process_file, file_with_dir, extended)
+        pool.close()
+        pool.join()
 
 def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
     """Tags Stanford Tagger output files and writes in a directory names MD
