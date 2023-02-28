@@ -4,7 +4,6 @@ import glob
 import os
 import pandas as pd
 import collections
-import demoji
 import emoji
 import sys
 import os
@@ -12,9 +11,9 @@ import inspect
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
-from stanza.server import CoreNLPClient
+#from stanza.server import CoreNLPClient
 import stanza
-from stanza.pipeline.core import DownloadMethod
+#from stanza.pipeline.core import DownloadMethod
 import multiprocessing
 import timeit
 
@@ -31,7 +30,7 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
     if len(files) > 0:
-        with CoreNLPClient(annotators=['tokenize,ssplit,pos'],
+        with stanza.server.CoreNLPClient(annotators=['tokenize,ssplit,pos'],
                 timeout=30000,
                 memory='6G',
                 classpath= dir_nlp +'*',
@@ -142,8 +141,8 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    #nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
-    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+    #nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
         if len(files) < 1000:
             process_files_list_chunk_for_stanza(files, nlp, dir_out)
@@ -247,8 +246,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ADDITIONAL TAGS FOR INTERNET REGISTERS
 
             # ELF: New feature for emoji
-            # Shakir replaced Elen's regex solution with the demoji module in the Python version of the MFTE
-            if (demoji.findall(words[index])):
+            # Shakir replaced Elen's regex solution with the emoji module in the Python version of the MFTE
+            if (emoji.is_emoji(words[index].split('_')[0])):
                 words[index] = re.sub("_\S+", "_EMO", words[index])
 
             # ELF: New feature for hashtags

@@ -4,9 +4,11 @@ from MFTE import tag_MD, tag_MD_parallel, tag_stanford, tag_stanford_stanza, do_
 import os
 import timeit
 import threading
+import multiprocessing
 
 #https://www.reddit.com/r/Tkinter/comments/nmx0ir/how_to_show_terminal_output_in_gui/
 class Console(tkinter.Text):
+    
     def __init__(self, *args, **kwargs):
         kwargs.update({"state": "disabled"})
         tkinter.Text.__init__(self, *args, **kwargs)
@@ -147,6 +149,7 @@ def entrybox_event(*args):
     print("ttr:", ttr_value)
 
 if __name__ == "__main__":
+    multiprocessing.freeze_support()
     #maind window
     app = tkinter.Tk()
     app.geometry("600x350")
