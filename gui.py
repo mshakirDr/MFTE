@@ -111,7 +111,7 @@ def call_MFTE(folder_selected: str) -> None:
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     #parallel MD tag
     if check_var2.get() == True:
-        print("Parallel tagging is set to True, output won't be shown here.")
+        print("Parallel tagging is set to True, all results will be shown after completion.")
         tag_MD_parallel(output_stanford, output_MD, extended=check_var.get())
     #otherwise simple MD
     else:

@@ -16,7 +16,7 @@ import stanza
 #from stanza.pipeline.core import DownloadMethod
 import multiprocessing
 import timeit
-
+import tqdm
 
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
@@ -1708,7 +1708,7 @@ def process_file (file_dir_pair: tuple) -> None:
     words_tagged = run_process_sentence(file, extended)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
-    print( "MD tagger tagged: " + file, flush=True)
+    return  "MD tagger tagged: " + file
 
 def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> None:
     """Tags Stanford Tagger output files and writes in a directory names MD
@@ -1724,9 +1724,11 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
     cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
-        pool.map(process_file, file_with_dir)
+        results = pool.map(process_file, file_with_dir)
         pool.close()
         pool.join()
+        for s in results:
+            print(s)
 
 def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
     """Tags Stanford Tagger output files and writes in a directory names MD
