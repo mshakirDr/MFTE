@@ -16,7 +16,7 @@ import stanza
 #from stanza.pipeline.core import DownloadMethod
 import multiprocessing
 import timeit
-
+import tqdm
 
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
@@ -1724,7 +1724,7 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
     cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
-        results = pool.map(process_file, file_with_dir)
+        results = list(tqdm.tqdm(pool.map(process_file, file_with_dir), total=len(file_with_dir)))
         pool.close()
         pool.join()
         for s in results:
