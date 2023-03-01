@@ -156,6 +156,12 @@ if __name__ == "__main__":
     app.title("MFTE")
     # this removes the maximize button
     app.resizable(0,0)
+    #console output related code
+    frame = tkinter.Frame(app, width=580, height=250)
+    frame.pack()
+    frame.place(x=10, y=90)
+    console = Console(master=frame, height=15)
+    console.place(x=0, y=0)
     #button
     button = tkinter.Button(master=app, text="Select corpus directory", command=threading.Thread(target=button_function).start)
     button.place(x=10, y=20)
@@ -186,9 +192,4 @@ if __name__ == "__main__":
     check_button_state = check_var.get()
     #get ttr value
     ttr_value = v.get()
-    #console output related code
-    frame = tkinter.Frame(app, width=580, height=250)
-    frame.pack()
-    frame.place(x=10, y=90)
-    console = Console(master=frame, height=15).place(x=0, y=0)
     app.mainloop()
