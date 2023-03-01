@@ -16,7 +16,7 @@ import stanza
 #from stanza.pipeline.core import DownloadMethod
 import multiprocessing
 import timeit
-#import tqdm
+
 
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
