@@ -141,12 +141,10 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
-    #nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
-    nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
-    # if os.path.exists(currentdir+"/stanza_resources"):
-    #     nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
-    # else:
-    #     nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+    if os.path.exists(currentdir+"/stanza_resources"):
+        nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+    else:
+        nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
         if len(files) < 1000:
             process_files_list_chunk_for_stanza(files, nlp, dir_out)
