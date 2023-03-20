@@ -618,7 +618,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Added a loop to tag "no one" and "each other" as a QUPR
             if ((re.search("\\bno_", words[j], re.IGNORECASE) and re.search("\\bone_", words[j+1])) or
             (re.search("\\beach_", words[j], re.IGNORECASE) and re.search("\\bother_", words[j+1])) or
-            (re.search("\\bone_", words[j], re.IGNORECASE) and re.search("\\banother_", words[j+1])))):
+            (re.search("\\bone_", words[j], re.IGNORECASE) and re.search("\\banother_", words[j+1]))):
                 words[j+1] = re.sub("_(\w+)", "_QUPR", words[j+1])
 
             #---------------------------------------------------
@@ -1714,6 +1714,7 @@ def process_file (file_dir_pair: tuple) -> None:
     words_tagged = run_process_sentence(file, extended)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
+    print("MD tagger tagged: " + file)
     return  "MD tagger tagged: " + file
 
 def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> None:
@@ -1731,8 +1732,6 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
         results = list(tqdm.tqdm(pool.map(process_file, file_with_dir), total=len(file_with_dir)))
-        pool.close()
-        pool.join()
         for s in results:
             print(s)
 
@@ -1930,7 +1929,7 @@ if __name__ == "__main__":
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD(output_stanford, output_MD, extended=True)
     tag_MD_parallel(output_stanford, output_MD, extended=False)
     do_counts(output_MD, output_stats, ttr)
 
