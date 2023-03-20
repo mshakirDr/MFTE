@@ -1,0 +1,695 @@
+Afternoon_NN
+,_,
+everybody_QUPR
+._.
+-_NFP
+Norm_JJPR
+!_.
+How_WHQU
+you_PP2
+doing_VBG ACT
+,_,
+Norm_JJPR
+?_. WQ
+What_WHQU
+do_VPRT DOAUX
+you_PP2
+know_VB
+?_. WQ
+Not_XX0
+enough_RB
+._.
+-_,
+What_WHQU
+'ll_MDWS CONT
+it_PIT
+be_VB
+,_,
+Norm_JJPR
+?_. WQ
+-_,
+Fame_NN
+,_,
+fortune_NN
+,_,
+fast_JJAT
+women_NN
+._.
+Oh_FPUH
+,_,
+yeah_DMA
+?_.
+How_WHQU
+about_IN
+a_DT
+beer_NN
+?_. WQ
+Even_RB
+better_JJPR
+._.
+-_NFP
+Gentlemen_NN
+,_,
+start_VB
+your_PP2
+taps_NN
+._.
+-_NFP
+How_WHQU
+'s_VPRT CONT
+it_PIT
+going_PROG
+,_,
+Norm_NN
+?_. WQ
+Not_XX0
+so_EMPH
+good_JJPR
+._.
+Missed_VBD
+a_DT
+digit_NN
+in_IN
+the_DT
+debit_NN
+column_NN NCOMP
+today_TIME
+._.
+The_DT
+boss_NN
+is_VPRT SPLIT
+now_TIME
+using_PROG
+my_PP1S
+butt_NN
+for_IN
+an_DT
+ashtray_NN
+._.
+Norm_JJPR
+!_.
+-_,
+Beer_NN
+,_,
+Norm_JJPR
+?_. YNQU
+-_,
+That_DEMO
+'s_VPRT CONT BEMA
+sudsy_JJPR
+,_,
+amber_JJAT
+stuff_NN
+,_,
+right_DMA
+?_.
+Yeah_DMA
+._.
+I_PP1S
+'ve_VPRT CONT
+been_PEAS
+hearing_PROG
+good_JJAT
+things_NN
+about_IN
+it_PIT
+._.
+Beer_NN
+,_,
+Norm_JJPR
+?_. YNQU
+I_PP1S
+am_VPRT
+going_GTO
+to_IN
+need_VB
+something_QUPR
+to_IN
+kill_VB
+time_NN
+before_IN
+my_PP1S
+second_JJAT
+beer_NN
+._.
+-_NFP
+How_WHQU
+about_IN
+a_DT
+first_JJAT
+one_NN
+?_. WQ
+-_,
+You_PP2
+got_VBD
+it_PIT
+._.
+-_NFP
+Beer_NN
+,_,
+Norm_NN
+?_. YNQU
+-_,
+Yeah_DMA
+,_,
+I_PP1S
+heard_VBD
+of_IN
+that_DEMO
+stuff_NN
+._.
+Better_RB
+give_VIMP
+me_PP1S
+a_DT
+tall_JJAT
+one_NN
+,_,
+in_IN
+case_NN
+I_PP1S
+like_VPRT
+it_PIT
+._.
+Norman_NN
+,_,
+you_PP2
+are_VPRT
+looking_PROG
+especially_AMP
+spry_JJAT
+today_TIME
+._.
+Thank_VPRT POLITE
+you_PP2
+._.
+ln_IN
+fact_NN
+,_,
+I_PP1S
+joined_VBD
+a_DT
+health_NN
+club_NN NCOMP
+today_TIME
+._.
+Good_JJPR
+for_IN
+you_PP2
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+Norm_NN
+!_.
+How_WHQU
+'s_VPRT CONT
+life_NN
+treating_PROG
+you_PP2
+?_. WQ
+Like_LIKE
+he_PP3m
+caught_VBD
+me_PP1S
+in_IN
+bed_NN
+with_IN
+his_PP3m
+wife_NN
+._.
+-_,
+What_WHQU
+'s_VPRT CONT BEMA
+up_RB
+,_,
+Norm_JJPR
+?_. WQ
+-_,
+My_PP1S
+nipples_NN
+._.
+lt_NN
+'s_VPRT CONT
+freezing_PROG
+._.
+-_,
+How_WHQU
+'s_VPRT CONT
+life_NN
+treating_PROG
+you_PP2
+,_,
+Norm_NN
+?_. WQ
+-_,
+Like_LIKE
+I_PP1S
+just_EMPH
+ran_VBD
+over_IN
+its_PIT
+dog_NN
+._.
+Norm_JJPR
+,_,
+what_WHQU
+were_VBD
+you_PP2
+saying_PROG
+about_IN
+that_DEMO
+do_VPRT DOAUX
+-_,
+nothing_QUPR
+Congress_NN
+in_IN
+DC_NN
+?_. WQ
+This_DEMO
+bozo_NN
+could_MDCO SPLIT
+probably_HDG
+be_VB BEMA
+a_DT
+better_JJAT
+Congressman_NN
+._.
+Oh_FPUH
+,_,
+yeah_DMA
+?_.
+You_PP2
+know_VPRT
+,_,
+I_PP1S
+may_MDMM
+run_VB
+for_IN
+office_NN
+someday_TIME
+._.
+Yeah_DMA
+?_.
+You_PP2
+do_VPRT ACT
+that_DEMO
+._.
+You_PP2
+'re_VPRT CONT BEMA
+out_IN
+of_IN
+work_NN
+,_,
+too_RB
+?_. YNQU
+No_DMA
+,_,
+I_PP1S
+'m_VPRT CONT BEMA
+Speaker_NN
+of_IN
+the_DT
+House_NN
+of_IN
+Representatives_NN
+._.
+Do_VIMP DOAUX
+n't_XX0 CONT
+be_VB BEMA
+ridiculous_JJPR
+._.
+That_DEMO
+'d_MDWO CONT
+make_VB
+you_PP2
+Tip_NN
+O'Neill_NN
+and_CC
+me_PP1S
+a_DT
+horse_NN
+'s_POS
+butt_NN
+._.
+You_PP2
+said_VBD
+it_PIT
+,_,
+not_XX0
+me_PP1S
+._.
+Norm_JJPR
+!_.
+-_,
+How_WHQU
+you_PP2
+doing_VBG ACT
+,_,
+Norm_NN
+?_. WQ
+-_,
+Cut_VIMP
+the_DT
+small_JJAT
+talk_NN
+._.
+Give_VIMP
+me_PP1S
+a_DT
+beer_NN
+._.
+-_NFP
+What_WHQU
+'s_VPRT CONT BEMA
+the_DT
+story_NN
+?_. WQ
+-_,
+Thirsty_JJAT
+guy_NN
+walks_VPRT
+into_IN
+a_DT
+bar_NN
+._.
+You_PP2
+finish_VPRT
+it_PIT
+._.
+Norm_JJPR
+._.
+Science_NN
+is_VPRT
+seeking_PROG
+a_DT
+cure_NN
+for_IN
+thirst_NN
+._.
+I_PP1S
+happen_VPRT
+to_IN
+be_VB BEMA
+the_DT
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+you_PP2
+never_FREQ
+spend_VB
+any_QUAN
+time_NN
+with_IN
+her_PP3f
+?_. YNQU
+Would_MDWO
+you_PP2
+?_. QUTAG
+How_WHQU
+come_VPRT
+you_PP2
+and_CC
+Vera_NN
+never_FREQ
+had_VBN
+any_QUAN
+kids_NN
+?_. WQ
+I_PP1S
+ca_MDCA
+n't_XX0 CONT
+,_,
+Coach_NN
+._.
+-_HYPH
+Gee_NN
+,_,
+I_PP1S
+'m_VPRT CONT BEMA
+sorry_JJPR POLITE
+,_,
+Norm_JJPR
+._.
+-_,
+l_FPUH
+look_VB
+at_IN
+Vera_NN
+..._,
+I_PP1S
+just_EMPH
+ca_MDCA
+n't_XX0 CONT
+._.
+I_PP1S
+know_VPRT THATD
+I_PP1S
+make_VPRT
+a_DT
+lot_QUAN
+of_IN
+jokes_NN
+about_IN
+Vera_NN
+,_,
+but_CC
+the_DT
+truth_NN
+is_VPRT
+,_,
+if_COND
+that_DEMO
+woman_NN
+ever_FREQ
+packed_VBD
+her_PP3f
+bags_NN
+and_CC
+left_VBD
+me_PP1S
+,_,
+I_PP1S
+do_VPRT DOAUX
+n't_XX0 CONT
+know_VB
+what_WHSC
+I_PP1S
+'d_MDWO CONT
+do_VB DOAUX
+..._,
+first_RB
+._.
+Norm_JJPR
+!_.
+-_,
+How_WHQU
+'s_VPRT CONT
+it_PIT
+going_PROG
+,_,
+Norm_NN
+?_. WQ
+-_,
+Daddy_NN
+'s_VPRT CONT BEMA
+rich_JJPR
+,_,
+Momma_NN
+'s_VPRT CONT BEMA
+good_JJPR
+-_HYPH
+looking_VBG
+._.
+-_,
+What_WHQU
+are_VPRT BEMA
+you_PP2
+up_RB
+to_IN
+,_,
+Norm_NN
+?_. WQ
+-_,
+My_PP1S
+ears_NN
+._.
+-_,
+Want_VPRT
+a_DT
+beer_NN
+,_,
+Norm_JJPR
+?_. YNQU
+-_,
+Does_VPRT ACT
+a_DT
+rag_NN
+doll_NN NCOMP
+have_VB
+cloth_NN
+knobs_NN NCOMP
+?_. YNQU
+There_EX
+'s_VPRT CONT
+a_DT
+lady_NN
+present_JJPR
+,_,
+Norm_JJPR
+._.
+Sorry_FPUH POLITE
+,_,
+Diane_NN
+._.
+"_''
+Norm_NN
+Peterson_NN
+._.
+"_''
+"_``
+Thought_VBD
+-_HYPH
+provoking_JJPR
+..._,
+"_''
+-_,
+Let_VB
+the_DT
+games_NN
+begin_VB
+!_.
+-_,
+"_``
+Poignant_JJPR
+..._.
+"_''
+Some_QUAN
+people_NN
+spend_VPRT
+their_PP3t
+whole_JJAT
+lives_NN
+in_IN
+a_DT
+bar_NN
+._.
+Just_RB
+yesterday_TIME
+,_,
+some_QUAN
+guy_NN
+sat_VBD
+right_RB
+here_PLACE
+next_RB
+to_IN
+me_PP1S
+for_IN
+1_CD
+1_CD
+hours_NN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+@_IN
+welcome_NN
+._.
+"_``
+A_DT
+roller_NN
+coaster_NN NCOMP
+of_IN
+emotion_NN
+..._,
+"_''
+Coach_NN
+,_,
+two_CD
+more_QUAN
+beers_NN
+!_.
+"_``
+lf_VBD
+you_PP2
+hire_VPRT
+one_CD
+accountant_NN
+this_DEMO
+year_NN
+,_,
+make_VB
+it_PIT
+Norm_JJPR
+._.
+"_''
+Norm_NN
+!_.
+Wait_VIMP
+a_DT
+minute_NN
+!_.
+Coach_NN
+!_.
+Sammy_NN
+!_.
+I_PP1S
+do_VPRT DOAUX
+n't_XX0 CONT
+want_VB
+to_IN
+be_VB
+left_PASS
+alone_RB
+locked_VBN
+up_RP
+in_IN
+this_DEMO
+bar_NN
+all_QUAN
+night_NN
+..._.
+Quarter_NN
+to_IN
+three_CD
+Nobody_QUPR
+in_IN
+the_DT
+place_NN
+except_IN
+you_PP2
+and_CC
+me_PP1S
+Once_FREQ
+in_IN
+a_DT
+while_NN
+,_,
+a_DT
+man_NN
+needs_VPRT
+a_DT
+little_QUAN
+time_NN
+to_IN
+himself_PP3m
+._.

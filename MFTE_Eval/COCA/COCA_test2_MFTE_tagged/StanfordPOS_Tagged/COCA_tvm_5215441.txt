@@ -1,0 +1,105 @@
+[_-LRB- Ringing_NN ]_-RRB- GOWER_NNP :_: I_PRP owe_VBP everything_NN to_IN George_NNP bailey_NNP ._.
+help_VB him_PRP ,_, Dear_JJ Father_NN ._.
+MARTINI_NN :_: Joseph_NNP ,_, Jesus_NNP ,_, and_CC Mary_NNP ,_, help_VB my_PRP$ friend_NN Mr_NNP ._. bailey_NNP ._.
+MA_NNP BAILEY_NNP :_: help_VB my_PRP$ son_NN George_NNP tonight_NN ._.
+BERT_NNP :_: He_PRP never_RB thinks_VBZ about_IN himself_PRP ._.
+That_DT 's_VBZ why_WRB he_PRP 's_VBZ in_IN trouble_NN ._.
+ERNIE_NNP :_: George_NNP is_VBZ a_DT good_JJ guy_NN ._.
+Give_VB him_PRP a_DT break_NN ,_, God_NNP ._.
+MARY_NNP :_: I_PRP Iove_VBP him_PRP ,_, Dear_JJ Lord_NN ._.
+Watch_VB over_IN him_PRP tonight_NN ._.
+JANIE_NNP :_: please_UH ,_, God_NNP ._.
+Something_NN 's_VBZ the_DT matter_NN with_IN Daddy_NNP ._.
+ZUZU_NNP :_: please_UH bring_VB Daddy_NNP back_RB ._.
+please_UH bring_VB Daddy_NNP home_RB ._.
+MARY_NNP :_: Watch_VB over_IN him_PRP tonight_NN ._.
+ZUZU_NNP :_: please_UH bring_VB Daddy_NNP home_RB ._.
+FRANKLIN_NNP :_: hello_UH ,_, Joseph_NNP ._.
+trouble_NN ?_.
+JOSEPH_NNP :_: Looks_VBZ like_IN we_PRP 'll_MD have_VB to_TO send_VB someone_NN down_RP ._.
+A_NNP
+Iot_NN of_IN people_NNS asking_VBG for_IN help_NN for_IN a_DT man_NN named_VBN George_NNP bailey_NNP ._.
+FRANKLIN_NNP :_: George_NNP bailey_NNP ?_.
+Yes_UH ._.
+Tonight_NN 's_VBZ his_PRP$ crucial_JJ night_NN ._.
+we_PRP 'll_MD send_VB someone_NN immediately_RB ._.
+Whose_WP$ turn_NN is_VBZ it_PRP ?_.
+JOSEPH_NNP :_: That_DT 's_VBZ why_WRB I_PRP came_VBD ,_, sir_NNP ._.
+It_PRP 's_VBZ that_DT cIockmaker_NN 's_POS turn_NN again_RB ._.
+@_IN @_IN @_IN @_IN @_GW @_GW @_GW @_GW @_GW @_GW wings_NNS yet_RB ?_.
+JOSEPH_NNP :_: We_PRP 've_VBP passed_VBN him_PRP up_RP right_RB along_RB ..._, because_IN ,_, you_PRP know_VBP ,_, sir_NNP ,_, he_PRP 's_VBZ got_VBN the_DT IQ_NN of_IN a_DT rabbit_NN ._.
+FRANKLIN_NNP :_: Yes_UH ,_, but_CC he_PRP 's_VBZ got_VBN the_DT faith_NN of_IN a_DT chiId_NN -_HYPH -_HYPH simpIe_NN ._.
+Joseph_NNP ,_, send_VB for_IN CIarence_NNP ._.
+CLARENCE_NNP :_:
+You_PRP sent_VBD for_IN me_PRP ,_, sir_NNP ?_.
+FRANKLIN_NNP :_: Yes_UH ._.
+A_DT man_NN down_RB on_IN Earth_NNP needs_VBZ our_PRP$ help_NN ._.
+CLARENCE_NNP :_: splendid_JJ ._.
+Is_VBZ he_PRP sick_JJ ?_.
+FRANKLIN_NNP :_: No_UH ,_, worse_JJR ._.
+He_PRP 's_VBZ discouraged_VBN ._.
+At_IN 10:45_CD p.m_NN ._.
+Earth_NNP time_NN ..._, that_DT man_NN will_MD be_VB thinking_VBG seriously_RB ..._, of_IN throwing_VBG away_RP God_NNP 's_POS greatest_JJS gift_NN ._.
+CLARENCE_NNP :_: His_PRP$ life_NN ?_.
+Then_RB I_PRP 've_VBP only_RB an_DT hour_NN to_IN dress_VB ._.
+What_WP are_VBP they_PRP wearing_VBG now_RB ?_.
+FRANKLIN_NNP :_: You_PRP 'II_MD spend_VB that_DT hour_NN ..._, getting_VBG acquainted_VBN with_IN George_NNP bailey_NNP ._.
+CLARENCE_NNP :_: Sir_NNP ,_, if_IN I_PRP should_MD accomplish_VB this_DT mission_NN ..._, might_MD I_PRP perhaps_RB win_VB my_PRP$ wings_NNS ?_.
+I_PRP 've_VBP been_VBN waiting_VBG for_IN over_RB 200_CD years_NNS ._.
+people_NNS are_VBP beginning_VBG to_TO talk_VB ._.
+FRANKLIN_NNP :_: What_WP 's_VBZ that_DT book_NN you_PRP 've_VBP got_VBN ?_.
+@_GW @_GW @_GW @_GW @_GW @_GW @_GW @_GW @_GW @_ADD
+You_PRP do_VBP a_DT good_JJ job_NN with_IN George_NNP bailey_NNP ..._, and_CC you_PRP 'II_MD get_VB your_PRP$ wings_NNS ._.
+CLARENCE_NNP :_: Thank_VBP you_PRP ,_, sir_NNP ._.
+Thank_VBP you_PRP ._.
+JOSEPH_NNP :_: Poor_JJ George_NNP ._.
+Sit_VB down_RP ._.
+CLARENCE_NNP :_: Sit_VB down_RP ?_.
+JOSEPH_NNP :_: If_IN you_PRP 're_VBP going_VBG to_TO help_VB a_DT man_NN ..._, you_PRP want_VBP to_TO know_VB something_NN about_IN him_PRP ,_, do_VBP n't_RB you_PRP ?_.
+CLARENCE_NNP :_: naturally_RB ._.
+JOSEPH_NNP :_: Keep_VB your_PRP$ eyes_NNS open_JJ ._.
+See_VB the_DT town_NN ?_.
+CLARENCE_NNP :_: Where_WRB ?_.
+I_PRP do_VBP n't_RB see_VB a_DT thing_NN ._.
+JOSEPH_NNP :_: I_PRP forgot_VBD ._.
+You_PRP have_VBP n't_RB got_VBN your_PRP$ wings_NNS yet_RB ._.
+Look_VB ,_, I'II_UH help_VB you_PRP out_RP ._.
+Concentrate_VB ._.
+Begin_VB to_TO see_VB something_NN ?_.
+CLARENCE_NNP :_: Why_WRB ,_, yes_UH ._.
+This_DT is_VBZ amazing_JJ ._.
+JOSEPH_NNP :_: If_IN you_PRP ever_RB get_VBP your_PRP$ wings_NNS ..._, you_PRP 'II_MD see_VB all_DT by_IN yourself_PRP ._.
+CLARENCE_NNP :_: Oh_UH ,_, wonderful_JJ ._.
+GEORGE_NNP :_: Yay_UH !_.
+Yippee_UH !_.
+OK_UH ,_, boys_NNS ,_, Iet_NNP 's_POS go_VB !_.
+CLARENCE_NNP :_: Hey_UH ,_, who_WP 's_VBZ that_DT ?_.
+JOSEPH_NNP :_: That_DT 's_VBZ your_PRP$ probIem_NN -_HYPH -_HYPH George_NNP bailey_NNP ._.
+CLARENCE_NNP :_: A_DT boy_NN ?_.
+JOSEPH_NNP :_: That_DT 's_VBZ him_PRP when_WRB he_PRP @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN you_PRP 'II_MD have_VB to_TO remember_VB later_RBR ._.
+GEORGE_NNP :_: Come_VB on_RP ,_, Marty_NNP !_.
+Let_VB 's_PRP go_VB ,_, Marty_NNP !_.
+GEORGE_NNP :_: Atta_NNP boy_NN ,_, Marty_NNP !_.
+SAMMY_NNP :_: Hee_NNP -_HYPH haw_NNP !_.
+GEORGE_NNP :_: Hee_NNP -_HYPH haw_NNP ,_, Sammy_NNP ._.
+Here_RB comes_VBZ the_DT scare_NN -_HYPH baby_NN ,_, my_PRP$ kid_NN brother_NN Harry_NNP bailey_NNP ._.
+HARRY_NNP :_: I_PRP 'm_VBP not_RB scared_JJ !_.
+GEORGE_NNP :_: Come_VB on_RP ,_, Harry_NNP !_.
+Let_VB 's_PRP go_VB ,_, Harry_NNP !_.
+Come_VB on_RP ,_, Harry_NNP !_.
+Come_VB on_RP ,_, Harry_NNP !_.
+Come_VB on_RP ,_, Harry_NNP !_.
+HARRY_NNP :_: help_VB ,_, George_NNP ,_, help_VB !_.
+help_VB !_.
+GEORGE_NNP :_: Do_VB n't_RB worry_VB ,_, Harry_NNP ,_, I_PRP 'm_VBP coming_VBG !_.
+Hang_VB on_RP ,_, Harry_NNP !_.
+Make_VB a_DT chain_NN ._.
+Chain_NN ,_, gang_NN !_.
+JOSEPH_NNP :_: George_NNP saved_VBD his_PRP$ brother_NN 's_POS life_NN ..._, but_CC he_PRP caught_VBD a_DT bad_JJ cold_NN which_WDT infected_VBD his_PRP$ left_JJ ear_NN ._.
+Cost_VB him_PRP his_PRP$ hearing_NN in_IN that_DT ear_NN ._.
+It_PRP was_VBD weeks_NNS before_IN he_PRP could_MD go_VB back_RB ..._, to_IN his_PRP$ after_IN -_HYPH schooI_NN job_NN at_IN old_JJ man_NN Gower_NNP 's_POS drugstore_NN ._.
+GEORGE_NNP :_: Mr_NNP ._.
+Potter_NNP ._.
+CLARENCE_NNP :_: Who_WP 's_VBZ that_DT ,_, a_DT king_NN ?_.
+JOSEPH_NNP :_: That_DT 's_VBZ Henry_NNP F_NNP ._.
+Potter_NNP

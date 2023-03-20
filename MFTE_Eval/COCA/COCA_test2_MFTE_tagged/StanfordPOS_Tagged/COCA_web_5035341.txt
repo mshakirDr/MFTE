@@ -1,0 +1,37 @@
+Did_VBD the_DT Reagan_NNP -_HYPH era_NN USDA_NNP really_RB classify_VB ketchup_NN as_IN a_DT vegetable_NN ?_.
+July_NNP 16_CD ,_, 2004_CD Dear_JJ Cecil_NNP :_:
+The_DT phrase_NN "_`` ketchup_NN is_VBZ a_DT vegetable_NN "_'' is_VBZ coming_VBG up_RP a_DT lot_NN in_IN discussions_NNS of_IN President_NNP Reagan_NNP 's_POS recent_JJ demise_NN ._.
+What_WP 's_VBZ the_DT story_NN behind_IN that_DT line_NN ?_.
+Who_WP classifies_VBZ ketchup_NN ,_, or_CC any_DT other_JJ food_NN ,_, as_IN a_DT vegetable_NN ,_, meat_NN ,_, legume_NN ,_, etc_FW ?_.
+Why_WRB do_VBP they_PRP feel_VB a_DT need_NN to_TO make_VB these_DT official_JJ classifications_NNS ?_.
+Who_WP in_IN the_DT Reagan_NNP administration_NN actually_RB made_VBD that_DT decision_NN ?_.
+I_PRP 've_VBP also_RB heard_VBN that_IN the_DT ketchup_NN -_HYPH as_IN -_HYPH vegetable_NN thing_NN was_VBD really_RB Carter_NNP 's_VBZ doing_VBG and_CC that_IN salsa_NN was_VBD classified_VBN as_IN a_DT vegetable_NN by_IN Clinton_NNP ._.
+When_WRB I_PRP search_VBP for_IN the_DT origin_NN of_IN the_DT phrase_NN ,_, all_DT I_PRP get_VBP are_VBP a_DT bunch_NN of_IN political_JJ sites_NNS repeating_VBG it_PRP without_IN explanation_NN ._.
+--_NFP Russ_NNP ,_, via_IN e-mail_NN
+No_DT wonder_NN ._.
+The_DT story_NN is_VBZ so_RB convoluted_JJ that_IN it_PRP defied_VBD simple_JJ explanation_NN at_IN the_DT time_NN ._.
+Even_RB today_NN ,_, the_DT episode_NN can_MD be_VB plausibly_RB presented_VBN (_-LRB- depending_VBG on_IN the_DT political_JJ leanings_NNS of_IN the_DT presenter_NN )_-RRB- as_IN either_CC a_DT simple_JJ bureaucratic_JJ screwup_NN or_CC an_DT unsuccessful_JJ effort_NN by_IN the_DT right_NN to_TO pursue_VB @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN ._.
+Ketchup_NN and_CC other_JJ food_NN products_NNS are_VBP classified_VBN for_IN different_JJ purposes_NNS by_IN different_JJ agencies_NNS under_IN a_DT wide_JJ variety_NN of_IN federal_JJ programs_NNS ._.
+The_DT classification_NN in_IN this_DT case_NN was_VBD by_IN the_DT U.S._NNP Department_NNP of_IN Agriculture_NNP for_IN its_PRP$ subsidized_VBN school_NN lunch_NN program_NN ._.
+Then_RB as_IN now_RB ,_, local_JJ school_NN districts_NNS could_MD receive_VB reimbursement_NN for_IN each_DT lunch_NN served_VBN provided_VBD it_PRP met_VBD minimum_JJ standards_NNS ._.
+In_IN mid-1981_NN ,_, only_RB a_DT few_JJ months_NNS after_IN Reagan_NNP took_VBD office_NN ,_, Congress_NNP cut_VBD $_$ 1_CD billion_CD from_IN child_NN -_HYPH nutrition_NN funding_NN and_CC gave_VBD the_DT USDA_NNP 90_CD days_NNS --_, the_DT blink_NN of_IN an_DT eye_NN ,_, for_IN the_DT federal_JJ bureaucracy_NN --_, to_TO come_VB up_RP with_IN new_JJ standards_NNS that_WDT would_MD enable_VB school_NN districts_NNS to_TO economize_VB ,_, in_IN theory_NN without_IN compromising_VBG nutrition_NN ._.
+The_DT USDA_NNP convened_VBD a_DT panel_NN of_IN nutritionists_NNS and_CC food_NN service_NN directors_NNS to_TO ponder_VB what_WP to_TO do_VB ._.
+One_CD option_NN on_IN the_DT table_NN --_, no_DT one_NN later_RBR would_MD admit_VB to_IN putting_VBG it_PRP there_RB --_, was_VBD to_TO "_`` accept_VB catsup_NN as_IN a_DT fruit_NN /_, vegetable_NN when_WRB used_VBN as_IN an_DT ingredient_NN ._. "_''
+Some_DT panel_NN members_NNS seized_VBD on_IN this_DT as_IN an_DT opportunity_NN to_TO discuss_VB whether_IN to_TO count_VB ketchup_NN even_RB if_IN used_VBN as_IN a_DT condiment_NN ._.
+From_IN what_WP I_PRP can_MD tell_VB ,_, the_DT motive_NN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN about_IN what_WP kids_NNS would_MD actually_RB eat_VB ._.
+USDA_NNP standards_NNS at_IN the_DT time_NN required_VBN that_IN a_DT reimbursable_JJ lunch_NN consist_NN of_IN five_CD items_NNS :_: meat_NN ,_, milk_NN ,_, bread_NN ,_, and_CC two_CD servings_NNS of_IN fruit_NN or_CC vegetables_NNS ._.
+Many_JJ kids_NNS refused_VBD to_TO eat_VB the_DT veggies_NNS and_CC the_DT stuff_NN wound_VBN up_RP as_IN "_`` plate_NN waste_NN ._. "_''
+Would_MD -_, be_VB realists_NNS on_IN the_DT panel_NN reasoned_VBD that_IN if_IN they_PRP could_MD count_VB ketchup_NN as_IN a_DT vegetable_NN they_PRP could_MD meet_VB federal_JJ standards_NNS without_IN having_VBG to_TO throw_VB away_RB so_RB many_JJ lima_NN beans_NNS ,_, thereby_RB saving_VBG money_NN while_IN having_VBG no_DT impact_NN on_IN the_DT kids_NNS ._.
+Looked_VBD at_IN in_IN a_DT certain_JJ light_NN ,_, it_PRP made_VBD sense_NN ._.
+Ketchup_NN was_VBD n't_RB the_DT only_RB newly_RB permissible_JJ substitute_NN :_: pickle_NN relish_NN and_CC conceivably_RB other_JJ condiments_NNS could_MD also_RB count_VB as_IN vegetables_NNS (_-LRB- precise_JJ interpretation_NN was_VBD left_VBN to_IN state_NN officials_NNS )_-RRB- ;_, protein_NN sources_NNS like_IN tofu_NN or_CC cottage_NN cheese_NN could_MD replace_VB meat_NN ;_, and_CC corn_NN chips_NNS ,_, pretzels_NNS ,_, and_CC other_JJ snacks_NNS could_MD replace_VB bread_NN ._.
+Minimum_JJ portion_NN sizes_NNS were_VBD also_RB reduced_VBN ,_, purportedly_RB another_DT effort_NN to_TO reduce_VB waste_NN ._.
+Mid_JJ -level_JJ Reaganauts_NNPS at_IN the_DT USDA_NNP saw_VBD all_PDT this_DT as_IN a_DT matter_NN of_IN giving_VBG the_DT states_NNS @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN @_IN rest_NNP of_IN the_DT world_NN would_MD see_VB it_PRP as_IN taking_VBG food_NN away_RB from_IN children_NNS ._.
+Unfortunately_RB for_IN Reagan_NNP ,_, the_DT 90_CD -_HYPH day_NN deadline_NN allowed_VBD no_DT time_NN for_IN higher_JJR review_NN ._.
+When_WRB the_DT proposed_VBN new_JJ rules_NNS were_VBD released_VBN for_IN comment_NN in_IN September_NNP 1981_CD ,_, food_NN activists_NNS went_VBD ballistic_JJ ._.
+Democratic_JJ politicians_NNS staged_VBD photo_NN ops_NNS where_WRB they_PRP feasted_VBD on_IN skimpy_JJ -_HYPH looking_VBG meals_NNS that_WDT conformed_VBD to_IN the_DT new_JJ standards_NNS ._.
+The_DT mortified_VBN administration_NN withdrew_VBD the_DT proposal_NN and_CC the_DT USDA_NNP official_NN in_IN charge_NN of_IN the_DT program_NN was_VBD transferred_VBN ,_, a_DT move_NN widely_RB interpreted_VBN as_IN a_DT firing_NN ._.
+One_CD person_NN who_WP did_VBD n't_RB come_VB out_IN of_IN the_DT mess_NN with_IN ketchup_NN on_IN his_PRP$ face_NN was_VBD Jimmy_NNP Carter_NNP ,_, who_WP 'd_VBD had_VBN nothing_NN to_TO do_VB with_IN it_PRP ._.
+So_RB ,_, a_DT garden_NN -_HYPH variety_NN goof_NN ,_, right_JJ ?_.
+It_PRP looked_VBD worse_JJR than_IN that_DT ,_, thanks_NN to_IN agriculture_NN secretary_NN John_NNP Block_NNP ,_, an_DT antiregulatory_JJ zealot_NN who_WP attempted_VBD to_TO defend_VB the_DT new_JJ rules_NNS after_IN the_DT fact_NN ,_, claiming_VBG they_PRP 'd_VBD been_VBN misunderstood_JJ ._.
+Nonsense_NN ;_: they_PRP were_VBD just_RB stupid_JJ ._.
+All_DT intentions_NNS aside_RB ,_, counting_VBG condiments_NNS as_IN vegetables_NNS and_CC reducing_VBG portion_NN sizes_NNS were_VBD an_DT invitation_NN to_IN abuse_NN ._.

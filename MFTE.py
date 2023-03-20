@@ -22,7 +22,7 @@ import tqdm
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with CoreNLPClient and writes to dir_out
     Args:
-        dir_nlp (str): Stanfrod Core NLP path
+        dir_nlp (str): Stanford Core NLP path
         dir_in (str): dir with plain text files to be tagged
         dir_out (str): dir to write Stanford Tagger tagged files
     """
@@ -521,12 +521,12 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags auxiliary DO ELF: I added this variable which replaces the MAT's/Biber tagger's "pro-verb" DO variable. 
             # Later on, all DO verbs not tagged as DOAUX are tagged as ACT.
-            if (re.search("\\bdo_V|\\bdoes_V|\\bdid_V", words[j], re.IGNORECASE) and not re.search("to_TO", words[j-1])): # This excludes DO + VB\\b which have already been tagged as emphatics (DO_EMPH) and "to do" constructions
+            if (re.search("\\bdo_V|\\bdoes_V|\\bdid_V", words[j], re.IGNORECASE) and not re.search("to_", words[j-1]) and not re.search("to_", words[j+1])): # This excludes DO + VB\\b which have already been tagged as emphatics (DO_EMPH) and "to do" constructions
                 if ((re.search("_VB\\b", words[j+2])) or # did you hurt yourself? Didn't look? 
-                (not re.search("\\bdo_V", words[j], re.IGNORECASE) and re.search("\\._|:_|\\?_|!_|-_,", words[j-1])) or # Sentence starting with Did or Does (Do is potentially a VIMP)
+                (re.search("\\._\\.|:_|\\?_|!_|-_,", words[j-1]) and not re.search("\\bdo_V", words[j], re.IGNORECASE)) or # Sentence starting with Did or Does (Do is potentially a VIMP)
                 (re.search("_VB\\b", words[j+3])) or # didn't it hurt?
                 (re.search("_\W", words[j+1])) or # You did?
-                (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_|_XX0", words[j+1], re.IGNORECASE) and re.search("_\.|_VB\\b", words[j+2])) or # ELF: Added to include question tags such as: "do you?"" or "He didn't!""
+                (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_|_XX0", words[j+1], re.IGNORECASE) and re.search("_\\.|_VB\\b", words[j+2])) or # ELF: Added to include question tags such as: "do you?"" or "He didn't!""
                 (re.search("_XX0", words[j+1]) and re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_|_VB\\b", words[j+2], re.IGNORECASE)) or # Allows for question tags such as: didn't you? as well as negated forms such as: did not like
                 (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_", words[j+1], re.IGNORECASE) and re.search("\\?_\\.", words[j+3])) or # ELF: Added to include question tags such as: did you not? did you really?
                 (re.search("(\\b(" + wp + "))|(\\b" + who + ")|(\\b" + whw + ")", words[j-1], re.IGNORECASE))):
@@ -617,7 +617,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Added a loop to tag "no one" and "each other" as a QUPR
             if ((re.search("\\bno_", words[j], re.IGNORECASE) and re.search("\\bone_", words[j+1])) or
-            (re.search("\\beach_", words[j], re.IGNORECASE) and re.search("\\bother_", words[j+1]))):
+            (re.search("\\beach_", words[j], re.IGNORECASE) and re.search("\\bother_", words[j+1])) or
+            (re.search("\\bone_", words[j], re.IGNORECASE) and re.search("\\banother_", words[j+1])))):
                 words[j+1] = re.sub("_(\w+)", "_QUPR", words[j+1])
 
             #---------------------------------------------------
@@ -699,7 +700,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags hedges 
             # ELF: added "kinda" and "sorta" and corrected the "sort of" and "kind of" lines in Nini's original script which had the word-2 part negated.
             # Also added apparently, conceivably, perhaps, possibly, presumably, probably, roughly and somewhat.
-            if ((re.search("\\bmaybe_|apparently_|conceivably_|perhaps_|\\bpossibly_|presumably_|\\bprobably_|\\broughly_|somewhat_|\\bpredictably_", words[j], re.IGNORECASE)) or
+            if ((re.search("\\bmaybe_|allegedly_|apparently_|conceivably_|perhaps_|\\bpossibly_|presumably_|\\bprobably_|purportedly_|\\broughly_|somewhat_|\\bpredictably_", words[j], re.IGNORECASE)) or
             (re.search("\\baround_|\\babout_", words[j], re.IGNORECASE) and re.search("_CD|_QUAN|_$|_SYM", words[j+1], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_HDG", words[j])
 
@@ -910,15 +911,15 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         if value != " ":
 
-            if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ|\\b(" + whw + ")", words[j+1]) and not re.search("QUTAG|_PROG", words[j+1]) and not re.search("QUTAG|_PROG", words[j+2]) and not re.search("QUTAG|_PROG", words[j+3])) or
+            if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ|\\b(" + whw + ")", words[j+1]) and not re.search("QUTAG", words[j+1]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3])) or
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and not re.search("_V|_PROG", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
+            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and not re.search("_V|_PROG|_PASS", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and re.search("_XX0|_NN", words[j+2]) and not re.search("_V|_PROG_", words[j+2]) and re.search("\W+_", words[j+3]) and not re.search(" QUTAG", words[j+3])) or # London is not Paris.
+            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and re.search("_XX0|_NN", words[j+2]) and not re.search("_V|_PROG|_PASS", words[j+2]) and re.search("\W+_", words[j+3]) and not re.search(" QUTAG", words[j+3])) or # London is not Paris.
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
+            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS|_V", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
 
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS", words[j+3]))):
+            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS|_V", words[j+3]))):
 
                 words[j] = re.sub("_(\w+)", "_\\1 BEMA", words[j])
 
@@ -948,11 +949,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
         if value != " ":
 
-            if ((re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_DEMO|_PRP|_N", words[j+1]) and re.search("_MD|_V|_DT", words[j+2])) or
+            if ((re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_DEMO|_PRP|_N|\\bhe_|\\bshe_|\\bI_|\\bi_|\\byou_|\\bwe_|\\bthey_|\\bit_", words[j+1]) and re.search("_MD|_V", words[j+2])) or
+            
+            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP|\\bhe_|\\bshe_|\\bI_|\\bi_|\\byou_|\\bwe_|\\bthey_|\\bit_", words[j+1]) and re.search("_N|_CD", words[j+2]) and re.search("_MD|_V", words[j+3])) or
 
-            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP", words[j+1]) and re.search("_N", words[j+2]) and re.search("_MD|_V", words[j+3])) or
-
-            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP", words[j+1]) and re.search("_J", words[j+2]) and re.search("_N", words[j+3]) and re.search("_MD|_V", words[j+4]))):
+            (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP|\\bhe_|\\bshe_|\\bI_|\\bi_|\\byou_|\\bwe_|\\bthey_|\\bit_", words[j+1]) and re.search("_J", words[j+2]) and re.search("_N", words[j+3]) and re.search("_MD|_V", words[j+4]))):
 
                 words[j] = re.sub("_(\w+)", "_\\1 THATD", words[j])
 
@@ -1082,7 +1083,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags quantifier references 
             # ELF: Added any, removed nowhere (which is now place). "no one" is also tagged for at an earlier stage to avoid collisions with the XX0 variable.
-            if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bsomewhere|\\bnoone_|\\bno-one_|\\bothers_", words[index], re.IGNORECASE)):      
+            if (re.search("\\banybody_|\\banyone_|\\banything_|\\beverybody_|\\beveryone_|\\beverything_|\\bnobody_|\\bnone_|\\bnothing_|\\bsomebody_|\\bsomeone_|\\bsomething_|\\bnoone_|\\bno-one_|\\bothers_", words[index], re.IGNORECASE)):      
                 words[index] = re.sub("_\w+", "_QUPR", words[index])
 
             # Tags gerunds 
@@ -1916,7 +1917,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test1/"
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
@@ -1924,13 +1925,12 @@ if __name__ == "__main__":
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = 400
-    # tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
-    #tag_stanford_stanza(input_dir, output_stanford)
+    tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    #tag_MD(output_stanford, output_MD, extended=True)
+    tag_MD(output_stanford, output_MD, extended=True)
     tag_MD_parallel(output_stanford, output_MD, extended=False)
     do_counts(output_MD, output_stats, ttr)
 
