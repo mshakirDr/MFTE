@@ -1923,7 +1923,7 @@ if __name__ == "__main__":
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = 400
-    # tag_stanford(nlp_dir, input_dir, output_stanford)
+    #tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
     tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
