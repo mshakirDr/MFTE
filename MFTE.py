@@ -1710,6 +1710,7 @@ def process_file (file_dir_pair: tuple) -> None:
     words_tagged = run_process_sentence(file, extended)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
+    print("MD tagger tagged: " + file)
     return  "MD tagger tagged: " + file
 
 def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> None:
@@ -1727,8 +1728,6 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
         results = list(tqdm.tqdm(pool.map(process_file, file_with_dir), total=len(file_with_dir)))
-        pool.close()
-        pool.join()
         for s in results:
             print(s)
 
@@ -1913,7 +1912,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"D:\Corpus Related\Corpora\Pakistani English Historical\corpus\\"
+    input_dir = r"D:\Downloads\corpus\\"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
@@ -1923,12 +1922,12 @@ if __name__ == "__main__":
     ttr = 400
     # tag_stanford(nlp_dir, input_dir, output_stanford)
     t_0 = timeit.default_timer()
-    #tag_stanford_stanza(input_dir, output_stanford)
+    tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    #tag_MD(output_stanford, output_MD, extended=True)
-    tag_MD_parallel(output_stanford, output_MD, extended=True)
+    tag_MD(output_stanford, output_MD, extended=True)
+    #tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
 
 # if __name__ == "__main__":
