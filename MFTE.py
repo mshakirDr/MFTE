@@ -77,7 +77,7 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bthat('|’)?s\\b", "that 's", text, flags=re.IGNORECASE)
     text = re.sub("\\bwhat('|’)?s\\b", "what 's", text, flags=re.IGNORECASE)
     text = re.sub("\\bit('|’)s\\b", "it 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bi('|’)m\\b", "I 'm", text, flags=re.IGNORECASE)
+    text = re.sub("\\b(i|l)('|’)m\\b", "I 'm", text, flags=re.IGNORECASE)
     text = re.sub("\\byou('|’)?re\\b", "your 're", text, flags=re.IGNORECASE)
     text = re.sub("\\bhe('|’)?s\\b", "he 's", text, flags=re.IGNORECASE)
     text = re.sub("\\bshe('|’)?s\\b", "she 's", text, flags=re.IGNORECASE)
@@ -86,11 +86,12 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bwe('|’)?ve\\b", "we 've", text, flags=re.IGNORECASE)
     text = re.sub("\\bhe('|’)?d\\b", "he 'd", text, flags=re.IGNORECASE)
     text = re.sub("\\bshe('|’)?d\\b", "she 'd", text, flags=re.IGNORECASE)
-    text = re.sub("\\bi('|’)?ll\\b", "I 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bhe('|’)?ll\\b", "he 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bshe('|’)?ll\\b", "she 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)?(ll|II)\\b", "I 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\byou('|’)?(ll|II)\\b", "you 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)?(ll|II)\\b", "he 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)?(ll|II)\\b", "she 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwe('|’)?(ll|II)\\b", "we 'll", text, flags=re.IGNORECASE)
     text = re.sub("\\bit('|’)?d\\b", "it 'd", text, flags=re.IGNORECASE)
-
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
     #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
@@ -343,7 +344,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # ELF: FPUH is a new variable.
             # Aims to tags interjections and filled pauses.
-            if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_|\\bhum+", words[j], re.IGNORECASE)):
+            if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_|\\bhum+_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_(\w+)", "_FPUH", words[j])
             # Also added "hm+" on Peter's suggestion but made sure that this was case sensitive to avoid mistagging Her Majesty ;-)
             if (re.search("\\bhm+|\\bHm+", words[j])):
@@ -366,7 +367,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\ball_|\\bany_|\\bbillions_|\\bboth_|\\bdozens_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|hundreds_|\\bmany_|\\bmillions_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|thousands_|\\bwee_|\\bzillions_", words[j], re.IGNORECASE))or
             (re.search("\\bload_|\\bcouple_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+|_N|_J", words[j+1], re.IGNORECASE)) or
-            (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
+            (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_|\\btad_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
             (re.search("\\ba_", words[j-2], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added this line to account for "a little bit", "a whole lot", etc.
                 words[j] = re.sub("_\w+", "_QUAN", words[j])
                    
@@ -494,7 +495,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\breal_|\\bdead_|\\bdamn_|\\bfuck|\\bshit|\\bsuper_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1])) or
             (re.search("\\bjust_|\\breally_|\\btruly_|\\bbloody_|\\bpretty_|\\bmore_", words[j], re.IGNORECASE) and re.search("_J|_RB|_V|_MD", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_", words[j+1], re.IGNORECASE)) or
-            (re.search("\\bfar_|\\bway_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
+            (re.search("\\bfar_|\\bway_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\baway_", words[j+1], re.IGNORECASE) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_EMPH", words[j])
 
@@ -520,10 +521,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
             # Tags auxiliary DO ELF: I added this variable which replaces the MAT's/Biber tagger's "pro-verb" DO variable. 
-            # Later on, all DO verbs not tagged as DOAUX are tagged as ACT.
+            # Later on, all DO verbs not tagged as DOAUX are tagged as ACT (if using the extended tagset).
             if (re.search("\\bdo_V|\\bdoes_V|\\bdid_V", words[j], re.IGNORECASE) and not re.search("to_", words[j-1]) and not re.search("to_", words[j+1])): # This excludes DO + VB\\b which have already been tagged as emphatics (DO_EMPH) and "to do" constructions
                 if ((re.search("_VB\\b", words[j+2])) or # did you hurt yourself? Didn't look? 
-                (re.search("\\._\\.|:_|\\?_|!_|-_,", words[j-1]) and not re.search("\\bdo_V", words[j], re.IGNORECASE)) or # Sentence starting with Did or Does (Do is potentially a VIMP)
+                (re.search("-_,| $", words[j-1]) and not re.search("\\bdo_V", words[j], re.IGNORECASE)) or # Sentence starting with Did or Does (Do is potentially a VIMP)
                 (re.search("_VB\\b", words[j+3])) or # didn't it hurt?
                 (re.search("_\W", words[j+1])) or # You did?
                 (re.search("\\bI_|\\byou_|\\bhe_|\\bshe_|\\bit_|\\bwe_|\\bthey_|_XX0", words[j+1], re.IGNORECASE) and re.search("_\\.|_VB\\b", words[j+2])) or # ELF: Added to include question tags such as: "do you?"" or "He didn't!""
@@ -652,7 +653,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if ((re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             #(re.search("_\W|_EMO|_FW|_SYM", words[j-2])  and not re.search("_,", words[j-2]) and not re.search("_MD", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|\\b_NNP", words[j+1], re.IGNORECASE)) or # Allows for one intervening token between end of previous sentence and imperative verb, e.g., "Just do it!". This line is not recommended for the Spoken BNC2014 and any texts with not particularly good punctuation.
             (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1])) or # "Listen carefully. Then fill the gaps."
-            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete", words[j], re.IGNORECASE)) or
+            (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("\\bpractise_|\\bmake_|\\bcomplete|_VB\\b", words[j], re.IGNORECASE)) or
             #(re.search("\\bPractise_|\\bMake_|\\bComplete_|\\bMatch_|\\bRead_|\\bChoose_|\\bWrite_|\\bListen_|\\bDraw_|\\bExplain_|\\bThink_|\\bCheck_|\\bDiscuss_", words[j])) or # Most frequent imperatives that start sentences in the Textbook English Corpus (TEC) (except "Answer" since it is genuinely also frequently used as a noun)
             (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE)) or # Do not write. Don't listen.
             (re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $", words[j-2]) and re.search("_RB|_CC|_DMA", words[j-1]) and re.search("\\bdo_", words[j], re.IGNORECASE) and re.search("_XX0", words[j+1]) and re.search("_VB\\b", words[j+2], re.IGNORECASE))): # Do not write. Don't listen.
@@ -990,7 +991,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\bus_P|\\bUs_P", words[j]))):
                 words[j] = re.sub("_\w+", "_PP1P", words[j])
 
-            if (re.search("\\blet_", words[j], re.IGNORECASE) and re.search("'s_|\\bus_", words[j+1], re.IGNORECASE)):
+            if (re.search("\\blet_", words[j], re.IGNORECASE) and re.search("'s_|\\bus_|_POS", words[j+1], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_VIMP", words[j])
                 words[j+1] = re.sub("_\w+", "_PP1P", words[j+1])
 
@@ -1026,7 +1027,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags place adverbials 
             # ELF: added all the words from "downwind" onwards and excluded "there" tagged as an existential "there" as in "there are probably lots of bugs in this script". Also restricted above, around, away, behind, below, beside, inside and outside to adverb forms only.
-            if (re.search("\\baboard_|\\babove_RB|\\babroad_|\\bacross_RB|\\bahead_|\\banywhere_|\\balongside_|\\baround_RB|\\bashore_|\\bastern_|\\baway_RB|\\bbackwards?|\\bbehind_RB|\\bbelow_RB|\\bbeneath_|\\bbeside_RB|\\bdownhill_|\\bdownstairs_|\\bdownstream_|\\bdownwards_|\\beast_|\\bhereabouts_|\\bindoors_|\\binland_|\\binshore_|\\binside_RB|\\blocally_|\\bnear_|\\bnearby_|\\bnorth_|\\bnowhere_|\\boutdoors_|\\boutside_RB|\\boverboard_|\\boverland_|\\boverseas_|\\bsouth_|\\bunderfoot_|\\bunderground_|\\bunderneath_|\\buphill_|\\bupstairs_|\\bupstream_|\\bupwards?|\\bwest_|\\bdownwind|\\beastwards?|\\bwestwards?|\\bnorthwards?|\\bsouthwards?|\\belsewhere|\\beverywhere|\\bhere_|\\boffshore|\\bsomewhere|\\bthereabouts?|\\bfar_RB|\\bthere_RB|\\bonline_|\\boffline_N", words[j], re.IGNORECASE) 
+            if (re.search("\\baboard_|\\babove_RB|\\babroad_|\\bacross_RB|\\bahead_|\\banywhere_|\\balongside_|\\baround_RB|\\bashore_|\\bastern_|\\baway_RB|\\bbackwards?|\\bbehind_RB|\\bbelow_RB|\\bbeneath_|\\bbeside_RB|\\bdownhill_|\\bdownstairs_|\\bdownstream_|\\bdownwards_|\\beast_|\\bhereabouts_|\\bindoors_|\\binland_|\\binshore_|\\binside_RB|\\blocally_|\\bnear_|\\bnearby_|\\bnorth_|\\bnowhere_|\\boutdoors_|\\boutside_RB|\\boverboard_|\\boverland_|\\boverseas_|\\bsouth_|\\bunderfoot_|\\bunderground_|\\bunderneath_|\\buphill_|\\bupstairs_|\\bupstream_|\\bupwards?|\\bwest_|\\bdownwind|\\beastwards?|\\bwestwards?|\\bnorthwards?|\\bsouthwards?|\\belsewhere|\\beverywhere|\\bhere_|\\boffshore|\\bsomewhere|\\bthereabouts?|\\bfar_RB|\\bfarther_|\\bthere_RB|\\bonline_|\\boffline_N", words[j], re.IGNORECASE) 
             and not re.search("_NNP", words[j])):
                 words[j] = re.sub("_\w+", "_PLACE", words[j])
 
@@ -1036,7 +1037,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
             # Tags time adverbials 
             # ELF: Added already, so far, thus far, yet (if not already tagged as CONC above) and ago. Restricted after and before to adverb forms only.
-            if ((re.search("\\bago_|\\bafter_RB|\\bafterwards_|\\bagain_|\\balready_|\\bbefore_RB|\\bbeforehand_|\\bbriefly_|\\bcurrently_|\\bearlier_RB|\\bearly_RB|\\beventually_|\\bformerly_|immediately_|\\binitially_|\\binstantly_|\\bforeever_|\\blate_RB|\\blately_|\\blater_RB|momentarily_|\\bnow_|\\bnowadays_|originally_|\\bpresently_|previously_|\\brecently_|\\bsomeday_|\\bshortly_|simultaneously_|\\bsooner_|\\bsubsequently_|\\bsuddenly|\\btoday_|\\bto-day_|\\btomorrow_|\\bto-morrow_|\\btonight_|\\bto-night_|\\byesterday_|\\byet_RB|\\bam_RB|\\bam_NN|\\bpm_NN|\\bpm_RB", words[j], re.IGNORECASE)) or
+            if ((re.search("\\bago_|\\bafter_RB|\\bafterwards_|\\bagain_|\\balready_|anytime_|\\bbefore_RB|\\bbeforehand_|\\bbriefly_|\\bcurrently_|\\bearlier_RB|\\bearly_RB|\\beventually_|\\bformerly_|immediately_|\\binitially_|\\binstantly_|\\bforeever_|\\blate_RB|\\blately_|\\blater_RB|momentarily_|\\bnow_|\\bnowadays_|originally_|\\bpresently_|previously_|\\brecently_|\\bsomeday_|\\bshortly_|simultaneously_|\\bsooner_|\\bsubsequently_|\\bsuddenly|\\btoday_|\\bto-day_|\\btomorrow_|\\bto-morrow_|\\btonight_|\\bto-night_|\\byesterday_|\\byet_RB|\\bam_RB|\\bam_NN|\\bpm_NN|\\bpm_RB", words[j], re.IGNORECASE)) or
             (re.search("\\bsoon_", words[j], re.IGNORECASE) and not re.search("\\bas_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bprior_", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE) and re.search("\\bfar_", words[j], re.IGNORECASE) and not re.search("_J|_RB", words[j+1], re.IGNORECASE))):
@@ -1045,10 +1046,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
     for j, value in enumerate(words):
-        if (re.search("\\b(" + do + ")", words[j], re.IGNORECASE) and not re.search(" DOAUX", words[j])):
-            words[j] = re.sub("_(\w+)", "_\\1 ACT", words[j])
-            #print(words[j])
-
         try:
             # Adds "NEED to" and "HAVE to" to the list of necessity (semi-)modals  
             if (re.search("\\bneed_V|\\bneeds_V|\\bneeded_V|\\bhave_V|\\bhas_V|\\bhad_V|\\bhaving_V", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1])):
@@ -1145,7 +1142,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags will/shall modals. 
             # ELF: New variable replacing Biber's PRMD.
-            if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\W+ll_MD", words[index], re.IGNORECASE)):
+            if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\W+ll_MD|'II_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_MDWS", words[index])
 
             # Tags would as a modal. 
@@ -1165,7 +1162,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[index] = re.sub("_(\w+)", "_FPUH", words[index])
 
             # ELF: added variable: tags adverbs of frequency (list from COBUILD p. 270 but removed "mainly").
-            if (re.search("\\busually_|\\balways_|\\boftens?_|oftentimes_|\\bonce_|\\btwice_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically|daily_|weekly_|monthly_|yearly_", words[index], re.IGNORECASE)):
+            if (re.search("\\busually_|\\balways_|\\boftens?_|oftentimes_|\\bonce_|\\btwice_|\\bgenerally|\\bnormally|\\btraditionally|\\bagain_|\\bconstantly|\\bcontinually|\\bfrequently|\\bforever_|\\bever_|\\bnever_|\\binfrequently|\\bintermittently|\\boccasionally|\\bperiodically|\\brarely_|\\bregularly|\\brepeatedly|\\bseldom|\\bsometimes|\\bsporadically|daily_|weekly_|monthly_|yearly_", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_(\w+)", "_FREQ", words[index])
 
             # ELF: remove the TO category which was needed for the identification of other features put overlaps with VB
@@ -1181,21 +1178,23 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for j, value in enumerate(words):
 
         if value != " ":
-
+            
+            # ELF: New variable noun compounds
             # Shakir: Added space to prevent tag overlaps
-            if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])):
+            if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])): 
                 words[j+1] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
+
+            # ELF: Added the NN-NN pattern for hyphenated noun compounds such as home-office
+            if (re.search("\\b.{2,}_NN", words[j]) and re.search("-_HYPH\\b", words[j+1]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+2]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])):
+                words[j+2] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
 
             # Shakir: if extended is True keep proper noun distinction
             if extended:
-
                 if (re.search("_NNP|_NNPS", words[j])):
-                    
                     words[j] = re.sub("_\w+", "_NN NNP", words[j])
 
             # Tags total nouns by joining plurals together with singulars including of proper nouns.            
             if (re.search("_NN|_NNS|_NNP|_NNPS", words[j])):
-                
                 words[j] = re.sub("_\w+", "_NN", words[j])
 
             # Shakir: fixed it tagged as PRP 
@@ -1225,8 +1224,7 @@ def process_sentence_extended (words: list) -> list:
     
     # Activity verbs 
     # ELF: removed GET and GO due to high polysemy and corrected the "evercise" typo found in Biber 2006.
-    vb_act = "(buy|buys|buying|bought|make|makes|making|made|give|gives|giving|gave|given|take|takes|taking|took|taken|come|comes|coming|came|use|uses|using|used|leave|leaves|leaving|left|show|shows|showing|showed|shown|try|tries|trying|tried|work|works|wrought|worked|working|move|moves|moving|moved|follow|follows|following|followed|put|puts|putting|pay|pays|paying|paid|bring|brings|bringing|brought|meet|meets|met|play|plays|playing|played|run|runs|running|ran|hold|holds|holding|held|turn|turns|turning|turned|send|sends|sending|sent|sit|sits|sitting|sat|wait|waits|waiting|waited|walk|walks|walking|walked|carry|carries|carrying|carried|lose|loses|losing|lost|eat|eats|ate|eaten|eating|watch|watches|watching|watched|reach|reaches|reaching|reached|add|adds|adding|added|produce|produces|producing|produced|provide|provides|providing|provided|pick|picks|picking|picked|wear|wears|wearing|wore|worn|open|opens|opening|opened|win|wins|winning|won|catch|catches|catching|caught|pass|passes|passing|passed|shake|shakes|shaking|shook|shaken|smile|smiles|smiling|smiled|stare|stares|staring|stared|sell|sells|selling|sold|spend|spends|spending|spent|apply|applies|applying|applied|form|forms|forming|formed|obtain|obtains|obtaining|obtained|arrange|arranges|arranging|arranged|beat|beats|beating|beaten|check|checks|checking|checked|cover|covers|covering|covered|divide|divides|dividing|divided|earn|earns|earning|earned|extend|extends|extending|extended|fix|fixes|fixing|fixed|hang|hangs|hanging|hanged|hung|join|joins|joining|joined|lie|lies|lying|lay|lain|lied|obtain|obtains|obtaining|obtained|pull|pulls|pulling|pulled|repeat|repeats|repeating|repeated|receive|receives|receiving|received|save|saves|saving|saved|share|shares|sharing|shared|smile|smiles|smiling|smiled|throw|throws|throwing|threw|thrown|visit|visits|visiting|visited|accompany|accompanies|accompanying|accompanied|acquire|acquires|acquiring|acquired|advance|advances|advancing|advanced|behave|behaves|behaving|behaved|borrow|borrows|borrowing|borrowed|burn|burns|burning|burned|burnt|clean|cleaner|cleanest|cleans|cleaning|cleaned|climb|climbs|climbing|climbed|combine|combines|combining|combined|control|controls|controlling|controlled|defend|defends|defending|defended|deliver|delivers|delivering|delivered|dig|digs|digging|dug|encounter|encounters|encountering|encountered|engage|engages|engaging|engaged|exercise|exercised|exercising|exercises|expand|expands|expanding|expanded|explore|explores|exploring|explored|reduce|reduces|reducing|reduced)"
-
+    vb_act = "(accompanied|accompanies|accompany|accompanying|acquire|acquired|acquires|acquiring|add|added|adding|adds|advance|advanced|advances|advancing|applied|applies|apply|applying|arrange|arranged|arranges|arranging|ate|beat|beaten|beating|beats|behave|behaved|behaves|behaving|borrow|borrowed|borrowing|borrows|bought|bring|bringing|brings|brought|burn|burned|burning|burns|burnt|buy|buying|buys|came|carried|carries|carry|carrying|catch|catches|catching|caught|check|checked|checking|checks|clean|cleaned|cleaner|cleanest|cleaning|cleans|climb|climbed|climbing|climbs|combine|combined|combines|combining|come|comes|coming|control|controlled|controlling|controls|cover|covered|covering|covers|defend|defended|defending|defends|deliver|delivered|delivering|delivers|did|dig|digging|digs|divide|divided|divides|dividing|do|does|doing|done|dug|earn|earned|earning|earns|eat|eaten|eating|eats|encounter|encountered|encountering|encounters|engage|engaged|engages|engaging|exercise|exercised|exercises|exercising|expand|expanded|expanding|expands|explore|explored|explores|exploring|extend|extended|extending|extends|fix|fixed|fixes|fixing|follow|followed|following|follows|form|formed|forming|forms|gave|give|given|gives|giving|hang|hanged|hanging|hangs|held|hold|holding|holds|hung|join|joined|joining|joins|lain|lay|leave|leaves|leaving|left|lie|lied|lies|lose|loses|losing|lost|lying|made|make|makes|making|meet|meets|met|move|moved|moves|moving|obtain|obtain|obtained|obtaining|obtains|open|opened|opening|opens|paid|pass|passed|passes|passing|pay|paying|pays|pick|picked|picking|picks|play|played|playing|plays|produce|produced|produces|producing|provide|provided|provides|providing|pull|pulled|pulling|pulls|put|puts|putting|ran|reach|reached|reaches|reaching|receive|received|receives|receiving|reduce|reduced|reduces|reducing|repeat|repeated|repeating|repeats|run|running|runs|sat|save|saved|saves|saving|sell|selling|sells|send|sending|sends|sent|shake|shaken|shakes|shaking|share|shared|shares|sharing|shook|show|showed|showing|shown|shows|sit|sits|sitting|smile|smiled|smiles|smiling|sold|spend|spending|spends|spent|stare|stared|stares|staring|take|taken|takes|taking|threw|throw|throwing|thrown|throws|took|tried|tries|try|trying|turn|turned|turning|turns|use|used|uses|using|visit|visited|visiting|visits|wait|waited|waiting|waits|walk|walked|walking|walks|watch|watched|watches|watching|wear|wearing|wears|win|winning|wins|won|wore|work|worked|working|works|worn|wrought)"
     # Communication verbs 
     # ELF: corrected a typo for "descibe" and added its other forms, removed "spake" as a form of SPEAK, removed some adjective forms like "fitter, fittest", etc.
     # In addition, British spellings and the verbs "AGREE, ASSERT, BEG, CONFIDE, COMMAND, DISAGREE, OBJECT, PLEDGE, PRONOUNCE, PLEAD, REPORT, TESTIFY, VOW" (taken from the public and suasive lists above) were added. "MEAN" which was originally assigned to the mental verb list was added to the communication list, instead.
@@ -1280,7 +1278,7 @@ def process_sentence_extended (words: list) -> list:
     th_vb_fact = "(concluding|conclude|concluded|concludes|demonstrates|demonstrating|demonstrated|demonstrate|determining|determines|determine|determined|discovered|discovers|discover|discovering|finds|finding|found|find|knows|known|knowing|know|knew|learn|learns|learning|learnt|means|meaning|meant|mean|notifies|notices|notice|noticed|notify|notifying|noticing|notified|observed|observes|observing|observe|proven|prove|proving|proved|proves|reali(z|s)ed|reali(z|s)es|reali(z|s)e|reali(z|s)ing|recogni(z|s)es|recogni(z|s)e|recogni(z|s)ed|recogni(z|s)ing|remembered|remember|remembers|remembering|sees|seen|saw|seeing|see|showing|shows|shown|showed|show|understand|understands|understanding|understood)"
     th_vb_likely = "(assumes|assumed|assuming|assume|believe|believing|believes|believed|doubting|doubted|doubts|doubt|gathers|gathering|gathered|gather|guessed|guess|guessing|guesses|hypothesi(z|s)ing|hypothesi(z|s)ed|hypothesi(z|s)e|hypothesi(z|s)es|imagine|imagining|imagines|imagined|predict|predicted|predicting|predicts|presupposing|presupposes|presuppose|presupposed|presumes|presuming|presumed|presume|reckon|reckoning|reckoned|reckons|seemed|seems|seem|seeming|speculated|speculate|speculating|speculates|suppose|supposes|supposing|supposed|suspected|suspect|suspects|suspecting|think|thinks|thinking|thought)"
     to_vb_desire = "(agreeing|agreed|agree|agrees|chooses|chosen|choose|choosing|chose|decide|deciding|decided|decides|hate|hates|hating|hated|hesitated|hesitates|hesitate|hesitating|hoped|hope|hopes|hoping|intended|intend|intending|intends|likes|liked|like|liking|loving|loves|love|loved|means|meaning|meant|mean|needs|need|needing|needed|planning|plan|planned|plans|preferred|prefer|preferring|prefers|prepares|prepare|preparing|prepared|refuses|refusing|refuse|refused|wanting|want|wants|wanted|wishes|wished|wish|wishing)"
-    to_vb_effort = "(allowance|allowing|allowed|allowancing|allow|allowances|allows|allowanced|attempting|attempted|attempts|attempt|enables|enabled|enabling|enable|encourages|encouraging|encouraged|encourage|fails|fail|failing|failed|help|helping|helps|helped|instructs|instructed|instruct|instructing|managing|managed|manage|manages|oblige|obligate|obliged|obligates|obliging|obligating|obliges|obligated|order|ordering|orders|ordered|permitted|permits|permit|permitting|persuaded|persuades|persuade|persuading|prompts|prompting|prompted|prompt|requiring|requisitions|requisitioning|required|requires|requisition|requisitioned|require|sought|seeking|seeks|seek|try|trying|tries|tried)"
+    to_vb_effort = "(allowing|allowed|allow|allows|attempting|attempted|attempts|attempt|enables|enabled|enabling|enable|encourages|encouraging|encouraged|encourage|fails|fail|failing|failed|help|helping|helps|helped|instructs|instructed|instruct|instructing|managing|managed|manage|manages|oblige|obligate|obliged|obligates|obliging|obligating|obliges|obligated|order|ordering|orders|ordered|permitted|permits|permit|permitting|persuaded|persuades|persuade|persuading|prompts|prompting|prompted|prompt|requiring|requisitions|requisitioning|required|requires|requisition|requisitioned|require|sought|seeking|seeks|seek|try|trying|tries|tried)"
     to_vb_prob = "(appear|appeared|appears|appearing|happens|happened|happen|happening|seemed|seems|seem|seeming|tending|tends|tended|tend)"
     to_vb_speech = "(asks|ask|asking|asked|claiming|claims|claim|claimed|invite|inviting|invited|invites|promising|promised|promise|promises|reminding|remind|reminded|reminds|requesting|request|requests|requested|saying|say|said|says|teaches|teaching|taught|teach|tell|tells|telling|told|urging|urges|urged|urge|warning|warn|warned|warns)"
     to_vb_mental = "(assumed|assumes|assume|assuming|believing|believes|believe|believed|considered|considers|consider|considering|expecting|expects|expected|expect|find|found|finding|finds|forgetting|forget|forgets|forgot|forgotten|imagine|imagined|imagining|imagines|judge|adjudicates|adjudicate|judges|judged|knowing|knows|known|know|knew|learnt|learning|learns|learn|presumes|presuming|presumed|presume|pretend|pretends|pretended|pretending|remembered|remember|remembers|remembering|supposing|suppose|supposes|supposed)"
@@ -1507,7 +1505,7 @@ def process_sentence_extended (words: list) -> list:
 
             # ELF: tags activity verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or_PASS.
-            if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE)):
+            if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE) and not re.search("_VBN|_VBG|DOAUX", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 ACT", words[index])
 
             # ELF: tags communication verbs. 
@@ -1930,7 +1928,7 @@ if __name__ == "__main__":
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     #tag_MD(output_stanford, output_MD, extended=True)
-    tag_MD_parallel(output_stanford, output_MD, extended=False)
+    tag_MD_parallel(output_stanford, output_MD, extended=True)
     do_counts(output_MD, output_stats, ttr)
 
 # if __name__ == "__main__":
