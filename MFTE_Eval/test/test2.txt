@@ -1,2 +1,0 @@
-This is a short test file. It has numbers: 0.1 10 100
-It has has the word not at the end of a word: plunot and plon't.

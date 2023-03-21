@@ -1,3 +1,0 @@
-This_DT is_VBZ a_DT short_JJ test_NN file_NN ._.
-It_PRP has_VBZ numbers_NNS :_: 0.1_CD 10_CD 100_CD
-It_PRP has_VBZ has_VBZ the_DT word_NN not_RB at_IN the_DT end_NN of_IN a_DT word_NN :_: plunot_NN and_CC plon't_NN ._.
