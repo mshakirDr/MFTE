@@ -174,7 +174,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
     
     do ="do_V|does_V|did_V|done_V|doing_V|doing_P|done_P" 
 
-    be = "be_V|am_V|is_V|are_V|was_V|were_V|been_V|being_V|s_VBZ|m_V|re_V|been_P" # ELF: removed apostrophes and added "been_P" to account for the verb "be" when tagged as occurrences of passive or perfect forms (PASS and PEAS tags).
+    be = "be_V|am_V|is_V|are_V|was_V|were_V|been_V|being_V|s_VBZ|m_V|re_V|been_P|being_P" # ELF: removed apostrophes and added "been_P" to account for the verb "be" when tagged as occurrences of passive or perfect forms (PASS and PEAS tags).
 
     who = "what_|where_|when_|how_|whether_|why_|whoever_|whomever_|whichever_|wherever_|whenever_|whatever_" # ELF: Removed "however" from Nini/Biber's original list.
 
@@ -879,10 +879,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             if (re.search("_VBG", words[j])):
                 if ((re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE)) or # am eating
-                (re.search("_RB|_XX0|_EMPH|_CC", words[j-1]) and re.search("\\b(" + be + ")|'m_V", words[j-2], re.IGNORECASE)) or # am not eating
-                (re.search("_RB|_XX0|_EMPH|_CC", words[j-1]) and re.search("_RB|_XX0|_EMPH|_CC", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # am not really eating
+                (re.search("_RB|_XX0|_EMPH|_CC|_DMA", words[j-1]) and re.search("\\b(" + be + ")|'m_V", words[j-2], re.IGNORECASE)) or # am not eating
+                (re.search("_RB|_XX0|_EMPH|_CC|_DMA", words[j-1]) and re.search("_RB|_XX0|_EMPH|_CC", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # am not really eating
                 (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\b(" + be + ")", words[j-2], re.IGNORECASE)) or # am I eating
-                (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("_XX0|_EMPH", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # aren't I eating?
+                (re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("_XX0|_EMPH|_RB", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE)) or # aren't I eating?
                 (re.search("_XX0|_EMPH", words[j-1]) and re.search("_NN|_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-2]) and re.search("\\b(" + be + ")", words[j-3], re.IGNORECASE))): # am I not eating
                     words[j] = re.sub("_\w+", "_PROG", words[j])
 
@@ -906,25 +906,47 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     #---------------------------------------------------
 
-    # Tags be as main verb ELF: Ensured that question tags are not being assigned this tag by adding the exceptions of QUTAG occurrences.
+    # Tags BE as main verb 
+    # ELF: Ensured that question tags are not being assigned this tag by adding the exceptions of QUTAG occurrences.
 
+    # for j, value in enumerate(words):
+
+    #     if value != " ":
+
+    #         if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ|\\b(" + whw + ")", words[j+1]) and not re.search("QUTAG", words[j+1]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3])) or
+
+    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and not re.search("_V|_PROG|_PASS", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
+
+    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and re.search("_XX0|_NN", words[j+2]) and not re.search("_V|_PROG|_PASS", words[j+2]) and re.search("\W+_", words[j+3]) and not re.search(" QUTAG", words[j+3])) or # London is not Paris.
+
+    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS|_V", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
+
+    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS|_V", words[j+3]))):
+
+    #             words[j] = re.sub("_(\w+)", "_\\1 BEMA", words[j])
+
+    #---------------------------------------------------
+    
+    # ELF: New operationalisation of BE as main verb (as of the Python version)
+
+    # Starting with BE as an auxilliary (BEAUX)
     for j, value in enumerate(words):
-
         if value != " ":
+            # BEAUX:
+            if (re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search(" BEMA", words[j]) and not re.search("_EX", words[j-1]) and not re.search("_EX", words[j-2])): 
+                if ((re.search("_PROG|_GTO|_PASS|_VBN|_VBG|_QUTAG", words[j+1])) or # am going / are given 
+                (re.search("_PROG|_GTO|_PASS|_QUTAG", words[j+2])) or  
+                (re.search("_PROG|_GTO|_PASS", words[j+3]))):  
+                    words[j] = re.sub("_(\w+)", "_\\1 BEAUX", words[j])
 
-            if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ|\\b(" + whw + ")", words[j+1]) and not re.search("QUTAG", words[j+1]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3])) or
-
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and not re.search("_V|_PROG|_PASS", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
-
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and re.search("_XX0|_NN", words[j+2]) and not re.search("_V|_PROG|_PASS", words[j+2]) and re.search("\W+_", words[j+3]) and not re.search(" QUTAG", words[j+3])) or # London is not Paris.
-
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS|_V", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
-
-            (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS|_V", words[j+3]))):
-
+    # If BE is not an auxilliary (as defined above) or part of a there + BE construction, it is tagged as a main verb (BEMA)
+    for j, value in enumerate(words):
+        if value != " ":
+            if (re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("BEAUX|BEMA", words[j]) and not re.search("_EX", words[j-1]) and not re.search("_EX", words[j-2])):
                 words[j] = re.sub("_(\w+)", "_\\1 BEMA", words[j])
 
     #---------------------------------------------------
+    
     # Tags demonstratives 
     # ELF: New, much simpler variable. Also corrects any leftover "that_IN" and "that_WDT" to DEMO. 
     # These have usually been falsely tagged by the Stanford Tagger, especially they end sentences, e.g.: Who did that?
@@ -1505,7 +1527,7 @@ def process_sentence_extended (words: list) -> list:
 
             # ELF: tags activity verbs. 
             # Note that adding _P is important to capture verbs tagged as PEAS, PROG or_PASS.
-            if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE) and not re.search("_VBN|_VBG|DOAUX", words[index])):
+            if (re.search("\\b(" + vb_act + ")_V|\\b(" + vb_act + ")_P", words[index], re.IGNORECASE) and not re.search("DOAUX", words[index])):
                 words[index] = re.sub("_(\w+)", "_\\1 ACT", words[index])
 
             # ELF: tags communication verbs. 
@@ -1888,7 +1910,8 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
                 # The following tags are excluded by default because they are "bin" tags designed to remove problematic tokens from other categories: LIKE and SO
                 # Note: if interested in counts of punctuation marks, "|_\W+" should be deleted in this line.
                 # Note: _WQ are removed because they are duplicates of WHQU (WHQU are tagged onto the WH-words whereas QUWU onto the question marks themselves).
-                tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b|_WQ|_LIKE|_SO", word)]
+                # Note: BEAUX are not counted because they would replicate the PROG, PASS, QUTAG and GTO counts. They only serve to identify BEMA occurences.
+                tags = [re.sub(r"^.*_", "", word) for word in words if not re.search(r"_LS|_\W+|_WP\\b|_FW|_SYM|_MD\\b|_VB\\b|_WQ|_LIKE|_SO|_BEAUX", word)]
                 # Shakir: get a dictionary of tags and frequency of each tag using collections.Counter on tags list
                 tag_freq = dict(collections.Counter(tags))
                 # Shakir: sort tag_freq
@@ -1914,7 +1937,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     break    
 
 if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
+    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/COCA/COCA_test2/"
     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
@@ -1928,7 +1951,7 @@ if __name__ == "__main__":
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     #tag_MD(output_stanford, output_MD, extended=True)
-    tag_MD_parallel(output_stanford, output_MD, extended=True)
+    tag_MD_parallel(output_stanford, output_MD, extended=False)
     do_counts(output_MD, output_stats, ttr)
 
 # if __name__ == "__main__":
