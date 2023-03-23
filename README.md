@@ -20,3 +20,11 @@ Please refer to `List_Features_MFTE_python_1.4.xlsx` for feature descriptions.
 TBD
 
 # Citation
+`@software{Le_Foll_MFTE_Python_2023,
+author = {Le Foll, Elen and Shakir, Muhammad},
+month = {4},
+title = {{MFTE Python}},
+url = {https://github.com/mshakirDr/MFTE},
+version = {1.0},
+year = {2023}
+}`
