@@ -10,7 +10,7 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 [Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
 
 # Usage
-The usage of the software is straightforward as the screenshot below shows. Just open the folder which contains your text files by clicking on the button. Once you click OK, the software starts with grammatical tagging and later with MFTE tags. Like the original version, the output will be generated in a new folder which will have `_MFTE_tagged` as a suffix. There are three subfolders: `MFTE_Tagged`, `StanfordPOS_Tagged` and `Statistics`. The `Statistics` folder is your go to folder which contains the tag counts in different formats: mixed normed (based on 100 nouns or verbs depending on the type of word): raw counts (raw frequencies) and word-based normed (based on 100 words).
+The usage of the software is straightforward as the screenshot below shows. Just open the folder which contains your text files by clicking on the button. Once you click OK, the software starts with grammatical tagging and later with MFTE tags. Like the original version, the output will be generated in a new folder which will have `_MFTE_tagged` as suffix. There are three subfolders: `MFTE_Tagged`, `StanfordPOS_Tagged` and `Statistics`. The `Statistics` folder is your go to folder which contains the tag counts in different formats: mixed normed (based on 100 nouns or verbs depending on the type of word): raw counts (raw frequencies) and word-based normed (based on 100 words).
 ![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
 
 # Tag descriptions
