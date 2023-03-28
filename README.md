@@ -25,6 +25,11 @@ TBD
 This project has been partially funded by the Deutsche Forschungsgemein-schaft (DFG, German Research Foundation) grant number 452561886.
 
 # Citation
+
+## APA
+Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software]. https://github.com/mshakirDr/MFTE
+
+##Bibtex
 `@software{Le_Foll_MFTE_Python_2023,
 author = {Le Foll, Elen and Shakir, Muhammad},
 month = {4},
