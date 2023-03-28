@@ -21,6 +21,9 @@ Please refer to `List_Features_MFTE_python_1.4.xlsx` for feature descriptions.
 # Evaluation
 TBD
 
+# Acknowledgement
+This project has been partially funded by the Deutsche Forschungsgemein-schaft (DFG, German Research Foundation) grant number 452561886.
+
 # Citation
 `@software{Le_Foll_MFTE_Python_2023,
 author = {Le Foll, Elen and Shakir, Muhammad},
