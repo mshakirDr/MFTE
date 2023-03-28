@@ -67,32 +67,6 @@ def call_MFTE(folder_selected: str) -> None:
         
     global check_button_state, ttr_value, check_button_state2
     ###############################################
-    # #input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/test_files/"
-    # input_dir = folder_selected + "/"
-    # # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    # # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-    # nlp_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/stanford-corenlp-4.5.1/"
-    # output_stanford = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_StanfordPOS/"
-    # output_MD = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Tagged/"
-    # output_stats = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_Counts/"
-    # if isinstance(ttr_value, int):
-    #     ttr = ttr_value
-    # else:
-    #     ttr = 400
-    # # tag_stanford(nlp_dir, input_dir, output_stanford)
-    # t_0 = timeit.default_timer()
-    # tag_stanford_stanza(input_dir, output_stanford)
-    # t_1 = timeit.default_timer()
-    # elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-    # print("Time spent on tagging process (micro seconds):", elapsed_time)
-    #parallel MD tag
-    # if check_button_state2:
-    #     tag_MD_parallel(output_stanford, output_MD, extended=check_button_state)
-    # #otherwise simple MD
-    # else:
-    #     tag_MD(output_stanford, output_MD, extended=check_button_state)
-    # do_counts(output_MD, output_stats, ttr)
-
     input_dir = folder_selected + "/"
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
     output_stanford = output_main + "StanfordPOS_Tagged/"
