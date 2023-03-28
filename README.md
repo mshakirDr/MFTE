@@ -39,3 +39,5 @@ url = {https://github.com/mshakirDr/MFTE},
 version = {1.0},
 year = {2023}
 }`
+# License
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
