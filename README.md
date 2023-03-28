@@ -5,9 +5,9 @@ MFTE is the Python version of the extended [Multi-Feature Tagger of English (MFT
 The software can be used by installing Python and the required packages. Install Python using `anaconda` and then install the required packages. The following are the current dependencies:\
 `pip install pandas emoji stanza`\
 After installing the dependencies, just download the two Python files `MFTE.py` and `MFTE_gui.py`. You can use the following command to run the GUI version:\
-`python path\to\MFTE\MFTE_gui.py`\
+`python "path\to\MFTE\MFTE_gui.py"`\
 Or otherwise commandline version can be run as follows with default options:\
-`python path\to\MFTE\MFTE.py --path "/path/to/corpus/"`\
+`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/"`\
 The GUI version for Windows can be downloaded as a single executable from the following link. There is no need to install anything else.\
 [Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
 
