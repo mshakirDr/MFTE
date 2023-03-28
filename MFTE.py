@@ -17,6 +17,7 @@ import stanza
 import multiprocessing
 import timeit
 import tqdm
+import argparse
 
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
@@ -1936,23 +1937,60 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     #     f.write("\n".join(tags))
     #     break    
 
-if __name__ == "__main__":
-    input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/COCA/COCA_test2/"
-    # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-    # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+def call_MFTE(args) -> None:
+    """Call MFTE functions when CLI agruments are present
+
+    Args:
+        args : parser.parse_args() for selected features
+    """
+        
+    input_dir = args.path
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
     output_stanford = output_main + "StanfordPOS_Tagged/"
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
-    ttr = 400
+    ttr = args.ttr
     t_0 = timeit.default_timer()
     tag_stanford_stanza(input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
-    #tag_MD(output_stanford, output_MD, extended=True)
-    tag_MD_parallel(output_stanford, output_MD, extended=False)
+    
+    if args.parallel_md_tagging:
+        tag_MD_parallel(output_stanford, output_MD, extended=args.extended)
+    else:
+        tag_MD(output_stanford, output_MD, extended=args.extended)
+
     do_counts(output_MD, output_stats, ttr)
+
+
+if __name__ == "__main__":
+    #get command line arguments
+    parser = argparse.ArgumentParser(description='Optional command line arguments to run the software from terminal.')
+    parser.add_argument('--path', type=str, help='path to the text files folder')
+    parser.add_argument('--ttr', type=int, default=400, help='Number of words to calculate type token ratio; default is 400')
+    parser.add_argument('--extended', default=True, type=bool, help='enable extended mode True or False; default is True')
+    parser.add_argument('--parallel_md_tagging', default=True, type=bool, help='enable parallel MD tagging True or False; default is False')
+    args = parser.parse_args()
+    if args.path:
+        call_MFTE(args)
+    else:
+        input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/COCA/COCA_test2/"
+        # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
+        # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
+        output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+        output_stanford = output_main + "StanfordPOS_Tagged/"
+        output_MD = output_main + "MFTE_Tagged/"
+        output_stats = output_main + "Statistics/"
+        ttr = 400
+        t_0 = timeit.default_timer()
+        tag_stanford_stanza(input_dir, output_stanford)
+        t_1 = timeit.default_timer()
+        elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+        print("Time spent on tagging process (micro seconds):", elapsed_time)
+        #tag_MD(output_stanford, output_MD, extended=True)
+        tag_MD_parallel(output_stanford, output_MD, extended=False)
+        do_counts(output_MD, output_stats, ttr)
 
 # if __name__ == "__main__":
 #     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
