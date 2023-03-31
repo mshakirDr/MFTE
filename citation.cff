@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Le Foll"
+  given-names: "Elen"
+  orcid: "https://orcid.org/0000-0002-5839-8010"
+- family-names: "Shakir"
+  given-names: "Muhammad"
+  orcid: "https://orcid.org/0000-0001-8047-1168"
+title: "MFTE Python"
+version: 1.0
+date-released: 2023-4-1
+url: "https://github.com/mshakirDr/MFTE"
