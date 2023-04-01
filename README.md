@@ -22,7 +22,7 @@ Please refer to `List_Features_MFTE_python_1.4.xlsx` for feature descriptions.
 TBD
 
 # Acknowledgement
-This project has been partially funded by the Deutsche Forschungsgemein-schaft (DFG, German Research Foundation) grant number 452561886.
+This project has been partially funded by Deutsche Forschungsgemein-schaft (DFG, German Research Foundation) grant number 452561886.
 
 # Citation
 
