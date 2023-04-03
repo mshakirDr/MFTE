@@ -1,4 +1,4 @@
-# MFTE
+# Multi-Feature Tagger of English (MFTE)
 The MFTE is a Python version of the extended [Multi-Feature Tagger of English (MFTE)](https://github.com/mshakirDr/MultiFeatureTaggerEnglish) based on [Le Foll's (2021) version of MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish) written in Perl. This improved and extended Python version includes semantic tags from Biber (2006) and Biber et al. (1999), including additional tags, e.g., separate tags for third person singular male and female pronouns. This tagger uses `stanza` for grammatical tagging and rule-based regular expressions to tag for multidimensional analysis related features.
 
 # Installation
