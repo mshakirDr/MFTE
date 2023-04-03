@@ -16,13 +16,13 @@ The usage of the software is straightforward as the screenshot below shows. Just
 ![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
 
 # Tag descriptions
-Please refer to `List_Features_MFTE_python_1.4.xlsx` for feature descriptions.
+Please refer to `List_Features_MFTE_python_1.4.xlsx` for feature descriptions (work in progress).
 
 # Evaluation
 TBD
 
 # Acknowledgement
-This project has been partially funded by Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
+This project has been partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
 
 # Citation
 
