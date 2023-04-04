@@ -75,6 +75,8 @@ Biber, Douglas (1988). Variation across speech and writing. Cambridge: Cambridge
 
 Biber, Douglas (1995). Dimensions of Register Variation. Cambridge, UK: Cambridge University Press.
 
+Biber, D. (2006). University language: A corpus-based study of spoken and written registers. Benjamins.
+
 Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999). Longman Grammar of Spoken and Written English. Longman Publications Group.
 
 Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensional Studies (Studies in Language and Linguistics). New York: Routledge.
