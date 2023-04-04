@@ -27,15 +27,22 @@ TBD
 This project has been partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
 
 ## Helpful colleagues in the development of MFTE Perl
-I would like to thank Peter Uhrig and Michael Franke for supervising my M.Sc. thesis on the development and evaluation of the MFTE. Many thanks to Andrea Nini for releasing the MAT under an open-source licence. Heartfelt thanks also go to Stefanie Evert, Muhammad Shakir, and Luke Tudge who contributed advice and code in various ways (see comments in code for details) and to Larissa Goulart for her insights into the Biber Tagger. Finally, I would also like to thank Dirk Siepmann for supporting this project.
+Special thanks Peter Uhrig and Michael Franke for supervising Elen's M.Sc. thesis on the development and evaluation of the MFTE. Many thanks to Andrea Nini for releasing the MAT under an open-source licence. Heartfelt thanks also go to Stefanie Evert and Luke Tudge who contributed advice and code in various ways (see comments in code for details) and to Larissa Goulart for her insights into the Biber Tagger. Finally, Elen would also like to thank Dirk Siepmann for supporting this project.
 
 # Citation
 
 ## APA
+
+### MFTE Python
 Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software]. https://github.com/mshakirDr/MFTE
+
+### Stanza
+Qi, P., Zhang, Y., Zhang, Y., Bolton, J., & Manning, C. D. (2020). Stanza: A Python Natural Language Processing Toolkit for Many Human Languages. https://doi.org/10.48550/ARXIV.2003.07082
+
 
 ## Bibtex
 
+### MFTE Python
 `@software{Le_Foll_MFTE_Python_2023,
 author = {Le Foll, Elen and Shakir, Muhammad},
 month = {4},
@@ -44,5 +51,18 @@ url = {https://github.com/mshakirDr/MFTE},
 version = {1.0},
 year = {2023}
 }`
+
+### Stanza
+`@article{qi_stanza_2020,
+	title = {Stanza: A Python Natural Language Processing Toolkit for Many Human Languages},
+	doi = {10.48550/ARXIV.2003.07082},
+	shorttitle = {Stanza},
+	author = {Qi, Peng and Zhang, Yuhao and Zhang, Yuhui and Bolton, Jason and Manning, Christopher D.},
+	urldate = {2023-04-04},
+	date = {2020},
+}`
+
+
+
 # License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
