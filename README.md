@@ -63,6 +63,24 @@ year = {2023}
 }`
 
 
-
 # License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+# References
+Biber, Douglas (1984). A model of textual relations within the written and spoken modes. University of Southern California. Unpublished PhD thesis.
+
+Biber, Douglas (1988). Variation across speech and writing. Cambridge: Cambridge University Press.
+
+Biber, Douglas (1995). Dimensions of Register Variation. Cambridge, UK: Cambridge University Press.
+
+Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999). Longman Grammar of Spoken and Written English. Longman Publications Group.
+
+Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensional Studies (Studies in Language and Linguistics). New York: Routledge.
+
+Le Foll, Elen (2021). A New Tagger for the Multi-Dimensional Analysis of Register Variation in English. Osnabrück University: Institute of Cognitive Science Unpublished M.Sc. thesis.
+
+Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). http://sites.google.com/site/multidimensionaltagger.
+
+Nini, Andrea (2019). The Muli-Dimensional Analysis Tagger. In Berber Sardinha, T. & Veirano Pinto M. (eds), Multi-Dimensional Analysis: Research Methods and Current Issues, 67-94, London; New York: Bloomsbury Academic.
+
+Toutanova, Kristina, Dan Klein, Christopher D Manning & Yoram Singer (2003). Feature-rich part-of-speech tagging with a cyclic dependency network. In, 173–180. Association for Computational Linguistics.
