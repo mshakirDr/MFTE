@@ -21,8 +21,13 @@ Please refer to `List_Features_MFTE_python_1.4.xlsx` for feature descriptions (w
 # Evaluation
 TBD
 
-# Acknowledgement
+# Acknowledgements
+
+## Funding
 This project has been partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
+
+## Helpful colleagues in the development of MFTE Perl
+I would like to thank Peter Uhrig and Michael Franke for supervising my M.Sc. thesis on the development and evaluation of the MFTE. Many thanks to Andrea Nini for releasing the MAT under an open-source licence. Heartfelt thanks also go to Stefanie Evert, Muhammad Shakir, and Luke Tudge who contributed advice and code in various ways (see comments in code for details) and to Larissa Goulart for her insights into the Biber Tagger. Finally, I would also like to thank Dirk Siepmann for supporting this project.
 
 # Citation
 
