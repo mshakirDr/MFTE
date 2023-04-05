@@ -13,30 +13,27 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
 
 # Usage
-The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the button. Once you click OK, the software begins with the part-of-speech tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder with preserves the name of the original folder complemented by `_MFTE` as a suffix. 
+The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder with preserves the name of the original folder complemented by `_MFTE` as a suffix. 
+
+![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
 
 By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text.
 
 The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions).
 
 # Feature descriptions
-The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to `List_Features_MFTE_python_1.4.xlsx` and [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
+The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the `List_Features_MFTE_python_1.4.xlsx` and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
 
-[Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf) is a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) on 5 November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers (see Le Foll 2021b: chap. 3). The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
+Further information can be be found in [Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf), a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) in November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers. The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
 
 # Outputs
 
-This folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The `Statistics` folder is your go-to folder which contains the tag counts in different formats: raw counts (raw frequencies) and word-based normed (based on 100 words), mixed normed (based on 100 finite verb phrases, 100 nouns, or 100 words, depending on the type of feature, see `List_Features_MFTE_python_1.4.xlsx`).
-![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
-
-Tagged texts are stored under the same names in the folder ```tagged_txt/```.
-
-Feature counts are extracted as TAB-separated tables. Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
-1.	```[prefix]_normed_complex_counts.tsv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the List of Features)
+The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The first two folders contain the tagged texts with which you can check the accuracy of the tagging process. The `Statistics` folder is your go-to folder to further analyses. It contains feature counts in the form of TAB-separated-values files (`.tsv`). Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
+1.	```[prefix]_normed_complex_counts.tsv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the `List_Features_MFTE_python_1.4.xlsx`)
 2.	```[prefix]_normed_100words_counts.tsv```            Feature frequencies normalised to 100 words
 3.	```[prefix]_raw_counts.tvs```                         Raw (unnormalised) feature counts
 
-Note that the MFTE only tags and computes count tallies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using EFA and PCA on the basis of the outputs of the MFTE will soon be added to this repository.
+Note that the MFTE only tags and computes count tallies and relative frequencies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using EFA and PCA on the basis of the outputs of the MFTE will soon be added to this repository.
 
 # Evaluation
 TBD
