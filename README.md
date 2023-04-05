@@ -13,7 +13,7 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
 
 # Usage
-The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder with preserves the name of the original folder complemented by `_MFTE` as a suffix. 
+The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
 
 ![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
 
@@ -28,10 +28,10 @@ Further information can be be found in [Introducing the MFTE Perl](https://githu
 
 # Outputs
 
-The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The first two folders contain the tagged texts with which you can check the accuracy of the tagging process. The `Statistics` folder is your go-to folder to further analyses. It contains feature counts in the form of TAB-separated-values files (`.tsv`). Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
-1.	```[prefix]_normed_complex_counts.tsv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the `List_Features_MFTE_python_1.4.xlsx`)
-2.	```[prefix]_normed_100words_counts.tsv```            Feature frequencies normalised to 100 words
-3.	```[prefix]_raw_counts.tvs```                         Raw (unnormalised) feature counts
+The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The first two folders contain the tagged texts with which you can check the accuracy of the tagging process. The `Statistics` folder is your go-to folder to further analyses. It contains feature counts in the form of comma-separated-values files (`.csv`). Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
+1.	```[prefix]_normed_complex_counts.csv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the `List_Features_MFTE_python_1.4.xlsx`)
+2.	```[prefix]_normed_100words_counts.csv```            Feature frequencies normalised to 100 words
+3.	```[prefix]_raw_counts.csv```                         Raw (unnormalised) feature counts
 
 Note that the MFTE only tags and computes count tallies and relative frequencies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using EFA and PCA on the basis of the outputs of the MFTE will soon be added to this repository.
 
