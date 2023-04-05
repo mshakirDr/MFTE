@@ -33,18 +33,14 @@ Special thanks Peter Uhrig and Michael Franke for supervising Elen's M.Sc. thesi
 
 # Citation
 
-## APA
+MFTE can be cited as follows:
 
-### MFTE Python
+### APA
+
 Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software]. https://github.com/mshakirDr/MFTE
 
-### Stanza
-Qi, P., Zhang, Y., Zhang, Y., Bolton, J., & Manning, C. D. (2020). Stanza: A Python Natural Language Processing Toolkit for Many Human Languages. https://doi.org/10.48550/ARXIV.2003.07082
+### Bibtex
 
-
-## Bibtex
-
-### MFTE Python
 `@software{Le_Foll_MFTE_Python_2023,
 author = {Le Foll, Elen and Shakir, Muhammad},
 month = {4},
@@ -54,7 +50,13 @@ version = {1.0},
 year = {2023}
 }`
 
-### Stanza
+Please also cite Stanza.
+
+### APA
+
+Qi, P., Zhang, Y., Zhang, Y., Bolton, J., & Manning, C. D. (2020). Stanza: A Python Natural Language Processing Toolkit for Many Human Languages. https://doi.org/10.48550/ARXIV.2003.07082
+
+### Bibtex
 `@article{qi_stanza_2020,
 	title = {Stanza: A Python Natural Language Processing Toolkit for Many Human Languages},
 	doi = {10.48550/ARXIV.2003.07082},
@@ -87,4 +89,4 @@ Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). http://sites.google
 
 Nini, Andrea (2019). The Muli-Dimensional Analysis Tagger. In Berber Sardinha, T. & Veirano Pinto M. (eds), Multi-Dimensional Analysis: Research Methods and Current Issues, 67-94, London; New York: Bloomsbury Academic.
 
-Toutanova, Kristina, Dan Klein, Christopher D Manning & Yoram Singer (2003). Feature-rich part-of-speech tagging with a cyclic dependency network. In, 173–180. Association for Computational Linguistics.
+Qi, P., Zhang, Y., Zhang, Y., Bolton, J., & Manning, C. D. (2020). Stanza: A Python Natural Language Processing Toolkit for Many Human Languages. https://doi.org/10.48550/ARXIV.2003.07082
