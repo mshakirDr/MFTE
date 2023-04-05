@@ -64,7 +64,7 @@ def stanza_pre_processing (text: str)-> str:
     Returns:
         text (str): Text after applying preprocessing (mainly regular expression find and replace)
     """
-    #Split cannot to 2 words for better tagging with stanza
+    #Split cannot, gonna, wanna and contracted verb forms to two words for better tagging with stanza
     text = re.sub("\\bcannot\\b", "can not", text, flags=re.IGNORECASE)
     text = re.sub("\\bgonna\\b", "gon na", text, flags=re.IGNORECASE)
     text = re.sub("\\bwanna\\b", "wan na", text, flags=re.IGNORECASE)
@@ -210,7 +210,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
     function_words = "(a|about|above|after|again|ago|ai|all|almost|along|already|also|although|always|am|among|an|and|another|any|anybody|anything|anywhere|are|are|around|as|at|back|be|been|before|being|below|beneath|beside|between|beyond|billion|billionth|both|but|by|can|can|could|cos|cuz|did|do|does|doing|done|down|during|each|eight|eighteen|eighteenth|eighth|eightieth|eighty|either|eleven|eleventh|else|enough|even|ever|every|everybody|everyone|everything|everywhere|except|far|few|fewer|fifteen|fifteenth|fifth|fiftieth|fifty|first|five|for|fortieth|forty|four|fourteen|fourteenth|fourth|from|get|gets|getting|got|had|has|have|having|he|hence|her|here|hers|herself|him|himself|his|hither|how|however|hundred|hundredth|i|if|in|into|is|it|its|itself|just|last|less|many|may|me|might|million|millionth|mine|more|most|much|must|my|myself|near|near|nearby|nearly|neither|never|next|nine|nineteen|nineteenth|ninetieth|ninety|ninth|no|nobody|none|noone|nor|not|nothing|now|nowhere|of|off|often|on|once|one|only|or|other|others|ought|our|ours|ourselves|out|over|quite|rather|round|second|seven|seventeen|seventeenth|seventh|seventieth|seventy|shall|sha|she|should|since|six|sixteen|sixteenth|sixth|sixtieth|sixty|so|some|somebody|someone|something|sometimes|somewhere|soon|still|such|ten|tenth|than|that|that|the|their|theirs|them|themselves|then|thence|there|therefore|these|they|third|thirteen|thirteenth|thirtieth|thirty|this|thither|those|though|thousand|thousandth|three|thrice|through|thus|till|to|today|tomorrow|too|towards|twelfth|twelve|twentieth|twenty|twice|two|under|underneath|unless|until|up|us|very|was|we|were|what|when|whence|where|whereas|which|while|whither|who|whom|whose|why|will|with|within|without|wo|would|yes|yesterday|yet|you|your|yours|yourself|yourselves|'re|'ve|n't|'ll|'twas|'em|y'|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|1|2|3|4|5|6|7|8|9|0)"
 
 
-    # QUICK CORRECTIONS OF STANFORD POS TAGGER OUTPUT
+    # QUICK CORRECTIONS OF POS TAGGER OUTPUT
     for index, x in enumerate(words):
         #skip if space
         if x != " ":
@@ -273,7 +273,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if (re.search("\\bnot_|\\bn't_|\\bn’t_|\\bnt_RB", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_XX0", words[index])
 
-    # SLIGHTLY MORE COMPLEX CORRECTIONS OF STANFORD TAGGER OUTPUT
+    # SLIGHTLY MORE COMPLEX CORRECTIONS OF POS TAGGER OUTPUT
 
     for j, value in enumerate(words):
         
@@ -290,30 +290,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if (re.search(":-RRB-_|:d_|:-LRB-_|:p_|:--RRB-_|:-RSB-_|\\bd:_|:'-LRB-_|:--LRB-_|:-d_|:-LSB-_|-LSB-:_|:-p_|:\/_|:P_|:D_|=-RRB-_|=-LRB-_|:-D_|:-RRB--RRB-_|:O_|:]_|:-LRB--LRB-_|:o_|:-O_|:-o_|;--RRB-_|;-\*|':--RRB--LRB-_|:-B_|8--RRB-_|=\|_|:-\|_|<3_|<\/3_|:P_|;P_|\\bOrz_|\\borz_|\\bXD_|\\bxD_|\\bUwU_|;-\)_|;-\*_|:-\(_|:-\)|;-\(_|:-\(\(_|:-\)\)_|:--\(_|:--\)_|\(ツ|\\b8-\)_|\S\S+_NFP", words[j]) and not re.search("@!_|\.\.\.", words[j])):
                 words[j] = re.sub("_\S+", "_EMO", words[j])
 
-            # For emoticons where each character is parsed as an individual token. 
-            # N.B.: No longer needed with stanza POS tagging (was necessary with previously used POS tagger)
-            # The aim here is to only have one EMO tag per emoticon and, if there are any letters in the emoticon, for the EMO tag to be placed on the letter to overwrite any erroneous NN, FW or LS tags from the Stanford Tagger:
-            
-            # if ((re.search(":_\W+|;_\W+|=_", words[j]) and re.search("\/_\W+|\\_\W+", words[j+1])) or
-            #(re.search(":_|;_|=_", words[j]) and re.search("-LRB-|-RRB-|-RSB-|-LSB-", words[j+1])) or # This line can be used to improve recall when tagging internet registers with lots of emoticons but is not recommended for a broad range of registers since it will cause a serious drop in precision in registers with a lot of punctuation, e.g., academic English.
-            # (re.search("\\bd_|\\bp_", words[j], re.IGNORECASE) and re.search(":_", words[j+1])) or
-            # (re.search(":_\W+|;_\W+|\\b8_", words[j-2]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j-1]) and re.search("-LRB-|-RRB-|\\b\_|\\b\/_|\*_", words[j]))):
-            #     words[j] = re.sub("_\w+", "_EMO", words[j])
-            #     words[j] = re.sub("_(\W+)", "_EMO", words[j])
-
-            # For other emoticons where each character is parsed as an individual token and the letters occur in +1 position.
-            # if ((re.search("\\b<_", words[j]) and re.search("\\b3_", words[j+1])) or
-            #(re.search(":_|;_|=_", words[j]) and re.search("\\bd_|\\bp_|\\bo_|\\b3_", words[j+1], re.IGNORECASE)) or # # These two lines may be used to improve recall when tagging internet registers with lots of emoticons but is not recommended for a broad range of registers since it will cause a serious drop in precision in registers with a lot of punctuation, e.g., academic English.
-            #(re.search("-LRB-|-RRB-|-RSB-|-LSB-", words[j]) and re.search(":_|;_", words[j+1])) or 
-            # (re.search(">_", words[j-1]) and re.search(":_", words[j]) and re.search("-LRB-|-RRB-|\\bD_", words[j+1])) or
-            # (re.search("\^_", words[j]) and re.search("\^+_", words[j+1])) or
-            # (re.search(":_\W+", words[j]) and re.search("\\bo_|\\b-_", words[j+1], re.IGNORECASE) and re.search("-LRB-|-RRB-", words[j+2])) or
-            # (re.search("<_", words[j-1]) and re.search("\/_", words[j]) and re.search("\\b3_", words[j+1])) or
-            # (re.search(":_\W+|\\b8_|;_\W+|=_", words[j-1]) and re.search("\\b-_|'_|-LRB-|-RRB-", words[j]) and re.search("\\bd_|\\bp_|\\bo_|\\bb_|\\b\|_|\\b\/_", words[j+1], re.IGNORECASE) and not re.search("-RRB-", words[j+2]))):
-            #     words[j+1] = re.sub("_\w+", "_EMO", words[j+1])
-            #     words[j+1] = re.sub("_(\W+)", "_EMO", words[j+1])
-
-            # Correct double punctuation such as ?! and !? (often tagged by the Stanford Tagger as a noun or foreign word) 
+            # Correct double punctuation such as ?! and !? (often tagged by the POS-tagger as a noun or foreign word) 
             if (re.search("[\?\!]{2,15}", words[j])):
                 words[j] = re.sub("_(\W+)", "_.", words[j])
                 words[j] = re.sub("_(\w+)", "_.", words[j])
@@ -338,7 +315,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_\w+", "_VPRT", words[j])
 
             # ELF: Correction of most problematic spoken language particles
-            # ELF: DMA is a new variable. It is important for it to be high up because lots of DMA's are marked as nouns by the Stanford Tagger which messes up other variables further down the line otherwise. 
+            # ELF: DMA is a new variable. It is important for it to be high up because lots of DMA's are marked as nouns by the POS-tagger which messes up other variables further down the line otherwise. 
             # More complex DMAs are tagged further down.
             if (re.search("\\bactually_|\\banyway|\\bdamn_|\\bgoodness_|\\bgosh_|\\byeah_|\\byep_|\\byes_|\\bnope_|\\bright_UH|\\bwhatever_|\\bdamn_RB|\\blol_|\\bIMO_|\\bomg_|\\bwtf_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_DMA", words[j])
@@ -351,7 +328,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if (re.search("\\bhm+|\\bHm+", words[j])):
                 words[j] = re.sub("_(\w+)", "_FPUH", words[j])
 
-            # ELF: Added a new "bin" variable for "so" as tagged as a preposition (IN) or adverb (RB) by the Stanford Tagger 
+            # ELF: Added a new "bin" variable for "so" as tagged as a preposition (IN) or adverb (RB) by the POS-tagger 
             # because it most often does not seem to be a preposition/conjunct (but rather a filler, amplifier, etc.) and should therefore not be added to the preposition count.
 
             if (re.search("\\bso_IN|\\bso_RB", words[j], re.IGNORECASE)):
@@ -360,10 +337,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags quantifiers 
             # ELF: Note that this variable is used to identify several other features. 
             # ELF: added "any", "lots", "loada" and "a lot of" and gave it its own loop because it is now more complex and must be completed before the next set of for-loops. Also added "most" except when later overwritten as an EMPH.
-            # ELF: Added "more" and "less" when tagged by the Stanford Tagger as adjectives (JJ.*).
+            # ELF: Added "more" and "less" when tagged by the POS-tagger as adjectives (JJ.*).
             # ELF: Also added "load(s) of" and "heaps of" on DS's recommendation
-
-            # ELF: Getting rid of the Stanford Tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
+            # ELF: Getting rid of the POS-tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
             if ((re.search("_PDT", words[j], re.IGNORECASE)) or 
             (re.search("\\ball_|\\bany_|\\bbillions_|\\bboth_|\\bdozens_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|hundreds_|\\bmany_|\\bmillions_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|thousands_|\\bwee_|\\bzillions_", words[j], re.IGNORECASE))or
             (re.search("\\bload_|\\bcouple_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
@@ -386,7 +362,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             if ((re.search("\\bno_", words[j], re.IGNORECASE) and not re.search("_V", words[j]) and not re.search("_J|_NN|\\bless_", words[j+1])) or # This avoid a conflict with the synthetic negation variable and leaves the "no" in "I dunno" as a present tense verb form and "no" from "no one".
             (re.search("_\W|FPUH_", words[j-1]) and re.search("\\bright_|\\bokay_|\\bok_", words[j], re.IGNORECASE)) or # Right and okay immediately proceeded by a punctuation mark or a filler word
-            (not re.search("\\bas_|\\bhow_|\\bvery_|\\breally_|\\bso_|\\bquite_|_V", words[j-1], re.IGNORECASE) and re.search("\\bwell_JJ|\\bwell_RB|\\bwell_NNP|\\bwell_UH", words[j], re.IGNORECASE) and not re.search("_JJ|_RB|-_", words[j+1])) or # Includes all forms of "well" except as a singular noun assuming that the others are mistags of DMA well's by the Stanford Tagger.
+            (not re.search("\\bas_|\\bhow_|\\bvery_|\\breally_|\\bso_|\\bquite_|_V", words[j-1], re.IGNORECASE) and re.search("\\bwell_JJ|\\bwell_RB|\\bwell_NNP|\\bwell_UH", words[j], re.IGNORECASE) and not re.search("_JJ|_RB|-_", words[j+1])) or # Includes all forms of "well" except as a singular noun assuming that the others are mistags of DMA well's by the POS-tagger.
             (not re.search("\\bmakes_|\\bmake_|\\bmade_|\\bmaking_|\\bnot|_\\bfor_|\\byou_|\\b(" + be + ")", words[j-1], re.IGNORECASE) and re.search("\\bsure_JJ|\\bsure_RB", words[j], re.IGNORECASE)) or # This excludes MAKE sure, BE sure, not sure, and for sure
             (re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bcourse_", words[j], re.IGNORECASE)) or
             (re.search("\\ball_", words[j-1], re.IGNORECASE) and re.search("\\bright_", words[j], re.IGNORECASE)) or
@@ -404,7 +380,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             #----------------------------------------------------    
             
-            # Manually add okay as a predicative adjective (JJPR) because "okay" and "ok" are often tagged as foreign words by the Stanford Tagger. All other predicative adjectives are tagged at the very end.
+            # Manually add okay as a predicative adjective (JJPR) because "okay" and "ok" are often tagged as foreign words by the POS-tagger. All other predicative adjectives are tagged at the very end.
 
             if (re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE) and re.search("\\bok_|okay_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_JJPR", words[j])
@@ -413,7 +389,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags elaborating conjunctions (ELAB)
             # ELF: This is a new variable.
-
             # ELF: added the exception that "that" should not be a determiner. Also added "in that" and "to the extent that" on DS's advice.  
 
             if ((re.search("\\bsuch_", words[j-1], re.IGNORECASE) and re.search("\\bthat_", words[j]) and not re.search("_DT", words[j])) or
@@ -446,8 +421,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (not re.search("\\bleast_", words[j-1], re.IGNORECASE) and re.search("\\bas_", words[j], re.IGNORECASE) and re.search("\\bwell_", words[j+1], re.IGNORECASE)) or # Excludes "at least as well" but includes "as well as"
             (re.search("_\W", words[j-1]) and re.search("\\belse_|\\baltogether_|\\brather_", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_CC", words[j])
-
-
+            
+            # Second loop for coordinating conjunctions
             if ((re.search("\\bby_", words[j-1], re.IGNORECASE) and re.search("\\bcontrast_|\\bcomparison_", words[j], re.IGNORECASE)) or
             (re.search("\\bin_", words[j-1], re.IGNORECASE) and re.search("\\bcomparison_|\\bcontrast_|\\baddition_", words[j], re.IGNORECASE)) or
             (re.search("\\bon_", words[j-2], re.IGNORECASE) and re.search("\\bthe_", words[j-1]) and re.search("\\bcontrary_", words[j], re.IGNORECASE)) or
@@ -458,6 +433,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags causal conjunctions     
             # ELF added: cos, cus, coz, cuz and 'cause (a form spotted in one textbook of the TEC!) plus all the complex forms below.
+            # ELF: Note that this operationalisation does not attempt to include "for".
             if ((re.search("\\bbecause_|\\bcos_|\\bcos\._|\\bcus_|\\bcuz_|\\bcoz_|\\b'cause_", words[j], re.IGNORECASE)) or
             (re.search("\\bconsequently_|\\bhence_|\\btherefore_", words[j], re.IGNORECASE)) or
             (re.search("\\bthanks_", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1], re.IGNORECASE)) or
@@ -476,7 +452,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags conditional conjunctions
             # ELF: added "lest" on DS's suggestion. Added "whether" on PU's suggestion.
-
             if (re.search("\\bif_|\\bunless_|\\blest_|\\botherwise_|\\bwhether_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_COND", words[j])
 
@@ -510,7 +485,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Feature from the MAT/Biber Tagger.
             # Tags phrasal coordination with "and", "or" and "nor". 
-            # ELF: Not currently in use due to low precision and recall (see perl tagger performance evaluation).
+            # ELF: Not currently in use due to poor precision and recall (see Perl MFTE performance evaluation).
             #if ((re.search("\\band_|\\bor_|&_|\\bnor_", words[j], re.IGNORECASE)) and
             # ((re.search("_RB", words[j-1]) and re.search("_RB", words[j+1])) or
             #(re.search("_J", words[j-1]) and re.search("_J", words[j+1])) or
@@ -536,8 +511,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 
         #---------------------------------------------------
 
-        # ELF: Regex for question tags. New variable in MFTE.
-
+        # ELF: Regex for question tags. New variable.
             if ((not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and re.search("_MD|\\bdid_|\\bhad_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\?_\\.", words[j])) or # couldn't he?
             (not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-3], re.IGNORECASE) and re.search("_MD|\\bdid_|\\bhad_|\\bdo_", words[j-2], re.IGNORECASE) and re.search("_PRP|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_|\\byou_", words[j-1]) and re.search("\\?_\\.", words[j])) or # did they?
             (not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas|\\bdo_", words[j-3], re.IGNORECASE) and re.search("_XX0", words[j-2]) and re.search("\\bit_|\\bshe_|\\bhe_|\\bthey_", words[j-1], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # isn't it?
@@ -556,7 +530,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             #---------------------------------------------------    
             # Tags yes/no inverted questions (YNQU)
-            # ELF: New variable and new operationalistion for python version with tags added to the question marks as opposed to the verbs
+            # ELF: New variable and new operationalistion for the Python MFTE with tags added to the question marks as opposed to the verbs
             # Note that, at this stage in the script, DT still includes demonstrative pronouns which is good. 
             # Also _P, at this stage, only includes PRP, and PPS (i.e., not yet any of the new verb variables which should not be captured here)
             
@@ -577,10 +551,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
             # Tags passives 
-            # ELF: merged Biber's BYPA and PASS categories together into one and changed the original coding procedure on its head: this script now tags the past participles rather than the verb BE. It also allows for mistagging of -ed past participle forms as VBD by the Stanford Tagger.
+            # ELF: merged Biber's BYPA and PASS categories together into one and changed the original coding procedure on its head: 
+            # This regex now tags the past participles rather than the verb BE. It also allows for mistagging of -ed past participle forms as VBD by the POS tagger.
             # ELF: I am including most "'s_VBZ" as a possible form of the verb BE here but later on overriding many instances as part of the PEAS variable.    
 
-            if (re.search("_VBN|ed_VBD|en_VBD", words[j])): # Also accounts for past participle forms ending in "ed" and "en" mistagged as past tense forms (VBD) by the Stanford Tagger
+            if (re.search("_VBN|ed_VBD|en_VBD", words[j])): # Also accounts for past participle forms ending in "ed" and "en" mistagged as past tense forms (VBD) by the POS-tagger
 
                 if ((re.search("\\b(" + be + ")", words[j-1], re.IGNORECASE)) or # is eaten 
                 #(re.search("s_VBZ", words[j-1], re.IGNORECASE) and re.search("\\bby_", words[j+1])) or # This line enables the passive to be preferred over present perfect if immediately followed by a "by"
@@ -611,7 +586,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #----------------------------------------------------
 
             # Tags synthetic negation 
-            # ELF: I'm merging this category with Biber's original analytic negation category (XX0) so I've had to move it further down in the script so it doesn't interfere with other complex tags
+            # ELF: Merged this category with Biber's original analytic negation category (XX0)
+            # Hence had to move it further down in the script so it doesn't interfere with other complex tags
             if ((re.search("\\bno_", words[j], re.IGNORECASE) and re.search("_J|_NN|\\blonger_|\\bmore_|\\bneed_|\\bdoubt_|\\bpoint_|\\breason_|\\bsuch_|\\bproblem_|\\bmatter_|\\bmeans_", words[j+1])) or
             (re.search("\\bneither_", words[j], re.IGNORECASE)) or
             (re.search("\\bnor_", words[j], re.IGNORECASE))):
@@ -644,12 +620,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # words[j] = re.sub("_(\w+)", "_\\1 [STPR]", words[j])
 
             # Tags stranded prepositions
-            # ELF: completely changed Nini's regex because it relied on PIN which is no longer a variable in use in the MFTE. 
+            # ELF: completely changed Nini's regex because it relied on PIN which is no longer a variable in use in the MFTE.
+            # ELF: Remains a problematic feature with a fairly low recall and precision. 
             if (re.search("\\b(" + preposition + ")|\\bto_TO", words[j], re.IGNORECASE) and not re.search("_R", words[j]) and re.search("_\.", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_\\1 STPR", words[j])
 
             #---------------------------------------------------
-            # Tags imperatives (in a rather crude way). 
+            # Tags imperatives (in a rather crude way - check the evaluation for recall and precision rates). 
             # ELF: This is a new variable in the MFTE.
             if ((re.search("_\\.|:|-_NFP|_EMO|_FW|_SYM|_HST| $|\\bplease_|\\bPlease_|_-LRB-", words[j-1]) and re.search("_VB\\b", words[j]) and not re.search("\\bplease_|\\bthank_| DOAUX|\\b(" + be + ")", words[j], re.IGNORECASE) and not re.search("\\bI_|\\byou_|\\bwe_|\\bthey_|_NNP", words[j+1], re.IGNORECASE)) or # E.g., "This is a task. Do it." # Added _SYM and _FW because imperatives often start with bullet points which are not always recognised as such. Also added _EMO for texts that use emoji/emoticons instead of punctuation.
             (re.search("_-LRB-", words[j-1]) and re.search("see_VB\\b", words[j])) or # Addition for academic English e.g., (see Le Foll 2023: 23–25)
@@ -682,14 +659,14 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # ELF: Removed Biber's more detailed and, without manual adjustments, highly unreliable variables WHSUB, WHOBJ, THSUB, THVC, and TOBJ
             # Replaced them with much simpler variables (see Shakir's extended tagset for more finer-grained features). 
-            # It should be noted, however, that these variables rely much more on the Stanford Tagger which is far from perfect depending on the type of texts to be tagged. 
+            # It should be noted, however, that these variables rely much more on the POS-tagger which is far from perfect depending on the type of texts to be tagged. 
             # Thorough manual checks are therefore still highly recommended before using the counts of these variables!
             
-            # That-subordinate clauses other than relatives according to the Stanford Tagger  
+            # That-subordinate clauses other than relatives according to the POS-tagger  
             if (re.search("\\bthat_IN", words[j], re.IGNORECASE) and not re.search("_\W", words[j+1])):
                 words[j] = re.sub("_\w+", "_THSC", words[j])
 
-            # That-relative clauses according to the Stanford Tagger  
+            # That-relative clauses according to the POS-tagger  
             if (re.search("\\bthat_WDT", words[j], re.IGNORECASE) and not re.search("_\W", words[j+1])):
                 words[j] = re.sub("_\w+", "_THRC", words[j])
 
@@ -837,7 +814,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("ed_VBD|_VBN", words[j]) and re.search("_XX0|_EMPH|_DMA|_CC", words[j+1]) and re.search("_NN|\\bi_|\\bwe_|\\bhe_|\\bshe_|\\bit_P|\\bthey_", words[j-1]) and re.search("\\b(" + have + ")", words[j-2], re.IGNORECASE))): # hasn't he eaten?
                     words[j] = re.sub("_\w+", "_PEAS", words[j])
 
-            # This corrects some of the 'd wrongly identified as a modal "would" by the Stanford Tagger 
+            # This corrects some of the 'd wrongly identified as a modal "would" by the POS-tagger 
             if (re.search("'d_MD", words[j-1], re.IGNORECASE) and re.search("_VBN", words[j])): # He'd eaten
                 words[j-1] = re.sub("_\w+", "_VBD", words[j-1])
                 words[j] = re.sub("_\w+", "_PEAS", words[j])
@@ -846,7 +823,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j-1] = re.sub("_\w+", "_VBD", words[j-1])
                 words[j+1] = re.sub("_\w+", "_PEAS", words[j+1])
 
-            # This corrects some of the 'd wrongly identified as a modal "would" by the Stanford Tagger 
+            # This corrects some of the 'd wrongly identified as a modal "would" by the POS-tagger 
             if (re.search("\\bbetter_", words[j]) and re.search("'d_MD", words[j-1], re.IGNORECASE)):
                 words[j-1] = re.sub("_\w+", "_VBD", words[j-1])
 
@@ -872,7 +849,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     # ELF: added tag for the progressive aspect
     # Note that it's important that this tag has its own loop because it relies on GTO (going to + inf. constructions) having previously been tagged. 
-    # Note that this script overrides the _VBG Stanford tagger tag so that the VBG count now includes all (non-finite) -ing constructions *except* progressives and GOING-to constructions.
+    # Note that this script overrides the _VBG POS-tagger tag so that the VBG count now includes all (non-finite) -ing constructions *except* progressives and GOING-to constructions.
 
     for j, value in enumerate(words):
 
@@ -907,27 +884,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     #---------------------------------------------------
 
-    # Tags BE as main verb 
-    # ELF: Ensured that question tags are not being assigned this tag by adding the exceptions of QUTAG occurrences.
-
-    # for j, value in enumerate(words):
-
-    #     if value != " ":
-
-    #         if ((not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH|_CUZ|\\b(" + whw + ")", words[j+1]) and not re.search("QUTAG", words[j+1]) and not re.search("QUTAG|_PROG|_PASS", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3])) or
-
-    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and not re.search("_V|_PROG|_PASS", words[j+1]) and re.search("\W+_", words[j+2]) and not re.search(" QUTAG", words[j+2])) or # Who is Dinah? Ferrets are ferrets!
-
-    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")", words[j], re.IGNORECASE) and re.search("_XX0|_NN", words[j+2]) and not re.search("_V|_PROG|_PASS", words[j+2]) and re.search("\W+_", words[j+3]) and not re.search(" QUTAG", words[j+3])) or # London is not Paris.
-
-    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_RB|_EMPH|_NN", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|to_TO|_EMPH", words[j+2]) and not re.search("QUTAG|_PROG|_PASS|_V", words[j+2]) and not re.search("QUTAG|_PROG|_PASS", words[j+3]) and not re.search(" QUTAG|_PROG|_PASS", words[j+4])) or # She was so much frightened
-
-    #         (not re.search("_EX", words[j-2]) and not re.search("_EX", words[j-1]) and re.search("\\b(" + be + ")|\\bbeen_", words[j], re.IGNORECASE) and re.search("_RB|_XX0", words[j+1]) and re.search("_CD|_DT|_PRP|_J|_IN|_QUAN|_EMPH", words[j+2]) and not re.search(" QUTAG", words[j+2]) and not re.search(" QUTAG|_PROG|_PASS|_V", words[j+3]))):
-
-    #             words[j] = re.sub("_(\w+)", "_\\1 BEMA", words[j])
-
-    #---------------------------------------------------
-    
+    # Tags BE as main verb     
     # ELF: New operationalisation of BE as main verb (as of the Python version)
 
     # Starting with BE as an auxilliary (BEAUX)
@@ -950,7 +907,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
     
     # Tags demonstratives 
     # ELF: New, much simpler variable. Also corrects any leftover "that_IN" and "that_WDT" to DEMO. 
-    # These have usually been falsely tagged by the Stanford Tagger, especially they end sentences, e.g.: Who did that?
+    # These have usually been falsely tagged by the POS-tagger, especially they end sentences, e.g.: Who did that?
 
     for j, value in enumerate(words):
 
@@ -976,13 +933,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for j, value in enumerate(words):
 
         if value != " ":
-
             if ((re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_DEMO|_PRP|_N|\\bhe_|\\bshe_|\\bI_|\\bi_|\\byou_|\\bwe_|\\bthey_|\\bit_", words[j+1]) and re.search("_MD|_V", words[j+2])) or
-            
             (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP|\\bhe_|\\bshe_|\\bI_|\\bi_|\\byou_|\\bwe_|\\bthey_|\\bit_", words[j+1]) and re.search("_N|_CD", words[j+2]) and re.search("_MD|_V", words[j+3])) or
-
             (re.search("\\b((" + public + ")|(" + private + ")|(" + suasive + "))", words[j], re.IGNORECASE) and re.search("_J|_RB|_DT|_QUAN|_CD|_PRP|\\bhe_|\\bshe_|\\bI_|\\bi_|\\byou_|\\bwe_|\\bthey_|\\bit_", words[j+1]) and re.search("_J", words[j+2]) and re.search("_N", words[j+3]) and re.search("_MD|_V", words[j+4]))):
-
                 words[j] = re.sub("_(\w+)", "_\\1 THATD", words[j])
 
     #---------------------------------------------------
@@ -1012,7 +965,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             if (re.search("\\bI_P|\\bme_|\\bmy_|\\bmyself_|\\bmine_|\\bi_SYM|\\bi_FW", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_PP1S", words[j])
-
 
             if ((re.search("\\bwe_|\\bour_|\\bourselves_|\\bours_|\\b's_PRP", words[j], re.IGNORECASE)) or
             (re.search("\\bus_P|\\bUs_P", words[j]))):
@@ -1051,14 +1003,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[j] = re.sub("_(\w+)", "_\\1 CONC", words[j])
 
             #---------------------------------------------------
-
             # Tags place adverbials 
             # ELF: added all the words from "downwind" onwards and excluded "there" tagged as an existential "there" as in "there are probably lots of bugs in this script". Also restricted above, around, away, behind, below, beside, inside and outside to adverb forms only.
             if (re.search("\\baboard_|\\babove_RB|\\babroad_|\\bacross_RB|\\bahead_|\\banywhere_|\\balongside_|\\baround_RB|\\bashore_|\\bastern_|\\baway_RB|\\bbackwards?|\\bbehind_RB|\\bbelow_RB|\\bbeneath_|\\bbeside_RB|\\bdownhill_|\\bdownstairs_|\\bdownstream_|\\bdownwards_|\\beast_|\\bhereabouts_|\\bindoors_|\\binland_|\\binshore_|\\binside_RB|\\blocally_|\\bnear_|\\bnearby_|\\bnorth_|\\bnowhere_|\\boutdoors_|\\boutside_RB|\\boverboard_|\\boverland_|\\boverseas_|\\bsouth_|\\bunderfoot_|\\bunderground_|\\bunderneath_|\\buphill_|\\bupstairs_|\\bupstream_|\\bupwards?|\\bwest_|\\bdownwind|\\beastwards?|\\bwestwards?|\\bnorthwards?|\\bsouthwards?|\\belsewhere|\\beverywhere|\\bhere_|\\boffshore|\\bsomewhere|\\bthereabouts?|\\bfar_RB|\\bfarther_|\\bthere_RB|\\bonline_|\\boffline_N", words[j], re.IGNORECASE) 
             and not re.search("_NNP", words[j])):
                 words[j] = re.sub("_\w+", "_PLACE", words[j])
 
-            if (re.search("\\bthere_P", words[j], re.IGNORECASE) and re.search("_MD", words[j+1])): # Correction of there + modals, e.g. there might be that option which are frequently not recognised as instances of there_EX by the Stanford Tagger
+            if (re.search("\\bthere_P", words[j], re.IGNORECASE) and re.search("_MD", words[j+1])): # Correction of there + modals, e.g. there might be that option which are frequently not recognised as instances of there_EX by the POS-tagger
                 words[j] = re.sub("_\w+", "_EX", words[j])
 
             #---------------------------------------------------
@@ -1115,10 +1066,6 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #if ((re.search("ing_NN", words[index], re.IGNORECASE) and re.search("\w{10,}", words[index])) or
             # (re.search("ings_NN", words[index], re.IGNORECASE) and re.search("\w{11,}", words[index]))):
                 #words[index] = re.sub("_\w+", "_GER", words[index])
-
-            # ELF added: pools together all proper nouns (singular and plural). Not currently in use since no distinction is made between common and proper nouns.
-            #if (re.search("_NNPS", words[index])):
-                # words[index] = re.sub("_\w+", "_NNP", words[index])
 
             # Tags predicative adjectives (JJPR) by joining all kinds of JJ (but not JJAT, see earlier loop)
             if (re.search("_JJS|_JJR|_JJ\\b", words[index])):
@@ -1743,11 +1690,11 @@ def process_file (file_dir_pair: tuple) -> None:
     return  "MD tagger tagged: " + file
 
 def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> None:
-    """Tags Stanford Tagger output files and writes in a directory names MD
+    """Tags POS-tagged output files and writes in an MFTE directory
     Args:
-        input_dir (str): dir with Stanford Tagger tagged files
-        output_dir (str): dir to write MD tagged files
-        extended (bool): If extended semantic categories should be tagged
+        input_dir (str): dir with POS-tagged files
+        output_dir (str): dir to write MFTE-tagged files
+        extended (bool): If extended MFTE tagset should be tagged
     """
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -1761,17 +1708,17 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
             print(s)
 
 def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
-    """Tags Stanford Tagger output files and writes in a directory names MD
+    """Tags POS-tagged output files and writes in an MFTE directory
     Args:
-        input_dir (str): dir with Stanford Tagger tagged files
-        output_dir (str): dir to write MD tagged files
-        extended (bool): If extended semantic categories should be tagged
+        input_dir (str): dir with POS-tagged files
+        output_dir (str): dir to write MFTE-tagged files
+        extended (bool): If extended MFTE tagset should be tagged
     """
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
     for file in files:
-        print("MD tagger tagging:", file)
+        print("Tagging MFTE features:", file)
         file_name = os.path.basename(file)
         words_tagged = run_process_sentence(file, extended)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
@@ -1779,7 +1726,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
         # break
 
 def get_ttr(tokens: list, n: int) -> float:
-    """Retuns type token ratio based on the first n words as specified in user input number of tokens n
+    """Retuns type token ratio (TTR) based on the first n words as specified in user input number of tokens n
     Args:
         tokens (list): list of tokens to count TTR
         n (int): number of tokens to consider (should be at least as long as the shortest text in the corpus!)
@@ -1834,7 +1781,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     return df_new.fillna(0)
 
 def get_wordbased_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
-    """Returns raw counts df after normalizing per 100 words
+    """Returns raw counts df after normalizing to 100 words
     Args:
         df (pd.DataFrame): df of raw counts
     Returns:
@@ -1871,7 +1818,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
 def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
     """Read files and count tags added by process_sentence
     Args:
-        input_dir (str): dir where MD tagged files are
+        input_dir (str): dir where MFTE-tagged files are
         output_dir (str): dir where statistics files to be created
         ttr (int): number of tokens to consider as given by the user
     """
@@ -1949,8 +1896,8 @@ def call_MFTE(args) -> None:
     """
         
     input_dir = args.path
-    output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-    output_stanford = output_main + "StanfordPOS_Tagged/"
+    output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE/"
+    output_stanford = output_main + "POS_Tagged/"
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = args.ttr
@@ -1980,10 +1927,8 @@ if __name__ == "__main__":
         call_MFTE(args)
     else:
         input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/BNC2014_set2/"
-        # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-        # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
         output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-        output_stanford = output_main + "StanfordPOS_Tagged/"
+        output_stanford = output_main + "POS_Tagged/"
         output_MD = output_main + "MFTE_Tagged/"
         output_stats = output_main + "Statistics/"
         ttr = 400
@@ -1995,23 +1940,3 @@ if __name__ == "__main__":
         #tag_MD(output_stanford, output_MD, extended=True)
         tag_MD_parallel(output_stanford, output_MD, extended=False)
         do_counts(output_MD, output_stats, ttr)
-
-# if __name__ == "__main__":
-#     input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/MFTE_Eval/COCA/COCA_test2/"
-#     # download Stanford CoreNLP and unzip in this directory. See this page #https://stanfordnlp.github.io/stanza/client_setup.html#manual-installation
-#     # direct download page https://stanfordnlp.github.io/CoreNLP/download.html
-#     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-#     output_stanford = output_main + "StanfordPOS_Tagged/"
-#     output_MD = output_main + "MFTE_Tagged/"
-#     output_stats = output_main + "Statistics/"
-#     ttr = 400
-#     # record start time
-#     t_0 = timeit.default_timer()
-#     #tag_stanford_stanza(input_dir, output_stanford)
-#     #tag_stanford(nlp_dir, input_dir, output_stanford)
-#     t_1 = timeit.default_timer()
-#     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-#     print("Time spent on tagging process (micro seconds):", elapsed_time)
-#     #tag_MD(output_stanford, output_MD, extended=True)
-#     #tag_MD_parallel(output_stanford, output_MD, extended=True)
-#     do_counts(output_MD, output_stats, ttr)
