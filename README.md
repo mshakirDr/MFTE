@@ -44,7 +44,7 @@ TBD
 This project has been partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
 
 ## Acknowledgements from the MFTE Perl
-Elen would like to extend special thanks Peter Uhrig and Michael Franke for supervising her M.Sc. thesis on the development and evaluation of [the first, Perl version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish). Many thanks to Andrea Nini for releasing the [MAT](http://sites.google.com/site/multidimensionaltagger) under an open-source licence, which served as the baseline for this previous version of the MFTE. Heartfelt thanks also go to Stefanie Evert and Luke Tudge who contributed advice and code in various ways and to Larissa Goulart for her insights into the Biber Tagger. Finally, Elen would also like to thank Dirk Siepmann for supporting this project.
+Elen would like to extend special thanks to Peter Uhrig and Michael Franke for supervising her M.Sc. thesis on the development and evaluation of [the first, Perl version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish). Many thanks to Andrea Nini for releasing the [MAT](http://sites.google.com/site/multidimensionaltagger) under an open-source licence, which served as the baseline for this previous version of the MFTE. Heartfelt thanks also go to Stefanie Evert and Luke Tudge who contributed advice and code in various ways and to Larissa Goulart for her insights into the Biber Tagger. Finally, Elen would also like to thank Dirk Siepmann for supporting this project.
 
 # Citation
 
