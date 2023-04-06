@@ -3,13 +3,34 @@ The MFTE is a Python version of the extended [Multi-Feature Tagger of English (M
 
 # Installation
 ## Windows
-The software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` and then install the required packages. The following are the current dependencies:\
-`pip install pandas emoji stanza`\
-After installing the dependencies, simply download the two Python files `MFTE.py` and `MFTE_gui.py`. You can use the following command to run the GUI version:\
-`python "path\to\MFTE\MFTE_gui.py"`\
-Or otherwise the commandline version can be run as follows with default options:\
-`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/"`\
-The GUI version for Windows can be downloaded as a single executable from the following link. There is no need to install anything else.\
+### Comman line
+The software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial](https://www.youtube.com/watch?v=UTqOXwAi1pE)) and then install the required packages. Just copy and paste the following command in Windows Terminal to install the current dependencies:
+
+`pip install pandas emoji stanza`
+
+After installing the dependencies, simply download the two Python files `MFTE.py` and `MFTE_gui.py`. You can use the following command to run the GUI version:
+
+`python "path\to\MFTE\MFTE_gui.py"`
+
+Or otherwise the commandline version can be run as follows with default options:
+
+`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/"`
+
+The script takes the following optional arguments so you can change them as you like:
+
+|Argument|Explanation|
+|---------|---------|
+|`--path 'path\to\corpus'`|path to the text files folder|
+|`--ttr 400`| Number of words to calculate type token ratio; default is 400|
+|`--extended True`| enable extended mode True or False; default is True|
+|`--parallel_md_tagging False`| enable parallel MD tagging True or False; default is False|
+
+The complete command will look like this:
+
+`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
+### GUI
+The GUI version for Windows can be downloaded as a single executable from the following link. There is no need to install anything else. Additional information about each option is available in tooltips so just hover your mouse on a checkbox or button:
+
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
 
 # Usage
