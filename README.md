@@ -33,7 +33,6 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
 
-# Usage
 The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
 
 ![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
