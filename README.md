@@ -3,8 +3,8 @@ The MFTE is a Python version of the extended [Multi-Feature Tagger of English (M
 
 # Installation
 ## Windows
-### Comman line
-The software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial](https://www.youtube.com/watch?v=UTqOXwAi1pE)) and then install the required packages. Just copy and paste the following command in Windows Terminal to install the current dependencies:
+### Command line
+This software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial](https://www.youtube.com/watch?v=UTqOXwAi1pE)) and then install the required packages. Just copy and paste the following command in Windows Terminal to install the current dependencies:
 
 `pip install pandas emoji stanza`
 
@@ -12,7 +12,7 @@ After installing the dependencies, simply download the two Python files `MFTE.py
 
 `python "path\to\MFTE\MFTE_gui.py"`
 
-Or otherwise the commandline version can be run as follows with default options:
+Or otherwise the command-line version can be run as follows with default options:
 
 `python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/"`
 
@@ -29,9 +29,7 @@ The complete command will look like this:
 
 `python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
 ### GUI
-The GUI version for Windows can be downloaded as a single executable from the following link. There is no need to install anything else. Additional information about each option is available in tooltips so just hover your mouse on a checkbox or button:
-
-[GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq)
+The GUI version for Windows can be downloaded as a single executable from the following link: [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq). There is no need to install anything else. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option.
 
 The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
 
@@ -42,7 +40,7 @@ By default, type-token-ratios (TTR) are calculated on the basis of the first 400
 The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions).
 
 # Feature descriptions
-The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the `List_Features_MFTE_python_1.4.xlsx` and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
+The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the `List_Features_MFTE_python_1.5.xlsx` and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
 
 Further information can be be found in [Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf), a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) in November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers. The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
 
