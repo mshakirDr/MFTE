@@ -2,9 +2,8 @@
 MFTE is a Python version of the extended [Multi-Feature Tagger of English (MFTE)](https://github.com/mshakirDr/MultiFeatureTaggerEnglish) based on [Le Foll's (2021) version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish) written in Perl. This improved and extended Python version includes semantic tags from Biber (2006) and Biber et al. (1999), as well as additional tags, e.g., separate tags for third person singular male and female pronouns. This tagger first uses the Python NLP library `stanza` for grammatical part-of-speech tagging before applying rule-based regular expressions to tag for a range of more complex lexico-grammatical and semantic features typically used in multidimensional analysis (MDA; cf. Biber 1984; 1988).
 
 # Installation
-## Windows
-### Command line
-This software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial](https://www.youtube.com/watch?v=UTqOXwAi1pE)) and then install the required packages. Just copy and paste the following command in Windows Terminal to install the current dependencies:
+## Command line using Anaconda
+This software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)) and then install the required packages. Just copy and paste the following command in Windows or Mac Terminal to install the current dependencies:
 
 `pip install pandas emoji stanza`
 
@@ -28,8 +27,13 @@ The script takes the following optional arguments so you can change them as you 
 The complete command will look like this:
 
 `python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
-### GUI
-The GUI version for Windows can be downloaded as a single executable from the following link: [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq). There is no need to install anything else. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option.
+## GUI
+### Windows
+The GUI version for Windows can be downloaded as a single executable from the following link:
+
+[GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq).
+
+There is no need to install anything else. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option.
 
 The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
 
