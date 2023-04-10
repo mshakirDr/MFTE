@@ -20,9 +20,9 @@ The script takes the following optional arguments so you can change them as you 
 |Argument|Explanation|
 |---------|---------|
 |`--path 'path\to\corpus'`|path to the text files folder|
-|`--ttr 400`| Number of words to calculate type token ratio; default is 400|
-|`--extended True`| enable extended mode True or False; default is True|
-|`--parallel_md_tagging False`| enable parallel MD tagging True or False; default is False|
+|`--ttr 400`| By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. So default is `400`|
+|`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default it is is enabled using `True`|
+|`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; default is `False`|
 
 The complete command will look like this:
 
