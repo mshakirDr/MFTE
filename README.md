@@ -27,7 +27,7 @@ The script takes the following optional arguments so you can change them as you 
 The complete command will look like this:
 
 `python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
-## GUI
+## Standalone executeable (GUI)
 ### Windows
 The GUI version for Windows can be downloaded as a single executable from the following link:
 
