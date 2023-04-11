@@ -7,7 +7,7 @@ This software can be used by installing Python and the required packages. We rec
 
 `pip install pandas emoji stanza`
 
-After installing the dependencies, simply download the two Python files `MFTE.py` and `MFTE_gui.py`. You can use the following command to run the GUI version:
+After installing the dependencies, simply download the two Python files `MFTE.py` and `MFTE_gui.py`. You can use the following command to run the GUI version (see below for details):
 
 `python "path\to\MFTE\MFTE_gui.py"`
 
