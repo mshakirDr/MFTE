@@ -122,7 +122,7 @@ Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensi
 
 Le Foll, Elen (2021). A New Tagger for the Multi-Dimensional Analysis of Register Variation in English. Osnabrück University: Institute of Cognitive Science Unpublished M.Sc. thesis.
 
-Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). http://sites.google.com/site/multidimensionaltagger.
+Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). https://sites.google.com/site/multidimensionaltagger.
 
 Nini, Andrea (2019). The Muli-Dimensional Analysis Tagger. In Berber Sardinha, T. & Veirano Pinto M. (eds), Multi-Dimensional Analysis: Research Methods and Current Issues, 67-94, London; New York: Bloomsbury Academic.
 
