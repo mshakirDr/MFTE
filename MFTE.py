@@ -341,7 +341,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Also added "load(s) of" and "heaps of" on DS's recommendation
             # ELF: Getting rid of the POS-tagger predeterminer (PDT) category and now counting all those as quantifiers (QUAN)
             if ((re.search("_PDT", words[j], re.IGNORECASE)) or 
-            (re.search("\\ball_|\\bany_|\\bbillions_|\\bboth_|\\bdozens_|\\beach_|\\bevery_|\\bfew_|\\bhalf_|hundreds_|\\bmany_|\\bmillions_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|thousands_|\\bwee_|\\bzillions_", words[j], re.IGNORECASE))or
+            (re.search("\\ball_|\\bany_|\\bbillions_|\\bboth_|\\bdozens_|\\beach_|\\benough_|\\bevery_|\\bfew_|\\bhalf_|hundreds_|\\bmany_|\\bmillions_|\\bmore_JJ|\\bmuch_|\\bplenty_|\\bseveral_|\\bsome_|\\blots_|\\bloads_|\\bheaps_|\\bless_JJ|\\bloada_|thousands_|\\bwee_|\\bzillions_", words[j], re.IGNORECASE))or
             (re.search("\\bload_|\\bcouple_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+|_N|_J", words[j+1], re.IGNORECASE)) or
             (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_|\\btad_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
@@ -1015,7 +1015,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
             # Tags time adverbials 
             # ELF: Added already, so far, thus far, yet (if not already tagged as CONC above) and ago. Restricted after and before to adverb forms only.
-            if ((re.search("\\bago_|\\bafter_RB|\\bafterwards_|\\bagain_|\\balready_|anytime_|\\bbefore_RB|\\bbeforehand_|\\bbriefly_|\\bcurrently_|\\bearlier_RB|\\bearly_RB|\\beventually_|\\bformerly_|immediately_|\\binitially_|\\binstantly_|\\bforeever_|\\blate_RB|\\blately_|\\blater_RB|momentarily_|\\bnow_|\\bnowadays_|originally_|\\bpresently_|previously_|\\brecently_|\\bsomeday_|\\bshortly_|simultaneously_|\\bsooner_|\\bsubsequently_|\\bsuddenly|\\btoday_|\\bto-day_|\\btomorrow_|\\bto-morrow_|\\btonight_|\\bto-night_|\\byesterday_|\\byet_RB|\\bam_RB|\\bam_NN|\\bpm_NN|\\bpm_RB", words[j], re.IGNORECASE)) or
+            if ((re.search("\\bago_|\\bafter_RB|\\bafterwards_|\\bagain_|\\balready_|anytime_|\\banymore_|\\bbefore_RB|\\bbeforehand_|\\bbriefly_|\\bcurrently_|\\bearlier_RB|\\bearly_RB|\\beventually_|\\bformerly_|immediately_|\\binitially_|\\binstantly_|\\bforeever_|\\blate_RB|\\blately_|\\blater_RB|momentarily_|\\bnow_|\\bnowadays_|originally_|overnight_|\\bpresently_|previously_|\\brecently_|\\bsomeday_|\\bshortly_|simultaneously_|\\bsooner_|\\bsubsequently_|\\bsuddenly|\\btoday_|\\bto-day_|\\btomorrow_|\\bto-morrow_|\\btonight_|\\bto-night_|\\byesterday_|\\byet_RB|\\bam_RB|\\bam_NN|\\bpm_NN|\\bpm_RB", words[j], re.IGNORECASE)) or
             (re.search("\\bsoon_", words[j], re.IGNORECASE) and not re.search("\\bas_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bprior_", words[j], re.IGNORECASE) and re.search("\\bto_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE) and re.search("\\bfar_", words[j], re.IGNORECASE) and not re.search("_J|_RB", words[j+1], re.IGNORECASE))):
@@ -1938,5 +1938,5 @@ if __name__ == "__main__":
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
         #tag_MD(output_stanford, output_MD, extended=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=False)
+        tag_MD_parallel(output_stanford, output_MD, extended=True)
         do_counts(output_MD, output_stats, ttr)
