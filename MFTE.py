@@ -86,12 +86,12 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bi('|’)?ve\\b", "I 've", text, flags=re.IGNORECASE)
     text = re.sub("\\bwe('|’)?ve\\b", "we 've", text, flags=re.IGNORECASE)
     text = re.sub("\\bhe('|’)?d\\b", "he 'd", text, flags=re.IGNORECASE)
-    text = re.sub("\\bshe('|’)?d\\b", "she 'd", text, flags=re.IGNORECASE)
-    text = re.sub("\\bi('|’)?(ll|II)\\b", "I 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)d\\b", "she 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)(ll|II)\\b", "I 'll", text, flags=re.IGNORECASE)
     text = re.sub("\\byou('|’)?(ll|II)\\b", "you 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bhe('|’)?(ll|II)\\b", "he 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)(ll|II)\\b", "he 'll", text, flags=re.IGNORECASE)
     text = re.sub("\\bshe('|’)?(ll|II)\\b", "she 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwe('|’)?(ll|II)\\b", "we 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwe('|’)(ll|II)\\b", "we 'll", text, flags=re.IGNORECASE)
     text = re.sub("\\bit('|’)?d\\b", "it 'd", text, flags=re.IGNORECASE)
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
@@ -229,12 +229,12 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers, prepositions and foreign words by the Stanford Tagger.
             # These are instead re-tagged as symbols so they don't count as tokens for the TTR and per-word normalisation basis.
             # Removal of all LS (list symbol) tags except those that denote numbers
-            if (re.search("<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_|\\b%_|#_NN", words[index])): 
+            if (re.search("&amp_|<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_|\\b%_|#_NN", words[index])): 
                 words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
             # ELF: Correction of cardinal numbers without spaces and list numbers as numbers rather than LS
             # Removal of the LS (list symbol) tags that denote numbers
-            if (re.search("\\b[0-9]+th_|\\b[0-9]+nd_|\\b[0-9]+rd_|[0-9]+_LS", words[index])): 
+            if (re.search("\\b[0-9]+th_|\\b[0-9]+nd_|\\b[0-9]+rd_|[0-9]+_LS|\\b[0-9]+\\._", words[index])): 
                 words[index] = re.sub("_\w+", "_CD", words[index]) 
                 
             # ELF: Correct "innit" and "init" (frequently tagged as a noun by the Stanford Tagger) to pronoun "it" (these are later on also counted as question tags if they are followed by a question mark)
@@ -255,7 +255,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[index] = re.sub("_\S+", "_EMO", words[index])
 
             # ELF: New feature for hashtags
-            if (re.search("#[a-zA-Z0-9]{3,}_", words[index])):
+            if ((re.search("#_", words[index-1]) and re.search("\\b[a-zA-Z0-9]{3,}_", words[index])) or # ELF: Added this line because the evalation showed that the POS-tagger sometimes parses the # symbol as a separate token 
+                (re.search("#[a-zA-Z0-9]{3,}_", words[index]))):
                 words[index] = re.sub("_\w+", "_HST", words[index])
 
             # ELF: New feature for web links
@@ -410,19 +411,20 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             #---------------------------------------------------
 
-            # Tags coordinating conjunctions (CC)
+            # Tags coordinators (CC)
             # ELF: This is a new variable.
             # ELF: added as well (as), as well, in fact, accordingly, thereby, also, by contrast, besides, further_RB, in comparison, instead (not followed by "of").
             if ((re.search("\\bwhile_IN|\\bwhile_RB|\\bwhilst_|\\bwhereupon_|\\bwhereas_|\\bwhereby_|\\bthereby_|\\balso_|\\bbesides_|\\bfurther_RB|\\binstead_|\\bmoreover_|\\bfurthermore_|\\badditionally_|\\bhowever_|\\binstead_|\\bibid\._|\\bibid_|\\bconversly_", words[j], re.IGNORECASE)) or 
             (re.search("\\binasmuch__|\\bforasmuch_|\\binsofar_|\\binsomuch", words[j], re.IGNORECASE) and re.search("\\bas_", words[j+1], re.IGNORECASE)) or
             (re.search("_\W", words[j-1], re.IGNORECASE) and re.search("\\bhowever_", words[j], re.IGNORECASE)) or
+            (re.search("\\bas_", words[j], re.IGNORECASE) and re.search("_VBN|\\bthough_", words[j+1])) or # E.g., as described, as seen in, as though...
             (re.search("_\W", words[j+1], re.IGNORECASE) and re.search("\\bhowever_", words[j], re.IGNORECASE)) or
             (re.search("\\bor_", words[j-1], re.IGNORECASE) and re.search("\\brather_", words[j], re.IGNORECASE)) or
             (not re.search("\\bleast_", words[j-1], re.IGNORECASE) and re.search("\\bas_", words[j], re.IGNORECASE) and re.search("\\bwell_", words[j+1], re.IGNORECASE)) or # Excludes "at least as well" but includes "as well as"
             (re.search("_\W", words[j-1]) and re.search("\\belse_|\\baltogether_|\\brather_", words[j], re.IGNORECASE))):
                 words[j] = re.sub("_\w+", "_CC", words[j])
             
-            # Second loop for coordinating conjunctions
+            # Second loop for coordinators
             if ((re.search("\\bby_", words[j-1], re.IGNORECASE) and re.search("\\bcontrast_|\\bcomparison_", words[j], re.IGNORECASE)) or
             (re.search("\\bin_", words[j-1], re.IGNORECASE) and re.search("\\bcomparison_|\\bcontrast_|\\baddition_", words[j], re.IGNORECASE)) or
             (re.search("\\bon_", words[j-2], re.IGNORECASE) and re.search("\\bthe_", words[j-1]) and re.search("\\bcontrary_", words[j], re.IGNORECASE)) or
@@ -879,7 +881,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # In conversation, like also frequently acts as a filler or interjection or as part of the quotative phrase BE+like. 
             # Recall and precision were too low (see MFTE perl evaluation) 
             
-            if (re.search("\\blike_IN|\\blike_JJ|\\blike_UH", words[j], re.IGNORECASE)):
+            if (re.search("\\blike_IN|\\blike_JJ|\\blike_UH|\\blike_RP", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_LIKE", words[j])
 
     #---------------------------------------------------
@@ -1938,5 +1940,5 @@ if __name__ == "__main__":
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
         #tag_MD(output_stanford, output_MD, extended=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=True)
+        tag_MD_parallel(output_stanford, output_MD, extended=False)
         do_counts(output_MD, output_stats, ttr)
