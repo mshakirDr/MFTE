@@ -64,35 +64,36 @@ def stanza_pre_processing (text: str)-> str:
     Returns:
         text (str): Text after applying preprocessing (mainly regular expression find and replace)
     """
-    #Split cannot, gonna, wanna and contracted verb forms to two words for better tagging with stanza
+    #Split cannot, gonna, wanna, innit and contracted verb forms to two words for better tagging with stanza
     text = re.sub("\\bcannot\\b", "can not", text, flags=re.IGNORECASE)
     text = re.sub("\\bgonna\\b", "gon na", text, flags=re.IGNORECASE)
     text = re.sub("\\bwanna\\b", "wan na", text, flags=re.IGNORECASE)
-    text = re.sub("\\bisn('|’)?t\\b", "is n't", text, flags=re.IGNORECASE) # isn't
-    text = re.sub("\\baren('|’)?t\\b", "are n't", text, flags=re.IGNORECASE) # aren't
-    text = re.sub("\\bweren('|’)?t\\b", "were n't", text, flags=re.IGNORECASE) # weren't
-    text = re.sub("\\bdon('|’)?t\\b", "do n't", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwon('|’)?t\\b", "wo n't", text, flags=re.IGNORECASE)
-    text = re.sub("\\bcan('|’)?t\\b", "ca n't", text, flags=re.IGNORECASE)
-    text = re.sub("\\bdidn('|’)?t\\b", "did n't", text, flags=re.IGNORECASE)
-    text = re.sub("\\bthat('|’)?s\\b", "that 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwhat('|’)?s\\b", "what 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bisn( )?('|’)?( )?t\\b|\\bin( )?(n)?( )?it\\b|\\bain('|’)?t\\b", "is n't", text, flags=re.IGNORECASE) # isn't, innit, ain't
+    text = re.sub("\\baren( )?('|’)?( )?t\\b", "are n't", text, flags=re.IGNORECASE) # aren't
+    text = re.sub("\\bweren( )?('|’)?( )?t\\b", "were n't", text, flags=re.IGNORECASE) # weren't
+    text = re.sub("\\bdon( )?('|’)?( )?t\\b", "do n't", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwon( )?('|’)?( )?t\\b", "wo n't", text, flags=re.IGNORECASE)
+    text = re.sub("\\bcan( )?('|’)?( )?t\\b", "ca n't", text, flags=re.IGNORECASE)
+    text = re.sub("\\bdidn( )?('|’)?( )?t\\b", "did n't", text, flags=re.IGNORECASE)
+    text = re.sub("\\bthat('|’)?( )?s\\b", "that 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwhat('|’)?( )?s\\b", "what 's", text, flags=re.IGNORECASE)
     text = re.sub("\\bit('|’)s\\b", "it 's", text, flags=re.IGNORECASE)
     text = re.sub("\\b(i|l)('|’)m\\b", "I 'm", text, flags=re.IGNORECASE)
-    text = re.sub("\\byou('|’)?re\\b", "your 're", text, flags=re.IGNORECASE)
-    text = re.sub("\\bhe('|’)?s\\b", "he 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bshe('|’)?s\\b", "she 's", text, flags=re.IGNORECASE)
-    text = re.sub("\\bthey('|’)?re\\b", "they 're", text, flags=re.IGNORECASE)
-    text = re.sub("\\bi('|’)?ve\\b", "I 've", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwe('|’)?ve\\b", "we 've", text, flags=re.IGNORECASE)
-    text = re.sub("\\bhe('|’)?d\\b", "he 'd", text, flags=re.IGNORECASE)
-    text = re.sub("\\bshe('|’)d\\b", "she 'd", text, flags=re.IGNORECASE)
-    text = re.sub("\\bi('|’)(ll|II)\\b", "I 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\byou('|’)?(ll|II)\\b", "you 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bhe('|’)(ll|II)\\b", "he 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bshe('|’)?(ll|II)\\b", "she 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bwe('|’)(ll|II)\\b", "we 'll", text, flags=re.IGNORECASE)
-    text = re.sub("\\bit('|’)?d\\b", "it 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\byou('|’)?( )?re\\b", "your 're", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)?( )?s\\b", "he 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)?( )?s\\b", "she 's", text, flags=re.IGNORECASE)
+    text = re.sub("\\bthey('|’)?( )?re\\b", "they 're", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)?( )?ve\\b", "I 've", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwe('|’)?( )?ve\\b", "we 've", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)( )??d\\b", "he 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)( )?d\\b", "she 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\bi('|’)( )?(ll|II)\\b", "I 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\byou('|’)?( )?(ll|II)\\b", "you 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bhe('|’)( )?(ll|II)\\b", "he 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bshe('|’)?( )?(ll|II)\\b", "she 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwe('|’)( )?(ll|II)\\b", "we 'll", text, flags=re.IGNORECASE)
+    text = re.sub("\\bwe('|’)( )?d\\b", "we 'd", text, flags=re.IGNORECASE)
+    text = re.sub("\\bit('|’)?( )?d\\b", "it 'd", text, flags=re.IGNORECASE)
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
     #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
@@ -216,7 +217,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
         if x != " ":
             # Shakir: new feature in MFTE python @mentions
             # Frequent in e-language and now tagged as a new feature category, thus correcting tags such as JJ to NN
-            if (re.search(r"^@\S\S+_", words[index], re.IGNORECASE)):
+            if ((re.search("@_", words[index-1]) and re.search("\\b[a-zA-Z0-9]{3,}_", words[index])) or # ELF: Added this line because the evalation showed that the POS-tagger sometimes parses the @ symbol as a separate token 
+            (re.search(r"^@\S\S+_", words[index], re.IGNORECASE))):
                 words[index] = re.sub("_(\w+)", "_NN NNMention", words[index])
 
             # Changes the two tags that have a problematic "$" symbol in the Stanford tagset
@@ -229,7 +231,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Correction of a few specific symbols identified as adjectives, cardinal numbers, prepositions and foreign words by the Stanford Tagger.
             # These are instead re-tagged as symbols so they don't count as tokens for the TTR and per-word normalisation basis.
             # Removal of all LS (list symbol) tags except those that denote numbers
-            if (re.search("&amp_|<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|\\b@+_|\\b%_|#_NN", words[index])): 
+            if (re.search("&amp_|<_JJ|>_JJ|\^_FW|>_JJ|§_CD|=_JJ|\*_|\W+_LS|[a-zA-Z]+_LS|@+_|\\b%_|#_NN", words[index])): 
                 words[index] = re.sub("_\w+", "_SYM", words[index]) 
 
             # ELF: Correction of cardinal numbers without spaces and list numbers as numbers rather than LS
@@ -238,10 +240,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
                 words[index] = re.sub("_\w+", "_CD", words[index]) 
                 
             # ELF: Correct "innit" and "init" (frequently tagged as a noun by the Stanford Tagger) to pronoun "it" (these are later on also counted as question tags if they are followed by a question mark)
-            if (re.search("\\binnit_", words[index])): 
-                words[index] = re.sub("_\w+", "_PIT", words[index]) 
-            if (re.search("\\binit_", words[index])): 
-                words[index] = re.sub("_\w+", "_PIT", words[index]) 	
+            # ELF: These lines are no longer necessary with the stanza tagger because we have to split and "re-write" in(n)it before POS-tagging.
+            #if (re.search("\\binnit_", words[index])): 
+             #   words[index] = re.sub("_\w+", "_PIT", words[index]) 
+            #if (re.search("\\binit_", words[index])): 
+             #   words[index] = re.sub("_\w+", "_PIT", words[index]) 	
 
             # ELF: Correction of the pre- affix frequently tagged as a noun by the POS tagger (stanza)
             if (re.search("\\bpre_", words[index])): 
@@ -318,15 +321,15 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Correction of most problematic spoken language particles
             # ELF: DMA is a new variable. It is important for it to be high up because lots of DMA's are marked as nouns by the POS-tagger which messes up other variables further down the line otherwise. 
             # More complex DMAs are tagged further down.
-            if (re.search("\\bactually_|\\banyway|\\bdamn_|\\bgoodness_|\\bgosh_|\\byeah_|\\byep_|\\byes_|\\bnope_|\\bright_UH|\\bwhatever_|\\bdamn_RB|\\blol_|\\bIMO_|\\bomg_|\\bwtf_", words[j], re.IGNORECASE)):
+            if (re.search("\\banyway|\\bdamn_|\\bgoodness_|\\bgosh_|\\byeah_|\\byep_|\\byes_|\\bnope_|\\bright_UH|\\bwhatever_|\\bdamn_RB|\\blol_|\\bIMO_|\\bomg_|\\bwtf_", words[j], re.IGNORECASE)):
                 words[j] = re.sub("_\w+", "_DMA", words[j])
 
             # ELF: FPUH is a new variable.
             # Aims to tags interjections and filled pauses.
-            if (re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_|\\bhum+_", words[j], re.IGNORECASE)):
-                words[j] = re.sub("_(\w+)", "_FPUH", words[j])
+            if ((re.search("\\baw+_|\\bow_|\\boh+_|\\beh+_|\\ber+_|\\berm+_|\\bmmm+_|\\bum+_|\\b[hu]{2,}_|\\bmhm+|\\bhi+_|\\bhey+_|\\bby+e+_|\\b[ha]{2,}_|\\b[he]{2,}_|\\b[wo]{3,}p?s*_|\\b[oi]{2,}_|\\bouch_|\\bhum+_", words[j], re.IGNORECASE)) or
             # Also added "hm+" on Peter's suggestion but made sure that this was case sensitive to avoid mistagging Her Majesty ;-)
-            if (re.search("\\bhm+|\\bHm+", words[j])):
+                (re.search("\\bhm+|\\bHm+", words[j])) or
+                (re.search("\\bmm_", words[j], re.IGNORECASE) and not re.search("_CD|[0-9]{1,}_", words[j-1]))): # ELF: Hopefully excluding "mm" in the sense of millimetres
                 words[j] = re.sub("_(\w+)", "_FPUH", words[j])
 
             # ELF: Added a new "bin" variable for "so" as tagged as a preposition (IN) or adverb (RB) by the POS-tagger 
@@ -346,6 +349,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (re.search("\\bload_|\\bcouple_", words[j], re.IGNORECASE) and re.search("\\bof_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("\\bof_|\W+|_N|_J", words[j+1], re.IGNORECASE)) or
             (re.search("\\ba_", words[j-1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_|\\btad_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
+            (re.search("\\bof_", words[j+1], re.IGNORECASE) and re.search("\\blot_|\\bbit_|\\blittle_|\\btad_", words[j], re.IGNORECASE)) or # ELF: Added "a lot (of)" and removed NULL tags
             (re.search("\\ba_", words[j-2], re.IGNORECASE) and re.search("\\blot_|\\bbit_", words[j], re.IGNORECASE))): # ELF: Added this line to account for "a little bit", "a whole lot", etc.
                 words[j] = re.sub("_\w+", "_QUAN", words[j])
                    
@@ -362,9 +366,9 @@ def process_sentence (words: list, extended: bool = False) -> list:
         # Also added: "nope", "I guess", "mind you", "whatever" and "damn" (if not a verb and not already tagged as an emphatic).
 
             if ((re.search("\\bno_", words[j], re.IGNORECASE) and not re.search("_V", words[j]) and not re.search("_J|_NN|\\bless_", words[j+1])) or # This avoid a conflict with the synthetic negation variable and leaves the "no" in "I dunno" as a present tense verb form and "no" from "no one".
-            (re.search("_\W|FPUH_", words[j-1]) and re.search("\\bright_|\\bokay_|\\bok_", words[j], re.IGNORECASE)) or # Right and okay immediately proceeded by a punctuation mark or a filler word
-            (not re.search("\\bas_|\\bhow_|\\bvery_|\\breally_|\\bso_|\\bquite_|_V", words[j-1], re.IGNORECASE) and re.search("\\bwell_JJ|\\bwell_RB|\\bwell_NNP|\\bwell_UH", words[j], re.IGNORECASE) and not re.search("_JJ|_RB|-_", words[j+1])) or # Includes all forms of "well" except as a singular noun assuming that the others are mistags of DMA well's by the POS-tagger.
-            (not re.search("\\bmakes_|\\bmake_|\\bmade_|\\bmaking_|\\bnot|_\\bfor_|\\byou_|\\b(" + be + ")", words[j-1], re.IGNORECASE) and re.search("\\bsure_JJ|\\bsure_RB", words[j], re.IGNORECASE)) or # This excludes MAKE sure, BE sure, not sure, and for sure
+            (re.search("_\W|_FPUH|_DMA", words[j-1]) and re.search("\\bright_|\\bokay_|\\bok_", words[j], re.IGNORECASE)) or # Right and okay immediately proceeded by a punctuation mark, a filler word or a simple DMA (tagged earlier on)
+            (not re.search("\\bas_|\\bhow_|\\bvery_|\\breally_|\\bso_|\\bquite_|_V|_XX0", words[j-1], re.IGNORECASE) and re.search("\\bwell_JJ|\\bwell_RB|\\bwell_NNP|\\bwell_UH", words[j], re.IGNORECASE) and not re.search("_JJ|_RB|-_", words[j+1])) or # Includes all forms of "well" except as a singular noun assuming that the others are mistags of DMA well's by the POS-tagger.
+            (not re.search("\\bmakes_|\\bmake_|\\bmade_|\\bmaking_|\\bnot|_\\bfor_|\\byou_|\\b(" + be + ")|\\bfor_", words[j-1], re.IGNORECASE) and re.search("\\bsure_JJ|\\bsure_RB", words[j], re.IGNORECASE)) or # This excludes MAKE sure, BE sure, not sure, and for sure
             (re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bcourse_", words[j], re.IGNORECASE)) or
             (re.search("\\ball_", words[j-1], re.IGNORECASE) and re.search("\\bright_", words[j], re.IGNORECASE)) or
             (re.search("\\bmind_", words[j], re.IGNORECASE) and re.search("\\byou_", words[j+1], re.IGNORECASE))): 
@@ -471,7 +475,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             if ((re.search("\\bmost_DT", words[j], re.IGNORECASE)) or
             (re.search("\\bmost_", words[j], re.IGNORECASE) and re.search("_J|_VBN|_VBG", words[j+1])) or
             (re.search("\\breal_|\\bdead_|\\bdamn_|\\bfuck|\\bshit|\\bsuper_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1])) or
-            (re.search("\\bjust_|\\breally_|\\btruly_|\\bbloody_|\\bpretty_|\\bmore_", words[j], re.IGNORECASE) and re.search("_J|_RB|_V|_MD", words[j+1], re.IGNORECASE)) or
+            (re.search("\\breally_|\\btruly_|\\bbloody_|\\bpretty_|\\bmore_", words[j], re.IGNORECASE) and re.search("_J|_RB|_V|_MD", words[j+1], re.IGNORECASE)) or
             (re.search("\\bso_", words[j], re.IGNORECASE) and re.search("_J|\\bmany_|\\bmuch_|\\blittle_|_RB", words[j+1], re.IGNORECASE) and not re.search("\\bfar_", words[j+1], re.IGNORECASE)) or
             (re.search("\\bfar_|\\bway_", words[j], re.IGNORECASE) and re.search("_J|_RB", words[j+1]) and not re.search("\\baway_", words[j+1], re.IGNORECASE) and not re.search("\\bso_|\\bthus_", words[j-1], re.IGNORECASE)) or
             (not re.search("\\bof_", words[j-1], re.IGNORECASE) and re.search("\\bsuch_", words[j], re.IGNORECASE) and re.search("\\ba_|\\ban_", words[j+1], re.IGNORECASE))):
@@ -524,8 +528,8 @@ def process_sentence (words: list, extended: bool = False) -> list:
             (not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas|\\bdo_", words[j-2], re.IGNORECASE) and re.search("_XX0", words[j-1]) and re.search("\\bit_|\\bshe_|\\bhe_|\\bthey_", words[j-3], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # it isn't?
             (not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-3], re.IGNORECASE) and re.search("\\bis_|\\bdoes_|\\bwas|\\bhas_", words[j-1], re.IGNORECASE) and re.search("\\bit_|\\bshe_|\\bhe_", words[j-2], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # she has?
             (not re.search("\\b(" + whw + ")", words[j-5], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and re.search("\\bdo_|\\bwere_|\\bare_|\\bhave_", words[j-2], re.IGNORECASE) and re.search("_XX0", words[j-1]) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-3], re.IGNORECASE) and re.search("\\?_\\.", words[j]))  or # you haven't?
-            (not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-3], re.IGNORECASE) and re.search("\\bdo_|\\bwere_|\\bare_|\\bhave_", words[j-1], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-2], re.IGNORECASE) and re.search("\\?_\\.", words[j])) or # you were?
-            (not re.search("\\b(" + whw + ")", words[j-2], re.IGNORECASE) and re.search("\\binnit_|\\binit_", words[j-1]) and re.search("\\?_\\.", words[j]))): # innit? init?
+            (not re.search("\\b(" + whw + ")", words[j-4], re.IGNORECASE) and not re.search("\\b(" + whw + ")", words[j-3], re.IGNORECASE) and re.search("\\bdo_|\\bwere_|\\bare_|\\bhave_", words[j-1], re.IGNORECASE) and re.search("\\byou_|\\bwe_|\\bthey_", words[j-2], re.IGNORECASE) and re.search("\\?_\\.", words[j]))): # you were?
+            #(not re.search("\\b(" + whw + ")", words[j-2], re.IGNORECASE) and re.search("\\binnit_|\\binit_", words[j-1]) and re.search("\\?_\\.", words[j]))): # innit? init?
 
                 words[j] = re.sub("_(\W+)", "_\\1 QUTAG", words[j])
 
@@ -570,7 +574,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # ELF: Added a new variable for GET-passives
             if (re.search("_VBD|_VBN", words[j])):
                 if ((re.search("\\bget_V|\\bgets_V|\\bgot_V|\\bgetting_V", words[j-1], re.IGNORECASE)) or
-                (re.search("_NN|_PRP", words[j-1]) and re.search("\\bget_V|\\bgets_V|\\bgot_V|\\bgetting_V", words[j-2], re.IGNORECASE)) or # She got it cleaned
+                (re.search("_NN|_PRP|_RB", words[j-1]) and re.search("\\bget_V|\\bgets_V|\\bgot_V|\\bgetting_V", words[j-2], re.IGNORECASE)) or # She got it cleaned, got immediately arrested
                 (re.search("_NN", words[j-1]) and re.search("_DT|_NN", words[j-2]) and re.search("\\bget_V|\\bgets_V|\\bgot_V|\\bgetting_V", words[j-3], re.IGNORECASE))): # She got the car cleaned
                     words[j] = re.sub("_\w+", "_PGET", words[j])
 
@@ -610,7 +614,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags split auxiliaries - ELF: merged this variable with split infinitives due to very low counts. 
             # ELF: Also changed all forms of DO to auxiliary DOs only 
-            (re.search("_MD|DOAUX|(\\b(" + have + "))|(\\b(" + be + "))", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|\\ball_", words[j+1], re.IGNORECASE) and re.search("_V", words[j+2])) or
+            (re.search("_MD|DOAUX|(\\b(" + have + "))|(\\b(" + be + "))", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|\\ball_", words[j+1], re.IGNORECASE) and re.search("_V|_P", words[j+2])) or
             (re.search("_MD|DOAUX|(\\b(" + have + "))|(\\b(" + be + "))", words[j], re.IGNORECASE) and re.search("_RB|\\bjust_|\\breally_|\\bmost_|\\bmore_|_XX0|\\ball_", words[j+1], re.IGNORECASE) and re.search("_RB|_XX0", words[j+2]) and re.search("_V", words[j+3]))):
                 words[j] = re.sub("_(\w+)", "_\\1 SPLIT", words[j])
 
@@ -1028,7 +1032,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for j, value in enumerate(words):
         try:
             # Adds "NEED to" and "HAVE to" to the list of necessity (semi-)modals  
-            if (re.search("\\bneed_V|\\bneeds_V|\\bneeded_V|\\bhave_V|\\bhas_V|\\bhad_V|\\bhaving_V", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1])):
+            if (re.search("\\bneed_V|\\bneeds_V|\\bneeded_V|\\bhave_V|\\bhas_V|\\bhad_V|\\bhad_P|\\bhaving_V", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_MDNE", words[j])
         except IndexError:
             continue
@@ -1118,7 +1122,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
             # Tags will/shall modals. 
             # ELF: New variable replacing Biber's PRMD.
-            if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\W+ll_MD|'II_", words[index], re.IGNORECASE)):
+            if (re.search("\\bwill_MD|'ll_MD|\\bshall_|\\bsha_|\W+ll_|'II_|\\bll_MD", words[index], re.IGNORECASE)):
                 words[index] = re.sub("_\w+", "_MDWS", words[index])
 
             # Tags would as a modal. 
