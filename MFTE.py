@@ -1161,12 +1161,13 @@ def process_sentence (words: list, extended: bool = False) -> list:
             
             # ELF: New variable noun compounds
             # Shakir: Added space to prevent tag overlaps
-            if (re.search("\\b.{2,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])): 
+            if (re.search("\\b.{3,}_NN", words[j]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+1]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])): 
                 words[j+1] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
 
-            # ELF: Added the NN-NN pattern for hyphenated noun compounds such as home-office
-            if (re.search("\\b.{2,}_NN", words[j]) and re.search("-_HYPH\\b", words[j+1]) and re.search("\\b(.{2,}_NN|.{2,}_NNS)\\b", words[j+2]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])):
-                words[j+2] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+1])
+            # ELF: Added the NN-NN pattern for hyphenated noun compounds such as home-office. 
+            # Limited the first noun to five characters at least to avoid catching prefixes and parts of chemical formulae mistagged as NN
+            if (re.search("\\b.{5,}_NN", words[j]) and re.search("-_HYPH\\b", words[j+1]) and re.search("\\b.{3,}_NN", words[j+2]) and not re.search("NCOMP", words[j]) and not re.search(" ", words[j])):
+                words[j+2] = re.sub("_(\w+)", "_\\1 NCOMP", words[j+2])
 
             # Shakir: if extended is True keep proper noun distinction
             if extended:
@@ -1932,7 +1933,7 @@ if __name__ == "__main__":
     if args.path:
         call_MFTE(args)
     else:
-        input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/BNC2014_set2/"
+        input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/COCA/COCA_test2/"
         output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
         output_stanford = output_main + "POS_Tagged/"
         output_MD = output_main + "MFTE_Tagged/"
