@@ -1,0 +1,832 @@
+---
+title: "Python MFTE evaluation"
+author: "Elen Le Foll"
+date: "06/05/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(DescTools)
+library(caret)
+library(here)
+library(paletteer)
+library(readxl)
+library(svglite)
+library(tidyverse)
+
+# Set the random number generator seed for reproducibility.
+set.seed(13)
+
+```
+
+# Data import 
+
+These chunks import the data directly from the Excel files in which I did the manual tag check and corrections. Warning messages that Tag4 columns are unknown or uninitialised can safely be ignored.
+
+```{r import-functions}
+
+importEval3 <- function(file, fileID, register, corpus) {
+  Tag1 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag1, CorrectedTag1) %>% 
+  rename(Tag = Tag1, TagGold = CorrectedTag1, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+  
+  Tag2 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag2, CorrectedTag2) %>% 
+  rename(Tag = Tag2, TagGold = CorrectedTag2, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+
+Tag3 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag3, CorrectedTag3) %>% 
+  rename(Tag = Tag3, TagGold = CorrectedTag3, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+
+output <- rbind(Tag1, Tag2, Tag3) %>% 
+  mutate(across(where(is.factor), str_remove_all, pattern = fixed(" "))) %>% # Removes all white spaces which are found in the excel files
+  filter(!is.na(Output)) %>% 
+  mutate_if(is.character, as.factor)
+
+}
+
+importEval4 <- function(file, fileID, register, corpus) {
+  Tag1 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag1, CorrectedTag1) %>% 
+  rename(Tag = Tag1, TagGold = CorrectedTag1, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+  
+  Tag2 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag2, CorrectedTag2) %>% 
+  rename(Tag = Tag2, TagGold = CorrectedTag2, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+
+Tag3 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag3, CorrectedTag3) %>% 
+  rename(Tag = Tag3, TagGold = CorrectedTag3, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+
+Tag4 <- file %>% 
+  add_column(FileID = fileID, Register = register, Corpus = corpus) %>%
+  select(FileID, Corpus, Register, Output, Token, Tag4, CorrectedTag4) %>% 
+  rename(Tag = Tag4, TagGold = CorrectedTag4, Token = Token) %>% 
+  mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
+  mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+
+output <- rbind(Tag1, Tag2, Tag3, Tag4) %>% 
+  mutate(across(where(is.factor), str_remove_all, pattern = fixed(" "))) %>% # Removes all white spaces which are found in the excel files
+  filter(!is.na(Tag)) %>% 
+  mutate_if(is.character, as.factor)
+
+}
+
+importEval <- function(file, fileID, register, corpus) { 
+  if(sum(!is.na(file$Tag4)) > 0) {
+    output = importEval4(file = file, fileID = fileID, register = register, corpus = corpus)
+  }
+  else{
+    output = importEval3(file = file, fileID = fileID, register = register, corpus = corpus)
+  }
+}
+
+```
+
+```{r import-individual-files}
+
+BNC_AcaHumBk34 <- importEval(file = read_excel(here("evaluation", "BNC_AcaHumBk34.xlsx")), fileID = "AcaHumBk34", register = "academic", corpus = "BNC2014")
+
+BNC_BAcjH78 <- importEval(file = read_excel(here("evaluation", "BNC_BAcjH78.xlsx")), fileID = "BNC_BAcjH78", register = "academic", corpus = "BNC2014")
+
+BNC_BAcjM107 <- importEval(file = read_excel(here("evaluation", "BNC_BAcjM107.xlsx")), fileID = "BNC_BAcjM107", register = "academic", corpus = "BNC2014")
+
+BNC_BEBl293 <- importEval(file = read_excel(here("evaluation", "BNC_BEBl293.xlsx")), fileID = "BNC_BEBl293", register = "e-language", corpus = "BNC2014")
+
+BNC_BEEm76 <- importEval(file = read_excel(here("evaluation", "BNC_BEEm76.xlsx")), fileID = "BNC_BEEm76", register = "e-language", corpus = "BNC2014")
+
+BNC_BERe31 <- importEval(file = read_excel(here("evaluation", "BNC_BERe31.xlsx")), fileID = "BNC_BERe31", register = "e-language", corpus = "BNC2014")
+
+BNC_BFict_b2 <- importEval(file = read_excel(here("evaluation", "BNC_BFict_b2.xlsx")), fileID = "BNC_BFict_b2", register = "fiction", corpus = "BNC2014")
+
+BNC_BMass311 <- importEval(file = read_excel(here("evaluation", "BNC_BMass311.xlsx")), fileID = "BNC_BMass311", register = "news", corpus = "BNC2014")
+
+BNC_BReg495 <- importEval(file = read_excel(here("evaluation", "BNC_BReg495.xlsx")), fileID = "BNC_BReg495", register = "news", corpus = "BNC2014")
+
+BNC_BSer145 <- importEval(file = read_excel(here("evaluation", "BNC_BSer145.xlsx")), fileID = "BNC_BSer145", register = "news", corpus = "BNC2014")
+
+BNC_ElanBlogBla12 <- importEval(file = read_excel(here("evaluation", "BNC_ElanBlogBla12.xlsx")), fileID = "BNC_ElanBlogBla12", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanBlogSlu30 <- importEval(file = read_excel(here("evaluation", "BNC_ElanBlogSlu30.xlsx")), fileID = "BNC_ElanBlogSlu30", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanEmail102 <- importEval(file = read_excel(here("evaluation", "BNC_ElanEmail102.xlsx")), fileID = "BNC_ElanEmail102", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanForumCar5 <- importEval(file = read_excel(here("evaluation", "BNC_ElanForumCar5.xlsx")), fileID = "BNC_ElanForumCar5", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanForumRig1 <- importEval(file = read_excel(here("evaluation", "BNC_ElanForumRig1.xlsx")), fileID = "BNC_ElanForumRig1", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanRev27 <- importEval(file = read_excel(here("evaluation", "BNC_ElanRev27.xlsx")), fileID = "BNC_ElanRev27", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanSms33 <- importEval(file = read_excel(here("evaluation", "BNC_ElanSms33.xlsx")), fileID = "BNC_ElanSms33", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanSocFac4_pt1 <- importEval(file = read_excel(here("evaluation", "BNC_ElanSocFac4_pt1.xlsx")), fileID = "BNC_ElanSocFac4_pt1", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanSocTwi6_pt4 <- importEval(file = read_excel(here("evaluation", "BNC_ElanSocTwi6_pt4.xlsx")), fileID = "BNC_ElanSocTwi6_pt4", register = "e-language", corpus = "BNC2014")
+
+BNC_ElanSocTwi49_pt7 <- importEval(file = read_excel(here("evaluation", "BNC_ElanSocTwi49_pt7.xlsx")), fileID = "BNC_ElanSocTwi49_pt7", register = "e-language", corpus = "BNC2014")
+
+BNC_FictFan41 <- importEval(file = read_excel(here("evaluation", "BNC_FictFan41.xlsx")), fileID = "BNC_FictFan41", register = "fiction", corpus = "BNC2014")
+
+BNC_FictMis228 <- importEval(file = read_excel(here("evaluation", "BNC_FictMis228.xlsx")), fileID = "BNC_FictMis228", register = "fiction", corpus = "BNC2014")
+
+BNC_MagAut1397 <- importEval(file = read_excel(here("evaluation", "BNC_MagAut1397.xlsx")), fileID = "BNC_MagAut1397", register = "news", corpus = "BNC2014")
+
+BNC_MagPc275 <- importEval(file = read_excel(here("evaluation", "BNC_MagPc275.xlsx")), fileID = "BNC_MagPc275", register = "news", corpus = "BNC2014")
+
+BNC_NewMaDas2819 <- importEval(file = read_excel(here("evaluation", "BNC_NewMaDas2819.xlsx")), fileID = "BNC_NewMaDas2819", register = "news", corpus = "BNC2014")
+
+BNC_NewReBet1393 <- importEval(file = read_excel(here("evaluation", "BNC_NewReBet1393.xlsx")), fileID = "BNC_NewReBet1393", register = "news", corpus = "BNC2014")
+
+BNC_NewSeGua553 <- importEval(file = read_excel(here("evaluation", "BNC_NewSeGua553.xlsx")), fileID = "BNC_NewSeGua553", register = "news", corpus = "BNC2014")
+
+BNC_Sp2m0f33 <- importEval(file = read_excel(here("evaluation", "BNC_Sp2m0f33.xlsx")), fileID = "BNC_Sp2m0f33", register = "spoken", corpus = "BNC2014")
+
+BNC_Sp2m2f63 <- importEval(file = read_excel(here("evaluation", "BNC_Sp2m2f63.xlsx")), fileID = "BNC_Sp2m2f63", register = "spoken", corpus = "BNC2014")
+
+BNC_Sp3m1f10 <- importEval(file = read_excel(here("evaluation", "BNC_Sp3m1f10.xlsx")), fileID = "BNC_Sp3m1f10", register = "spoken", corpus = "BNC2014")
+
+# Command to import all COCA files from directory with fileID, register and corpus
+
+# get file names from directory
+# files <- list.files(here("evaluation"))
+
+# split to save names; name for data frame will be first element
+# names <- strsplit(files, "\\.")
+
+# now get the files
+# for (i in 1:length(files)) { # for each file in the list
+#    fileName <- files[[i]] # save filename of element i
+#    dataName <- names[[i]][[1]] # save data name of element i
+#    tempData <- importEval(file = read_excel(here("evaluation", "fileName")), fileID = dataName, register = "spoken", corpus = "COCA")
+#    assign (dataName, tempData, envir=.GlobalEnv)  # assign the results of file to the data named
+# 
+# }
+
+COCA_acad_4000541 <- importEval(file = read_excel(here("evaluation", "COCA_acad_4000541.xlsx")), fileID = "COCA_acad_4000541", register = "academic", corpus = "COCA")
+
+COCA_acad_4017541 <- importEval(file = read_excel(here("evaluation", "COCA_acad_4017541.xlsx")), fileID = "COCA_acad_4017541", register = "academic", corpus = "COCA")
+
+COCA_acad_4170341 <- importEval(file = read_excel(here("evaluation", "COCA_acad_4170341.xlsx")), fileID = "COCA_acad_4170341", register = "academic", corpus = "COCA")
+
+COCA_blog_5157941 <- importEval(file = read_excel(here("evaluation", "COCA_blog_5157941.xlsx")), fileID = "COCA_blog_5157941", register = "internet", corpus = "COCA")
+
+COCA_blog_5174141 <- importEval(file = read_excel(here("evaluation", "COCA_blog_5174141.xlsx")), fileID = "COCA_blog_5174141", register = "internet", corpus = "COCA")
+
+COCA_blog_5176541 <- importEval(file = read_excel(here("evaluation", "COCA_blog_5176541.xlsx")), fileID = "COCA_blog_5176541", register = "internet", corpus = "COCA")
+
+COCA_fict_1000441 <- importEval(file = read_excel(here("evaluation", "COCA_fict_1000441.xlsx")), fileID = "COCA_fict_1000441", register = "fiction", corpus = "COCA")
+
+COCA_fict_1003141 <- importEval(file = read_excel(here("evaluation", "COCA_fict_1003141.xlsx")), fileID = "COCA_fict_1003141", register = "fiction", corpus = "COCA")
+
+COCA_fict_5003241 <- importEval(file = read_excel(here("evaluation", "COCA_fict_5003241.xlsx")), fileID = "COCA_fict_5003241", register = "fiction", corpus = "COCA")
+
+COCA_mag_2029741 <- importEval(file = read_excel(here("evaluation", "COCA_mag_2029741.xlsx")), fileID = "COCA_mag_2029741", register = "news", corpus = "COCA")
+
+COCA_mag_2030941 <- importEval(file = read_excel(here("evaluation", "COCA_mag_2030941.xlsx")), fileID = "COCA_mag_2030941", register = "news", corpus = "COCA")
+
+COCA_mag_4180341 <- importEval(file = read_excel(here("evaluation", "COCA_mag_4180341.xlsx")), fileID = "COCA_mag_4180341", register = "news", corpus = "COCA")
+
+COCA_News_4087357 <- importEval(file = read_excel(here("evaluation", "COCA_News_4087357.xlsx")), fileID = "COCA_News_4087357", register = "news", corpus = "COCA")
+
+COCA_News_4087464 <- importEval(file = read_excel(here("evaluation", "COCA_News_4087464.xlsx")), fileID = "COCA_News_4087464", register = "news", corpus = "COCA")
+
+COCA_News_4087649 <- importEval(file = read_excel(here("evaluation", "COCA_News_4087649.xlsx")), fileID = "COCA_News_4087649", register = "news", corpus = "COCA")
+
+COCA_News_4087995 <- importEval(file = read_excel(here("evaluation", "COCA_News_4087995.xlsx")), fileID = "COCA_News_4087995", register = "news", corpus = "COCA")
+
+COCA_Opinion_4061065 <- importEval(file = read_excel(here("evaluation", "COCA_Opinion_4061065.xlsx")), fileID = "COCA_Opinion_4061065", register = "news", corpus = "COCA")
+
+COCA_Opinion_4062489 <- importEval(file = read_excel(here("evaluation", "COCA_Opinion_4062489.xlsx")), fileID = "COCA_Opinion_4062489", register = "news", corpus = "COCA")
+
+COCA_Opinion_4079063 <- importEval(file = read_excel(here("evaluation", "COCA_Opinion_4079063.xlsx")), fileID = "COCA_Opinion_4079063", register = "news", corpus = "COCA")
+
+COCA_Opinion_4090647 <- importEval(file = read_excel(here("evaluation", "COCA_Opinion_4090647.xlsx")), fileID = "COCA_Opinion_4090647", register = "news", corpus = "COCA")
+
+COCA_Spoken_4082518 <- importEval(file = read_excel(here("evaluation", "COCA_Spoken_4082518.xlsx")), fileID = "COCA_Spoken_4082518", register = "news", corpus = "COCA")
+
+COCA_Spoken_4082551 <- importEval(file = read_excel(here("evaluation", "COCA_Spoken_4082551.xlsx")), fileID = "COCA_Spoken_4082551", register = "spoken", corpus = "COCA")
+
+COCA_Spoken_4082571 <- importEval(file = read_excel(here("evaluation", "COCA_Spoken_4082571.xlsx")), fileID = "COCA_Spoken_4082571", register = "spoken", corpus = "COCA")
+
+COCA_Spoken_4082646 <- importEval(file = read_excel(here("evaluation", "COCA_Spoken_4082646.xlsx")), fileID = "COCA_Spoken_4082646", register = "spoken", corpus = "COCA")
+
+COCA_tvm_5208241 <- importEval(file = read_excel(here("evaluation", "COCA_tvm_5208241.xlsx")), fileID = "COCA_tvm_5208241", register = "TV/movies", corpus = "COCA")
+
+COCA_tvm_5215441 <- importEval(file = read_excel(here("evaluation", "COCA_tvm_5215441.xlsx")), fileID = "COCA_tvm_5215441", register = "TV/movies", corpus = "COCA")
+
+COCA_tvm_5246241 <- importEval(file = read_excel(here("evaluation", "COCA_tvm_5246241.xlsx")), fileID = "COCA_tvm_5246241", register = "TV/movies", corpus = "COCA")
+
+COCA_web_5026941 <- importEval(file = read_excel(here("evaluation", "COCA_web_5026941.xlsx")), fileID = "COCA_web_5026941", register = "web", corpus = "COCA")
+
+COCA_web_5035341 <- importEval(file = read_excel(here("evaluation", "COCA_web_5035341.xlsx")), fileID = "COCA_web_5035341", register = "web", corpus = "COCA")
+
+COCA_web_5080941 <- importEval(file = read_excel(here("evaluation", "COCA_web_5080941.xlsx")), fileID = "COCA_web_5080941", register = "web", corpus = "COCA") 
+
+```
+
+```{r combine-files}
+
+# Command to rbind all COCA and BNC R objects in the local environment
+
+list_of_dataframes <- objects(pattern = "BNC|COCA")
+
+list_of_dataframes <- toString(objects(pattern = "BNC|COCA"))
+
+list_of_dataframes
+
+EvalData <- rbind(BNC_AcaHumBk34, BNC_BAcjH78, BNC_BAcjM107, BNC_BEBl293, BNC_BEEm76, BNC_BERe31, BNC_BFict_b2, BNC_BMass311, BNC_BReg495, BNC_BSer145, BNC_ElanBlogBla12, BNC_ElanBlogSlu30, BNC_ElanEmail102, BNC_ElanForumCar5, BNC_ElanForumRig1, BNC_ElanRev27, BNC_ElanSms33, BNC_ElanSocFac4_pt1, BNC_ElanSocTwi49_pt7, BNC_ElanSocTwi6_pt4, BNC_FictFan41, BNC_FictMis228, BNC_MagAut1397, BNC_MagPc275, BNC_NewMaDas2819, BNC_NewReBet1393, BNC_NewSeGua553, BNC_Sp2m0f33, BNC_Sp2m2f63, BNC_Sp3m1f10, COCA_acad_4000541, COCA_acad_4017541, COCA_acad_4170341, COCA_blog_5157941, COCA_blog_5174141, COCA_blog_5176541, COCA_fict_1000441, COCA_fict_1003141, COCA_fict_5003241, COCA_mag_2029741, COCA_mag_2030941, COCA_mag_4180341, COCA_News_4087357, COCA_News_4087464, COCA_News_4087649, COCA_News_4087995, COCA_Opinion_4061065, COCA_Opinion_4062489, COCA_Opinion_4079063, COCA_Opinion_4090647, COCA_Spoken_4082518, COCA_Spoken_4082551, COCA_Spoken_4082571, COCA_Spoken_4082646, COCA_tvm_5208241, COCA_tvm_5215441, COCA_tvm_5246241, COCA_web_5026941, COCA_web_5035341, COCA_web_5080941) 
+
+summary(EvalData)
+
+#saveRDS(EvalData, here("evaluation", "MFTE_Python_Eval_Results.rds")) # Last saved 9 May 2023
+
+#write.csv(EvalData, here("evaluation", "MFTE_Evaluation_BNC2014_Results.csv")) # Last saved 9 May 2023
+
+```
+
+## Quick import
+
+```{r quick-import}
+
+EvalData <- readRDS(here("evaluation", "MFTE_Python_Eval_Results.rds")) # 
+summary(EvalData)
+
+# Total number of tags manually checked
+nrow(EvalData) # 61145
+
+# Number of tags evaluated per file
+EvalData %>% 
+  group_by(FileID) %>% 
+  count(.) %>% 
+  arrange(desc(n))
+
+# Number of UNCLEAR Token
+EvalData %>% 
+  filter(TagGold %in% c("UNCLEAR", "unclear")) %>% 
+  count()
+
+BinomCI(293, 174193,
+        conf.level = 0.95,
+        sides = "two.sided",
+        method = "wilsoncc") * 100
+
+# Number of tags per feature
+EvalData %>% 
+  group_by(Tag) %>% 
+  count() %>% 
+  arrange(-n) %>% 
+  as.data.frame()
+
+EvalData %>% filter(TagGold=="NNMENTION") %>% select(FileID)
+
+```
+
+# Analysis
+
+In this chunk, I calculate the recall and precision rates of each feature, ignoring unclear Token.
+
+```{r recall-precision-f1}
+
+summary(EvalData$Tag)
+
+data <- EvalData %>% 
+  filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
+  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM")) %>% 
+  #filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
+  droplevels(.) %>% 
+  mutate(Tag = factor(Tag, levels = union(levels(Tag), levels(TagGold)))) %>% # Ensure that the factor levels are the same for the next caret operation
+  mutate(TagGold = factor(TagGold, levels = union(levels(Tag), levels(TagGold))))
+
+summary(data$Tag)
+
+# Spot gold tag corrections that are not actually errors
+data[data$Tag==data$TagGold & data$Evaluation == FALSE,] %>% as.data.frame()
+
+nrow(data) # Number of tags included in table of features that were manually checked 
+head(data) # Check sanity of data
+str(data) # Check sanity of data
+
+#saveRDS(data, here("evaluation", "MFTE_Python_Eval_Results.rds")) # Last saved 9 May 2023
+
+#write.csv(data, here("evaluation", "MFTE_Python_Eval_Results.csv")) # Last saved 9 May 2023
+
+cm <- caret::confusionMatrix(data$Tag, data$TagGold) # Create confusion matrix
+cm$overall # Note that is not very meaningful because it includes tags which are not intended for use in MDA studies, e.g., LS and FW, or which are part of the evaluation process, e.g., NULL and UNCLEAR.
+
+# Quick summary of results: recall, precision and f1
+cm$byClass[,5:7]
+
+# Generate a better formatted results table: recall, precision and f1
+confusion_matrix <- cm$table
+total <- sum(confusion_matrix)
+number_of_classes <- nrow(confusion_matrix)
+correct <- diag(confusion_matrix)
+# sum all columns
+total_actual_class <- apply(confusion_matrix, 2, sum)
+# sum all rows
+total_pred_class <- apply(confusion_matrix, 1, sum)
+# Precision = TP / all that were predicted as positive
+precision <- correct / total_pred_class
+# Recall = TP / all that were actually positive
+recall <- correct / total_actual_class
+# F1
+f1 <- (2 * precision * recall) / (precision + recall)
+# create data frame to output results
+results <- data.frame(precision, recall, f1)
+
+results %>% 
+  arrange(desc(f1))
+
+
+```
+
+
+# Visualising tagger errors 
+
+```{r, fig.width = 8, fig.height = 8}
+
+min_n <- 100
+jitter_dist <- 0.2
+opacity <- 0.3
+
+data_filtered1 <- EvalData %>% 
+  filter(!TagGold %in% c("UNCLEAR","unclear", "null", "NULL")) %>% 
+  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM")) %>% 
+  filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here. 
+  add_count(Tag, name = "n_tagged") %>%
+  add_count(TagGold, name = "n_tagged_gold") #%>%
+  filter(
+    n_tagged >= min_n,
+    n_tagged_gold >= min_n)
+
+tags_remaining <- union(
+  unique(data_filtered1$Tag),
+  unique(data_filtered1$TagGold)
+)
+
+data_filtered2 <- data_filtered1 %>%
+  mutate(
+    Tag = factor(Tag, levels = tags_remaining),
+    TagGold = factor(TagGold, levels = tags_remaining)) %>% 
+  arrange(TagGold)
+
+error_fig <- data_filtered2 %>%
+  ggplot(aes(x = TagGold, y = Tag, colour = Evaluation)) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        legend.position = "none") +
+  scale_color_manual(values = c("red2", "chartreuse3")) + 
+  coord_fixed() +
+  scale_x_discrete(drop = FALSE) +
+  scale_y_discrete(drop = FALSE) +
+  geom_jitter(
+    #aes(size = n_tagged_gold),
+    width = jitter_dist,
+    height = jitter_dist,
+    alpha = opacity)
+
+error_fig
+
+```
+
+## Comparing tagger accuracy across different registers
+
+````{r register-based-accuracy}
+
+registerEval <- function(data, register) {
+  d <- data %>% filter(Register==register)
+  cm <- caret::confusionMatrix(d$Tag, d$TagGold) 
+  return(round((cm$overall*100), 2))
+  #return(cm$byClass[,5:7])
+}
+
+summary(data$Register)
+
+registerEval(data, "internet")
+registerEval(data, "news")
+registerEval(data, "academic")
+registerEval(data, "spoken")
+registerEval(data, "TV/movies")
+registerEval(data, "fiction")
+
+for(i in unique(data_filtered$Register)){
+  print((
+    fig %+% filter(data_filtered, Register == i)) +
+      ggtitle(i)
+  )
+}
+
+```
+
+## Comparing tagger accuracy across individual files
+
+Though this is not very informative because the individual test files really are quite short.
+
+````{r file-based-accuracy}
+
+fileEval <- function(data, file) {
+  d <- data %>% filter(FileID==file) %>% 
+    # Ensure that the factor levels are the same for the next caret operation
+    mutate(Tag = factor(Tag, levels = union(levels(Tag), levels(TagGold)))) %>% 
+  mutate(TagGold = factor(TagGold, levels = union(levels(Tag), levels(TagGold))))
+  cm <- caret::confusionMatrix(d$Tag, d$TagGold) 
+  return(cm$overall)
+  #return(cm$byClass[,5:7])
+}
+
+levels(data$FileID)
+
+fileEval(data, "COCA_Opinion_4079063")
+fileEval(data, "BNC_BAcjH78")
+
+```
+
+## Compute accuracy metrics per feature
+
+The three accuracy metrics are recall, precision and F1 score.
+
+```{r accuracy-per-feature}
+
+cm <- caret::confusionMatrix(data$Tag, data$TagGold) 
+cm$overall
+cm$byClass[,5:7]
+
+confusion_matrix <- cm$table
+total <- sum(confusion_matrix)
+number_of_classes <- nrow(confusion_matrix)
+correct <- diag(confusion_matrix)
+total_actual_class <- apply(confusion_matrix, 2, sum)
+total_pred_class <- apply(confusion_matrix, 1, sum)
+# Precision = TP / all that were predicted as positive
+precision <- correct / total_pred_class
+# Recall = TP / all that were actually positive
+recall <- correct / total_actual_class
+# F1
+f1 <- (2 * precision * recall) / (precision + recall)
+# create data frame to output results
+results <- data.frame(precision, recall, f1)
+results
+
+#write.csv(results, here("data", "MFTEAccuracyResults.csv"))
+
+```
+
+## Compute accuracy metrics with bootstrapping
+
+This next chunk is based on the method and code presented in Picoral et al. (2021).
+
+```{r bootstrapped-recall-precision-f1}
+library(boot)
+library(caret)
+
+# Save a bit of computation time by filtering the data before we start.
+exclude_tags <- c("NULL", "UNCLEAR", "PRP", "null", "unclear")
+data %>%
+  select(Tag, TagGold) %>%
+  filter(
+    !(Tag %in% exclude_tags),
+    !(TagGold %in% exclude_tags)
+  ) ->
+  data_filtered
+
+# Now unify the factor levels of the two relevant columns.
+tags_remaining <- union(
+  unique(data_filtered$Tag),
+  unique(data_filtered$TagGold)
+)
+data_filtered %>%
+  mutate(
+    Tag = factor(Tag, levels = tags_remaining),
+    TagGold = factor(TagGold, levels = tags_remaining)
+  ) ->
+  data_filtered
+
+# Function for calculating the statistics.
+# We can simplify this a bit, and make it return all three statistics.
+get_measure_for_feature <- function(data, indices, measure, feature){
+  data <- data[indices, ]
+  confusion <- confusionMatrix(data$Tag, data$TagGold)
+  statistics <- confusion$byClass
+  return(statistics[paste("Class:", feature), measure])
+}
+
+# An example
+example_results <- boot(
+  data = data_filtered2, 
+  statistic = get_measure_for_feature,
+  measure = "Recall",
+  feature = "VPRT", 
+  R = 10
+) # This would have to be increased obviously but sticking to a low number for now to reduce waiting time.
+
+print(example_results)
+```
+
+In the following chunk, the bootstrapping is applied to every combination of feature and measure. This will take a long time, so printout indicates the update us on the progress. However, I do not recommend running this code because it is incredibly slow and the {boot} library appears to have some weird bugs that cause various errors.
+
+```{r bootstrapped-CI, eval=FALSE}
+n_samples <- 10 # This would obviously have to be increased to 1000+
+statistics <- c("Precision", "Recall", "F1")
+
+# Get a dataframe ready.
+all_results <- expand_grid(
+  tag = tags_remaining,
+  statistic = statistics,
+  lower = NA,
+  upper = NA
+)
+
+# Crunch the numbers painfully slowly in a loop.
+for(row in 1:nrow(all_results)){
+  
+  # Find out what feature and measure we are working with this time.
+  current_feature <- as.character(all_results[row, "tag"])
+  current_measure <- as.character(all_results[row, "statistic"])
+  
+  # Make a progress printout.
+  cat(current_measure, "for", current_feature, ":", n_samples, "samples\n")
+  flush.console()
+  
+  # Filter out the irrelevant data to save a bit of time,
+  # then hand on to the boot and ci functions.
+  data_filtered2 %>%
+    filter((Tag == current_feature) | (TagGold == current_feature)) %>%
+    boot(
+      statistic = get_measure_for_feature,
+      measure = current_measure,
+      feature = current_feature,
+      R = n_samples
+    ) %>%
+    boot.ci(type = "perc") ->
+    result
+  
+  # If we got a valid result, put it into the data frame.
+  if(!is.null(result$perc)){
+    all_results[row, "lower"] <- result$perc[4]
+    all_results[row, "upper"] <- result$perc[5]
+  }
+
+}
+
+all_results
+
+```
+
+Given that the above chunk proved too slow to run in R, the code was "translated" to run in python. Many thanks to Luke Tudge who did this conversion for me. The script is included in this project's repository and is called `Bootstrapped_Accuracy.ipynb`.
+
+```{r python-prep}
+
+Sys.which("python")
+library(reticulate)
+py_config()
+py_discover_config()
+
+# conda info --envs
+# source activate /Applications/anaconda3/
+# conda install pip
+# pip install stanza==1.4.0
+# 
+
+use_python("/Applications/anaconda3/bin/python")
+
+#use_condaenv("/Applications/anaconda3/envs/r-reticulate", required = TRUE)
+
+```
+
+
+```{python}
+
+import time
+import numpy
+import pandas
+import plotnine
+import scipy
+import sklearn
+
+#%matplotlib widget 
+
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
+
+data = pandas.read_csv('/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/evaluation/MFTE_Python_Eval_Results.csv', keep_default_na=False)
+
+data
+
+data.dtypes
+
+data['TagGold'].value_counts()
+
+min_n = 100
+exclude_tags = ['NONE', 'UNCLEAR', 'none', 'unclear']
+
+data['Count'] = data.groupby('TagGold')['TagGold'].transform(len)
+enough_data = data['Count'] >= min_n
+valid_tag_gold = ~data['TagGold'].isin(exclude_tags)
+valid_tag = ~data['Tag'].isin(exclude_tags)
+data_filtered = data[enough_data & valid_tag_gold & valid_tag]
+
+data_filtered['TagGold'].value_counts()
+
+tags_remaining = set.union(set(data_filtered['TagGold']), set(data_filtered['Tag']))
+
+data_filtered['TagGold'] = pandas.Categorical(data_filtered['TagGold'], categories=tags_remaining)
+data_filtered['Tag'] = pandas.Categorical(data_filtered['Tag'], categories=tags_remaining)
+
+tags = data_filtered['TagGold'].unique()
+
+precision, recall, f1, n = sklearn.metrics.precision_recall_fscore_support(
+ data['TagGold'],
+ data['Tag'],
+ labels=tags
+)
+
+results = pandas.DataFrame({
+ 'tag': tags,
+ 'precision': precision,
+ 'recall': recall,
+ 'f1': f1,
+ 'n': n
+})
+
+results
+
+results = results.melt(id_vars=['tag', 'n'], var_name='metric')
+results['lower'] = numpy.nan
+results['upper'] = numpy.nan
+results['valid'] = False
+
+results
+
+n_resamples = 10
+
+data_bootstrap = data[data['TagGold'].isin(tags) | data['Tag'].isin(tags)]
+
+for rownum, row in results.iterrows():
+    
+    print(rownum, ':', row['tag'], row['metric'], '... ', end='')
+    start_time = time.time()
+    
+    if row['value'] == 1.0:
+        print('skipping')
+        continue
+    
+    if row['metric'] == 'precision':
+        func = sklearn.metrics.precision_score
+    elif row['metric'] == 'recall':
+        func = sklearn.metrics.recall_score
+    else:
+        func = sklearn.metrics.f1_score
+        
+    def metric(y_true, y_pred):
+        return func(y_true, y_pred, labels=[row['tag']], average=None)[0]
+
+    boot = scipy.stats.bootstrap(
+     (data_bootstrap['TagGold'], data_bootstrap['Tag']),
+     metric,
+     vectorized=False,
+     paired=True,
+     n_resamples=n_resamples,
+     method='percentile',
+     random_state=0
+    )
+    
+    print('done', int(time.time() - start_time), 's')
+    
+    results.loc[rownum, 'lower'] = boot.confidence_interval.low
+    results.loc[rownum, 'upper'] = boot.confidence_interval.high
+    results.loc[rownum, 'valid'] = True
+    
+results.to_csv('MFTE_Python_Eval_CIs.csv', index=False)
+
+results
+
+```
+
+
+The results of the python script are plotted in the following chunk.
+
+```{r plot-accuracy-CI}
+
+resultsCI <- read.csv(here("MFTE_Python_Eval_CIs.csv")) # As computed in Bootstrapped_Accuracy.ipynb.
+head(resultsCI)
+
+resultsCI <- resultsCI %>% 
+  mutate(tag = as.factor(tag)) %>% 
+  filter(tag %in% c(str_extract(tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
+  droplevels(.) %>% 
+  mutate(metric = factor(metric, levels = c("precision", "recall", "f1")))
+
+ggplot(resultsCI, aes(y = reorder(tag, desc(tag)), x = value, group = metric, colour = n)) +
+  geom_point() +
+  geom_errorbar(aes(xmin=lower, xmax = upper)) +
+  ylab("") +
+  xlab("") +
+  facet_wrap(~ metric) +
+  scale_color_paletteer_c("harrypotter::harrypotter", trans = "log", breaks = c(50,5000), labels = c(50,5000), name = "Number of Token manually evaluated\n") +
+  theme_bw() +
+  theme(legend.position = "bottom")
+
+ggsave(here("plots", "TaggerAccuracyResults95CI.svg"), width = 8, height = 12)
+
+```
+
+## Obtaining full list of errors
+
+```{r errors}
+
+# Adding an error tag with the incorrectly assigned tag and underscore and then the correct "gold" label
+errors <- EvalData2 %>% 
+  filter(Evaluation=="FALSE") %>% 
+  filter(TagGold != "UNCLEAR") %>% 
+  mutate(Error = paste(Tag, TagGold, sep = " -> ")) 
+
+# Total number of errors
+nrow(errors) # 1199
+
+FreqErrors <- errors %>% 
+  count(Error) %>% 
+  arrange(desc(n)) 
+
+FreqErrors %>% 
+  #group_by(Register) %>% 
+  filter(n > 9) %>% 
+  print.data.frame() 
+
+errors %>% 
+  filter(Error == "NN -> JJAT") %>% 
+  select(-Output, -Corpus, -Tag, -TagGold) %>% 
+  filter(grepl(x = Token, pattern = "[A-Z]+.")) %>% 
+  print.data.frame() 
+
+errors %>% 
+  filter(Error %in% c("NN -> VB", "VB -> NN", "NN -> VPRT", "VPRT -> NN")) %>% 
+  count(Token) %>% 
+  arrange(desc(n)) %>% 
+  print.data.frame() 
+
+errors %>% 
+  filter(Error == "NN -> JJPR") %>% 
+  count(Token) %>% 
+  filter(grepl(x = Token, pattern = "[A-Z]+.")) %>% 
+  arrange(desc(n)) %>% 
+  print.data.frame() 
+
+errors %>% 
+  filter(Error == "ACT -> NULL") %>% 
+  count(Token) %>% 
+  arrange(desc(n)) %>% 
+  print.data.frame() 
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
