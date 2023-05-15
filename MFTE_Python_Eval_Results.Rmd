@@ -43,7 +43,7 @@ importEval3 <- function(file, fileID, register, corpus) {
   rename(Tag = Tag2, TagGold = CorrectedTag2, Token = Token) %>% 
   mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
   mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
-  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "NONE", as.character(Tag))) %>%
   filter(!is.na(Tag)) %>% 
   mutate_if(is.character, as.factor)
 
@@ -53,7 +53,7 @@ Tag3 <- file %>%
   rename(Tag = Tag3, TagGold = CorrectedTag3, Token = Token) %>% 
   mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
   mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
-  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "NONE", as.character(Tag))) %>%
   filter(!is.na(Tag)) %>% 
   mutate_if(is.character, as.factor)
 
@@ -80,7 +80,7 @@ importEval4 <- function(file, fileID, register, corpus) {
   rename(Tag = Tag2, TagGold = CorrectedTag2, Token = Token) %>% 
   mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
   mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
-  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "NONE", as.character(Tag))) %>%
   filter(!is.na(Tag)) %>% 
   mutate_if(is.character, as.factor)
 
@@ -90,7 +90,7 @@ Tag3 <- file %>%
   rename(Tag = Tag3, TagGold = CorrectedTag3, Token = Token) %>% 
   mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
   mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
-  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "NONE", as.character(Tag))) %>%
   filter(!is.na(Tag)) %>% 
   mutate_if(is.character, as.factor)
 
@@ -100,7 +100,7 @@ Tag4 <- file %>%
   rename(Tag = Tag4, TagGold = CorrectedTag4, Token = Token) %>% 
   mutate(Evaluation = ifelse(is.na(TagGold), TRUE, FALSE)) %>% 
   mutate(TagGold = ifelse(is.na(TagGold), as.character(Tag), as.character(TagGold))) %>%
-  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "null", as.character(Tag))) %>%
+  mutate(Tag = ifelse(is.na(Tag) & !is.na(TagGold), "NONE", as.character(Tag))) %>%
   filter(!is.na(Tag)) %>% 
   mutate_if(is.character, as.factor)
 
@@ -268,18 +268,23 @@ COCA_web_5080941 <- importEval(file = read_excel(here("evaluation", "COCA_web_50
 # Command to rbind all COCA and BNC R objects in the local environment
 
 list_of_dataframes <- objects(pattern = "BNC|COCA")
-
 list_of_dataframes <- toString(objects(pattern = "BNC|COCA"))
-
 list_of_dataframes
 
 EvalData <- rbind(BNC_AcaHumBk34, BNC_BAcjH78, BNC_BAcjM107, BNC_BEBl293, BNC_BEEm76, BNC_BERe31, BNC_BFict_b2, BNC_BMass311, BNC_BReg495, BNC_BSer145, BNC_ElanBlogBla12, BNC_ElanBlogSlu30, BNC_ElanEmail102, BNC_ElanForumCar5, BNC_ElanForumRig1, BNC_ElanRev27, BNC_ElanSms33, BNC_ElanSocFac4_pt1, BNC_ElanSocTwi49_pt7, BNC_ElanSocTwi6_pt4, BNC_FictFan41, BNC_FictMis228, BNC_MagAut1397, BNC_MagPc275, BNC_NewMaDas2819, BNC_NewReBet1393, BNC_NewSeGua553, BNC_Sp2m0f33, BNC_Sp2m2f63, BNC_Sp3m1f10, COCA_acad_4000541, COCA_acad_4017541, COCA_acad_4170341, COCA_blog_5157941, COCA_blog_5174141, COCA_blog_5176541, COCA_fict_1000441, COCA_fict_1003141, COCA_fict_5003241, COCA_mag_2029741, COCA_mag_2030941, COCA_mag_4180341, COCA_News_4087357, COCA_News_4087464, COCA_News_4087649, COCA_News_4087995, COCA_Opinion_4061065, COCA_Opinion_4062489, COCA_Opinion_4079063, COCA_Opinion_4090647, COCA_Spoken_4082518, COCA_Spoken_4082551, COCA_Spoken_4082571, COCA_Spoken_4082646, COCA_tvm_5208241, COCA_tvm_5215441, COCA_tvm_5246241, COCA_web_5026941, COCA_web_5035341, COCA_web_5080941) 
 
 summary(EvalData)
+unique(EvalData$FileID)
+unique(EvalData$TagGold)
+unique(EvalData$Tag)
 
-#saveRDS(EvalData, here("evaluation", "MFTE_Python_Eval_Results.rds")) # Last saved 9 May 2023
+EvalData <- EvalData %>% 
+  mutate(TagGold = ifelse(TagGold == "none", "NONE", as.character(TagGold))) %>%
+  mutate(TagGold = as.factor(ifelse(TagGold == "unclear", "UNCLEAR", as.character(TagGold))))
 
-#write.csv(EvalData, here("evaluation", "MFTE_Evaluation_BNC2014_Results.csv")) # Last saved 9 May 2023
+#saveRDS(EvalData, here("evaluation", "MFTE_Python_Eval_Results.rds")) # Last saved 12 May 2023
+
+#write.csv(EvalData, here("evaluation", "MFTE_Python_Eval_Results.csv")) # Last saved 12 May 2023
 
 ```
 
@@ -301,7 +306,7 @@ EvalData %>%
 
 # Number of UNCLEAR Token
 EvalData %>% 
-  filter(TagGold %in% c("UNCLEAR", "unclear")) %>% 
+  filter(TagGold %in% c("UNCLEAR")) %>% 
   count()
 
 BinomCI(293, 174193,
@@ -330,27 +335,24 @@ summary(EvalData$Tag)
 
 data <- EvalData %>% 
   filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
-  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM")) %>% 
+  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
+  filter(!Tag %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
   #filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
   droplevels(.) %>% 
   mutate(Tag = factor(Tag, levels = union(levels(Tag), levels(TagGold)))) %>% # Ensure that the factor levels are the same for the next caret operation
   mutate(TagGold = factor(TagGold, levels = union(levels(Tag), levels(TagGold))))
 
-summary(data$Tag)
+summary(data$TagGold)
 
 # Spot gold tag corrections that are not actually errors
 data[data$Tag==data$TagGold & data$Evaluation == FALSE,] %>% as.data.frame()
 
-nrow(data) # Number of tags included in table of features that were manually checked 
-head(data) # Check sanity of data
+nrow(data) # Number of tags included in table of features (all manually checked by one or two research assistants!)
+head(data);tail(data) # Check sanity of data
 str(data) # Check sanity of data
 
-#saveRDS(data, here("evaluation", "MFTE_Python_Eval_Results.rds")) # Last saved 9 May 2023
-
-#write.csv(data, here("evaluation", "MFTE_Python_Eval_Results.csv")) # Last saved 9 May 2023
-
 cm <- caret::confusionMatrix(data$Tag, data$TagGold) # Create confusion matrix
-cm$overall # Note that is not very meaningful because it includes tags which are not intended for use in MDA studies, e.g., LS and FW, or which are part of the evaluation process, e.g., NULL and UNCLEAR.
+cm$overall # Note that is not very meaningful because it includes tags which are not intended for use in MDA studies, e.g., LS and FW, or which are part of the evaluation process, e.g., NONE and UNCLEAR.
 
 # Quick summary of results: recall, precision and f1
 cm$byClass[,5:7]
@@ -376,6 +378,21 @@ results <- data.frame(precision, recall, f1)
 results %>% 
   arrange(desc(f1))
 
+data1 <- EvalData %>% 
+  filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
+  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
+  filter(!Tag %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
+  filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
+  droplevels(.) %>% 
+  mutate(Tag = factor(Tag, levels = union(levels(Tag), levels(TagGold)))) %>% # Ensure that the factor levels are the same for the next caret operation
+  mutate(TagGold = factor(TagGold, levels = union(levels(Tag), levels(TagGold))))
+
+summary(data1$TagGold)
+
+#saveRDS(data1, here("evaluation", "MFTE_Python_Eval_Results_filtered.rds")) # Last saved 14 May 2023
+
+#write.csv(data1, here("evaluation", "MFTE_Python_Eval_Results_filtered.csv")) # Last saved 14 May 2023
+
 
 ```
 
@@ -389,11 +406,11 @@ jitter_dist <- 0.2
 opacity <- 0.3
 
 data_filtered1 <- EvalData %>% 
-  filter(!TagGold %in% c("UNCLEAR","unclear", "null", "NULL")) %>% 
+  filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
   filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM")) %>% 
   filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here. 
   add_count(Tag, name = "n_tagged") %>%
-  add_count(TagGold, name = "n_tagged_gold") #%>%
+  add_count(TagGold, name = "n_tagged_gold") %>%
   filter(
     n_tagged >= min_n,
     n_tagged_gold >= min_n)
@@ -519,7 +536,7 @@ library(boot)
 library(caret)
 
 # Save a bit of computation time by filtering the data before we start.
-exclude_tags <- c("NULL", "UNCLEAR", "PRP", "null", "unclear")
+exclude_tags <- c("NONE", "UNCLEAR", "PRP", "NONE", "unclear")
 data %>%
   select(Tag, TagGold) %>%
   filter(
@@ -641,14 +658,9 @@ import pandas
 import plotnine
 import scipy
 import sklearn
+import os
 
-#%matplotlib widget 
-
-currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parentdir = os.path.dirname(currentdir)
-sys.path.insert(0, parentdir)
-
-data = pandas.read_csv('/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/evaluation/MFTE_Python_Eval_Results.csv', keep_default_na=False)
+data = pandas.read_csv('/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/evaluation/MFTE_Python_Eval_Results_filtered.csv', keep_default_na=False)
 
 data
 
@@ -657,13 +669,14 @@ data.dtypes
 data['TagGold'].value_counts()
 
 min_n = 100
-exclude_tags = ['NONE', 'UNCLEAR', 'none', 'unclear']
+#exclude_tags = ['NONE', 'UNCLEAR', 'none', 'unclear']
 
 data['Count'] = data.groupby('TagGold')['TagGold'].transform(len)
 enough_data = data['Count'] >= min_n
-valid_tag_gold = ~data['TagGold'].isin(exclude_tags)
-valid_tag = ~data['Tag'].isin(exclude_tags)
-data_filtered = data[enough_data & valid_tag_gold & valid_tag]
+#valid_tag_gold = ~data['TagGold'].isin(exclude_tags)
+#valid_tag = ~data['Tag'].isin(exclude_tags)
+#data_filtered = data[enough_data & valid_tag_gold & valid_tag]
+data_filtered = data[enough_data]
 
 data_filtered['TagGold'].value_counts()
 
