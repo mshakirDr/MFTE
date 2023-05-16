@@ -807,7 +807,7 @@ def process_sentence (words: list, extended: bool = False) -> list:
             # Tags perfect aspects 
             # ELF: Changed things around as compared to the MAT to tag PEAS onto the past participle (and thus replace the VBD/VBN tags) rather than as an add-on to the verb have, as Biber/Nini did. 
             # I tried to avoid as many errors as possible with 's being either BE (= passive) or HAS (= perfect aspect) but this is not perfect. 
-            # Note that "'s got" and "'s used to" are already tagged separately. 
+            # Note that "'s got" and "'s used to" are tagged separately. 
             # It's also worth noting that lemmatisation would likely not help much here either because spot checks with Sketch Engine's lemmatiser show that lemmatisers do a terrible job at this, too!
             if ((re.search("ed_VBD|_VBN", words[j]) and re.search("\\b(" + have + ")", words[j-1], re.IGNORECASE)) or # have eaten
             (re.search("ed_VBD|_VBN", words[j]) and re.search("_RB|_XX0|_EMPH|_PRP|_DMA|_CC", words[j-1]) and re.search("\\b(" + have + ")", words[j-2], re.IGNORECASE)) or # have not eaten
@@ -1812,9 +1812,9 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
         df_sorted (pd.DataFrame): sorted df
     """
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
-    simple = [col for col in df.columns if col in ["ABLE", "ACT", "AMP", "ASPECT", "BEMA", "CAUSE", "CC", "CD", "COMM", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "EXIST", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "LIKE", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "MENTAL", "NCOMP", "NN", "OCCUR", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SO", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
+    simple = [col for col in df.columns if col in ["ABLE", "AMP", "ASPECT", "BEMA", "CC", "CD", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "NCOMP", "NN", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["COMPAR", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
+    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
@@ -1946,5 +1946,5 @@ if __name__ == "__main__":
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
         #tag_MD(output_stanford, output_MD, extended=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=False)
+        tag_MD_parallel(output_stanford, output_MD, extended=True)
         do_counts(output_MD, output_stats, ttr)

@@ -335,7 +335,7 @@ summary(EvalData$Tag)
 
 data <- EvalData %>% 
   filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
-  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
+  filter(!TagGold %in% c("ACT", "NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
   filter(!Tag %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
   #filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
   droplevels(.) %>% 
@@ -352,7 +352,7 @@ head(data);tail(data) # Check sanity of data
 str(data) # Check sanity of data
 
 cm <- caret::confusionMatrix(data$Tag, data$TagGold) # Create confusion matrix
-cm$overall # Note that is not very meaningful because it includes tags which are not intended for use in MDA studies, e.g., LS and FW, or which are part of the evaluation process, e.g., NONE and UNCLEAR.
+cm$overall # Note that is not very meaningful because it includes tags which are not intended for use in MDA studies, e.g., LS and FW, or which are part of the evaluation process, e.g., NONE.
 
 # Quick summary of results: recall, precision and f1
 cm$byClass[,5:7]
@@ -380,14 +380,15 @@ results %>%
 
 data1 <- EvalData %>% 
   filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
-  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
-  filter(!Tag %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
+  filter(!TagGold %in% c("ACT", "NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
+  filter(!Tag %in% c("ACT", "NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM", "WDT", "MDother")) %>% 
   filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
   droplevels(.) %>% 
   mutate(Tag = factor(Tag, levels = union(levels(Tag), levels(TagGold)))) %>% # Ensure that the factor levels are the same for the next caret operation
   mutate(TagGold = factor(TagGold, levels = union(levels(Tag), levels(TagGold))))
 
 summary(data1$TagGold)
+levels(data1$TagGold)
 
 #saveRDS(data1, here("evaluation", "MFTE_Python_Eval_Results_filtered.rds")) # Last saved 14 May 2023
 
@@ -395,7 +396,6 @@ summary(data1$TagGold)
 
 
 ```
-
 
 # Visualising tagger errors 
 
@@ -407,7 +407,7 @@ opacity <- 0.3
 
 data_filtered1 <- EvalData %>% 
   filter(!TagGold %in% c("UNCLEAR","unclear")) %>% 
-  filter(!TagGold %in% c("NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM")) %>% 
+  filter(!TagGold %in% c("ACT", "NFP", "GW", "HYPH", "ADD", "AFX", "FW", "WQ", "SYM")) %>% 
   filter(TagGold %in% c(str_extract(Tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here. 
   add_count(Tag, name = "n_tagged") %>%
   add_count(TagGold, name = "n_tagged_gold") %>%
@@ -449,25 +449,25 @@ error_fig
 
 ````{r register-based-accuracy}
 
-registerEval <- function(data, register) {
+registerEval <- function(data1, register) {
   d <- data %>% filter(Register==register)
   cm <- caret::confusionMatrix(d$Tag, d$TagGold) 
   return(round((cm$overall*100), 2))
   #return(cm$byClass[,5:7])
 }
 
-summary(data$Register)
+summary(data1$Register)
 
-registerEval(data, "internet")
-registerEval(data, "news")
-registerEval(data, "academic")
-registerEval(data, "spoken")
-registerEval(data, "TV/movies")
-registerEval(data, "fiction")
+registerEval(data1, "internet")
+registerEval(data1, "news")
+registerEval(data1, "academic")
+registerEval(data1, "spoken")
+registerEval(data1, "TV/movies")
+registerEval(data1, "fiction")
 
-for(i in unique(data_filtered$Register)){
+for(i in unique(data1$Register)){
   print((
-    fig %+% filter(data_filtered, Register == i)) +
+    fig %+% filter(data1, Register == i)) +
       ggtitle(i)
   )
 }
@@ -480,7 +480,7 @@ Though this is not very informative because the individual test files really are
 
 ````{r file-based-accuracy}
 
-fileEval <- function(data, file) {
+fileEval <- function(data1, file) {
   d <- data %>% filter(FileID==file) %>% 
     # Ensure that the factor levels are the same for the next caret operation
     mutate(Tag = factor(Tag, levels = union(levels(Tag), levels(TagGold)))) %>% 
@@ -503,7 +503,7 @@ The three accuracy metrics are recall, precision and F1 score.
 
 ```{r accuracy-per-feature}
 
-cm <- caret::confusionMatrix(data$Tag, data$TagGold) 
+cm <- caret::confusionMatrix(data1$Tag, data1$TagGold) 
 cm$overall
 cm$byClass[,5:7]
 
@@ -523,264 +523,80 @@ f1 <- (2 * precision * recall) / (precision + recall)
 results <- data.frame(precision, recall, f1)
 results
 
-#write.csv(results, here("data", "MFTEAccuracyResults.csv"))
+#write.csv(results, here("evaluation", "MFTEAccuracyResults.csv"))
 
 ```
 
 ## Compute accuracy metrics with bootstrapping
 
-This next chunk is based on the method and code presented in Picoral et al. (2021).
+The idea of computing 95% confidence intervals on these accuracy metrics was inspired by the method and code presented in Picoral et al. (2021). Bootstrapping is applied to every combination of feature and metric to obtain 95% confidence intervals. The code to do so was originally written in R; however because it was incredibly slow and the {boot} library appeared to have some weird bugs that caused various errors, it was translated to run in Python. The script is included in the project's repository and is entitled: `bootstrap_eval.py`. With many thanks to Shakir for optimising its speed considerably using the `multiprocessing` library.
 
-```{r bootstrapped-recall-precision-f1}
-library(boot)
-library(caret)
-
-# Save a bit of computation time by filtering the data before we start.
-exclude_tags <- c("NONE", "UNCLEAR", "PRP", "NONE", "unclear")
-data %>%
-  select(Tag, TagGold) %>%
-  filter(
-    !(Tag %in% exclude_tags),
-    !(TagGold %in% exclude_tags)
-  ) ->
-  data_filtered
-
-# Now unify the factor levels of the two relevant columns.
-tags_remaining <- union(
-  unique(data_filtered$Tag),
-  unique(data_filtered$TagGold)
-)
-data_filtered %>%
-  mutate(
-    Tag = factor(Tag, levels = tags_remaining),
-    TagGold = factor(TagGold, levels = tags_remaining)
-  ) ->
-  data_filtered
-
-# Function for calculating the statistics.
-# We can simplify this a bit, and make it return all three statistics.
-get_measure_for_feature <- function(data, indices, measure, feature){
-  data <- data[indices, ]
-  confusion <- confusionMatrix(data$Tag, data$TagGold)
-  statistics <- confusion$byClass
-  return(statistics[paste("Class:", feature), measure])
-}
-
-# An example
-example_results <- boot(
-  data = data_filtered2, 
-  statistic = get_measure_for_feature,
-  measure = "Recall",
-  feature = "VPRT", 
-  R = 10
-) # This would have to be increased obviously but sticking to a low number for now to reduce waiting time.
-
-print(example_results)
-```
-
-In the following chunk, the bootstrapping is applied to every combination of feature and measure. This will take a long time, so printout indicates the update us on the progress. However, I do not recommend running this code because it is incredibly slow and the {boot} library appears to have some weird bugs that cause various errors.
-
-```{r bootstrapped-CI, eval=FALSE}
-n_samples <- 10 # This would obviously have to be increased to 1000+
-statistics <- c("Precision", "Recall", "F1")
-
-# Get a dataframe ready.
-all_results <- expand_grid(
-  tag = tags_remaining,
-  statistic = statistics,
-  lower = NA,
-  upper = NA
-)
-
-# Crunch the numbers painfully slowly in a loop.
-for(row in 1:nrow(all_results)){
-  
-  # Find out what feature and measure we are working with this time.
-  current_feature <- as.character(all_results[row, "tag"])
-  current_measure <- as.character(all_results[row, "statistic"])
-  
-  # Make a progress printout.
-  cat(current_measure, "for", current_feature, ":", n_samples, "samples\n")
-  flush.console()
-  
-  # Filter out the irrelevant data to save a bit of time,
-  # then hand on to the boot and ci functions.
-  data_filtered2 %>%
-    filter((Tag == current_feature) | (TagGold == current_feature)) %>%
-    boot(
-      statistic = get_measure_for_feature,
-      measure = current_measure,
-      feature = current_feature,
-      R = n_samples
-    ) %>%
-    boot.ci(type = "perc") ->
-    result
-  
-  # If we got a valid result, put it into the data frame.
-  if(!is.null(result$perc)){
-    all_results[row, "lower"] <- result$perc[4]
-    all_results[row, "upper"] <- result$perc[5]
-  }
-
-}
-
-all_results
-
-```
-
-Given that the above chunk proved too slow to run in R, the code was "translated" to run in python. Many thanks to Luke Tudge who did this conversion for me. The script is included in this project's repository and is called `Bootstrapped_Accuracy.ipynb`.
-
-```{r python-prep}
-
-Sys.which("python")
-library(reticulate)
-py_config()
-py_discover_config()
-
-# conda info --envs
-# source activate /Applications/anaconda3/
-# conda install pip
-# pip install stanza==1.4.0
-# 
-
-use_python("/Applications/anaconda3/bin/python")
-
-#use_condaenv("/Applications/anaconda3/envs/r-reticulate", required = TRUE)
-
-```
-
-
-```{python}
-
-import time
-import numpy
-import pandas
-import plotnine
-import scipy
-import sklearn
-import os
-
-data = pandas.read_csv('/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_python/evaluation/MFTE_Python_Eval_Results_filtered.csv', keep_default_na=False)
-
-data
-
-data.dtypes
-
-data['TagGold'].value_counts()
-
-min_n = 100
-#exclude_tags = ['NONE', 'UNCLEAR', 'none', 'unclear']
-
-data['Count'] = data.groupby('TagGold')['TagGold'].transform(len)
-enough_data = data['Count'] >= min_n
-#valid_tag_gold = ~data['TagGold'].isin(exclude_tags)
-#valid_tag = ~data['Tag'].isin(exclude_tags)
-#data_filtered = data[enough_data & valid_tag_gold & valid_tag]
-data_filtered = data[enough_data]
-
-data_filtered['TagGold'].value_counts()
-
-tags_remaining = set.union(set(data_filtered['TagGold']), set(data_filtered['Tag']))
-
-data_filtered['TagGold'] = pandas.Categorical(data_filtered['TagGold'], categories=tags_remaining)
-data_filtered['Tag'] = pandas.Categorical(data_filtered['Tag'], categories=tags_remaining)
-
-tags = data_filtered['TagGold'].unique()
-
-precision, recall, f1, n = sklearn.metrics.precision_recall_fscore_support(
- data['TagGold'],
- data['Tag'],
- labels=tags
-)
-
-results = pandas.DataFrame({
- 'tag': tags,
- 'precision': precision,
- 'recall': recall,
- 'f1': f1,
- 'n': n
-})
-
-results
-
-results = results.melt(id_vars=['tag', 'n'], var_name='metric')
-results['lower'] = numpy.nan
-results['upper'] = numpy.nan
-results['valid'] = False
-
-results
-
-n_resamples = 10
-
-data_bootstrap = data[data['TagGold'].isin(tags) | data['Tag'].isin(tags)]
-
-for rownum, row in results.iterrows():
-    
-    print(rownum, ':', row['tag'], row['metric'], '... ', end='')
-    start_time = time.time()
-    
-    if row['value'] == 1.0:
-        print('skipping')
-        continue
-    
-    if row['metric'] == 'precision':
-        func = sklearn.metrics.precision_score
-    elif row['metric'] == 'recall':
-        func = sklearn.metrics.recall_score
-    else:
-        func = sklearn.metrics.f1_score
-        
-    def metric(y_true, y_pred):
-        return func(y_true, y_pred, labels=[row['tag']], average=None)[0]
-
-    boot = scipy.stats.bootstrap(
-     (data_bootstrap['TagGold'], data_bootstrap['Tag']),
-     metric,
-     vectorized=False,
-     paired=True,
-     n_resamples=n_resamples,
-     method='percentile',
-     random_state=0
-    )
-    
-    print('done', int(time.time() - start_time), 's')
-    
-    results.loc[rownum, 'lower'] = boot.confidence_interval.low
-    results.loc[rownum, 'upper'] = boot.confidence_interval.high
-    results.loc[rownum, 'valid'] = True
-    
-results.to_csv('MFTE_Python_Eval_CIs.csv', index=False)
-
-results
-
-```
-
-
-The results of the python script are plotted in the following chunk.
+The results of the `bootstrap_eval.py` Python script are plotted in the following chunk:
 
 ```{r plot-accuracy-CI}
 
-resultsCI <- read.csv(here("MFTE_Python_Eval_CIs.csv")) # As computed in Bootstrapped_Accuracy.ipynb.
-head(resultsCI)
+# Import 95 CI data computed in `bootstrap_eval.py`.
+resultsCI <- read.csv(here("evaluation", "MFTE_Python_Eval_CIs.csv"), 
+                      stringsAsFactors = TRUE)
+head(resultsCI) # Check import
+str(resultsCI) # Check factors
 
+# Remove NONE tag which was needed to calculate recall and precision but is not, in of itself of relevance to the evaluation results
 resultsCI <- resultsCI %>% 
-  mutate(tag = as.factor(tag)) %>% 
-  filter(tag %in% c(str_extract(tag, "[A-Z0-9]+"))) %>% # Remove all punctuation tags which are uninteresting here.
-  droplevels(.) %>% 
-  mutate(metric = factor(metric, levels = c("precision", "recall", "f1")))
+  filter(tag != "NONE") %>% 
+  filter(tag != "VB") %>% # This feature is not listed in table of features and should therefore have been excluded earlier on
+  filter(tag != "ACT") %>%  # This feature was moved to the extended tagset along with all other verb semantic tags and was therefore not included in the formal evaluation 
+  droplevels()
 
-ggplot(resultsCI, aes(y = reorder(tag, desc(tag)), x = value, group = metric, colour = n)) +
+# Plot the accuracy metrics with bootstrapped 95% confidence intervals (portrait-format plot) 
+ggplot(resultsCI, aes(y = reorder(tag, desc(tag)), 
+                      x = value, 
+                      group = metric, 
+                      colour = n)) +
   geom_point() +
   geom_errorbar(aes(xmin=lower, xmax = upper)) +
   ylab("") +
   xlab("") +
-  facet_wrap(~ metric) +
-  scale_color_paletteer_c("harrypotter::harrypotter", trans = "log", breaks = c(50,5000), labels = c(50,5000), name = "Number of Token manually evaluated\n") +
+  facet_wrap(~ factor(metric, c("precision", "recall", "f1"))) +
+  scale_color_paletteer_c("harrypotter::harrypotter", 
+                          trans = "log", 
+                          breaks = c(110, 500, 2000, 10000), 
+                          labels = c("100", "500", "2,000", "10,000"), 
+                          name = "Number of tokens manually evaluated\n") +
   theme_bw() +
   theme(legend.position = "bottom")
 
-ggsave(here("plots", "TaggerAccuracyResults95CI.svg"), width = 8, height = 12)
+#ggsave(here("plots", "TaggerAccuracyResults95CI_portrait.svg"), width = 8, height = 12) # For publication
 
+# Plot the accuracy metrics with bootstrapped 95% confidence intervals (landscape-format plot)
+
+# In order to have the tag labels on both the left and right-hand side of the plot, it is necessary to plot the tags as a numeric variable because the ggplot2 function for scale_x_discrete does not have a sec_axis option. This workaround was found here: https://stackoverflow.com/questions/45361904/duplicating-and-modifying-discrete-axis-in-ggplot2
+tags1 <- levels(resultsCI$tag)
+
+ggplot(resultsCI, aes(y = as.numeric(reorder(tag, desc(tag))), 
+                      x = value, 
+                      group = metric, 
+                      colour = n)) +
+  geom_point() +
+  scale_y_continuous(breaks = 1:length(tags1),
+                     labels = rev(tags1),
+                     expand = c(0.001,0.001),
+                     sec.axis = sec_axis(~.,
+                                         breaks = 1:length(tags1),
+                                         labels = rev(tags1))) +
+  geom_errorbar(aes(xmin=lower, xmax = upper)) +
+  ylab("") +
+  xlab("") +
+  facet_wrap(~ factor(metric, c("precision", "recall", "f1"))) +
+  scale_color_paletteer_c("harrypotter::harrypotter", 
+                          trans = "log", 
+                          breaks = c(110, 500, 2000, 10000), 
+                          labels = c("100", "500", "2,000", "10,000"), 
+                          name = "Number of tokens\nmanually evaluated") +
+  theme_bw() +
+  theme(legend.position = "right")
+
+ggsave(here("plots", "TaggerAccuracyResults95CI_landscape.svg"), width = 12, height = 8) # For presentation slides
 ```
 
 ## Obtaining full list of errors
