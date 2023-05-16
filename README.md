@@ -31,7 +31,7 @@ The complete command will look like this:
 ### Windows (update 24-04-2023)
 The GUI version for Windows can be downloaded as a single executable from the following link:
 
-[GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsgsKxOz4cKq3lOhqIvE8?e=zCOvhq).
+[GUI version for Windows]().
 
 There is no need to install anything else. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option.
 
