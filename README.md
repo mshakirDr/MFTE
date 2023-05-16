@@ -51,7 +51,7 @@ Further information can be be found in [Introducing the MFTE Perl](https://githu
 # Outputs
 
 The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The first two folders contain the tagged texts with which you can check the accuracy of the tagging process. The `Statistics` folder is your go-to folder to further analyses. It contains feature counts in the form of comma-separated-values files (`.csv`). Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
-1.	```[prefix]_normed_complex_counts.csv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the `List_Features_MFTE_python_1.4.xlsx`)
+1.	```[prefix]_normed_complex_counts.csv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the `List_Features_MFTE_python_1.5.xlsx`)
 2.	```[prefix]_normed_100words_counts.csv```            Feature frequencies normalised to 100 words
 3.	```[prefix]_raw_counts.csv```                         Raw (unnormalised) feature counts
 
