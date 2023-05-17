@@ -69,7 +69,7 @@ def call_MFTE(folder_selected: str) -> None:
     ###############################################
     input_dir = folder_selected + "/"
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-    output_stanford = output_main + "StanfordPOS_Tagged/"
+    output_stanford = output_main + "POS_Tagged/"
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     if isinstance(v.get(), int):
