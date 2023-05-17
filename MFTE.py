@@ -1930,7 +1930,7 @@ if __name__ == "__main__":
     parser.add_argument('--path', type=str, help='path to the text files folder')
     parser.add_argument('--ttr', type=int, default=400, help='Number of words to calculate type token ratio; default is 400')
     parser.add_argument('--extended', default=True, type=bool, help='enable extended mode True or False; default is True')
-    parser.add_argument('--parallel_md_tagging', default=True, type=bool, help='enable parallel MD tagging True or False; default is False')
+    parser.add_argument('--parallel_md_tagging', default=False, type=bool, help='enable parallel MD tagging True or False; default is False')
     args = parser.parse_args()
     if args.path:
         call_MFTE(args)
