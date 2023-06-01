@@ -108,13 +108,13 @@ def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str) -> None:
         nlp: Stanza nlp client
         dir_out (str): Output directory
     """
-    print("Stanza tagger reading all files")
+    print("Stanza tagger reading files")
     #batch processing of documents, 1st list of documents
     documents = [open(file=file, encoding='utf-8', errors="ignore").read() for file in files]
-    print("Stanza tagger pre processing all files")
+    print("Stanza tagger pre processing files")
     documents = [stanza_pre_processing(text) for text in documents] #Apply preprocessing
     in_docs = [stanza.Document([], text=d) for d in documents] # Wrap each document with a stanza.Document object
-    print("Stanza tagger tagging all files")
+    print("Stanza tagger tagging files")
     out_docs = nlp(in_docs) # Call the neural pipeline on this list of documents
     for index, doc in enumerate(out_docs):
         #text = open(file=file, encoding='utf-8', errors="ignore").read()
@@ -155,7 +155,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
             n = 1000
             files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
             for index, files_chunk in enumerate(files_list_of_lists):
-                print("The corpus contains more than 1000 files which will be divided to chunks of 1000 files. \
+                print("The corpus contains more than 1000 files and will therefore be divided into chunks of 1000 files to speed up the tagging process. \
                     Processing file chunk number", index+1, "of", len(files_list_of_lists))
                 process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out)
     else:
@@ -1935,7 +1935,7 @@ if __name__ == "__main__":
     if args.path:
         call_MFTE(args)
     else:
-        input_dir = r"/Users/Elen/Documents/PhD/Publications/2023_Shakir_LeFoll/MFTE_Eval/COCA/COCA_test2/"
+        input_dir = r"/Users/Elen/Dropbox/MD-project/CorpusData/Babies/BABY1txt/"
         output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
         output_stanford = output_main + "POS_Tagged/"
         output_MD = output_main + "MFTE_Tagged/"
@@ -1947,5 +1947,5 @@ if __name__ == "__main__":
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
         #tag_MD(output_stanford, output_MD, extended=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=True)
+        tag_MD_parallel(output_stanford, output_MD, extended=False)
         do_counts(output_MD, output_stats, ttr)
