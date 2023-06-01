@@ -309,16 +309,16 @@ EvalData %>%
   filter(TagGold %in% c("UNCLEAR")) %>% 
   count()
 
-BinomCI(293, 174193,
+BinomCI(293, 61145,
         conf.level = 0.95,
         sides = "two.sided",
         method = "wilsoncc") * 100
 
-# Number of tags per feature
+# Number of tokens evaluated per corpus and register subcorpus
 EvalData %>% 
-  group_by(Tag) %>% 
+  group_by(Corpus, Register) %>% 
   count() %>% 
-  arrange(-n) %>% 
+  #arrange(-n) %>% 
   as.data.frame()
 
 EvalData %>% filter(TagGold=="NNMENTION") %>% select(FileID)
@@ -343,6 +343,14 @@ data <- EvalData %>%
   mutate(TagGold = factor(TagGold, levels = union(levels(Tag), levels(TagGold))))
 
 summary(data$TagGold)
+summary(data$Evaluation)
+nrow(EvalData)
+
+BinomCI(58896, 60412,
+        conf.level = 0.95,
+        sides = "two.sided",
+        method = "wilsoncc") * 100
+
 
 # Spot gold tag corrections that are not actually errors
 data[data$Tag==data$TagGold & data$Evaluation == FALSE,] %>% as.data.frame()
@@ -442,6 +450,9 @@ error_fig <- data_filtered2 %>%
     alpha = opacity)
 
 error_fig
+
+#ggsave(here("plots", "TaggerErrorMatrix.svg"), width = 9, height = 9)
+
 
 ```
 
