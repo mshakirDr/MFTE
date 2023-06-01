@@ -1886,7 +1886,7 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
         features_to_be_removed_from_final_table_existing = [f for f in features_to_be_removed_from_final_table if f in df.columns]
         df = df.drop(columns=features_to_be_removed_from_final_table_existing) #drop unnecessary features
         df = sort_df_columns(df).sort_values(by=['Filename']) #sort df columns
-        df.round().drop(columns=['Ntotal', 'VBtotal']).to_csv(dir_out+"counts_raw.csv", index=False)
+        df.round(4).drop(columns=['Ntotal', 'VBtotal']).to_csv(dir_out+"counts_raw.csv", index=False)
         #df = pd.read_excel(dir_out+"counts_raw.csv")
         get_complex_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_mixed_normed.csv", index=False)
         get_wordbased_normed_counts(df).drop(columns=['Ntotal', 'VBtotal']).round(4).to_csv(dir_out+"counts_word-based_normed.csv", index=False)
