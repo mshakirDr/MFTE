@@ -14,7 +14,8 @@ import glob
 
 
 
-text = r"The solution produced by this process is extraordinarily effective. The time working on this project was awesome. The boy had had his work completed. They are happy and hungry. We went to the museum and watched some artifacts."
+text = r"The solution produced by this process is extraordinarily effective. The time working on this project was awesome. The boy had had his work completed. They are happy and hungry. We went to the museum and watched some artifacts.\
+    The boy who is standing there is my brother."
 nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse')
 doc = nlp(text)
 print(*[f'id: {word.id}\tword: {word.text}\thead id: {word.head}\thead: {sent.words[word.head-1].text if word.head > 0 else "root"}\tdeprel: {word.deprel}' for sent in doc.sentences for word in sent.words], sep='\n')
