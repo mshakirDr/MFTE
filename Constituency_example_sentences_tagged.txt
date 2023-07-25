@@ -1,0 +1,5 @@
+(ROOT (S (NP (NP (DT The) (NN solution)) (VP (VBN produced) (PP (IN by) (NP (DT this) (NN process))))) (VP (VBD was) (ADJP (ADJP (JJR less)) (PP (IN than) (ADJP (ADJP (JJ optimal)) (CC and) (ADJP (RB very) (JJ hard) (SBAR (S (VP (TO to) (VP (VB solve)))))))))) (. .)))
+(ROOT (S (NP (NP (DT The) (NN event)) (VP (VBG causing) (NP (DT this) (NN decline)))) (VP (VBZ has) (VP (VBN been) (VP (VBN studied) (ADVP (RB thoroughly)) (PP (IN over) (NP (DT the) (NNS years)))))) (. .)))
+(ROOT (S (NP (NP (DT The) (NN boy)) (VP (VBG standing) (ADVP (RB there)))) (VP (VBZ is) (NP (NP (PRP$ my) (NN teacher) (POS 's)) (NN son))) (. .)))
+(ROOT (S (S (VP (VBN Built) (PP (IN in) (NP (DT a) (JJ single) (NN week))))) (NP (DT the) (NN house)) (VP (MD would) (VP (VB stand) (PP (IN for) (NP (CD fifty) (NNS years))))) (. .)))
+(ROOT (S (S (VP (VBG Stuffing) (NP (PRP$ his) (NN mouth)) (PP (IN with) (NP (NNS cookies))))) (NP (PRP he)) (VP (VBD ran) (PP (IN out) (NP (DT the) (NN door)))) (. .)))
