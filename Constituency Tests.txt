@@ -1,0 +1,16 @@
+WH relative
+(ROOT (S (NP (NP (DT The) (NN boy)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG standing) (ADVP (RB there))))))) (VP (VBZ is) (NP (PRP$ my) (NN teacher))) (. .)))
+
+Past participial clause
+(ROOT (S (S (VP (VBN Built) (PP (IN in) (NP (DT a) (JJ single) (NN week))))) (, ,) (NP (DT the) (NN house)) (VP (MD would) (VP (VB stand) (PP (IN for) (NP (CD fifty) (NNS years))))) (. .)))
+no comma
+(ROOT (S (S (VP (VBN Built) (PP (IN in) (NP (DT a) (JJ single) (NN week))))) (NP (DT the) (NN house)) (VP (MD would) (VP (VB stand) (PP (IN for) (NP (CD fifty) (NNS years))))) (. .)))
+
+VBN example
+(ROOT (S (SINV (ADVP (RB Here)) (VP (VBZ is)) (NP (NN basis)) (NP (PRP$ my) (NN theory))) (, ,) (S (NP (NP (NNS people)) (PP (IN in) (NP (DT the) (DT the) (VBN disputed) (NNS territories)))) (VP (VBP are) (ADJP (JJ sad)))) (, ,) (S (NP (PRP they)) (VP (VBP 've) (VP (VBN lost) (NP (NP (VBN loved) (NNS ones)) (CC and) (NP (NNS homes))) (PP (IN on) (NP (DT both) (NNS sides)))))) (. .)))
+
+past participial WHIZ deletion relatives
+(ROOT (S (NP (NP (DT The) (NN solution)) (VP (VBN produced) (PP (IN by) (NP (DT this) (NN process))))) (VP (VBD was) (ADJP (ADJP (JJR less)) (PP (IN than) (ADJP (ADJP (JJ optimal)) (CC and) (ADJP (RB very) (JJ hard) (SBAR (S (VP (TO to) (VP (VB solve)))))))))) (. .)))
+
+preset particpial WHIZ deletion relatives
+(ROOT (S (NP (NP (DT The) (NN event)) (VP (VBG causing) (NP (DT this) (NN decline)))) (VP (VBZ has) (VP (VBN been) (VP (VBN studied) (ADVP (RB thoroughly)) (PP (IN over) (NP (DT the) (NNS years)))))) (. .)))
