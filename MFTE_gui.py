@@ -70,6 +70,7 @@ def call_MFTE(folder_selected: str) -> None:
     input_dir = folder_selected + "/"
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
     output_stanford = output_main + "POS_Tagged/"
+    output_constituency = output_main + "Constituency_Trees/"
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     if isinstance(v.get(), int):
@@ -78,7 +79,7 @@ def call_MFTE(folder_selected: str) -> None:
         ttr = 400
     # record start time
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
+    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=check_var.get())
     #tag_stanford(nlp_dir, input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)

@@ -18,7 +18,7 @@ import multiprocessing
 import timeit
 import tqdm
 import argparse
-
+from stanza.models.constituency.tree_reader import read_tree_file
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with CoreNLPClient and writes to dir_out
@@ -100,13 +100,15 @@ def stanza_pre_processing (text: str)-> str:
     text = ''.join((' '+c+' ') if c in emoji.EMOJI_DATA else c for c in text)
     return text
 
-def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str) -> None:
-    """Gets files list chunk from tag_stanford_stanza and tags with stanza nlp client and writes to dir oupt
+def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_constituency: str, extended: bool = True) -> None:
+    """Gets files list chunk from tag_stanford_stanza and tags with stanza nlp client and writes to dir out
 
     Args:
         files (list): list of files which needs tobe tagged
         nlp: Stanza nlp client
         dir_out (str): Output directory
+        dir_constituency (str): Output directory for consituency trees if extended is True
+        extended (bool): Boolean to include or exclude constituency trees
     """
     print("Stanza tagger reading files")
     #batch processing of documents, 1st list of documents
@@ -134,30 +136,47 @@ def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str) -> None:
         s = "\n".join(s_list)
         with open(file=dir_out+file_name, encoding='utf-8', mode='w') as f:
             f.write(s)
+        #############################
+        ####write constituency trees#
+        #############################
+        if extended:
+            sentences_to_write = []
+            for sentence in doc.sentences:
+                c: stanza.models.constituency.parse_tree.Tree = sentence.constituency
+                sentences_to_write.append(str(c))
+            s = "\n".join(sentences_to_write)
+            with open(file=dir_constituency+file_name, encoding='utf-8', mode='w') as f:
+                f.write(s)
 
-def tag_stanford_stanza (dir_in: str, dir_out: str) -> None:
+
+def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, extended: bool = True) -> None:
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
     Args:
         dir_in (str): dir with plain text files to be tagged
         dir_out (str): dir to write Stanford Tagger tagged files
     """
+    if extended:
+        tagging_layers = 'tokenize,pos,constituency'
+        Path(dir_constituency).mkdir(parents=True, exist_ok=True)
+    else:
+        tagging_layers = 'tokenize,pos'
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
     if os.path.exists(currentdir+"/stanza_resources"):
-        nlp = stanza.Pipeline('en', processors='tokenize,pos', model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+        nlp = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     else:
-        nlp = stanza.Pipeline('en', processors='tokenize,pos', download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+        nlp = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
         if len(files) < 1000:
-            process_files_list_chunk_for_stanza(files, nlp, dir_out)
+            process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
         else:
             n = 1000
             files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
             for index, files_chunk in enumerate(files_list_of_lists):
                 print("The corpus contains more than 1000 files and will therefore be divided into chunks of 1000 files to speed up the tagging process. \
                     Processing file chunk number", index+1, "of", len(files_list_of_lists))
-                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out)
+                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
     else:
         print("No files to tag.")
 
@@ -1193,10 +1212,11 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     return words
 
-def process_sentence_extended (words: list) -> list:
+def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
     """Returns words list tagged with Biber's (2006) additional semantic categories
     Args:
         words (list): list of tagged words
+        pos_tagged_file_path (str): pos tagged file path to retrieve corresponding constituency tagged file path for constituency based tagging
     Returns:
         words (list): list of tagged words with tags applied
     """
@@ -1379,6 +1399,11 @@ def process_sentence_extended (words: list) -> list:
 
             if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToSTNCall", words[j])
+
+            # Shakir: to clauses not preceded by any stance verb noun or adjective
+            if ((re.search("\\bto_", words[j]) and not re.search(" ", words[j]) and re.search("\_V", words[j+1])) or
+            (re.search("\\bna_TO", words[j]) and not re.search(" ", words[j]) and re.search("\_V", words[j+1]))):
+                words[j] = re.sub("_(\w+)", "_\\1 ToV", words[j])
 
             #---------------------------------------------------
             # Shakir: That complement clauses as tagged previously by THSC
@@ -1664,6 +1689,7 @@ def run_process_sentence(file: str, extended: bool = True) -> list:
     """Returns list of words after running process_sentence on it
     Args:
         file (str): text file path that is to be opened
+        output_dir (str): output directory that is useful to retrieve constituency tagging
         extended (bool): If extended semantic categories should be tagged
     Returns:
         words_tagged (list): list of words after MD tagging
@@ -1677,7 +1703,7 @@ def run_process_sentence(file: str, extended: bool = True) -> list:
         sentences_with_buffer_spaces = sentences_with_buffer_spaces + sentence + ([' '] * 20)
     words_tagged = process_sentence(sentences_with_buffer_spaces, extended)
     if extended:
-        words_tagged = process_sentence_extended(words_tagged)
+        words_tagged = process_sentence_extended(words_tagged, file)
     words_tagged = [word for word in words_tagged if word != " "] # remove white space elements added prior to process_sentence
     return words_tagged
 
@@ -1692,7 +1718,7 @@ def process_file (file_dir_pair: tuple) -> None:
     output_dir = file_dir_pair[1]
     extended = file_dir_pair[2]
     file_name = os.path.basename(file)
-    words_tagged = run_process_sentence(file, extended)
+    words_tagged = run_process_sentence(file, output_dir, extended)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
     print("MD tagger tagged: " + file)
@@ -1729,7 +1755,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
     for file in files:
         print("Tagging MFTE features:", file)
         file_name = os.path.basename(file)
-        words_tagged = run_process_sentence(file, extended)
+        words_tagged = run_process_sentence(file, output_dir, extended)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
         # break
@@ -1777,10 +1803,10 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
     # Shakir: note THSCother and WHSCother are THSC and WHSC minus all new above TH and WH verb/adj clauses, "JJPRother" is JJPR without epistemic and attitudinal adjectives
-    # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall"
+    # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall", "ToV"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother"]
+            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "ToV"]
     FVnorm = [vb for vb in FVnorm if vb in df_new.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df_new.loc[:, FVnorm].div(df_new.VBtotal.values, axis=0)#.fillna(0) #divide by total verbs (finite verb phrase-based normalisation)
     # All other features should be normalised per 100 words:
@@ -1815,7 +1841,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
     simple = [col for col in df.columns if col in ["ABLE", "AMP", "ASPECT", "BEMA", "CC", "CD", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "NCOMP", "NN", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall"]]
+    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "ToV"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
@@ -1907,11 +1933,12 @@ def call_MFTE(args) -> None:
     input_dir = args.path
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE/"
     output_stanford = output_main + "POS_Tagged/"
+    output_constituency = output_main + "Constituency_Trees/"
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = args.ttr
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford)
+    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=args.extended)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
@@ -1935,17 +1962,18 @@ if __name__ == "__main__":
     if args.path:
         call_MFTE(args)
     else:
-        input_dir = r"/Users/Elen/Dropbox/MD-project/CorpusData/Babies/BABY1txt/"
+        input_dir = r"D:\PostDoc\ExtraAcademicWork\MFTE\Test\Corpus\\"
         output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
         output_stanford = output_main + "POS_Tagged/"
+        output_constituency = output_main + "Constituency_Trees/"
         output_MD = output_main + "MFTE_Tagged/"
         output_stats = output_main + "Statistics/"
         ttr = 400
         t_0 = timeit.default_timer()
-        tag_stanford_stanza(input_dir, output_stanford)
+        tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=True)
         t_1 = timeit.default_timer()
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
         #tag_MD(output_stanford, output_MD, extended=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=False)
+        tag_MD_parallel(output_stanford, output_MD, extended=True)
         do_counts(output_MD, output_stats, ttr)
