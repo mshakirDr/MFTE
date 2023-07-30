@@ -87,7 +87,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
             if np_tree.children[0].label == 'NP' and np_tree.children[1].label == 'VP': #first child is NP and 2nd child a VP
                 if np_tree.children[1].children[0].label == 'VBG': #first word in the VP is VBG
                     #print(np_tree)
-                    np_tree_list_of_words = constituency_to_list_of_words(np_tree)
+                    np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     words[index] = re.sub("_(\w+)", "_WZPRES", words[index])
 
@@ -96,7 +96,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
             if np_tree.children[0].label == 'NP' and np_tree.children[1].label == 'VP': #first child is an NP and 2nd child is a VP
                 if np_tree.children[1].children[0].label == 'VBN': #first word in the VP is VBN
                     #print(np_tree)
-                    np_tree_list_of_words = constituency_to_list_of_words(np_tree)
+                    np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     words[index] = re.sub("_(\w+)", "_WZPAST", words[index])
     return words
