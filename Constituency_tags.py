@@ -167,20 +167,22 @@ def tag_non_finite_participial_clauses(words: list, trees: list) -> list:
     s_trees = get_nodes_of_interest(trees, 'S') #get all sentence nodes
     for s_tree in s_trees:
         #present participial clauses (S (VP (VBG xxxx)))
-        if s_tree.children[0].label == 'VP': #first child is a VP
-            if s_tree.children[0].children[0].label == 'VBG': #first word in the VP is VBG
-                #print(s_tree)
-                s_tree_list_of_words = constituency_to_list_of_words(s_tree)
-                index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
-                words[index] = re.sub("_(\w+)", "_VBGCls", words[index])
-                #print(words[index])
+        if len(s_tree.children) >= 1:
+            if s_tree.children[0].label == 'VP': #first child is a VP
+                if s_tree.children[0].children[0].label == 'VBG': #first word in the VP is VBG
+                    #print(s_tree)
+                    s_tree_list_of_words = constituency_to_list_of_words(s_tree)
+                    index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
+                    words[index] = re.sub("_(\w+)", "_VBGCls", words[index])
+                    #print(words[index])
 
         #past participial clauses (S (VP (VBN xxxx)))
-        if s_tree.children[0].label == 'VP': #first child is a VP
-            if s_tree.children[0].children[0].label == 'VBN': #first word in the VP is VBN
-                s_tree_list_of_words = constituency_to_list_of_words(s_tree)
-                index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
-                words[index] = re.sub("_(\w+)", "_VBNCls", words[index])
+        if len(s_tree.children) >= 1:
+            if s_tree.children[0].label == 'VP': #first child is a VP
+                if s_tree.children[0].children[0].label == 'VBN': #first word in the VP is VBN
+                    s_tree_list_of_words = constituency_to_list_of_words(s_tree)
+                    index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
+                    words[index] = re.sub("_(\w+)", "_VBNCls", words[index])
     return words        
 
 def tag_constituency (words: list, pos_tagged_file_path: str) -> list:

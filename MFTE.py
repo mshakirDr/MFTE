@@ -168,15 +168,26 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
     else:
         nlp = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     if len(files) > 0:
-        if len(files) < 1000:
-            process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
+        if extended:
+            if len(files) < 10:
+                process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
+            else:
+                n = 10
+                files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
+                for index, files_chunk in enumerate(files_list_of_lists):
+                    print("The corpus contains more than 10 files and will therefore be divided into chunks of 10 files to speed up the tagging process. \
+                        Processing file chunk number", index+1, "of", len(files_list_of_lists))
+                    process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
         else:
-            n = 1000
-            files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
-            for index, files_chunk in enumerate(files_list_of_lists):
-                print("The corpus contains more than 1000 files and will therefore be divided into chunks of 1000 files to speed up the tagging process. \
-                    Processing file chunk number", index+1, "of", len(files_list_of_lists))
-                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
+            if len(files) < 1000:
+                process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
+            else:
+                n = 1000
+                files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
+                for index, files_chunk in enumerate(files_list_of_lists):
+                    print("The corpus contains more than 1000 files and will therefore be divided into chunks of 1000 files to speed up the tagging process. \
+                        Processing file chunk number", index+1, "of", len(files_list_of_lists))
+                    process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)            
     else:
         print("No files to tag.")
 
@@ -1400,11 +1411,6 @@ def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
             if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToSTNCall", words[j])
 
-            # Shakir: to clauses not preceded by any stance verb noun or adjective
-            if ((re.search("\\bto_", words[j]) and not re.search(" ", words[j]) and re.search("\_V", words[j+1])) or
-            (re.search("\\bna_TO", words[j]) and not re.search(" ", words[j]) and re.search("\_V", words[j+1]))):
-                words[j] = re.sub("_(\w+)", "_\\1 ToV", words[j])
-
             #---------------------------------------------------
             # Shakir: That complement clauses as tagged previously by THSC
             if (re.search("\\b(" + th_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
@@ -1734,9 +1740,11 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
         output_dir (str): dir to write MFTE-tagged files
         extended (bool): If extended MFTE tagset should be tagged
     """
+    from random import shuffle
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
+    shuffle(files) #randomize files to distribute bigger files more evenly among workers
     file_with_dir = [(file, output_dir, extended) for file in files]
     cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
     with multiprocessing.Pool(cpu_count) as pool:
@@ -1806,10 +1814,10 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: vb complement clauses of various sorts will be normalized per 100 verbs "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "VCOMMother", "VATTother", "VFCTother", "VLIKother"
     # Shakir: th jj clauses are verb gen verb dependant (pred adj) so "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", will be normalized per 100 verbs
     # Shakir: note THSCother and WHSCother are THSC and WHSC minus all new above TH and WH verb/adj clauses, "JJPRother" is JJPR without epistemic and attitudinal adjectives
-    # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall", "ToV"
+    # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "ToV", "VBGCls", "VBNCls", "VBGRel", "VBNRel"]
+            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "VBGCls", "VBNCls", "VBGRel", "VBNRel"]
     FVnorm = [vb for vb in FVnorm if vb in df_new.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df_new.loc[:, FVnorm].div(df_new.VBtotal.values, axis=0)#.fillna(0) #divide by total verbs (finite verb phrase-based normalisation)
     # All other features should be normalised per 100 words:
@@ -1844,7 +1852,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
     simple = [col for col in df.columns if col in ["ABLE", "AMP", "ASPECT", "BEMA", "CC", "CD", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "NCOMP", "NN", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "ToV", "VBGCls", "VBNCls", "VBGRel", "VBNRel"]]
+    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "VBGCls", "VBNCls", "VBGRel", "VBNRel"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
@@ -1973,7 +1981,7 @@ if __name__ == "__main__":
         output_stats = output_main + "Statistics/"
         ttr = 400
         t_0 = timeit.default_timer()
-        tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=True)
+        #tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=True)
         t_1 = timeit.default_timer()
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
