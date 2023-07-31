@@ -9,7 +9,7 @@ import glob
 import re
 from stanza.models.constituency.tree_reader import read_tree_file, read_trees
 from stanza.models.constituency.parse_tree import Tree
-
+import string
 
 def constituency_to_list_of_words (c: stanza.models.constituency.parse_tree.Tree) -> list:
     """Returns constituency node as a list of words after removing all tags and labels
@@ -71,26 +71,26 @@ def get_nodes_of_interest(trees: list, node: str) -> list:
     return nodes_list
 
 def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
-    """Return words list after adding WZPAST, WZPRES tags
+    """Return words list after adding VBNRel, VBGRel tags
 
     Args:
         words (list): list of words that is previously tagged
         trees (list): list of trees tagged by stanza
 
     Returns:
-        words (list): list of words after adding WZPAST, WZPRES tags
+        words (list): list of words after adding VBNRel, VBGRel tags
     """
     np_trees = get_nodes_of_interest(trees, 'NP') #get all NP nodes
     for np_tree in np_trees:
         #present participial relative clauses (NP (NP xxx) (VP (VBG xxxx)))
         if len(np_tree.children) > 1:
             if np_tree.children[0].label == 'NP' and np_tree.children[1].label == 'VP': #first child is NP and 2nd child a VP
-                if np_tree.children[1].children[0].label == 'VBG': #first word in the VP is VBG
+                if (np_tree.children[1].children[0].label == 'VBG'): #first word in the VP is VBG
                     #print(np_tree)
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
-                    words[index] = re.sub("_(\w+)", "_WZPRES", words[index])
-
+                    words[index] = re.sub("_(\w+)", "_VBGRel", words[index])
+        
         #past participial relative clauses (NP (NP xxx) (VP (VBN xxxx)))
         if len(np_tree.children) > 1:
             if np_tree.children[0].label == 'NP' and np_tree.children[1].label == 'VP': #first child is an NP and 2nd child is a VP
@@ -98,18 +98,71 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
                     #print(np_tree)
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
-                    words[index] = re.sub("_(\w+)", "_WZPAST", words[index])
+                    words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+
+                elif ((np_tree.children[1].children[0].label == 'ADVP' and  np_tree.children[1].children[1].label == 'VBN')): #first child in VP is ADVP, 2nd is VBN
+                    np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
+                    index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+                    words[index+1] = re.sub("_(\w+)", "_VBNRel", words[index+1]) #+1 due to the presence of adverb before the verb                   
+
+                if len(np_tree.children[1].children) > 2: #check for two VPs joined by and
+                    if (np_tree.children[1].children[0].label == 'VP' and 
+                    np_tree.children[1].children[1].label == 'CC' and 
+                    np_tree.children[1].children[2].label == 'VP'):
+                        if np_tree.children[1].children[0].children[0].label == 'VBN': #first word in the VP is VBN
+                            #print(np_tree.children[1].children[0])
+                            np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1].children[0])
+                            #print(np_tree_list_of_words)
+                            index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+                            words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+                        
+                        if np_tree.children[1].children[2].children[0].label == 'VBN': #first word in the VP is VBN
+                            #print(np_tree.children[1].children[2])
+                            np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1].children[2])
+                            #print(np_tree_list_of_words)
+                            index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+                            words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+
+        #past participial relative clauses with additional items like punctuation (NP (NP xxx) (, ,) (VP (VBN xxxx))) occuring after a comma
+        if len(np_tree.children) > 2:
+            if np_tree.children[0].label == 'NP' and np_tree.children[1].label in string.punctuation and np_tree.children[2].label == 'VP': #first child is NP, 2nd child is punctuation and 3rd child a VP
+                if (np_tree.children[2].children[0].label == 'ADVP' and  np_tree.children[2].children[1].label == 'VBN'): #first child in VP is ADVP, 2nd is VBN
+                    np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[2])
+                    index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+                    words[index+1] = re.sub("_(\w+)", "_VBNRel", words[index+1]) #+1 due to the presence of adverb before the verb
+                
+                elif (np_tree.children[2].children[0].label == 'VBN'): ##first word in the VP is VBN
+                    np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[2])
+                    index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+                    words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+
+        #VBG as attributive adjectives (NP (DT the) (JJ Indian) (VBG founding) (NNS fathers))
+        labels = [c.label for c in np_tree.children]
+        if any(label == 'VBG' for label in labels) and not any(label == 'VP' for label in labels):
+            np_tree_list_of_words = constituency_to_list_of_words(np_tree)
+            item_index = labels.index('VBG')
+            sub_list_index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+            words[sub_list_index+item_index] = re.sub("_(\w+)", "_JJAT JJATother", words[sub_list_index+item_index])
+
+        #VBN as attributive adjectives (NP (VBN perceived) (JJ diplomatic) (NN affront))
+        labels = [c.label for c in np_tree.children]
+        if any(label == 'VBN' for label in labels) and not any(label == 'VP' for label in labels):
+            np_tree_list_of_words = constituency_to_list_of_words(np_tree)
+            item_index = labels.index('VBN')
+            sub_list_index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
+            words[sub_list_index+item_index] = re.sub("_(\w+)", "_JJAT JJATother", words[sub_list_index+item_index])
+
     return words
 
 def tag_non_finite_participial_clauses(words: list, trees: list) -> list:
-    """Return words list after adding PRESP, PASTP tags
+    """Return words list after adding VBNCls, VBGCls tags
 
     Args:
         words (list): list of words that is previously tagged
         trees (list): list of trees tagged by stanza
 
     Returns:
-        words (list): list of words after adding PRESP, PASTP tags
+        words (list): list of words after adding VBGCls, VBNCls tags
     """
     s_trees = get_nodes_of_interest(trees, 'S') #get all sentence nodes
     for s_tree in s_trees:
@@ -119,7 +172,7 @@ def tag_non_finite_participial_clauses(words: list, trees: list) -> list:
                 #print(s_tree)
                 s_tree_list_of_words = constituency_to_list_of_words(s_tree)
                 index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
-                words[index] = re.sub("_(\w+)", "_PRESP", words[index])
+                words[index] = re.sub("_(\w+)", "_VBGCls", words[index])
                 #print(words[index])
 
         #past participial clauses (S (VP (VBN xxxx)))
@@ -127,11 +180,11 @@ def tag_non_finite_participial_clauses(words: list, trees: list) -> list:
             if s_tree.children[0].children[0].label == 'VBN': #first word in the VP is VBN
                 s_tree_list_of_words = constituency_to_list_of_words(s_tree)
                 index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
-                words[index] = re.sub("_(\w+)", "_PASTP", words[index])
+                words[index] = re.sub("_(\w+)", "_VBNCls", words[index])
     return words        
 
 def tag_constituency (words: list, pos_tagged_file_path: str) -> list:
-    """Returns words list after adding constituency based tags PRESP, PASTP, WZPAST, WZPRES etc.
+    """Returns words list after adding constituency based tags VBGCls, VBNCls, VBGRel, VBNRel etc.
 
     Args:
         words (list): list of words after simple and extended tags have been added
@@ -145,6 +198,9 @@ def tag_constituency (words: list, pos_tagged_file_path: str) -> list:
     trees = read_trees(trees_text)
     words = tag_non_finite_participial_clauses(words, trees)
     words = tag_non_finite_relative_clauses(words, trees)
+    return words
 
 if __name__ == "__main__":
-    pass
+    words = open(file=r"D:\PostDoc\ExtraAcademicWork\MFTE\Test\Corpus_MFTE_tagged\MFTE_Tagged\abc.txt", mode='r', encoding='UTF-8', errors='ignore').read().splitlines()
+    pos_file_path = r"D:\PostDoc\ExtraAcademicWork\MFTE\Test\Corpus_MFTE_tagged\POS_Tagged\abc.txt"
+    tag_constituency(words, pos_file_path)

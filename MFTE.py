@@ -18,7 +18,7 @@ import multiprocessing
 import timeit
 import tqdm
 import argparse
-from stanza.models.constituency.tree_reader import read_tree_file
+import Constituency_tags
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with CoreNLPClient and writes to dir_out
@@ -1682,6 +1682,9 @@ def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
             # Shakir: All 3rd person references to 1 tag (equivalent of TPP3 in Biber 1988)
             if (re.search("_(PP3t|PP3f|PP3m)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PP3all", words[j])
+    
+    #Shakir: add constituency based tags
+    words = Constituency_tags.tag_constituency(words, pos_tagged_file_path)
 
     return words
 
@@ -1718,7 +1721,7 @@ def process_file (file_dir_pair: tuple) -> None:
     output_dir = file_dir_pair[1]
     extended = file_dir_pair[2]
     file_name = os.path.basename(file)
-    words_tagged = run_process_sentence(file, output_dir, extended)
+    words_tagged = run_process_sentence(file, extended)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
     print("MD tagger tagged: " + file)
@@ -1755,7 +1758,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
     for file in files:
         print("Tagging MFTE features:", file)
         file_name = os.path.basename(file)
-        words_tagged = run_process_sentence(file, output_dir, extended)
+        words_tagged = run_process_sentence(file, extended)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
         # break
@@ -1806,7 +1809,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     # Shakir: STNCall variables combine stance related sub class th and to clauses, either use individual or All counterparts "ToVSTNCall", "ToVSTNCother", "ThVSTNCall", "ThVSTNCother", "ThJSTNCall", "ToV"
     FVnorm = ["ACT", "ASPECT", "CAUSE", "COMM", "CUZ", "CC", "CONC", "COND", "EX", "EXIST", "ELAB", "FREQ", "JJPR", "MENTAL", "OCCUR", "DOAUX", "QUTAG", "QUPR", "SPLIT", "STPR", "WHQU", "THSC", "WHSC", "CONT", "VBD", "VPRT", "PLACE", "PROG", "HGOT", "BEMA", "MDCA", "MDCO", "TIME", "THATD", "THRC", "VIMP", "MDMM", "ABLE", "MDNE", \
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
-            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "ToV"]
+            "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "ToV", "VBGCls", "VBNCls", "VBGRel", "VBNRel"]
     FVnorm = [vb for vb in FVnorm if vb in df_new.columns] #make sure every feature exists in df column
     df_new.loc[:, FVnorm] = df_new.loc[:, FVnorm].div(df_new.VBtotal.values, axis=0)#.fillna(0) #divide by total verbs (finite verb phrase-based normalisation)
     # All other features should be normalised per 100 words:
@@ -1841,7 +1844,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
     simple = [col for col in df.columns if col in ["ABLE", "AMP", "ASPECT", "BEMA", "CC", "CD", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "NCOMP", "NN", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "ToV"]]
+    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "ToV", "VBGCls", "VBNCls", "VBGRel", "VBNRel"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
