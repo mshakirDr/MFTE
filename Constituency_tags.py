@@ -185,7 +185,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
             item_index = labels.index('VBG')
             sub_list_index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
             if sub_list_index:
-                words[sub_list_index+item_index] = re.sub("_(\w+)", "_JJAT JJATother", words[sub_list_index+item_index])
+                words[sub_list_index+item_index] = re.sub("_VBG", "_JJAT JJATother", words[sub_list_index+item_index])
 
         #VBN as attributive adjectives (NP (VBN perceived) (JJ diplomatic) (NN affront))
         labels = [c.label for c in np_tree.children]
@@ -194,7 +194,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
             item_index = labels.index('VBN')
             sub_list_index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
             if sub_list_index:
-                words[sub_list_index+item_index] = re.sub("_(\w+)", "_JJAT JJATother", words[sub_list_index+item_index])
+                words[sub_list_index+item_index] = re.sub("_VBN", "_JJAT JJATother", words[sub_list_index+item_index])
 
     return words
 
