@@ -1413,54 +1413,54 @@ def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
 
             #---------------------------------------------------
             # Shakir: That complement clauses as tagged previously by THSC
-            if (re.search("\\b(" + th_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVCOMM", words[j])
 
-            if (re.search("\\b(" + th_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVATT", words[j])
 
-            if (re.search("\\b(" + th_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVFCT", words[j])
 
-            if (re.search("\\b(" + th_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThVLIK", words[j])
 
-            if (re.search("\\b(" + th_jj_att + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_jj_att + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJATT", words[j])
 
-            if (re.search("\\b(" + th_jj_fact + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_jj_fact + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJFCT", words[j])
 
-            if (re.search("\\b(" + th_jj_likely + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_jj_likely + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJLIK", words[j])
 
-            if (re.search("\\b(" + th_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j])):
+            if (re.search("\\b(" + th_jj_eval + ")_J", words[j-1], re.IGNORECASE) and re.search("_THSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThJEVL", words[j])
 
             # Shakir: that relative clauses related to attitude
-            if (re.search("\\b(" + th_nn_nonfact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            if (re.search("\\b(" + th_nn_nonfact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNNFCT", words[j])
 
-            if (re.search("\\b(" + th_nn_att + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            if (re.search("\\b(" + th_nn_att + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNATT", words[j])
 
-            if (re.search("\\b(" + th_nn_fact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            if (re.search("\\b(" + th_nn_fact + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNFCT", words[j])
 
-            if (re.search("\\b(" + th_nn_likely + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j])):
+            if (re.search("\\b(" + th_nn_likely + ")_N", words[j-1], re.IGNORECASE) and re.search("_THRC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ThNLIK", words[j])
 
             # Shakir: wh sub clauses after verb classes
-            if (re.search("\\b(" + wh_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            if (re.search("\\b(" + wh_vb_att + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVATT", words[j])
 
-            if (re.search("\\b(" + wh_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            if (re.search("\\b(" + wh_vb_fact + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVFCT", words[j])
 
-            if (re.search("\\b(" + wh_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            if (re.search("\\b(" + wh_vb_likely + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVLIK", words[j])
 
-            if (re.search("\\b(" + wh_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j])):
+            if (re.search("\\b(" + wh_vb_comm + ")_V", words[j-1], re.IGNORECASE) and re.search("_WHSC", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 WhVCOM", words[j])
 
             # Shakir: preposition after stance nouns
