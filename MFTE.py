@@ -1405,7 +1405,7 @@ def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
         # if (re.search(" (ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL)", words[j])):
         #     words[j] = re.sub("_(\w+)", "_\\1 ToVSTNCother", words[j])
 
-            if (re.search("\\b(" + to_nn_stance_all + ")_N", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1])):
+            if (re.search("\\b(" + to_nn_stance_all + ")_N", words[j-1], re.IGNORECASE) and re.search("\\bto_", words[j]) and re.search("\_V", words[j+1]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 ToNSTNC", words[j])
 
             if (re.search(" (ToVDSR|ToVEFRT|ToVPROB|ToVSPCH|ToVMNTL|ToJCRTN|ToJABL|ToJEFCT|ToJEASE|ToJEVAL|ToNSTNC)", words[j])):
@@ -1464,7 +1464,7 @@ def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
                 words[j] = re.sub("_(\w+)", "_\\1 WhVCOM", words[j])
 
             # Shakir: preposition after stance nouns
-            if (re.search("\\b(" + nn_stance_pp + ")_N", words[j-1], re.IGNORECASE) and re.search("_IN", words[j])):
+            if (re.search("\\b(" + nn_stance_pp + ")_N", words[j-1], re.IGNORECASE) and re.search("_IN", words[j]) and not re.search(" ", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PrepNSTNC", words[j])
 
     #-------------------------------------------------- 
