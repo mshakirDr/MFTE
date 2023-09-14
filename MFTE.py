@@ -167,25 +167,24 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
         nlp = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     else:
         nlp = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+    n = 100
     if len(files) > 0:
         if extended:
-            if len(files) < 10:
+            if len(files) < n:
                 process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
-            else:
-                n = 10
+            else:     
                 files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
                 for index, files_chunk in enumerate(files_list_of_lists):
-                    print("The corpus contains more than 10 files and will therefore be divided into chunks of 10 files to speed up the tagging process. \
+                    print("The corpus contains more than", str(n), "files and will therefore be divided into chunks of", str(n), "files to speed up the tagging process. \
                         Processing file chunk number", index+1, "of", len(files_list_of_lists))
                     process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
         else:
-            if len(files) < 1000:
+            if len(files) < n:
                 process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
             else:
-                n = 1000
                 files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
                 for index, files_chunk in enumerate(files_list_of_lists):
-                    print("The corpus contains more than 1000 files and will therefore be divided into chunks of 1000 files to speed up the tagging process. \
+                    print("The corpus contains more than", str(n), "files and will therefore be divided into chunks of", str(n), "files to speed up the tagging process. \
                         Processing file chunk number", index+1, "of", len(files_list_of_lists))
                     process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)            
     else:
@@ -1852,7 +1851,7 @@ def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:
     non_tag = [col for col in df.columns if col in ["Filename", "Words", "AWL", "TTR", "LDE"]]
     simple = [col for col in df.columns if col in ["ABLE", "AMP", "ASPECT", "BEMA", "CC", "CD", "CONC", "COND", "CONT", "CUZ", "DEMO", "DMA", "DOAUX", "DT", "DWNT", "ELAB", "EMO", "EMPH", "EX", "FPUH", "FREQ", "GTO", "HDG", "HGOT", "HST", "IN", "JJAT", "JJPR", "MDCA", "MDCO", "MDMM", "MDNE", "MDWO", "MDWS", "NCOMP", "NN", "PASS", "PEAS", "PGET", "PIT", "PLACE", "POLITE", "POS", "PP1P", "PP1S", "PP2", "PP3f", "PP3m", "PP3t", "PPother", "PROG", "QUAN", "QUPR", "QUTAG", "RB", "RP", "SPLIT", "STPR", "THATD", "THRC", "THSC", "TIME", "URL", "VBD", "VBG", "VBN", "VIMP", "VPRT", "WHQU", "WHSC", "XX0", "YNQU", "Ntotal", "VBtotal"]]
     simple.sort()
-    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "VBGCls", "VBNCls", "VBGRel", "VBNRel", "CCCls", "CCPhrs"]]
+    extended = [col for col in df.columns if col in ["ACT", "CAUSE", "COMM", "COMPAR", "EXIST", "INother", "JJATDother", "JJATother", "JJCOLR", "JJEPSTother", "JJEVAL", "JJPRother", "JJREL", "JJSIZE", "JJTIME", "JJTOPIC", "MDPOSSCall", "MDPREDall", "MENTAL", "NNABSPROC", "NNCOG", "NNCONC", "NNGRP", "NNHUMAN", "NNother", "NNP", "NNPLACE", "NNQUANT", "NNTECH", "NOMZ", "NSTNCother", "OCCUR", "PASSall", "PP1all", "PP3all", "PrepNSTNC", "RATT", "RBother", "RFACT", "RLIKELY", "RNONFACT", "RSTNCall", "SUPER", "ThJATT", "ThJEVL", "ThJFCT", "ThJLIK", "ThJSTNCall", "ThNATT", "ThNFCT", "ThNLIK", "ThNNFCT", "ThNSTNCall", "THRCother", "THSCother", "ThSTNCall", "ThVATT", "ThVCOMM", "ThVFCT", "ThVLIK", "ThVSTNCall", "ToJABL", "ToJCRTN", "ToJEASE", "ToJEFCT", "ToJEVAL", "ToJSTNCall", "ToNSTNC", "ToSTNCall", "ToVDSR", "ToVEFRT", "ToVMNTL", "ToVPROB", "ToVSPCH", "ToVSTNCall", "VATTother", "VCOMMother", "VFCTother", "VLIKother", "WHSCother", "WhVATT", "WhVCOM", "WhVFCT", "WhVLIK", "WhVSTNCall", "VBGCls", "VBNCls", "VBGRel", "VBNRel", "CCCls", "CCPhrs", "NNMention"]]
     extended.sort()
     df_simple = df[simple].reindex(columns=simple)
     df_extended = df[extended].reindex(columns=extended)
@@ -1973,7 +1972,7 @@ if __name__ == "__main__":
     if args.path:
         call_MFTE(args)
     else:
-        input_dir = r"D:\PostDoc\ExtraAcademicWork\Translation MDA\Corpus\\"
+        input_dir = r"D:\PostDoc\Writeup\ResearchPaper2\Analysis\MDA_review2\Corpus\\"
         output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
         output_stanford = output_main + "POS_Tagged/"
         output_constituency = output_main + "Constituency_Trees/"
@@ -1986,5 +1985,5 @@ if __name__ == "__main__":
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
         #tag_MD(output_stanford, output_MD, extended=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=True)
+        #tag_MD_parallel(output_stanford, output_MD, extended=True)
         do_counts(output_MD, output_stats, ttr)
