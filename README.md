@@ -48,7 +48,7 @@ The usage of the software using the GUI is straightforward, as shown in the scre
 
 By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. You can change this value to match the length of the shortest text in your corpus.
 
-The MFTE Python includes a simple tagset with 73 features and an extended tagset with an additional 64, mostly semantic features. By default, the extended tagset is used (see feature descriptions for details).
+The MFTE Python includes a simple tagset with 73 features and an extended tagset with an additional 70+, mostly semantic features. By default, the extended tagset is used (see feature descriptions for details).
 
 # Feature descriptions
 The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.5.xlsx`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.5.xlsx) and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
