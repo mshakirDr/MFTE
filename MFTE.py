@@ -187,7 +187,13 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
                 print('tagging files one by one in this batch')
                 for t_file in files_chunk:
                     t_file_chunk = [t_file]
-                    process_files_list_chunk_for_stanza(t_file_chunk, nlp, dir_out, dir_constituency, extended)
+                    try:
+                        process_files_list_chunk_for_stanza(t_file_chunk, nlp, dir_out, dir_constituency, extended)
+                    except e:
+                        print("Fallling back to CPU due to further error.")
+                        nlp1 = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=False)
+                        process_files_list_chunk_for_stanza(t_file_chunk, nlp1, dir_out, dir_constituency, extended)
+
     else:
         print("No files to tag.")
 
