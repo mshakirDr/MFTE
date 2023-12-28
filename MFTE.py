@@ -170,8 +170,10 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
     files = glob.glob(dir_in+"*.txt")
     if os.path.exists(currentdir+"/stanza_resources"):
         nlp = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+        nlp1 = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
     else:
         nlp = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
+        nlp1 = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=False)
     n = 10
     if len(files) > 0:
         # if len(files) < n:
@@ -192,11 +194,11 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
                     except Exception:
                         traceback.print_exc()
                         print("Fallling back to CPU due to further error.")
-                        nlp1 = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=False)
                         process_files_list_chunk_for_stanza(t_file_chunk, nlp1, dir_out, dir_constituency, extended)
 
     else:
         print("No files to tag.")
+
         
 def process_sentence (words: list, extended: bool = False) -> list:
     """Retunrs words list tagged
