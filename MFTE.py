@@ -253,6 +253,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
     for index, x in enumerate(words):
         #skip if space
         if x != " ":
+            # Shakir: Check if word is alphanumeric, then check if they are Roman letters, add FU if not Roman letters
+            if re.search(r'\w+', words[index].split('_')[0], re.IGNORECASE): #if word (before _) has letters
+                if not re.search(r'[A-Za-z0-9]+', words[index].split('_')[0]): #if word (before _) has no Roman letters
+                    words[index] = re.sub("_(\w+)", "_FU", words[index]) #tag as FU or foreign word            
             # Shakir: new feature in MFTE python @mentions
             # Frequent in e-language and now tagged as a new feature category, thus correcting tags such as JJ to NN
             if ((re.search("@_", words[index-1]) and re.search("\\b[a-zA-Z0-9]{3,}_", words[index])) or # ELF: Added this line because the evalation showed that the POS-tagger sometimes parses the @ symbol as a separate token 
