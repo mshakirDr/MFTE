@@ -19,6 +19,7 @@ import timeit
 import tqdm
 import argparse
 import Constituency_tags
+import traceback
 
 def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """Tags text files in dir_in with CoreNLPClient and writes to dir_out
@@ -96,6 +97,10 @@ def stanza_pre_processing (text: str)-> str:
     text = re.sub("\\bit('|’)?( )?d\\b", "it 'd", text, flags=re.IGNORECASE)
     #replace newlines with spaces within a sentence
     text = re.sub("(\w+) *[\r\n]+ *(\w+)", "\\1 \\2", text, flags=re.IGNORECASE)
+    #replace multiple spaces with 1
+    text = re.sub(" {2,}", " ", text, flags=re.IGNORECASE)
+    #replace nonsense characters
+    text = re.sub("[∎]+", " ", text, flags=re.IGNORECASE)
     #add space between two emojis thanks to https://stackoverflow.com/questions/69423621/how-to-put-spaces-in-between-every-emojis
     text = ''.join((' '+c+' ') if c in emoji.EMOJI_DATA else c for c in text)
     return text
@@ -167,26 +172,22 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
         nlp = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
     else:
         nlp = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
-    n = 100
+    n = 10
     if len(files) > 0:
-        if extended:
-            if len(files) < n:
-                process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
-            else:     
-                files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
-                for index, files_chunk in enumerate(files_list_of_lists):
-                    print("The corpus contains more than", str(n), "files and will therefore be divided into chunks of", str(n), "files to speed up the tagging process. \
-                        Processing file chunk number", index+1, "of", len(files_list_of_lists))
-                    process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
-        else:
-            if len(files) < n:
-                process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
-            else:
-                files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
-                for index, files_chunk in enumerate(files_list_of_lists):
-                    print("The corpus contains more than", str(n), "files and will therefore be divided into chunks of", str(n), "files to speed up the tagging process. \
-                        Processing file chunk number", index+1, "of", len(files_list_of_lists))
-                    process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)            
+        # if len(files) < n:
+        #     process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
+        # else:     
+        files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
+        for index, files_chunk in enumerate(files_list_of_lists):
+            print("The corpus contains more than", str(n), "files and will therefore be divided into chunks of", str(n), "files to speed up the tagging process.\nProcessing file chunk number", index+1, "of", len(files_list_of_lists))
+            try:
+                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
+            except Exception:
+                traceback.print_exc()
+                print('tagging files one by one in this batch')
+                for t_file in files_chunk:
+                    t_file_chunk = [t_file]
+                    process_files_list_chunk_for_stanza(t_file_chunk, nlp, dir_out, dir_constituency, extended)
     else:
         print("No files to tag.")
 
