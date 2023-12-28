@@ -158,7 +158,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
     Args:
         dir_in (str): dir with plain text files to be tagged
-        dir_out (str): dir to write Stanford Tagger tagged files
+        dir_out (str): dir to write Stanford Tagger tagged file
     """
     if extended:
         tagging_layers = 'tokenize,pos,constituency'
