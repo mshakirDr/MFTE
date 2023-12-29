@@ -105,7 +105,7 @@ def stanza_pre_processing (text: str)-> str:
     text = ''.join((' '+c+' ') if c in emoji.EMOJI_DATA else c for c in text)
     return text
 
-def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_constituency: str, extended: bool = True) -> None:
+def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_constituency: str, extended_constituency: bool = True) -> None:
     """Gets files list chunk from tag_stanford_stanza and tags with stanza nlp client and writes to dir out
 
     Args:
@@ -113,7 +113,7 @@ def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_cons
         nlp: Stanza nlp client
         dir_out (str): Output directory
         dir_constituency (str): Output directory for consituency trees if extended is True
-        extended (bool): Boolean to include or exclude constituency trees
+        extended_constituency (bool): Boolean to include or exclude constituency trees
     """
     print("Stanza tagger reading files")
     #batch processing of documents, 1st list of documents
@@ -144,7 +144,7 @@ def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_cons
         #############################
         ####write constituency trees#
         #############################
-        if extended:
+        if extended_constituency:
             sentences_to_write = []
             for sentence in doc.sentences:
                 c: stanza.models.constituency.parse_tree.Tree = sentence.constituency
@@ -154,13 +154,14 @@ def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_cons
                 f.write(s)
 
 
-def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, extended: bool = True) -> None:
+def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, extended_constituency: bool = False) -> None:
     """Tags text files in dir_in with stanza nlp client and writes to dir_out
     Args:
         dir_in (str): dir with plain text files to be tagged
         dir_out (str): dir to write Stanford Tagger tagged files
+        extended_constituency (bool): enable constituency tree based tagging
     """
-    if extended:
+    if extended_constituency:
         tagging_layers = 'tokenize,pos,constituency'
         Path(dir_constituency).mkdir(parents=True, exist_ok=True)
     else:
@@ -176,25 +177,22 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
         nlp1 = stanza.Pipeline('en', processors=tagging_layers, download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=False)
     n = 10
     if len(files) > 0:
-        # if len(files) < n:
-        #     process_files_list_chunk_for_stanza(files, nlp, dir_out, dir_constituency, extended)
-        # else:     
         files_list_of_lists = [files[i:i+n] for i in range(0,len(files),n)]
         for index, files_chunk in enumerate(files_list_of_lists):
             print("The corpus contains more than", str(n), "files and will therefore be divided into chunks of", str(n), "files to speed up the tagging process.\nProcessing file chunk number", index+1, "of", len(files_list_of_lists))
             try:
-                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended)
+                process_files_list_chunk_for_stanza(files_chunk, nlp, dir_out, dir_constituency, extended_constituency)
             except Exception:
                 traceback.print_exc()
                 print('tagging files one by one in this batch')
                 for t_file in files_chunk:
                     t_file_chunk = [t_file]
                     try:
-                        process_files_list_chunk_for_stanza(t_file_chunk, nlp, dir_out, dir_constituency, extended)
+                        process_files_list_chunk_for_stanza(t_file_chunk, nlp, dir_out, dir_constituency, extended_constituency)
                     except Exception:
                         traceback.print_exc()
                         print("Fallling back to CPU due to further error.")
-                        process_files_list_chunk_for_stanza(t_file_chunk, nlp1, dir_out, dir_constituency, extended)
+                        process_files_list_chunk_for_stanza(t_file_chunk, nlp1, dir_out, dir_constituency, extended_constituency)
 
     else:
         print("No files to tag.")
@@ -1235,11 +1233,10 @@ def process_sentence (words: list, extended: bool = False) -> list:
 
     return words
 
-def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
+def process_sentence_extended (words: list) -> list:
     """Returns words list tagged with Biber's (2006) additional semantic categories
     Args:
         words (list): list of tagged words
-        pos_tagged_file_path (str): pos tagged file path to retrieve corresponding constituency tagged file path for constituency based tagging
     Returns:
         words (list): list of tagged words with tags applied
     """
@@ -1700,18 +1697,16 @@ def process_sentence_extended (words: list, pos_tagged_file_path: str) -> list:
             # Shakir: All 3rd person references to 1 tag (equivalent of TPP3 in Biber 1988)
             if (re.search("_(PP3t|PP3f|PP3m)\\b", words[j])):
                 words[j] = re.sub("_(\w+)", "_\\1 PP3all", words[j])
-    
-    #Shakir: add constituency based tags
-    words = Constituency_tags.tag_constituency(words, pos_tagged_file_path)
 
     return words
 
-def run_process_sentence(file: str, extended: bool = True) -> list:
+def run_process_sentence(file: str, extended: bool = True, extended_constituency: bool = False) -> list:
     """Returns list of words after running process_sentence on it
     Args:
         file (str): text file path that is to be opened
         output_dir (str): output directory that is useful to retrieve constituency tagging
         extended (bool): If extended semantic categories should be tagged
+        extended_constituency (bool): If constituency tree based tags are on
     Returns:
         words_tagged (list): list of words after MD tagging
     """
@@ -1724,7 +1719,11 @@ def run_process_sentence(file: str, extended: bool = True) -> list:
         sentences_with_buffer_spaces = sentences_with_buffer_spaces + sentence + ([' '] * 20)
     words_tagged = process_sentence(sentences_with_buffer_spaces, extended)
     if extended:
-        words_tagged = process_sentence_extended(words_tagged, file)
+        words_tagged = process_sentence_extended(words_tagged)
+    #Shakir: add constituency based tags
+    if extended_constituency:
+        words_tagged = Constituency_tags.tag_constituency(words_tagged, file)
+
     words_tagged = [word for word in words_tagged if word != " "] # remove white space elements added prior to process_sentence
     return words_tagged
 
@@ -1734,30 +1733,33 @@ def process_file (file_dir_pair: tuple) -> None:
     Args:
         file_dir_pair (tuple): first element is the file, second element output_dir
         extended (bool): If extended semantic categories should be tagged
+        extended_constituency (bool): If constituency tree based tags are on
     """
     file = file_dir_pair[0]
     output_dir = file_dir_pair[1]
     extended = file_dir_pair[2]
+    extended_constituency = file_dir_pair[3]
     file_name = os.path.basename(file)
-    words_tagged = run_process_sentence(file, extended)
+    words_tagged = run_process_sentence(file, extended, extended_constituency)
     with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
         f.write("\n".join(words_tagged).strip())
     print("MD tagger tagged: " + file)
     return  "MD tagger tagged: " + file
 
-def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> None:
+def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True, extended_constituency: bool = False) -> None:
     """Tags POS-tagged output files and writes in an MFTE directory
     Args:
         input_dir (str): dir with POS-tagged files
         output_dir (str): dir to write MFTE-tagged files
         extended (bool): If extended MFTE tagset should be tagged
+        extended_constituency (bool): If constituency tree based tags are on
     """
     from random import shuffle
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
     shuffle(files) #randomize files to distribute bigger files more evenly among workers
-    file_with_dir = [(file, output_dir, extended) for file in files]
+    file_with_dir = [(file, output_dir, extended, extended_constituency) for file in files]
     cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
     with multiprocessing.Pool(cpu_count) as pool:
 	    # call the function for each item in parallel
@@ -1765,12 +1767,13 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True) -> 
         for s in results:
             print(s)
 
-def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
+def tag_MD (input_dir: str, output_dir: str, extended: bool = True, extended_constituency: bool = False) -> None:
     """Tags POS-tagged output files and writes in an MFTE directory
     Args:
         input_dir (str): dir with POS-tagged files
         output_dir (str): dir to write MFTE-tagged files
         extended (bool): If extended MFTE tagset should be tagged
+        extended_constituency (bool): If constituency tree based tags are on
     """
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -1778,7 +1781,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True) -> None:
     for file in files:
         print("Tagging MFTE features:", file)
         file_name = os.path.basename(file)
-        words_tagged = run_process_sentence(file, extended)
+        words_tagged = run_process_sentence(file, extended, extended_constituency)
         with open(file=output_dir+file_name, mode='w', encoding='UTF-8') as f:
             f.write("\n".join(words_tagged).strip())
         # break
@@ -1961,15 +1964,15 @@ def call_MFTE(args) -> None:
     output_stats = output_main + "Statistics/"
     ttr = args.ttr
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=args.extended)
+    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=args.constituency_tagging)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     
     if args.parallel_md_tagging:
-        tag_MD_parallel(output_stanford, output_MD, extended=args.extended)
+        tag_MD_parallel(output_stanford, output_MD, extended=args.extended, extended_constituency=args.constituency_tagging)
     else:
-        tag_MD(output_stanford, output_MD, extended=args.extended)
+        tag_MD(output_stanford, output_MD, extended=args.extended, extended_constituency=args.constituency_tagging)
 
     do_counts(output_MD, output_stats, ttr)
 
@@ -1981,6 +1984,7 @@ if __name__ == "__main__":
     parser.add_argument('--ttr', type=int, default=400, help='Number of words to calculate type token ratio; default is 400')
     parser.add_argument('--extended', default=True, type=bool, help='enable extended mode True or False; default is True')
     parser.add_argument('--parallel_md_tagging', default=False, type=bool, help='enable parallel MD tagging True or False; default is False')
+    parser.add_argument('--constituency_tagging', default=False, type=bool, help='enable constituency tree based additional tags True or False; default is False')
     args = parser.parse_args()
     if args.path:
         call_MFTE(args)
@@ -1993,10 +1997,10 @@ if __name__ == "__main__":
         output_stats = output_main + "Statistics/"
         ttr = 400
         t_0 = timeit.default_timer()
-        #tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=True)
+        tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=True)
         t_1 = timeit.default_timer()
         elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
         print("Time spent on tagging process (micro seconds):", elapsed_time)
-        #tag_MD(output_stanford, output_MD, extended=True)
-        #tag_MD_parallel(output_stanford, output_MD, extended=True)
+        #tag_MD(output_stanford, output_MD, extended=True, extended_constituency=True)
+        tag_MD_parallel(output_stanford, output_MD, extended=True, extended_constituency=True)
         do_counts(output_MD, output_stats, ttr)

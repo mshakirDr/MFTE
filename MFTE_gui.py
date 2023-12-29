@@ -55,6 +55,7 @@ class ToolTip:
 
 check_button_state = True
 check_button_state2 = False
+check_button_state3 = False
 ttr_value = 400
 
 
@@ -65,7 +66,7 @@ def call_MFTE(folder_selected: str) -> None:
         folder_selected (str): dir path returned by filedialog
     """
         
-    global check_button_state, ttr_value, check_button_state2
+    global check_button_state, ttr_value, check_button_state2, check_button_state3
     ###############################################
     input_dir = folder_selected + "/"
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
@@ -79,7 +80,7 @@ def call_MFTE(folder_selected: str) -> None:
         ttr = 400
     # record start time
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended=check_var.get())
+    tag_stanford_stanza(input_dir, output_stanford, output_constituency, check_var3.get())
     #tag_stanford(nlp_dir, input_dir, output_stanford)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
@@ -87,10 +88,10 @@ def call_MFTE(folder_selected: str) -> None:
     #parallel MD tag
     if check_var2.get() == True:
         print("Parallel tagging is set to True, all results will be shown after completion.")
-        tag_MD_parallel(output_stanford, output_MD, extended=check_var.get())
+        tag_MD_parallel(output_stanford, output_MD, extended=check_var.get(), extended_constituency=check_var3.get())
     #otherwise simple MD
     else:
-        tag_MD(output_stanford, output_MD, extended=check_var.get())
+        tag_MD(output_stanford, output_MD, extended=check_var.get(), extended_constituency=check_var3.get())
     #
     do_counts(output_MD, output_stats, ttr)
 
@@ -117,6 +118,11 @@ def checkbox_event():
 def checkbox_event2():
     print("Parellel MD tag:", check_var2.get())
     check_button_state2 = check_var2.get()
+
+#update parallel MD tag boolean
+def checkbox_event3():
+    print("Constituency tree based tags:", check_var3.get())
+    check_button_state3 = check_var3.get()
 
 #update ttr value
 def entrybox_event(*args):
@@ -162,6 +168,13 @@ if __name__ == "__main__":
     checkbox2.place(x=10, y=50)
     checkbox2.deselect()
     ToolTip(checkbox2, text="Check this box if you have a large number of files.\nMD tagger part will run using multiple cores of your CPU to make the tagging process faster.")
+    #####checkbox for constituency tree based tags###
+    check_var3 = tkinter.BooleanVar(app, False)
+    checkbox3 = tkinter.Checkbutton(master=app, text="Constituency based tags", command=checkbox_event3,
+                                        variable=check_var3, onvalue=True, offvalue=False)
+    checkbox3.place(x=250, y=50)
+    checkbox3.deselect()
+    ToolTip(checkbox3, text="Check this box if you want to enable additional tags based on consituency parsing.\nBe warned that it runs best on systems with an nVidia GPU.\nOn a CPU this will increase the grammatical tagging time upto 10 fold or more.")
     #update to global variables
     #get True or False for extended
     check_button_state = check_var.get()
