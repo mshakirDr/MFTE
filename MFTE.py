@@ -1989,7 +1989,7 @@ if __name__ == "__main__":
     if args.path:
         call_MFTE(args)
     else:
-        input_dir = r"D:\PostDoc\Writeup\ResearchPaper2\Analysis\MDA_review2\Corpus\\"
+        input_dir = r"Corpus\\"
         output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
         output_stanford = output_main + "POS_Tagged/"
         output_constituency = output_main + "Constituency_Trees/"
