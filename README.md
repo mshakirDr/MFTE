@@ -1,6 +1,11 @@
 # Multi-Feature Tagger of English (MFTE)
 The MFTE is a Python version of the extended [Multi-Feature Tagger of English (MFTE)](https://github.com/mshakirDr/MultiFeatureTaggerEnglish) based on [Le Foll's (2021) version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish) written in Perl. This improved and extended Python version includes semantic tags from Biber (2006) and Biber et al. (1999), as well as additional tags, e.g., separate tags for third person singular male and female pronouns. This tagger first uses the Python NLP library `stanza` for grammatical part-of-speech tagging before applying rule-based regular expressions to tag for a range of more complex lexico-grammatical and semantic features typically used in multidimensional analysis (MDA; cf. Biber 1984; 1988).
 
+# Current version
+## 1.6 (January 2024)
+- Added six new tags (`VBNCls, VBNRel, VBGCls, VBGRel, CCCls, CCPhrs`) that are assigned using consituency parsing function of `stanza`. GUI and commandline files updated
+- Resume ability (skip files that are already tagged by `stanza` and `MFTE`.)
+
 # Installation
 ## Command line using Anaconda
 This software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)) and then install the required packages. Just copy and paste the following command in Windows or Mac Terminal to install the current dependencies:
@@ -23,10 +28,11 @@ The script takes the following optional arguments so you can change them as you 
 |`--ttr 400`| By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. So default is `400`|
 |`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default it is enabled using `True`|
 |`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; default is `False`|
+|`--constituency_tagging False`| enable constituency tree based additional tags (requires nVidia GPU otherwise CPU processing time icreases significantly) `True` or `False`; default is `False`|
 
 The complete command will look like this:
 
-`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
+`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
 ## Standalone executeable (GUI)
 ### Windows (update 1-06-2023)
 The GUI version for Windows can be downloaded as a single executable from the following link:

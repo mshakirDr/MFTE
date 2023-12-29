@@ -58,6 +58,50 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     else:
         print("No files to tag.")
 
+def check_already_tagged_files_stanza (files: list, dir_out: str, dir_constituency: str, extended_constituency: bool = False) -> list:
+    """Returns files list after removing already existing files in POS_Tagged and Constituency_Trees folders
+
+    Args:
+        files (list): list of file paths
+        dir_out (str): Output directory
+        dir_constituency (str): Output directory for consituency trees if extended_constituency is True
+        extended_constituency (bool, optional): Boolean to include or exclude constituency trees
+    Returns:
+        files_out (list): after removing existing files
+    """
+    files_out = []
+    for file in files:
+        file_name = os.path.basename(file)
+        if extended_constituency:
+            if not (os.path.exists(dir_out+file_name) and os.path.exists(dir_constituency+file_name)):
+                files_out.append(file)
+            else:
+                print(file, 'already exists. It will not be re-tagged. Please delete all previously tagged files and restart the program to change this behaviour.')
+        else:
+            if not os.path.exists(dir_out+file_name):
+                files_out.append(file)
+            else:
+                print(file, 'already exists. It will not be re-tagged. Please delete all previously tagged files and restart the program to change this behaviour.')            
+    return files_out
+
+def check_already_tagged_files_mfte (files: list, dir_out: str) -> list:
+    """Returns files list after removing already existing files in MFTE_Tagged
+
+    Args:
+        files (list): list of file paths
+        dir_out (str): Output directory
+    Returns:
+        files_out (list): after removing existing files
+    """
+    files_out = []
+    for file in files:
+        file_name = os.path.basename(file)
+        if not os.path.exists(dir_out+file_name):
+            files_out.append(file)
+        else:
+            print(file, 'already exists. It will not be re-tagged. Please delete all previous MFTE tagged files and restart the program to change this behaviour.')            
+    return files_out
+
 def stanza_pre_processing (text: str)-> str:
     """Applies preprocessing on text string before tagging it with stanza
     Args:
@@ -105,14 +149,14 @@ def stanza_pre_processing (text: str)-> str:
     text = ''.join((' '+c+' ') if c in emoji.EMOJI_DATA else c for c in text)
     return text
 
-def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_constituency: str, extended_constituency: bool = True) -> None:
+def process_files_list_chunk_for_stanza(files: list, nlp, dir_out: str, dir_constituency: str, extended_constituency: bool = False) -> None:
     """Gets files list chunk from tag_stanford_stanza and tags with stanza nlp client and writes to dir out
 
     Args:
         files (list): list of files which needs tobe tagged
         nlp: Stanza nlp client
         dir_out (str): Output directory
-        dir_constituency (str): Output directory for consituency trees if extended is True
+        dir_constituency (str): Output directory for consituency trees if extended_constituency is True
         extended_constituency (bool): Boolean to include or exclude constituency trees
     """
     print("Stanza tagger reading files")
@@ -169,6 +213,8 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
     files = glob.glob(dir_in+"*.txt")
+    #check if file already exists
+    files = check_already_tagged_files_stanza(files, dir_out, dir_constituency, extended_constituency)
     if os.path.exists(currentdir+"/stanza_resources"):
         nlp = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False, use_gpu=True)
         nlp1 = stanza.Pipeline('en', processors=tagging_layers, model_dir=currentdir+"/stanza_resources", download_method=stanza.pipeline.core.DownloadMethod.REUSE_RESOURCES, logging_level='WARN', verbose=False)
@@ -1758,6 +1804,8 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True, ext
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
+    #detect existing files and remove from list
+    files = check_already_tagged_files_mfte(files, output_dir)
     shuffle(files) #randomize files to distribute bigger files more evenly among workers
     file_with_dir = [(file, output_dir, extended, extended_constituency) for file in files]
     cpu_count = int(multiprocessing.cpu_count() / 2) #run half cpus
@@ -1778,6 +1826,8 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True, extended_con
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     files = glob.glob(input_dir + "*.txt")
+    #detect existing files and remove from list
+    files = check_already_tagged_files_mfte(files, output_dir)    
     for file in files:
         print("Tagging MFTE features:", file)
         file_name = os.path.basename(file)
