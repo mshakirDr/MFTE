@@ -310,6 +310,6 @@ def tag_constituency (words: list, pos_tagged_file_path: str) -> list:
     return words
 
 if __name__ == "__main__":
-    words = open(file=r"D:\PostDoc\ExtraAcademicWork\MFTE\Development\Corpus_MFTE_tagged\MFTE_Tagged\BI_US_54.txt", mode='r', encoding='UTF-8', errors='ignore').read().splitlines()
-    pos_file_path = r"D:\PostDoc\ExtraAcademicWork\MFTE\Development\Corpus_MFTE_tagged\POS_Tagged\BI_US_54.txt"
+    words = open(file=r" ", mode='r', encoding='UTF-8', errors='ignore').read().splitlines()
+    pos_file_path = r""
     tag_constituency(words, pos_file_path)
