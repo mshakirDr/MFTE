@@ -57,7 +57,7 @@ check_button_state = True
 check_button_state2 = False
 check_button_state3 = False
 ttr_value = 400
-
+v=None; check_var=None; check_var2=None; check_var3=None; button=None
 
 def call_MFTE(folder_selected: str) -> None:
     """Call MFTE functions after directory selection
@@ -99,6 +99,7 @@ def button_function() -> None:
     """Select corpus directory and apply MFTE tagging on the files in it
     """
     from tkinter import filedialog
+    global v, check_var, check_var2, check_var3, button
     #reconfigure the button for a second run
     button.configure(command=threading.Thread(target=button_function).start)
     folder_selected = filedialog.askdirectory(title="Select corpus files directory")
@@ -111,25 +112,31 @@ def button_function() -> None:
 
 #update extended tag boolean
 def checkbox_event():
+    global v, check_var, check_var2, check_var3, button
     print("Tag extended:", check_var.get())
     check_button_state = check_var.get()
 
 #update parallel MD tag boolean
 def checkbox_event2():
+    global v, check_var, check_var2, check_var3, button
     print("Parellel MD tag:", check_var2.get())
     check_button_state2 = check_var2.get()
 
 #update parallel MD tag boolean
 def checkbox_event3():
+    global v, check_var, check_var2, check_var3, button
     print("Constituency tree based tags:", check_var3.get())
     check_button_state3 = check_var3.get()
 
 #update ttr value
 def entrybox_event(*args):
+    global v, check_var, check_var2, check_var3, button
     ttr_value = v.get()
     print("ttr:", ttr_value)
 
-if __name__ == "__main__":
+#entry point
+def MFTE_gui():
+    global v, check_var, check_var2, check_var3, button
     multiprocessing.freeze_support()
     #maind window
     app = tkinter.Tk()
@@ -180,4 +187,7 @@ if __name__ == "__main__":
     check_button_state = check_var.get()
     #get ttr value
     ttr_value = v.get()
-    app.mainloop()
+    app.mainloop()    
+
+if __name__ == "__main__":
+    MFTE_gui()

@@ -2026,8 +2026,12 @@ def call_MFTE(args) -> None:
 
     do_counts(output_MD, output_stats, ttr)
 
+def mfte(argv=sys.argv):
+    """Entry point for setup tools
 
-if __name__ == "__main__":
+    Args:
+        args (_type_): _description_
+    """
     #get command line arguments
     parser = argparse.ArgumentParser(description='Optional command line arguments to run the software from terminal.')
     parser.add_argument('--path', type=str, help='path to the text files folder')
@@ -2035,22 +2039,28 @@ if __name__ == "__main__":
     parser.add_argument('--extended', default=True, type=bool, help='enable extended mode True or False; default is True')
     parser.add_argument('--parallel_md_tagging', default=False, type=bool, help='enable parallel MD tagging True or False; default is False')
     parser.add_argument('--constituency_tagging', default=False, type=bool, help='enable constituency tree based additional tags True or False; default is False')
-    args = parser.parse_args()
+    args = parser.parse_args(argv[1:])
     if args.path:
         call_MFTE(args)
     else:
         input_dir = r"Corpus\\"
-        output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
-        output_stanford = output_main + "POS_Tagged/"
-        output_constituency = output_main + "Constituency_Trees/"
-        output_MD = output_main + "MFTE_Tagged/"
-        output_stats = output_main + "Statistics/"
-        ttr = 400
-        t_0 = timeit.default_timer()
-        tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=True)
-        t_1 = timeit.default_timer()
-        elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
-        print("Time spent on tagging process (micro seconds):", elapsed_time)
-        #tag_MD(output_stanford, output_MD, extended=True, extended_constituency=True)
-        tag_MD_parallel(output_stanford, output_MD, extended=True, extended_constituency=True)
-        do_counts(output_MD, output_stats, ttr)
+        if os.path.exists(input_dir):
+            output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+            output_stanford = output_main + "POS_Tagged/"
+            output_constituency = output_main + "Constituency_Trees/"
+            output_MD = output_main + "MFTE_Tagged/"
+            output_stats = output_main + "Statistics/"
+            ttr = 400
+            t_0 = timeit.default_timer()
+            tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=True)
+            t_1 = timeit.default_timer()
+            elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
+            print("Time spent on tagging process (micro seconds):", elapsed_time)
+            #tag_MD(output_stanford, output_MD, extended=True, extended_constituency=True)
+            tag_MD_parallel(output_stanford, output_MD, extended=True, extended_constituency=True)
+            do_counts(output_MD, output_stats, ttr)
+        else:
+            print("No input directory provided.")
+
+if __name__ == "__main__":
+    mfte()
