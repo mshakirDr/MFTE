@@ -8,17 +8,23 @@ The MFTE is a Python version of the extended [Multi-Feature Tagger of English (M
 
 # Installation
 ## Command line using Anaconda
-This software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)) and then install the required packages. Just copy and paste the following command in Windows or Mac Terminal to install the current dependencies:
+This software can be used by installing Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then install MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
 
-`pip install pandas emoji stanza`
+`pip install MFTE`
 
-After installing the dependencies, simply download the two Python files `MFTE.py` and `MFTE_gui.py`. You can use the following command to run the GUI version (see below for details):
 
-`python "path\to\MFTE\MFTE_gui.py"`
+If you have an nVidia GPU in your system (Windows or Linux), you can install GPU support by installing CUDA enabled [`Pytorch`](https://pytorch.org/get-started/locally/) (the framework `stanza` uses under the hood):
 
-Or otherwise the command-line version can be run as follows with default options:
+For Windows:
 
-`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/"`
+`pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
+
+For Linux:
+
+`pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
+
+
+Afterwards you can run `MFTE` from the same terminal window: `mfte` for command-line and `mfte_gui` for the GUI version.
 
 The script takes the following optional arguments so you can change them as you like:
 
@@ -32,10 +38,11 @@ The script takes the following optional arguments so you can change them as you 
 
 The complete command will look like this:
 
-`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
-## Standalone executeable (GUI)
-### Windows (update 1-06-2023)
-The GUI version for Windows can be downloaded as a single executable from the following link:
+`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
+
+## Standalone executeable (GUI) --older version
+### Windows (updated 1-06-2023)
+The GUI version for Windows can be downloaded as a single executable from the following link (old version):
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsguLldNW2aRyzM8Gxia8?e=zKghN1).
 
