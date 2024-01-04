@@ -42,7 +42,7 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 
 There is no need to install anything else. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option.
 
-The usage of the software using the GUI is straightforward, as shown in the screenshot below. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and subsequently with the MFTE tags. The output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
+The usage of the software using the GUI is straightforward, as shown in the screenshot below. Simply select or unselect the options you want, then open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software immediately begins with the part-of-speech (POS) tagging and subsequently with the MFTE tags. The output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
 
 ![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
 
