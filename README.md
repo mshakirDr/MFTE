@@ -1,54 +1,60 @@
 # Multi-Feature Tagger of English (MFTE)
 The MFTE is a Python version of the extended [Multi-Feature Tagger of English (MFTE)](https://github.com/mshakirDr/MultiFeatureTaggerEnglish) based on [Le Foll's (2021) version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish) written in Perl. This improved and extended Python version includes semantic tags from Biber (2006) and Biber et al. (1999), as well as additional tags, e.g., separate tags for third person singular male and female pronouns. This tagger first uses the Python NLP library `stanza` for grammatical part-of-speech tagging before applying rule-based regular expressions to tag for a range of more complex lexico-grammatical and semantic features typically used in multidimensional analysis (MDA; cf. Biber 1984; 1988).
 
+# Current version
+## 1.6 (January 2024)
+- Added six new tags (`VBNCls, VBNRel, VBGCls, VBGRel, CCCls, CCPhrs`) that are assigned using consituency parsing function of `stanza`. GUI and commandline files updated
+- Resume ability (skip files that are already tagged by `stanza` and `MFTE`.)
+
 # Installation
 ## Command line using Anaconda
-This software can be used by installing Python and the required packages. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)) and then install the required packages. Just copy and paste the following command in Windows or Mac Terminal to install the current dependencies:
+This software can be used by installing Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then install MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
 
-`pip install pandas emoji stanza tqdm`
+`pip install MFTE`
 
-After installing the dependencies, simply download the two Python files `MFTE.py` and `MFTE_gui.py`. On Windows, Mac, or Linux you can use the following command to run the GUI version (see below the screenshot and usage of the GUI window):
 
-`python "path\to\MFTE\MFTE_gui.py"`
+If you have an nVidia GPU in your system (Windows or Linux), you can install GPU support by installing CUDA enabled [`Pytorch`](https://pytorch.org/get-started/locally/) (the framework `stanza` uses under the hood):
 
-Otherwise, the command-line version can be run as follows with default options:
+For Windows:
 
-`python "path/to/MFTE/MFTE.py" --path "/path/to/corpus/"` (on MacOS and Linux)
+`pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
-`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/"` (on Windows)
+For Linux:
 
-The script takes the following optional arguments that you can adjust as you like:
+`pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
+
+
+Afterwards you can run `MFTE` from the same terminal window: `mfte` for command-line and `mfte_gui` for the GUI version.
+
+The script takes the following optional arguments so you can change them as you like:
 
 |Argument|Explanation|
 |---------|---------|
 |`--path 'path\to\corpus'`|path to the text files folder|
 |`--ttr 400`| By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. So default is `400`|
-|`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default, the extended tagset is enabled with `True`|
-|`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; the default is `False`|
+|`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default it is enabled using `True`|
+|`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; default is `False`|
+|`--constituency_tagging False`| enable constituency tree based additional tags (requires nVidia GPU otherwise CPU processing time icreases significantly) `True` or `False`; default is `False`|
 
-The complete command will look like this on Windows:
+The complete command will look like this:
 
-`python "path\to\MFTE\MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
+`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
 
-Or like on MacOS and Linux:
-
-`python "path/to/MFTE/MFTE.py" --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
-
-## Standalone executeable (GUI)
-### Windows (update 1-06-2023)
-The GUI version for Windows can be downloaded as a single executable from the following link:
+## Standalone executeable (GUI) --older version
+### Windows (updated 1-06-2023)
+The GUI version for Windows can be downloaded as a single executable from the following link (old version):
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsguLldNW2aRyzM8Gxia8?e=zKghN1).
 
 There is no need to install anything else. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option.
 
-The usage of the software using the GUI is straightforward, as shown in the screenshot below. Simply select or unselect the options you want, then open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software immediately begins with the part-of-speech (POS) tagging and subsequently with the MFTE tags. The output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
+The usage of the software using the GUI is straightforward as the screenshot below shows. Simply open the folder which contains your text files by clicking on the `Select corpus directory` button. Once you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. As in the original Perl version, the output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix. 
 
 ![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
 
-By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. You can change this value to match the length of the shortest text in your corpus.
+By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text.
 
-The MFTE Python includes a simple tagset with 73 features and an extended tagset with an additional 70+, mostly semantic features. By default, the extended tagset is used (see feature descriptions for details).
+The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions).
 
 # Feature descriptions
 The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.5.xlsx`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.5.xlsx) and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
@@ -65,13 +71,12 @@ The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `PO
 Note that the MFTE only tags and computes count tallies and relative frequencies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using EFA and PCA on the basis of the outputs of the MFTE will soon be added to this repository.
 
 # Evaluation
-
 Le Foll, Elen & Muhammad Shakir. 2023. Evaluating the Multi-Feature Tagger of English (MFTE): Challenges and implications for corpus tool evaluations and comparisons. Poster presented at the Corpus Linguistics Conference (CL2023), Lancaster University (UK). [Link](https://www.researchgate.net/publication/371857138_Evaluating_the_Multi-Feature_Tagger_of_English_MFTE_Challenges_and_implications_for_corpus_tool_evaluations_and_comparisons).
 
 # Acknowledgements
 
 ## Funding
-This project was partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
+This project has been partially funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant number 452561886.
 
 ## Acknowledgements from the MFTE Perl
 Elen would like to extend special thanks to Peter Uhrig and Michael Franke for supervising her M.Sc. thesis on the development and evaluation of [the first, Perl version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish). Many thanks to Andrea Nini for releasing the [MAT](http://sites.google.com/site/multidimensionaltagger) under an open-source licence, which served as the baseline for this previous version of the MFTE. Heartfelt thanks also go to Stefanie Evert and Luke Tudge who contributed advice and code in various ways and to Larissa Goulart for her insights into the Biber Tagger. Finally, Elen would also like to thank Dirk Siepmann for supporting this project.
@@ -129,8 +134,6 @@ Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999). Longman G
 Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensional Studies (Studies in Language and Linguistics). New York: Routledge.
 
 Le Foll, Elen (2021). A New Tagger for the Multi-Dimensional Analysis of Register Variation in English. Osnabrück University: Institute of Cognitive Science Unpublished M.Sc. thesis.
-
-Le Foll, Elen & Muhammad Shakir (2023). Evaluating the Multi-Feature Tagger of English (MFTE): Challenges and implications for corpus tool evaluations and comparisons. Poster presented at the Corpus Linguistics Conference (CL2023), Lancaster University (UK). https://www.researchgate.net/publication/371857138_Evaluating_the_Multi-Feature_Tagger_of_English_MFTE_Challenges_and_implications_for_corpus_tool_evaluations_and_comparisons.
 
 Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). https://sites.google.com/site/multidimensionaltagger.
 
