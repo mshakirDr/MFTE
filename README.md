@@ -71,7 +71,7 @@ The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `PO
 Note that the MFTE only tags and computes count tallies and relative frequencies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using EFA and PCA on the basis of the outputs of the MFTE will soon be added to this repository.
 
 # Evaluation
-TBD
+Le Foll, Elen & Muhammad Shakir. 2023. Evaluating the Multi-Feature Tagger of English (MFTE): Challenges and implications for corpus tool evaluations and comparisons. Poster presented at the Corpus Linguistics Conference (CL2023), Lancaster University (UK). [Link](https://www.researchgate.net/publication/371857138_Evaluating_the_Multi-Feature_Tagger_of_English_MFTE_Challenges_and_implications_for_corpus_tool_evaluations_and_comparisons).
 
 # Acknowledgements
 
