@@ -125,7 +125,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     if index:
-                        words[index] = re.sub("_(\w+)", "_VBGRel", words[index])
+                        words[index] = re.sub("_VBG", "_VBGRel", words[index])
         
         #past participial relative clauses (NP (NP xxx) (VP (VBN xxxx)))
         if len(np_tree.children) > 1:
@@ -135,13 +135,13 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     if index:
-                        words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+                        words[index] = re.sub("_VBN", "_VBNRel", words[index])
 
                 elif ((np_tree.children[1].children[0].label == 'ADVP' and  np_tree.children[1].children[1].label == 'VBN')): #first child in VP is ADVP, 2nd is VBN
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[1])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     if index:
-                        words[index+1] = re.sub("_(\w+)", "_VBNRel", words[index+1]) #+1 due to the presence of adverb before the verb                   
+                        words[index+1] = re.sub("_VBN", "_VBNRel", words[index+1]) #+1 due to the presence of adverb before the verb                   
 
                 if len(np_tree.children[1].children) > 2: #check for two VPs joined by and
                     if (np_tree.children[1].children[0].label == 'VP' and 
@@ -153,7 +153,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
                             #print(np_tree_list_of_words)
                             index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                             if index:
-                                words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+                                words[index] = re.sub("_VBN", "_VBNRel", words[index])
                         
                         if np_tree.children[1].children[2].children[0].label == 'VBN': #first word in the VP is VBN
                             #print(np_tree.children[1].children[2])
@@ -161,7 +161,7 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
                             #print(np_tree_list_of_words)
                             index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                             if index:
-                                words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+                                words[index] = re.sub("_VBN", "_VBNRel", words[index])
 
         #past participial relative clauses with additional items like punctuation (NP (NP xxx) (, ,) (VP (VBN xxxx))) occuring after a comma
         if len(np_tree.children) > 2:
@@ -170,13 +170,13 @@ def tag_non_finite_relative_clauses(words: list, trees: list) -> list:
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[2])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     if index:
-                        words[index+1] = re.sub("_(\w+)", "_VBNRel", words[index+1]) #+1 due to the presence of adverb before the verb
+                        words[index+1] = re.sub("_VBN", "_VBNRel", words[index+1]) #+1 due to the presence of adverb before the verb
                 
                 elif (np_tree.children[2].children[0].label == 'VBN'): ##first word in the VP is VBN
                     np_tree_list_of_words = constituency_to_list_of_words(np_tree.children[2])
                     index = find_sub_list_starting_index_in_words_list(words, np_tree_list_of_words)
                     if index:
-                        words[index] = re.sub("_(\w+)", "_VBNRel", words[index])
+                        words[index] = re.sub("_VBN", "_VBNRel", words[index])
 
         #VBG as attributive adjectives (NP (DT the) (JJ Indian) (VBG founding) (NNS fathers))
         labels = [c.label for c in np_tree.children]
@@ -221,7 +221,7 @@ def tag_non_finite_participial_clauses(words: list, trees: list) -> list:
                                     s_tree_list_of_words = constituency_to_list_of_words(s_tree)
                                     index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
                                     if index:
-                                        words[index] = re.sub("_(\w+)", "_VBGCls", words[index])
+                                        words[index] = re.sub("_VBG", "_VBGCls", words[index])
 
         #past participial clauses (ROOT (S (S (VP (VBN Built) (PP (IN in) (NP (DT a) (JJ single) (NN week)))))
         if len(s_tree.children) >= 1:
@@ -234,7 +234,7 @@ def tag_non_finite_participial_clauses(words: list, trees: list) -> list:
                                     s_tree_list_of_words = constituency_to_list_of_words(s_tree)
                                     index = find_sub_list_starting_index_in_words_list(words, s_tree_list_of_words)
                                     if index:
-                                        words[index] = re.sub("_(\w+)", "_VBNCls", words[index])
+                                        words[index] = re.sub("_VBN", "_VBNCls", words[index])
     return words        
 
 def tag_pied_piping_wh_clauses(words: list, trees: list) -> list:
