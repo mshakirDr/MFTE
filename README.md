@@ -33,11 +33,11 @@ The script takes the following optional arguments so you can change them as you 
 
 The complete command will look like this:
 
-`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
+`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False
 
-## Standalone executeable (GUI) --older version
+## Standalone executeable (GUI)
 ### Windows (updated 1-06-2023)
-The GUI version for Windows can be downloaded as a single executable from the following link (old version):
+The GUI version for Windows can be downloaded as a single executable from the following link:
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsguLldNW2aRyzM8Gxia8?e=zKghN1).
 
