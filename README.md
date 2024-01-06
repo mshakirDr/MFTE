@@ -33,7 +33,7 @@ The script takes the following optional arguments so you can change them as you 
 
 The complete command will look like this:
 
-`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False
+`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
 
 ## Standalone executeable (GUI)
 ### Windows (updated 1-06-2023)
