@@ -19,6 +19,9 @@ For Linux:
 
 `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
+For MacOS 12.3+ MPS acceleration is available through nightly builds. Run the following command to update `pytorch`:
+
+`pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu`
 
 Afterwards you can run `MFTE` from the same terminal window: `mfte` for command-line and `mfte_gui` for the GUI version.
 
