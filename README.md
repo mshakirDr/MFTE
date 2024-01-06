@@ -30,7 +30,6 @@ The script takes the following optional arguments so you can change them as you 
 |`--ttr 400`| By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. So default is `400`|
 |`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default it is enabled using `True`|
 |`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; default is `False`|
-|`--constituency_tagging False`| enable constituency tree based additional tags (requires nVidia GPU otherwise CPU processing time icreases significantly) `True` or `False`; default is `False`|
 
 The complete command will look like this:
 
