@@ -57,7 +57,7 @@ check_button_state = True
 check_button_state2 = False
 check_button_state3 = False
 ttr_value = 400
-v=None; check_var=None; check_var2=None; check_var3=False; button=None
+v=None; check_var=None; check_var2=None; check_var3=None; button=None
 
 def call_MFTE(folder_selected: str) -> None:
     """Call MFTE functions after directory selection
@@ -176,7 +176,7 @@ def MFTE_gui():
     checkbox2.deselect()
     ToolTip(checkbox2, text="Check this box if you have a large number of files.\nMD tagger part will run using multiple cores of your CPU to make the tagging process faster.")
     # #####checkbox for constituency tree based tags###
-    # check_var3 = tkinter.BooleanVar(app, False)
+    check_var3 = tkinter.BooleanVar(app, False)
     # checkbox3 = tkinter.Checkbutton(master=app, text="Constituency based tags", command=checkbox_event3,
     #                                     variable=check_var3, onvalue=True, offvalue=False)
     # checkbox3.place(x=250, y=50)

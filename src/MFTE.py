@@ -30,7 +30,7 @@ def tag_stanford (dir_nlp: str, dir_in: str, dir_out: str) -> None:
     """
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
-    files = glob.glob(dir_in+"*.txt")
+    files = glob.glob(os.path.join(dir_in,"*.txt"))
     if len(files) > 0:
         with stanza.server.CoreNLPClient(annotators=['tokenize,ssplit,pos'],
                 timeout=30000,
@@ -212,7 +212,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
         tagging_layers = 'tokenize,pos'
     Path(dir_out).mkdir(parents=True, exist_ok=True)   
     #text = open(dir+"corpus\BD-CMT274.txt").read()
-    files = glob.glob(dir_in+"*.txt")
+    files = glob.glob(os.path.join(dir_in,"*.txt"))
     #check if file already exists
     files = check_already_tagged_files_stanza(files, dir_out, dir_constituency, extended_constituency)
     if os.path.exists(currentdir+"/stanza_resources"):
@@ -1803,7 +1803,7 @@ def tag_MD_parallel (input_dir: str, output_dir: str, extended: bool = True, ext
     from random import shuffle
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
-    files = glob.glob(input_dir + "*.txt")
+    files = glob.glob(os.path.join(input_dir, "*.txt"))
     #detect existing files and remove from list
     files = check_already_tagged_files_mfte(files, output_dir)
     shuffle(files) #randomize files to distribute bigger files more evenly among workers
@@ -1825,7 +1825,7 @@ def tag_MD (input_dir: str, output_dir: str, extended: bool = True, extended_con
     """
     # check if dir exists, otherwise make one
     Path(output_dir).mkdir(parents=True, exist_ok=True)
-    files = glob.glob(input_dir + "*.txt")
+    files = glob.glob(os.path.join(input_dir, "*.txt"))
     #detect existing files and remove from list
     files = check_already_tagged_files_mfte(files, output_dir)    
     for file in files:
@@ -2006,7 +2006,7 @@ def call_MFTE(args) -> None:
         args : parser.parse_args() for selected features
     """
         
-    input_dir = args.path
+    input_dir: str = args.path
     output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE/"
     output_stanford = output_main + "POS_Tagged/"
     output_constituency = output_main + "Constituency_Trees/"
@@ -2020,7 +2020,7 @@ def call_MFTE(args) -> None:
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     
-    if args.parallel_md_tagging:
+    if args.parallel_md_tagging == True:
         tag_MD_parallel(output_stanford, output_MD, extended=args.extended, extended_constituency=const_tagging_temp)
     else:
         tag_MD(output_stanford, output_MD, extended=args.extended, extended_constituency=const_tagging_temp)
@@ -2053,12 +2053,12 @@ def mfte(argv=sys.argv):
             output_stats = output_main + "Statistics/"
             ttr = 400
             t_0 = timeit.default_timer()
-            tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=True)
+            tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=False)
             t_1 = timeit.default_timer()
             elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
             print("Time spent on tagging process (micro seconds):", elapsed_time)
             #tag_MD(output_stanford, output_MD, extended=True, extended_constituency=True)
-            tag_MD_parallel(output_stanford, output_MD, extended=True, extended_constituency=True)
+            tag_MD_parallel(output_stanford, output_MD, extended=True, extended_constituency=False)
             do_counts(output_MD, output_stats, ttr)
         else:
             print("No input directory provided.")
