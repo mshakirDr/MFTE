@@ -14,7 +14,7 @@ name = 'MFTE',
 #     If you add a new feature to your package, that will lead to a minor release. (e.g. 0.1.0 --> 0.2.0)
 #     If a major change that will affect many users happened, you will want to make it as a major release (e.g. 0.1.0 --> 1.0.0)
 #     '''
-    version = '1.0.0.2',
+    version = '1.0.0.3',
     
 #     '''
 #     This is the short description will show on the top of the webpage of your package on pypi.org
