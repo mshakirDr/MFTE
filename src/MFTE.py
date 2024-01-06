@@ -2013,16 +2013,17 @@ def call_MFTE(args) -> None:
     output_MD = output_main + "MFTE_Tagged/"
     output_stats = output_main + "Statistics/"
     ttr = args.ttr
+    const_tagging_temp: bool = False
     t_0 = timeit.default_timer()
-    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=args.constituency_tagging)
+    tag_stanford_stanza(input_dir, output_stanford, output_constituency, extended_constituency=const_tagging_temp)
     t_1 = timeit.default_timer()
     elapsed_time = round((t_1 - t_0) * 10 ** 6, 3)
     print("Time spent on tagging process (micro seconds):", elapsed_time)
     
     if args.parallel_md_tagging:
-        tag_MD_parallel(output_stanford, output_MD, extended=args.extended, extended_constituency=args.constituency_tagging)
+        tag_MD_parallel(output_stanford, output_MD, extended=args.extended, extended_constituency=const_tagging_temp)
     else:
-        tag_MD(output_stanford, output_MD, extended=args.extended, extended_constituency=args.constituency_tagging)
+        tag_MD(output_stanford, output_MD, extended=args.extended, extended_constituency=const_tagging_temp)
 
     do_counts(output_MD, output_stats, ttr)
 
@@ -2038,7 +2039,7 @@ def mfte(argv=sys.argv):
     parser.add_argument('--ttr', type=int, default=400, help='Number of words to calculate type token ratio; default is 400')
     parser.add_argument('--extended', default=True, type=bool, help='enable extended mode True or False; default is True')
     parser.add_argument('--parallel_md_tagging', default=False, type=bool, help='enable parallel MD tagging True or False; default is False')
-    parser.add_argument('--constituency_tagging', default=False, type=bool, help='enable constituency tree based additional tags True or False; default is False')
+    #parser.add_argument('--constituency_tagging', default=False, type=bool, help='enable constituency tree based additional tags True or False; default is False')
     args = parser.parse_args(argv[1:])
     if args.path:
         call_MFTE(args)
