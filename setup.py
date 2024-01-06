@@ -88,6 +88,8 @@ entry_points={
     'console_scripts': [
         'mfte_gui = MFTE_gui:MFTE_gui',
         'mfte = MFTE:mfte',
+        'MFTE_gui = MFTE_gui:MFTE_gui',
+        'MFTE = MFTE:mfte',
     ],
 },    
     
