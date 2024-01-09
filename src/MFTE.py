@@ -237,7 +237,7 @@ def tag_stanford_stanza (dir_in: str, dir_out: str, dir_constituency: str, exten
                         process_files_list_chunk_for_stanza(t_file_chunk, nlp, dir_out, dir_constituency, extended_constituency)
                     except Exception:
                         traceback.print_exc()
-                        print("Fallling back to CPU due to further error.")
+                        print("Falling back to CPU due to further error.")
                         process_files_list_chunk_for_stanza(t_file_chunk, nlp1, dir_out, dir_constituency, extended_constituency)
 
     else:
