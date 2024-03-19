@@ -1952,14 +1952,16 @@ def do_counts(dir_in: str, dir_out: str, n_tokens: int) -> None:
                 n_functionwords = len([word for word in words if re.search(r"\b" + function_words_re + r"_", word, re.IGNORECASE)])
                 #print(n_functionwords)
                 # EFL: Counting function words for lexical density
-                # Shakir: list of words that do not containt SYM etc. + only if it is a word_TAG combination
+                # Shakir: list of words that do not contain SYM etc. + only if it is a word_TAG combination
                 tokens = [word for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|_-LRB-|_-RRB-|.+_SYM|_POS|_FPUH|_HYPH", word) if re.search(r"^\S+_\S+$", word)]
                 # EFL: Counting total nouns for per 100 noun normalisation
                 # Shakir: list of words that match the given regex, then take its length as total nouns 
                 Ntotal = len([word for word in words if re.search(r"_NN\b", word)])
+                Ntotal = len(tokens) if Ntotal == 0 else Ntotal #Shakir replace 0 to avoid infinity in division
                 # EFL: Approximate counting of total finite verbs for the per 100 finite verb normalisation
                 # Shakir: list of words that match the given regex, then take its length as total verbs
                 VBtotal = len([word for word in words if re.search(r"(_VPRT|_VBD|_VIMP|_MDCA|_MDCO|_MDMM|_MDNE|_MDWO|_MDWS)\b", word)])
+                VBtotal = len(tokens) if VBtotal == 0 else VBtotal #Shakir replace 0 to avoid infinity in division (more likely for verbs)
                 # ELF: I've decided to exclude all of these for the word length variable (i.e., possessive s's, symbols, punctuation, brackets, filled pauses and interjections (FPUH)):
                 # Shakir: get the len of each word after splitting it from TAG, and making sure the regex punctuation does not match + only if it is a word_TAG combination
                 list_of_wordlengths = [len(word.split('_')[0]) for word in words if not re.search(r"(_\s)|(\[\w+\])|(.+_\W+)|_-LRB-|_-RRB-|.+_SYM|_POS|_FPUH|_HYPH|_AFX|_NFP", word) if re.search(r"^\S+_\S+$", word)]
