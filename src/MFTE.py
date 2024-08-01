@@ -1117,17 +1117,15 @@ def process_sentence (words: list, extended: bool = False) -> list:
             #---------------------------------------------------
 
     for j, value in enumerate(words):
-        try:
+        if value != " ":
             # Adds "NEED to" and "HAVE to" to the list of necessity (semi-)modals  
             if (re.search("\\bneed_V|\\bneeds_V|\\bneeded_V|\\bhave_V|\\bhas_V|\\bhad_V|\\bhad_P|\\bhaving_V", words[j], re.IGNORECASE) and re.search("\\bto_TO", words[j+1])):
                 words[j] = re.sub("_(\w+)", "_MDNE", words[j])
-        except IndexError:
-            continue
 
-        # EFL: Tag remaining YNQU questions
-        # This loop assumes that any question marks that have yet to be tagged as YNQU, WHQU or QUTAG by this stage are in fact yes-no questions.
-        if (re.search("\\?_\\.", words[j]) and not re.search("YNQU|WQ|QUTAG", words[j]) and not re.search("_UH|_FPUH|_DMA", words[j-1])):
-            words[j] = re.sub("(_\\.)", "\\1 YNQU", words[j]) 
+            # EFL: Tag remaining YNQU questions
+            # This loop assumes that any question marks that have yet to be tagged as YNQU, WHQU or QUTAG by this stage are in fact yes-no questions.
+            if (re.search("\\?_\\.", words[j]) and not re.search("YNQU|WQ|QUTAG", words[j]) and not re.search("_UH|_FPUH|_DMA", words[j-1])):
+                words[j] = re.sub("(_\\.)", "\\1 YNQU", words[j]) 
         
     #--------------------------------------------------- 
     # BASIC TAGS THAT HAVE TO BE TAGGED AT THE END TO AVOID CLASHES WITH MORE COMPLEX REGEX ABOVE
