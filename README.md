@@ -65,10 +65,11 @@ The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `PO
 2.	```counts_word-based_normed.csv```            Feature frequencies normalised to 100 words
 3.	```counts_raw.csv```                         Raw (unnormalised) feature counts
 
-Note that the MFTE only tags and computes count tallies and relative frequencies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using EFA and PCA on the basis of the outputs of the MFTE will soon be added to this repository.
+Note that the MFTE only tags and computes count tallies and relative frequencies of all the features. It does not compute perform the multidimensional analysis itself. R scripts to carry out MDA analysis using PCA on the basis of the outputs of the MFTE can be found in the [online supplements](https://elenlefoll.github.io/TextbookMDA/) to Le Foll (2024).
 
 # Evaluation
-Le Foll, Elen & Muhammad Shakir. 2023. Evaluating the Multi-Feature Tagger of English (MFTE): Challenges and implications for corpus tool evaluations and comparisons. Poster presented at the Corpus Linguistics Conference (CL2023), Lancaster University (UK). [Link](https://www.researchgate.net/publication/371857138_Evaluating_the_Multi-Feature_Tagger_of_English_MFTE_Challenges_and_implications_for_corpus_tool_evaluations_and_comparisons).
+
+Le Foll, Elen & Muhammad Shakir. 2025. The Multi-Feature Tagger of English (MFTE): Rationale, Description and Evaluation. Research in Corpus Linguistics 13(2). 63–93. https://doi.org/10.32714/ricl.13.02.03.
 
 # Acknowledgements
 
@@ -79,12 +80,26 @@ This project has been partially funded by the Deutsche Forschungsgemeinschaft (D
 Elen would like to extend special thanks to Peter Uhrig and Michael Franke for supervising her M.Sc. thesis on the development and evaluation of [the first, Perl version of the MFTE](https://github.com/elenlefoll/MultiFeatureTaggerEnglish). Many thanks to Andrea Nini for releasing the [MAT](http://sites.google.com/site/multidimensionaltagger) under an open-source licence, which served as the baseline for this previous version of the MFTE. Heartfelt thanks also go to Stefanie Evert and Luke Tudge who contributed advice and code in various ways and to Larissa Goulart for her insights into the Biber Tagger. Finally, Elen would also like to thank Dirk Siepmann for supporting this project.
 
 # Citation
-The MFTE can be cited as follows:
+Please cite the MFTE as follows:
 
 ### APA
+Le Foll, E., & Shakir, M. (2024). The Multi-Feature Tagger of English (MFTE): Rationale, description and evaluation. Research in Corpus Linguistics, 13(2), 63–93. https://doi.org/10.32714/ricl.13.02.03
+
 Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software]. https://github.com/mshakirDr/MFTE
 
 ### Bibtex
+`@article{lefollMultiFeatureTaggerEnglish2025,
+	title = {The {Multi}-{Feature} {Tagger} of {English} ({MFTE}): {Rationale}, {Description} and {Evaluation}},
+	volume = {13},
+	doi = {https://doi.org/10.32714/ricl.13.02.03},
+	number = {2},
+	journal = {Research in Corpus Linguistics},
+	author = {Le Foll, Elen and Shakir, Muhammad},
+	year = {2025},
+	pages = {63--93},
+	file = {PDF:/Users/lefoll/Zotero/storage/KFVITMNB/Le Foll and Shakir - 2025 - The Multi-Feature Tagger of English (MFTE) Rationale, Description and Evaluation.pdf:application/pdf},
+}`
+
 `@software{Le_Foll_MFTE_Python_2023,
 author = {Le Foll, Elen and Shakir, Muhammad},
 month = {4},
@@ -127,6 +142,8 @@ Biber, D., Johansson, S., Leech, G., Conrad, S., & Finegan, E. (1999). Longman G
 Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensional Studies (Studies in Language and Linguistics). New York: Routledge.
 
 Le Foll, Elen (2021). A New Tagger for the Multi-Dimensional Analysis of Register Variation in English. Osnabrück University: Institute of Cognitive Science Unpublished M.Sc. thesis.
+
+Le Foll, Elen. 2024. Textbook English: A Multi-Dimensional Approach (Studies in Corpus Linguistics 116). Amsterdam: John Benjamins. https://doi.org/10.1075/scl.116.
 
 Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). https://sites.google.com/site/multidimensionaltagger.
 
