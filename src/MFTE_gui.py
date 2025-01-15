@@ -69,7 +69,7 @@ def call_MFTE(folder_selected: str) -> None:
     global check_button_state, ttr_value, check_button_state2, check_button_state3
     ###############################################
     input_dir = folder_selected + "/"
-    output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE_tagged/"
+    output_main = os.path.dirname(input_dir.rstrip("/").rstrip("\\")) + "/" + os.path.basename(input_dir.rstrip("/").rstrip("\\")) + "_MFTE/"
     output_stanford = output_main + "POS_Tagged/"
     output_constituency = output_main + "Constituency_Trees/"
     output_MD = output_main + "MFTE_Tagged/"
