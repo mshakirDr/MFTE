@@ -97,7 +97,6 @@ Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software].
 	author = {Le Foll, Elen and Shakir, Muhammad},
 	year = {2025},
 	pages = {63--93},
-	file = {PDF:/Users/lefoll/Zotero/storage/KFVITMNB/Le Foll and Shakir - 2025 - The Multi-Feature Tagger of English (MFTE) Rationale, Description and Evaluation.pdf:application/pdf},
 }`
 
 `@software{Le_Foll_MFTE_Python_2023,
