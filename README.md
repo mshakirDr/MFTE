@@ -12,7 +12,7 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 There is no need to install anything else.
 
 ## Command-line installation using Anaconda
-To use this software, you must first install Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then install the MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
+To use this software, you must first install Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then, navigate to the folder where you saved a copy of this GitHub repository and install the MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
 
 `pip install MFTE`
 
@@ -55,7 +55,7 @@ The complete command will look like this:
 `mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
 
 # Feature descriptions
-The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.xlsx`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.xlsx) and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
+The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf).
 
 Further information can be be found in [Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf), a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) in November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers. The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
 
