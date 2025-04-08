@@ -4,7 +4,7 @@ The Multi-Feature Tagger of English (MFTE) was originally based on the [MFTE Per
 
 # Installation
 
-## Standalone executeable (GUI) for Windows (updated 1-06-2023)
+## Standalone executeable (GUI) for Windows (updated 1-06-2023; out of date, the below installation method is highly recommended)
 The GUI version for Windows can be downloaded as a single executable from the following link:
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsguLldNW2aRyzM8Gxia8?e=zKghN1).
