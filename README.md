@@ -32,7 +32,7 @@ For MacOS 12.3+ MPS acceleration is available through nightly builds. Run the fo
 
 # Usage 
 ## Usage of the GUI version
-To launch the GUI version on Linux or MacOS, simply call up `MFTE_gui` in the Anaconda terminal.
+To launch the GUI version on Windows, Linux or MacOS, simply call up `MFTE_gui` in the Anaconda terminal.
 
 The usage of the MFTE using the GUI is straightforward as the screenshot below shows. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option. The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions). By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. This number should not be fewer than the shortest text in your corpus if you wish to use this feature in your analyses. 
 
