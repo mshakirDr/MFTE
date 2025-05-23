@@ -87,8 +87,6 @@ Le Foll, E., & Shakir, M. (2024). The Multi-Feature Tagger of English (MFTE): Ra
 
 Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software]. https://github.com/mshakirDr/MFTE
 
-Le Foll, E. (2024). Textbook English: A Multi-Dimensional Approach (Studies in Corpus Linguistics 116). Amsterdam: John Benjamins. https://doi.org/10.1075/scl.116. Open Access version: https://osf.io/yhxft. Online supplements: https://elenlefoll.github.io/TextbookMDA/.
-
 ### Bibtex
 `@article{lefollMultiFeatureTaggerEnglish2025,
 	title = {The {Multi}-{Feature} {Tagger} of {English} ({MFTE}): {Rationale}, {Description} and {Evaluation}},
@@ -144,7 +142,7 @@ Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensi
 
 Le Foll, Elen (2021). A New Tagger for the Multi-Dimensional Analysis of Register Variation in English. Osnabrück University: Institute of Cognitive Science Unpublished M.Sc. thesis.
 
-Le Foll, Elen. 2024. Textbook English: A Multi-Dimensional Approach (Studies in Corpus Linguistics 116). Amsterdam: John Benjamins. https://doi.org/10.1075/scl.116.
+Le Foll, Elen. 2024. Textbook English: A Multi-Dimensional Approach (Studies in Corpus Linguistics 116). Amsterdam: John Benjamins. https://doi.org/10.1075/scl.116. Open Access version: https://osf.io/yhxft. Online supplements: https://elenlefoll.github.io/TextbookMDA/.
 
 Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). https://sites.google.com/site/multidimensionaltagger.
 
