@@ -12,7 +12,7 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 There is no need to install anything else.
 
 ## Command-line installation using Anaconda
-To use this software, you must first install Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then, navigate to the folder where you saved a copy of this GitHub repository and install the MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
+To use this software, you must first install Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then, install the MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
 
 `pip install MFTE`
 
