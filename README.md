@@ -4,7 +4,7 @@ The Multi-Feature Tagger of English (MFTE) was originally based on the [MFTE Per
 
 # Installation
 
-## Standalone executeable (GUI) for Windows (updated 1-06-2023; out of date, the below installation method is highly recommended)
+## Standalone executeable (GUI) for Windows (updated 1-06-2023; out of date, command-line installation is highly recommended)
 The GUI version for Windows can be downloaded as a single executable from the following link:
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsguLldNW2aRyzM8Gxia8?e=zKghN1).
@@ -58,6 +58,8 @@ The complete command will look like this:
 The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf).
 
 Further information can be be found in [Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf), a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) in November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers. The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
+
+Additionally, the features of the MFTE are listed in the [Catalogue of Lexico-grammatical English Features (CLEF)](https://jtauber.github.io/clef/). This is a great resource by James Tauber that provides is a unified, structured, machine-readable catalogue of linguistic features for multi-dimensional register analysis, corpus stylistics, authorship attribution, and any research that relies on counting lexico-grammatical features in English text: <https://jtauber.github.io/clef/>
 
 # Outputs
 The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The first two folders contain the tagged texts with which you can check the accuracy of the tagging process. The `Statistics` folder is your go-to folder to further analyses. It contains feature counts in the form of comma-separated-values files (`.csv`). Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
