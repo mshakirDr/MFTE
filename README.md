@@ -4,7 +4,7 @@ The Multi-Feature Tagger of English (MFTE) was originally based on the [MFTE Per
 
 # Installation
 
-## Standalone executeable (GUI) for Windows (updated 1-06-2023)
+## Standalone executeable (GUI) for Windows (updated 1-06-2023; out of date, command-line installation is highly recommended)
 The GUI version for Windows can be downloaded as a single executable from the following link:
 
 [GUI version for Windows](https://1drv.ms/u/s!AtH0zVEfO5lsguLldNW2aRyzM8Gxia8?e=zKghN1).
@@ -12,7 +12,7 @@ The GUI version for Windows can be downloaded as a single executable from the fo
 There is no need to install anything else.
 
 ## Command-line installation using Anaconda
-To use this software, you must first install Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then install the MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
+To use this software, you must first install Python. We recommend that you install Python using `anaconda` ([video tutorial for Windows](https://www.youtube.com/watch?v=UTqOXwAi1pE), [video tutorial for Mac](https://www.youtube.com/watch?v=n83J8cBytus)). Then, install the MFTE using the following command on Anaconda Terminal in Windows, Mac, or Linux:
 
 `pip install MFTE`
 
@@ -32,7 +32,7 @@ For MacOS 12.3+ MPS acceleration is available through nightly builds. Run the fo
 
 # Usage 
 ## Usage of the GUI version
-To launch the GUI version on Linux or MacOS, simply call up `MFTE_gui` in the Anaconda terminal.
+To launch the GUI version on Windows, Linux or MacOS, simply call up `MFTE_gui` in the Anaconda terminal.
 
 The usage of the MFTE using the GUI is straightforward as the screenshot below shows. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option. The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions). By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. This number should not be fewer than the shortest text in your corpus if you wish to use this feature in your analyses. 
 
@@ -55,13 +55,15 @@ The complete command will look like this:
 `mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
 
 # Feature descriptions
-The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.xlsx`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.xlsx) and the [Wiki](https://github.com/mshakirDr/MFTE/wiki) for details (work in progress).
+The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf).
 
 Further information can be be found in [Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf), a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) in November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers. The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
 
+Additionally, the features of the MFTE are listed in the [Catalogue of Lexico-grammatical English Features (CLEF)](https://jtauber.github.io/clef/). This is a great resource by James Tauber that provides is a unified, structured, machine-readable catalogue of linguistic features for multi-dimensional register analysis, corpus stylistics, authorship attribution, and any research that relies on counting lexico-grammatical features in English text: <https://jtauber.github.io/clef/>
+
 # Outputs
 The  `[prefix]_MFTE` output folder contains three subfolders: `MFTE_Tagged`, `POS_Tagged` and `Statistics`. The first two folders contain the tagged texts with which you can check the accuracy of the tagging process. The `Statistics` folder is your go-to folder to further analyses. It contains feature counts in the form of comma-separated-values files (`.csv`). Each row corresponds to a text file from the corpus tagged and each column corresponds to a linguistic feature. The MFTE outputs three different tables of feature counts:
-1.	```counts_mixed_normed.csv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the fifth column of the `List_Features_MFTE_python_1.5.xlsx`)
+1.	```counts_mixed_normed.csv```            Normalised feature frequencies calculated on the basis of linguistically meaningful normalisation baselines (as listed in the sixth column of [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf), see also Section 5.3.4 in Le Foll 2024)
 2.	```counts_word-based_normed.csv```            Feature frequencies normalised to 100 words
 3.	```counts_raw.csv```                         Raw (unnormalised) feature counts
 
@@ -97,7 +99,6 @@ Le Foll, E., & Shakir, M. (2023). MFTE Python (Version 1.0) [Computer software].
 	author = {Le Foll, Elen and Shakir, Muhammad},
 	year = {2025},
 	pages = {63--93},
-	file = {PDF:/Users/lefoll/Zotero/storage/KFVITMNB/Le Foll and Shakir - 2025 - The Multi-Feature Tagger of English (MFTE) Rationale, Description and Evaluation.pdf:application/pdf},
 }`
 
 `@software{Le_Foll_MFTE_Python_2023,
@@ -143,7 +144,7 @@ Conrad, Susan & Douglas Biber (eds.) (2013). Variation in English: Multi-Dimensi
 
 Le Foll, Elen (2021). A New Tagger for the Multi-Dimensional Analysis of Register Variation in English. Osnabrück University: Institute of Cognitive Science Unpublished M.Sc. thesis.
 
-Le Foll, Elen. 2024. Textbook English: A Multi-Dimensional Approach (Studies in Corpus Linguistics 116). Amsterdam: John Benjamins. https://doi.org/10.1075/scl.116.
+Le Foll, Elen. 2024. Textbook English: A Multi-Dimensional Approach (Studies in Corpus Linguistics 116). Amsterdam: John Benjamins. https://doi.org/10.1075/scl.116. Open Access version: https://osf.io/yhxft. Online supplements: https://elenlefoll.github.io/TextbookMDA/.
 
 Nini, Andrea (2014). Multidimensional Analysis Tagger (MAT). https://sites.google.com/site/multidimensionaltagger.
 
