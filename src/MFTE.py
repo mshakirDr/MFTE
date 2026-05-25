@@ -1864,7 +1864,7 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     df_new: pd.DataFrame  = df.copy(deep=True)
     # multiply by 100
     cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
-    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) #multiply by 100
+    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].astype(float).mul(100) #multiply by 100
     # List of features to be normalised per 100 nouns:
     # Shakir: noun semantic classes will be normalized per 100 nouns "NNHUMAN", "NNCOG", "NNCONC", "NNTECH", "NNPLACE", "NNQUANT", "NNGRP", "NNTECH", "NNABSPROC", "NOMZ", "NSTNCother"
     # Shakir: noun governed that clauses will be normalized per 100 nouns "ThNNFCT", "ThNATT", "ThNFCT", "ThNLIK", "ToNSTNC", "ToThNSTNCall", "PrepNSTNC". THRCother is THRC minus TH_N clauses
@@ -1882,11 +1882,11 @@ def get_complex_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
         "MDWS", "MDWO", "XX0", "PASS", "PGET", "VBG", "VBN", "PEAS", "GTO", "PP1S", "PP1P", "PP3f", "PP3m", "PP3t", "PP2", "PIT", "PRP", "RP", "ThVCOMM", "ThVATT", "ThVFCT", "ThVLIK", "WhVATT", "WhVFCT", "WhVLIK", "WhVCOM", "ToVDSR", "ToVEFRT", "ToVPROB", "ToVSPCH", "ToVMNTL", "JJPRother", "VCOMMother", "VATTother", "VFCTother", \
             "VLIKother", "ToVSTNCall", "ThVSTNCall", "ThJSTNCall", "ThJATT", "ThJFCT", "ThJLIK", "ThJEVL", "ToVSTNCother", "PP1all", "PP3all", "WHSCother", "THSCother", "THRCother", "MDPOSSCall", "MDPREDall", "PASSall", "WhVSTNCall", "MDother", "PRPother", "VBGCls", "VBNCls", "VBGRel", "VBNRel", "CCCls", "CCPhrs"]
     FVnorm = [vb for vb in FVnorm if vb in df_new.columns] #make sure every feature exists in df column
-    df_new.loc[:, FVnorm] = df_new.loc[:, FVnorm].div(df_new.VBtotal.values, axis=0)#.fillna(0) #divide by total verbs (finite verb phrase-based normalisation)
+    df_new.loc[:, FVnorm] = df_new.loc[:, FVnorm].astype(float).div(df_new.VBtotal.values, axis=0)#.fillna(0) #divide by total verbs (finite verb phrase-based normalisation)
     # All other features should be normalised per 100 words:
     other_cols = [col for col in df_new.columns if col not in NNTnorm if col not in FVnorm] #remove nouns and verbs related cols
     other_cols = [col for col in other_cols if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]] # exclude total counts and averages
-    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].div(df_new.Words.values, axis=0) #divide by total words (word-based normalisation)
+    df_new.loc[:, other_cols] = df_new.loc[:, other_cols].astype(float).div(df_new.Words.values, axis=0) #divide by total words (word-based normalisation)
     return df_new.fillna(0)
 
 def get_wordbased_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
@@ -1899,8 +1899,8 @@ def get_wordbased_normed_counts(df: pd.DataFrame) -> pd.DataFrame:
     df_new: pd.DataFrame  = df.copy(deep=True)
     # multiply by 100
     cols_without_averages = [col for col in df_new.columns if col not in ["Filename", "Words", "AWL", "TTR", "LDE", "Ntotal", "VBtotal"]]
-    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].mul(100) # multiply by 100
-    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].div(df.Words.values, axis=0) # divide by total number of words
+    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].astype(float).mul(100) # multiply by 100
+    df_new.loc[:, cols_without_averages] = df_new.loc[:, cols_without_averages].astype(float).div(df.Words.values, axis=0) # divide by total number of words
     return df_new
 
 def sort_df_columns(df: pd.DataFrame) -> pd.DataFrame:

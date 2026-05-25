@@ -12,5 +12,5 @@ VBN example
 past participial WHIZ deletion relatives
 (ROOT (S (NP (NP (DT The) (NN solution)) (VP (VBN produced) (PP (IN by) (NP (DT this) (NN process))))) (VP (VBD was) (ADJP (ADJP (JJR less)) (PP (IN than) (ADJP (ADJP (JJ optimal)) (CC and) (ADJP (RB very) (JJ hard) (SBAR (S (VP (TO to) (VP (VB solve)))))))))) (. .)))
 
-preset particpial WHIZ deletion relatives
+present participial WHIZ deletion relatives
 (ROOT (S (NP (NP (DT The) (NN event)) (VP (VBG causing) (NP (DT this) (NN decline)))) (VP (VBZ has) (VP (VBN been) (VP (VBN studied) (ADVP (RB thoroughly)) (PP (IN over) (NP (DT the) (NNS years)))))) (. .)))
