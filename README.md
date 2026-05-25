@@ -36,7 +36,7 @@ To launch the GUI version on Windows, Linux or MacOS, simply call up `MFTE_gui` 
 
 The usage of the MFTE using the GUI is straightforward as the screenshot below shows. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option. The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions). By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. This number should not be fewer than the shortest text in your corpus if you wish to use this feature in your analyses. 
 
-![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
+<img width="602" height="382" alt="Screenshot 2026-05-25 173207" src="https://github.com/user-attachments/assets/cf18dd99-229d-472b-8c38-f78da4d66446" />
 
 Simply check or uncheck the options you require and then open the folder which contains your text files by clicking on the `Select corpus directory` button. As soon as you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. The output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix (see Outputs). 
 
