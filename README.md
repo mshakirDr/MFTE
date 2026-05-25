@@ -49,11 +49,11 @@ The `mfte` script takes the following optional arguments, which you can change a
 |`--ttr 400`| By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. So default is `400`|
 |`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default it is enabled using `True`|
 |`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; default is `False`|
-|` --constituency_tagging False`| enable constituency tree based additional tags (if no nVidia GPU avaiable, many fold increase in CPU usage and processing time) `True` or `False`; default is `False`|
+|`--constituency_tagging False`| enable constituency tree based additional tags (if no nVidia GPU avaiable, many fold increase in processing time) `True` or `False`; default is `False`|
 
 The complete command will look like this:
 
-`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
+`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
 
 # Feature descriptions
 The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf). <mark>(For the explanation of constituency tags, please look at the PDF and XLSX files with version number 1.6 in their name.)</mark>
