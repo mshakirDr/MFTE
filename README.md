@@ -1,6 +1,8 @@
 # Multi-Feature Tagger of English (MFTE)
 The Multi-Feature Tagger of English (MFTE) was originally based on the [MFTE Perl (Le Foll 2021)](https://github.com/elenlefoll/MultiFeatureTaggerEnglish). The present, substantially improved Python version considerably expands the number of tagged features. In addition to many new lexico-grammatical features, it includes the semantic tags from Biber (2006) and Biber et al. (1999). The MFTE Python relies on the Python NLP library `stanza` for grammatical part-of-speech tagging before applying rule-based regular expressions to tag for a range of more complex lexico-grammatical and semantic features typically used in multidimensional analysis (MDA; Biber 1984; 1988; 1995).
 
+# Updates
+- May, 2026: Consituency based tags have been enabled in the main branch, version number bumped to 1.6 (check the XLSX and PDF with the new version number in their names). Also, thanks to Ms Aisha Aslam's contribution, fixed type errors thrown by newer versions of Pandas while dividing and multiplying the frequency columns of different features.
 
 # Installation
 
