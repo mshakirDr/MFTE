@@ -1,6 +1,8 @@
 # Multi-Feature Tagger of English (MFTE)
 The Multi-Feature Tagger of English (MFTE) was originally based on the [MFTE Perl (Le Foll 2021)](https://github.com/elenlefoll/MultiFeatureTaggerEnglish). The present, substantially improved Python version considerably expands the number of tagged features. In addition to many new lexico-grammatical features, it includes the semantic tags from Biber (2006) and Biber et al. (1999). The MFTE Python relies on the Python NLP library `stanza` for grammatical part-of-speech tagging before applying rule-based regular expressions to tag for a range of more complex lexico-grammatical and semantic features typically used in multidimensional analysis (MDA; Biber 1984; 1988; 1995).
 
+# Updates
+- May, 2026: Consituency based tags have been enabled in the main branch, version number bumped to 1.6 (check the XLSX and PDF with the new version number in their names). Also, thanks to Ms Aisha Aslam's contribution, fixed type errors thrown by newer versions of Pandas while dividing and multiplying the frequency columns of different features.
 
 # Installation
 
@@ -36,7 +38,7 @@ To launch the GUI version on Windows, Linux or MacOS, simply call up `MFTE_gui` 
 
 The usage of the MFTE using the GUI is straightforward as the screenshot below shows. Additional information about each option is available in tooltips. Simply hover your mouse over a checkbox or button to find out more about each option. The MFTE Python includes a simple and an extended tagset. By default, the extended tagset is used (see feature descriptions). By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. This number should not be fewer than the shortest text in your corpus if you wish to use this feature in your analyses. 
 
-![MFTE](https://user-images.githubusercontent.com/46898829/227144641-008478b3-2933-44fb-8e54-b3d848106996.png)
+<img width="602" height="382" alt="Screenshot 2026-05-25 173207" src="https://github.com/user-attachments/assets/cf18dd99-229d-472b-8c38-f78da4d66446" />
 
 Simply check or uncheck the options you require and then open the folder which contains your text files by clicking on the `Select corpus directory` button. As soon as you click OK, the software begins with the part-of-speech (POS) tagging and later with the MFTE tags. The output is generated in a new folder which preserves the name of the original folder complemented by `_MFTE` as a suffix (see Outputs). 
 
@@ -49,13 +51,14 @@ The `mfte` script takes the following optional arguments, which you can change a
 |`--ttr 400`| By default, type-token-ratios (TTR) are calculated on the basis of the first 400 words of each text. So default is `400`|
 |`--extended True`| The MFTE Python includes a simple and an extended tagset so use `True` or `False`; by default it is enabled using `True`|
 |`--parallel_md_tagging False`| enable MD tagging of multiple files at the same time (high CPU usage) `True` or `False`; default is `False`|
+|`--constituency_tagging False`| enable constituency tree based additional tags (if no nVidia GPU avaiable, many fold increase in processing time) `True` or `False`; default is `False`|
 
 The complete command will look like this:
 
-`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False`
+`mfte --path "/path/to/corpus/" --ttr 400 --extended True --parallel_md_tagging False --constituency_tagging False`
 
 # Feature descriptions
-The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf).
+The MFTE Python tags over 100 lexico-grammatical and semantic features. Please refer to the [`List_Features_MFTE_python_1.0.0.pdf`](https://github.com/mshakirDr/MFTE/blob/master/List_Features_MFTE_python_1.0.0.pdf). <mark>(For the explanation of constituency tags, please look at the PDF and XLSX files with version number 1.6 in their name.)</mark>
 
 Further information can be be found in [Introducing the MFTE Perl](https://github.com/elenlefoll/MultiFeatureTaggerEnglish/blob/main/Introducing_the_MFTE_v3.0.pdf), a 50-page document based on revised, selected chapters from an M.Sc. thesis submitted for the degree of Master of Science in Cognitive Science at the Institute of Cognitive Science, Osnabrück University (Germany) in November 2021. It outlines the steps involved in the development of the Perl MFTE. Section 2.1 outlines its specifications, which were drawn up on the basis of the features needed to carry out MDA and taking account of the advantages and limitations of existing taggers. The following sections explain the methodological decisions involved in the selection of the features to be identified by the MFTE (2.2), the details of the regular expressions used to identify these features (2.3) and the procedure for normalising the feature counts (2.4). Section 2.5 describes the outputs of the tagger. Chapter 3 presents the method and results of an evaluation of the accuracy of the MFTE. It reports the results of comparisons of the tags assigned by the MFTE and by two human annotators to calculate precision and recall rates for each linguistic feature across a range of contrasting text registers. The data and code used to analyse the evaluation results are also available in the corresponding [GitHub repository](https://github.com/elenlefoll/MultiFeatureTaggerEnglish).
 
